@@ -1,0 +1,13 @@
+{
+  "name": "my-cv",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "preview": "vercel",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^33.2.0"
+  }
+}

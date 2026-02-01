@@ -6,7 +6,7 @@
   "assets": {
     "avatar": "avatar.png",
     "bgDoodles": "Doodles.png",
-    "bgLeft": "Doodle Left.png",
+    "bgLeft": "DoodleLeft.png",
     "bgRight": "Doodles.png"
   },
   "theme": {
@@ -75,10 +75,6 @@
         ],
         "social": [
           {
-            "label": "/danilloengprod",
-            "icon": "fb"
-          },
-          {
             "label": "/cientista-de-dados",
             "icon": "in"
           }
@@ -102,10 +98,8 @@
           "role": "HEAD CORPORATIVO DE TECNOLOGIA E INOVAÇÃO /\nGERENTE ADMINISTRATIVO",
           "paragraphs": [
             "Desenvolvi um sistema de informação integrado para geração de relatórios e coleta de dados offline. Ao longo de 5 anos foram mais de 30 módulos e 150 relatórios que vão do Campo ao setor de Embalagem.",
-            "Realizei um processo de inovação Aberta, Agrodan Tech, que trouxe tecnologias inovadoras ao processo. No total, 7 startups foram selecionadas. O saving de negociação chegou a R$ 800.000,00 anuais via ajuste de contrato.",
-            "Atualmente liderando os setores de Departamento Pessoal, Compras e Estoque."
-          ],
-          "footer": "Utilizei técnicas das mais diversas:\nReact / React Native, PHP, TensorFlow, SQL Oracle, MongoDB, Scrum, Design Patterns, CRISP DM, BPMN 2.0"
+            "Realizei um processo de inovação Aberta, Agrodan Tech, que trouxe tecnologias inovadoras ao processo. No total, 7 startups foram selecionadas. O saving de negociação chegou a R$ 800.000,00 anuais via ajuste de contrato."
+          ]
         }
       ],
       "education": [
@@ -134,7 +128,7 @@
           "school": "UNINASSAU",
           "degree": "ESPECIALIZAÇÃO EM\nENGENHARIA DE SOFTWARE E\nGERENCIAMENTO DE PROJETOS",
           "details": [
-            "TCC: Implementação da metodologia SCRUM em uma Plataforma Web Gratuita"
+            "TCC: Implementação da metodologia SCRUM em uma Plataforma Web"
           ]
         },
         {
@@ -149,15 +143,15 @@
       ],
       "tools": [
         {
-          "name": "Google CLoud Platform | Microsoft Azure | AWS",
+          "name": "GCP | Azure | AWS",
           "level": 4
         },
         {
-          "name": "Oracle SQL | SQL SERVER | POSTGRESQL",
+          "name": "Oracle SQL | SQL SERVER, BigQuery",
           "level": 5
         },
         {
-          "name": "Power BI",
+          "name": "Power BI | Power Platform",
           "level": 3
         },
         {
@@ -165,7 +159,7 @@
           "level": 2
         },
         {
-          "name": "scikit-learn | MLflow | XGBoost | LightGBM",
+          "name": "scikit-learn | MLflow | XGBoost",
           "level": 5
         },
         {
@@ -195,7 +189,7 @@
           "level": 5
         },
         {
-          "name": "Comunication | Leadership",
+          "name": "Comunicação | Liderança",
           "level": 5
         }
       ]
@@ -260,10 +254,6 @@
         ],
         "social": [
           {
-            "label": "/danilloengprod",
-            "icon": "fb"
-          },
-          {
             "label": "/scientist-data",
             "icon": "in"
           }
@@ -287,10 +277,8 @@
           "role": "CORPORATE HEAD OF TECHNOLOGY & INNOVATION /\nADMINISTRATIVE MANAGER",
           "paragraphs": [
             "Built an integrated information system for reporting and offline data collection. Over 5 years, delivered 30+ modules and 150 reports spanning field operations to the packaging sector.",
-            "Led an Open Innovation program (Agrodan Tech) bringing innovative technologies to the process. 7 startups were selected; negotiation savings reached ~R$ 800,000/year via contract adjustments.",
-            "Also led HR/Payroll, Procurement and Inventory departments."
-          ],
-          "footer": "Technologies used:\nReact / React Native, PHP, TensorFlow, Oracle SQL, MongoDB, Scrum, Design Patterns, CRISP-DM, BPMN 2.0"
+            "Led an Open Innovation program (Agrodan Tech) bringing innovative technologies to the process. 7 startups were selected; negotiation savings reached ~R$ 800,000/year via contract adjustments."
+          ]
         }
       ],
       "education": [
@@ -334,7 +322,7 @@
       ],
       "tools": [
         {
-          "name": "Google CLoud Platform | Microsoft Azure | AWS",
+          "name": "GCP | Azure | AWS",
           "level": 4
         },
         {

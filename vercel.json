@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "name": "my-cv",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/cv-data.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/Doodle%20Left.png",
+      "destination": "/Doodle Left.png"
+    }
+  ],
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "cv-data.json", "use": "@vercel/static" },
+    { "src": "*.png", "use": "@vercel/static" }
+  ]
+}
