@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV – Divisões (A4)</title>
+  <style>
+    :root{
+      --col-left: 1fr;
+      --col-center: 0.82fr;
+      --col-right: 1fr;
+
+      --row-top: 26%;
+      --row-mid: 54%;
+      --row-bot: 20%;
+
+      --page-pad: 10mm;
+      --gap: 10mm;
+
+      --bg: #0f141b;
+      --panel: rgba(255,255,255,0.04);
+      --stroke: rgba(255,255,255,0.18);
+
+      --green: rgba(29, 185, 84, 0.12);
+      --blue: rgba(59, 130, 246, 0.12);
+      --purple: rgba(168, 85, 247, 0.12);
+      --orange: rgba(249, 115, 22, 0.14);
+
+      --label-size: 18px;
+      --label-weight: 700;
+      --label-color: rgba(220, 205, 255, 0.92);
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      background:#111;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 20px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    .page{
+      width: 210mm;
+      height: 297mm;
+      background: var(--bg);
+      border-radius: 12px;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.45);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .canvas{
+      position:absolute;
+      inset: 0;
+      padding: var(--page-pad);
+      display:grid;
+      gap: var(--gap);
+      grid-template-columns: var(--col-left) var(--col-center) var(--col-right);
+      grid-template-rows: var(--row-top) var(--row-mid) var(--row-bot);
+      grid-template-areas:
+        "doodle-left  center  doodle-right"
+        "experiences  center  formation"
+        "tools        center  right-bottom";
+    }
+
+    .block{
+      border: 2px solid var(--stroke);
+      border-radius: 14px;
+      background: var(--panel);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding: 12px;
+      position:relative;
+      overflow:hidden;
+    }
+    .label{
+      font-size: var(--label-size);
+      font-weight: var(--label-weight);
+      color: var(--label-color);
+      letter-spacing: 0.6px;
+      user-select:none;
+      z-index: 2;
+    }
+
+    .doodle{ background: var(--green); }
+    .center{ background: var(--blue); }
+    .section{ background: var(--purple); }
+    .footer{ background: var(--orange); }
+
+    .doodle-left  { grid-area: doodle-left; }
+    .doodle-right { grid-area: doodle-right; }
+    .center       { grid-area: center; border-radius: 18px; }
+    .experiences  { grid-area: experiences; }
+    .formation    { grid-area: formation; }
+    .tools        { grid-area: tools; }
+    .right-bottom { grid-area: right-bottom; padding:0; }
+
+    .right-bottom{
+      display:grid;
+      gap: var(--gap);
+      padding: 0;
+      border: none;
+      background: transparent;
+    }
+    .right-bottom-grid{
+      width:100%;
+      height:100%;
+      display:grid;
+      gap: var(--gap);
+      grid-template-rows: 32% 68%;
+    }
+    .certs,.skills{
+      background: var(--orange);
+      border: 2px solid var(--stroke);
+      border-radius: 14px;
+      padding: 12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    @media print{
+      body{ padding:0; background:#fff; }
+      .page{
+        width: 210mm;
+        height: 297mm;
+        border-radius: 0;
+        box-shadow:none;
+      }
+      @page{
+        size: A4 portrait;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="canvas">
+
+      <div class="block doodle doodle-left"><div class="label">Doodle left</div></div>
+
+      <div class="block center"><div class="label">Painel Central</div></div>
+
+      <div class="block doodle doodle-right"><div class="label">Doodle right</div></div>
+
+      <div class="block section experiences"><div class="label">Experiências</div></div>
+
+      <div class="block section formation"><div class="label">Formação</div></div>
+
+      <div class="block footer tools"><div class="label">Ferramentas</div></div>
+
+      <div class="right-bottom">
+        <div class="right-bottom-grid">
+          <div class="certs"><div class="label">Certificações</div></div>
+          <div class="skills"><div class="label">Habilidades</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

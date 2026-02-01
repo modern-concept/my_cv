@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CV – Divisões (A4 com auto-fit)</title>
+<style>
+  :root{
+    /* Proporções do layout interno (as suas divisões) */
+    --col-left: 1fr;
+    --col-center: 0.78fr;
+    --col-right: 1fr;
+
+    --row-top: 24%;
+    --row-mid: 56%;
+    --row-bot: 20%;
+
+    --page-pad: 8mm;
+    --gap: 8mm;
+
+    /* Guia visual */
+    --bg:#0f141b;
+    --stroke:rgba(255,255,255,.18);
+
+    --green:rgba(29,185,84,.12);
+    --blue:rgba(59,130,246,.12);
+    --purple:rgba(168,85,247,.12);
+    --orange:rgba(249,115,22,.14);
+
+    --label-size:16px;
+    --label-color:#e7ddff;
+  }
+
+  *{box-sizing:border-box}
+  html,body{height:100%}
+
+  /* O segredo: viewport 100% + wrapper que aplica scale automático (sem depender do zoom do browser) */
+  body{
+    margin:0;
+    background:#0b0f14;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  }
+
+  .stage{
+    position:fixed;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 16px; /* respiro na tela */
+  }
+
+  /* A4 “físico” (base), sempre do mesmo tamanho lógico.
+     O scale é aplicado no .page via transform (JS). */
+  .page{
+    width: 210mm;
+    height: 297mm;
+    background:var(--bg);
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
+    transform-origin: center center;
+    border-radius: 10px;
+    overflow:hidden;
+    position:relative;
+  }
+
+  /* Conteúdo interno */
+  .canvas{
+    position:absolute;
+    inset:0;
+    padding:var(--page-pad);
+    display:grid;
+    gap:var(--gap);
+    grid-template-columns:var(--col-left) var(--col-center) var(--col-right);
+    grid-template-rows:var(--row-top) var(--row-mid) var(--row-bot);
+    grid-template-areas:
+      "doodle-left center doodle-right"
+      "experiences center formation"
+      "tools center right-bottom";
+  }
+
+  .block{
+    border:2px solid var(--stroke);
+    border-radius:14px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  .label{
+    font-size:var(--label-size);
+    font-weight:700;
+    color:var(--label-color);
+  }
+
+  .doodle{background:var(--green)}
+  .center{background:var(--blue)}
+  .section{background:var(--purple)}
+  .footer{background:var(--orange)}
+
+  .doodle-left{grid-area:doodle-left}
+  .doodle-right{grid-area:doodle-right}
+  .center{grid-area:center;border-radius:18px}
+  .experiences{grid-area:experiences}
+  .formation{grid-area:formation}
+  .tools{grid-area:tools}
+  .right-bottom{grid-area:right-bottom;border:none}
+
+  .right-bottom{
+    display:grid;
+    gap:var(--gap);
+    grid-template-rows:30% 70%;
+  }
+  .certs,.skills{
+    border:2px solid var(--stroke);
+    border-radius:14px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--orange);
+  }
+
+  /* Controles (só pra debug) */
+  .hud{
+    position:fixed;
+    top:12px;
+    left:12px;
+    display:flex;
+    gap:8px;
+    z-index:50;
+  }
+  .btn{
+    appearance:none;
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.06);
+    color:rgba(255,255,255,.9);
+    padding:8px 10px;
+    border-radius:10px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  .btn:hover{ background:rgba(255,255,255,.09); }
+
+  /* PRINT: ignora o scale e imprime A4 real */
+  @media print{
+    body{ background:#fff; overflow:visible; }
+    .stage{ padding:0; }
+    .hud{ display:none; }
+    .page{
+      transform:none !important;
+      width:210mm;
+      height:297mm;
+      box-shadow:none;
+      border-radius:0;
+    }
+    @page{ size:A4 portrait; margin:0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hud">
+  <button class="btn" id="fitBtn">Fit to screen</button>
+  <button class="btn" id="actualBtn">Actual size</button>
+  <button class="btn" onclick="window.print()">Imprimir / PDF</button>
+</div>
+
+<div class="stage">
+  <div class="page" id="page">
+    <div class="canvas">
+      <div class="block doodle doodle-left"><div class="label">Doodle left</div></div>
+      <div class="block center"><div class="label">Painel Central</div></div>
+      <div class="block doodle doodle-right"><div class="label">Doodle right</div></div>
+
+      <div class="block section experiences"><div class="label">Experiências</div></div>
+      <div class="block section formation"><div class="label">Formação</div></div>
+      <div class="block footer tools"><div class="label">Ferramentas</div></div>
+
+      <div class="right-bottom">
+        <div class="certs"><div class="label">Certificações</div></div>
+        <div class="skills"><div class="label">Habilidades</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const page = document.getElementById('page');
+  let mode = 'fit';
+
+  function mmToPx(mm){
+    // converte usando a densidade real do navegador (CSS px por inch)
+    // 1in = 25.4mm, 1in = 96px (CSS)
+    return (mm / 25.4) * 96;
+  }
+
+  const PAGE_W_PX = mmToPx(210);
+  const PAGE_H_PX = mmToPx(297);
+
+  function applyScale(){
+    if(!page) return;
+
+    if(mode === 'actual'){
+      page.style.transform = 'scale(1)';
+      return;
+    }
+
+    // escala para caber na viewport, respeitando o padding da stage
+    const pad = 32; // 16px de cada lado no .stage
+    const vw = window.innerWidth - pad;
+    const vh = window.innerHeight - pad;
+
+    const sx = vw / PAGE_W_PX;
+    const sy = vh / PAGE_H_PX;
+    const s = Math.min(sx, sy);
+
+    // trava mínima/máxima só pra evitar valores extremos
+    const scale = Math.max(0.1, Math.min(2, s));
+    page.style.transform = `scale(${scale})`;
+  }
+
+  document.getElementById('fitBtn').addEventListener('click', () => { mode='fit'; applyScale(); });
+  document.getElementById('actualBtn').addEventListener('click', () => { mode='actual'; applyScale(); });
+
+  window.addEventListener('resize', applyScale);
+  applyScale();
+</script>
+
+</body>
+</html>
