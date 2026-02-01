@@ -246,15 +246,11 @@
           {
             "label": "Email",
             "value": "danillox5@hotmail.com"
-          },
-          {
-            "label": "CREA-PE",
-            "value": "181609909-0"
           }
         ],
         "social": [
           {
-            "label": "/scientist-data",
+            "label": "/cientista-de-dados",
             "icon": "in"
           }
         ]
