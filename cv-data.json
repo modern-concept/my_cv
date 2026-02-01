@@ -25,7 +25,21 @@
         "education": "FORMAÇÃO",
         "tools": "FERRAMENTAS",
         "skills": "HABILIDADES",
-        "printPdf": "Imprimir / PDF"
+        "printPdf": "Imprimir / PDF",
+        "coverLetter": "Carta"
+      },
+      "coverLetter": {
+        "greeting": "Querido Leitor,",
+        "paragraphs": [
+          "Ao longo da minha trajetória profissional, atuei no desenvolvimento de soluções digitais orientadas a impacto mensurável, combinando engenharia de software, ciência de dados, automação e liderança técnica para resolver problemas complexos de negócio.",
+          "Tenho experiência sólida na entrega de sistemas baseados em Machine Learning, RPA e analytics, aplicados a ambientes de alta complexidade operacional. Esses projetos resultaram na automação de mais de 85% de processos antes manuais, construção de dezenas de dashboards executivos e implementação de pipelines de dados escaláveis, suportando decisões críticas em tempo quase real.",
+          "Os resultados obtidos incluem reduções recorrentes de custos na ordem de milhões de reais por ano, como economias superiores a R$ 850 mil/ano em insumos, R$ 1,2 milhão/ano em custos de mão de obra, R$ 800 mil/ano via renegociação de contratos e reduções expressivas em estoques, chegando a R$ 1,8 milhão/mês em itens de alto giro e R$ 150 mil/mês em materiais obsoletos. Adicionalmente, sistemas de auditoria automatizada reduziram em até 90% erros operacionais relacionados a uso de produtos, orçamento e rastreabilidade.",
+          "Atuei diretamente na concepção e implementação de soluções analíticas e de IA utilizando BigQuery, Azure, Power Platform, Python, SQL e BI, integrando dados corporativos, automações inteligentes e ferramentas de apoio à decisão com foco em produtividade, eficiência científica e governança.",
+          "Além da entrega técnica, exerci papel ativo na liderança de squads multidisciplinares, mentoria de desenvolvedores e definição de padrões arquiteturais, bem como na atuação em segurança da informação, assumindo responsabilidades como Information Security Manager (ISM) em contextos corporativos críticos. Esse conjunto de iniciativas foi reconhecido com 8 prêmios QMS LATAM e 2 prêmios ICS Global.",
+          "Minha formação em Engenharia e Doutorado em Engenharia de Software, aliada à vivência prática em transformação digital e inovação, sustenta uma atuação orientada a resultados, onde dados são convertidos em valor financeiro, eficiência operacional e vantagem competitiva sustentável."
+        ],
+        "closing": "Atenciosamente,",
+        "signature": "Danillo Xavier"
       },
       "profile": {
         "name": "DANILLO XAVIER",
@@ -193,7 +207,24 @@
         "education": "EDUCATION",
         "tools": "TOOLS",
         "skills": "SKILLS",
-        "printPdf": "Print / PDF"
+        "printPdf": "Print / PDF",
+        "coverLetter": "Cover Letter"
+      },
+      "coverLetter": {
+        "greeting": "Dear Reader,",
+        "paragraphs": [
+        "Throughout my professional journey, I have focused on delivering digital solutions with measurable business impact, combining software engineering, data science, automation and technical leadership to solve complex, real-world problems.",
+"I have extensive experience delivering Machine Learning, RPA and analytics-driven systems in highly complex operational environments. These initiatives enabled the automation of over 85% of previously manual processes, the creation of dozens of executive dashboards, and the deployment of scalable data pipelines supporting near real-time decision-making.",
+
+"Key outcomes include recurring multi-million BRL annual cost reductions, such as BRL 850K/year in input savings, BRL 1.2M/year in labor cost optimization, BRL 800K/year through contract renegotiation, and significant inventory reductions reaching BRL 1.8M/month for fast-moving items and BRL 150K/month for obsolete stock. Automated auditing systems also reduced operational errors by up to 90%, improving traceability, compliance and process reliability.",
+
+"My work involved the design and implementation of AI-driven decision support tools, analytics platforms and automation frameworks using BigQuery, Azure, Power Platform, Python, SQL and BI technologies, with a strong focus on productivity, research efficiency and data governance.",
+
+"Beyond technical delivery, I have led cross-functional teams, mentored developers, defined architectural standards and contributed to information security governance, serving as an Information Security Manager (ISM) in critical delivery contexts. These contributions were recognized with 8 QMS LATAM awards and 2 ICS Global awards.",
+
+"Supported by an academic background in Engineering and a PhD in Software Engineering, combined with hands-on experience in digital transformation and innovation, I consistently translate data into financial results, operational efficiency and sustainable competitive advantage."],
+        "closing": "Sincerely,",
+        "signature": "Danillo Xavier"
       },
       "profile": {
         "name": "DANILLO XAVIER",

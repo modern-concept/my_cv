@@ -78,12 +78,16 @@
     }
 
     .topbar{
-      position:absolute;
-      right:8mm;
-      top:8mm;
+      position:fixed;
+      top:16px;
+      left:50%;
+      transform:translateX(-50%);
+      width: min(100%, var(--a4w));
       display:flex;
-      gap:6px;
-      z-index:50;
+      justify-content:flex-end;
+      align-items:center;
+      gap:10px;
+      z-index:1000;
     }
     .btn{
       border:1px solid rgba(255,255,255,.20);
@@ -96,8 +100,26 @@
       backdrop-filter: blur(4px);
     }
     .btn:hover{ border-color: rgba(255,255,255,.35); }
+    .btn.active{ 
+      background: var(--accent); 
+      border-color: var(--accent);
+    }
+    .pill-buttons{
+      display:flex;
+      gap:6px;
+    }
+    .btn-slim{
+      min-width:40px;
+      padding:5px 8px;
+      letter-spacing:.8px;
+    }
 
     /* 3-column layout */
+    .cv-page{
+      position:absolute;
+      inset:0;
+      z-index:1;
+    }
     .grid{
       position:absolute;
       inset:0;
@@ -207,6 +229,72 @@
     }
     #secSkills{
       margin-top:auto;
+    }
+
+    /* Carta de Apresentação */
+    .cover-letter-page{
+      display:none;
+      position:absolute;
+      inset:0;
+      background: var(--mid);
+      padding: var(--pad);
+      color: var(--midText);
+      z-index:1;
+    }
+    .cover-letter-page.active{
+      display:block;
+    }
+    .cv-page.hidden{
+      display:none;
+    }
+
+    .cover-header{
+      text-align: center;
+      margin-bottom: 8mm;
+    }
+    .cover-header .name{
+      font: 800 var(--fs-name) "Montserrat", sans-serif;
+      letter-spacing: .5px;
+      color: var(--midText);
+      margin-bottom: 2mm;
+    }
+    .cover-header .contact-brief{
+      font: 600 9pt "Open Sans", sans-serif;
+      color: var(--midMuted);
+      line-height: 1.4;
+    }
+
+    .cover-content{
+      max-width: 170mm;
+      margin: 0 auto;
+    }
+    .cover-content .greeting{
+      font: 600 11pt "Open Sans", sans-serif;
+      color: var(--midText);
+      margin-bottom: 4mm;
+    }
+    .cover-content .letter-body{
+      font: 400 10pt "Open Sans", sans-serif;
+      color: var(--midMuted);
+      line-height: 1.6;
+      text-align: justify;
+      white-space: pre-line;
+    }
+    .cover-content .letter-body p{
+      margin: 0 0 4mm 0;
+    }
+    .cover-content .signature{
+      margin-top: 8mm;
+      text-align: right;
+    }
+    .cover-content .signature .sign-line{
+      font: 600 10pt "Open Sans", sans-serif;
+      color: var(--midText);
+    }
+    .cover-content .signature .sign-name{
+      font: 700 11pt "Montserrat", sans-serif;
+      color: var(--accent);
+      margin-top: 1mm;
     }
 
     /* mid panel (single column) */
@@ -385,16 +473,25 @@
 
       /* disable guides on print */
       :root{ --guide-on: 0; }
+
+      /* Print only the active page */
+      .cv-page.hidden{ display:none !important; }
+      .cover-letter-page:not(.active){ display:none !important; }
     }
   </style>
 </head>
 <body>
-  <div class="page" id="page">
-    <div class="topbar">
-      <button class="btn" id="langBtn">PT</button>
-      <button class="btn" id="printBtn">Imprimir / PDF</button>
+  <div class="topbar">
+    <div class="pill-buttons">
+      <button class="btn btn-slim" id="toggleCoverBtn">Carta</button>
+      <button class="btn btn-slim" id="langBtn">PT</button>
     </div>
+    <button class="btn" id="printBtn">Imprimir / PDF</button>
+  </div>
+  <div class="page" id="page">
 
+    <!-- Página de CV -->
+    <div class="cv-page" id="cvPage">
     <div class="grid">
       <!-- LEFT COLUMN -->
       <aside class="side" id="leftCol">
@@ -468,6 +565,27 @@
         </div>
       </aside>
     </div>
+    </div>
+    <!-- Fim da página de CV -->
+
+    <!-- Página de Carta de Apresentação -->
+    <div class="cover-letter-page" id="coverLetterPage">
+      <div class="cover-header">
+        <h1 class="name" id="coverName"></h1>
+        <div class="contact-brief" id="coverContact"></div>
+      </div>
+
+      <div class="cover-content">
+        <div class="greeting" id="coverGreeting"></div>
+        <div class="letter-body" id="coverBody"></div>
+        <div class="signature">
+          <div class="sign-line" id="coverClosing">Atenciosamente,</div>
+          <div class="sign-name" id="coverSignature"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim da página de Carta -->
+
   </div>
 
   <script>
@@ -645,6 +763,97 @@
         row.appendChild(hexRow(t.level || 0));
         skills.appendChild(row);
       });
+
+      // cover letter
+      renderCoverLetter(data, lang);
+    }
+
+    function getCoverLabel(L, lang){
+      if(L.labels && L.labels.coverLetter) return L.labels.coverLetter;
+      return (lang === "en") ? "Cover" : "Carta";
+    }
+
+    function getCVLabel(lang){
+      return (lang === "en") ? "Resume" : "CV";
+    }
+
+    function syncToggleLabel(L, lang){
+      const toggleBtn = $("toggleCoverBtn");
+      if(!toggleBtn) return;
+      const coverPage = $("coverLetterPage");
+      const coverLabel = getCoverLabel(L, lang);
+      const cvLabel = getCVLabel(lang);
+      toggleBtn.dataset.coverLabel = coverLabel;
+      toggleBtn.dataset.cvLabel = cvLabel;
+      const isShowingCV = !coverPage.classList.contains("active");
+      toggleBtn.textContent = isShowingCV ? coverLabel : cvLabel;
+    }
+
+    function fallbackGreeting(lang){
+      return (lang === "en") ? "Dear Reader," : "Querido Leitor,";
+    }
+
+    function fallbackClosing(lang){
+      return (lang === "en") ? "Sincerely," : "Atenciosamente,";
+    }
+
+    function fallbackParagraph(lang){
+      return (lang === "en")
+        ? "Add the cover letter text inside cv-data.json."
+        : "Adicione o conteúdo da carta em cv-data.json.";
+    }
+
+    function renderCoverLetter(data, lang) {
+      const L = data.languages[lang];
+      if (!L) return;
+
+      const cover = L.coverLetter || {};
+      $("coverName").textContent = (L.profile && L.profile.name) || "";
+      
+      const items = Array.isArray(L.contact && L.contact.items) ? L.contact.items : [];
+      const contactInfo = items.find(i => (i.label || "").toLowerCase().includes('email') || (i.label || "").toLowerCase().includes('e-mail'));
+      const phoneInfo = items.find(i => (i.label || "").toLowerCase().includes('telefone') || (i.label || "").toLowerCase().includes('phone'));
+      
+      let briefContact = '';
+      if (contactInfo) briefContact += contactInfo.value;
+      if (phoneInfo) briefContact += (briefContact ? ' • ' : '') + (phoneInfo.value || '').split('\n')[0];
+      
+      $("coverContact").textContent = briefContact;
+      $("coverGreeting").textContent = cover.greeting || fallbackGreeting(lang);
+      
+      const bodyDiv = $("coverBody");
+      bodyDiv.innerHTML = "";
+      const paragraphs = Array.isArray(cover.paragraphs) ? cover.paragraphs.filter(Boolean) : [];
+      if(!paragraphs.length && cover.body) paragraphs.push(cover.body);
+      if(!paragraphs.length) paragraphs.push(fallbackParagraph(lang));
+      paragraphs.forEach(p => {
+        const para = el("p");
+        para.textContent = p;
+        bodyDiv.appendChild(para);
+      });
+      
+      $("coverClosing").textContent = cover.closing || fallbackClosing(lang);
+      $("coverSignature").textContent = cover.signature || ((L.profile && L.profile.name) || "");
+      
+      syncToggleLabel(L, lang);
+    }
+
+    function togglePages() {
+      const cvPage = $("cvPage");
+      const coverPage = $("coverLetterPage");
+      const toggleBtn = $("toggleCoverBtn");
+      
+      const isShowingCV = !coverPage.classList.contains("active");
+      
+      if (isShowingCV) {
+        cvPage.classList.add("hidden");
+        coverPage.classList.add("active");
+        toggleBtn.classList.add("active");
+      } else {
+        cvPage.classList.remove("hidden");
+        coverPage.classList.remove("active");
+        toggleBtn.classList.remove("active");
+      }
     }
 
     async function init(){
@@ -655,6 +864,12 @@
       if(!data.languages[lang]) lang = "pt";
 
       render(data, lang);
+
+      $("toggleCoverBtn").addEventListener("click", () => {
+        togglePages();
+        const L = data.languages[lang];
+        syncToggleLabel(L, lang);
+      });
 
       $("langBtn").addEventListener("click", () => {
         lang = (lang === "pt") ? "en" : "pt";
