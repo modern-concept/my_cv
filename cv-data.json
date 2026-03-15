@@ -76,7 +76,8 @@
         "social": [
           {
             "label": "/cientista-de-dados",
-            "icon": "in"
+            "icon": "in",
+            "url": "https://www.linkedin.com/in/cientista-de-dados"
           }
         ]
       },
@@ -251,7 +252,8 @@
         "social": [
           {
             "label": "/cientista-de-dados",
-            "icon": "in"
+            "icon": "in",
+            "url": "https://www.linkedin.com/in/cientista-de-dados"
           }
         ]
       },
