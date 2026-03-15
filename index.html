@@ -63,7 +63,7 @@
       background: var(--bg);
       display:flex;
       justify-content:center;
-      padding:16px;
+      padding:72px 16px 16px;
       font-family: "Open Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     }
 
@@ -251,6 +251,241 @@
     }
     .cv-page.hidden{
       display:none;
+    }
+    .hidden-view{
+      display:none !important;
+    }
+
+    .full-cv-view{
+      display:none;
+      flex-direction:column;
+      gap:16px;
+      width: var(--a4w);
+    }
+    .full-cv-view.active{
+      display:flex;
+    }
+    .full-page{
+      height:auto;
+      min-height: var(--a4h);
+      overflow:visible;
+      overflow:hidden;
+    }
+    .full-page-inner{
+      min-height: var(--a4h);
+      padding: 4mm;
+      display:flex;
+      flex-direction:column;
+      gap: 3mm;
+      color: var(--midText);
+      background:
+        radial-gradient(circle at top right, rgba(78,134,168,0.18), transparent 32%),
+        linear-gradient(180deg, #121921 0%, #0f141a 100%);
+    }
+    .full-header{
+      display:grid;
+      grid-template-columns: 26mm 1fr;
+      gap: 3mm;
+      align-items:center;
+      padding-bottom: 2.4mm;
+      border-bottom: 1px dotted rgba(255,255,255,0.22);
+    }
+    .full-avatar{
+      width: 100%;
+      align-self:start;
+    }
+    .full-avatar img{
+      width:100%;
+      display:block;
+    }
+    .full-title{
+      display:flex;
+      flex-direction:column;
+      gap: 1.1mm;
+    }
+    .full-title .name{
+      text-align:left;
+      font-size: 16pt;
+      line-height: 1;
+    }
+    .full-title .headline{
+      text-align:left;
+      font-size: 9.2pt;
+      margin-top: 0;
+    }
+    .full-contact-row,
+    .full-badge-row,
+    .full-chip-list{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 2mm;
+    }
+    .full-contact-pill,
+    .full-badge,
+    .full-chip{
+      display:inline-flex;
+      align-items:center;
+      min-height: 6mm;
+      padding: 1mm 1.8mm;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.04);
+      font: 700 6.6pt "Open Sans", sans-serif;
+      color: rgba(233,238,243,0.88);
+    }
+    .full-badge{
+      color: #E9EEF3;
+      border-color: rgba(78,134,168,0.42);
+      background: rgba(78,134,168,0.12);
+    }
+    .full-page-grid{
+      display:grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 3mm;
+      min-height: 0;
+      flex: 1 1 auto;
+    }
+    .full-column{
+      min-height:0;
+      display:flex;
+      flex-direction:column;
+      gap: 3mm;
+    }
+    .full-card{
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 4mm;
+      background: rgba(255,255,255,0.03);
+      padding: 2.4mm;
+      min-height: 0;
+    }
+    .full-card .section-head{
+      gap: 1mm;
+      margin-bottom: 1.8mm;
+    }
+    .full-card .section-title{
+      font-size: 9.8pt;
+      letter-spacing: 1.6px;
+    }
+    .full-experience-grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.2mm;
+      align-content:start;
+    }
+    .full-job{
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 3.5mm;
+      background: rgba(255,255,255,0.035);
+      padding: 2.1mm;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .full-job + .full-job{
+      margin-top: 0;
+    }
+    .full-job .date{
+      font-size: 6.3pt;
+      margin-bottom: .8mm;
+      text-align:left;
+      white-space:normal;
+    }
+    .full-job-company{
+      font: 800 8.6pt "Montserrat", sans-serif;
+      color: var(--accent);
+      text-transform:uppercase;
+      line-height:1.06;
+      margin:0 0 .8mm 0;
+      white-space:pre-line;
+    }
+    .full-job-role{
+      font: 800 7.6pt "Montserrat", sans-serif;
+      color: #E9EEF3;
+      text-transform:uppercase;
+      line-height:1.15;
+      margin:0 0 .8mm 0;
+      white-space:pre-line;
+    }
+    .full-job-meta{
+      font: 700 6.2pt "Open Sans", sans-serif;
+      color: rgba(233,238,243,0.72);
+      line-height:1.3;
+      margin-bottom: 1mm;
+      white-space:pre-line;
+    }
+    .full-list{
+      margin: 0;
+      padding-left: 4mm;
+      font-size: 6.5pt;
+      line-height: 1.22;
+      color: rgba(233,238,243,0.9);
+    }
+    .full-list li{
+      margin: 0 0 .8mm 0;
+    }
+    .full-tech-line{
+      margin-top: 1.2mm;
+      font: 700 6.1pt "Open Sans", sans-serif;
+      color: rgba(233,238,243,0.76);
+      line-height:1.3;
+    }
+    .full-summary{
+      font-size: 6.9pt;
+      line-height: 1.28;
+      color: rgba(233,238,243,0.9);
+    }
+    .full-summary p{
+      margin: 0 0 1.2mm 0;
+      text-align: justify;
+    }
+    .full-education-entry,
+    .full-mini-job{
+      padding-bottom: 1.6mm;
+      margin-bottom: 1.6mm;
+      border-bottom: 1px dotted rgba(255,255,255,0.12);
+    }
+    .full-education-entry:last-child,
+    .full-mini-job:last-child{
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+    .full-education-entry .date,
+    .full-mini-job .date{
+      text-align:left;
+      font-size: 6.1pt;
+      margin-bottom: .5mm;
+      white-space:normal;
+    }
+    .full-education-entry .company,
+    .full-mini-job .company{
+      font-size: 7.8pt;
+      line-height:1.08;
+      margin-bottom: .5mm;
+    }
+    .full-education-entry .role,
+    .full-mini-job .role{
+      font-size: 6.8pt;
+      line-height:1.15;
+      margin-bottom: .8mm;
+    }
+    .full-education-entry ul,
+    .full-mini-job ul,
+    .full-results{
+      margin: 0;
+      padding-left: 4mm;
+      font-size: 6.4pt;
+      line-height: 1.2;
+      color: rgba(233,238,243,0.9);
+    }
+    .full-results li,
+    .full-education-entry li,
+    .full-mini-job li{
+      margin-bottom: .8mm;
+    }
+    .full-split{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3mm;
     }
 
     .cover-header{
@@ -493,12 +728,65 @@
         backdrop-filter: blur(10px);
       }
 
-      .page{
+      .page,
+      .full-page{
         width: 100%;
         height: auto;
         min-height: auto;
         border-radius: 0;
         box-shadow: none;
+      }
+
+      .full-cv-view{
+        width: 100%;
+        gap: 0;
+      }
+
+      .full-page-inner{
+        height: auto;
+        padding: 14px 10px;
+        min-height: 0;
+      }
+
+      .full-page-grid,
+      .full-experience-grid,
+      .full-split{
+        grid-template-columns: 1fr;
+      }
+
+      .full-header{
+        display:flex;
+        flex-direction:column;
+        grid-template-columns:none;
+      }
+
+      .full-avatar{
+        width: min(120px, 34vw);
+        margin: 0 auto;
+      }
+
+      .full-title .name,
+      .full-title .headline{
+        text-align:center;
+      }
+
+      .full-contact-row,
+      .full-badge-row,
+      .full-chip-list{
+        justify-content:center;
+      }
+
+      .full-job .date,
+      .full-job-company,
+      .full-job-role,
+      .full-job-meta,
+      .full-education-entry .date,
+      .full-mini-job .date,
+      .full-education-entry .company,
+      .full-mini-job .company,
+      .full-education-entry .role,
+      .full-mini-job .role{
+        text-align:center;
       }
 
       .cv-page,
@@ -753,43 +1041,61 @@
     /* print */
     @page{ size: A4 portrait; margin: 0; }
     @media print{
-      body{ padding:0; background:white; }
-      .page{ box-shadow:none; border-radius:0; }
-      .topbar{ display:none !important; }
-      .page{ -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-
-      /* disable guides on print */
-      :root{ --guide-on: 0; }
-
-      body[data-print-mode="cv"] .cv-page{
-        display:block !important;
-        position:absolute;
-        inset:0;
-      }
-      body[data-print-mode="cv"] .cover-letter-page{
-        display:none !important;
-      }
-
-      body[data-print-mode="cover"] .cv-page{
-        display:none !important;
-      }
-      body[data-print-mode="cover"] .cover-letter-page{
-        display:block !important;
-        position:absolute;
-        inset:0;
-      }
-
-      body[data-print-mode="both"]{
+      body{
+        padding:0;
+        background:white;
         display:block;
       }
-      body[data-print-mode="both"] .page{
+
+      .topbar{ display:none !important; }
+
+      .page,
+      .full-page{
+        box-shadow:none;
+        border-radius:0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      :root{ --guide-on: 0; }
+
+      .compact-view{
+        display:block !important;
         width: var(--a4w);
         height: auto;
         overflow: visible;
         background: transparent;
       }
-      body[data-print-mode="both"] .cv-page,
-      body[data-print-mode="both"] .cover-letter-page{
+
+      .compact-view .cv-page,
+      .compact-view .cover-letter-page,
+      .full-cv-view{
+        display:none !important;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="compact"] .compact-view .cv-page{
+        display:block !important;
+        position:relative;
+        inset:auto;
+        width: var(--a4w);
+        height: var(--a4h);
+        overflow:hidden;
+      }
+      body[data-print-mode="cv"][data-cv-version="compact"] .compact-view .grid{
+        position:absolute;
+        inset:0;
+      }
+
+      body[data-print-mode="cover"] .compact-view .cover-letter-page{
+        display:block !important;
+        position:relative;
+        inset:auto;
+        width: var(--a4w);
+        height: var(--a4h);
+      }
+
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .cv-page,
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .cover-letter-page{
         display:block !important;
         position:relative;
         inset:auto;
@@ -799,21 +1105,64 @@
         break-after: page;
         page-break-after: always;
       }
-      body[data-print-mode="both"] .grid{
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .grid{
         position:absolute;
         inset:0;
       }
-      body[data-print-mode="both"] .cover-letter-page{
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .cover-letter-page{
         break-after: auto;
         page-break-after: auto;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .compact-view{
+        display:none !important;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .full-cv-view,
+      body[data-print-mode="both"][data-cv-version="full"] .full-cv-view{
+        display:block !important;
+        width: var(--a4w);
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .full-page,
+      body[data-print-mode="both"][data-cv-version="full"] .full-page{
+        display:block !important;
+        width: var(--a4w);
+        height: var(--a4h);
+        overflow:hidden;
+        break-after: page;
+        page-break-after: always;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .full-page:last-child,
+      body[data-print-mode="both"][data-cv-version="full"] .full-page:last-child{
+        break-after: auto;
+        page-break-after: auto;
+      }
+
+      body[data-print-mode="both"][data-cv-version="full"] .compact-view{
+        display:block !important;
+      }
+      body[data-print-mode="both"][data-cv-version="full"] .compact-view .cv-page{
+        display:none !important;
+      }
+      body[data-print-mode="both"][data-cv-version="full"] .compact-view .cover-letter-page{
+        display:block !important;
+        position:relative;
+        inset:auto;
+        width: var(--a4w);
+        height: var(--a4h);
+        break-before: page;
+        page-break-before: always;
       }
     }
   </style>
 </head>
-<body data-print-mode="cv">
+<body data-print-mode="cv" data-cv-version="compact" data-page-view="cv">
   <div class="topbar">
     <div class="pill-buttons">
       <button class="btn btn-slim" id="toggleCoverBtn">Carta</button>
+      <button class="btn btn-slim" id="fullCvBtn">Completo</button>
       <button class="btn btn-slim" id="langBtn">PT</button>
     </div>
     <div class="print-mode-buttons" id="printModeButtons">
@@ -823,7 +1172,7 @@
     </div>
     <button class="btn" id="printBtn">Imprimir / PDF</button>
   </div>
-  <div class="page" id="page">
+  <div class="page compact-view" id="compactPage">
 
     <!-- Página de CV -->
     <div class="cv-page" id="cvPage">
@@ -923,9 +1272,110 @@
 
   </div>
 
+  <div class="full-cv-view" id="fullCvView">
+    <section class="page full-page">
+      <div class="full-page-inner">
+        <header class="full-header">
+          <div class="full-avatar"><img id="fullAvatar" alt="avatar" /></div>
+          <div class="full-title">
+            <h1 class="name" id="fullName"></h1>
+            <div class="headline" id="fullHeadline"></div>
+            <div class="full-contact-row" id="fullContactRow"></div>
+            <div class="full-badge-row" id="fullBadgeRow"></div>
+          </div>
+        </header>
+
+        <section class="full-card">
+          <div class="section-head">
+            <div class="rule"></div>
+            <h2 class="section-title" id="tFullExperience"></h2>
+            <div class="rule"></div>
+          </div>
+          <div class="full-experience-grid" id="fullExperiencePrimary"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="page full-page">
+      <div class="full-page-inner full-page-grid">
+        <div class="full-column">
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullSummary"></h2>
+              <div class="rule"></div>
+            </div>
+            <div class="full-summary" id="fullSummary"></div>
+          </section>
+
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullResults"></h2>
+              <div class="rule"></div>
+            </div>
+            <ul class="full-results" id="fullResults"></ul>
+          </section>
+
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullEducation"></h2>
+              <div class="rule"></div>
+            </div>
+            <div id="fullEducation"></div>
+          </section>
+        </div>
+
+        <div class="full-column">
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullAdditional"></h2>
+              <div class="rule"></div>
+            </div>
+            <div id="fullExperienceSecondary"></div>
+          </section>
+
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullStack"></h2>
+              <div class="rule"></div>
+            </div>
+            <div class="full-chip-list" id="fullStack"></div>
+          </section>
+
+          <section class="full-card">
+            <div class="full-split">
+              <div>
+                <div class="section-head">
+                  <div class="rule"></div>
+                  <h2 class="section-title" id="tFullSkills"></h2>
+                  <div class="rule"></div>
+                </div>
+                <div class="full-chip-list" id="fullSkills"></div>
+              </div>
+              <div>
+                <div class="section-head">
+                  <div class="rule"></div>
+                  <h2 class="section-title" id="tFullTools"></h2>
+                  <div class="rule"></div>
+                </div>
+                <div class="full-chip-list" id="fullTools"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </div>
+
   <script>
     const DATA_URL = "cv-data.json";
     const $ = (id) => document.getElementById(id);
+    let appData = null;
+    let currentLang = "pt";
 
     function el(tag, cls, text){
       const n = document.createElement(tag);
@@ -966,6 +1416,175 @@
       syncPrintModeButtons(lang);
     }
 
+    function createChip(text, className="full-chip"){
+      return el("span", className, text);
+    }
+
+    function getLanguageData(lang = currentLang){
+      return appData && appData.languages ? appData.languages[lang] : null;
+    }
+
+    function setPageView(mode){
+      document.body.dataset.pageView = (mode === "cover") ? "cover" : "cv";
+      applyViewState();
+    }
+
+    function setCvVersion(version){
+      const nextVersion = version === "full" ? "full" : "compact";
+      document.body.dataset.cvVersion = nextVersion;
+      document.body.dataset.pageView = "cv";
+      localStorage.setItem("cv_version", nextVersion);
+      applyViewState();
+    }
+
+    function ensurePrintOrder(){
+      const compactPage = $("compactPage");
+      const fullView = $("fullCvView");
+      if(!compactPage || !fullView || !compactPage.parentNode) return;
+      if(fullView.nextElementSibling === compactPage) return;
+      compactPage.parentNode.insertBefore(fullView, compactPage);
+    }
+
+    function syncFullCvButton(L){
+      const fullBtn = $("fullCvBtn");
+      if(!fullBtn || !L) return;
+      fullBtn.textContent = (L.labels && L.labels.fullCv) || ((currentLang === "en") ? "Full CV" : "Completo");
+      fullBtn.classList.toggle("active", document.body.dataset.cvVersion === "full");
+    }
+
+    function applyViewState(){
+      const L = getLanguageData();
+      const compactPage = $("compactPage");
+      const cvPage = $("cvPage");
+      const coverPage = $("coverLetterPage");
+      const fullView = $("fullCvView");
+      const isCover = document.body.dataset.pageView === "cover";
+      const isFull = document.body.dataset.cvVersion === "full";
+
+      compactPage.classList.toggle("hidden-view", isFull && !isCover);
+      fullView.classList.toggle("active", isFull && !isCover);
+      cvPage.classList.toggle("hidden", isCover);
+      coverPage.classList.toggle("active", isCover);
+
+      if(L){
+        syncToggleLabel(L, currentLang);
+        syncFullCvButton(L);
+      }
+    }
+
+    function renderFullJob(job, compact=false){
+      const wrap = el("article", compact ? "full-mini-job" : "full-job");
+      wrap.appendChild(el("div", "date", `${job.period}\n${job.location}`));
+      wrap.appendChild(el("div", compact ? "company" : "full-job-company", job.company));
+      wrap.appendChild(el("div", compact ? "role" : "full-job-role", job.role));
+
+      const metaParts = [job.employment, job.scope].filter(Boolean);
+      if(metaParts.length){
+        wrap.appendChild(el("div", compact ? "muted" : "full-job-meta", metaParts.join(" • ")));
+      }
+
+      if(job.highlights && job.highlights.length && !compact){
+        const badges = el("div", "full-badge-row");
+        job.highlights.forEach((item) => badges.appendChild(createChip(item, "full-badge")));
+        wrap.appendChild(badges);
+      }
+
+      if(job.bullets && job.bullets.length){
+        const ul = el("ul", compact ? "full-results" : "full-list");
+        job.bullets.forEach((item) => ul.appendChild(el("li", null, item)));
+        wrap.appendChild(ul);
+      }
+
+      if(job.technologies && job.technologies.length){
+        const techLabel = currentLang === "en" ? "Technologies" : "Tecnologias";
+        wrap.appendChild(el("div", "full-tech-line", `${techLabel}: ${job.technologies.join(" · ")}`));
+      }
+
+      return wrap;
+    }
+
+    function renderFullEducationItem(item){
+      const wrap = el("article", "full-education-entry");
+      wrap.appendChild(el("div", "date", `${item.from} — ${item.to}`));
+      wrap.appendChild(el("div", "company", item.school));
+      wrap.appendChild(el("div", "role", item.degree));
+      if(item.details && item.details.length){
+        const ul = el("ul", "full-results");
+        item.details.forEach((detail) => ul.appendChild(el("li", null, detail)));
+        wrap.appendChild(ul);
+      }
+      return wrap;
+    }
+
+    function renderFullCv(data, lang){
+      const L = data.languages[lang];
+      const F = L.fullCv || {};
+      const labels = L.labels || {};
+
+      $("fullAvatar").src = "avatar.png";
+      $("fullName").textContent = L.profile.name;
+      $("fullHeadline").textContent = L.profile.headline;
+      $("tFullExperience").textContent = labels.fullExperience || labels.experience;
+      $("tFullSummary").textContent = labels.profileSummary || ((lang === "en") ? "Profile" : "Perfil");
+      $("tFullResults").textContent = labels.careerHighlights || ((lang === "en") ? "Impact Highlights" : "Resultados de Impacto");
+      $("tFullEducation").textContent = labels.education;
+      $("tFullAdditional").textContent = labels.additionalExperience || ((lang === "en") ? "Additional Experience" : "Trajetoria Adicional");
+      $("tFullStack").textContent = labels.coreStack || ((lang === "en") ? "Core Stack" : "Stack Principal");
+      $("tFullSkills").textContent = labels.skills;
+      $("tFullTools").textContent = labels.tools;
+
+      const contactRow = $("fullContactRow");
+      contactRow.innerHTML = "";
+      (L.contact.items || []).forEach((item) => {
+        if(["Nascimento", "Birth", "CREA-PE"].includes(item.label)) return;
+        const value = String(item.value).replace(/\n/g, " • ");
+        contactRow.appendChild(createChip(`${item.label}: ${value}`, "full-contact-pill"));
+      });
+      (L.contact.social || []).forEach((item) => {
+        contactRow.appendChild(createChip(`LinkedIn ${item.label}`, "full-contact-pill"));
+      });
+
+      const badgeRow = $("fullBadgeRow");
+      badgeRow.innerHTML = "";
+      (F.headerBadges || []).forEach((item) => badgeRow.appendChild(createChip(item, "full-badge")));
+
+      const primary = $("fullExperiencePrimary");
+      primary.innerHTML = "";
+      (F.primaryExperience || []).forEach((job) => primary.appendChild(renderFullJob(job)));
+
+      const summary = $("fullSummary");
+      summary.innerHTML = "";
+      (L.profile.summary || []).forEach((paragraph) => {
+        const p = el("p");
+        p.textContent = paragraph;
+        summary.appendChild(p);
+      });
+
+      const results = $("fullResults");
+      results.innerHTML = "";
+      (F.keyImpacts || []).forEach((item) => results.appendChild(el("li", null, item)));
+
+      const education = $("fullEducation");
+      education.innerHTML = "";
+      (L.education || []).forEach((item) => education.appendChild(renderFullEducationItem(item)));
+
+      const secondary = $("fullExperienceSecondary");
+      secondary.innerHTML = "";
+      (F.additionalExperience || []).forEach((job) => secondary.appendChild(renderFullJob(job, true)));
+
+      const stack = $("fullStack");
+      stack.innerHTML = "";
+      (F.coreStack || []).forEach((item) => stack.appendChild(createChip(item)));
+
+      const fullSkills = $("fullSkills");
+      fullSkills.innerHTML = "";
+      (L.skills || []).forEach((item) => fullSkills.appendChild(createChip(item.name)));
+
+      const fullTools = $("fullTools");
+      fullTools.innerHTML = "";
+      (L.tools || []).forEach((item) => fullTools.appendChild(createChip(item.name)));
+    }
+
     function syncPrintModeButtons(lang){
       const labels = getPrintModeLabels(lang);
       const activeMode = document.body.dataset.printMode || "cv";
@@ -989,6 +1608,8 @@
     }
 
     function render(data, lang){
+      appData = data;
+      currentLang = lang;
       const L = data.languages[lang];
       const labels = L.labels;
 
@@ -1152,6 +1773,9 @@
 
       // cover letter
       renderCoverLetter(data, lang);
+      renderFullCv(data, lang);
+      syncFullCvButton(L);
+      applyViewState();
     }
 
     function getCoverLabel(L, lang){
@@ -1166,13 +1790,13 @@
     function syncToggleLabel(L, lang){
       const toggleBtn = $("toggleCoverBtn");
       if(!toggleBtn) return;
-      const coverPage = $("coverLetterPage");
       const coverLabel = getCoverLabel(L, lang);
       const cvLabel = getCVLabel(lang);
       toggleBtn.dataset.coverLabel = coverLabel;
       toggleBtn.dataset.cvLabel = cvLabel;
-      const isShowingCV = !coverPage.classList.contains("active");
+      const isShowingCV = document.body.dataset.pageView !== "cover";
       toggleBtn.textContent = isShowingCV ? coverLabel : cvLabel;
+      toggleBtn.classList.toggle("active", !isShowingCV);
     }
 
     function fallbackGreeting(lang){
@@ -1225,21 +1849,8 @@
     }
 
     function togglePages() {
-      const cvPage = $("cvPage");
-      const coverPage = $("coverLetterPage");
-      const toggleBtn = $("toggleCoverBtn");
-      
-      const isShowingCV = !coverPage.classList.contains("active");
-      
-      if (isShowingCV) {
-        cvPage.classList.add("hidden");
-        coverPage.classList.add("active");
-        toggleBtn.classList.add("active");
-      } else {
-        cvPage.classList.remove("hidden");
-        coverPage.classList.remove("active");
-        toggleBtn.classList.remove("active");
-      }
+      const isShowingCV = document.body.dataset.pageView !== "cover";
+      setPageView(isShowingCV ? "cover" : "cv");
     }
 
     function printSelectedMode(){
@@ -1249,25 +1860,33 @@
     async function init(){
       const res = await fetch(DATA_URL, {cache:"no-store"});
       const data = await res.json();
+      ensurePrintOrder();
 
       let lang = localStorage.getItem("cv_lang") || (data.meta && data.meta.defaultLang) || "pt";
       if(!data.languages[lang]) lang = "pt";
 
-      const savedPrintMode = localStorage.getItem("cv_print_mode") || "cv";
-      setPrintMode(savedPrintMode, lang);
+      const savedCvVersion = localStorage.getItem("cv_version") || "compact";
+      document.body.dataset.cvVersion = savedCvVersion === "full" ? "full" : "compact";
+      document.body.dataset.pageView = "cv";
 
+      const savedPrintMode = localStorage.getItem("cv_print_mode") || "cv";
       render(data, lang);
+      setPrintMode(savedPrintMode, lang);
 
       $("toggleCoverBtn").addEventListener("click", () => {
         togglePages();
-        const L = data.languages[lang];
-        syncToggleLabel(L, lang);
+      });
+
+      $("fullCvBtn").addEventListener("click", () => {
+        const isFull = document.body.dataset.cvVersion === "full";
+        setCvVersion(isFull ? "compact" : "full");
       });
 
       $("langBtn").addEventListener("click", () => {
         lang = (lang === "pt") ? "en" : "pt";
         localStorage.setItem("cv_lang", lang);
         render(data, lang);
+        setPrintMode(document.body.dataset.printMode || "cv", lang);
       });
 
       document.querySelectorAll("#printModeButtons [data-print-mode]").forEach((btn) => {

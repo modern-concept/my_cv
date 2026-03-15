@@ -1,7 +1,7 @@
 {
   "meta": {
     "defaultLang": "pt",
-    "updatedAt": "2026-01-31"
+    "updatedAt": "2026-03-15"
   },
   "assets": {
     "avatar": "avatar.png",
@@ -25,6 +25,12 @@
         "education": "FORMAÇÃO",
         "tools": "FERRAMENTAS",
         "skills": "HABILIDADES",
+        "fullCv": "COMPLETO",
+        "fullExperience": "EXPERIÊNCIA PROFISSIONAL",
+        "profileSummary": "PERFIL",
+        "careerHighlights": "RESULTADOS DE IMPACTO",
+        "additionalExperience": "TRAJETÓRIA ADICIONAL",
+        "coreStack": "STACK PRINCIPAL",
         "printPdf": "Imprimir / PDF",
         "coverLetter": "Carta"
       },
@@ -79,6 +85,220 @@
             "icon": "in",
             "url": "https://www.linkedin.com/in/cientista-de-dados"
           }
+        ]
+      },
+      "fullCv": {
+        "headerBadges": [
+          "8x vencedor do QMS Contest LATAM 2025",
+          "2x vencedor do ICS Global 2025 — People's Choice & Fellows",
+          "Information Security Manager (ISM) para Brazil Pipeline Delivery"
+        ],
+        "primaryExperience": [
+          {
+            "company": "BAYER CROP SCIENCE",
+            "role": "TECH LEAD - DIGITAL SOLUTIONS",
+            "employment": "Tempo integral",
+            "period": "mai de 2024 - o momento · 1 ano 11 meses",
+            "location": "Petrolina, Pernambuco, Brasil",
+            "highlights": [
+              "8x QMS LATAM 2025",
+              "2x ICS Global 2025",
+              "ISM Brazil Pipeline Delivery"
+            ],
+            "bullets": [
+              "Liderança do desenvolvimento de aplicativos com ML e RPA para suportar pipelines de breeding de milho e soja.",
+              "Construção de automações escaláveis e dashboards com Google BigQuery, Power Platform e Azure.",
+              "Integração de ferramentas de decisão baseadas em IA, com foco em produtividade e eficiência de pesquisa.",
+              "Coordenação de squads multifuncionais e mentoria de desenvolvedores em cloud-native development e analytics."
+            ],
+            "technologies": [
+              "Power BI",
+              "Power Automate",
+              "BigQuery",
+              "Azure",
+              "Python",
+              "ML",
+              "React.js",
+              "JavaScript",
+              "SQL"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUÁRIA RORIZ DANTAS",
+            "role": "GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH",
+            "employment": "Tempo integral",
+            "period": "nov de 2023 - abr de 2024 · 6 meses",
+            "location": "Belém do São Francisco, Pernambuco, Brasil · Presencial",
+            "highlights": [
+              "R$ 850 mil/ano em defensivos",
+              "R$ 1,2 milhão/ano em mão de obra",
+              "R$ 500 mil/mês em solicitações evitadas"
+            ],
+            "bullets": [
+              "Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores.",
+              "Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre.",
+              "Automação do fluxo de solicitações com análise crítica baseada em IA, classificação de classes contábeis e acompanhamento orçado x realizado com alertas em tempo real no Telegram.",
+              "Uso gerencial do SIA, sistema que construí como Head of Technology, para fortalecer governança operacional, auditoria e tomada de decisão."
+            ],
+            "technologies": [
+              "React.js",
+              "Node.js",
+              "Oracle Database",
+              "Python",
+              "Power BI",
+              "Telegram Bot API",
+              "RPA",
+              "AI/ML",
+              "ERP Integration",
+              "SQL"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUÁRIA RORIZ DANTAS",
+            "role": "HEAD DE TECNOLOGIA: TI E INOVAÇÃO",
+            "employment": "Tempo integral",
+            "period": "mar de 2021 - nov de 2023 · 2 anos 9 meses",
+            "location": "Belém do São Francisco, Pernambuco, Brasil",
+            "highlights": [
+              "85% dos processos digitalizados",
+              "150+ visões estratégicas",
+              "24 jobs de ETL"
+            ],
+            "bullets": [
+              "Liderança da transformação digital da companhia com PMBoK, Agile e gamificação para institucionalizar processos e cultura de inovação.",
+              "Identificação de oportunidades, formação de líderes internos e disseminação de métodos, ferramentas e mindset de inovação.",
+              "Mensuração de impacto e ROI dos projetos, com soluções que ampliaram auditabilidade e sustentaram decisões corporativas baseadas em dados.",
+              "Entrega de formulários digitais, coleta offline com GPS, integração ERP, dashboards, ETLs e automações com IA/ML, digitalizando 85% dos processos antes manuais."
+            ],
+            "technologies": [
+              "React.js",
+              "Python",
+              "Power BI",
+              "ETL",
+              "Machine Learning",
+              "Deep Learning",
+              "IoT",
+              "ERP"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUÁRIA RORIZ DANTAS",
+            "role": "GERENTE DE TIC",
+            "employment": "Tempo integral",
+            "period": "out de 2019 - nov de 2023 · 4 anos 2 meses",
+            "location": "Belém do São Francisco e Recife, Pernambuco · Presencial",
+            "bullets": [
+              "Gestão das rotinas da equipe de TI, help desk, parque de dispositivos, servidores, backup e recovery, virtualização e projetos de alta disponibilidade.",
+              "Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação."
+            ],
+            "technologies": [
+              "Windows Server",
+              "Linux",
+              "Firewall",
+              "Active Directory",
+              "Zabbix",
+              "GLPI",
+              "Mikrotik",
+              "Unifi",
+              "Arduino",
+              "Raspberry Pi"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUÁRIA RORIZ DANTAS",
+            "role": "IT BUSINESS PARTNER",
+            "employment": "Tempo integral",
+            "period": "jan de 2019 - out de 2019 · 10 meses",
+            "location": "Belém do São Francisco, Pernambuco, Brasil",
+            "bullets": [
+              "Tradução de necessidades de negócio em tecnologias aplicadas, com forte foco em resultado e cadência de transformação digital.",
+              "Liderança na criação e evolução do SIA, plataforma integrada com dashboards em tempo real, mapas de acompanhamento, coletores offline sincronizados e módulos com IA para decisões operacionais e estratégicas."
+            ],
+            "technologies": [
+              "React.js",
+              "Node.js",
+              "SQL",
+              "Power BI",
+              "AI",
+              "Offline Sync"
+            ]
+          }
+        ],
+        "additionalExperience": [
+          {
+            "company": "D & E SOFTWARES E GAMES | SYRINX TECNOLOGIA | SILO STUDIO | CASA DOS ESMALTES",
+            "role": "FUNDADOR DE STARTUPS E EMPREENDEDOR",
+            "employment": "Empreendedorismo",
+            "period": "fev de 2012 - out de 2019 · 7 anos 9 meses",
+            "location": "Petrolina, Pernambuco, Brasil",
+            "bullets": [
+              "Atuação na fundação de diversas startups, exercendo o papel de CEO na maior parte das iniciativas.",
+              "Vivência prática em validação de mercado, desenvolvimento de produto, inovação e liderança sob incerteza.",
+              "Projetos autorais chegaram a ser destacados pela Nokia em seleção de aplicativos brasileiros para smartphones."
+            ]
+          },
+          {
+            "company": "GRUPO JD (FAZENDAS LABRUNIER)",
+            "role": "ENGENHEIRO DE SOFTWARE SÊNIOR",
+            "employment": "Tempo integral",
+            "period": "jan de 2017 - nov de 2018 · 1 ano 11 meses",
+            "location": "Petrolina e Região, Brasil · Presencial",
+            "bullets": [
+              "Liderança do desenvolvimento de ferramentas de gestão e monitoramento para operações de packing de uvas.",
+              "Construção de softwares sob medida, procedimentos operacionais e indicadores que transformaram dados brutos em insights acionáveis.",
+              "Atuação como líder técnico e cocriador da iniciativa Fazenda de Software, com BI avançado e dashboards interativos via SQL."
+            ]
+          },
+          {
+            "company": "GRUPO JD (FAZENDAS LABRUNIER)",
+            "role": "ENGENHEIRO DE SOFTWARE JÚNIOR",
+            "employment": "Tempo integral",
+            "period": "set de 2016 - dez de 2016 · 4 meses",
+            "location": "Petrolina, Pernambuco, Brasil",
+            "bullets": [
+              "Implementação de sistema de coleta de dados com RFID no setor de packing de uvas.",
+              "Desenho, monitoramento e gestão de indicadores operacionais para linhas de produção e equipe de TI.",
+              "Entrega de rastreabilidade em tempo real, maior acurácia de dados e suporte à decisão operacional."
+            ]
+          },
+          {
+            "company": "HOSPITAL UNIVERSITÁRIO DE PETROLINA",
+            "role": "ESTAGIÁRIO - DESEMPENHO HOSPITALAR E PLANEJAMENTO ESTRATÉGICO",
+            "employment": "Estágio",
+            "period": "mai de 2015 - ago de 2015 · 4 meses",
+            "location": "Petrolina, Pernambuco, Brasil",
+            "bullets": [
+              "Desenvolvimento de sistema de gestão de indicadores hospitalares e apoio à criação e implementação do Planejamento Estratégico 2015.",
+              "Realização de treinamentos, apresentações e seminários para acelerar a adoção das novas ferramentas."
+            ]
+          }
+        ],
+        "keyImpacts": [
+          "R$ 850 mil/ano economizados em defensivos por meio de ferramentas de auditoria de processos.",
+          "R$ 1,2 milhão/ano reduzidos em mão de obra com auditoria operacional e ganho de eficiência.",
+          "R$ 800 mil/ano em savings via renegociação contratual e R$ 240 mil/ano com redução de terceirizações em módulos ERP.",
+          "R$ 1,8 milhão/mês reduzidos em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação.",
+          "R$ 500 mil/mês evitados em solicitações desnecessárias com auditoria estatística e IA; R$ 400 mil/ano economizados em combustível.",
+          "Redução de 90% dos problemas em pulverização/uso de produtos e R$ 780 mil/ano de redução em custos relacionados a absenteísmo."
+        ],
+        "coreStack": [
+          "Python",
+          "SQL",
+          "BigQuery",
+          "Azure",
+          "Power BI",
+          "Power Platform",
+          "React.js",
+          "Node.js",
+          "Oracle Database",
+          "Machine Learning",
+          "RPA",
+          "ETL",
+          "ERP Integration",
+          "Telegram Bot API",
+          "IoT",
+          "Zabbix / GLPI",
+          "Active Directory"
         ]
       },
       "experience": [
@@ -202,6 +422,12 @@
         "education": "EDUCATION",
         "tools": "TOOLS",
         "skills": "SKILLS",
+        "fullCv": "FULL CV",
+        "fullExperience": "PROFESSIONAL EXPERIENCE",
+        "profileSummary": "PROFILE",
+        "careerHighlights": "IMPACT HIGHLIGHTS",
+        "additionalExperience": "ADDITIONAL EXPERIENCE",
+        "coreStack": "CORE STACK",
         "printPdf": "Print / PDF",
         "coverLetter": "Cover Letter"
       },
@@ -255,6 +481,220 @@
             "icon": "in",
             "url": "https://www.linkedin.com/in/cientista-de-dados"
           }
+        ]
+      },
+      "fullCv": {
+        "headerBadges": [
+          "8x QMS Contest LATAM 2025 Winner",
+          "2x ICS Global Winner (2025) — People's Choice & Fellows",
+          "Information Security Manager (ISM) for Brazil Pipeline Delivery"
+        ],
+        "primaryExperience": [
+          {
+            "company": "BAYER CROP SCIENCE",
+            "role": "TECH LEAD - DIGITAL SOLUTIONS",
+            "employment": "Full-time",
+            "period": "May 2024 - Present · 1 yr 11 mos",
+            "location": "Petrolina, Pernambuco, Brazil",
+            "highlights": [
+              "8x QMS LATAM 2025",
+              "2x ICS Global 2025",
+              "ISM Brazil Pipeline Delivery"
+            ],
+            "bullets": [
+              "Leading the development of ML-powered and RPA-based apps to support corn and soybean breeding pipelines.",
+              "Built scalable automations and dashboards using Google BigQuery, Power Platform and Azure.",
+              "Integrated AI-based decision tools focused on productivity and research efficiency.",
+              "Coordinated cross-functional squads and mentored developers on cloud-native development and analytics."
+            ],
+            "technologies": [
+              "Power BI",
+              "Power Automate",
+              "BigQuery",
+              "Azure",
+              "Python",
+              "ML",
+              "React.js",
+              "JavaScript",
+              "SQL"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
+            "role": "ADMINISTRATIVE MANAGER - SUPPLY CHAIN, CONTROLLERSHIP & HR OPERATIONS",
+            "employment": "Full-time",
+            "period": "Nov 2023 - Apr 2024 · 6 mos",
+            "location": "Belem do Sao Francisco, Pernambuco, Brazil · On-site",
+            "highlights": [
+              "BRL 850K/year in pesticides",
+              "BRL 1.2M/year in labor",
+              "BRL 500K/month avoided requests"
+            ],
+            "bullets": [
+              "Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance.",
+              "Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices.",
+              "Automated request flows with AI-driven critical analysis, accounting class classification and real-time budget vs actual tracking with Telegram alerts.",
+              "Used SIA, the platform I had previously built as Head of Technology, to strengthen operational governance, auditing and management decision-making."
+            ],
+            "technologies": [
+              "React.js",
+              "Node.js",
+              "Oracle Database",
+              "Python",
+              "Power BI",
+              "Telegram Bot API",
+              "RPA",
+              "AI/ML",
+              "ERP Integration",
+              "SQL"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
+            "role": "HEAD OF TECHNOLOGY: IT AND INNOVATION",
+            "employment": "Full-time",
+            "period": "Mar 2021 - Nov 2023 · 2 yrs 9 mos",
+            "location": "Belem do Sao Francisco, Pernambuco, Brazil",
+            "highlights": [
+              "85% of processes digitized",
+              "150+ strategic views",
+              "24 ETL jobs"
+            ],
+            "bullets": [
+              "Led the company's digital transformation using PMBoK, Agile and gamification to institutionalize processes and an innovation culture.",
+              "Identified opportunities, trained internal leaders and spread innovation mindset, methods and tools across the organization.",
+              "Measured project impact and ROI while building solutions that improved auditability and supported data-driven corporate decisions.",
+              "Delivered digital forms, offline GPS-enabled collection, ERP integration, dashboards, ETLs and AI/ML automations, digitizing 85% of previously manual processes."
+            ],
+            "technologies": [
+              "React.js",
+              "Python",
+              "Power BI",
+              "ETL",
+              "Machine Learning",
+              "Deep Learning",
+              "IoT",
+              "ERP"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
+            "role": "ICT MANAGER",
+            "employment": "Full-time",
+            "period": "Oct 2019 - Nov 2023 · 4 yrs 2 mos",
+            "location": "Belem do Sao Francisco and Recife, Pernambuco · On-site",
+            "bullets": [
+              "Managed IT staff routines, help desk operations, device estate, servers, backup and recovery, virtualization and high-availability initiatives.",
+              "Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives."
+            ],
+            "technologies": [
+              "Windows Server",
+              "Linux",
+              "Firewall",
+              "Active Directory",
+              "Zabbix",
+              "GLPI",
+              "Mikrotik",
+              "Unifi",
+              "Arduino",
+              "Raspberry Pi"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
+            "role": "IT BUSINESS PARTNER",
+            "employment": "Full-time",
+            "period": "Jan 2019 - Oct 2019 · 10 mos",
+            "location": "Belem do Sao Francisco, Pernambuco, Brazil",
+            "bullets": [
+              "Translated business needs into applied technologies with a strong focus on outcomes and transformation cadence.",
+              "Led the creation and ongoing evolution of SIA, an integrated platform with real-time dashboards, tracking maps, offline synchronized collectors and AI-based modules for operational and strategic decisions."
+            ],
+            "technologies": [
+              "React.js",
+              "Node.js",
+              "SQL",
+              "Power BI",
+              "AI",
+              "Offline Sync"
+            ]
+          }
+        ],
+        "additionalExperience": [
+          {
+            "company": "D & E SOFTWARES E GAMES | SYRINX TECNOLOGIA | SILO STUDIO | CASA DOS ESMALTES",
+            "role": "STARTUP FOUNDER & ENTREPRENEUR",
+            "employment": "Entrepreneurship",
+            "period": "Feb 2012 - Oct 2019 · 7 yrs 9 mos",
+            "location": "Petrolina, Pernambuco, Brazil",
+            "bullets": [
+              "Co-founded several startups and served as CEO in most of the initiatives.",
+              "Built hands-on experience in market validation, product development, innovation and leadership under uncertainty.",
+              "Independent projects were highlighted by Nokia in a curated list of Brazilian apps for smartphones."
+            ]
+          },
+          {
+            "company": "GRUPO JD (LABRUNIER FARMS)",
+            "role": "SENIOR SOFTWARE ENGINEER",
+            "employment": "Full-time",
+            "period": "Jan 2017 - Nov 2018 · 1 yr 11 mos",
+            "location": "Petrolina Region, Brazil · On-site",
+            "bullets": [
+              "Led the development of management and monitoring tools for grape packing operations.",
+              "Built custom software, operational procedures and indicators that turned raw production data into actionable insights.",
+              "Served as technical leader and co-creator of the Farm of Software initiative with advanced BI and interactive SQL-driven dashboards."
+            ]
+          },
+          {
+            "company": "GRUPO JD (LABRUNIER FARMS)",
+            "role": "JUNIOR SOFTWARE ENGINEER",
+            "employment": "Full-time",
+            "period": "Sep 2016 - Dec 2016 · 4 mos",
+            "location": "Petrolina, Pernambuco, Brazil",
+            "bullets": [
+              "Implemented a production data collection system using RFID in the grape packing sector.",
+              "Designed, monitored and managed operational indicators for both production lines and the IT team.",
+              "Enabled real-time traceability, improved data accuracy and strengthened operational decision-making."
+            ]
+          },
+          {
+            "company": "HOSPITAL UNIVERSITARIO DE PETROLINA",
+            "role": "INTERN - HOSPITAL PERFORMANCE & STRATEGIC PLANNING",
+            "employment": "Internship",
+            "period": "May 2015 - Aug 2015 · 4 mos",
+            "location": "Petrolina, Pernambuco, Brazil",
+            "bullets": [
+              "Developed a hospital performance indicator management system and supported the design and rollout of the 2015 Strategic Plan.",
+              "Delivered training sessions, presentations and seminars to ensure effective adoption of the new tools."
+            ]
+          }
+        ],
+        "keyImpacts": [
+          "Saved BRL 850K/year in pesticide costs through process auditing tools.",
+          "Reduced BRL 1.2M/year in labor through operational auditing and efficiency gains.",
+          "Negotiated BRL 800K/year in contract savings and saved BRL 240K/year by reducing outsourcing needs in ERP modules.",
+          "Reduced BRL 1.8M/month in fast-moving inventory costs and BRL 150K/month in obsolete or slow-moving inventory.",
+          "Avoided BRL 500K/month in unnecessary requests with statistical and AI-driven auditing, plus BRL 400K/year in fuel savings.",
+          "Reduced 90% of spraying and product-use issues and cut BRL 780K/year in absenteeism-related costs."
+        ],
+        "coreStack": [
+          "Python",
+          "SQL",
+          "BigQuery",
+          "Azure",
+          "Power BI",
+          "Power Platform",
+          "React.js",
+          "Node.js",
+          "Oracle Database",
+          "Machine Learning",
+          "RPA",
+          "ETL",
+          "ERP Integration",
+          "Telegram Bot API",
+          "IoT",
+          "Zabbix / GLPI",
+          "Active Directory"
         ]
       },
       "experience": [
