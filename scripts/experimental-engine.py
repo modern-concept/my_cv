@@ -2,6 +2,7 @@
 import html
 import json
 import re
+import runpy
 
 
 def build_page(base, data, sections, jobs, education, primary_count):
@@ -18,12 +19,15 @@ def build_page(base, data, sections, jobs, education, primary_count):
             part = part.replace('href="#' + old + '"', 'href="#' + new + '"')
         part = part.replace('class="chapter ', 'class="chapter full-card ')
         supplemental.append('<section class="page full-page experimental-page"><div class="full-page-inner">' + part + '</div></section>')
-    toc = '<nav class="full-card extension-toc" aria-label="Índice das novas seções"><h2>Projetos, especialidades e evidências</h2><p>Extensão em português do CV completo. Os projetos estão relacionados aos seus contextos profissionais, acadêmicos e independentes.</p><ol>' + ''.join('<li><a href="#' + re.search(r'<section id="([^"]+)"', p)[1] + '">' + re.search(r'<h2>(.*?)</h2>', p)[1] + '</a></li>' for p in sections) + '</ol><p><a href="index.html?lang=pt&amp;version=full">CV original</a> · <a href="cv-experimental.md">Versão textual completa</a> · <a href="cv-experimental-data.json">Dados e fontes</a></p></nav>'
+    toc = '<nav class="full-card extension-toc" aria-label="Índice do acervo técnico"><h2>Acervo técnico e fontes dos projetos</h2><ol>' + ''.join('<li><a href="#' + re.search(r'<section id="([^"]+)"', p)[1] + '">' + re.search(r'<h2>(.*?)</h2>', p)[1] + '</a></li>' for p in sections) + '</ol><p><a href="index.html?lang=pt&amp;version=full">CV original</a> · <a href="cv-experimental.md">Versão textual completa</a> · <a href="cv-experimental-data.json">Dados e fontes</a></p></nav>'
     supplemental.insert(0, '<section class="page full-page experimental-page"><div class="full-page-inner">' + toc + '</div></section>')
-    marker = '  </div>\n\n  <script>\n    const DATA_URL'
-    if marker not in page:
-        raise ValueError('Estrutura do motor original mudou; revisar ponto de extensão.')
-    page = page.replace(marker, ''.join(supplemental) + '\n' + marker, 1)
+    editorial = runpy.run_path(str(base / 'scripts/cv-editorial.py'))
+    start = page.index('  <div class="full-cv-view" id="fullCvView">')
+    end = page.index('  <script>\n    const DATA_URL', start)
+    annex = '<details id="careerAppendices" class="career-appendices"><summary>Acervo técnico completo · cases, catálogos e fontes</summary>' + ''.join(supplemental) + '</details>'
+    career = editorial['career_markup'](data)
+    career = career.replace('</header>', '</header><div class="career-actions"><a href="#cv-agrodan">Projetos Agrodan</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div>', 1)
+    page = page[:start] + '<div class="full-cv-view active" id="fullCvView">' + career + annex + '</div>\n\n' + page[end:]
     page = page.replace('const DATA_URL = "cv-data.json";', 'const DATA_URL = "cv-experimental-data.json";')
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c')
     page = page.replace('  <script>\n    const DATA_URL', '<script id="experimentalData" type="application/json">' + payload + '</script>\n  <script>\n    const DATA_URL', 1)
@@ -32,21 +36,58 @@ def build_page(base, data, sections, jobs, education, primary_count):
     page = page.replace('requestedVersion || localStorage.getItem("cv_version") || "compact"', 'requestedVersion || "full"')
     page = page.replace('requestedPrintMode || localStorage.getItem("cv_print_mode") || "cv"', 'requestedPrintMode || "cv"')
     page = page.replace('const L = data.languages[lang];\n      const F = L.fullCv || {};', 'const L = data.languages[lang];\n      document.body.dataset.extensionLanguage = lang;\n      const F = L.fullCv || {};')
+    page = page.replace('$("fullName").textContent = L.profile.name;', '$("fullName").textContent = L.profile.name;\n      $("tCareerRecognition").textContent = lang === "pt" ? "Reconhecimentos e responsabilidades" : lang === "en" ? "Recognition and responsibilities" : "Auszeichnungen und Verantwortung";')
+    page = page.replace('contactRow.appendChild(createChip(`LinkedIn ${item.label}`, "full-contact-pill"));', 'const link = el("a", "full-contact-pill", item.label); link.href = item.url; contactRow.appendChild(link);')
     page = page.replace('(F.primaryExperience || []).forEach((job) => primary.appendChild(renderFullJob(job)));', '(F.primaryExperience || []).forEach((job, i) => { const item = renderFullJob(job); item.id = "experiencia-" + (i + 1); primary.appendChild(item); });')
     page = page.replace('(F.additionalExperience || []).forEach((job) => secondary.appendChild(renderFullJob(job, true)));', '(F.additionalExperience || []).forEach((job, i) => { const item = renderFullJob(job, true); item.id = "experiencia-" + ((F.primaryExperience || []).length + i + 1); secondary.appendChild(item); });')
     page = page.replace('(L.education || []).forEach((item) => education.appendChild(renderFullEducationItem(item)));', '(L.education || []).forEach((item, i) => { const entry = renderFullEducationItem(item); entry.id = "formacao-" + (i + 1); education.appendChild(entry); });')
+    relation = '''
+      if(currentLang === "pt" && /AGRODAN/i.test(job.company)){
+        const related = el("p", "career-reference");
+        const link = el("a", null, "Projetos da trajetória na Agrodan: SIA, dados, coleta mobile e processos de negócio");
+        link.href = "#cv-agrodan"; related.appendChild(link); wrap.appendChild(related);
+      }
+      if(currentLang === "pt" && /HOSPITAL/i.test(job.company)){
+        const related = el("p", "career-reference");
+        const link = el("a", null, "Projeto associado ao estágio: indicadores e avaliações hospitalares em Java EE");
+        link.href = "#academico"; related.appendChild(link); wrap.appendChild(related);
+      }
+'''
+    page = page.replace('      return wrap;\n    }\n\n    function renderFullEducationItem', relation + '      return wrap;\n    }\n\n    function renderFullEducationItem', 1)
+    grouped_renderer = '''
+      if(lang === "pt"){
+        const editorial = data.extensions.editorial;
+        fullSkills.innerHTML = "";
+        editorial.skillGroups.forEach(group => {
+          const item = el("article", "career-skill");
+          item.appendChild(el("h3", null, group.title));
+          item.appendChild(el("p", null, group.description));
+          item.appendChild(el("p", "career-skill-origin", group.origin));
+          fullSkills.appendChild(item);
+        });
+        fullTools.innerHTML = "";
+        editorial.technologyGroups.forEach(group => {
+          const row = el("p", "career-tech");
+          row.appendChild(el("strong", null, group.title + ": "));
+          row.appendChild(document.createTextNode(group.description));
+          fullTools.appendChild(row);
+        });
+      }
+'''
+    marker = '(L.tools || []).forEach((item) => fullTools.appendChild(createChip(item.name)));'
+    page = page.replace(marker, marker + grouped_renderer, 1)
     # Prefill the full CV for static readers. JavaScript subsequently renders the
     # same source data through the original functions when the page is opened.
     pt = data['languages']['pt']
     def fill(id, content):
         nonlocal page
-        pattern = r'(<([a-z0-9]+)\b[^>]*\bid="' + id + r'"[^>]*>)(</\2>)'
-        page, count = re.subn(pattern, lambda m: m[1] + content + m[3], page, count=1)
+        pattern = r'(<([a-z0-9]+)\b[^>]*\bid="' + id + r'"[^>]*>).*?(</\2>)'
+        page, count = re.subn(pattern, lambda m: m[1] + content + m[3], page, count=1, flags=re.S)
         if count != 1:
             raise ValueError('Campo original não encontrado: ' + id)
     fill('fullName', html.escape(pt['profile']['name']))
     fill('fullHeadline', html.escape(pt['profile']['headline']).replace('\n', '<br>'))
-    fill('fullContactRow', ''.join('<span class="full-contact-pill">' + html.escape(v['label'] + ': ' + v['value']).replace('\n', ' · ') + '</span>' for v in pt['contact']['items'] if v['label'] not in ['Nascimento', 'Birth', 'CREA-PE']))
+    fill('fullContactRow', ''.join('<span class="full-contact-pill">' + html.escape(v['label'] + ': ' + v['value']).replace('\n', ' · ') + '</span>' for v in pt['contact']['items'] if v['label'] not in ['Nascimento', 'Birth', 'CREA-PE']) + ''.join('<a class="full-contact-pill" href="' + html.escape(v['url'], quote=True) + '">' + html.escape(v['label']) + '</a>' for v in pt['contact']['social']))
     fill('fullBadgeRow', ''.join('<span class="full-badge">' + html.escape(v) + '</span>' for v in pt['fullCv']['headerBadges']))
     fill('fullExperiencePrimary', ''.join(jobs[:primary_count]).replace('class="job"', 'class="full-job"'))
     fill('fullExperienceSecondary', ''.join(jobs[primary_count:]).replace('class="job"', 'class="full-mini-job"'))
@@ -54,8 +95,35 @@ def build_page(base, data, sections, jobs, education, primary_count):
     fill('fullSummary', ''.join('<p>' + html.escape(v) + '</p>' for v in pt['profile']['summary']))
     fill('fullResults', ''.join('<li>' + html.escape(v) + '</li>' for v in pt['fullCv']['keyImpacts']))
     for id, values in [('fullStack', pt['fullCv']['coreStack']), ('fullSkills', [v['name'] for v in pt['skills']]), ('fullTools', [v['name'] for v in pt['tools']])]:
-        fill(id, ''.join('<span class="full-chip">' + html.escape(v) + '</span>' for v in values))
+        if id == 'fullSkills':
+            fill(id, ''.join('<article class="career-skill"><h3>' + html.escape(g['title']) + '</h3><p>' + html.escape(g['description']) + '</p><p class="career-skill-origin">' + html.escape(g['origin']) + '</p></article>' for g in data['extensions']['editorial']['skillGroups']))
+        elif id == 'fullTools':
+            fill(id, ''.join('<p class="career-tech"><strong>' + html.escape(g['title']) + ': </strong>' + html.escape(g['description']) + '</p>' for g in data['extensions']['editorial']['technologyGroups']))
+        else:
+            fill(id, ''.join('<span class="full-chip">' + html.escape(v) + '</span>' for v in values))
     for id, label in [('tFullExperience', 'Experiência profissional'), ('tFullSummary', 'Perfil'), ('tFullResults', 'Resultados de impacto'), ('tFullEducation', 'Formação'), ('tFullAdditional', 'Trajetória adicional'), ('tFullStack', 'Stack principal'), ('tFullSkills', 'Habilidades'), ('tFullTools', 'Ferramentas')]:
         fill(id, label)
     page = page.replace('id="fullAvatar"', 'id="fullAvatar" src="avatar.png"', 1)
+    page = page.replace('</body>', '''<script>
+    const appendices = document.getElementById("careerAppendices");
+    const includeAppendices = document.getElementById("includeAppendices");
+    includeAppendices.addEventListener("change", () => {
+      document.body.dataset.printAppendices = String(includeAppendices.checked);
+    });
+    function revealReference(){
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if(target && appendices.contains(target)){
+        appendices.open = true;
+        requestAnimationFrame(() => target.scrollIntoView({block:"start"}));
+      }
+    }
+    window.addEventListener("hashchange", revealReference);
+    revealReference();
+    let previousAppendixState = false;
+    window.addEventListener("beforeprint", () => {
+      previousAppendixState = appendices.open;
+      appendices.open = includeAppendices.checked;
+    });
+    window.addEventListener("afterprint", () => { appendices.open = previousAppendixState; });
+    </script></body>''', 1)
     return page

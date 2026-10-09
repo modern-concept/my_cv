@@ -29,6 +29,16 @@ O CV atual em `index.html` e `cv-data.json` continua disponível. O estado anter
 
 A expansão está inicialmente em português e aparece no modo completo em PT. Os idiomas EN/DE mantêm o conteúdo original, sem tradução automática da expansão. As novas seções vêm depois das páginas originais, com índice e vínculos para os cargos e a formação. Cartas e síntese compacta permanecem acessíveis pelos controles existentes; a versão textual também as conserva. O gerador reutiliza `index.html` por meio de `scripts/experimental-engine.py`; `scripts/experimental-engine.css` adapta o tema para conteúdos extensos e permite que as páginas fluam na impressão, sem altura fixa ou corte do texto. O catálogo contém módulos, submódulos, fluxos e versões do mesmo ecossistema; seus totais não representam produtos independentes ou comprovação de implantação.
 
+### Apresentação como currículo
+
+A versão ampliada usa apresentação clara em fundo branco, tipografia legível, experiências em sequência e seções de perfil, áreas de atuação, reconhecimentos, resultados, formação, competências e tecnologias. As habilidades estão agrupadas com os projetos e experiências de origem; a stack principal contém tecnologias representativas, com o repertório ampliado nas categorias e anexos.
+
+Os 28 cases recebem uma apresentação breve no corpo do CV, organizados em quatro contextos: Agrodan; pesquisa e formação; IA, multiagentes e ML; produtos, decisão e computação visual. Cada entrada apresenta contribuição, mecanismos de implementação, tecnologias e links para contexto e fontes. As métricas continuam sendo aquelas já declaradas no CV; não são atribuídas a módulos individuais sem correspondência documentada.
+
+O acervo completo permanece no HTML em **Acervo técnico completo**, inicialmente recolhido. Links para fontes abrem o anexo correspondente. Para incluir esse material na impressão, marque **Incluir acervo técnico no PDF**; a impressão padrão contém o currículo e os resumos dos cases. As regras de paginação foram adaptadas no CSS, mas a paginação final depende do navegador e ainda precisa de revisão visual.
+
+`scripts/cv-editorial.py` organiza as competências, tecnologias e resumos. O original em `index.html` permanece preservado, e o motor existente continua responsável por idiomas, alternância de versões, cartas e impressão.
+
 ## Proposta de evolução do currículo
 
 Abra `proposta-cv.html` diretamente no navegador. A página é autônoma e contém:

@@ -137,102 +137,257 @@ Versão experimental ampliada — 09/10/2026.
  
 - TCC: F-AHP: Software Java para a aplicação do Método de Decisão Multicritério AHP 
 
-## Habilidades e competências
- 
-- Engenharia de software: arquitetura de aplicações, modelagem de domínio, regras de negócio, APIs e persistência. 
-- Desenvolvimento web e mobile: interfaces, dashboards, formulários e aplicações React Native/Expo. 
-- Dados e integração: ETL, SQL, coleta, validação, históricos, integrações corporativas e analytics. 
-- Automação e operação: navegador, jobs, filas, estado persistente, notificações e supervisão. 
-- Pesquisa e decisão: seleção de atributos, estatística, algoritmos genéticos, otimização e métodos multicritério. 
-- IA aplicada: ML tabular, visão computacional, integração de LLMs e coordenação de agentes por regras e votação. 
-- Computação visual: mapas, pose, renderização 3D, interação, física e animação. 
-- Produto e liderança: tradução de necessidades, experimentação, priorização, governança e desenvolvimento de equipes. 
-- Gestão e liderança profissional: PMBOK, Scrum, Kanban, arquitetura, mentoria, comunicação e segurança. 
-- Experiência profissional já declarada: MLOps, RAG, MCP, Agentic AI e RPA; contextos e tecnologias mantidos a partir do CV atual. 
-- Infraestrutura e operação: servidores Windows/Linux, redes, Active Directory, monitoramento, help desk, backup/recovery, virtualização e IoT — trajetória de TIC na Agrodan. 
+## Competências e aplicações
 
-### Origem das competências
- Os cases e módulos abaixo relacionam as competências ao problema, à implementação e à experiência correspondente. Tecnologias informadas na trajetória profissional são diferenciadas dos artefatos localizados nos projetos.
+### IA, agentes e automação
+ Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.
+ Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer.
+
+### Machine Learning e pesquisa
+ Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.
+ EFS-AHP no doutorado, TraderMind e modelagem exploratória de irrigação.
+
+### Engenharia de software
+ Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.
+ SIA/SIAgro, EBSERH, The Game Project e produtos independentes.
+
+### Dados e decisão
+ ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.
+ Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística.
+
+### Liderança e operações
+ Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.
+ Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner.
+
+### Produtos e computação visual
+ Desenvolvimento de produtos, automação de navegação, ferramentas de domínio, mapas, interação 3D e prototipação.
+ Utilibox, Launch With Me, Scrapers, Mocap e Dente de Leão.
 
 ## Tecnologias e ferramentas
- 
-- Linguagens: Python, JavaScript, TypeScript, Java e SQL. 
-- Web: React, Next.js, Astro, Node.js/Express, Flask, Redux, Zustand e MUI. 
-- Mobile: React Native, Expo, React Navigation, AsyncStorage e Capacitor. 
-- Java corporativo: JSF, PrimeFaces, EJB e JPA/Hibernate. 
-- Dados: Oracle, SQL Server, PostgreSQL/Supabase, SQLite, MySQL, Sequelize, pandas, NumPy e Parquet/PyArrow. 
-- ML e pesquisa: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, statsmodels, DEAP e Jupyter. 
-- Visão e gráficos: OpenCV, Ultralytics/YOLO, PyTorch, TensorFlow.js, MediaPipe, Three.js, React Three Fiber, Rapier e Leaflet. 
-- Otimização: OR-Tools/CBC, GLPK, AHP, TOPSIS, PROMETHEE e simulated annealing. 
-- Integrações: Gemini, Pluggy/Open Finance, Telegram, Stripe, MetaTrader5 e automação de navegador. 
-- Ambiente e entrega: Git, Docker, migrations, RLS/RPC, autenticação e configuração de hospedagem. 
-- Cloud e dados profissionais (CV atual): Azure, GCP, AWS, BigQuery, PySpark, Airflow, dbt e MLflow. 
-- Plataforma e automação profissionais (CV atual): Docker, Kubernetes, Terraform, Power BI, Power Platform, RPA e BPMN. 
-- Infraestrutura e IoT profissionais (CV atual): Windows Server, Linux, firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino e Raspberry Pi. 
+ Linguagens: Python, SQL, JavaScript, TypeScript e Java.
+ Web, APIs e produtos: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase.
+ Mobile e offline: React Native, Expo, AsyncStorage, IndexedDB e Dexie; integrações com terminal MetaTrader5.
+ Dados e persistência: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize.
+ ML e visão computacional: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js e MediaPipe.
+ Decisão e visualização: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js e React Three Fiber.
+ Automação e integração: APIs de LLM, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform e RPA.
+ Cloud e operação: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI.
 
-### Stack principal ampliada
+## Projetos e engenharia aplicada na Agrodan
+ Ecossistema SIA / SIAgro · experiência profissional
+
+### PLANAGRO — insumos, aplicações e regras agronômicas
+ Desenvolvi componentes de planejamento agrícola no PLANAGRO, traduzindo aplicação de insumos, dosagem, carência, deriva e orçamento em regras e interfaces ligadas aos dados operacionais.
  
-- Python 
-- SQL 
-- BigQuery 
-- Azure 
-- Power BI 
-- Power Platform 
-- React.js 
-- Node.js 
-- Oracle Database 
-- Machine Learning 
-- MCP 
-- RAG 
-- Agentic AI 
-- RPA 
-- ETL 
-- ERP Integration 
-- Telegram Bot API 
-- IoT 
-- Zabbix / GLPI 
-- Active Directory 
-- JavaScript 
-- TypeScript 
-- Java 
-- React Native 
-- Expo 
-- Next.js 
-- Astro 
-- Express 
-- Flask 
-- JSF 
-- PrimeFaces 
-- EJB 
-- JPA/Hibernate 
-- PostgreSQL 
-- Supabase 
-- SQLite 
-- SQL Server 
-- Sequelize 
-- pandas 
-- NumPy 
-- scikit-learn 
-- XGBoost 
-- LightGBM 
-- CatBoost 
-- SciPy 
-- DEAP 
-- Jupyter 
-- Ultralytics/YOLO 
-- OpenCV 
-- TensorFlow.js 
-- MediaPipe 
-- Three.js 
-- React Three Fiber 
-- Rapier 
-- Leaflet 
-- OR-Tools 
-- GLPK 
-- Dexie 
-- AHP 
-- TOPSIS 
-- PROMETHEE 
+- PLANAGRO.js concentra uma interface de planejamento e funções especializadas. 
+- Funções avisoAplicacoes, avisoCarencia, avisoDosagem, avisoDeriva, avisoInsumo e avisoOrcamento representam verificações do domínio. Engenharia e tecnologias: React · JavaScript · Node.js · APIs operacionais · regras agronômicas.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### Irrigação — programação, algoritmos genéticos e rede neural para Kc
+ Explorei programação de irrigação, algoritmos genéticos e modelagem neural de Kc, trabalhando com codificação de variáveis, normalização, parâmetros de rede e integração ao backend operacional.
+ 
+- ProgIrrig recebe horários, limites de rega, intervalos e dados de válvulas; organiza programação por cabeçal. 
+- indexIrrigacao contém população, estrutura de cromossomo, avaliação e evolução genética. Engenharia e tecnologias: JavaScript · Node.js · algoritmos genéticos · rede neural · normalização.
+ Modelagem exploratória; desempenho fora da amostra ainda não demonstrado.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### Auditoria de pulverização — mapas e execução
+ Construí componentes de auditoria da pulverização com dados espaciais e operacionais, relacionando trajetória, velocidade, talhões e serviços para apoiar investigação da execução em campo.
+ 
+- Interface utiliza dados e camadas cartográficas para analisar trajetos. 
+- O arquivo contém Dist, cálculo de média/desvio, avaliar_pulv e velocidadeAcimaPorc. Engenharia e tecnologias: React · dados geoespaciais · trajetória · velocidade · APIs operacionais.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### Matéria seca — previsão e ponto de colheita
+ Implementei componentes de análise de matéria seca e previsão de colheita, relacionando leituras, variedades e parâmetros a gráficos e regras de acompanhamento.
+ 
+- Funções calcular_previsao, calcular_alpha, equacoes e isPontoColheita aparecem na implementação. 
+- Filtros por fazenda, semana/ano e variedades ligam resultado ao contexto da colheita. Engenharia e tecnologias: React · JavaScript · curvas e equações · gráficos · dados de campo.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### Caderno de campo e compras — dados locais e sincronização
+ Desenvolvi fluxos de coleta de campo e solicitações de compras com dados locais, componentes de processo e rotinas de sincronização, integrados ao backend por domínio.
+ 
+- CadernoCampo/Apontamentos utiliza Dexie e módulos de localDb/downloadData. 
+- Handlers tratam colaboradores, seleção, rateio, data, processo e serviços. Engenharia e tecnologias: React · Dexie · IndexedDB · Node.js · sincronização.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### Gestão UGB, pessoas e sugestões de melhoria
+ Modelei aplicações de gestão de unidades e pessoas e fluxos de sugestão de melhorias, articulando dados organizacionais, histórico, avaliações, papéis e documentos.
+ 
+- GestaoUGBs organiza módulos para unidades, funcionários, avaliação humana, 5S, planos, qualificação e sugestões. 
+- Funcionários inclui componentes de histórico/cadastro/faltas e banco local no acervo. Engenharia e tecnologias: React · Node.js · modelagem organizacional · avaliações · histórico.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### Comercial, previsão de resultados e movimentação de pallets
+ Desenvolvi componentes de acompanhamento comercial e logística, relacionando lançamentos e previsões a interfaces de gestão e dados operacionais de pallets e containers.
+ 
+- COMERCIAL/Resultados contém lançamentos, auditorias e visão gerencial. 
+- PrevisaoResultados compõe previsão, acompanhamento e câmbio em telas próprias. Engenharia e tecnologias: React · Node.js · dados comerciais · pallets · containers.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### ETL modular e qualidade de dados
+ Estruturei pipelines de integração com importadores reutilizáveis, processamento em lotes e regras específicas para produção, packing, qualidade e pessoas, organizando dados operacionais para análise e apoio à decisão.
+ 
+- Base de importação reutilizável com callbacks por lote. 
+- Importadores from_queries obtêm dados em SQL; from_dwh cruza registros já disponíveis. Engenharia e tecnologias: Node.js · SQL · Oracle · Sequelize · ETL · importação em lotes.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### SIAgro — coleta operacional mobile
+ Desenvolvi módulos mobile do SIAgro para ordens de serviço, apontamentos e qualidade, combinando React Native/Expo, modelagem de objetos de negócio, persistência local e visualização de indicadores.
+ 
+- React Native/Expo e React Navigation para as telas e navegação. 
+- Objetos de ordem de serviço, apontamento, funcionário e qualidade. Engenharia e tecnologias: React Native · Expo · AsyncStorage · React Navigation · APIs.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### Gestão de TIC — Agrodan
+ Gerenciei a operação de TIC, integrando suporte, servidores, redes, continuidade, ERP e iniciativas de IoT à entrega de serviços e soluções para a empresa.
+ 
+- Rotinas de equipe, help desk e parque de dispositivos constam no cargo de Gerente de TIC. 
+- Administração Windows/Linux, Active Directory e redes corporativas consta no relato profissional. Engenharia e tecnologias: Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT.
+ Trajetória Agrodan · Detalhes técnicos e fontes 
+
+## Pesquisa aplicada e formação
+ Doutorado, estágio hospitalar e projetos de faculdade
+
+### EFS-AHP — framework de pesquisa
+ Desenvolvi a pesquisa EFS-AHP no doutorado, combinando seleção de atributos, algoritmos evolutivos e decisão multicritério, com comparação de alternativas de ML e análise experimental de desempenho, dimensionalidade e custo.
+ 
+- Rotinas de busca evolutiva e avaliação de subconjuntos. 
+- Julgamentos e pesos AHP para estruturar prioridades entre alternativas. Engenharia e tecnologias: Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP.
+ Doutorado · Detalhes técnicos e fontes 
+
+### Indicadores hospitalares e gamificação acadêmica
+ No estágio hospitalar, desenvolvi sistema web de indicadores e avaliações com Java EE. Na faculdade, construí uma aplicação de gestão de projetos com gamificação e persistência, explorando regras de progressão e organização de tarefas.
+ 
+- EBSERH separa módulo EJB de negócio e módulo WAR/JSF de apresentação. 
+- Entidades e beans representam indicadores e avaliações. Engenharia e tecnologias: Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz.
+ Estágio hospitalar · Contexto e projetos · Detalhes técnicos e fontes 
+
+## Projetos de IA, sistemas multiagentes e Machine Learning
+ Desenvolvimento independente e pesquisa quantitativa
+
+### Conselho de seis agentes — Planejamento Xavier
+ Implementei um conselho de seis agentes especializados para apoiar planejamento e replanejamento, com evidências por recomendação, resolução determinística de conflitos e geração de ações rastreáveis.
+ 
+- Estratégico: identifica impacto sistêmico e áreas prioritárias sem objetivos. 
+- Execução: observa tarefas atrasadas e tarefas sem vínculo com metas; considera capacidade semanal. Engenharia e tecnologias: TypeScript · Deno · Supabase · contratos tipados · resolução de conflitos.
+ Coordenação de agentes por regras; integração de LLMs em camada própria.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Ensemble de agentes financeiros — TraderMind
+ Estruturei experimentos de políticas multiagentes com votação de sinais, quórum e otimização por simulated annealing, organizando calibração, validação temporal e teste fora da amostra.
+ 
+- Sinais de RSI, CCI, Williams, Bollinger, posição de preço e médias são combinados com Nasdaq, ETH, MFI, MACD e funding. 
+- A política BTC consultada tem doze sinais/agentes, votos ternários e regras de concordância e mínimo de agentes ativos. Engenharia e tecnologias: Python · pandas · NumPy · simulated annealing · validação temporal.
+ Pesquisa com agentes de sinais; sem resultado financeiro validado neste levantamento.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Motor compartilhado de IA — Planejamento Xavier
+ Desenvolvi uma camada compartilhada de integração de IA com adaptação de provedores, respostas estruturadas, validação, orçamento de tempo e tratamento de falhas por tarefa.
+ 
+- Abstração de provedores e capacidades json, text e grounded_search. 
+- Seleção de Gemini, DeepSeek, OpenAI e APIs compatíveis conforme configuração; presença de adaptador não prova uso de todos em produção. Engenharia e tecnologias: TypeScript · Deno · APIs de LLM · JSON · telemetria · fallback.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Revisão de planos com IA e regras
+ Modelei propostas de revisão assistidas por IA com validação de referências, alternativas, operações e acompanhamento, preservando o vínculo das mudanças com o plano real.
+ 
+- Contexto autorizado contém IDs reais, fatos, capacidade, diagnóstico e decisões anteriores. 
+- O contrato compara manter, simplificar, ajustar estratégia, pedir informação ou rodar experimento. Engenharia e tecnologias: TypeScript · Supabase · contratos de operações · validação referencial.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Planejamento pedagógico assistido — ClassPlanner
+ Integrei geração de planos de aula com Gemini a uma aplicação web, usando contexto pedagógico, referências BNCC e saída estruturada para objetivos, metodologia e avaliação.
+ 
+- Prompt combina turma, disciplina, contexto, duração, recursos, avaliação e habilidades BNCC. 
+- Instrução de domínio pede objetivos, metodologia por etapas, recursos e avaliação em JSON. Engenharia e tecnologias: React · Node.js · Express · SQLite · Gemini · BNCC.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### CRM conversacional híbrido — Instagram Conversion CRM
+ Construí um fluxo conversacional híbrido de IA e regras, com memória de interação, contrato de ações, tratamento de falhas e encaminhamento humano.
+ 
+- Motor SPIN por regras calcula o fallback antes da chamada ao modelo. 
+- Contexto inclui etapa atual, últimas mensagens e perguntas já feitas. Engenharia e tecnologias: Node.js · Express · SQLite · Gemini · memória conversacional.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### TraderMind — do experimento à inferência
+ Estruturei experimentos quantitativos e componentes de inferência, conectando preparação de dados, avaliação de modelos e políticas a uma API e ao terminal MetaTrader5.
+ 
+- Acervo de notebooks e scripts com pandas, NumPy, scikit-learn, boosting e bibliotecas de deep learning. 
+- Features e dados históricos alimentam estudos e experimentos temporais. Engenharia e tecnologias: Python · scikit-learn · XGBoost · pandas · Flask · MetaTrader5.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### DVR — feedback, dataset e treinamento
+ Implementei um fluxo de visão computacional com detecção, revisão de exemplos e treinamento de classificador personalizado a partir de modelo pré-treinado, integrando acompanhamento de épocas, checkpoint, estabilização temporal e alertas persistentes.
+ 
+- Detecção produz candidatos e recortes; a revisão no dashboard/Telegram pode alimentar classes do dataset. 
+- prepare_dataset separa treino/validação por classe com embaralhamento determinístico. Engenharia e tecnologias: Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Mocap — ML no cliente e visualização
+ Desenvolvi protótipos de estimação de pose no navegador, integrando inferência, visualização de keypoints e suavização temporal para explorar captura de movimento e interação com recursos 3D.
+ 
+- Alternativas MoveNet e BlazePose/MediaPipe no acervo. 
+- Inferência TensorFlow.js/MediaPipe e coordenação do ciclo de vídeo/renderização. Engenharia e tecnologias: JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL.
+ Protótipos e estudos de interação e visualização.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+## Produtos digitais, decisão e computação visual
+ Iniciativas independentes, protótipos e experimentação empreendedora
+
+### Utilibox — multicritério, filas e métodos aplicados
+ Implementei ferramentas de apoio à decisão e aprendizagem com métodos multicritério, filas, simulação, matemática financeira e repetição espaçada, traduzindo modelos em interfaces e cálculos explicáveis.
+ 
+- AHP: pesos, consistência e julgamentos em grupo. 
+- TOPSIS: normalização, pesos, ideais e proximidade relativa. Engenharia e tecnologias: Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulação.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Cartola e Logística — decisão com restrições
+ Desenvolvi pipelines que conectam dados e otimização à decisão, explorando escalações sob orçamento/formação e roteamento com visualização geográfica.
+ 
+- Cartola: ETL de históricos, representação probabilística por Markov e programação inteira OR-Tools/CBC para orçamento/formação. 
+- Logística: mapas Leaflet, desenho de áreas e experimentos de roteamento/TSP com heurísticas e algoritmos genéticos. Engenharia e tecnologias: Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Narra/Utilinotas — domínio e conhecimento
+ Construí módulos de organização narrativa e conhecimento, com relações entre entidades, assistência contextual, rastreabilidade de respostas e interoperabilidade de notas.
+ 
+- Narra modela obras, personagens, cenas, relações e cânone. 
+- Writing companion encaminha intenções para funções do domínio. Engenharia e tecnologias: JavaScript · TypeScript · Astro · entidades e relações · Markdown.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Marketplace, automações e interação 3D
+ Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.
+ 
+- Launch With Me: rotas por papéis, schema, migrations, RLS/RPC e missões/evidências. 
+- Scrapers: adaptadores por site, runner, supervisão e distribuição de ofertas. Engenharia e tecnologias: Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Conector desktop MetaTrader5 — TraderMind
+ Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
+ 
+- Conector utiliza o pacote MetaTrader5 oficial e depende do terminal aberto/autenticado. 
+- Consulta conta e dados de candles; prepara o fluxo de operação ligado à política/inferência. Engenharia e tecnologias: Python · MetaTrader5 · Flask · SQLite · APIs locais.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Dente de Leão — mundo e interação narrativa
+ Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.
+ 
+- src/core concentra entrada do usuário. 
+- src/game organiza mundo, personagem, câmera e interação. Engenharia e tecnologias: TypeScript · React Three Fiber · Three.js · Rapier · Zustand.
+ Protótipos e estudos de interação e visualização.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+### Mapas, modelos e exploração espacial
+ Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.
+ 
+- Logística reúne componentes de mapa, canvas, desenho e roteirização. 
+- Leaflet inclui uma página própria e biblioteca de roteamento de terceiros. Engenharia e tecnologias: JavaScript · React · Leaflet · Three.js · Canvas · FBX.
+ Protótipos e estudos de interação e visualização.
+ Contexto e projetos · Detalhes técnicos e fontes 
+
+# Anexos: acervo técnico completo
 
 ## Vínculos entre projetos e trajetória
 

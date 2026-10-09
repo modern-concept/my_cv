@@ -169,6 +169,14 @@ def build():
     all_sections=base_parts+[association_map]+new_sections+preserved
     contact=' · '.join(esc(item['label'])+': '+esc(item['value']) for item in current['contact']['items'])
     experimental['extensions']={'version':'experimental-additive','generatedAt':DATE,'language':'pt','sourceCommit':'648d76f','method':'CV original preservado. Habilidades, ferramentas e stack ajustadas; especialidades, cases, módulos e evidências acrescentados. Artefatos Git não equivalem automaticamente a autoria exclusiva, implantação ou resultado.', 'cases':cases,'projects':project_records,'topics':proposal['topics'],'agroBusinessModules':proposal['agroBusinessModules'],'agroTechnicalFlows':proposal['agroModules'],'skillProvenance':proposal['skillProvenance'],'utiliboxCatalog':proposal['utiliboxTools']}
+    editorial=runpy.run_path(str(BASE/'scripts/cv-editorial.py'))
+    experimental['extensions']['editorial']=editorial['editor_data']()
+    pt['skills']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['skillGroups']]
+    pt['tools']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['technologyGroups']]
+    pt['fullCv']['coreStack']=['Python','SQL','JavaScript','TypeScript','Java','React','Node.js','React Native / Expo','Oracle / PostgreSQL','BigQuery','Azure','Power Platform','scikit-learn','YOLO / OpenCV','APIs de LLM','ETL']
+    base_parts[-2]=section('competencias','Competências e aplicações', ''.join('<h3>'+esc(g['title'])+'</h3>'+paras([g['description'],g['origin']]) for g in experimental['extensions']['editorial']['skillGroups']))
+    base_parts[-1]=section('tecnologias','Tecnologias e ferramentas', ''.join('<p><strong>'+esc(g['title'])+':</strong> '+esc(g['description'])+'</p>' for g in experimental['extensions']['editorial']['technologyGroups']))
+    all_sections=base_parts+[association_map]+new_sections+preserved
     (BASE/'cv-experimental-data.json').write_text(json.dumps(experimental,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     engine=runpy.run_path(str(BASE/'scripts/experimental-engine.py'))
     engine_sections=[association_map]+new_sections
@@ -180,7 +188,8 @@ def build():
     if internal_links-ids: raise ValueError('Vínculos sem destino: '+str(internal_links-ids))
     (BASE/'cv-experimental.html').write_text(page,encoding='utf-8')
     # Text counterpart includes the same visible content for plain-text readers.
-    text=re.sub(r'<(h[1-4])[^>]*>(.*?)</\1>',lambda m:'\n\n'+'#'*int(m[1][1])+' '+re.sub('<[^>]+>','',m[2])+'\n', ''.join(all_sections),flags=re.S)
+    text_sections=''.join(base_parts)+editorial['core_sections'](experimental)+'<h1>Anexos: acervo técnico completo</h1>'+''.join([association_map]+new_sections+preserved)
+    text=re.sub(r'<(h[1-4])[^>]*>(.*?)</\1>',lambda m:'\n\n'+'#'*int(m[1][1])+' '+re.sub('<[^>]+>','',m[2])+'\n', text_sections,flags=re.S)
     text=re.sub(r'<li[^>]*>','\n- ',text)
     text=re.sub(r'<(?:br|/p|/article|/tr)[^>]*>','\n',text)
     text=re.sub(r'<[^>]+>',' ',text)

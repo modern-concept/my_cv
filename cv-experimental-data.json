@@ -285,65 +285,20 @@
         "coreStack": [
           "Python",
           "SQL",
-          "BigQuery",
-          "Azure",
-          "Power BI",
-          "Power Platform",
-          "React.js",
-          "Node.js",
-          "Oracle Database",
-          "Machine Learning",
-          "MCP",
-          "RAG",
-          "Agentic AI",
-          "RPA",
-          "ETL",
-          "ERP Integration",
-          "Telegram Bot API",
-          "IoT",
-          "Zabbix / GLPI",
-          "Active Directory",
           "JavaScript",
           "TypeScript",
           "Java",
-          "React Native",
-          "Expo",
-          "Next.js",
-          "Astro",
-          "Express",
-          "Flask",
-          "JSF",
-          "PrimeFaces",
-          "EJB",
-          "JPA/Hibernate",
-          "PostgreSQL",
-          "Supabase",
-          "SQLite",
-          "SQL Server",
-          "Sequelize",
-          "pandas",
-          "NumPy",
+          "React",
+          "Node.js",
+          "React Native / Expo",
+          "Oracle / PostgreSQL",
+          "BigQuery",
+          "Azure",
+          "Power Platform",
           "scikit-learn",
-          "XGBoost",
-          "LightGBM",
-          "CatBoost",
-          "SciPy",
-          "DEAP",
-          "Jupyter",
-          "Ultralytics/YOLO",
-          "OpenCV",
-          "TensorFlow.js",
-          "MediaPipe",
-          "Three.js",
-          "React Three Fiber",
-          "Rapier",
-          "Leaflet",
-          "OR-Tools",
-          "GLPK",
-          "Dexie",
-          "AHP",
-          "TOPSIS",
-          "PROMETHEE"
+          "YOLO / OpenCV",
+          "APIs de LLM",
+          "ETL"
         ]
       },
       "experience": [
@@ -416,78 +371,48 @@
       ],
       "tools": [
         {
-          "name": "Linguagens: Python, JavaScript, TypeScript, Java e SQL."
+          "name": "Linguagens: Python, SQL, JavaScript, TypeScript e Java."
         },
         {
-          "name": "Web: React, Next.js, Astro, Node.js/Express, Flask, Redux, Zustand e MUI."
+          "name": "Web, APIs e produtos: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase."
         },
         {
-          "name": "Mobile: React Native, Expo, React Navigation, AsyncStorage e Capacitor."
+          "name": "Mobile e offline: React Native, Expo, AsyncStorage, IndexedDB e Dexie; integrações com terminal MetaTrader5."
         },
         {
-          "name": "Java corporativo: JSF, PrimeFaces, EJB e JPA/Hibernate."
+          "name": "Dados e persistência: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize."
         },
         {
-          "name": "Dados: Oracle, SQL Server, PostgreSQL/Supabase, SQLite, MySQL, Sequelize, pandas, NumPy e Parquet/PyArrow."
+          "name": "ML e visão computacional: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js e MediaPipe."
         },
         {
-          "name": "ML e pesquisa: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, statsmodels, DEAP e Jupyter."
+          "name": "Decisão e visualização: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js e React Three Fiber."
         },
         {
-          "name": "Visão e gráficos: OpenCV, Ultralytics/YOLO, PyTorch, TensorFlow.js, MediaPipe, Three.js, React Three Fiber, Rapier e Leaflet."
+          "name": "Automação e integração: APIs de LLM, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform e RPA."
         },
         {
-          "name": "Otimização: OR-Tools/CBC, GLPK, AHP, TOPSIS, PROMETHEE e simulated annealing."
-        },
-        {
-          "name": "Integrações: Gemini, Pluggy/Open Finance, Telegram, Stripe, MetaTrader5 e automação de navegador."
-        },
-        {
-          "name": "Ambiente e entrega: Git, Docker, migrations, RLS/RPC, autenticação e configuração de hospedagem."
-        },
-        {
-          "name": "Cloud e dados profissionais (CV atual): Azure, GCP, AWS, BigQuery, PySpark, Airflow, dbt e MLflow."
-        },
-        {
-          "name": "Plataforma e automação profissionais (CV atual): Docker, Kubernetes, Terraform, Power BI, Power Platform, RPA e BPMN."
-        },
-        {
-          "name": "Infraestrutura e IoT profissionais (CV atual): Windows Server, Linux, firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino e Raspberry Pi."
+          "name": "Cloud e operação: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI."
         }
       ],
       "skills": [
         {
-          "name": "Engenharia de software: arquitetura de aplicações, modelagem de domínio, regras de negócio, APIs e persistência."
+          "name": "IA, agentes e automação: Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos."
         },
         {
-          "name": "Desenvolvimento web e mobile: interfaces, dashboards, formulários e aplicações React Native/Expo."
+          "name": "Machine Learning e pesquisa: Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal."
         },
         {
-          "name": "Dados e integração: ETL, SQL, coleta, validação, históricos, integrações corporativas e analytics."
+          "name": "Engenharia de software: Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop."
         },
         {
-          "name": "Automação e operação: navegador, jobs, filas, estado persistente, notificações e supervisão."
+          "name": "Dados e decisão: ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições."
         },
         {
-          "name": "Pesquisa e decisão: seleção de atributos, estatística, algoritmos genéticos, otimização e métodos multicritério."
+          "name": "Liderança e operações: Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança."
         },
         {
-          "name": "IA aplicada: ML tabular, visão computacional, integração de LLMs e coordenação de agentes por regras e votação."
-        },
-        {
-          "name": "Computação visual: mapas, pose, renderização 3D, interação, física e animação."
-        },
-        {
-          "name": "Produto e liderança: tradução de necessidades, experimentação, priorização, governança e desenvolvimento de equipes."
-        },
-        {
-          "name": "Gestão e liderança profissional: PMBOK, Scrum, Kanban, arquitetura, mentoria, comunicação e segurança."
-        },
-        {
-          "name": "Experiência profissional já declarada: MLOps, RAG, MCP, Agentic AI e RPA; contextos e tecnologias mantidos a partir do CV atual."
-        },
-        {
-          "name": "Infraestrutura e operação: servidores Windows/Linux, redes, Active Directory, monitoramento, help desk, backup/recovery, virtualização e IoT — trajetória de TIC na Agrodan."
+          "name": "Produtos e computação visual: Desenvolvimento de produtos, automação de navegação, ferramentas de domínio, mapas, interação 3D e prototipação."
         }
       ]
     },
@@ -29672,6 +29597,106 @@
         ],
         "sourceFolderExists": true
       }
-    ]
+    ],
+    "editorial": {
+      "skillGroups": [
+        {
+          "title": "IA, agentes e automação",
+          "description": "Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.",
+          "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer."
+        },
+        {
+          "title": "Machine Learning e pesquisa",
+          "description": "Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.",
+          "origin": "EFS-AHP no doutorado, TraderMind e modelagem exploratória de irrigação."
+        },
+        {
+          "title": "Engenharia de software",
+          "description": "Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.",
+          "origin": "SIA/SIAgro, EBSERH, The Game Project e produtos independentes."
+        },
+        {
+          "title": "Dados e decisão",
+          "description": "ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.",
+          "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística."
+        },
+        {
+          "title": "Liderança e operações",
+          "description": "Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.",
+          "origin": "Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner."
+        },
+        {
+          "title": "Produtos e computação visual",
+          "description": "Desenvolvimento de produtos, automação de navegação, ferramentas de domínio, mapas, interação 3D e prototipação.",
+          "origin": "Utilibox, Launch With Me, Scrapers, Mocap e Dente de Leão."
+        }
+      ],
+      "technologyGroups": [
+        {
+          "title": "Linguagens",
+          "description": "Python, SQL, JavaScript, TypeScript e Java."
+        },
+        {
+          "title": "Web, APIs e produtos",
+          "description": "React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase."
+        },
+        {
+          "title": "Mobile e offline",
+          "description": "React Native, Expo, AsyncStorage, IndexedDB e Dexie; integrações com terminal MetaTrader5."
+        },
+        {
+          "title": "Dados e persistência",
+          "description": "Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize."
+        },
+        {
+          "title": "ML e visão computacional",
+          "description": "scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js e MediaPipe."
+        },
+        {
+          "title": "Decisão e visualização",
+          "description": "AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js e React Three Fiber."
+        },
+        {
+          "title": "Automação e integração",
+          "description": "APIs de LLM, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform e RPA."
+        },
+        {
+          "title": "Cloud e operação",
+          "description": "Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI."
+        }
+      ],
+      "caseStacks": {
+        "agentes-1": "TypeScript · Deno · Supabase · contratos tipados · resolução de conflitos",
+        "agentes-2": "Python · pandas · NumPy · simulated annealing · validação temporal",
+        "ia-1": "TypeScript · Deno · APIs de LLM · JSON · telemetria · fallback",
+        "ia-2": "TypeScript · Supabase · contratos de operações · validação referencial",
+        "ia-3": "React · Node.js · Express · SQLite · Gemini · BNCC",
+        "ia-4": "Node.js · Express · SQLite · Gemini · memória conversacional",
+        "ml-1": "Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP",
+        "ml-2": "Python · scikit-learn · XGBoost · pandas · Flask · MetaTrader5",
+        "visao-1": "Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP",
+        "visao-2": "JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL",
+        "sia-cases-1": "React · JavaScript · Node.js · APIs operacionais · regras agronômicas",
+        "sia-cases-2": "JavaScript · Node.js · algoritmos genéticos · rede neural · normalização",
+        "sia-cases-3": "React · dados geoespaciais · trajetória · velocidade · APIs operacionais",
+        "sia-cases-4": "React · JavaScript · curvas e equações · gráficos · dados de campo",
+        "sia-cases-5": "React · Dexie · IndexedDB · Node.js · sincronização",
+        "sia-cases-6": "React · Node.js · modelagem organizacional · avaliações · histórico",
+        "sia-cases-7": "React · Node.js · dados comerciais · pallets · containers",
+        "dados-1": "Node.js · SQL · Oracle · Sequelize · ETL · importação em lotes",
+        "mobile-1": "React Native · Expo · AsyncStorage · React Navigation · APIs",
+        "mobile-2": "Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz",
+        "decisao-1": "Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulação",
+        "decisao-2": "Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet",
+        "produto-1": "JavaScript · TypeScript · Astro · entidades e relações · Markdown",
+        "produto-2": "Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite",
+        "infra-1": "Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT",
+        "infra-2": "Python · MetaTrader5 · Flask · SQLite · APIs locais",
+        "grafica-1": "TypeScript · React Three Fiber · Three.js · Rapier · Zustand",
+        "grafica-2": "JavaScript · React · Leaflet · Three.js · Canvas · FBX"
+      },
+      "layout": "career-first",
+      "appendicesDefault": "collapsed"
+    }
   }
 }
