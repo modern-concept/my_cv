@@ -1,12 +1,12 @@
 {
   "meta": {
-    "defaultLang": "pt",
-    "updatedAt": "2026-03-15"
+    "defaultLang": "en",
+    "updatedAt": "2026-09-15"
   },
   "assets": {
     "avatar": "avatar.png",
     "bgDoodles": "Doodles.png",
-    "bgLeft": "DoodleLeft.png",
+    "bgLeft": "Doodle Left.png",
     "bgRight": "Doodles.png"
   },
   "theme": {
@@ -35,48 +35,48 @@
         "coverLetter": "Carta"
       },
       "coverLetter": {
-        "greeting": "Querido Leitor,",
+        "greeting": "Prezado(a) Gestor(a) de Contratacao,",
         "paragraphs": [
-          "Ao longo da minha trajetória profissional, atuei no desenvolvimento de soluções digitais orientadas a impacto mensurável, combinando engenharia de software, ciência de dados, automação e liderança técnica para resolver problemas complexos de negócio.",
-          "Tenho experiência sólida na entrega de sistemas baseados em Machine Learning, RPA e analytics, aplicados a ambientes de alta complexidade operacional. Esses projetos resultaram na automação de mais de 85% de processos antes manuais, construção de dezenas de dashboards executivos e implementação de pipelines de dados escaláveis, suportando decisões críticas em tempo quase real.",
-          "Os resultados obtidos incluem reduções recorrentes de custos na ordem de milhões de reais por ano, como economias superiores a R$ 850 mil/ano em insumos, R$ 1,2 milhão/ano em custos de mão de obra, R$ 800 mil/ano via renegociação de contratos e reduções expressivas em estoques, chegando a R$ 1,8 milhão/mês em itens de alto giro e R$ 150 mil/mês em materiais obsoletos. Adicionalmente, sistemas de auditoria automatizada reduziram em até 90% erros operacionais relacionados a uso de produtos, orçamento e rastreabilidade.",
-          "Atuei diretamente na concepção e implementação de soluções analíticas e de IA utilizando BigQuery, Azure, Power Platform, Python, SQL e BI, integrando dados corporativos, automações inteligentes e ferramentas de apoio à decisão com foco em produtividade, eficiência científica e governança.",
-          "Além da entrega técnica, exerci papel ativo na liderança de squads multidisciplinares, mentoria de desenvolvedores e definição de padrões arquiteturais, bem como na atuação em segurança da informação, assumindo responsabilidades como Information Security Manager (ISM) em contextos corporativos críticos. Esse conjunto de iniciativas foi reconhecido com 8 prêmios QMS LATAM e 2 prêmios ICS Global.",
-          "Minha formação em Engenharia e Doutorado em Engenharia de Software, aliada à vivência prática em transformação digital e inovação, sustenta uma atuação orientada a resultados, onde dados são convertidos em valor financeiro, eficiência operacional e vantagem competitiva sustentável."
+          "Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de solucoes de IA, Machine Learning e automacao para pipelines de P&D em milho e soja.",
+          "Coordeno iniciativas tecnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa. Minha experiencia combina engenharia de software, dados e RPA para aumentar a produtividade de pesquisa e a eficiencia operacional.",
+          "Em funcoes anteriores, entreguei automacao de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em ate 90%. Esses projetos tambem geraram impacto financeiro mensuravel por meio de eficiencia de processos, melhor governanca e decisoes orientadas por dados.",
+          "Tenho interesse em discutir como minha experiencia pratica em IA aplicada, plataformas de dados e lideranca tecnica pode contribuir para os desafios da posicao e da sua organizacao."
+        ],
+        "closing": "Atenciosamente,",
+        "signature": "Danillo Xavier"
+      },
+      "coverLetterSwiss": {
+        "greeting": "Prezado(a) Gestor(a) de Contratacao,",
+        "paragraphs": [
+          "Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead na Suica. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de solucoes de IA, Machine Learning e automacao para pipelines de P&D em milho e soja.",
+          "Coordeno iniciativas tecnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa. Em funcoes anteriores, entreguei automacao de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em ate 90%.",
+          "Estou baseado no Brasil e busco uma oportunidade para realocacao na Suica. Estou disponivel para entrevistas remotas e preparado para apoiar o processo de permissao de trabalho com toda a documentacao necessaria.",
+          "Acredito que minha experiencia em IA aplicada, plataformas de dados e lideranca tecnica pode contribuir de forma concreta para os desafios da sua organizacao."
         ],
         "closing": "Atenciosamente,",
         "signature": "Danillo Xavier"
       },
       "profile": {
         "name": "DANILLO XAVIER",
-        "headline": "Engenheiro de Software &\nPhD em Machine Learning",
+        "headline": "Senior AI & Automation Engineer\nTech Lead",
         "summary": [
-          "Casado, pai de uma linda menina, natural de Serra Talhada - PE, criado em Distrito de Pilar-BA.",
-          "Formado em Engenharia de Produção e PhD em Machine Learning. Possuo sólidos conhecimentos em Ciência de Dados, Desenvolvimento de Sistemas e aplicativos, Deep Learning, Big Data e Business Intelligence.",
-          "Curiosidades: Faixa Preta de Karatê Shotokan (assim como minha esposa). Apaixonado por cinema, jogos e pelo universo artístico 3D. Pratico o esporte de corrida de rua (15km). Estudo a criação de curtas-metragens com foco na Caatinga e no povo nordestino."
+          "Lider de tecnologia e engenheiro de IA e automacao com mais de 10 anos de experiencia em software corporativo, Machine Learning e automacao inteligente para operacoes complexas.",
+          "Atualmente Technology Enablement Lead na Bayer Crop Science, liderando solucoes digitais para pipelines de P&D em milho e soja. Experiencia em Python, ML, cloud, plataformas de dados e RPA, com historico de impacto operacional multimilionario."
         ]
       },
       "contact": {
         "items": [
           {
-            "label": "Nascimento",
-            "value": "05/07/1990"
-          },
-          {
             "label": "Endereço",
-            "value": "Rua da Codorna n° 41,\nColinas do rio, Petrolina-PE"
+            "value": "Petrolina, Pernambuco, Brasil"
           },
           {
-            "label": "Telefones",
-            "value": "(87) 9 8133-6310\n(74) 9 9968-7011"
+            "label": "Telefone",
+            "value": "+55 87 98133-6310"
           },
           {
             "label": "Email",
             "value": "danillox5@hotmail.com"
-          },
-          {
-            "label": "CREA-PE",
-            "value": "181609909-0"
           }
         ],
         "social": [
@@ -96,7 +96,7 @@
         "primaryExperience": [
           {
             "company": "BAYER CROP SCIENCE",
-            "role": "TECH LEAD - DIGITAL SOLUTIONS",
+            "role": "TECHNOLOGY ENABLEMENT LEAD",
             "employment": "Tempo integral",
             "period": "mai de 2024 - o momento · 1 ano 11 meses",
             "location": "Petrolina, Pernambuco, Brasil",
@@ -106,10 +106,8 @@
               "ISM Brazil Pipeline Delivery"
             ],
             "bullets": [
-              "Liderança do desenvolvimento de aplicativos com ML e RPA para suportar pipelines de breeding de milho e soja.",
-              "Construção de automações escaláveis e dashboards com Google BigQuery, Power Platform e Azure.",
-              "Integração de ferramentas de decisão baseadas em IA, com foco em produtividade e eficiência de pesquisa.",
-              "Coordenação de squads multifuncionais e mentoria de desenvolvedores em cloud-native development e analytics."
+              "Lidero o desenvolvimento de solucoes de IA, ML e automacao para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisao e RPA para elevar produtividade e eficiencia operacional.",
+              "Coordeno iniciativas tecnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa."
             ],
             "technologies": [
               "Power BI",
@@ -118,6 +116,9 @@
               "Azure",
               "Python",
               "ML",
+              "MCP",
+              "RAG",
+              "Agentic AI",
               "React.js",
               "JavaScript",
               "SQL"
@@ -292,6 +293,9 @@
           "Node.js",
           "Oracle Database",
           "Machine Learning",
+          "MCP",
+          "RAG",
+          "Agentic AI",
           "RPA",
           "ETL",
           "ERP Integration",
@@ -308,8 +312,8 @@
           "company": "BAYER CROP\nSCIENCE",
           "role": "TECHNOLOGY ENABLEMENT LEAD",
           "paragraphs": [
-            "Sou responsável pelo desenvolvimento de ferramentas de auxílio aos pesquisadores dos pipelines de melhoramento genético de Milho e Soja.",
-            "Dentre as principais contribuições estão ferramentas de tomada de decisão automatizada com RPA, Machine Learning e Ciência de Dados."
+            "Lidero o desenvolvimento de solucoes de IA, ML e automacao para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisao e RPA.",
+            "Coordeno iniciativas tecnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa."
           ]
         },
         {
@@ -321,6 +325,13 @@
             "Desenvolvi um sistema de informação integrado para geração de relatórios e coleta de dados offline. Ao longo de 5 anos foram mais de 30 módulos e 150 relatórios que vão do Campo ao setor de Embalagem.",
             "Realizei um processo de inovação Aberta, Agrodan Tech, que trouxe tecnologias inovadoras ao processo. No total, 7 startups foram selecionadas. O saving de negociação chegou a R$ 800.000,00 anuais via ajuste de contrato."
           ]
+        },
+        {
+          "from": "2012",
+          "to": "2018",
+          "company": "TRAJETORIA ANTERIOR",
+          "role": "ENGENHEIRO DE SOFTWARE SENIOR - LABRUNIER FARMS (2017-2018)\nENGENHEIRO DE SOFTWARE - LABRUNIER FARMS (2016)\nFUNDADOR DE STARTUPS E EMPREENDEDOR (2012-2019)",
+          "paragraphs": []
         }
       ],
       "education": [
@@ -364,54 +375,42 @@
       ],
       "tools": [
         {
-          "name": "GCP | Azure | AWS",
-          "level": 4
+          "name": "Cloud: Azure | GCP | AWS"
         },
         {
-          "name": "Oracle SQL | SQL SERVER, BigQuery",
-          "level": 5
+          "name": "Data: SQL | BigQuery | PySpark | Airflow | dbt"
         },
         {
-          "name": "Power BI | Power Platform",
-          "level": 3
+          "name": "AI/ML: scikit-learn | XGBoost | LightGBM | MLflow"
         },
         {
-          "name": "DBT | AirFlow | PySpark",
-          "level": 2
+          "name": "Automation: RPA | Power Platform | BPMN"
         },
         {
-          "name": "scikit-learn | MLflow | XGBoost",
-          "level": 5
+          "name": "Software: Python | React | Node.js"
         },
         {
-          "name": "Docker | Kubernetes | Terraform",
-          "level": 2
+          "name": "Platform: Docker | Kubernetes | Terraform"
         }
       ],
       "skills": [
         {
-          "name": "PMBOK | SCRUM | Kanban",
-          "level": 4
+          "name": "Delivery: PMBOK | Scrum | Kanban"
         },
         {
-          "name": "AI | ML | DevOps | MLOps",
-          "level": 4
+          "name": "AI Engineering: ML | MLOps | RAG | MCP | Agentic AI"
         },
         {
-          "name": "Web/Mobile",
-          "level": 5
+          "name": "Product Engineering: Web | Mobile | Enterprise Systems"
         },
         {
-          "name": "BPMN 2.0 / RPA",
-          "level": 5
+          "name": "Data Delivery: ETL | Analytics | Decision Support"
         },
         {
-          "name": "ETL",
-          "level": 5
+          "name": "Technical Leadership: Architecture | Mentoring | Security"
         },
         {
-          "name": "Comunicação | Liderança",
-          "level": 5
+          "name": "Communication | Leadership"
         }
       ]
     },
@@ -432,43 +431,44 @@
         "coverLetter": "Cover Letter"
       },
       "coverLetter": {
-        "greeting": "Dear Reader,",
+        "greeting": "Dear Hiring Manager,",
         "paragraphs": [
-        "Throughout my professional journey, I have focused on delivering digital solutions with measurable business impact, combining software engineering, data science, automation and technical leadership to solve complex, real-world problems.",
-"I have extensive experience delivering Machine Learning, RPA and analytics-driven systems in highly complex operational environments. These initiatives enabled the automation of over 85% of previously manual processes, the creation of dozens of executive dashboards, and the deployment of scalable data pipelines supporting near real-time decision-making.",
-
-"Key outcomes include recurring multi-million BRL annual cost reductions, such as BRL 850K/year in input savings, BRL 1.2M/year in labor cost optimization, BRL 800K/year through contract renegotiation, and significant inventory reductions reaching BRL 1.8M/month for fast-moving items and BRL 150K/month for obsolete stock. Automated auditing systems also reduced operational errors by up to 90%, improving traceability, compliance and process reliability.",
-
-"My work involved the design and implementation of AI-driven decision support tools, analytics platforms and automation frameworks using BigQuery, Azure, Power Platform, Python, SQL and BI technologies, with a strong focus on productivity, research efficiency and data governance.",
-
-"Beyond technical delivery, I have led cross-functional teams, mentored developers, defined architectural standards and contributed to information security governance, serving as an Information Security Manager (ISM) in critical delivery contexts. These contributions were recognized with 8 QMS LATAM awards and 2 ICS Global awards.",
-
-"Supported by an academic background in Engineering and a PhD in Software Engineering, combined with hands-on experience in digital transformation and innovation, I consistently translate data into financial results, operational efficiency and sustainable competitive advantage."],
+          "I am applying for Senior AI Engineer, Automation Engineer and Technology Enablement Lead opportunities. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.",
+          "I coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation. My experience combines software engineering, data platforms and RPA to improve research productivity and operational efficiency.",
+          "In previous roles, I delivered the automation of more than 85% of manual processes and audit systems that reduced operational errors by up to 90%. These projects also created measurable financial impact through improved process efficiency, governance and data-driven decisions.",
+          "I would welcome the opportunity to discuss how my applied AI, data-platform and technical-leadership experience could help address the challenges of your organization."
+        ],
+        "closing": "Sincerely,",
+        "signature": "Danillo Xavier"
+      },
+      "coverLetterSwiss": {
+        "greeting": "Dear Hiring Manager,",
+        "paragraphs": [
+          "I am applying for Senior AI Engineer, Automation Engineer and Technology Enablement Lead opportunities in Switzerland. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.",
+          "I coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation. In previous roles, I delivered the automation of more than 85% of manual processes and audit systems that reduced operational errors by up to 90%.",
+          "I am currently based in Brazil and am seeking an opportunity to relocate to Switzerland. I am available for remote interviews and prepared to support the work-permit process with all required documentation.",
+          "I would welcome the opportunity to discuss how my applied AI, data-platform and technical-leadership experience could help address the challenges of your organization."
+        ],
         "closing": "Sincerely,",
         "signature": "Danillo Xavier"
       },
       "profile": {
         "name": "DANILLO XAVIER",
-        "headline": "Software Engineer &\nPhD in Machine Learning",
+        "headline": "Senior AI & Automation Engineer\nTech Lead",
         "summary": [
-          "Married, father of a wonderful daughter, born in Serra Talhada - PE, raised in Distrito de Pilar-BA.",
-          "Graduated in Production Engineering and PhD in Machine Learning. Solid knowledge in Data Science, Systems and App Development, Deep Learning, Big Data, and Business Intelligence.",
-          "About me: Black belt in Shotokan Karate (same as my wife). Passionate about movies, games and the 3D art universe. I practice road running (15km). I study short-film creation focused on the Caatinga and the people of Northeast Brazil."
+          "Technology leader and AI & Automation Engineer with 10+ years of experience building enterprise software, ML solutions and intelligent automation for complex operational environments.",
+          "Currently Technology Enablement Lead at Bayer Crop Science, leading digital solutions for corn and soybean R&D pipelines. Experienced in Python, ML, cloud, data platforms and RPA, with a track record of delivering multi-million-BRL operational impact."
         ]
       },
       "contact": {
         "items": [
           {
-            "label": "Birth",
-            "value": "07/05/1990"
-          },
-          {
             "label": "Address",
-            "value": "Rua da Codorna n° 41,\nColinas do rio, Petrolina-PE"
+            "value": "Petrolina, Pernambuco, Brazil"
           },
           {
-            "label": "Phones",
-            "value": "+55 (87) 9 8133-6310\n+55 (74) 9 9968-7011"
+            "label": "Phone",
+            "value": "+55 87 98133-6310"
           },
           {
             "label": "Email",
@@ -492,7 +492,7 @@
         "primaryExperience": [
           {
             "company": "BAYER CROP SCIENCE",
-            "role": "TECH LEAD - DIGITAL SOLUTIONS",
+            "role": "TECHNOLOGY ENABLEMENT LEAD",
             "employment": "Full-time",
             "period": "May 2024 - Present · 1 yr 11 mos",
             "location": "Petrolina, Pernambuco, Brazil",
@@ -502,10 +502,8 @@
               "ISM Brazil Pipeline Delivery"
             ],
             "bullets": [
-              "Leading the development of ML-powered and RPA-based apps to support corn and soybean breeding pipelines.",
-              "Built scalable automations and dashboards using Google BigQuery, Power Platform and Azure.",
-              "Integrated AI-based decision tools focused on productivity and research efficiency.",
-              "Coordinated cross-functional squads and mentored developers on cloud-native development and analytics."
+              "Lead the development of AI, ML and automation solutions supporting corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA to improve research productivity and operational efficiency.",
+              "Coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation."
             ],
             "technologies": [
               "Power BI",
@@ -514,6 +512,9 @@
               "Azure",
               "Python",
               "ML",
+              "MCP",
+              "RAG",
+              "Agentic AI",
               "React.js",
               "JavaScript",
               "SQL"
@@ -688,6 +689,9 @@
           "Node.js",
           "Oracle Database",
           "Machine Learning",
+          "MCP",
+          "RAG",
+          "Agentic AI",
           "RPA",
           "ETL",
           "ERP Integration",
@@ -704,8 +708,8 @@
           "company": "BAYER CROP\nSCIENCE",
           "role": "TECHNOLOGY ENABLEMENT LEAD",
           "paragraphs": [
-            "Responsible for developing tools that support researchers in corn and soybean breeding pipelines.",
-            "Key contributions include automated decision-support tools using RPA, Machine Learning and Data Science."
+            "Lead the development of AI, ML and automation solutions supporting corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA.",
+            "Coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation."
           ]
         },
         {
@@ -717,6 +721,13 @@
             "Built an integrated information system for reporting and offline data collection. Over 5 years, delivered 30+ modules and 150 reports spanning field operations to the packaging sector.",
             "Led an Open Innovation program (Agrodan Tech) bringing innovative technologies to the process. 7 startups were selected; negotiation savings reached ~R$ 800,000/year via contract adjustments."
           ]
+        },
+        {
+          "from": "2012",
+          "to": "2018",
+          "company": "EARLIER EXPERIENCE",
+          "role": "SENIOR SOFTWARE ENGINEER - LABRUNIER FARMS (2017-2018)\nSOFTWARE ENGINEER - LABRUNIER FARMS (2016)\nSTARTUP FOUNDER & ENTREPRENEUR (2012-2019)",
+          "paragraphs": []
         }
       ],
       "education": [
@@ -760,54 +771,349 @@
       ],
       "tools": [
         {
-          "name": "GCP | Azure | AWS",
-          "level": 4
+          "name": "Cloud: Azure | GCP | AWS"
         },
         {
-          "name": "Oracle SQL | SQL SERVER | POSTGRESQL",
-          "level": 5
+          "name": "Data: SQL | BigQuery | PySpark | Airflow | dbt"
         },
         {
-          "name": "Power BI",
-          "level": 3
+          "name": "AI/ML: scikit-learn | XGBoost | LightGBM | MLflow"
         },
         {
-          "name": "DBT | AirFlow | PySpark",
-          "level": 2
+          "name": "Automation: RPA | Power Platform | BPMN"
         },
         {
-          "name": "scikit-learn | MLflow | XGBoost | LightGBM",
-          "level": 5
+          "name": "Software: Python | React | Node.js"
         },
         {
-          "name": "Docker | Kubernetes | Terraform",
-          "level": 2
+          "name": "Platform: Docker | Kubernetes | Terraform"
         }
       ],
       "skills": [
         {
-          "name": "PMBOK | SCRUM | Kanban",
-          "level": 4
+          "name": "Delivery: PMBOK | Scrum | Kanban"
         },
         {
-          "name": "AI | ML | DevOps | MLOps",
-          "level": 4
+          "name": "AI Engineering: ML | MLOps | RAG | MCP | Agentic AI"
         },
         {
-          "name": "Web/Mobile",
-          "level": 5
+          "name": "Product Engineering: Web | Mobile | Enterprise Systems"
         },
         {
-          "name": "BPMN 2.0 / RPA",
-          "level": 5
+          "name": "Data Delivery: ETL | Analytics | Decision Support"
         },
         {
-          "name": "ETL",
-          "level": 5
+          "name": "Technical Leadership: Architecture | Mentoring | Security"
         },
         {
-          "name": "Comunication | Leadership",
-          "level": 5
+          "name": "Communication | Leadership"
+        }
+      ]
+    },
+    "de": {
+      "labels": {
+        "experience": "BERUFSERFAHRUNG",
+        "contact": "KONTAKT",
+        "education": "AUSBILDUNG",
+        "tools": "TOOLS",
+        "skills": "KOMPETENZEN",
+        "fullCv": "VOLLSTANDIGER LEBENSLAUF",
+        "fullExperience": "BERUFSERFAHRUNG",
+        "profileSummary": "PROFIL",
+        "careerHighlights": "WIRKUNG UND ERGEBNISSE",
+        "additionalExperience": "WEITERE ERFAHRUNG",
+        "coreStack": "TECHNOLOGIE-STACK",
+        "printPdf": "Drucken / PDF",
+        "coverLetter": "Anschreiben"
+      },
+      "coverLetter": {
+        "greeting": "Sehr geehrte Damen und Herren,",
+        "paragraphs": [
+          "hiermit bewerbe ich mich fur Positionen als Senior AI Engineer, Automation Engineer oder Technology Enablement Lead. Als Technology Enablement Lead bei Bayer Crop Science leite ich die Entwicklung von KI-, Machine-Learning- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja.",
+          "Ich koordiniere funktionsubergreifende technische Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung. Meine Erfahrung verbindet Software Engineering, Datenplattformen und RPA zur Steigerung von Forschungsproduktivitat und betrieblicher Effizienz.",
+          "In fruheren Rollen automatisierte ich mehr als 85 % manueller Prozesse und realisierte Auditsysteme, die operative Fehler um bis zu 90 % reduzierten. Diese Projekte schufen durch hohere Prozesseffizienz, Governance und datenbasierte Entscheidungen messbaren wirtschaftlichen Nutzen.",
+          "Gerne erlautere ich, wie meine Erfahrung mit angewandter KI, Datenplattformen und technischer Fuhrung zu den Herausforderungen Ihres Unternehmens beitragen kann."
+        ],
+        "closing": "Mit freundlichen Grussen,",
+        "signature": "Danillo Xavier"
+      },
+      "coverLetterSwiss": {
+        "greeting": "Sehr geehrte Damen und Herren,",
+        "paragraphs": [
+          "hiermit bewerbe ich mich fur Positionen als Senior AI Engineer, Automation Engineer oder Technology Enablement Lead in der Schweiz. Als Technology Enablement Lead bei Bayer Crop Science leite ich die Entwicklung von KI-, Machine-Learning- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja.",
+          "Ich koordiniere funktionsubergreifende technische Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung. In fruheren Rollen automatisierte ich mehr als 85 % manueller Prozesse und realisierte Auditsysteme, die operative Fehler um bis zu 90 % reduzierten.",
+          "Ich lebe derzeit in Brasilien und suche eine Gelegenheit zur Umsiedlung in die Schweiz. Fur Remote-Interviews stehe ich zur Verfugung und bin darauf vorbereitet, das Arbeitsbewilligungsverfahren mit allen erforderlichen Unterlagen zu unterstutzen.",
+          "Gerne erlautere ich, wie meine Erfahrung mit angewandter KI, Datenplattformen und technischer Fuhrung zu den Herausforderungen Ihres Unternehmens beitragen kann."
+        ],
+        "closing": "Mit freundlichen Grussen,",
+        "signature": "Danillo Xavier"
+      },
+      "profile": {
+        "name": "DANILLO XAVIER",
+        "headline": "Senior AI & Automation Engineer\nTech Lead",
+        "summary": [
+          "Technologiefuhrungskraft und AI & Automation Engineer mit uber 10 Jahren Erfahrung in Enterprise-Software, Machine Learning und intelligenter Automatisierung fur komplexe Betriebsumgebungen.",
+          "Derzeit Technology Enablement Lead bei Bayer Crop Science und verantwortlich fur digitale Losungen in den Mais- und Soja-Forschungs- und Entwicklungs-Pipelines. Erfahrung in Python, ML, Cloud, Datenplattformen und RPA mit nachweislich hohem operativem Nutzen."
+        ]
+      },
+      "contact": {
+        "items": [
+          {
+            "label": "Standort",
+            "value": "Petrolina, Pernambuco, Brasilien"
+          },
+          {
+            "label": "Telefon",
+            "value": "+55 87 98133-6310"
+          },
+          {
+            "label": "E-Mail",
+            "value": "danillox5@hotmail.com"
+          }
+        ],
+        "social": [
+          {
+            "label": "/cientista-de-dados",
+            "icon": "in",
+            "url": "https://www.linkedin.com/in/cientista-de-dados"
+          }
+        ]
+      },
+      "fullCv": {
+        "headerBadges": [
+          "8x Gewinner des QMS Contest LATAM 2025",
+          "2x Gewinner von ICS Global 2025",
+          "Information Security Manager fur Brazil Pipeline Delivery"
+        ],
+        "primaryExperience": [
+          {
+            "company": "BAYER CROP SCIENCE",
+            "role": "TECHNOLOGY ENABLEMENT LEAD",
+            "employment": "Vollzeit",
+            "period": "Mai 2024 - Heute · 1 Jahr 11 Monate",
+            "location": "Petrolina, Pernambuco, Brasilien",
+            "highlights": [
+              "8x QMS LATAM 2025",
+              "2x ICS Global 2025",
+              "ISM Brazil Pipeline Delivery"
+            ],
+            "bullets": [
+              "Leitung der Entwicklung von KI-, ML- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja. Integration von Datenplattformen, Entscheidungshilfen und RPA zur Steigerung von Forschungsproduktivitat und betrieblicher Effizienz.",
+              "Koordination funktionsubergreifender technischer Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung."
+            ],
+            "technologies": [
+              "Power BI",
+              "Power Automate",
+              "BigQuery",
+              "Azure",
+              "Python",
+              "ML",
+              "MCP",
+              "RAG",
+              "Agentic AI",
+              "React.js",
+              "JavaScript",
+              "SQL"
+            ]
+          },
+          {
+            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
+            "role": "LEITUNG TECHNOLOGIE UND INNOVATION",
+            "employment": "Vollzeit",
+            "period": "Marz 2021 - November 2023 · 2 Jahre 9 Monate",
+            "location": "Belem do Sao Francisco, Pernambuco, Brasilien",
+            "highlights": [
+              "85 % Prozesse digitalisiert",
+              "150+ strategische Ansichten",
+              "24 ETL-Jobs"
+            ],
+            "bullets": [
+              "Leitung der digitalen Transformation des Unternehmens mit PMBoK, Agile und Gamification.",
+              "Umsetzung digitaler Formulare, Offline-Erfassung mit GPS, ERP-Integration, Dashboards, ETLs und AI/ML-Automatisierungen.",
+              "Messung von Projektwirkung und ROI fur auditierbare, datenbasierte Unternehmensentscheidungen."
+            ],
+            "technologies": [
+              "React.js",
+              "Python",
+              "Power BI",
+              "ETL",
+              "Machine Learning",
+              "Deep Learning",
+              "IoT",
+              "ERP"
+            ]
+          }
+        ],
+        "additionalExperience": [
+          {
+            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
+            "role": "ADMINISTRATIVE LEITUNG - SUPPLY CHAIN, CONTROLLING UND HR",
+            "employment": "Vollzeit",
+            "period": "Nov. 2023 - Apr. 2024 · 6 Monate",
+            "location": "Belem do Sao Francisco, Pernambuco, Brasilien",
+            "bullets": [
+              "Steuerung von Kennzahlen fur Personal, Prozesse, Finanzen, Einkauf und Lieferantenleistung.",
+              "Automatisierung von Antragsprozessen mit KI-basierter Prufung und Budget-vs.-Ist-Tracking in Echtzeit."
+            ]
+          },
+          {
+            "company": "GRUPO JD (LABRUNIER FARMS)",
+            "role": "SENIOR SOFTWARE ENGINEER",
+            "employment": "Vollzeit",
+            "period": "Jan. 2017 - Nov. 2018 · 1 Jahr 11 Monate",
+            "location": "Region Petrolina, Brasilien",
+            "bullets": [
+              "Leitung der Entwicklung von Management- und Monitoring-Tools fur die Traubenverpackung.",
+              "Entwicklung von Individualsoftware, Prozessen und Kennzahlen fur nutzbare Produktionsentscheidungen."
+            ]
+          },
+          {
+            "company": "STARTUPS UND EIGENE PROJEKTE",
+            "role": "GRUNDER UND UNTERNEHMER",
+            "employment": "Unternehmertum",
+            "period": "Feb. 2012 - Okt. 2019 · 7 Jahre 9 Monate",
+            "location": "Petrolina, Pernambuco, Brasilien",
+            "bullets": [
+              "Mitgrundung mehrerer Startups und in den meisten Initiativen CEO.",
+              "Praxis in Marktvalidierung, Produktentwicklung, Innovation und Fuhrung unter Unsicherheit."
+            ]
+          }
+        ],
+        "keyImpacts": [
+          "850 Tsd. BRL pro Jahr bei Betriebsmitteln durch Audit-Tools eingespart.",
+          "1,2 Mio. BRL pro Jahr bei Arbeitskosten durch operative Audits und Effizienzgewinne reduziert.",
+          "800 Tsd. BRL pro Jahr an Vertragseinsparungen sowie deutliche Bestandsreduzierungen erzielt.",
+          "Bis zu 90 % weniger Probleme bei Produkttanwendung und Ruckverfolgbarkeit durch automatisierte Audits."
+        ],
+        "coreStack": [
+          "Python",
+          "SQL",
+          "BigQuery",
+          "Azure",
+          "Power BI",
+          "Power Platform",
+          "React.js",
+          "Node.js",
+          "Oracle Database",
+          "Machine Learning",
+          "MCP",
+          "RAG",
+          "Agentic AI",
+          "RPA",
+          "ETL",
+          "ERP Integration",
+          "Telegram Bot API",
+          "IoT",
+          "Zabbix / GLPI",
+          "Active Directory"
+        ]
+      },
+      "experience": [
+        {
+          "from": "MAI 2024",
+          "to": "HEUTE",
+          "company": "BAYER CROP\nSCIENCE",
+          "role": "TECHNOLOGY ENABLEMENT LEAD",
+          "paragraphs": [
+            "Leitung der Entwicklung von KI-, ML- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja, einschliesslich Datenplattformen, Entscheidungshilfen und RPA.",
+            "Koordination funktionsubergreifender technischer Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung."
+          ]
+        },
+        {
+          "from": "JAN. 2019",
+          "to": "APR. 2024",
+          "company": "AGRODAN",
+          "role": "CORPORATE HEAD OF TECHNOLOGY & INNOVATION /\nADMINISTRATIVE MANAGER",
+          "paragraphs": [
+            "Aufbau eines integrierten Informationssystems fur Reporting und Offline-Datenerfassung. In funf Jahren entstanden mehr als 30 Module und 150 Berichte von Feldoperationen bis zur Verpackung.",
+            "Leitung des Open-Innovation-Programms Agrodan Tech; sieben Startups wurden ausgewahlt. Vertragliche Anpassungen erzielten Einsparungen von rund 800 Tsd. BRL pro Jahr."
+          ]
+        },
+        {
+          "from": "2012",
+          "to": "2018",
+          "company": "FRUHERE ERFAHRUNG",
+          "role": "SENIOR SOFTWARE ENGINEER - LABRUNIER FARMS (2017-2018)\nSOFTWARE ENGINEER - LABRUNIER FARMS (2016)\nSTARTUP-GRUNDER UND UNTERNEHMER (2012-2019)",
+          "paragraphs": []
+        }
+      ],
+      "education": [
+        {
+          "from": "2020",
+          "to": "2025",
+          "school": "CESAR SCHOOL",
+          "degree": "BERUFSBEGLEITENDES DOKTORAT\nIN SOFTWARE ENGINEERING",
+          "details": [
+            "Dissertation: Evolutionare Algorithmen zur Feature Selection in Regressionsalgorithmen.",
+            "Datensatze: Bewasserung (Kc), Mangogrossen, Produktivitat"
+          ]
+        },
+        {
+          "from": "JUL. 2022",
+          "to": "JUL. 2023",
+          "school": "UNIMAIS",
+          "degree": "POSTGRADUALES STUDIUM\nARBEITSSICHERHEITS-\nINGENIEURWESEN",
+          "details": [
+            "Abschlussprojekt: AgriGuard - georeferenzierte Software zur Risikouberwachung in landwirtschaftlichen Umgebungen"
+          ]
+        },
+        {
+          "from": "JAN. 2017",
+          "to": "MARZ 2018",
+          "school": "UNINASSAU",
+          "degree": "POSTGRADUALES STUDIUM\nSOFTWARE ENGINEERING UND\nPROJEKTMANAGEMENT",
+          "details": [
+            "Abschlussprojekt: Umsetzung von SCRUM auf einer Web-Plattform"
+          ]
+        },
+        {
+          "from": "2013",
+          "to": "2016",
+          "school": "UNIVASF",
+          "degree": "PRODUKTIONSINGENIEURWESEN",
+          "details": [
+            "Abschlussprojekt: F-AHP, Java-Software zur Anwendung der AHP-Entscheidungsmethode"
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "Cloud: Azure | GCP | AWS"
+        },
+        {
+          "name": "Daten: SQL | BigQuery | PySpark | Airflow | dbt"
+        },
+        {
+          "name": "AI/ML: scikit-learn | XGBoost | LightGBM | MLflow"
+        },
+        {
+          "name": "Automatisierung: RPA | Power Platform | BPMN"
+        },
+        {
+          "name": "Software: Python | React | Node.js"
+        },
+        {
+          "name": "Platform: Docker | Kubernetes | Terraform"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Delivery: PMBOK | Scrum | Kanban"
+        },
+        {
+          "name": "AI Engineering: ML | MLOps | RAG | MCP | Agentic AI"
+        },
+        {
+          "name": "Product Engineering: Web | Mobile | Enterprise Systems"
+        },
+        {
+          "name": "Data Delivery: ETL | Analytics | Decision Support"
+        },
+        {
+          "name": "Technical Leadership: Architecture | Mentoring | Security"
+        },
+        {
+          "name": "Kommunikation | Fuhrung"
         }
       ]
     }
