@@ -141,7 +141,7 @@ def build():
     tool_rows=[]
     for tool in proposal['utiliboxTools']:
         refs=tool.get('localSourceReferences',[])
-        tool_rows.append('<tr><th scope="row">'+esc(tool['name'])+'</th><td>'+esc(tool['desc'])+'</td><td>'+esc('; '.join(c['title'] for c in tool['categories']))+'</td><td>'+sources(['utilibox/'+r for r in refs] or ['utilibox/src/data/tools.js — verificar alias/rota'])+'</td></tr>')
+        tool_rows.append('<tr id="utilibox-tool-'+esc(tool['slug'])+'"><th scope="row">'+esc(tool['name'])+'</th><td>'+esc(tool['desc'])+'</td><td>'+esc('; '.join(c['title'] for c in tool['categories']))+'</td><td>'+sources(['utilibox/'+r for r in refs] or ['utilibox/src/data/tools.js — verificar alias/rota'])+'</td></tr>')
     new_sections.append(section('utilibox-catalogo','Utilibox — aplicações e ferramentas do catálogo',
       '<p>O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.</p><div class="table-scroll"><table><thead><tr><th>Ferramenta</th><th>Objetivo</th><th>Área</th><th>Fonte</th></tr></thead><tbody>'+''.join(tool_rows)+'</tbody></table></div>'))
     provenance=defaultdict(list)
@@ -170,6 +170,8 @@ def build():
     contact=' · '.join(esc(item['label'])+': '+esc(item['value']) for item in current['contact']['items'])
     experimental['extensions']={'version':'experimental-additive','generatedAt':DATE,'language':'pt','sourceCommit':'648d76f','method':'CV original preservado. Habilidades, ferramentas e stack ajustadas; especialidades, cases, módulos e evidências acrescentados. Artefatos Git não equivalem automaticamente a autoria exclusiva, implantação ou resultado.', 'cases':cases,'projects':project_records,'topics':proposal['topics'],'agroBusinessModules':proposal['agroBusinessModules'],'agroTechnicalFlows':proposal['agroModules'],'skillProvenance':proposal['skillProvenance'],'utiliboxCatalog':proposal['utiliboxTools']}
     editorial=runpy.run_path(str(BASE/'scripts/cv-editorial.py'))
+    priorities=runpy.run_path(str(BASE/'scripts/cv-priority-projects.py'))
+    experimental['extensions']['priorityCases']=priorities['build_records'](experimental)
     experimental['extensions']['editorial']=editorial['editor_data']()
     pt['skills']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['skillGroups']]
     pt['tools']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['technologyGroups']]

@@ -29,7 +29,7 @@ def build_page(base, data, sections, jobs, education, primary_count):
     # experience grid and original section headings. Add content afterwards.
     original_view = page[start:end]
     closing = original_view.rfind('</div>')
-    navigation = '<section class="page full-page career-navigation"><div class="full-page-inner"><div class="full-card career-actions"><a href="#cv-agrodan">Projetos Agrodan</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div></div></section>'
+    navigation = '<section class="page full-page career-navigation"><div class="full-page-inner"><div class="full-card career-actions"><a href="#cv-agrodan">SIA / Agrodan</a><a href="#cv-utilibox">Utilibox e métodos aplicados</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div></div></section>'
     career = editorial['core_sections'](data)
     page = page[:start] + original_view[:closing] + navigation + career + annex + original_view[closing:] + page[end:]
     page = page.replace('const DATA_URL = "cv-data.json";', 'const DATA_URL = "cv-experimental-data.json";')

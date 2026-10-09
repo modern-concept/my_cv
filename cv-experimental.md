@@ -159,9 +159,9 @@ Versão experimental ampliada — 09/10/2026.
  Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.
  Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner.
 
-### Produtos e computação visual
- Desenvolvimento de produtos, automação de navegação, ferramentas de domínio, mapas, interação 3D e prototipação.
- Utilibox, Launch With Me, Scrapers, Mocap e Dente de Leão.
+### Produtos e métodos aplicados
+ Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.
+ Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional.
 
 ## Tecnologias e ferramentas
  Linguagens: Python, SQL, JavaScript, TypeScript e Java.
@@ -246,6 +246,86 @@ Versão experimental ampliada — 09/10/2026.
 - Rotinas de equipe, help desk e parque de dispositivos constam no cargo de Gerente de TIC. 
 - Administração Windows/Linux, Active Directory e redes corporativas consta no relato profissional. Engenharia e tecnologias: Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT.
  Trajetória Agrodan · Detalhes técnicos e fontes 
+
+### SGQ — auditorias, registros e gestão da qualidade
+ Desenvolvimento de módulos de qualidade com organização de auditorias, registros e papéis, articulando acompanhamento do processo e armazenamento local.
+ 
+- Modelagem de auditorias, configurações e responsabilidades em interfaces de gestão. 
+- Camada de dados local com Dexie/IndexedDB e handlers de sincronização. Engenharia e tecnologias: @material-ui/core · @material-ui/icons · dexie · moment · react · react-file-base64 · react-select.
+ Trajetória Agrodan · Módulo e fontes 
+
+### Qualidade de campo — checklists e avaliações operacionais
+ Desenvolvimento de fluxos de avaliação da qualidade em campo, com checklists, respostas e integração entre a interface e o backend do domínio.
+ 
+- Organização de checklists e respostas com persistência local via Dexie/IndexedDB. 
+- Rotinas de sincronização e rotas de backend correspondentes localizadas no acervo. Engenharia e tecnologias: @material-ui/core · dexie · react · react-select.
+ Trajetória Agrodan · Módulo e fontes 
+
+### Packing e caixaria — interfaces de acompanhamento da operação
+ Desenvolvimento de interfaces de packing e caixaria para organizar acesso à operação e integrar eventos aos componentes de acompanhamento.
+ 
+- Separação dos componentes de packing e caixaria no frontend corporativo. 
+- Integração de eventos via socket observada no código do módulo. Engenharia e tecnologias: @material-ui/core · @material-ui/icons · @nivo/bar · audio-loader · audio-play · moment · play-sound · react · react-router-dom · socket.io-client.
+ Trajetória Agrodan · Módulo e fontes 
+
+## Utilibox — produtos e métodos aplicados
+ Decisão, pesquisa operacional, engenharia de produção, finanças e conhecimento · produto independente
+
+### AHP Online — decisão multicritério com consistência
+ Desenvolvimento de uma ferramenta de decisão multicritério que organiza critérios, comparações e alternativas em um fluxo de análise e exportação de projetos.
+ 
+- Comparações pela escala de Saaty e cálculo de consistência para avaliar a coerência dos julgamentos. 
+- Modelagem da decisão em interface interativa, com apresentação dos resultados e exportação do projeto. Engenharia e tecnologias: Astro · JavaScript · AHP · matrizes de comparação · consistência.
+ Ferramenta e fontes 
+
+### TOPSIS e PROMETHEE — ranking e sensibilidade de alternativas
+ Implementação de ferramentas para comparar alternativas com critérios, pesos e preferências configuráveis, tornando os métodos multicritério utilizáveis em decisões de gestão.
+ 
+- TOPSIS: classificação pela proximidade à solução ideal, com pesos e direções de critérios configuráveis. 
+- PROMETHEE I e II: funções de preferência e análise de sensibilidade em tempo real. Engenharia e tecnologias: Astro · JavaScript · TOPSIS · PROMETHEE · análise de sensibilidade.
+ Ferramenta e fontes · Ferramenta e fontes 
+
+### Teoria das Filas — capacidade, espera e dimensionamento
+ Desenvolvimento de calculadoras e visualizações para relacionar demanda, capacidade de atendimento e espera, apoiando estudo e comparação de configurações de serviço.
+ 
+- Modelos M/M/1, M/M/c, M/D/1, M/M/1/K e Erlang-B/C implementados nas rotinas de cálculo. 
+- Comparação por número de servidores e curvas de sensibilidade para explorar mudanças na taxa de chegada. Engenharia e tecnologias: JavaScript · pesquisa operacional · modelos de filas · curvas de sensibilidade.
+ Ferramenta e fontes · Ferramenta e fontes 
+
+### VSM, SMED, PDSA e A3 — engenharia de produção e melhoria contínua
+ Tradução de métodos de melhoria de processos em ferramentas digitais para mapear fluxos, analisar setup, estruturar problemas e acompanhar ciclos de aprendizagem.
+ 
+- VSM: etapas, processamento, espera, uptime, inventário e gargalos; indicadores de lead time, takt e PCE. 
+- SMED: atividades internas/externas e possibilidades de conversão e paralelização; PDSA e A3 estruturam acompanhamento e planos de ação. Engenharia e tecnologias: Astro · JavaScript · Lean · VSM · SMED · PDSA · A3.
+ Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes 
+
+### Avaliação econômica — VPL, TIR, payback e cenários
+ Implementação de ferramentas de análise econômica para transformar fluxos de caixa, custos e condições de financiamento em indicadores comparáveis.
+ 
+- Cálculos de payback simples e descontado, VPL e TIR para avaliação de investimentos. 
+- Ferramentas complementares para WACC, ponto de equilíbrio e comparação dos sistemas Price, SAC e SAM. Engenharia e tecnologias: JavaScript · matemática financeira · fluxos de caixa · análise de investimentos.
+ Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes 
+
+### Pareto, GUT e SWOT — priorização e análise gerencial
+ Desenvolvimento de ferramentas de gestão que organizam problemas, critérios e cenários em rankings, gráficos e estruturas de decisão.
+ 
+- Pareto com curva acumulada; GUT com ranking por gravidade, urgência e tendência; SWOT com estratégias cruzadas. 
+- Árvore de decisão com nós de chance e resultado, valor monetário esperado e identificação do caminho ótimo. Engenharia e tecnologias: JavaScript · Pareto · GUT · SWOT · EMV · visualização de decisões.
+ Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes 
+
+### Narra e UtiliNotas — conhecimento, contexto e persistência
+ Construção de aplicações de organização narrativa e conhecimento com entidades relacionadas, notas conectadas e assistência contextual.
+ 
+- Editor Markdown, links internos e árvore de arquivos; integração entre organização das notas e contexto de uso. 
+- Camada de persistência IndexedDB com controle de transações e tratamento de falhas; assistência de IA em módulos próprios. Engenharia e tecnologias: Astro · JavaScript · Markdown · IndexedDB · modelagem de entidades · IA contextual.
+ Ferramenta e fontes · Ferramenta e fontes 
+
+### Flashcards — repetição espaçada e acompanhamento de estudo
+ Implementação de uma aplicação de estudo que organiza cartões e revisões com repetição espaçada, acompanhamento de retenção e exportação.
+ 
+- Algoritmo SM-2, seleção de cartões devidos e rotinas de suspensão, retomada e previsão de revisões. 
+- Exportação para Anki Desktop em TSV e PDF, com decks e conteúdo estruturado. Engenharia e tecnologias: JavaScript · SM-2 · persistência local · TSV · PDF.
+ Ferramenta e fontes 
 
 ## Pesquisa aplicada e formação
  Doutorado, estágio hospitalar e projetos de faculdade
@@ -333,15 +413,8 @@ Versão experimental ampliada — 09/10/2026.
  Protótipos e estudos de interação e visualização.
  Contexto e projetos · Detalhes técnicos e fontes 
 
-## Produtos digitais, decisão e computação visual
- Iniciativas independentes, protótipos e experimentação empreendedora
-
-### Utilibox — multicritério, filas e métodos aplicados
- Implementei ferramentas de apoio à decisão e aprendizagem com métodos multicritério, filas, simulação, matemática financeira e repetição espaçada, traduzindo modelos em interfaces e cálculos explicáveis.
- 
-- AHP: pesos, consistência e julgamentos em grupo. 
-- TOPSIS: normalização, pesos, ideais e proximidade relativa. Engenharia e tecnologias: Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulação.
- Contexto e projetos · Detalhes técnicos e fontes 
+## Otimização e integração de sistemas
+ Pesquisa quantitativa e desenvolvimento independente
 
 ### Cartola e Logística — decisão com restrições
  Desenvolvi pipelines que conectam dados e otimização à decisão, explorando escalações sob orçamento/formação e roteamento com visualização geográfica.
@@ -350,41 +423,11 @@ Versão experimental ampliada — 09/10/2026.
 - Logística: mapas Leaflet, desenho de áreas e experimentos de roteamento/TSP com heurísticas e algoritmos genéticos. Engenharia e tecnologias: Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet.
  Contexto e projetos · Detalhes técnicos e fontes 
 
-### Narra/Utilinotas — domínio e conhecimento
- Construí módulos de organização narrativa e conhecimento, com relações entre entidades, assistência contextual, rastreabilidade de respostas e interoperabilidade de notas.
- 
-- Narra modela obras, personagens, cenas, relações e cânone. 
-- Writing companion encaminha intenções para funções do domínio. Engenharia e tecnologias: JavaScript · TypeScript · Astro · entidades e relações · Markdown.
- Contexto e projetos · Detalhes técnicos e fontes 
-
-### Marketplace, automações e interação 3D
- Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.
- 
-- Launch With Me: rotas por papéis, schema, migrations, RLS/RPC e missões/evidências. 
-- Scrapers: adaptadores por site, runner, supervisão e distribuição de ofertas. Engenharia e tecnologias: Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite.
- Contexto e projetos · Detalhes técnicos e fontes 
-
 ### Conector desktop MetaTrader5 — TraderMind
  Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
  
 - Conector utiliza o pacote MetaTrader5 oficial e depende do terminal aberto/autenticado. 
 - Consulta conta e dados de candles; prepara o fluxo de operação ligado à política/inferência. Engenharia e tecnologias: Python · MetaTrader5 · Flask · SQLite · APIs locais.
- Contexto e projetos · Detalhes técnicos e fontes 
-
-### Dente de Leão — mundo e interação narrativa
- Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.
- 
-- src/core concentra entrada do usuário. 
-- src/game organiza mundo, personagem, câmera e interação. Engenharia e tecnologias: TypeScript · React Three Fiber · Three.js · Rapier · Zustand.
- Protótipos e estudos de interação e visualização.
- Contexto e projetos · Detalhes técnicos e fontes 
-
-### Mapas, modelos e exploração espacial
- Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.
- 
-- Logística reúne componentes de mapa, canvas, desenho e roteirização. 
-- Leaflet inclui uma página própria e biblioteca de roteamento de terceiros. Engenharia e tecnologias: JavaScript · React · Leaflet · Three.js · Canvas · FBX.
- Protótipos e estudos de interação e visualização.
  Contexto e projetos · Detalhes técnicos e fontes 
 
 # Anexos: acervo técnico completo

@@ -41,7 +41,7 @@ SKILL_GROUPS = [
     ('Engenharia de software', 'Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.', 'SIA/SIAgro, EBSERH, The Game Project e produtos independentes.'),
     ('Dados e decisão', 'ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.', 'Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística.'),
     ('Liderança e operações', 'Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.', 'Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner.'),
-    ('Produtos e computação visual', 'Desenvolvimento de produtos, automação de navegação, ferramentas de domínio, mapas, interação 3D e prototipação.', 'Utilibox, Launch With Me, Scrapers, Mocap e Dente de Leão.'),
+    ('Produtos e métodos aplicados', 'Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.', 'Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional.'),
 ]
 
 TECH_GROUPS = [
@@ -57,11 +57,13 @@ TECH_GROUPS = [
 
 def core_sections(data):
     cases = data['extensions']['cases']
+    priorities = data['extensions']['priorityCases']
     groups = [
-        ('cv-agrodan', 'Projetos e engenharia aplicada na Agrodan', 'Ecossistema SIA / SIAgro · experiência profissional', [c for c in cases if c['id'].startswith(('case-sia-cases-', 'case-dados-', 'case-mobile-1', 'case-infra-1'))]),
+        ('cv-agrodan', 'Projetos e engenharia aplicada na Agrodan', 'Ecossistema SIA / SIAgro · experiência profissional', [c for c in cases if c['id'].startswith(('case-sia-cases-', 'case-dados-', 'case-mobile-1', 'case-infra-1'))] + [c for c in priorities if c['section'] == 'agrodan']),
+        ('cv-utilibox', 'Utilibox — produtos e métodos aplicados', 'Decisão, pesquisa operacional, engenharia de produção, finanças e conhecimento · produto independente', [c for c in priorities if c['section'] == 'utilibox']),
         ('cv-pesquisa', 'Pesquisa aplicada e formação', 'Doutorado, estágio hospitalar e projetos de faculdade', [c for c in cases if c['id'] in ['case-ml-1', 'case-mobile-2']]),
         ('cv-ia', 'Projetos de IA, sistemas multiagentes e Machine Learning', 'Desenvolvimento independente e pesquisa quantitativa', [c for c in cases if c['id'].startswith(('case-agentes-', 'case-ia-', 'case-visao-', 'case-ml-2'))]),
-        ('cv-produtos', 'Produtos digitais, decisão e computação visual', 'Iniciativas independentes, protótipos e experimentação empreendedora', [c for c in cases if c['id'].startswith(('case-decisao-', 'case-produto-', 'case-grafica-', 'case-infra-2'))]),
+        ('cv-produtos', 'Otimização e integração de sistemas', 'Pesquisa quantitativa e desenvolvimento independente', [c for c in cases if c['id'] in ['case-decisao-2', 'case-infra-2']]),
     ]
     result = []
     for id, title, context, selected in groups:
@@ -73,10 +75,11 @@ def core_sections(data):
             elif shortid == 'agentes-2': qualifier = 'Pesquisa com agentes de sinais; sem resultado financeiro validado neste levantamento.'
             elif shortid == 'sia-cases-2': qualifier = 'Modelagem exploratória; desempenho fora da amostra ainda não demonstrado.'
             elif shortid in ['visao-2', 'grafica-1', 'grafica-2']: qualifier = 'Protótipos e estudos de interação e visualização.'
-            links = ' · '.join('<a href="#' + esc(a) + '">' + ('Doutorado' if a.startswith('formacao') else 'Trajetória Agrodan' if a == 'vinculo-agrodan' else 'Estágio hospitalar' if a == 'experiencia-9' else 'Contexto e projetos') + '</a>' for a in c['relatedContextAnchors'])
-            content += '<article class="career-project" id="resumo-' + c['id'] + '"><h3>' + esc(c['title']) + '</h3><p>' + esc(c['text']) + '</p><ul class="career-deliverables">' + ''.join('<li>' + esc(v) + '</li>' for v in c['implementation'][:2]) + '</ul><p class="career-stack"><strong>Engenharia e tecnologias:</strong> ' + esc(STACKS[shortid]) + '.</p>'
+            links = ' · '.join('<a href="#' + esc(a) + '">' + ('Doutorado' if a.startswith('formacao') else 'Trajetória Agrodan' if a == 'vinculo-agrodan' else 'Estágio hospitalar' if a == 'experiencia-9' else 'Ferramenta e fontes' if a.startswith('utilibox-tool-') else 'Módulo e fontes' if a.startswith('sia-negocio-') else 'Contexto e projetos') + '</a>' for a in c['relatedContextAnchors'])
+            content += '<article class="career-project" id="resumo-' + c['id'] + '"><h3>' + esc(c['title']) + '</h3><p>' + esc(c['text']) + '</p><ul class="career-deliverables">' + ''.join('<li>' + esc(v) + '</li>' for v in c['implementation'][:2]) + '</ul><p class="career-stack"><strong>Engenharia e tecnologias:</strong> ' + esc(c.get('stack', STACKS.get(shortid, ''))) + '.</p>'
             if qualifier: content += '<p class="career-qualifier">' + qualifier + '</p>'
-            content += '<p class="career-reference">' + links + ' · <a href="#' + c['id'] + '">Detalhes técnicos e fontes</a></p></article>'
+            detail = ' · <a href="#' + c['id'] + '">Detalhes técnicos e fontes</a>' if c['id'].startswith('case-') else ''
+            content += '<p class="career-reference">' + links + detail + '</p></article>'
         result.append(content + '</div></section>')
     result[-1] = result[-1].replace('career-project-page"', 'career-project-page career-last"', 1)
     return ''.join(result)
