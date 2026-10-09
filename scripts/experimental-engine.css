@@ -1,55 +1,25 @@
 /* Additions to the existing complete CV theme and print engine. */
-#fullCvView{--midText:#182431;--midMuted:#566270;--accent:#244f73;--midLine:#dbe2e9;--bg:#fff}
-#fullCvView .page{background:#fff;border-radius:2px}
-#fullCvView .full-page-inner{background:#fff;color:var(--midText);padding:12mm 13mm;gap:6mm}
-#fullCvView .full-card{border:0;background:transparent;border-radius:0;padding:0}
-#fullCvView .full-header{grid-template-columns:21mm 1fr;gap:5mm;border-bottom:2px solid var(--accent);padding-bottom:5mm}
-#fullCvView .full-avatar img{border-radius:2mm}
-#fullCvView .full-title .name{color:#182431;font-size:23pt;line-height:1.1;letter-spacing:.035em}
-#fullCvView .full-title .headline{color:var(--accent);font-size:11pt;line-height:1.4}
-#fullCvView .full-contact-row{gap:1mm 4mm;margin-top:2mm}
-#fullCvView .full-contact-pill{display:inline;padding:0;min-height:0;border:0;background:none;border-radius:0;color:var(--midMuted);font-size:8pt;font-weight:400}
-#fullCvView .full-badge-row{display:block}
-#fullCvView .full-badge{display:block;border:0;background:none;padding:0;margin:1.5mm 0;min-height:0;color:#182431;font-size:9pt;font-weight:600}
-#fullCvView .career-section-title{font-family:Montserrat,sans-serif;font-size:11pt;line-height:1.4;letter-spacing:.06em;color:var(--accent);border-bottom:1px solid var(--midLine);padding-bottom:2mm;margin:0 0 3mm;text-transform:uppercase;scroll-margin-top:90px}
-#fullCvView .full-summary{font-size:10pt;line-height:1.6;color:#182431}
-#fullCvView .full-summary p{margin:0 0 2.5mm}
-#fullCvView .full-results,#fullCvView .full-list{font-size:9.5pt;line-height:1.6;color:#182431;margin:2mm 0;padding-left:5mm}
-#fullCvView .full-results li,#fullCvView .full-list li{margin-bottom:1.5mm}
-#fullCvView .full-experience-grid{display:block}
-#fullCvView .full-job,#fullCvView .full-mini-job{border:0;border-bottom:1px solid var(--midLine);background:none;border-radius:0;padding:3mm 0 5mm;margin:0 0 4mm;scroll-margin-top:90px}
-#fullCvView .full-job-company,#fullCvView .company{color:var(--accent);font-size:10pt;line-height:1.45;font-weight:700}
-#fullCvView .full-job-role,#fullCvView .role{color:#182431;font-size:10pt;line-height:1.5;font-weight:700;margin:1.5mm 0}
-#fullCvView .date,#fullCvView .full-job-meta,#fullCvView .muted{color:var(--midMuted);font-size:8.5pt;line-height:1.5;white-space:pre-line}
-#fullCvView .full-tech-line{color:var(--midMuted);font-size:8.5pt;line-height:1.5;margin-top:2.5mm}
-#fullCvView .full-job .full-badge-row{margin:2mm 0}
-#fullCvView .full-job .full-badge{font-size:8.5pt;color:var(--accent);display:inline-block;margin-right:4mm}
-#fullCvView .full-education-entry{border:0;border-bottom:1px solid var(--midLine);padding:2mm 0 4mm;margin-bottom:3mm;break-inside:avoid}
-#fullCvView .full-chip{border:0;border-radius:0;background:#f2f5f8;color:#244f73;font-size:8pt;font-weight:600;padding:1mm 2mm;min-height:0}
-.career-areas p{font-size:10pt;line-height:1.7;margin:0}
-.career-actions{display:flex;gap:3mm;flex-wrap:wrap;align-items:center;font-size:8pt;color:#566270}
-.career-actions a{color:#244f73}
-.career-actions label{margin-left:auto;display:flex;align-items:center;gap:1.5mm}
-.career-skill{margin:0 0 3.5mm;break-inside:avoid}
-.career-skill h3{font-size:9.5pt;margin:0 0 1mm;color:#182431}
-.career-skill p{font-size:9pt;line-height:1.6;margin:0 0 1mm}
-.career-skill .career-skill-origin{font-size:8.5pt;color:#566270}
-.career-tech{font-size:9pt;line-height:1.6;margin:0 0 2mm}
-.career-project{padding:0 0 4mm;margin:0 0 4mm;border-bottom:1px solid #dbe2e9;scroll-margin-top:90px;break-inside:avoid}
-.career-project h3{font-family:Montserrat,sans-serif;font-size:10.5pt;line-height:1.45;color:#182431;margin:0 0 2mm}
-.career-project p{font-size:9.5pt;line-height:1.6;margin:0 0 2mm}
-.career-context{font-size:9pt;color:#566270;margin:0 0 5mm}
-.career-deliverables{padding-left:5mm;font-size:9pt;line-height:1.6;margin:1mm 0 2mm}
-.career-project .career-stack{font-size:8.5pt;color:#344f65}
-.career-project .career-qualifier,.career-project .career-reference{font-size:8pt;color:#566270}
-.career-reference a{color:#244f73;text-decoration:none}
-.career-appendices{margin-top:6mm;color:#182431}
-.career-appendices>summary{background:#fff;padding:6mm 13mm;font-size:10pt;color:#244f73;cursor:pointer;font-weight:700}
-#fullCvView .experimental-page a{color:#244f73}
-#fullCvView .experimental-page h2{color:#244f73}
-#fullCvView .experimental-page .kicker{color:#244f73}
-#fullCvView .experimental-page .chips li{background:#f2f5f8}
-#fullCvView .experimental-page .case,#fullCvView .experimental-page .module,#fullCvView .experimental-page .context-grid article,#fullCvView .experimental-page #vinculos article{border:0;border-bottom:1px solid var(--midLine);border-radius:0;padding:3mm 0}
+.career-section-title{font-family:Montserrat,sans-serif;font-size:14pt;line-height:1.4;color:var(--midText);border-bottom:1px solid var(--midLine);padding-bottom:3mm;margin:0 0 3mm;scroll-margin-top:90px}
+.career-project{border:1px solid rgba(255,255,255,.12);border-radius:4mm;background:rgba(255,255,255,.03);padding:4mm;margin:0 0 4mm;scroll-margin-top:90px;break-inside:avoid}
+.career-project h3{font-family:Montserrat,sans-serif;font-size:10.5pt;line-height:1.4;margin:0 0 2mm;color:var(--midText)}
+.career-project p{font-size:9pt;line-height:1.55;margin:0 0 2mm}
+.career-deliverables{font-size:8.5pt;line-height:1.5;padding-left:5mm;margin:1mm 0 2mm}
+.career-context{font-size:9pt;color:var(--midMuted);margin:0 0 4mm}
+.career-project .career-stack{font-size:8pt;color:var(--midMuted)}
+.career-project .career-qualifier,.career-reference{font-size:7.5pt;line-height:1.5;color:var(--midMuted)}
+.career-reference a,.career-actions a,.career-appendices a{color:#9fcce7}
+.career-skill{margin:0 0 3mm;break-inside:avoid}
+.career-skill h3{font-size:8pt;line-height:1.4;margin:0 0 1mm;color:var(--midText)}
+.career-skill p,.career-tech{font-size:7.2pt;line-height:1.45;margin:0 0 1.5mm;color:var(--midText)}
+.career-skill .career-skill-origin{font-size:6.8pt;color:var(--midMuted)}
+.career-actions{display:flex;gap:3mm;flex-wrap:wrap;align-items:center;font-size:8pt;color:var(--midMuted)}
+.career-actions label{display:flex;align-items:center;gap:1.5mm;margin-left:auto}
+#fullCvView .career-navigation,#fullCvView .career-navigation .full-page-inner{min-height:0;height:auto}
+.career-appendices{color:var(--midText);margin-top:4mm}
+.career-appendices>summary{border:1px solid var(--midLine);background:rgba(255,255,255,.03);border-radius:3mm;padding:4mm;font-size:9pt;cursor:pointer;color:var(--midText)}
+body[data-extension-language="en"] .career-project-page,body[data-extension-language="de"] .career-project-page,
+body[data-extension-language="en"] .career-navigation,body[data-extension-language="de"] .career-navigation,
+body[data-extension-language="en"] .career-appendices,body[data-extension-language="de"] .career-appendices{display:none!important}
 #fullCvView .full-page{height:auto;min-height:var(--a4h);overflow:visible}
 #fullCvView .full-page-inner{height:auto}
 .experimental-page .chapter{margin:0;scroll-margin-top:90px;font-size:9pt;line-height:1.55}
@@ -78,21 +48,13 @@
 .experimental-page thead{background:rgba(78,134,168,.15)}
 .experimental-page th{font-weight:700}
 body[data-extension-language="en"] .experimental-page,body[data-extension-language="de"] .experimental-page{display:none!important}
-body[data-extension-language="en"] .career-project-page,body[data-extension-language="de"] .career-project-page,
-body[data-extension-language="en"] .career-appendices,body[data-extension-language="de"] .career-appendices,
-body[data-extension-language="en"] .career-actions,body[data-extension-language="de"] .career-actions,
-body[data-extension-language="en"] .career-areas,body[data-extension-language="de"] .career-areas{display:none!important}
 @media(max-width:740px){.experimental-page .context-grid,.experimental-page .module-grid{grid-template-columns:1fr}.extension-toc ol{columns:1}.experimental-page .chapter{font-size:10pt}.experimental-page table{table-layout:auto}.experimental-page .table-scroll{overflow-x:auto}}
-@media(max-width:740px){#fullCvView .full-page-inner{padding:7mm 6mm}#fullCvView .full-title .name{font-size:20pt}.career-actions label{margin-left:0}}
 @media print{
-  .career-actions,.career-appendices>summary{display:none!important}
+  body[data-print-mode][data-cv-version="full"] #fullCvView .career-navigation,.career-appendices>summary{display:none!important}
   body:not([data-print-appendices="true"]) #careerAppendices{display:none!important}
   body[data-print-mode="cv"]:not([data-print-appendices="true"]) #fullCvView .career-last{break-after:auto!important;page-break-after:auto!important}
   body[data-extension-language="en"] #fullCvView .career-project-page,body[data-extension-language="de"] #fullCvView .career-project-page{display:none!important}
   body[data-print-mode][data-cv-version="full"] #fullCvView .full-page{height:auto;min-height:0;overflow:visible}
-  #fullCvView .page{box-shadow:none}
-  #fullCvView .full-page-inner{padding:10mm 12mm}
-  #fullCvView .career-history .full-card{break-inside:auto}
   #fullCvView .full-page-inner{min-height:0}
   .experimental-page .chapter{font-size:9pt;scroll-margin-top:0}
   .experimental-page .context-grid,.experimental-page .module-grid{display:block}

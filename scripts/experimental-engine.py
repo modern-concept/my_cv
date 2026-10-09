@@ -25,9 +25,13 @@ def build_page(base, data, sections, jobs, education, primary_count):
     start = page.index('  <div class="full-cv-view" id="fullCvView">')
     end = page.index('  <script>\n    const DATA_URL', start)
     annex = '<details id="careerAppendices" class="career-appendices"><summary>Acervo técnico completo · cases, catálogos e fontes</summary>' + ''.join(supplemental) + '</details>'
-    career = editorial['career_markup'](data)
-    career = career.replace('</header>', '</header><div class="career-actions"><a href="#cv-agrodan">Projetos Agrodan</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div>', 1)
-    page = page[:start] + '<div class="full-cv-view active" id="fullCvView">' + career + annex + '</div>\n\n' + page[end:]
+    # Retain the complete CV's actual markup: header, two-column cards,
+    # experience grid and original section headings. Add content afterwards.
+    original_view = page[start:end]
+    closing = original_view.rfind('</div>')
+    navigation = '<section class="page full-page career-navigation"><div class="full-page-inner"><div class="full-card career-actions"><a href="#cv-agrodan">Projetos Agrodan</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div></div></section>'
+    career = editorial['core_sections'](data)
+    page = page[:start] + original_view[:closing] + navigation + career + annex + original_view[closing:] + page[end:]
     page = page.replace('const DATA_URL = "cv-data.json";', 'const DATA_URL = "cv-experimental-data.json";')
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c')
     page = page.replace('  <script>\n    const DATA_URL', '<script id="experimentalData" type="application/json">' + payload + '</script>\n  <script>\n    const DATA_URL', 1)
@@ -36,7 +40,6 @@ def build_page(base, data, sections, jobs, education, primary_count):
     page = page.replace('requestedVersion || localStorage.getItem("cv_version") || "compact"', 'requestedVersion || "full"')
     page = page.replace('requestedPrintMode || localStorage.getItem("cv_print_mode") || "cv"', 'requestedPrintMode || "cv"')
     page = page.replace('const L = data.languages[lang];\n      const F = L.fullCv || {};', 'const L = data.languages[lang];\n      document.body.dataset.extensionLanguage = lang;\n      const F = L.fullCv || {};')
-    page = page.replace('$("fullName").textContent = L.profile.name;', '$("fullName").textContent = L.profile.name;\n      $("tCareerRecognition").textContent = lang === "pt" ? "Reconhecimentos e responsabilidades" : lang === "en" ? "Recognition and responsibilities" : "Auszeichnungen und Verantwortung";')
     page = page.replace('contactRow.appendChild(createChip(`LinkedIn ${item.label}`, "full-contact-pill"));', 'const link = el("a", "full-contact-pill", item.label); link.href = item.url; contactRow.appendChild(link);')
     page = page.replace('(F.primaryExperience || []).forEach((job) => primary.appendChild(renderFullJob(job)));', '(F.primaryExperience || []).forEach((job, i) => { const item = renderFullJob(job); item.id = "experiencia-" + (i + 1); primary.appendChild(item); });')
     page = page.replace('(F.additionalExperience || []).forEach((job) => secondary.appendChild(renderFullJob(job, true)));', '(F.additionalExperience || []).forEach((job, i) => { const item = renderFullJob(job, true); item.id = "experiencia-" + ((F.primaryExperience || []).length + i + 1); secondary.appendChild(item); });')

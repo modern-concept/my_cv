@@ -31,7 +31,7 @@ A expansão está inicialmente em português e aparece no modo completo em PT. O
 
 ### Apresentação como currículo
 
-A versão ampliada usa apresentação clara em fundo branco, tipografia legível, experiências em sequência e seções de perfil, áreas de atuação, reconhecimentos, resultados, formação, competências e tecnologias. As habilidades estão agrupadas com os projetos e experiências de origem; a stack principal contém tecnologias representativas, com o repertório ampliado nas categorias e anexos.
+A versão ampliada conserva a formatação do CV completo original: tema escuro, cabeçalho, cartões, grade de experiências e distribuição dos blocos em colunas. Os resumos dos projetos vêm em páginas adicionais com a mesma identidade visual. As habilidades estão agrupadas com os projetos e experiências de origem; a stack principal contém tecnologias representativas, com o repertório ampliado nas categorias e anexos. Os blocos extensos podem ocupar mais páginas para manter todo o conteúdo legível.
 
 Os 28 cases recebem uma apresentação breve no corpo do CV, organizados em quatro contextos: Agrodan; pesquisa e formação; IA, multiagentes e ML; produtos, decisão e computação visual. Cada entrada apresenta contribuição, mecanismos de implementação, tecnologias e links para contexto e fontes. As métricas continuam sendo aquelas já declaradas no CV; não são atribuídas a módulos individuais sem correspondência documentada.
 

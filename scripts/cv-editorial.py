@@ -98,4 +98,4 @@ def career_markup(data):
     return page1 + career + formation + core_sections(data)
 
 def editor_data():
-    return {'skillGroups': [{'title': t, 'description': d, 'origin': o} for t, d, o in SKILL_GROUPS], 'technologyGroups': [{'title': t, 'description': d} for t, d in TECH_GROUPS], 'caseStacks': STACKS, 'layout': 'career-first', 'appendicesDefault': 'collapsed'}
+    return {'skillGroups': [{'title': t, 'description': d, 'origin': o} for t, d, o in SKILL_GROUPS], 'technologyGroups': [{'title': t, 'description': d} for t, d in TECH_GROUPS], 'caseStacks': STACKS, 'layout': 'original-complete-cv-with-projects', 'appendicesDefault': 'collapsed'}
