@@ -1,0 +1,44 @@
+/* Additions to the existing complete CV theme and print engine. */
+#fullCvView .full-page{height:auto;min-height:var(--a4h);overflow:visible}
+#fullCvView .full-page-inner{height:auto}
+.experimental-page .chapter{margin:0;scroll-margin-top:90px;font-size:9pt;line-height:1.55}
+.experimental-page h2,.extension-toc h2{font-family:Montserrat,sans-serif;font-size:15pt;line-height:1.3;color:var(--midText)}
+.experimental-page h3{font-family:Montserrat,sans-serif;font-size:11pt;line-height:1.4;margin:3mm 0}
+.experimental-page h4{font-size:9pt;margin:4mm 0 1.5mm}
+.experimental-page p{margin:2mm 0 3mm}
+.experimental-page a{color:#9fcce7;overflow-wrap:anywhere}
+.experimental-page ul,.experimental-page ol{padding-left:5mm}
+.experimental-page .case,.experimental-page .module,.experimental-page .context-grid article,.experimental-page #vinculos article{border:1px solid var(--midLine);border-radius:3mm;padding:4mm;margin:4mm 0;scroll-margin-top:90px}
+.experimental-page .kicker{color:#9fcce7;font-size:8pt;font-weight:700;letter-spacing:.04em}
+.experimental-page .delivery{border-left:1mm solid var(--accent);padding:2mm 3mm;background:rgba(78,134,168,.12)}
+.experimental-page .scope{color:var(--midMuted);font-size:8pt;border-top:1px solid var(--midLine);padding-top:2mm}
+.experimental-page .chips{display:flex;flex-wrap:wrap;list-style:none;padding:0;gap:1.5mm}
+.experimental-page .chips li{font-size:8pt;border:1px solid var(--midLine);background:rgba(255,255,255,.05);padding:1mm 2mm;border-radius:2mm}
+.experimental-page .sources{font-size:7.5pt;color:var(--midMuted);overflow-wrap:anywhere}
+.experimental-page .sources code{font:inherit;font-family:Consolas,monospace;white-space:normal}
+.experimental-page .context-grid,.experimental-page .module-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3mm}
+.experimental-page .module-grid .module{margin:0;font-size:8pt}
+.experimental-page .module h3{font-size:10pt}
+.extension-toc{font-size:9pt;line-height:1.5}
+.extension-toc ol{columns:2;padding-left:5mm}
+.extension-toc li{padding:1mm 0;break-inside:avoid}
+.experimental-page table{border-collapse:collapse;width:100%;font-size:8pt;table-layout:fixed}
+.experimental-page td,.experimental-page th{vertical-align:top;text-align:left;border-bottom:1px solid var(--midLine);padding:2mm;overflow-wrap:anywhere}
+.experimental-page thead{background:rgba(78,134,168,.15)}
+.experimental-page th{font-weight:700}
+body[data-extension-language="en"] .experimental-page,body[data-extension-language="de"] .experimental-page{display:none!important}
+@media(max-width:740px){.experimental-page .context-grid,.experimental-page .module-grid{grid-template-columns:1fr}.extension-toc ol{columns:1}.experimental-page .chapter{font-size:10pt}.experimental-page table{table-layout:auto}.experimental-page .table-scroll{overflow-x:auto}}
+@media print{
+  body[data-print-mode][data-cv-version="full"] #fullCvView .full-page{height:auto;min-height:0;overflow:visible}
+  #fullCvView .full-page-inner{min-height:0}
+  .experimental-page .chapter{font-size:9pt;scroll-margin-top:0}
+  .experimental-page .context-grid,.experimental-page .module-grid{display:block}
+  .experimental-page .module-grid .module{margin:3mm 0}
+  .experimental-page .case{break-inside:auto}
+  .experimental-page .module,.experimental-page .context-grid article{break-inside:avoid}
+  .experimental-page h2,.experimental-page h3,.experimental-page h4{break-after:avoid}
+  .experimental-page thead{display:table-header-group}
+  .experimental-page tr{break-inside:avoid}
+  .experimental-page .table-scroll{overflow:visible}
+  body[data-extension-language="en"] #fullCvView .experimental-page,body[data-extension-language="de"] #fullCvView .experimental-page{display:none!important}
+}

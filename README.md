@@ -17,7 +17,7 @@ Com as dependências instaladas, execute `npm run dev`. O projeto mantém a conf
 
 ## CV experimental ampliado
 
-Abra `cv-experimental.html` diretamente no navegador. É uma nova versão do currículo, em português, com o conteúdo já presente no HTML: não depende de JavaScript para carregar os textos. Inclui impressão/PDF pelo navegador, índice e vínculos internos entre projetos, formação e experiências.
+Abra `cv-experimental.html` diretamente no navegador. A versão experimental usa o motor do CV completo de `index.html`: mesmo tema, renderizadores, controles de idiomas, alternância compacto/completo, cartas e modos de impressão/PDF. Abre por padrão em português e no modo completo. Os dados são incorporados para permitir abertura local; as novas seções e os blocos do CV completo também têm conteúdo estático no HTML. Os controles continuam dependendo de JavaScript.
 
 - Conteúdo original preservado: título, perfil, contato, cargos, períodos, resultados, reconhecimentos, formação, síntese da experiência e cartas de apresentação.
 - Habilidades, ferramentas e stack reorganizadas somente na versão experimental.
@@ -27,7 +27,7 @@ Abra `cv-experimental.html` diretamente no navegador. É uma nova versão do cur
 
 O CV atual em `index.html` e `cv-data.json` continua disponível. O estado anterior à experiência foi salvo no commit `648d76f`. Para regenerar a versão experimental, execute `python scripts/build-experimental-cv.py`; o gerador preserva os blocos originais e exige que os vínculos internos tenham destino no HTML.
 
-A expansão está inicialmente em português. A diagramação é contínua, com quebras de seção na impressão, e não tem limite fixo de páginas. O catálogo contém módulos, submódulos, fluxos e versões do mesmo ecossistema; seus totais não representam produtos independentes ou comprovação de implantação.
+A expansão está inicialmente em português e aparece no modo completo em PT. Os idiomas EN/DE mantêm o conteúdo original, sem tradução automática da expansão. As novas seções vêm depois das páginas originais, com índice e vínculos para os cargos e a formação. Cartas e síntese compacta permanecem acessíveis pelos controles existentes; a versão textual também as conserva. O gerador reutiliza `index.html` por meio de `scripts/experimental-engine.py`; `scripts/experimental-engine.css` adapta o tema para conteúdos extensos e permite que as páginas fluam na impressão, sem altura fixa ou corte do texto. O catálogo contém módulos, submódulos, fluxos e versões do mesmo ecossistema; seus totais não representam produtos independentes ou comprovação de implantação.
 
 ## Proposta de evolução do currículo
 
