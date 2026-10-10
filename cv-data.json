@@ -29465,6 +29465,620 @@
         "vsm": "https://utiliboxapp.com.br/tools/vsm/"
       }
     },
+    "projectProfiles": [
+      {
+        "id": "ebserh",
+        "pt": {
+          "applicationArea": "Saúde, gestão hospitalar e planejamento estratégico",
+          "audience": "Equipes e gestores do Hospital Universitário de Petrolina",
+          "objective": "Organizar indicadores, avaliações e acompanhamento do planejamento hospitalar"
+        },
+        "en": {
+          "applicationArea": "Healthcare, hospital management and strategic planning",
+          "audience": "Hospital Universitário de Petrolina teams and managers",
+          "objective": "Organize indicators, assessments and hospital planning monitoring"
+        },
+        "architecture": {
+          "pt": "Aplicação Java EE com entidades e persistência, serviços de negócio e interface JSF para gestão de indicadores e avaliações.",
+          "en": "Java EE application with entities, persistence, business services and a JSF interface for indicators and assessments."
+        }
+      },
+      {
+        "id": "The game project",
+        "pt": {
+          "applicationArea": "Gestão de projetos, gamificação e colaboração",
+          "audience": "Equipes de projetos; desenvolvimento acadêmico na faculdade",
+          "objective": "Representar projetos, etapas e progressão por missões, experiência e recompensas"
+        },
+        "en": {
+          "applicationArea": "Project management, gamification and collaboration",
+          "audience": "Project teams; university development project",
+          "objective": "Represent projects, stages and progression through quests, experience and rewards"
+        },
+        "architecture": {
+          "pt": "Aplicação web com entidades, acesso a dados, controle de interface e persistência MySQL; a gamificação relaciona aventuras, batalhas e progressão.",
+          "en": "Web application with entities, data access, interface controllers and MySQL persistence; gamification connects adventures, battles and progression."
+        }
+      },
+      {
+        "id": "[EFS-AHP]",
+        "pt": {
+          "applicationArea": "Ciência de dados, Machine Learning e decisão multicritério",
+          "audience": "Pesquisa aplicada no doutorado em Engenharia de Software",
+          "objective": "Selecionar atributos e comparar alternativas de modelos por desempenho, dimensionalidade e custo"
+        },
+        "en": {
+          "applicationArea": "Data science, Machine Learning and multicriteria decision making",
+          "audience": "Applied doctoral research in Software Engineering",
+          "objective": "Select features and compare model alternatives by performance, dimensionality and cost"
+        },
+        "architecture": {
+          "pt": "Experimentos organizados por bases e métodos, com rotinas evolutivas, avaliação multicritério, notebooks estatísticos e ambiente conteinerizado.",
+          "en": "Experiments organized by datasets and methods, with evolutionary routines, multicriteria evaluation, statistical notebooks and a containerized environment."
+        }
+      },
+      {
+        "id": "Agrodan",
+        "pt": {
+          "applicationArea": "Agronegócio, operações de campo, packing, qualidade, logística e gestão",
+          "audience": "Equipes de campo, operação, administração e gestores da Agrodan",
+          "objective": "Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão"
+        },
+        "en": {
+          "applicationArea": "Agribusiness, field operations, packing, quality, logistics and management",
+          "audience": "Agrodan field, operational, administrative and management teams",
+          "objective": "Integrate operational records, business rules and indicators to support execution and management"
+        },
+        "architecture": {
+          "pt": "Frontend React/Redux, backend Express modular, camadas de integração e processamento de dados e aplicativo React Native/Expo para processos SIAgro.",
+          "en": "React/Redux frontend, modular Express backend, data integration and processing layers and a React Native/Expo application for SIAgro processes."
+        }
+      },
+      {
+        "id": "AlgoritmosGeneticos",
+        "pt": {
+          "applicationArea": "Pesquisa operacional e programação de irrigação",
+          "audience": "Estudos de otimização agrícola",
+          "objective": "Explorar algoritmos genéticos para problemas de programação e restrições"
+        },
+        "en": {
+          "applicationArea": "Operations research and irrigation scheduling",
+          "audience": "Agricultural optimization studies",
+          "objective": "Explore genetic algorithms for scheduling and constraint problems"
+        },
+        "architecture": {
+          "pt": "Rotinas experimentais de representação, evolução e avaliação de soluções, com formulações de pesquisa operacional e registro de bases e resultados.",
+          "en": "Experimental solution representation, evolution and evaluation routines, with operations research formulations and dataset and result recording."
+        }
+      },
+      {
+        "id": "bkp",
+        "pt": {
+          "applicationArea": "Ciência de dados, Machine Learning e decisão multicritério",
+          "audience": "Pesquisa aplicada no doutorado em Engenharia de Software",
+          "objective": "Selecionar atributos e comparar alternativas de modelos por desempenho, dimensionalidade e custo"
+        },
+        "en": {
+          "applicationArea": "Data science, Machine Learning and multicriteria decision making",
+          "audience": "Applied doctoral research in Software Engineering",
+          "objective": "Select features and compare model alternatives by performance, dimensionality and cost"
+        },
+        "architecture": {
+          "pt": "Experimentos organizados por bases e métodos, com rotinas evolutivas, avaliação multicritério, notebooks estatísticos e ambiente conteinerizado.",
+          "en": "Experiments organized by datasets and methods, with evolutionary routines, multicriteria evaluation, statistical notebooks and a containerized environment."
+        }
+      },
+      {
+        "id": "cartola_oracle",
+        "pt": {
+          "applicationArea": "Esportes, fantasy football, previsão probabilística e otimização",
+          "audience": "Pesquisa de desempenho e composição de escalações no Cartola",
+          "objective": "Estimar desempenho e selecionar escalações considerando orçamento e restrições"
+        },
+        "en": {
+          "applicationArea": "Sports, fantasy football, probabilistic forecasting and optimization",
+          "audience": "Performance research and Cartola lineup construction",
+          "objective": "Estimate performance and select lineups under budget and other constraints"
+        },
+        "architecture": {
+          "pt": "Pipeline que separa coleta e preparação dos dados, construção de atributos, modelos probabilísticos, otimização e aplicação de consulta; notebooks apoiam a exploração.",
+          "en": "Pipeline separating data collection and preparation, feature engineering, probabilistic models, optimization and a query application; notebooks support exploration."
+        }
+      },
+      {
+        "id": "ClassPlanner",
+        "pt": {
+          "applicationArea": "Educação e planejamento pedagógico",
+          "audience": "Professores",
+          "objective": "Organizar planos de aula com contexto pedagógico, BNCC, objetivos, metodologia e avaliação"
+        },
+        "en": {
+          "applicationArea": "Education and lesson planning",
+          "audience": "Teachers",
+          "objective": "Organize lesson plans using curriculum context, objectives, methodology and assessment"
+        },
+        "architecture": {
+          "pt": "Frontend organizado por páginas e hooks e backend com controladores, serviços, repositórios, rotas, banco de dados e integração com modelos de linguagem.",
+          "en": "Frontend organized by pages and hooks; backend with controllers, services, repositories, routes, database and language model integration."
+        }
+      },
+      {
+        "id": "dente_de_leao",
+        "pt": {
+          "applicationArea": "Jogos, narrativa interativa e computação gráfica 3D",
+          "audience": "Exploração de experiências narrativas interativas",
+          "objective": "Construir um ambiente de exploração com interação, física e elementos narrativos"
+        },
+        "en": {
+          "applicationArea": "Games, interactive narrative and 3D graphics",
+          "audience": "Interactive narrative experience exploration",
+          "objective": "Build an exploration environment with interaction, physics and narrative elements"
+        },
+        "architecture": {
+          "pt": "Camadas de entrada, mundo, personagem, câmera, interação e interface; recursos visuais e física compõem a experiência 3D.",
+          "en": "Input, world, character, camera, interaction and interface layers; visual assets and physics compose the 3D experience."
+        }
+      },
+      {
+        "id": "Doutorado",
+        "pt": {
+          "applicationArea": "Ensino e pesquisa de algoritmos evolutivos",
+          "audience": "Experimentação acadêmica",
+          "objective": "Explorar a representação, a evolução e a avaliação de soluções"
+        },
+        "en": {
+          "applicationArea": "Evolutionary algorithm teaching and research",
+          "audience": "Academic experimentation",
+          "objective": "Explore solution representation, evolution and evaluation"
+        },
+        "architecture": {
+          "pt": "Exercício de algoritmo genético para explorar a representação e a evolução de soluções.",
+          "en": "Genetic algorithm exercise exploring solution representation and evolution."
+        }
+      },
+      {
+        "id": "DvrPersonAlert",
+        "pt": {
+          "applicationArea": "Segurança, monitoramento por vídeo e visão computacional",
+          "audience": "Monitoramento de câmeras e revisão de eventos",
+          "objective": "Detectar eventos, coletar exemplos revisados e adaptar a classificação ao contexto das câmeras"
+        },
+        "en": {
+          "applicationArea": "Security, video monitoring and computer vision",
+          "audience": "Camera monitoring and event review",
+          "objective": "Detect events, collect reviewed examples and adapt classification to the camera context"
+        },
+        "architecture": {
+          "pt": "Monitoramento de vídeo, painel de gestão, tratamento temporal de identidade, revisão de eventos e entrega de alertas por Telegram em componentes separados.",
+          "en": "Video monitoring, management dashboard, temporal identity handling, event review and Telegram alert delivery in separate components."
+        }
+      },
+      {
+        "id": "GOOGLE_AUTH",
+        "pt": {
+          "applicationArea": "Autenticação e integração com serviços Google",
+          "audience": "Configuração de integração de aplicações",
+          "objective": "Explorar a configuração de autenticação e acesso a serviços"
+        },
+        "en": {
+          "applicationArea": "Authentication and Google service integration",
+          "audience": "Application integration setup",
+          "objective": "Explore authentication and service access configuration"
+        },
+        "architecture": {
+          "pt": "Configuração de autenticação e integração, com escopo de estudo e preparação de acesso.",
+          "en": "Authentication and integration configuration, with a study and access setup scope."
+        }
+      },
+      {
+        "id": "instabot",
+        "pt": {
+          "applicationArea": "Marketing digital e automação de navegador",
+          "audience": "Rotinas operacionais em redes sociais",
+          "objective": "Automatizar interações com estado persistente e controle de execução"
+        },
+        "en": {
+          "applicationArea": "Digital marketing and browser automation",
+          "audience": "Social media operational routines",
+          "objective": "Automate interactions with persistent state and execution control"
+        },
+        "architecture": {
+          "pt": "Configuração, gerenciamento de sessão, coleta de interações e execução de rotinas com persistência do estado operacional.",
+          "en": "Configuration, session management, interaction collection and routine execution with persistent operational state."
+        }
+      },
+      {
+        "id": "instagram-conversion-crm",
+        "pt": {
+          "applicationArea": "Marketing, vendas e relacionamento com clientes",
+          "audience": "Operações comerciais e atendimento por conversas",
+          "objective": "Organizar o funil e apoiar decisões conversacionais com histórico e sugestões de ação"
+        },
+        "en": {
+          "applicationArea": "Marketing, sales and customer relationships",
+          "audience": "Conversational sales and customer service operations",
+          "objective": "Organize the sales funnel and support conversational decisions with history and suggested actions"
+        },
+        "architecture": {
+          "pt": "API, banco de dados, serviços, motor de decisão SPIN e integração Gemini; processamento de eventos e dashboard apoiam o fluxo conversacional.",
+          "en": "API, database, services, SPIN decision engine and Gemini integration; event processing and a dashboard support the conversational workflow."
+        }
+      },
+      {
+        "id": "launch_with_me",
+        "pt": {
+          "applicationArea": "Empreendedorismo, marketplace e validação de produtos",
+          "audience": "Criadores de produtos e potenciais usuários",
+          "objective": "Conectar propostas de produtos, descoberta e validação em uma plataforma web"
+        },
+        "en": {
+          "applicationArea": "Entrepreneurship, marketplaces and product validation",
+          "audience": "Product creators and potential users",
+          "objective": "Connect product proposals, discovery and validation in a web platform"
+        },
+        "architecture": {
+          "pt": "Rotas organizadas por papéis, operações de servidor, integrações centralizadas e persistência Supabase com funções e regras de acesso por linha.",
+          "en": "Role-based routes, server operations, centralized integrations and Supabase persistence with functions and row-level access rules."
+        }
+      },
+      {
+        "id": "Leaflet",
+        "pt": {
+          "applicationArea": "Mapas, roteamento e interfaces geográficas",
+          "audience": "Visualização e exploração de informações espaciais",
+          "objective": "Representar dados geográficos e percursos em uma interface web"
+        },
+        "en": {
+          "applicationArea": "Maps, routing and geographic interfaces",
+          "audience": "Spatial information visualization and exploration",
+          "objective": "Represent geographic data and routes in a web interface"
+        },
+        "architecture": {
+          "pt": "Interface de mapas e integração com uma biblioteca de roteamento, incluindo estudos e exemplos de terceiros.",
+          "en": "Map interface and routing library integration, including studies and third-party examples."
+        }
+      },
+      {
+        "id": "linkedin-job-assistant",
+        "pt": {
+          "applicationArea": "Carreira, recrutamento e automação supervisionada",
+          "audience": "Organização de oportunidades profissionais",
+          "objective": "Coletar oportunidades e ordenar aderência com supervisão do usuário"
+        },
+        "en": {
+          "applicationArea": "Careers, recruitment and supervised automation",
+          "audience": "Professional opportunity organization",
+          "objective": "Collect opportunities and rank fit under user supervision"
+        },
+        "architecture": {
+          "pt": "Automação de navegador, fluxo de candidatura, ranking de aderência, configuração, banco de dados e execução supervisionada.",
+          "en": "Browser automation, application workflow, fit ranking, configuration, database and supervised execution."
+        }
+      },
+      {
+        "id": "Logistica",
+        "pt": {
+          "applicationArea": "Logística, roteamento e análise geoespacial",
+          "audience": "Planejamento de deslocamentos e operações logísticas",
+          "objective": "Representar pontos e rotas em mapas e apoiar decisões de percurso"
+        },
+        "en": {
+          "applicationArea": "Logistics, routing and geospatial analysis",
+          "audience": "Travel planning and logistics operations",
+          "objective": "Represent locations and routes on maps and support routing decisions"
+        },
+        "architecture": {
+          "pt": "Componentes de mapas, desenho e roteirização, funções de apoio e experimentos com algoritmos genéticos.",
+          "en": "Map, drawing and routing components, supporting functions and genetic algorithm experiments."
+        }
+      },
+      {
+        "id": "minhas-financas",
+        "pt": {
+          "applicationArea": "Finanças pessoais, Open Finance e análise de transações",
+          "audience": "Organização financeira pessoal",
+          "objective": "Integrar e analisar transações para apoiar o acompanhamento das finanças"
+        },
+        "en": {
+          "applicationArea": "Personal finance, Open Finance and transaction analysis",
+          "audience": "Personal financial organization",
+          "objective": "Integrate and analyze transactions to support financial monitoring"
+        },
+        "architecture": {
+          "pt": "Servidor web, integração com a fonte de dados financeiros, motor de análise de transações e dashboard.",
+          "en": "Web server, financial data source integration, transaction analysis engine and dashboard."
+        }
+      },
+      {
+        "id": "mocap",
+        "pt": {
+          "applicationArea": "Movimento humano, captura de pose e interação com avatares",
+          "audience": "Experimentos de interação corporal e visualização de movimento",
+          "objective": "Estimar a pose em vídeo e conectar pontos do corpo à visualização no navegador"
+        },
+        "en": {
+          "applicationArea": "Human movement, pose capture and avatar interaction",
+          "audience": "Body interaction and movement visualization experiments",
+          "objective": "Estimate pose in video and connect body landmarks to browser visualization"
+        },
+        "architecture": {
+          "pt": "Coordenação da inferência e da renderização, processamento de vídeo, estimação de pose e recursos para visualização do movimento.",
+          "en": "Inference and rendering coordination, video processing, pose estimation and movement visualization assets."
+        }
+      },
+      {
+        "id": "movimento_3D",
+        "pt": {
+          "applicationArea": "Computação gráfica e visualização de modelos",
+          "audience": "Estudos de cenas e movimento tridimensional",
+          "objective": "Explorar a apresentação e o movimento de modelos 3D"
+        },
+        "en": {
+          "applicationArea": "Computer graphics and model visualization",
+          "audience": "3D scene and movement studies",
+          "objective": "Explore 3D model presentation and movement"
+        },
+        "architecture": {
+          "pt": "Aplicação de visualização com carregamento de modelos FBX e renderização tridimensional.",
+          "en": "Visualization application with FBX model loading and 3D rendering."
+        }
+      },
+      {
+        "id": "mt5",
+        "pt": {
+          "applicationArea": "Mercados financeiros, pesquisa quantitativa e automação de negociação",
+          "audience": "Pesquisa e experimentação de estratégias de negociação",
+          "objective": "Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5"
+        },
+        "en": {
+          "applicationArea": "Financial markets, quantitative research and trading automation",
+          "audience": "Trading strategy research and experimentation",
+          "objective": "Investigate predictive models, combine signals and connect policies to MetaTrader5"
+        },
+        "architecture": {
+          "pt": "Estudos e notebooks conectados a API de inferência, conector Python para MetaTrader5, configuração, supervisão e painéis operacionais.",
+          "en": "Studies and notebooks connected to an inference API, Python MetaTrader5 connector, configuration, supervision and operational dashboards."
+        }
+      },
+      {
+        "id": "Osoracle",
+        "pt": {
+          "applicationArea": "Escrita, narrativas e organização do conhecimento",
+          "audience": "Autores e organização de universos narrativos",
+          "objective": "Estruturar informações, entidades e relações de um domínio narrativo"
+        },
+        "en": {
+          "applicationArea": "Writing, narratives and knowledge organization",
+          "audience": "Writers and narrative world organization",
+          "objective": "Structure information, entities and relationships in a narrative domain"
+        },
+        "architecture": {
+          "pt": "Organização temática de personagens, capítulos, bestiário, referências e materiais narrativos originais.",
+          "en": "Thematic organization of characters, chapters, bestiary, references and original narrative materials."
+        }
+      },
+      {
+        "id": "planejamentoxavier",
+        "pt": {
+          "applicationArea": "Planejamento pessoal, produtividade e desenvolvimento profissional",
+          "audience": "Pessoas que organizam objetivos, atividades e planos de desenvolvimento",
+          "objective": "Relacionar objetivos, capacidade e execução com planejamento e revisão assistidos por IA"
+        },
+        "en": {
+          "applicationArea": "Personal planning, productivity and professional development",
+          "audience": "People managing goals, activities and development plans",
+          "objective": "Connect goals, capacity and execution through AI-assisted planning and review"
+        },
+        "architecture": {
+          "pt": "Domínios de planejamento e contexto, componentes de interface, APIs, workers, persistência versionada e rotinas de simulação.",
+          "en": "Planning and context domains, interface components, APIs, workers, versioned persistence and simulation routines."
+        }
+      },
+      {
+        "id": "planejamentoxavier_bkp",
+        "pt": {
+          "applicationArea": "Planejamento pessoal, produtividade e desenvolvimento profissional",
+          "audience": "Pessoas que organizam objetivos, atividades e planos de desenvolvimento",
+          "objective": "Relacionar objetivos, capacidade e execução com planejamento e revisão assistidos por IA"
+        },
+        "en": {
+          "applicationArea": "Personal planning, productivity and professional development",
+          "audience": "People managing goals, activities and development plans",
+          "objective": "Connect goals, capacity and execution through AI-assisted planning and review"
+        },
+        "architecture": {
+          "pt": "Domínios de planejamento e contexto, componentes de interface, APIs, workers, persistência versionada e rotinas de simulação.",
+          "en": "Planning and context domains, interface components, APIs, workers, versioned persistence and simulation routines."
+        }
+      },
+      {
+        "id": "poseNet",
+        "pt": {
+          "applicationArea": "Machine Learning e estimação de pose",
+          "audience": "Estudos e referências de modelos de visão computacional",
+          "objective": "Explorar a integração de modelos existentes para identificar pontos do corpo"
+        },
+        "en": {
+          "applicationArea": "Machine Learning and pose estimation",
+          "audience": "Computer vision model studies and references",
+          "objective": "Explore existing model integration to identify body landmarks"
+        },
+        "architecture": {
+          "pt": "Coleção de exemplos organizados por bibliotecas e tarefas de Machine Learning; integração de modelos existentes.",
+          "en": "Examples organized by Machine Learning libraries and tasks; existing model integration."
+        }
+      },
+      {
+        "id": "react native",
+        "pt": {
+          "applicationArea": "Desenvolvimento mobile",
+          "audience": "Estudos de interfaces e aplicações móveis",
+          "objective": "Explorar a estrutura inicial de aplicações com React Native"
+        },
+        "en": {
+          "applicationArea": "Mobile development",
+          "audience": "Mobile interface and application studies",
+          "objective": "Explore an initial React Native application structure"
+        },
+        "architecture": {
+          "pt": "Template inicial de aplicação mobile e configuração de desenvolvimento.",
+          "en": "Initial mobile application template and development configuration."
+        }
+      },
+      {
+        "id": "Scraper (OLD)",
+        "pt": {
+          "applicationArea": "Coleta de dados, ofertas e distribuição de conteúdo",
+          "audience": "Operações de acompanhamento e divulgação de ofertas",
+          "objective": "Estruturar a coleta, o tratamento e a distribuição de informações de ofertas"
+        },
+        "en": {
+          "applicationArea": "Data collection, offers and content distribution",
+          "audience": "Offer monitoring and publishing operations",
+          "objective": "Structure offer information collection, processing and distribution"
+        },
+        "architecture": {
+          "pt": "Núcleo de coleta com adaptadores por site, execução, supervisão, dashboard e persistência; versões legadas estão separadas.",
+          "en": "Collection core with site-specific adapters, execution, supervision, dashboard and persistence; legacy versions are separated."
+        }
+      },
+      {
+        "id": "Scrapers",
+        "pt": {
+          "applicationArea": "Coleta de dados, ofertas e distribuição de conteúdo",
+          "audience": "Operações de acompanhamento e divulgação de ofertas",
+          "objective": "Estruturar a coleta, o tratamento e a distribuição de informações de ofertas"
+        },
+        "en": {
+          "applicationArea": "Data collection, offers and content distribution",
+          "audience": "Offer monitoring and publishing operations",
+          "objective": "Structure offer information collection, processing and distribution"
+        },
+        "architecture": {
+          "pt": "Núcleo de coleta com adaptadores por site, execução, supervisão, dashboard e persistência; versões legadas estão separadas.",
+          "en": "Collection core with site-specific adapters, execution, supervision, dashboard and persistence; legacy versions are separated."
+        }
+      },
+      {
+        "id": "skeleton from video",
+        "pt": {
+          "applicationArea": "Visão computacional e análise de movimento",
+          "audience": "Experimentação com vídeos e representação corporal",
+          "objective": "Extrair e visualizar esqueletos a partir de vídeo"
+        },
+        "en": {
+          "applicationArea": "Computer vision and movement analysis",
+          "audience": "Video and body representation experimentation",
+          "objective": "Extract and visualize skeletons from video"
+        },
+        "architecture": {
+          "pt": "Variantes de detecção de pose com BlazePose e representação de posições corporais registradas.",
+          "en": "Pose detection variants using BlazePose and representation of recorded body positions."
+        }
+      },
+      {
+        "id": "speedTest",
+        "pt": {
+          "applicationArea": "Redes e diagnóstico de conectividade",
+          "audience": "Exploração de desempenho da conexão",
+          "objective": "Investigar medições e apresentação de dados de conectividade"
+        },
+        "en": {
+          "applicationArea": "Networks and connectivity diagnostics",
+          "audience": "Connection performance exploration",
+          "objective": "Investigate connectivity measurements and their presentation"
+        },
+        "architecture": {
+          "pt": "Rotinas exploratórias de execução e requisições para diagnóstico de conectividade.",
+          "en": "Exploratory execution and request routines for connectivity diagnostics."
+        }
+      },
+      {
+        "id": "threejs",
+        "pt": {
+          "applicationArea": "Computação gráfica e desenvolvimento web 3D",
+          "audience": "Estudos de cenas, modelos e interação",
+          "objective": "Explorar renderização de cenas e recursos tridimensionais no navegador"
+        },
+        "en": {
+          "applicationArea": "Computer graphics and 3D web development",
+          "audience": "Scene, model and interaction studies",
+          "objective": "Explore browser rendering of scenes and 3D assets"
+        },
+        "architecture": {
+          "pt": "Cena, interação, canvas e servidor para apresentação de uma experiência 3D web.",
+          "en": "Scene, interaction, canvas and server for a 3D web experience."
+        }
+      },
+      {
+        "id": "Unity",
+        "pt": {
+          "applicationArea": "Desenvolvimento de jogos e ambientes interativos",
+          "audience": "Exploração de ferramentas de desenvolvimento",
+          "objective": "Explorar o ambiente Unity; escopo de implementação limitado no inventário"
+        },
+        "en": {
+          "applicationArea": "Game and interactive environment development",
+          "audience": "Development tool exploration",
+          "objective": "Explore the Unity environment; implementation scope is limited in the inventory"
+        },
+        "architecture": {
+          "pt": "Exploração do ambiente; o inventário não contém uma implementação detalhada para descrever.",
+          "en": "Environment exploration; the inventory does not contain a detailed implementation to describe."
+        }
+      },
+      {
+        "id": "utilibox",
+        "pt": {
+          "applicationArea": "Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing",
+          "audience": "Público geral, estudantes, autores e profissionais",
+          "objective": "Transformar cálculos, métodos e organização do conhecimento em ferramentas interativas acessíveis"
+        },
+        "en": {
+          "applicationArea": "Finance, employment, production engineering, decision making, education, writing, health, beauty, documents, design and marketing",
+          "audience": "General users, students, writers and professionals",
+          "objective": "Turn calculations, methods and knowledge organization into accessible interactive tools"
+        },
+        "architecture": {
+          "pt": "Ferramentas por domínio, módulos Narra e UtiliNotas, páginas e layouts compartilhados, políticas e integrações centralizadas e backend Supabase.",
+          "en": "Domain-specific tools, Narra and UtiliNotas modules, shared pages and layouts, centralized policies and integrations and a Supabase backend."
+        }
+      },
+      {
+        "id": "utilibox-manga",
+        "pt": {
+          "applicationArea": "Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing",
+          "audience": "Público geral, estudantes, autores e profissionais",
+          "objective": "Transformar cálculos, métodos e organização do conhecimento em ferramentas interativas acessíveis"
+        },
+        "en": {
+          "applicationArea": "Finance, employment, production engineering, decision making, education, writing, health, beauty, documents, design and marketing",
+          "audience": "General users, students, writers and professionals",
+          "objective": "Turn calculations, methods and knowledge organization into accessible interactive tools"
+        },
+        "architecture": {
+          "pt": "Ferramentas por domínio, módulos Narra e UtiliNotas, páginas e layouts compartilhados, políticas e integrações centralizadas e backend Supabase.",
+          "en": "Domain-specific tools, Narra and UtiliNotas modules, shared pages and layouts, centralized policies and integrations and a Supabase backend."
+        }
+      },
+      {
+        "id": "my_ cv",
+        "pt": {
+          "applicationArea": "Apresentação profissional e desenvolvimento web",
+          "audience": "Recrutadores e leitores do currículo",
+          "objective": "Apresentar trajetória, competências e projetos com idiomas e exportação para PDF"
+        },
+        "en": {
+          "applicationArea": "Professional presentation and web development",
+          "audience": "Recruiters and CV readers",
+          "objective": "Present career history, skills and projects with language selection and PDF export"
+        },
+        "architecture": {
+          "pt": "HTML principal com dados estruturados, conteúdo bilíngue, controles de visualização e impressão pelo navegador.",
+          "en": "Main HTML with structured data, bilingual content, view controls and browser printing."
+        }
+      }
+    ],
     "priorityCases": [
       {
         "id": "destaque-utilibox-ahp",

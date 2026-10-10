@@ -554,6 +554,9 @@ Tech Lead
 ### Six-agent planning council — Planejamento Xavier
  Independent projects, prototypes and research
  Implemented a council of six specialized agents to support planning and replanning, with evidence for each recommendation, deterministic conflict resolution and traceable actions.
+ Application area: Personal planning, productivity and professional development.
+ Users and context: People managing goals, activities and development plans.
+ Objective: Connect goals, capacity and execution through AI-assisted planning and review.
 
 
 #### Engineering and implementation
@@ -564,26 +567,21 @@ Tech Lead
 
 #### Project links
  Live website — Planejamento Xavier (https://planejamentoxavier.com/)
- Evidence scope: These are rule-based pure functions. LLM integration belongs to a separate layer; the individual agents are not autonomous LLMs.
 
 
 
 ### Financial signal ensemble — TraderMind
  Independent projects, prototypes and research
  Designed multiagent policy experiments with signal voting, quorum and simulated annealing, separating calibration, temporal validation and out-of-sample evaluation.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
 
 
 #### Engineering and implementation
 
 - Twelve signals support ternary voting, minimum active-agent counts and agreement thresholds.
 - Policies choose whether to follow, invert or ignore signals; the selected policy is frozen before final out-of-sample evaluation. Backward as-of joins respect publication delays. Technologies and methods: Python · pandas · NumPy · simulated annealing · temporal validation
-
-
-#### Project sources
-
-- mt5/TraderMind/scripts/btc_multiagent_policy.py
-- mt5/TraderMind/scripts/experiment_btc_multiagent_sa.py
-- mt5/TraderMind/scripts/experiment_gold_multiagent_sa.py Evidence scope: The agents are rule-based signals. Financial returns were not verified in this review.
 
 
 
@@ -593,6 +591,9 @@ Tech Lead
 ### Shared AI integration engine — Planejamento Xavier
  Independent projects, prototypes and research
  Developed a shared AI integration layer with provider adapters, structured responses, validation, time budgets and task-specific failure handling.
+ Application area: Personal planning, productivity and professional development.
+ Users and context: People managing goals, activities and development plans.
+ Objective: Connect goals, capacity and execution through AI-assisted planning and review.
 
 
 #### Engineering and implementation
@@ -603,13 +604,15 @@ Tech Lead
 
 #### Project links
  Live website — Planejamento Xavier (https://planejamentoxavier.com/)
- Evidence scope: Adapters do not establish production usage, SLA or cost savings. Grounded search does not by itself demonstrate vector-based RAG.
 
 
 
 ### AI-assisted plan review and operation contracts
  Independent projects, prototypes and research
  Modeled AI-assisted review proposals with reference validation, alternatives, operations and follow-up, connecting suggested changes to the actual plan.
+ Application area: Personal planning, productivity and professional development.
+ Users and context: People managing goals, activities and development plans.
+ Objective: Connect goals, capacity and execution through AI-assisted planning and review.
 
 
 #### Engineering and implementation
@@ -620,13 +623,15 @@ Tech Lead
 
 #### Project links
  Live website — Planejamento Xavier (https://planejamentoxavier.com/)
- Evidence scope: Autonomy and behavioral effectiveness were not measured.
 
 
 
 ### AI-assisted lesson planning — ClassPlanner
  Independent projects, prototypes and research
  Integrated Gemini lesson-plan generation into a web application using pedagogical context, Brazilian BNCC curriculum references and structured objectives, methodology and assessment.
+ Application area: Education and lesson planning.
+ Users and context: Teachers.
+ Objective: Organize lesson plans using curriculum context, objectives, methodology and assessment.
 
 
 #### Engineering and implementation
@@ -635,28 +640,19 @@ Tech Lead
 - Structured JSON responses are parsed into the planning workflow. Technologies and methods: React · Node.js · Express · SQLite · Gemini · BNCC
 
 
-#### Project sources
-
-- ClassPlanner/backend/src/llm/gemini.js
-- ClassPlanner/backend/src/controllers/controller.plan.js Evidence scope: JSON parsing does not establish complete schema validation or validated pedagogical quality; the module includes demos and implementation inconsistencies.
-
-
 
 ### Hybrid conversational CRM — Instagram Conversion CRM
  Independent projects, prototypes and research
  Built a hybrid AI-and-rules conversation flow with interaction history, action contracts, failure handling and human handoff.
+ Application area: Marketing, sales and customer relationships.
+ Users and context: Conversational sales and customer service operations.
+ Objective: Organize the sales funnel and support conversational decisions with history and suggested actions.
 
 
 #### Engineering and implementation
 
 - Conversation state and history provide context for the decision engine.
 - Action normalization, retries and handoff connect suggestions to the CRM workflow. Technologies and methods: Node.js · Express · SQLite · Gemini · conversation history
-
-
-#### Project sources
-
-- instagram-conversion-crm/src/gemini-spin.js
-- instagram-conversion-crm/src/spin-decision-engine.js Evidence scope: SDK configuration depends on another local project. Conversion uplift and live operation were not verified.
 
 
 
@@ -666,6 +662,9 @@ Tech Lead
 ### EFS-AHP — doctoral research framework
  Doctoral research
  Developed EFS-AHP as doctoral research combining feature selection, evolutionary algorithms and multicriteria decision analysis, comparing ML alternatives and analyzing performance, dimensionality and computational cost.
+ Application area: Data science, Machine Learning and multicriteria decision making.
+ Users and context: Applied doctoral research in Software Engineering.
+ Objective: Select features and compare model alternatives by performance, dimensionality and cost.
 
 
 #### Engineering and implementation
@@ -676,26 +675,21 @@ Tech Lead
 
 #### Project links
  Public repository — EFS-AHP (https://github.com/Danjubex/efs_ahp)
- Evidence scope: Final publications, metrics and statistical significance require confirmation. Dimensionality reduction and feature selection are distinct methods.
 
 
 
 ### TraderMind — experiments and inference integration
  Independent projects, prototypes and research
  Structured quantitative experiments and inference components, connecting data preparation and model/policy evaluation to an API and the MetaTrader5 terminal.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
 
 
 #### Engineering and implementation
 
 - Time-series preparation and feature engineering feed model and policy experiments.
 - API and desktop connector components keep research, inference and execution responsibilities separate. Technologies and methods: Python · scikit-learn · XGBoost · pandas · Flask · MetaTrader5
-
-
-#### Project sources
-
-- mt5/TraderMind/serve.py
-- mt5/TraderMind/connector/bot.py
-- mt5/TraderMind/scripts/btc_multiagent_policy.py Evidence scope: Temporal validation should not be generalized to every notebook. Verified financial returns are not claimed.
 
 
 
@@ -705,6 +699,9 @@ Tech Lead
 ### DVR — feedback, datasets and classifier training
  Independent projects, prototypes and research
  Implemented a computer-vision workflow with detection, example review and custom classifier training from a pretrained model, integrating epoch monitoring, checkpoints, temporal stabilization and persistent alerts.
+ Application area: Security, video monitoring and computer vision.
+ Users and context: Camera monitoring and event review.
+ Objective: Detect events, collect reviewed examples and adapt classification to the camera context.
 
 
 #### Engineering and implementation
@@ -713,32 +710,22 @@ Tech Lead
 - Temporal voting and a persistent alert outbox connect detection to operational notifications. Technologies and methods: Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP
 
 
-#### Project sources
-
-- DvrPersonAlert/uvinha_training.py
-- DvrPersonAlert/detection_reviews.py
-- DvrPersonAlert/temporal_identity.py
-- DvrPersonAlert/telegram_outbox.py
-- DvrPersonAlert/dvr_person_alert.py Evidence scope: Training code was found but was not executed in this review. Generalization across cameras and similarity between dataset splits need evaluation.
-
-
 
 ### Mocap — browser inference and visualization
  Independent projects, prototypes and research
  Developed browser pose-estimation prototypes integrating inference, keypoint visualization and temporal smoothing to explore motion capture and 3D interaction.
+ Application area: Human movement, pose capture and avatar interaction.
+ Users and context: Body interaction and movement visualization experiments.
+ Objective: Estimate pose in video and connect body landmarks to browser visualization.
+ Application area: Computer vision and movement analysis.
+ Users and context: Video and body representation experimentation.
+ Objective: Extract and visualize skeletons from video.
 
 
 #### Engineering and implementation
 
 - Existing pose models process video and webcam input in the browser.
 - Keypoint rendering, smoothing and 3D resources connect inference to interactive visualization. Technologies and methods: JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL
-
-
-#### Project sources
-
-- mocap/src/main.js
-- mocap/docs/ARQUITETURA.md
-- skeleton from video/detectPoseMediaPipe.js Evidence scope: These applications integrate existing models. Frame rate, latency and retargeting quality were not measured.
 
 
 
@@ -748,6 +735,9 @@ Tech Lead
 ### PLANAGRO — inputs, applications and agronomic rules
  Professional experience — Agrodan
  Developed agricultural planning components in PLANAGRO, translating input application, dosage, withholding periods, drift and budgets into rules and interfaces connected to operational data.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -756,16 +746,13 @@ Tech Lead
 - Planning interfaces connect operational inputs and budget information to the application workflow. Technologies and methods: React · JavaScript · Node.js · operational APIs · agronomic rules
 
 
-#### Project sources
-
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/PLANAGRO.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-planagro.js Evidence scope: Code demonstrates rules, but does not establish agronomic validation or deployment across every operation.
-
-
 
 ### Irrigation — scheduling, genetic algorithms and Kc modeling
  Professional experience — Agrodan
  Explored irrigation scheduling, genetic algorithms and neural modeling of crop coefficient Kc, working with variable encoding, normalization, network parameters and operational backend integration.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -774,18 +761,13 @@ Tech Lead
 - Neural training, serialized model restoration and evolutionary experiments explore irrigation-related decisions. Technologies and methods: JavaScript · Node.js · genetic algorithms · neural network · normalization
 
 
-#### Project sources
-
-- Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/KcAutomatico.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/ProgIrrig.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/indexIrrigacao.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-irrigacao.js Evidence scope: The reviewed evaluation reuses training data; historical Kc also appears among inputs/targets and output adjustments are heuristic. Out-of-sample accuracy is not established.
-
-
 
 ### Spraying audit — maps and field execution
  Professional experience — Agrodan
  Built spraying-audit components using spatial and operational data, relating trajectories, speed, field blocks and services to support investigation of field execution.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -794,16 +776,13 @@ Tech Lead
 - Audit interfaces make execution patterns available for operational review. Technologies and methods: React · geospatial data · trajectory · speed · operational APIs
 
 
-#### Project sources
-
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/AuditoriaPulverizacao.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-miam.js Evidence scope: Previously declared problem-reduction metrics are not attributed to this specific module without confirmation of initiative, period and measurement.
-
-
 
 ### Dry matter — harvest forecasting and readiness
  Professional experience — Agrodan
  Implemented dry-matter analysis and harvest-forecast components connecting readings, varieties and parameters to charts and monitoring rules.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -812,16 +791,13 @@ Tech Lead
 - Charts and operational interfaces support monitoring by variety and field context. Technologies and methods: React · JavaScript · curves and equations · charts · field data
 
 
-#### Project sources
-
-- Agrodan@origin/development:src/pages/MateriaSeca/MateriaSeca.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-materia-seca.js Evidence scope: The evidence consists of equations and rules; it does not automatically establish a trained ML model or validated forecast accuracy.
-
-
 
 ### Field notebook and purchasing — local data and synchronization
  Professional experience — Agrodan
  Developed field-data collection and purchase-request workflows with local storage, process components and synchronization routines integrated with domain-specific backend services.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -830,18 +806,13 @@ Tech Lead
 - Synchronization handlers and domain APIs connect local records to the backend. Technologies and methods: React · Dexie · IndexedDB · Node.js · synchronization
 
 
-#### Project sources
-
-- Agrodan@origin/development:src/pages/CadernoCampo/Apontamentos.js
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/Solicitacao.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-caderno-campo.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-solicitacao-compras.js Evidence scope: Complete offline behavior, conflict resolution and synchronization success rates were not measured in this review.
-
-
 
 ### UGB management, people and improvement suggestions
  Professional experience — Agrodan
  Modeled business-unit and people-management applications and improvement-suggestion workflows combining organizational records, history, assessments, roles and documents.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -850,31 +821,19 @@ Tech Lead
 - Assessments, history, 5S and improvement workflows organize management information. Technologies and methods: React · Node.js · organizational modeling · assessments · history
 
 
-#### Project sources
-
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/Funcionarios/index.js
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/UGBs/index.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-sugestao-melhorias.js Evidence scope: Submodules share architecture and are not independent products. HR outcomes are not claimed without evidence.
-
-
 
 ### Commercial monitoring, forecasts and pallet movements
  Professional experience — Agrodan
  Developed commercial and logistics components connecting records and forecasts to management interfaces and operational pallet/container data.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
 
 - Commercial entries, forecasts and exchange-rate information support operational views.
 - Pallet and container movements link logistics records to management interfaces. Technologies and methods: React · Node.js · commercial data · pallets · containers
-
-
-#### Project sources
-
-- Agrodan@origin/development:src/pages/PrevisaoResultados/index.js
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/MovimentacaoPallet.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/comercial/rotas-comercial.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-containers.js Evidence scope: A forecast screen name does not prove an ML algorithm. Deployment and measured gains require project-specific attribution.
 
 
 
@@ -884,19 +843,15 @@ Tech Lead
 ### Modular ETL and operational data quality
  Professional experience — Agrodan
  Structured integration pipelines with reusable importers, batch processing and domain rules for production, packing, quality and people, organizing operational data for analysis and decisions.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
 
 - Node.js and SQL importers separate extraction, transformation and domain-specific processing.
 - Batch persistence, joins and aggregation connect ERP and operational records to indicators. Technologies and methods: Node.js · SQL · Oracle · Sequelize · ETL · batch import
-
-
-#### Project sources
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/core-importer-from-queries.js
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/core-importer-from-dwh.js
-- Agrodan/etl/servers/server-dataware-house/core/validation/core-validation.js Evidence scope: Historical dependencies and commented routines remain in the archive. Module counts do not establish independent products or deployment of every routine.
 
 
 
@@ -906,6 +861,9 @@ Tech Lead
 ### SIAgro — mobile operational data collection
  Professional experience — Agrodan
  Developed SIAgro mobile modules for work orders, production records and quality using React Native/Expo, business-object modeling, local persistence and operational indicators.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -914,17 +872,16 @@ Tech Lead
 - Reusable local persistence and API integration connect collection and dashboard components. Technologies and methods: React Native · Expo · AsyncStorage · React Navigation · APIs
 
 
-#### Project sources
-
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/ObjetoPadrao.js
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/OrdemServico.js
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/Apontamento.js Evidence scope: Complete offline synchronization, operational GPS usage and app publication require confirmation.
-
-
 
 ### Hospital indicators and academic gamification
  Hospital internship and university project
  During the hospital internship, developed a Java EE web system for indicators and assessments. At university, built a project-management application with gamification and persistence, exploring progression rules and task organization.
+ Application area: Healthcare, hospital management and strategic planning.
+ Users and context: Hospital Universitário de Petrolina teams and managers.
+ Objective: Organize indicators, assessments and hospital planning monitoring.
+ Application area: Project management, gamification and collaboration.
+ Users and context: Project teams; university development project.
+ Objective: Represent projects, stages and progression through quests, experience and rewards.
 
 
 #### Engineering and implementation
@@ -935,7 +892,6 @@ Tech Lead
 
 #### Project links
  Public repository — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores) · Public repository — The Game Project (https://github.com/Danjubex/the_game_project)
- Evidence scope: Hospital internship and university work are separate contexts. Code reuse does not establish another hospital employment experience.
 
 
 
@@ -945,6 +901,9 @@ Tech Lead
 ### Utilibox — multicriteria analysis, queues and applied methods
  Independent projects, prototypes and research
  Implemented decision-support and learning tools using multicriteria methods, queueing theory, simulation, financial mathematics and spaced repetition, translating models into explainable interfaces and calculations.
+ Application area: Finance, employment, production engineering, decision making, education, writing, health, beauty, documents, design and marketing.
+ Users and context: General users, students, writers and professionals.
+ Objective: Turn calculations, methods and knowledge organization into accessible interactive tools.
 
 
 #### Engineering and implementation
@@ -955,13 +914,18 @@ Tech Lead
 
 #### Project links
  Open tool — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/) · Open tool — topsis (https://utiliboxapp.com.br/tools/topsis/) · Open tool — promethee (https://utiliboxapp.com.br/tools/promethee/) · Open tool — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/) · Open tool — vsm (https://utiliboxapp.com.br/tools/vsm/) · Open tool — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
- Evidence scope: The catalog contains 136 unique slugs with overlapping categories. Live status is catalog-declared; availability, external validation and actual usage were not verified.
 
 
 
 ### Cartola and logistics — decisions under constraints
  Independent projects, prototypes and research
  Developed pipelines connecting data and optimization to decisions, exploring team selection under budget/formation constraints and routing with geographical visualization.
+ Application area: Sports, fantasy football, probabilistic forecasting and optimization.
+ Users and context: Performance research and Cartola lineup construction.
+ Objective: Estimate performance and select lineups under budget and other constraints.
+ Application area: Logistics, routing and geospatial analysis.
+ Users and context: Travel planning and logistics operations.
+ Objective: Represent locations and routes on maps and support routing decisions.
 
 
 #### Engineering and implementation
@@ -972,7 +936,6 @@ Tech Lead
 
 #### Project links
  Public repository — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
- Evidence scope: Solution quality and comparison metrics require confirmation. NDVI references alone do not establish an operational remote-sensing pipeline.
 
 
 
@@ -982,6 +945,9 @@ Tech Lead
 ### Narra and UtiliNotas — domain and knowledge applications
  Independent projects, prototypes and research
  Built narrative and knowledge-organization modules with entity relationships, contextual assistance, response traceability and note interoperability.
+ Application area: Finance, employment, production engineering, decision making, education, writing, health, beauty, documents, design and marketing.
+ Users and context: General users, students, writers and professionals.
+ Objective: Turn calculations, methods and knowledge organization into accessible interactive tools.
 
 
 #### Engineering and implementation
@@ -992,28 +958,33 @@ Tech Lead
 
 #### Project links
  Open tool — narra (https://utiliboxapp.com.br/tools/narra/) · Open tool — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
- Evidence scope: Intent dispatch alone does not establish a multiagent architecture or implemented vector RAG/MCP.
 
 
 
 ### Marketplace, automation and 3D interaction
  Independent projects, prototypes and research
  Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.
+ Application area: Games, interactive narrative and 3D graphics.
+ Users and context: Interactive narrative experience exploration.
+ Objective: Build an exploration environment with interaction, physics and narrative elements.
+ Application area: Entrepreneurship, marketplaces and product validation.
+ Users and context: Product creators and potential users.
+ Objective: Connect product proposals, discovery and validation in a web platform.
+ Application area: Careers, recruitment and supervised automation.
+ Users and context: Professional opportunity organization.
+ Objective: Collect opportunities and rank fit under user supervision.
+ Application area: Personal finance, Open Finance and transaction analysis.
+ Users and context: Personal financial organization.
+ Objective: Integrate and analyze transactions to support financial monitoring.
+ Application area: Data collection, offers and content distribution.
+ Users and context: Offer monitoring and publishing operations.
+ Objective: Structure offer information collection, processing and distribution.
 
 
 #### Engineering and implementation
 
 - Product roles and integrations organize campaigns and commercial workflows.
 - Supervised automation and interactive prototypes explore different product domains. Technologies and methods: Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
-
-
-#### Project sources
-
-- dente_de_leao/README.md
-- launch_with_me/docs/ARQUITETURA.md
-- linkedin-job-assistant/README.md
-- minhas-financas/README.md
-- Scrapers/README.md Evidence scope: Revenue, scale and publication are not claimed without data. Payment integrations and planned features have varying maturity.
 
 
 
@@ -1023,6 +994,9 @@ Tech Lead
 ### IT operations management — Agrodan
  Professional experience — Agrodan
  Managed IT operations, integrating support, servers, networks, continuity, ERP and IoT initiatives with delivery of technology services and solutions.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
 
 
 #### Engineering and implementation
@@ -1031,28 +1005,19 @@ Tech Lead
 - Backup/recovery, virtualization, monitoring, security and IoT belong to the declared IT management scope. Technologies and methods: Windows Server · Linux · Active Directory · Zabbix · GLPI · networks · IoT
 
 
-#### Project sources
-
-- my_ cv/cv-data.json Evidence scope: Source: the existing professional CV, rather than repository code audited in this review.
-
-
 
 ### MetaTrader5 desktop connector — TraderMind
  Independent projects, prototypes and research
  Built a Python connector to the MetaTrader5 desktop terminal, integrating market/account data with the documented research and execution workflow.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
 
 
 #### Engineering and implementation
 
 - The connector uses the MetaTrader5 package and requires an authenticated local terminal.
 - Candles and account data connect policy research with separate API, dashboard and execution components. Technologies and methods: Python · MetaTrader5 · Flask · SQLite · local APIs
-
-
-#### Project sources
-
-- mt5/TraderMind/connector/bot.py
-- mt5/TraderMind/serve.py
-- mt5/TraderMind/docs/SETUP_DASHBOARD_BOT.md Evidence scope: This is desktop integration, not a custom Qt, Electron, WPF or Swing GUI application.
 
 
 
@@ -1062,6 +1027,9 @@ Tech Lead
 ### Dente de Leão — interactive narrative world
  Independent projects, prototypes and research
  Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.
+ Application area: Games, interactive narrative and 3D graphics.
+ Users and context: Interactive narrative experience exploration.
+ Objective: Build an exploration environment with interaction, physics and narrative elements.
 
 
 #### Engineering and implementation
@@ -1070,33 +1038,28 @@ Tech Lead
 - React Three Fiber, Rapier and Zustand integrate rendering, physics and application state. Technologies and methods: TypeScript · React Three Fiber · Three.js · Rapier · Zustand
 
 
-#### Project sources
-
-- dente_de_leao/README.md
-- dente_de_leao/src/game/World.tsx
-- dente_de_leao/src/game/player/Player.tsx
-- dente_de_leao/src/game/interact/useInteractionProbe.ts
-- dente_de_leao/package.json Evidence scope: A browser prototype; commercial release, a proprietary engine or Unity development are not established.
-
-
 
 ### Maps, models and spatial exploration
  Independent projects, prototypes and research
  Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.
+ Application area: Maps, routing and geographic interfaces.
+ Users and context: Spatial information visualization and exploration.
+ Objective: Represent geographic data and routes in a web interface.
+ Application area: Logistics, routing and geospatial analysis.
+ Users and context: Travel planning and logistics operations.
+ Objective: Represent locations and routes on maps and support routing decisions.
+ Application area: Computer graphics and model visualization.
+ Users and context: 3D scene and movement studies.
+ Objective: Explore 3D model presentation and movement.
+ Application area: Computer graphics and 3D web development.
+ Users and context: Scene, model and interaction studies.
+ Objective: Explore browser rendering of scenes and 3D assets.
 
 
 #### Engineering and implementation
 
 - Logistics and Leaflet projects combine map interfaces and routing components.
 - Three.js experiments include scenes, interaction and model loading using third-party libraries. Technologies and methods: JavaScript · React · Leaflet · Three.js · Canvas · FBX
-
-
-#### Project sources
-
-- Leaflet/index.html
-- Logistica/src/leaflet/Roteirizador.js
-- movimento_3D/3d.html
-- threejs/app.js Evidence scope: This does not establish comprehensive GIS specialization, operational remote sensing or authorship of rendering libraries.
 
 
 
@@ -1136,8 +1099,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/AbastecimentoFrota/AbastecimentoFrota.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Absenteeism
@@ -1147,8 +1108,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Absenteismo/Absenteismo.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Operational follow-up
@@ -1161,10 +1120,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Effect hooks and data loading
-- Agrodan@origin/development:src/pages/Acompanhamentos/Dash_Orcamento.js:1
-- Agrodan@origin/development:src/pages/Acompanhamentos/MainData.js:1
-- Agrodan@origin/development:src/pages/Acompanhamentos/indicadores.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Field and packing areas
@@ -1173,10 +1128,6 @@ Tech Lead
  Observed stack: @material-ui/core, @nivo/bar, moment, react, react-router-dom
 
 - State hooks
-- Agrodan@origin/development:src/pages/Areas/Campo.js:1
-- Agrodan@origin/development:src/pages/Areas/GestaoQualidadeLinks.js:1
-- Agrodan@origin/development:src/pages/Areas/Monitoramento.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Atel Escola monitoring
@@ -1186,10 +1137,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/AtelEscola/AtelEscola.js:1
-- Agrodan@origin/development:src/pages/AtelEscola/LegendMUS.js:1
-- Agrodan@origin/development:src/pages/AtelEscola/MonitoramentoUmidadeSolo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Spraying audit
@@ -1200,11 +1147,6 @@ Tech Lead
 - Maps and spatial information
 - Leaflet maps
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/AuditoriaPulverizacao.js:1
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/DataMap.js:1
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/LegendMiam.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-miam.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### SGA audit
@@ -1214,8 +1156,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/AuditoriaSGA/AuditoriaSGA.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### SIA audit
@@ -1225,8 +1165,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/AuditoriaSIA/AuditoriaSIA.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Team assessment
@@ -1240,11 +1178,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/AvaliacaoEquipe/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipe/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipe/Resumo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-avaliacao-equipe.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Administrative team assessment
@@ -1257,10 +1190,6 @@ Tech Lead
 - Synchronization handlers
 - Synchronization references
 - State hooks
-- Agrodan@origin/development:src/pages/AvaliacaoEquipeADM_OFC/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipeADM_OFC/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipeADM_OFC/Resumo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Student–teacher assessment
@@ -1273,10 +1202,6 @@ Tech Lead
 - Synchronization handlers
 - Synchronization references
 - State hooks
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaAlunoProfessor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaAlunoProfessor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaAlunoProfessor/Resumo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Manager–manager assessment
@@ -1289,10 +1214,6 @@ Tech Lead
 - Synchronization handlers
 - Synchronization references
 - State hooks
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaGestorGestor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaGestorGestor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaGestorGestor/Resumo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Teacher–manager assessment
@@ -1305,10 +1226,6 @@ Tech Lead
 - Synchronization handlers
 - Synchronization references
 - State hooks
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorGestor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorGestor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorGestor/Resumo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Teacher–teacher assessment
@@ -1321,10 +1238,6 @@ Tech Lead
 - Synchronization handlers
 - Synchronization references
 - State hooks
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorProfessor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorProfessor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorProfessor/Resumo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Reverse assessment
@@ -1338,11 +1251,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/AvaliacaoInvertida/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoInvertida/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoInvertida/Resumo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-avaliacao-invertida.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Peer assessment
@@ -1356,11 +1264,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/AvaliacaoPares/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoPares/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoPares/Resumo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-avaliacao-pares.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Time-clock records
@@ -1370,8 +1273,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/BatidaPonto/BatidaPonto.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### CFO view
@@ -1381,8 +1282,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/CFO/CFO.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Commercial results
@@ -1397,11 +1296,6 @@ Tech Lead
 - State hooks
 - Effect hooks and data loading
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/COMERCIAL/Resultados/Auditorias.js:1
-- Agrodan@origin/development:src/pages/COMERCIAL/Resultados/Config.js:1
-- Agrodan@origin/development:src/pages/COMERCIAL/Resultados/CriarLancamento.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/comercial/rotas-comercial.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Accounts payable
@@ -1411,8 +1305,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/CONTAS_PAGAR/CONTAS_PAGAR.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Field-block registration
@@ -1422,8 +1314,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/CadastroTalhoes/CadastroTalhoes.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Field notebook
@@ -1438,11 +1328,6 @@ Tech Lead
 - State hooks
 - Effect hooks and data loading
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/CadernoCampo/Apontamentos.js:1
-- Agrodan@origin/development:src/pages/CadernoCampo/Config.js:1
-- Agrodan@origin/development:src/pages/CadernoCampo/MeusApontamentos.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-caderno-campo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Packed boxes
@@ -1452,8 +1337,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/CaixasEmbaladas/CaixasEmbaladas.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Packed boxes by business unit
@@ -1463,8 +1346,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/CaixasEmbaladasUgb/CaixasEmbaladasUgb.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Input verification
@@ -1474,8 +1355,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ConferenciaInsumos/ConferenciaInsumos.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Pallet control
@@ -1485,8 +1364,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ControlePallets/ControlePallets.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Quality control
@@ -1496,8 +1373,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ControleQualidade/ControleQualidade.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Receiving control
@@ -1509,8 +1384,6 @@ Tech Lead
 - Effect hooks and data loading
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ControleRecebimento/ControleRecebimento.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Harvest schedule
@@ -1520,10 +1393,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/CronogramaSafra/CronogramaSafra.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafra/Colheita.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafra/CronogramaSafraApp.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Harvest schedule form
@@ -1534,10 +1403,6 @@ Tech Lead
 - IndexedDB persistence through Dexie
 - Local data layer
 - Synchronization references
-- Agrodan@origin/development:src/pages/CronogramaSafraForm/CronogramaSafraForm.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraForm/Colheita.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraForm/CronogramaSafraEdit.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### SIA-integrated harvest schedule
@@ -1551,19 +1416,12 @@ Tech Lead
 - State hooks
 - Effect hooks and data loading
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/CronogramaSafraSIA/Config.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraSIA/Edicao.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraSIA/Sincronizacao.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-cronograma-safra.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Field sketches
  Application: Operational workflow for field sketches.
  Professional context — Agrodan
  Observed stack: @material-ui/core, @nivo/pie, moment, react
-
-- Agrodan@origin/development:src/pages/Croquis/Croquis.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -1574,8 +1432,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Custos/Custos.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Satisfaction dashboard
@@ -1585,16 +1441,12 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/DashSatisfacao/DashSatisfacao.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Packaging
  Application: Operational workflow for packaging.
  Professional context — Agrodan
  Observed stack: @material-ui/core, @nivo/bar, moment, react
-
-- Agrodan@origin/development:src/pages/Embalagem/Embalagem.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -1605,8 +1457,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/EstoqueVirtual/EstoqueVirtual.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Billing
@@ -1616,8 +1466,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Faturamento/Faturamento.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Field-block closure
@@ -1627,8 +1475,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/FechamentoTalhoes/FechamentoTalhoes.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Price fluctuations
@@ -1638,8 +1484,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/FlutuacaoPreco/FlutuacaoPreco.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Payroll
@@ -1649,8 +1493,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/FolhaPagamento/FolhaPagamento.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Inventory management
@@ -1660,8 +1502,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/GestaoEstoque/GestaoEstoque.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Business-unit management
@@ -1675,11 +1515,6 @@ Tech Lead
 - Spreadsheets
 - HTTP integration
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/GestaoUGBs/Router.js:1
-- Agrodan@origin/development:src/pages/GestaoUGBs/env.js:1
-- Agrodan@origin/development:src/pages/GestaoUGBs/index.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-gestaoUGB.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Hour meter
@@ -1689,8 +1524,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Horimetro/Horimetro.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### BPM indicators and satisfaction
@@ -1704,19 +1537,12 @@ Tech Lead
 - Maps and spatial information
 - Leaflet maps
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/IndicadorBPM/IndicadorBPM.js:1
-- Agrodan@origin/development:src/pages/IndicadorBPM/SatisfacaoBPM.js:1
-- Agrodan@origin/development:src/pages/IndicadorBPM/utils/downloadData.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-satisfacao-bpm.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Logistics satisfaction
  Application: Operational workflow for logistics satisfaction.
  Professional context — Agrodan
  Observed stack: @material-ui/core, @material-ui/icons, @nivo/pie, moment, react
-
-- Agrodan@origin/development:src/pages/IndicadorLogistica/SatisfacaoLogistica.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -1728,11 +1554,6 @@ Tech Lead
 - Maps and spatial information
 - Leaflet maps
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/IndicadorTI/IndicadorTI.js:1
-- Agrodan@origin/development:src/pages/IndicadorTI/FilaChamados.js:1
-- Agrodan@origin/development:src/pages/IndicadorTI/SatisfacaoTI.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-ti.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Irrigation monitoring
@@ -1743,11 +1564,6 @@ Tech Lead
 - Maps and spatial information
 - Leaflet maps
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/Irrigacao/Irrigacao.js:1
-- Agrodan@origin/development:src/pages/Irrigacao/MonitoramentoIrrigacao/Enviando.js:1
-- Agrodan@origin/development:src/pages/Irrigacao/MonitoramentoIrrigacao/InputPhytech.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-irrigacao.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Irrigas view
@@ -1757,8 +1573,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Irrigas/Irrigas.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Lean Packing Game
@@ -1768,8 +1582,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/LeanPackingGame/LeanPackingGame.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Time recording
@@ -1778,9 +1590,6 @@ Tech Lead
  Observed stack: @material-ui/core, @material-ui/icons, moment, react, react-chartjs-2, trabalho-eficiente.jpg
 
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/Log Horas/LogHoras.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-log-horas.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### MAD monitoring
@@ -1792,11 +1601,6 @@ Tech Lead
 - Maps and spatial information
 - Leaflet maps
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/MAD/MAD.js:1
-- Agrodan@origin/development:src/pages/MAD/LegendMUS.js:1
-- Agrodan@origin/development:src/pages/MAD/MonitoramentoUmidadeSolo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-mad.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### MAF and mango monitoring
@@ -1808,11 +1612,6 @@ Tech Lead
 - Effect hooks and data loading
 - Socket events
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/MAF/Maf.js:1
-- Agrodan@origin/development:src/pages/MAF/MangaCanvas.js:1
-- Agrodan@origin/development:src/pages/MAF/PosicaoLinhas.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/maf/rotas-maf.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Integrated pest monitoring
@@ -1823,9 +1622,6 @@ Tech Lead
 - Local data layer
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/MIP/MIP.js:1
-- Agrodan@origin/development:src/pages/MIP/LegendMIP.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Dry matter and harvest forecasting
@@ -1836,10 +1632,6 @@ Tech Lead
 - Forecasting function
 - Harvest-readiness rule
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/MateriaSeca/MateriaSeca.js:1
-- Agrodan@origin/development:src/pages/MateriaSeca/variaveis.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-materia-seca.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Materials
@@ -1848,9 +1640,6 @@ Tech Lead
  Observed stack: @material-ui/core, @nivo/pie, moment, react
 
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/Materiais/Materiais.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-materiais.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Material movements
@@ -1859,9 +1648,6 @@ Tech Lead
  Observed stack: @material-ui/core, @nivo/pie, moment, react
 
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/MovimentacaoMateriais/MovimentacaoMateriais.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-movimentacao-materiais.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Pallet and container movements
@@ -1874,11 +1660,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/MovimentacaoPallet.js:1
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/ConferenciaCameras.js:1
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/DadosContainer.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-containers.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Budget
@@ -1889,9 +1670,6 @@ Tech Lead
 - Maps and spatial information
 - Leaflet maps
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/Orcamento/Orcamento.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-orcamento.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Organization chart and areas
@@ -1902,10 +1680,6 @@ Tech Lead
 - IndexedDB persistence through Dexie
 - Synchronization references
 - State hooks
-- Agrodan@origin/development:src/pages/Organograma/Areas.js:1
-- Agrodan@origin/development:src/pages/Organograma/Indicadores.js:1
-- Agrodan@origin/development:src/pages/Organograma/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Labor PDCA
@@ -1919,10 +1693,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Effect hooks and data loading
-- Agrodan@origin/development:src/pages/PDCA/MO/Auditorias.js:1
-- Agrodan@origin/development:src/pages/PDCA/MO/Config.js:1
-- Agrodan@origin/development:src/pages/PDCA/MO/CriarPlano.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Packing and box handling
@@ -1931,9 +1701,6 @@ Tech Lead
  Observed stack: @material-ui/core, @material-ui/icons, @nivo/bar, audio-loader, audio-play, moment, play-sound, react, react-router-dom, socket.io-client
 
 - Socket events
-- Agrodan@origin/development:src/pages/Packing/Packing.js:1
-- Agrodan@origin/development:src/pages/Packing/Caixaria/Caixaria.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### PLANAGRO — agricultural planning and rules
@@ -1954,11 +1721,6 @@ Tech Lead
 - Dosage rule
 - Drift rule
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/Legend.js:1
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/Legenda_new.js:1
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/PLANAGRO.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-planagro.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Results and exchange-rate forecasts
@@ -1972,11 +1734,6 @@ Tech Lead
 - State hooks
 - Spreadsheets
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/PrevisaoResultados/index.js:1
-- Agrodan@origin/development:src/pages/PrevisaoResultados/pages/Acompanhamento.js:1
-- Agrodan@origin/development:src/pages/PrevisaoResultados/pages/Cambio.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-previsao-resultados.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Processing schedule
@@ -1986,8 +1743,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ProgramacaoProcessamento/ProgramacaoProcessamento.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Projects
@@ -1997,8 +1752,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Projetos/Projetos.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Employee counts
@@ -2008,8 +1761,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/QtdFuncionarios/QtdFuncionarios.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Field quality and checklists
@@ -2021,11 +1772,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/QualidadeCampo/Qualidade.js:1
-- Agrodan@origin/development:src/pages/QualidadeCampo/Respostas.js:1
-- Agrodan@origin/development:src/pages/QualidadeCampo/index.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-qualidade-campo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### HR view
@@ -2035,8 +1781,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/RH/RH.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Occupational safety risks
@@ -2046,10 +1790,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/RISCO_SST/Legenda.js:1
-- Agrodan@origin/development:src/pages/RISCO_SST/Legenda_new.js:1
-- Agrodan@origin/development:src/pages/RISCO_SST/RiscoSST.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Phone extensions
@@ -2059,8 +1799,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Ramais/Ramais.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Rejects
@@ -2070,8 +1808,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Refugo/Refugo.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### BI reports
@@ -2081,8 +1817,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/RelatoriosBI/index.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Labor summary
@@ -2092,8 +1826,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ResumoMO/ResumoMO.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Management routines
@@ -2103,8 +1835,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/RitualGerencial/RitualGerencial.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Quality management system
@@ -2118,10 +1848,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Effect hooks and data loading
-- Agrodan@origin/development:src/pages/SGQ/Auditorias.js:1
-- Agrodan@origin/development:src/pages/SGQ/Config.js:1
-- Agrodan@origin/development:src/pages/SGQ/CriarAuditoria.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Quality reports
@@ -2134,10 +1860,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Effect hooks and data loading
-- Agrodan@origin/qualiex:src/pages/SgqRelatorios/RelatorioAuditoria.js:1
-- Agrodan@origin/qualiex:src/pages/SgqRelatorios/ResumoAuditorias.js:1
-- Agrodan@origin/qualiex:src/pages/SgqRelatorios/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Time-bank balance
@@ -2147,8 +1869,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/SaldoBH/SaldoBH.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Satisfaction
@@ -2156,16 +1876,12 @@ Tech Lead
  Professional context — Agrodan
  Observed stack: @material-ui/core, @material-ui/icons, @nivo/pie, moment, react
 
-- Agrodan@origin/development:src/pages/Satisfacao/Satisfacao.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Security
  Application: Operational workflow for security.
  Professional context — Agrodan
  Observed stack: @material-ui/core, @nivo/bar, moment, react
-
-- Agrodan@origin/development:src/pages/Seguranca/Seguranca.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -2180,11 +1896,6 @@ Tech Lead
 - Synchronization references
 - State hooks
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/Solicitacao.js:1
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/index.js:1
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/pages/EstoqueRepo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-solicitacao-compras.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Improvement suggestions
@@ -2197,11 +1908,6 @@ Tech Lead
 - Effect hooks and data loading
 - HTTP integration
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/SugestaoMelhorias/index.js:1
-- Agrodan@origin/development:src/pages/SugestaoMelhorias/Components/index.js:1
-- Agrodan@origin/development:src/pages/SugestaoMelhorias/Screens/index.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-sugestao-melhorias.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Workshop business unit
@@ -2211,8 +1917,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/UgbOficina/UgbOficina.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Harvest validation
@@ -2222,8 +1926,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ValidacaoColheita/ValidacaoColheita.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### MDO validation
@@ -2232,9 +1934,6 @@ Tech Lead
  Observed stack: @material-ui/core, @nivo/pie, moment, react
 
 - Corresponding backend routes located
-- Agrodan@origin/development:src/pages/ValidacaoMDO/ValidacaoMDO.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-validacao-mdo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Labor validation
@@ -2244,8 +1943,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/ValidacaoMO/ValidacaoMO.js:1 Dashboard/report integration page; source code does not establish authorship of the embedded resource.
-
 
 
 ### Guard monitoring
@@ -2255,10 +1952,6 @@ Tech Lead
 
 - Maps and spatial information
 - Leaflet maps
-- Agrodan@origin/development:src/pages/Vigias/Vigias.js:1
-- Agrodan@origin/development:src/pages/Vigias/LegendMUS.js:1
-- Agrodan@origin/development:src/pages/Vigias/MonitoramentoUmidadeSolo.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — employees and history
@@ -2267,8 +1960,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/Funcionarios/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — units and roles
@@ -2277,8 +1968,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/UGBs/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — 5S
@@ -2287,8 +1976,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/5S/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — people assessment
@@ -2297,8 +1984,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/Avaliacao_humana/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — action plans
@@ -2307,8 +1992,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/PlanoAcao/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — technical qualification
@@ -2317,8 +2000,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/QualificacaoTecnica/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — technical requalification
@@ -2327,8 +2008,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/RequalificacaoTecnica/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### UGB — improvement suggestions
@@ -2337,8 +2016,6 @@ Tech Lead
  Observed stack: React, JavaScript
 
 - Business-unit management workflow
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/SugestaoMelhorias/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ## SIA / SIAgro — data and mobile workflows
@@ -2353,9 +2030,6 @@ Tech Lead
 
 - Batch record persistence
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/apontamento-producao-importer.js:14
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/apontamento-producao-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Operational shifts
@@ -2365,9 +2039,6 @@ Tech Lead
 
 - Batch record persistence
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/jornada-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/jornada-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Business-unit inspections
@@ -2376,9 +2047,6 @@ Tech Lead
  Observed stack: Node.js, JavaScript, SQL, Sequelize
 
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/inspecoes-ugb-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/inspecoes-ugb-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Pallet origin
@@ -2388,9 +2056,6 @@ Tech Lead
 
 - Batch record persistence
 - SQL query aggregation
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/pallet-origem-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/pallet-origem-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Production targets
@@ -2400,9 +2065,6 @@ Tech Lead
 
 - Batch record persistence
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/meta-producao-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/meta-producao-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Target percentages
@@ -2412,9 +2074,6 @@ Tech Lead
 
 - Batch record persistence
 - SQL query aggregation
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/percentuais-meta-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/percentuais-meta-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Yield by record and day
@@ -2423,9 +2082,6 @@ Tech Lead
  Observed stack: Node.js, JavaScript, SQL, Sequelize
 
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/rendimento-ficha-dia-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/rendimento-ficha-dia-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Yield updates
@@ -2435,9 +2091,6 @@ Tech Lead
 
 - Batch record persistence
 - SQL query aggregation
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/rendimento-ficha-dia-atualizado-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/rendimento-ficha-dia-atualizado-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Total production
@@ -2447,9 +2100,6 @@ Tech Lead
 
 - Batch record persistence
 - SQL query aggregation
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/total-produzido-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/total-produzido-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Production by farm
@@ -2460,9 +2110,6 @@ Tech Lead
 - Batch record persistence
 - SQL query aggregation
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/total-produzido-fazenda-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/total-produzido-fazenda-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Business units and farms
@@ -2472,9 +2119,6 @@ Tech Lead
 
 - Batch record persistence
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/ugb-fazenda-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/fazenda-ugb-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Packaging by business unit
@@ -2486,9 +2130,6 @@ Tech Lead
 - Persisted collection reads
 - SQL query aggregation
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/l-ugb-embalagem-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/l-ugb-embalagem-query.js:11 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Daily packaging
@@ -2500,9 +2141,6 @@ Tech Lead
 - Persisted collection reads
 - SQL query aggregation
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/l-ugb-embalagem-diario-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/l-ugb-embalagem-diario-query.js:11 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Field LUGB dataset
@@ -2512,9 +2150,6 @@ Tech Lead
 
 - Batch record persistence
 - SQL query aggregation
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-base-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-base-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Employee–business unit links
@@ -2525,9 +2160,6 @@ Tech Lead
 - Batch record persistence
 - Persisted collection reads
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-funcionario-ugb-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-funcionario-ugb-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Field production targets
@@ -2538,9 +2170,6 @@ Tech Lead
 - Batch record persistence
 - Persisted collection reads
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-meta-producao-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-meta-producao-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Quality targets by business unit
@@ -2552,9 +2181,6 @@ Tech Lead
 - Persisted collection reads
 - SQL query aggregation
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-meta-qualidade-ugb-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-meta-qualidade-ugb-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Field target composition
@@ -2566,9 +2192,6 @@ Tech Lead
 - Persisted collection reads
 - SQL query aggregation
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-metas-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-metas-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Field NUGB
@@ -2578,9 +2201,6 @@ Tech Lead
 
 - Batch record persistence
 - Persisted collection reads
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-nugb-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-nugb-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Quality by employee and day
@@ -2592,9 +2212,6 @@ Tech Lead
 - Persisted collection reads
 - SQL query aggregation
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-qualidade-funcionario-dia-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-qualidade-funcionario-dia-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Field quality
@@ -2606,9 +2223,6 @@ Tech Lead
 - Persisted collection reads
 - SQL query aggregation
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-qualidade-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-qualidade-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Quality breakdown
@@ -2618,8 +2232,6 @@ Tech Lead
 
 - Batch record persistence
 - Persisted collection reads
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/lugb_campo/lugb-campo-desdobramento-qualidade.js:3 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Packing quality
@@ -2630,8 +2242,6 @@ Tech Lead
 - Batch record persistence
 - Persisted collection reads
 - Matching against specific records
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/qualidade-packing-importer.js:3 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Packing NUGB quality
@@ -2642,8 +2252,6 @@ Tech Lead
 - Batch record persistence
 - Persisted collection reads
 - Matching against specific records
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/qualidade-packing-nugb-importer.js:3 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Packing LUGB consolidation
@@ -2654,8 +2262,6 @@ Tech Lead
 - Batch record persistence
 - Persisted collection reads
 - Matching against specific records
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/l-ugb-packing-importer.js:3 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Packing targets
@@ -2665,8 +2271,6 @@ Tech Lead
 
 - Batch record persistence
 - Persisted collection reads
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/lugb-packing-metas-importer.js:13 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### APPT and Farmlog integration
@@ -2677,9 +2281,6 @@ Tech Lead
 - Batch record persistence
 - Persisted collection reads
 - Query table relationships
-- Agrodan/etl/servers/server-dataware-house/core/importer/oracledb/ApptImporter.js:13
-- Agrodan/etl/servers/server-dataware-house/core/oracledb/queries/appt-query.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Movement and access direction
@@ -2689,10 +2290,6 @@ Tech Lead
 
 - Record grouping
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Hourly access distribution
@@ -2702,10 +2299,6 @@ Tech Lead
 
 - Record grouping
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Operational availability
@@ -2715,10 +2308,6 @@ Tech Lead
 
 - Record grouping
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Turnstile utilization
@@ -2728,10 +2317,6 @@ Tech Lead
 
 - Record grouping
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Visitors and movement by department
@@ -2741,10 +2326,6 @@ Tech Lead
 
 - Record grouping
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Attendance frequency
@@ -2754,19 +2335,12 @@ Tech Lead
 
 - Record grouping
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Dynamic form builder
  Application: Operational workflow for dynamic form builder.
  Professional context — Agrodan
  Observed stack: React, Redux, Material UI
-
-- Agrodan/src/redux/reducers/FormBuilder.js:1
-- Agrodan/src/redux/components/FormContainer.js:44 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -2775,18 +2349,12 @@ Tech Lead
  Professional context — Agrodan
  Observed stack: Express, Sequelize, SQL
 
-- Agrodan/etl/servers/server-forms/router/rotas/rotas-tot-formulario.js:1
-- Agrodan/etl/servers/server-forms/DAO/TotFormulario.js:4 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Departments and subdepartments
  Application: Operational workflow for departments and subdepartments.
  Professional context — Agrodan
  Observed stack: Node.js, Sequelize
-
-- Agrodan/etl/servers/server-forms/DAO/Setor.js:4
-- Agrodan/etl/servers/server-forms/DAO/SubSetor.js:4 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -2795,18 +2363,12 @@ Tech Lead
  Professional context — Agrodan
  Observed stack: Sequelize, SQL
 
-- Agrodan/etl/servers/server-forms/models/ordem_preenchimento.js:1
-- Agrodan/etl/servers/server-forms/models/estado_ordem_preenchimento.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Weather ingestion
  Application: Operational workflow for weather ingestion.
  Professional context — Agrodan
  Observed stack: Node.js, Sequelize
-
-- Agrodan/etl/servers/server-estacao-meteorologica/services/estacao-meteorologica.js:1
-- Agrodan/etl/servers/server-estacao-meteorologica/models/dados_meteorologicos.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -2817,17 +2379,12 @@ Tech Lead
 
 - Scheduled job registration
 - Scheduling interval definition
-- Agrodan/etl/servers/server-agenda/index.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Harvest date re-estimation and actuals
  Application: Operational workflow for harvest date re-estimation and actuals.
  Professional context — Agrodan
  Observed stack: Node.js, SQL, Sequelize
-
-- Agrodan/etl/servers/server-agenda/tarefas/farmlog/reestimativa-ler-datas-reais-colheita.js:1
-- Agrodan/etl/servers/server-agenda/tarefas/farmlog/reestimativa-gravar-total-produzido.js:1 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
 
 
 
@@ -2837,9 +2394,6 @@ Tech Lead
  Observed stack: JavaScript, Sequelize
 
 - Batch record persistence
-- Agrodan/etl/servers/server-dataware-house/core/validation/core-validation.js:1
-- Agrodan/etl/servers/server-dataware-house/core/validation/validators/campo-obrigatorio-validator.js:3 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Mobile work orders
@@ -2848,9 +2402,6 @@ Tech Lead
  Observed stack: React Native, Expo
 
 - Query table relationships
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/OrdemServico.js:33
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/OrdemServico.js:4 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Mobile production records
@@ -2859,9 +2410,6 @@ Tech Lead
  Observed stack: React Native, Expo
 
 - In-app local storage
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/Apontamento.js:27
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/Apontamento.js:5 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Employees in production records
@@ -2870,9 +2418,6 @@ Tech Lead
  Observed stack: React Native
 
 - In-app local storage
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/AdicionarColaborador.js:33
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/Funcionario.js:8 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Mobile quality
@@ -2881,9 +2426,6 @@ Tech Lead
  Observed stack: React Native, Expo
 
 - In-app local storage
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/Qualidade.js:33
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/Qualidade.js:5 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Targets and business units in work orders
@@ -2892,9 +2434,6 @@ Tech Lead
  Observed stack: React Native
 
 - In-app local storage
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/Metas.js:25
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/Ugbs.js:26 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Mobile operational dashboard
@@ -2903,9 +2442,6 @@ Tech Lead
  Observed stack: React Native, Victory Native
 
 - In-app local storage
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Dashboard/DashBoard.js:23
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Graficos.js:16 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ### Reusable local persistence
@@ -2914,8 +2450,6 @@ Tech Lead
  Observed stack: React Native, AsyncStorage
 
 - In-app local storage
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/ObjetoPadrao.js:5 Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.
-
 
 
 ## Complete project and reference catalog
@@ -2924,6 +2458,10 @@ Tech Lead
 
 ### EBSERH — hospital indicators and assessments
  Java EE web system for hospital indicators, assessments and strategic planning, associated with the Hospital Universitário de Petrolina internship.
+ Application area: Healthcare, hospital management and strategic planning.
+ Users and context: Hospital Universitário de Petrolina teams and managers.
+ Objective: Organize indicators, assessments and hospital planning monitoring.
+ Architecture: Java EE application with entities, persistence, business services and a JSF interface for indicators and assessments.
  Stack: Java, Java EE, EJB, JPA, Hibernate, JSF, PrimeFaces, XHTML, JPQL, Apache Ant, NetBeans
  Public repository — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores)
 
@@ -2931,6 +2469,10 @@ Tech Lead
 
 ### The Game Project — academic project management
  University application connecting persistent tasks, gamification and an interactive project timeline.
+ Application area: Project management, gamification and collaboration.
+ Users and context: Project teams; university development project.
+ Objective: Represent projects, stages and progression through quests, experience and rewards.
+ Architecture: Web application with entities, data access, interface controllers and MySQL persistence; gamification connects adventures, battles and progression.
  Stack: Java, JSF, PrimeFaces, JPA, Hibernate, MySQL, JPQL, Quartz, XHTML, JavaScript, jQuery, Apache Ant, NetBeans
  Public repository — The Game Project (https://github.com/Danjubex/the_game_project)
 
@@ -2938,44 +2480,51 @@ Tech Lead
 
 ### EFS-AHP — feature selection and multicriteria research
  Doctoral research combining feature selection, evolutionary algorithms, AHP and comparative ML experiments to study predictive quality, dimensionality and training cost.
+ Application area: Data science, Machine Learning and multicriteria decision making.
+ Users and context: Applied doctoral research in Software Engineering.
+ Objective: Select features and compare model alternatives by performance, dimensionality and cost.
+ Architecture: Experiments organized by datasets and methods, with evolutionary routines, multicriteria evaluation, statistical notebooks and a containerized environment.
  Stack: JavaScript, Node.js, Python, Jupyter, Random Forest, LASSO, PCA, t-SNE, UMAP, AHP, Docker, pandas, NumPy, scikit-learn, SciPy, DEAP
  Public repository — EFS-AHP (https://github.com/Danjubex/efs_ahp)
 
 
 
-### Agrodan — operational web/mobile and data ecosystem
+### Agrodan — operational application components and data ecosystem
  Professional SIA/SIAgro ecosystem connecting agricultural data, access and availability indicators, corporate forms, weather collection, Node.js/SQL services and React/React Native applications.
+ Application area: Agribusiness, field operations, packing, quality, logistics and management.
+ Users and context: Agrodan field, operational, administrative and management teams.
+ Objective: Integrate operational records, business rules and indicators to support execution and management.
+ Architecture: React/Redux frontend, modular Express backend, data integration and processing layers and a React Native/Expo application for SIAgro processes.
  Stack: JavaScript, Node.js, Express, SQL, Sequelize, Oracle, oracledb, Moment.js, mssql, React, Redux, Nivo, Umzug, React Redux, Material UI, JSS, Jest / react-scripts, Axios, axios-https-proxy-fix, Agenda, MongoDB, Agendash, Cron, React Native, Expo, React Navigation, AsyncStorage, Victory Native, Galio Framework, Expo File System, Expo Image Manipulator
 
-- Agrodan/package.json
-- Agrodan/etl/package.json
-- Agrodan/etl/index.js
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js
-- Agrodan/etl/servers/server-dataware-house/core/validation/core-validation.js
-- Agrodan/sia_app/package.json
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/OrdemServico.js
 
 
 ### Genetic algorithms — irrigation and operations research
  JavaScript laboratory separating functions, datasets and results to explore evolutionary optimization, irrigation and operations research.
+ Application area: Operations research and irrigation scheduling.
+ Users and context: Agricultural optimization studies.
+ Objective: Explore genetic algorithms for scheduling and constraint problems.
+ Architecture: Experimental solution representation, evolution and evaluation routines, with operations research formulations and dataset and result recording.
  Stack: JavaScript, Node.js, GLPK.js, ml-confusion-matrix, Blessed
 
-- AlgoritmosGeneticos/indexIrrigacao.js
-- AlgoritmosGeneticos/funcoesIrrigacao.js
-- AlgoritmosGeneticos/PesquisaOperacional.js
-- AlgoritmosGeneticos/package.json
 
 
 ### EFS-AHP research backup
  Historical research archive containing experiments, models and statistical analyses; a version archive rather than an independent product.
+ Application area: Data science, Machine Learning and multicriteria decision making.
+ Users and context: Applied doctoral research in Software Engineering.
+ Objective: Select features and compare model alternatives by performance, dimensionality and cost.
+ Architecture: Experiments organized by datasets and methods, with evolutionary routines, multicriteria evaluation, statistical notebooks and a containerized environment.
  Stack: JavaScript, Python, Jupyter, Docker, pandas, NumPy, scikit-learn, SciPy, DEAP
 
-- bkp/README.md
-- bkp/package.json
 
 
 ### Cartola Oracle — probabilistic forecasts and constrained teams
  Pipeline using performance histories, Markov representations and integer programming to select athletes under budget and formation constraints.
+ Application area: Sports, fantasy football, probabilistic forecasting and optimization.
+ Users and context: Performance research and Cartola lineup construction.
+ Objective: Estimate performance and select lineups under budget and other constraints.
+ Architecture: Pipeline separating data collection and preparation, feature engineering, probabilistic models, optimization and a query application; notebooks support exploration.
  Stack: Python, pandas, NumPy, PyArrow, Parquet, OR-Tools, CBC, Jupyter, Requests
  Public repository — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
 
@@ -2983,160 +2532,170 @@ Tech Lead
 
 ### ClassPlanner — AI-assisted lesson planning
  Web frontend, API, authentication and persistence connecting BNCC curriculum information and Gemini to lesson-planning workflows.
+ Application area: Education and lesson planning.
+ Users and context: Teachers.
+ Objective: Organize lesson plans using curriculum context, objectives, methodology and assessment.
+ Architecture: Frontend organized by pages and hooks; backend with controllers, services, repositories, routes, database and language model integration.
  Stack: JavaScript, React, Node.js, Express, SQLite, Gemini, JWT, bcrypt, styled-components
 
-- ClassPlanner/backend/src/llm/gemini.js
-- ClassPlanner/backend/src/controllers/controller.plan.js
-- ClassPlanner/frontend/src/pages/CreatePlan/Components/BNCC.jsx
-- ClassPlanner/backend/package.json
 
 
 ### Dente de Leão — interactive narrative prototype
  Experimental browser 3D experience combining rendering, controls, camera, physics and narrative state.
+ Application area: Games, interactive narrative and 3D graphics.
+ Users and context: Interactive narrative experience exploration.
+ Objective: Build an exploration environment with interaction, physics and narrative elements.
+ Architecture: Input, world, character, camera, interaction and interface layers; visual assets and physics compose the 3D experience.
  Stack: TypeScript, React, Vite, Three.js, React Three Fiber, Drei, Rapier, Zustand
 
-- dente_de_leao/README.md
-- dente_de_leao/src/game/World.tsx
-- dente_de_leao/src/game/player/Player.tsx
-- dente_de_leao/src/game/interact/useInteractionProbe.ts
-- dente_de_leao/package.json
 
 
 ### Doctoral study — educational genetic algorithm
  JavaScript exercise demonstrating population generation, fitness, selection, crossover and mutation against a target vector.
+ Application area: Evolutionary algorithm teaching and research.
+ Users and context: Academic experimentation.
+ Objective: Explore solution representation, evolution and evaluation.
+ Architecture: Genetic algorithm exercise exploring solution representation and evolution.
  Stack: JavaScript
 
-- Doutorado/AG.js
 
 
 ### DVR Person Alert — vision and operational notifications
  RTSP monitoring application with person detection, Telegram alerts, local controls, detection review and state/transport components.
+ Application area: Security, video monitoring and computer vision.
+ Users and context: Camera monitoring and event review.
+ Objective: Detect events, collect reviewed examples and adapt classification to the camera context.
+ Architecture: Video monitoring, management dashboard, temporal identity handling, event review and Telegram alert delivery in separate components.
  Stack: Python, OpenCV, Ultralytics, YOLO, Flask, RTSP, FFmpeg, Telegram Bot API, psutil, PyTorch
 
-- DvrPersonAlert/README.md
-- DvrPersonAlert/requirements.txt
-- DvrPersonAlert/dvr_person_alert.py
-- DvrPersonAlert/persistent_state.py
-- DvrPersonAlert/telegram_outbox.py
-- DvrPersonAlert/tests/test_dvr_failover.py
 
 
 ### Google Auth — integration configuration
  Google authentication configuration used as integration support; no standalone application identified.
+ Application area: Authentication and Google service integration.
+ Users and context: Application integration setup.
+ Objective: Explore authentication and service access configuration.
+ Architecture: Authentication and integration configuration, with a study and access setup scope.
  Stack:
 
 
 
 ### Instabot — browser automation with persistent state
  Local Instagram browser automation recording processed users and interactions, with configuration, persistent sessions and execution history.
+ Application area: Digital marketing and browser automation.
+ Users and context: Social media operational routines.
+ Objective: Automate interactions with persistent state and execution control.
+ Architecture: Configuration, session management, interaction collection and routine execution with persistent operational state.
  Stack: JavaScript, Node.js, Playwright, Chrome DevTools Protocol, JSON, dotenv
 
-- instabot/README.md
-- instabot/src/instagram-bot.js
-- instabot/src/list-interactions.js
-- instabot/src/config.js
-- instabot/package.json
 
 
 ### Conversion CRM — conversations and assisted AI
  Local CRM organizing campaigns, leads, conversation history and a SPIN-assisted flow with an output queue and Gemini integration.
+ Application area: Marketing, sales and customer relationships.
+ Users and context: Conversational sales and customer service operations.
+ Objective: Organize the sales funnel and support conversational decisions with history and suggested actions.
+ Architecture: API, database, services, SPIN decision engine and Gemini integration; event processing and a dashboard support the conversational workflow.
  Stack: JavaScript, Node.js, Express, SQLite, Gemini, HTML, CSS
 
-- instagram-conversion-crm/README.md
-- instagram-conversion-crm/src/database.js
-- instagram-conversion-crm/src/spin-decision-engine.js
-- instagram-conversion-crm/src/gemini-spin.js
-- instagram-conversion-crm/scripts/instagram-queue-dispatcher.js
 
 
 ### Launch With Me — product-validation marketplace
  Next.js/Supabase platform modeling roles, campaigns and financial workflows for users completing product-validation missions and submitting evidence.
+ Application area: Entrepreneurship, marketplaces and product validation.
+ Users and context: Product creators and potential users.
+ Objective: Connect product proposals, discovery and validation in a web platform.
+ Architecture: Role-based routes, server operations, centralized integrations and Supabase persistence with functions and row-level access rules.
  Stack: TypeScript, Next.js, React, Tailwind CSS, Supabase, PostgreSQL, Stripe, Zod, React Hook Form
 
-- launch_with_me/docs/ARQUITETURA.md
-- launch_with_me/src/app/(company)/company/campaigns/[campaignId]/CampaignActions.tsx
-- launch_with_me/supabase/migrations/20260509000001_lwm_schema.sql
-- launch_with_me/supabase/migrations/20260603000001_lwm_grants_and_rls.sql
-- launch_with_me/package.json
 
 
 ### Leaflet — web maps and routing
  Map/routing experiment accompanied by a third-party Leaflet Routing Machine library; a reference for integration.
+ Application area: Maps, routing and geographic interfaces.
+ Users and context: Spatial information visualization and exploration.
+ Objective: Represent geographic data and routes in a web interface.
+ Architecture: Map interface and routing library integration, including studies and third-party examples.
  Stack: JavaScript, HTML, Leaflet, Leaflet Routing Machine
 
-- Leaflet/index.html
 
 
 ### Job Assistant — supervised automation and fit ranking
  Local CLI collecting and ranking vacancies, organizing fit criteria and assisting applications with human review, typed configuration and SQLite history.
+ Application area: Careers, recruitment and supervised automation.
+ Users and context: Professional opportunity organization.
+ Objective: Collect opportunities and rank fit under user supervision.
+ Architecture: Browser automation, application workflow, fit ranking, configuration, database and supervised execution.
  Stack: Python, Playwright, Pydantic, Typer, Rich, PyYAML, SQLite, pytest, Ruff
 
-- linkedin-job-assistant/README.md
-- linkedin-job-assistant/pyproject.toml
-- linkedin-job-assistant/src/job_assistant/fit.py
-- linkedin-job-assistant/src/job_assistant/database.py
-- linkedin-job-assistant/tests/test_fit.py
 
 
 ### Logística — routing and geospatial visualization
  Web prototype exploring points, farm polygons and routes using maps and genetic-algorithm experiments.
+ Application area: Logistics, routing and geospatial analysis.
+ Users and context: Travel planning and logistics operations.
+ Objective: Represent locations and routes on maps and support routing decisions.
+ Architecture: Map, drawing and routing components, supporting functions and genetic algorithm experiments.
  Stack: JavaScript, React, Leaflet, Leaflet Routing Machine, Axios, Canvas
 
-- Logistica/src/leaflet/Roteirizador.js
-- Logistica/src/leaflet/Map.js
-- Logistica/src/Algoritmos Geneticos/AG.js
-- Logistica/package.json
 
 
 ### Personal finance — Open Finance and transaction analysis
  Local Pluggy integration persisting bank transactions in SQLite and presenting expense, recurring-payment and daily-availability analyses with a demo dashboard.
+ Application area: Personal finance, Open Finance and transaction analysis.
+ Users and context: Personal financial organization.
+ Objective: Integrate and analyze transactions to support financial monitoring.
+ Architecture: Web server, financial data source integration, transaction analysis engine and dashboard.
  Stack: Python, Biblioteca padrão Python, SQLite, Pluggy, JavaScript, HTML, CSS
 
-- minhas-financas/README.md
-- minhas-financas/pluggy.py
-- minhas-financas/finance.py
-- minhas-financas/public/app.js
-- minhas-financas/tests/test_finance.py
 
 
 ### Mocap — browser pose and movement estimation
  Browser motion-capture experiments using video/webcam input, keypoints, skeletons, smoothing and 3D resources.
+ Application area: Human movement, pose capture and avatar interaction.
+ Users and context: Body interaction and movement visualization experiments.
+ Objective: Estimate pose in video and connect body landmarks to browser visualization.
+ Architecture: Inference and rendering coordination, video processing, pose estimation and movement visualization assets.
  Stack: JavaScript, Vite, TensorFlow.js, MoveNet, BlazePose, MediaPipe, WebGL, p5.js, Three.js, VRM
 
-- mocap/README.md
-- mocap/docs/ARQUITETURA.md
-- mocap/src/main.js
-- mocap/package.json
 
 
 ### Movimento 3D — model visualization
  Exploratory browser scene and FBX-loading experiment for graphical resources and movement.
+ Application area: Computer graphics and model visualization.
+ Users and context: 3D scene and movement studies.
+ Objective: Explore 3D model presentation and movement.
+ Architecture: Visualization application with FBX model loading and 3D rendering.
  Stack: JavaScript, HTML, Three.js, FBXLoader
 
-- movimento_3D/3d.html
-- movimento_3D/app.js
 
 
 ### TraderMind — quantitative research and model pipelines
  Research laboratory and operational dashboard combining time-series collection, features, training, backtests, out-of-sample evaluation and API/MetaTrader5 integration.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Architecture: Studies and notebooks connected to an inference API, Python MetaTrader5 connector, configuration, supervision and operational dashboards.
  Stack: Python, JavaScript, MetaTrader 5, pandas, NumPy, scikit-learn, XGBoost, Flask, SQLite, Jupyter, PyTorch, TensorFlow, LightGBM, CatBoost, SciPy, statsmodels, DEAP, joblib
 
-- mt5/TraderMind/README.md
-- mt5/TraderMind/api/app.py
-- mt5/TraderMind/connector/bot.py
-- mt5/TraderMind/configs.py
-- mt5/mt5/best_pipeline_pca_xgboost.py
 
 
 ### OSORACLE — narrative knowledge organization
  Obsidian vault organizing characters, chapters, references and dashboards for creative-project documentation.
+ Application area: Writing, narratives and knowledge organization.
+ Users and context: Writers and narrative world organization.
+ Objective: Structure information, entities and relationships in a narrative domain.
+ Architecture: Thematic organization of characters, chapters, bestiary, references and original narrative materials.
  Stack: Obsidian, Markdown
 
-- Osoracle/Osoracle/README.md
 
 
 ### Planejamento Xavier — planning product with AI
  Typed frontend, database and backend functions connecting goals, activities, calendar, contextual AI and replanning.
+ Application area: Personal planning, productivity and professional development.
+ Users and context: People managing goals, activities and development plans.
+ Objective: Connect goals, capacity and execution through AI-assisted planning and review.
+ Architecture: Planning and context domains, interface components, APIs, workers, versioned persistence and simulation routines.
  Stack: TypeScript, React, Vite, Tailwind CSS, Radix UI, TanStack Query, Supabase, PostgreSQL, Deno, Capacitor, Recharts, Zod
  Live website — Planejamento Xavier (https://planejamentoxavier.com/)
 
@@ -3144,80 +2703,100 @@ Tech Lead
 
 ### Planejamento Xavier — historical backup
  Earlier React interface and operational scripts preserving a previous stage of product development.
+ Application area: Personal planning, productivity and professional development.
+ Users and context: People managing goals, activities and development plans.
+ Objective: Connect goals, capacity and execution through AI-assisted planning and review.
+ Architecture: Planning and context domains, interface components, APIs, workers, versioned persistence and simulation routines.
  Stack: TypeScript, React, Supabase, Tailwind CSS
 
-- planejamentoxavier_bkp/package.json
-- planejamentoxavier_bkp/ops/README.md
 
 
 ### PoseNet / ml5 — ML reference collection
  Local community examples for JavaScript ML concepts including pose, segmentation and generative models; study/reference material.
+ Application area: Machine Learning and pose estimation.
+ Users and context: Computer vision model studies and references.
+ Objective: Explore existing model integration to identify body landmarks.
+ Architecture: Examples organized by Machine Learning libraries and tasks; existing model integration.
  Stack: JavaScript, ml5.js, p5.js, TensorFlow.js
 
-- poseNet/ml5-examples/README.md
 
 
 ### React Native — starter environment
  Generated starter application with the default screen and mobile development configuration.
+ Application area: Mobile development.
+ Users and context: Mobile interface and application studies.
+ Objective: Explore an initial React Native application structure.
+ Architecture: Initial mobile application template and development configuration.
  Stack: TypeScript, React Native, React, Metro, Jest
 
-- react native/hello/App.tsx
-- react native/hello/package.json
 
 
 ### Legacy scraper — initial offer collection
  Earlier HTTP/HTML parsing scripts and tabular exports documenting the evolution toward a modular collection pipeline.
+ Application area: Data collection, offers and content distribution.
+ Users and context: Offer monitoring and publishing operations.
+ Objective: Structure offer information collection, processing and distribution.
+ Architecture: Collection core with site-specific adapters, execution, supervision, dashboard and persistence; legacy versions are separated.
  Stack: JavaScript, Node.js, Axios, Cheerio, XLSX
 
-- Scraper (OLD)/index.js
-- Scraper (OLD)/findBestOffers.js
-- Scraper (OLD)/package.json
 
 
 ### Scrapers — offers and distribution pipeline
  Node.js pipeline separating collection, site adapters, link processing, supervised distribution and persistence across SQLite and PostgreSQL/Supabase.
+ Application area: Data collection, offers and content distribution.
+ Users and context: Offer monitoring and publishing operations.
+ Objective: Structure offer information collection, processing and distribution.
+ Architecture: Collection core with site-specific adapters, execution, supervision, dashboard and persistence; legacy versions are separated.
  Stack: JavaScript, Node.js, Axios, Cheerio, Puppeteer, Express, SQLite, PostgreSQL, Supabase, Telegram, WhatsApp Web
 
-- Scrapers/README.md
-- Scrapers/apps/main.js
-- Scrapers/apps/pipeline-supervisor.js
-- Scrapers/apps/pipeline-dashboard/app.js
-- Scrapers/package.json
 
 
 ### Skeleton from Video — pose experiments
  Video-pose and skeleton-rendering experiments with BlazePose and keypoints, documenting the evolution toward Mocap.
+ Application area: Computer vision and movement analysis.
+ Users and context: Video and body representation experimentation.
+ Objective: Extract and visualize skeletons from video.
+ Architecture: Pose detection variants using BlazePose and representation of recorded body positions.
  Stack: JavaScript, HTML, TensorFlow.js, BlazePose, p5.js
 
-- skeleton from video/detectPoseMediaPipe.js
-- skeleton from video/index.html
 
 
 ### SpeedTest — exploratory network diagnostics
  Node.js script integrating external speed tests and formatted ping/download/upload output.
+ Application area: Networks and connectivity diagnostics.
+ Users and context: Connection performance exploration.
+ Objective: Investigate connectivity measurements and their presentation.
+ Architecture: Exploratory execution and request routines for connectivity diagnostics.
  Stack: JavaScript, Node.js, child_process, speedtest-net, fast-speedtest-api, Axios
 
-- speedTest/index.js
-- speedTest/package.json
 
 
 ### Three.js — browser scenes and 3D models
  Exploratory application for FBX loading, cameras, lighting and browser rendering, with Express serving interface assets.
+ Application area: Computer graphics and 3D web development.
+ Users and context: Scene, model and interaction studies.
+ Objective: Explore browser rendering of scenes and 3D assets.
+ Architecture: Scene, interaction, canvas and server for a 3D web experience.
  Stack: JavaScript, Three.js, WebGL, FBXLoader, OrbitControls, Express
 
-- threejs/app.js
-- threejs/server.js
-- threejs/package.json
 
 
 ### Unity — exploration folder
  Folder present in the inventory without identifiable application code; it does not establish development experience on its own.
+ Application area: Game and interactive environment development.
+ Users and context: Development tool exploration.
+ Objective: Explore the Unity environment; implementation scope is limited in the inventory.
+ Architecture: Environment exploration; the inventory does not contain a detailed implementation to describe.
  Stack:
 
 
 
 ### Utilibox — tools and knowledge products
  Shared web platform combining browser processing, external functions, persistence and commercial integrations for productivity, analysis, decisions, writing and knowledge organization.
+ Application area: Finance, employment, production engineering, decision making, education, writing, health, beauty, documents, design and marketing.
+ Users and context: General users, students, writers and professionals.
+ Objective: Turn calculations, methods and knowledge organization into accessible interactive tools.
+ Architecture: Domain-specific tools, Narra and UtiliNotas modules, shared pages and layouts, centralized policies and integrations and a Supabase backend.
  Stack: JavaScript, TypeScript, Astro, Node.js, Supabase, PostgreSQL, Stripe, Gemini, CodeMirror, KaTeX, pdf-lib, Playwright
  Open tool — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
 
@@ -3225,15 +2804,20 @@ Tech Lead
 
 ### Utilibox Manga — creative product variant
  Utilibox variant reusing tools, writing and backend components to explore narrative and comics presentation.
+ Application area: Finance, employment, production engineering, decision making, education, writing, health, beauty, documents, design and marketing.
+ Users and context: General users, students, writers and professionals.
+ Objective: Turn calculations, methods and knowledge organization into accessible interactive tools.
+ Architecture: Domain-specific tools, Narra and UtiliNotas modules, shared pages and layouts, centralized policies and integrations and a Supabase backend.
  Stack: JavaScript, TypeScript, Astro, Supabase, Stripe, CodeMirror, Gemini
 
-- utilibox-manga/package.json
-- utilibox-manga/src/tools/narra/storyReview.js
-- utilibox-manga/README.md
 
 
 ### Digital CV — professional presentation
  JSON-driven CV and cover-letter interface with display/print modes and Vercel configuration. The empty PDF API does not establish server-side PDF conversion.
+ Application area: Professional presentation and web development.
+ Users and context: Recruiters and CV readers.
+ Objective: Present career history, skills and projects with language selection and PDF export.
+ Architecture: Main HTML with structured data, bilingual content, view controls and browser printing.
  Stack: HTML, CSS, JavaScript, JSON, Vercel
  Public repository — CV digital (https://github.com/modern-concept/my_cv)
 
@@ -3637,9 +3221,8 @@ Tech Lead
 - Socket event integration is present in the module code.
 
 
-## Sources and interpretation
- Professional roles, dates, recognitions and impact figures come from the existing CV. Added cases are based on static review of local code and documentation. Implementation evidence does not automatically establish production deployment, exclusive authorship or measured business outcomes.
- Agrodan@origin/development:path identifies an archived file in a local Git reference. Original repository names, source paths, identifiers, product names and Brazilian domain acronyms are preserved. English catalog summaries are an editorial adaptation of the recorded project scope.
+## Project and career context
+ The projects cover professional applications at Agrodan, doctoral EFS-AHP research, hospital management during the internship and university project gamification. Independent initiatives include digital products, decision tools, education, finance, automation and interactive experiences.
 
 
 ## Cover letter

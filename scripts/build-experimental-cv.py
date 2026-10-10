@@ -18,6 +18,8 @@ def chips(values): return '<ul class="chips">'+''.join('<li>'+esc(v)+'</li>' for
 PUBLIC_LINKS=runpy.run_path(str(BASE/'scripts/cv-project-links.py'))
 def sources(values): return PUBLIC_LINKS['sources'](values)
 def source_heading(values): return PUBLIC_LINKS['source_heading'](values)
+def source_block(values): return PUBLIC_LINKS['source_block'](values)
+PROJECT_DETAILS=runpy.run_path(str(BASE/'scripts/cv-project-details.py'))
 def section(id,title,body,cls=''):
     return '<section id="'+id+'" class="chapter '+cls+'"><h2>'+esc(title)+'</h2>'+body+'</section>'
 
@@ -102,12 +104,12 @@ def build():
             cid='case-'+topic['id']+'-'+str(i+1)
             record={**c,'id':cid,'relatedContextAnchors':[a for a,_ in context_links(c['context'])],'depth':'Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto.'}
             cases.append(record)
-            content+='<article class="case" id="'+cid+'"><p class="kicker">Case · '+esc(c['context'])+'</p><h3>'+esc(c['title'])+'</h3>'+linked(c['context'])+'<p><strong>Problema:</strong> '+esc(c['problem'])+'</p><p class="delivery"><strong>Contribuição e entrega:</strong> '+esc(c['text'])+'</p><h4>Engenharia, métodos e profundidade</h4>'+bullets(c['implementation'])+'<h4>Competências evidenciadas</h4>'+chips(c['skills'])+'<h4>'+source_heading(c['sources'])+'</h4>'+sources(c['sources'])+'<p class="scope"><strong>Alcance da evidência:</strong> '+esc(c['limit'])+'</p></article>'
+            content+='<article class="case" id="'+cid+'"><p class="kicker">Case · '+esc(c['context'])+'</p><h3>'+esc(c['title'])+'</h3>'+linked(c['context'])+'<p><strong>Problema:</strong> '+esc(c['problem'])+'</p><p class="delivery"><strong>Contribuição e entrega:</strong> '+esc(c['text'])+'</p>'+PROJECT_DETAILS['case_markup'](record,proposal['projects'])+'<h4>Engenharia, métodos e profundidade</h4>'+bullets(c['implementation'])+'<h4>Competências evidenciadas</h4>'+chips(c['skills'])+source_block(c['sources'])+'<p class="scope"><strong>Alcance da evidência:</strong> '+esc(c['limit'])+'</p></article>'
         new_sections.append(section('especialidade-'+topic['id'],topic['title'],content,'specialty'))
     academic=[]
     for p in proposal['projects']:
         if p['id'] in ['[EFS-AHP]','ebserh','The game project']:
-            academic.append('<article class="case"><h3>'+esc(p['title'])+'</h3><p>'+esc(p['association'])+'</p>'+linked(p['association'])+paras([p['summary'],p['structure']])+chips(p['stack'])+sources([p['id']+'/'+e for e in p['evidence']])+'</article>')
+            academic.append('<article class="case"><h3>'+esc(p['title'])+'</h3><p>'+esc(p['association'])+'</p>'+linked(p['association'])+paras([p['summary'],PROJECT_DETAILS['architecture'](p)])+chips(p['stack'])+sources([p['id']+'/'+e for e in p['evidence']])+'</article>')
     new_sections.append(section('academico','Projetos vinculados a formação, estágio e faculdade',''.join(academic)))
     def module_cards(items,branch=False):
         output=[]
@@ -115,8 +117,7 @@ def build():
             mid=('sia-negocio-' if branch else 'sia-fluxo-')+str(i+1)
             body='<article class="module" id="'+mid+'"><p class="kicker">'+esc(m['domain'])+'</p><h3>'+esc(m['title'])+'</h3>'+linked('Agrodan')+'<p><strong>Finalidade:</strong> '+esc(m['objective'])+'.</p><p><strong>Competências:</strong> '+esc('; '.join(m['skills']))+'.</p><p><strong>Stack observada:</strong> '+esc(', '.join(m['stack']) or 'Ver fontes do módulo')+'.</p>'
             if m['implementationSignals']: body+='<p><strong>Mecanismos:</strong> '+esc('; '.join(m['implementationSignals']))+'.</p>'
-            if branch and m['symbols']: body+='<p><strong>Funções de implementação:</strong> '+esc(', '.join(s['name'] for s in m['symbols'][:8]))+'.</p>'
-            body+=sources([s['path']+':'+str(s['line']) for s in m['sources']])+'<p class="scope">'+esc(m['status'])+'.</p></article>'
+            body+=sources([s['path']+':'+str(s['line']) for s in m['sources']])+'</article>'
             output.append(body)
         return '<div class="module-grid">'+''.join(output)+'</div>'
     new_sections.append(section('sia-negocio','SIA — catálogo de módulos e projetos de negócio',
@@ -135,7 +136,7 @@ def build():
         elif p['id']=='Agrodan': depth='Sistema corporativo modular: processos de negócio, dados e interfaces web/mobile.'
         else: depth=p['status']+': profundidade expressa pela arquitetura, métodos e artefatos.'
         project_records.append({**p,'anchor':pid,'relatedContextAnchors':[a for a,_ in context_links(p['association'])],'demonstratedDepth':depth})
-        project_html.append('<article id="'+pid+'" class="case"><p class="kicker">'+esc(p['area'])+' · '+esc(p['status'])+'</p><h3>'+esc(p['title'])+'</h3><p><strong>Contexto:</strong> '+esc(p['association'])+'</p>'+linked(p['association'])+'<p>'+esc(p['summary'])+'</p><p><strong>Problema e público:</strong> '+esc(b.get('problemAndObjective',p['value']))+' — '+esc(b.get('intendedAudience','Contexto a detalhar'))+'.</p><p><strong>Entrega:</strong> '+esc(b.get('observableDeliverables',p['structure']))+'.</p><p><strong>Profundidade demonstrada:</strong> '+esc(depth)+'</p><p><strong>Estrutura:</strong> '+esc(p['structure'])+'</p><p><strong>Métodos:</strong> '+esc(b.get('domainMethods','; '.join(p['skills'])))+'.</p><p><strong>Áreas de aplicação:</strong> '+esc('; '.join(b.get('applicationAreas',[p['area']])))+'.</p><h4>Stack</h4>'+chips(p['stack'])+'<h4>Habilidades</h4>'+bullets(p['skills'])+'<h4>Evidências de implementação</h4>'+sources([p['id']+'/'+e for e in p['evidence']])+'<p class="scope">'+esc(p['limits'])+'</p></article>')
+        project_html.append('<article id="'+pid+'" class="case"><p class="kicker">'+esc(p['area'])+' · '+esc(p['status'])+'</p><h3>'+esc(p['title'])+'</h3><p><strong>Contexto:</strong> '+esc(p['association'])+'</p>'+linked(p['association'])+PROJECT_DETAILS['markup'](p)+'<p>'+esc(p['summary'])+'</p><p><strong>Problema e público:</strong> '+esc(b.get('problemAndObjective',p['value']))+' — '+esc(b.get('intendedAudience','Contexto a detalhar'))+'.</p><p><strong>Entrega:</strong> '+esc(b.get('observableDeliverables',PROJECT_DETAILS['architecture'](p)))+'.</p><p><strong>Profundidade demonstrada:</strong> '+esc(depth)+'</p><p><strong>Estrutura:</strong> '+esc(PROJECT_DETAILS['architecture'](p))+'</p><p><strong>Métodos:</strong> '+esc(b.get('domainMethods','; '.join(p['skills'])))+'.</p><p><strong>Áreas de aplicação:</strong> '+esc('; '.join(b.get('applicationAreas',[p['area']])))+'.</p><h4>Stack</h4>'+chips(p['stack'])+'<h4>Habilidades</h4>'+bullets(p['skills'])+sources([p['id']+'/'+e for e in p['evidence']])+'<p class="scope">'+esc(p['limits'])+'</p></article>')
     new_sections.append(section('projetos','Catálogo completo de projetos e repertório',
       '<p>36 pastas locais, incluindo produtos, pesquisa, protótipos, estudos, versões anteriores e referências. O contexto e o alcance de cada entrada determinam como ela contribui para a trajetória.</p>'+''.join(project_html)))
     # Tool topics are kept as a separate appendix: they expand domain breadth,
@@ -154,7 +155,7 @@ def build():
     for skill,origins in sorted(provenance.items(),key=lambda x:x[0].lower()):
         skill_rows.append('<tr><th scope="row">'+esc(skill)+'</th><td>'+bullets(origins)+'</td></tr>')
     new_sections.append(section('origem-habilidades','Matriz de habilidades e cases de origem',
-      '<p>Competências relacionadas aos cases apresentados. A correspondência completa com os arquivos de origem está disponível em <a href="cv-data.json">cv-data.json</a>; os cases acima incluem as evidências específicas.</p><div class="table-scroll"><table><thead><tr><th>Habilidade</th><th>Projetos, módulos e contexto</th></tr></thead><tbody>'+''.join(skill_rows)+'</tbody></table></div>'))
+      '<p>Competências relacionadas aos cases apresentados. Os detalhamentos apresentam as aplicações, os objetivos e os métodos dos projetos associados a cada competência.</p><div class="table-scroll"><table><thead><tr><th>Habilidade</th><th>Projetos, módulos e contexto</th></tr></thead><tbody>'+''.join(skill_rows)+'</tbody></table></div>'))
 
     old_summary=''.join('<article class="job"><h3>'+esc(e['company']).replace('\n','<br>')+'</h3><p>'+esc(e['role']).replace('\n','<br>')+'</p><p class="meta">'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+paras(e.get('paragraphs',[]))+'</article>' for e in current['experience'])
     preserved=[section('sintese-original','Síntese de experiência da versão original',old_summary)]
@@ -172,6 +173,12 @@ def build():
     contact=' · '.join(esc(item['label'])+': '+esc(item['value']) for item in current['contact']['items'])
     experimental['extensions']={'version':'experimental-additive','generatedAt':DATE,'language':'pt','sourceCommit':'648d76f','method':'CV original preservado. Habilidades, ferramentas e stack ajustadas; especialidades, cases, módulos e evidências acrescentados. Artefatos Git não equivalem automaticamente a autoria exclusiva, implantação ou resultado.', 'cases':cases,'projects':project_records,'topics':proposal['topics'],'agroBusinessModules':proposal['agroBusinessModules'],'agroTechnicalFlows':proposal['agroModules'],'skillProvenance':proposal['skillProvenance'],'utiliboxCatalog':proposal['utiliboxTools']}
     experimental['extensions']['publicProjectLinks']=PUBLIC_LINKS['REGISTRY']
+    experimental['extensions']['projectProfiles']=[{
+        'id':p['id'],
+        'pt':dict(zip(['applicationArea','audience','objective'],PROJECT_DETAILS['context'](p))),
+        'en':dict(zip(['applicationArea','audience','objective'],PROJECT_DETAILS['context'](p,'en'))),
+        'architecture':{'pt':PROJECT_DETAILS['architecture'](p),'en':PROJECT_DETAILS['architecture'](p,'en')}
+    } for p in project_records]
     editorial=runpy.run_path(str(BASE/'scripts/cv-editorial.py'))
     priorities=runpy.run_path(str(BASE/'scripts/cv-priority-projects.py'))
     experimental['extensions']['priorityCases']=priorities['build_records'](experimental)
@@ -194,8 +201,9 @@ def build():
     (BASE/'cv-data.json').write_text(json.dumps(experimental,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     engine=runpy.run_path(str(BASE/'scripts/experimental-engine.py'))
     engine_sections=[association_map]+new_sections
-    engine_sections.append(section('fontes-interpretacao','Fontes e interpretação',
-      '<p>Cargos, períodos, reconhecimentos e impactos mantêm os relatos do currículo original. Os cases adicionais usam revisão estática de código e documentos locais. As fontes demonstram métodos e mecanismos; autoria individual, implantação e impacto medido dependem do contexto de cada projeto.</p><p>As referências Agrodan@origin/development:caminho identificam arquivos das referências Git locais. Os vínculos confirmados são Agrodan (profissional), EBSERH (estágio), The Game Project (faculdade) e EFS-AHP (doutorado).</p>'))
+    engine_sections.append(section('fontes-interpretacao','Contexto das iniciativas',
+      '<p>Os projetos abrangem aplicações profissionais na Agrodan, pesquisa EFS-AHP no doutorado, gestão hospitalar durante o estágio e gamificação de projetos na faculdade. As iniciativas independentes incluem produtos digitais, ferramentas de decisão, educação, finanças, automação e experiências interativas.</p>'))
+    engine_sections=[PROJECT_DETAILS['reader_content'](part) for part in engine_sections]
     english_sections=english['build_archive'](BASE,experimental,locale)
     page=engine['build_page'](BASE,experimental,engine_sections,job_html,edu,primary_count,english_sections=english_sections)
     ids=set(re.findall(r'\bid="([^"]+)"',page))

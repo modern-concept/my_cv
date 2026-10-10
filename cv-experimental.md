@@ -497,6 +497,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Relacionar prioridades, capacidade, execução e consistência sem perder a origem de cada recomendação
  Contribuição e entrega: Implementei um conselho de seis agentes especializados para apoiar planejamento e replanejamento, com evidências por recomendação, resolução determinística de conflitos e geração de ações rastreáveis.
+ Área de aplicação: Planejamento pessoal, produtividade e desenvolvimento profissional.
+ Público e contexto: Pessoas que organizam objetivos, atividades e planos de desenvolvimento.
+ Objetivo: Relacionar objetivos, capacidade e execução com planejamento e revisão assistidos por IA.
 
 #### Engenharia, métodos e profundidade
 
@@ -527,6 +530,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Transformar sinais heterogêneos em uma política verificável
  Contribuição e entrega: Estruturei experimentos de políticas multiagentes com votação de sinais, quórum e otimização por simulated annealing, organizando calibração, validação temporal e teste fora da amostra.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -542,13 +548,7 @@ Versão experimental ampliada — 09/10/2026.
 - Votação e quórum
 - Simulated annealing
 - Validação temporal
-- Alinhamento de dados
-
-#### Fontes do projeto
-
-- mt5/TraderMind/scripts/btc_multiagent_policy.py
-- mt5/TraderMind/scripts/experiment_btc_multiagent_sa.py
-- mt5/TraderMind/scripts/experiment_gold_multiagent_sa.py Alcance da evidência: São agentes de sinais por regras, não LLMs negociando entre si. Resultados financeiros não foram verificados neste levantamento.
+- Alinhamento de dados Alcance da evidência: São agentes de sinais por regras, não LLMs negociando entre si. Resultados financeiros não foram verificados neste levantamento.
 
 ## Engenharia de IA generativa e assistentes de domínio
  As evidências vão da composição do prompt à integração no fluxo do produto: contexto, contrato de resposta, validação, recuperação de falha e operação supervisionada.
@@ -567,6 +567,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Manter chamadas de IA úteis quando há latência, erro ou resposta fora do contrato
  Contribuição e entrega: Desenvolvi uma camada compartilhada de integração de IA com adaptação de provedores, respostas estruturadas, validação, orçamento de tempo e tratamento de falhas por tarefa.
+ Área de aplicação: Planejamento pessoal, produtividade e desenvolvimento profissional.
+ Público e contexto: Pessoas que organizam objetivos, atividades e planos de desenvolvimento.
+ Objetivo: Relacionar objetivos, capacidade e execução com planejamento e revisão assistidos por IA.
 
 #### Engenharia, métodos e profundidade
 
@@ -594,6 +597,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Converter sugestões em mudanças coerentes com um plano existente
  Contribuição e entrega: Modelei propostas de revisão assistidas por IA com validação de referências, alternativas, operações e acompanhamento, preservando o vínculo das mudanças com o plano real.
+ Área de aplicação: Planejamento pessoal, produtividade e desenvolvimento profissional.
+ Público e contexto: Pessoas que organizam objetivos, atividades e planos de desenvolvimento.
+ Objetivo: Relacionar objetivos, capacidade e execução com planejamento e revisão assistidos por IA.
 
 #### Engenharia, métodos e profundidade
 
@@ -620,6 +626,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Transformar dados de aula em uma proposta pedagógica estruturada
  Contribuição e entrega: Integrei geração de planos de aula com Gemini a uma aplicação web, usando contexto pedagógico, referências BNCC e saída estruturada para objetivos, metodologia e avaliação.
+ Área de aplicação: Educação e planejamento pedagógico.
+ Público e contexto: Professores.
+ Objetivo: Organizar planos de aula com contexto pedagógico, BNCC, objetivos, metodologia e avaliação.
 
 #### Engenharia, métodos e profundidade
 
@@ -634,12 +643,7 @@ Versão experimental ampliada — 09/10/2026.
 - Prompts de domínio
 - Saída estruturada
 - Backend de produto
-- Modelagem pedagógica
-
-#### Fontes do projeto
-
-- ClassPlanner/backend/src/llm/gemini.js
-- ClassPlanner/backend/src/controllers/controller.plan.js Alcance da evidência: Parsing JSON não é validação completa de schema; existem demos e inconsistências no módulo. Não afirmar alinhamento pedagógico ou qualidade validada.
+- Modelagem pedagógica Alcance da evidência: Parsing JSON não é validação completa de schema; existem demos e inconsistências no módulo. Não afirmar alinhamento pedagógico ou qualidade validada.
 
  Case · Produto e vendas
 
@@ -647,6 +651,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Apoiar decisões conversacionais com histórico e alternativas de ação
  Contribuição e entrega: Construí um fluxo conversacional híbrido de IA e regras, com memória de interação, contrato de ações, tratamento de falhas e encaminhamento humano.
+ Área de aplicação: Marketing, vendas e relacionamento com clientes.
+ Público e contexto: Operações comerciais e atendimento por conversas.
+ Objetivo: Organizar o funil e apoiar decisões conversacionais com histórico e sugestões de ação.
 
 #### Engenharia, métodos e profundidade
 
@@ -661,12 +668,7 @@ Versão experimental ampliada — 09/10/2026.
 - Fallback determinístico
 - Normalização de ações
 - Retries
-- Encaminhamento humano
-
-#### Fontes do projeto
-
-- instagram-conversion-crm/src/gemini-spin.js
-- instagram-conversion-crm/src/spin-decision-engine.js Alcance da evidência: SDK e configuração dependem de outro projeto local; ganho de conversão, modelo disponível e operação real não foram verificados.
+- Encaminhamento humano Alcance da evidência: SDK e configuração dependem de outro projeto local; ganho de conversão, modelo disponível e operação real não foram verificados.
 
 ## Machine Learning, seleção de atributos e pesquisa do doutorado
  O EFS-AHP constitui um case de pesquisa ligado ao doutorado. A trajetória inclui comparação de métodos, seleção de atributos e avaliação experimental, além de pesquisa de séries temporais no TraderMind.
@@ -685,6 +687,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Doutorado · CÉSAR School
  Problema: Escolher subconjuntos de atributos e conciliar critérios de avaliação
  Contribuição e entrega: Desenvolvi a pesquisa EFS-AHP no doutorado, combinando seleção de atributos, algoritmos evolutivos e decisão multicritério, com comparação de alternativas de ML e análise experimental de desempenho, dimensionalidade e custo.
+ Área de aplicação: Ciência de dados, Machine Learning e decisão multicritério.
+ Público e contexto: Pesquisa aplicada no doutorado em Engenharia de Software.
+ Objetivo: Selecionar atributos e comparar alternativas de modelos por desempenho, dimensionalidade e custo.
 
 #### Engenharia, métodos e profundidade
 
@@ -712,6 +717,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Organizar dados, modelos e políticas para avaliação e uso por API
  Contribuição e entrega: Estruturei experimentos quantitativos e componentes de inferência, conectando preparação de dados, avaliação de modelos e políticas a uma API e ao terminal MetaTrader5.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -726,13 +734,7 @@ Versão experimental ampliada — 09/10/2026.
 - Modelos tabulares
 - Pipelines de pesquisa
 - Validação temporal
-- Inferência e integração
-
-#### Fontes do projeto
-
-- mt5/TraderMind/serve.py
-- mt5/TraderMind/connector/bot.py
-- mt5/TraderMind/scripts/btc_multiagent_policy.py Alcance da evidência: Não generalizar validação temporal para todo notebook nem afirmar retorno financeiro comprovado.
+- Inferência e integração Alcance da evidência: Não generalizar validação temporal para todo notebook nem afirmar retorno financeiro comprovado.
 
 ## Visão computacional, treinamento e computação visual
  Há um ciclo mais amplo do que chamar um detector: eventos de vídeo, recortes, revisão de exemplos, preparação de dataset, treinamento de classificador e estabilização temporal; em outra frente, inferência de pose no browser e renderização.
@@ -751,6 +753,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Adaptar classificação ao contexto das câmeras e coletar exemplos revisados
  Contribuição e entrega: Implementei um fluxo de visão computacional com detecção, revisão de exemplos e treinamento de classificador personalizado a partir de modelo pré-treinado, integrando acompanhamento de épocas, checkpoint, estabilização temporal e alertas persistentes.
+ Área de aplicação: Segurança, monitoramento por vídeo e visão computacional.
+ Público e contexto: Monitoramento de câmeras e revisão de eventos.
+ Objetivo: Detectar eventos, coletar exemplos revisados e adaptar a classificação ao contexto das câmeras.
 
 #### Engenharia, métodos e profundidade
 
@@ -768,15 +773,7 @@ Versão experimental ampliada — 09/10/2026.
 - Dataset split
 - Checkpoint e callbacks
 - Processamento temporal
-- Confiabilidade operacional
-
-#### Fontes do projeto
-
-- DvrPersonAlert/uvinha_training.py
-- DvrPersonAlert/detection_reviews.py
-- DvrPersonAlert/temporal_identity.py
-- DvrPersonAlert/telegram_outbox.py
-- DvrPersonAlert/dvr_person_alert.py Alcance da evidência: O código de treinamento foi localizado; não foi executado nesta revisão. Métricas, generalização entre câmeras e risco de imagens semelhantes nos splits precisam de análise.
+- Confiabilidade operacional Alcance da evidência: O código de treinamento foi localizado; não foi executado nesta revisão. Métricas, generalização entre câmeras e risco de imagens semelhantes nos splits precisam de análise.
 
  Case · Protótipo de captura de movimento
 
@@ -784,6 +781,12 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Conectar vídeo, landmarks e interação visual no navegador
  Contribuição e entrega: Desenvolvi protótipos de estimação de pose no navegador, integrando inferência, visualização de keypoints e suavização temporal para explorar captura de movimento e interação com recursos 3D.
+ Área de aplicação: Movimento humano, captura de pose e interação com avatares.
+ Público e contexto: Experimentos de interação corporal e visualização de movimento.
+ Objetivo: Estimar a pose em vídeo e conectar pontos do corpo à visualização no navegador.
+ Área de aplicação: Visão computacional e análise de movimento.
+ Público e contexto: Experimentação com vídeos e representação corporal.
+ Objetivo: Extrair e visualizar esqueletos a partir de vídeo.
 
 #### Engenharia, métodos e profundidade
 
@@ -798,13 +801,7 @@ Versão experimental ampliada — 09/10/2026.
 - Estimação de pose
 - Geometria e coordenadas
 - Suavização temporal
-- Renderização 3D
-
-#### Fontes do projeto
-
-- mocap/src/main.js
-- mocap/docs/ARQUITETURA.md
-- skeleton from video/detectPoseMediaPipe.js Alcance da evidência: São modelos existentes integrados à aplicação; FPS, latência e qualidade de retargeting não foram medidos.
+- Renderização 3D Alcance da evidência: São modelos existentes integrados à aplicação; FPS, latência e qualidade de retargeting não foram medidos.
 
 ## SIA — projetos de negócio, agricultura e gestão
  As branches locais revelam um sistema muito mais amplo do que o checkout master: 668 arquivos frontend na referência development, dezenas de módulos de negócio, backend por domínio e bibliotecas adicionais. Os cases abaixo mostram processos específicos e sua fonte.
@@ -823,6 +820,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Apoiar planejamento e verificação de operações agrícolas com critérios de aplicação
  Contribuição e entrega: Desenvolvi componentes de planejamento agrícola no PLANAGRO, traduzindo aplicação de insumos, dosagem, carência, deriva e orçamento em regras e interfaces ligadas aos dados operacionais.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -838,12 +838,7 @@ Versão experimental ampliada — 09/10/2026.
 - Planejamento
 - Validação de aplicação
 - Geoinformação
-- Full stack
-
-#### Fontes do projeto
-
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/PLANAGRO.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-planagro.js Alcance da evidência: Existência da regra não comprova sua validação agronômica ou ativação em todas as operações. Confirmar contribuição, implantação e quais verificações foram utilizadas.
+- Full stack Alcance da evidência: Existência da regra não comprova sua validação agronômica ou ativação em todas as operações. Confirmar contribuição, implantação e quais verificações foram utilizadas.
 
  Case · Agrodan — material em branch local
 
@@ -851,6 +846,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Explorar programação de irrigação e estimativa/sugestão do coeficiente de cultura
  Contribuição e entrega: Explorei programação de irrigação, algoritmos genéticos e modelagem neural de Kc, trabalhando com codificação de variáveis, normalização, parâmetros de rede e integração ao backend operacional.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -868,14 +866,7 @@ Versão experimental ampliada — 09/10/2026.
 - Feature engineering
 - Codificação categórica
 - Normalização
-- Serialização de modelo
-
-#### Fontes do projeto
-
-- Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/KcAutomatico.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/ProgIrrig.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/indexIrrigacao.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-irrigacao.js Alcance da evidência: A avaliação consultada reutiliza TRAINING_DATA; o Kc histórico aparece também na entrada/alvo e há ajustes heurísticos na saída. Não apresentar acurácia do arquivo como generalização validada nem afirmar otimização agronômica comprovada.
+- Serialização de modelo Alcance da evidência: A avaliação consultada reutiliza TRAINING_DATA; o Kc histórico aparece também na entrada/alvo e há ajustes heurísticos na saída. Não apresentar acurácia do arquivo como generalização validada nem afirmar otimização agronômica comprovada.
 
  Case · Agrodan
 
@@ -883,6 +874,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Relacionar execução em campo com posição, velocidade, talhão e serviço
  Contribuição e entrega: Construí componentes de auditoria da pulverização com dados espaciais e operacionais, relacionando trajetória, velocidade, talhões e serviços para apoiar investigação da execução em campo.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -898,12 +892,7 @@ Versão experimental ampliada — 09/10/2026.
 - Estatística descritiva
 - Mapas
 - Dados de execução
-- Indicadores de velocidade
-
-#### Fontes do projeto
-
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/AuditoriaPulverizacao.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-miam.js Alcance da evidência: A redução de problemas declarada no CV só será vinculada a este case após confirmar iniciativa, período e método de medição.
+- Indicadores de velocidade Alcance da evidência: A redução de problemas declarada no CV só será vinculada a este case após confirmar iniciativa, período e método de medição.
 
  Case · Agrodan
 
@@ -911,6 +900,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Transformar leituras do fruto em acompanhamento e estimativas por variedade
  Contribuição e entrega: Implementei componentes de análise de matéria seca e previsão de colheita, relacionando leituras, variedades e parâmetros a gráficos e regras de acompanhamento.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -925,12 +917,7 @@ Versão experimental ampliada — 09/10/2026.
 - Regras por variedade
 - Equações e parâmetros
 - Analytics agrícola
-- Visualização
-
-#### Fontes do projeto
-
-- Agrodan@origin/development:src/pages/MateriaSeca/MateriaSeca.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-materia-seca.js Alcance da evidência: São equações/regras localizadas; não classificar automaticamente como modelo de Machine Learning treinado. Confirmar método, validação e uso.
+- Visualização Alcance da evidência: São equações/regras localizadas; não classificar automaticamente como modelo de Machine Learning treinado. Confirmar método, validação e uso.
 
  Case · Agrodan
 
@@ -938,6 +925,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Registrar operações e solicitações com continuidade no cliente
  Contribuição e entrega: Desenvolvi fluxos de coleta de campo e solicitações de compras com dados locais, componentes de processo e rotinas de sincronização, integrados ao backend por domínio.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -953,14 +943,7 @@ Versão experimental ampliada — 09/10/2026.
 - Modelagem de processo
 - Sincronização
 - Formulários
-- Compras e apontamentos
-
-#### Fontes do projeto
-
-- Agrodan@origin/development:src/pages/CadernoCampo/Apontamentos.js
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/Solicitacao.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-caderno-campo.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-solicitacao-compras.js Alcance da evidência: Dexie e handlers sustentam o mecanismo de dados locais; comportamento offline completo, conflitos e taxa de sucesso não foram executados ou medidos nesta revisão.
+- Compras e apontamentos Alcance da evidência: Dexie e handlers sustentam o mecanismo de dados locais; comportamento offline completo, conflitos e taxa de sucesso não foram executados ou medidos nesta revisão.
 
  Case · Agrodan
 
@@ -968,6 +951,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Organizar unidades, colaboradores, avaliações e ciclos de melhoria
  Contribuição e entrega: Modelei aplicações de gestão de unidades e pessoas e fluxos de sugestão de melhorias, articulando dados organizacionais, histórico, avaliações, papéis e documentos.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -983,13 +969,7 @@ Versão experimental ampliada — 09/10/2026.
 - Workflow de melhoria
 - Documentos e uploads
 - Reuso de componentes
-- Full stack corporativo
-
-#### Fontes do projeto
-
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/Funcionarios/index.js
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/UGBs/index.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-sugestao-melhorias.js Alcance da evidência: Submódulos compartilham arquitetura e componentes; não apresentar como produtos independentes nem afirmar resultados de RH sem evidência.
+- Full stack corporativo Alcance da evidência: Submódulos compartilham arquitetura e componentes; não apresentar como produtos independentes nem afirmar resultados de RH sem evidência.
 
  Case · Agrodan
 
@@ -997,6 +977,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Relacionar lançamentos, previsões, câmbio e operação de logística/packing
  Contribuição e entrega: Desenvolvi componentes de acompanhamento comercial e logística, relacionando lançamentos e previsões a interfaces de gestão e dados operacionais de pallets e containers.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -1011,14 +994,7 @@ Versão experimental ampliada — 09/10/2026.
 - Planejamento de resultados
 - Fluxos de logística
 - Rastreabilidade
-- Interfaces e APIs
-
-#### Fontes do projeto
-
-- Agrodan@origin/development:src/pages/PrevisaoResultados/index.js
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/MovimentacaoPallet.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/comercial/rotas-comercial.js
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-containers.js Alcance da evidência: Previsão no nome da tela não comprova algoritmo de ML; verificar método de cálculo. Implantação e ganhos serão ligados à participação real.
+- Interfaces e APIs Alcance da evidência: Previsão no nome da tela não comprova algoritmo de ML; verificar método de cálculo. Implantação e ganhos serão ligados à participação real.
 
 ## Engenharia de dados e sistemas operacionais — Agrodan/SIA
  As capacidades de ETL e analytics vêm de fluxos identificáveis: apontamentos, jornadas, qualidade, packing, metas, catracas e meteorologia. O catálogo SIA abaixo abre esses fluxos em módulos, com suas fontes.
@@ -1037,6 +1013,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Reutilizar infraestrutura de carga sem perder regras específicas de cada domínio
  Contribuição e entrega: Estruturei pipelines de integração com importadores reutilizáveis, processamento em lotes e regras específicas para produção, packing, qualidade e pessoas, organizando dados operacionais para análise e apoio à decisão.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -1052,13 +1031,7 @@ Versão experimental ampliada — 09/10/2026.
 - SQL
 - Modelagem de granularidade
 - Persistência em lote
-- Qualidade de dados
-
-#### Fontes do projeto
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/core-importer-from-queries.js
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/core-importer-from-dwh.js
-- Agrodan/etl/servers/server-dataware-house/core/validation/core-validation.js Alcance da evidência: As rotinas têm dependências históricas e partes comentadas. Quantidade de módulos não é quantidade de produtos nem comprovação de todos em produção.
+- Qualidade de dados Alcance da evidência: As rotinas têm dependências históricas e partes comentadas. Quantidade de módulos não é quantidade de produtos nem comprovação de todos em produção.
 
 ## Desenvolvimento mobile, web corporativo e modelagem de processos
  SIAgro demonstra uma aplicação mobile de negócio. EBSERH e The Game Project acrescentam Java corporativo, persistência, regras e interfaces; os produtos mais recentes ampliam o repertório web.
@@ -1077,6 +1050,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Representar registros e gestão de campo em um dispositivo móvel
  Contribuição e entrega: Desenvolvi módulos mobile do SIAgro para ordens de serviço, apontamentos e qualidade, combinando React Native/Expo, modelagem de objetos de negócio, persistência local e visualização de indicadores.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -1092,13 +1068,7 @@ Versão experimental ampliada — 09/10/2026.
 - Persistência local
 - Modelagem operacional
 - Componentes mobile
-- Visualização de indicadores
-
-#### Fontes do projeto
-
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/ObjetoPadrao.js
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/OrdemServico.js
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/Apontamento.js Alcance da evidência: Sincronização offline completa, GPS em operação e publicação dependem da confirmação da experiência; flags e bibliotecas não bastam para essas afirmações.
+- Visualização de indicadores Alcance da evidência: Sincronização offline completa, GPS em operação e publicação dependem da confirmação da experiência; flags e bibliotecas não bastam para essas afirmações.
 
  Case · EBSERH: estágio; The Game Project: faculdade
 
@@ -1106,6 +1076,12 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Estágio · Hospital Universitário de Petrolina · Projeto acadêmico · The Game Project
  Problema: Traduzir indicadores/avaliações e regras de progressão em sistemas persistentes
  Contribuição e entrega: No estágio hospitalar, desenvolvi sistema web de indicadores e avaliações com Java EE. Na faculdade, construí uma aplicação de gestão de projetos com gamificação e persistência, explorando regras de progressão e organização de tarefas.
+ Área de aplicação: Saúde, gestão hospitalar e planejamento estratégico.
+ Público e contexto: Equipes e gestores do Hospital Universitário de Petrolina.
+ Objetivo: Organizar indicadores, avaliações e acompanhamento do planejamento hospitalar.
+ Área de aplicação: Gestão de projetos, gamificação e colaboração.
+ Público e contexto: Equipes de projetos; desenvolvimento acadêmico na faculdade.
+ Objetivo: Representar projetos, etapas e progressão por missões, experiência e recompensas.
 
 #### Engenharia, métodos e profundidade
 
@@ -1145,6 +1121,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Disponibilizar métodos especializados com entrada, cálculo e interpretação
  Contribuição e entrega: Implementei ferramentas de apoio à decisão e aprendizagem com métodos multicritério, filas, simulação, matemática financeira e repetição espaçada, traduzindo modelos em interfaces e cálculos explicáveis.
+ Área de aplicação: Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing.
+ Público e contexto: Público geral, estudantes, autores e profissionais.
+ Objetivo: Transformar cálculos, métodos e organização do conhecimento em ferramentas interativas acessíveis.
 
 #### Engenharia, métodos e profundidade
 
@@ -1174,6 +1153,12 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Transformar estimativas e estruturas geográficas em escolhas executáveis
  Contribuição e entrega: Desenvolvi pipelines que conectam dados e otimização à decisão, explorando escalações sob orçamento/formação e roteamento com visualização geográfica.
+ Área de aplicação: Esportes, fantasy football, previsão probabilística e otimização.
+ Público e contexto: Pesquisa de desempenho e composição de escalações no Cartola.
+ Objetivo: Estimar desempenho e selecionar escalações considerando orçamento e restrições.
+ Área de aplicação: Logística, roteamento e análise geoespacial.
+ Público e contexto: Planejamento de deslocamentos e operações logísticas.
+ Objetivo: Representar pontos e rotas em mapas e apoiar decisões de percurso.
 
 #### Engenharia, métodos e profundidade
 
@@ -1209,6 +1194,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Organizar informação criativa e responder com referência ao estado do usuário
  Contribuição e entrega: Construí módulos de organização narrativa e conhecimento, com relações entre entidades, assistência contextual, rastreabilidade de respostas e interoperabilidade de notas.
+ Área de aplicação: Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing.
+ Público e contexto: Público geral, estudantes, autores e profissionais.
+ Objetivo: Transformar cálculos, métodos e organização do conhecimento em ferramentas interativas acessíveis.
 
 #### Engenharia, métodos e profundidade
 
@@ -1235,6 +1223,21 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Ligar regras de produto, fontes externas e interfaces a experiências completas
  Contribuição e entrega: Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.
+ Área de aplicação: Jogos, narrativa interativa e computação gráfica 3D.
+ Público e contexto: Exploração de experiências narrativas interativas.
+ Objetivo: Construir um ambiente de exploração com interação, física e elementos narrativos.
+ Área de aplicação: Empreendedorismo, marketplace e validação de produtos.
+ Público e contexto: Criadores de produtos e potenciais usuários.
+ Objetivo: Conectar propostas de produtos, descoberta e validação em uma plataforma web.
+ Área de aplicação: Carreira, recrutamento e automação supervisionada.
+ Público e contexto: Organização de oportunidades profissionais.
+ Objetivo: Coletar oportunidades e ordenar aderência com supervisão do usuário.
+ Área de aplicação: Finanças pessoais, Open Finance e análise de transações.
+ Público e contexto: Organização financeira pessoal.
+ Objetivo: Integrar e analisar transações para apoiar o acompanhamento das finanças.
+ Área de aplicação: Coleta de dados, ofertas e distribuição de conteúdo.
+ Público e contexto: Operações de acompanhamento e divulgação de ofertas.
+ Objetivo: Estruturar a coleta, o tratamento e a distribuição de informações de ofertas.
 
 #### Engenharia, métodos e profundidade
 
@@ -1251,15 +1254,7 @@ Versão experimental ampliada — 09/10/2026.
 - Automação supervisionada
 - Open Finance
 - Computação gráfica
-- Física e estado de jogo
-
-#### Fontes do projeto
-
-- dente_de_leao/README.md
-- launch_with_me/docs/ARQUITETURA.md
-- linkedin-job-assistant/README.md
-- minhas-financas/README.md
-- Scrapers/README.md Alcance da evidência: Não atribuir faturamento, escala ou publicação sem dados; pagamentos e recursos planejados têm maturidade variável.
+- Física e estado de jogo Alcance da evidência: Não atribuir faturamento, escala ou publicação sem dados; pagamentos e recursos planejados têm maturidade variável.
 
 ## Infraestrutura, integração desktop, IoT e operação de tecnologia
  A experiência em TIC registrada no CV complementa o código dos projetos: servidores, redes, suporte, continuidade, ERP, segurança e IoT. A integração com MetaTrader5 é um case local de conexão com software desktop.
@@ -1278,6 +1273,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
  Problema: Sustentar ambiente e serviços de tecnologia utilizados pela operação
  Contribuição e entrega: Gerenciei a operação de TIC, integrando suporte, servidores, redes, continuidade, ERP e iniciativas de IoT à entrega de serviços e soluções para a empresa.
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
 
 #### Engenharia, métodos e profundidade
 
@@ -1293,11 +1291,7 @@ Versão experimental ampliada — 09/10/2026.
 - Gestão de suporte
 - Continuidade
 - Segurança
-- IoT
-
-#### Fontes do projeto
-
-- my_ cv/cv-data.json Alcance da evidência: Fonte: relato profissional já existente, não código auditado nesta pesquisa. Detalhar os projetos de infraestrutura, escala, responsabilidades e resultados com Danillo.
+- IoT Alcance da evidência: Fonte: relato profissional já existente, não código auditado nesta pesquisa. Detalhar os projetos de infraestrutura, escala, responsabilidades e resultados com Danillo.
 
  Case · Projeto de pesquisa quantitativa
 
@@ -1305,6 +1299,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Ligar a aplicação Python ao terminal de negociação instalado localmente
  Contribuição e entrega: Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1319,13 +1316,7 @@ Versão experimental ampliada — 09/10/2026.
 - Python
 - Integração de APIs locais
 - Separação de serviços
-- Rastreabilidade de política
-
-#### Fontes do projeto
-
-- mt5/TraderMind/connector/bot.py
-- mt5/TraderMind/serve.py
-- mt5/TraderMind/docs/SETUP_DASHBOARD_BOT.md Alcance da evidência: Não equivale a aplicação GUI própria em Qt, Electron, WPF ou Swing. O F-AHP Java declarado no TCC precisa de seus próprios arquivos para detalhar plataforma e interface.
+- Rastreabilidade de política Alcance da evidência: Não equivale a aplicação GUI própria em Qt, Electron, WPF ou Swing. O F-AHP Java declarado no TCC precisa de seus próprios arquivos para detalhar plataforma e interface.
 
 ## Computação gráfica, experiência 3D e geoinformação
  O repertório visual inclui cena, câmera, física, interação e mapas. A origem das competências aparece nos protótipos 3D, no Mocap, na experiência narrativa e nos experimentos de logística.
@@ -1344,6 +1335,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Construir uma experiência de exploração e interação em ambiente 3D
  Contribuição e entrega: Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.
+ Área de aplicação: Jogos, narrativa interativa e computação gráfica 3D.
+ Público e contexto: Exploração de experiências narrativas interativas.
+ Objetivo: Construir um ambiente de exploração com interação, física e elementos narrativos.
 
 #### Engenharia, métodos e profundidade
 
@@ -1359,15 +1353,7 @@ Versão experimental ampliada — 09/10/2026.
 - Física
 - Estado de jogo
 - Interação narrativa
-- Arquitetura de protótipo
-
-#### Fontes do projeto
-
-- dente_de_leao/README.md
-- dente_de_leao/src/game/World.tsx
-- dente_de_leao/src/game/player/Player.tsx
-- dente_de_leao/src/game/interact/useInteractionProbe.ts
-- dente_de_leao/package.json Alcance da evidência: É um protótipo no navegador; não afirmar lançamento comercial de jogo, engine própria ou desenvolvimento Unity a partir dele.
+- Arquitetura de protótipo Alcance da evidência: É um protótipo no navegador; não afirmar lançamento comercial de jogo, engine própria ou desenvolvimento Unity a partir dele.
 
  Case · Logística, Leaflet, threejs e movimento_3D
 
@@ -1375,6 +1361,18 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Representar informação e interação em espaços geográficos ou cenas
  Contribuição e entrega: Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.
+ Área de aplicação: Mapas, roteamento e interfaces geográficas.
+ Público e contexto: Visualização e exploração de informações espaciais.
+ Objetivo: Representar dados geográficos e percursos em uma interface web.
+ Área de aplicação: Logística, roteamento e análise geoespacial.
+ Público e contexto: Planejamento de deslocamentos e operações logísticas.
+ Objetivo: Representar pontos e rotas em mapas e apoiar decisões de percurso.
+ Área de aplicação: Computação gráfica e visualização de modelos.
+ Público e contexto: Estudos de cenas e movimento tridimensional.
+ Objetivo: Explorar a apresentação e o movimento de modelos 3D.
+ Área de aplicação: Computação gráfica e desenvolvimento web 3D.
+ Público e contexto: Estudos de cenas, modelos e interação.
+ Objetivo: Explorar renderização de cenas e recursos tridimensionais no navegador.
 
 #### Engenharia, métodos e profundidade
 
@@ -1390,14 +1388,7 @@ Versão experimental ampliada — 09/10/2026.
 - Geometria
 - Carregamento de modelos
 - Three.js
-- Prototipação visual
-
-#### Fontes do projeto
-
-- Leaflet/index.html
-- Logistica/src/leaflet/Roteirizador.js
-- movimento_3D/3d.html
-- threejs/app.js Alcance da evidência: Não comprova especialização GIS completa, sensoriamento remoto operacional ou desenvolvimento de bibliotecas de renderização.
+- Prototipação visual Alcance da evidência: Não comprova especialização GIS completa, sensoriamento remoto operacional ou desenvolvimento de bibliotecas de renderização.
 
 ## Projetos vinculados a formação, estágio e faculdade
 
@@ -1405,7 +1396,7 @@ Versão experimental ampliada — 09/10/2026.
  Estágio no Hospital Universitário de Petrolina — EBSERH
  Vínculo: Estágio · Hospital Universitário de Petrolina
  Sistema de gestão de indicadores e avaliações desenvolvido no contexto do estágio no Hospital Universitário de Petrolina. Organiza indicadores, responsáveis, setores de coleta e registros de avaliação em uma aplicação Java EE com persistência relacional e interfaces JSF/PrimeFaces para cadastro, consulta e visualização.
- Gestor de Indicadores-ejb contém entidades, interfaces locais e beans de negócio; Gestor de Indicadores-war concentra managed beans e interface; src/conf contém configuração de persistência; lib reúne JARs; build.xml e nbproject organizam o build Ant/NetBeans.
+ Aplicação Java EE com entidades e persistência, serviços de negócio e interface JSF para gestão de indicadores e avaliações.
 
 - Java
 - Java EE
@@ -1423,7 +1414,7 @@ Versão experimental ampliada — 09/10/2026.
  Projeto desenvolvido na faculdade
  Vínculo: Projeto acadêmico · The Game Project
  Aplicação acadêmica de gestão de projetos que utiliza conceitos de RPG para representar projetos, tarefas, participantes, progressão e recompensas. Organiza aventuras, batalhas e históricos em entidades persistidas e interfaces web, incluindo uma visualização de cronograma para tornar o acompanhamento de atividades mais interativo.
- src/java/com/br/tgp separa entidades, dao, managedbeans, modelos e converters; web/taverna concentra telas de aventuras e batalhas; META-INF/persistence.xml configura MySQL; tgp-database.sql descreve a base; a árvore com/br/ebserh contém código reaproveitado de indicadores.
+ Aplicação web com entidades, acesso a dados, controle de interface e persistência MySQL; a gamificação relaciona aventuras, batalhas e progressão.
 
 - Java
 - JSF
@@ -1443,7 +1434,7 @@ Versão experimental ampliada — 09/10/2026.
  Pesquisa vinculada ao doutorado profissional em Engenharia de Software — confirmado por Danillo
  Vínculo: Doutorado · CÉSAR School
  Framework de pesquisa que combina seleção de atributos, algoritmos evolutivos e decisão multicritério AHP para estudar modelos em diferentes bases. Reúne experimentos comparativos, métodos como Random Forest, LASSO e PCA e análises estatísticas para investigar o equilíbrio entre qualidade preditiva, quantidade de atributos e custo de treinamento.
- Experimento 1–3 organizam as bases e os métodos; Estatísticas reúne notebooks e comparações; Scripts concentra rotinas auxiliares; Dockerfile descreve o ambiente.
+ Experimentos organizados por bases e métodos, com rotinas evolutivas, avaliação multicritério, notebooks estatísticos e ambiente conteinerizado.
 
 - JavaScript
 - Node.js
@@ -1475,8 +1466,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/AbastecimentoFrota/AbastecimentoFrota.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Pessoas e operação
 
 ### Absenteísmo
@@ -1486,8 +1475,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/Absenteismo/Absenteismo.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Gestão
 
 ### Acompanhamentos operacionais
@@ -1496,11 +1483,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, @material-ui/lab, @nivo/bar, @nivo/pie, color-interpolate, dexie, react, react-csv, react-custom-scrollbars, react-redux, thenby.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
- Funções de implementação: PieChart, BarChart, traduzHorario, atualizar, Card, Charts, FiltroPadrao, filtrar.
-
-- Agrodan@origin/development:src/pages/Acompanhamentos/Dash_Orcamento.js:1
-- Agrodan@origin/development:src/pages/Acompanhamentos/MainData.js:1
-- Agrodan@origin/development:src/pages/Acompanhamentos/indicadores.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Navegação operacional
 
@@ -1510,11 +1492,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Estado por hooks.
  Stack observada: @material-ui/core, @nivo/bar, moment, react, react-router-dom.
  Mecanismos: Estado por hooks.
- Funções de implementação: PageDefault, Campo, CardSIA.
-
-- Agrodan@origin/development:src/pages/Areas/Campo.js:1
-- Agrodan@origin/development:src/pages/Areas/GestaoQualidadeLinks.js:1
-- Agrodan@origin/development:src/pages/Areas/Monitoramento.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Monitoramento ambiental
 
@@ -1524,11 +1501,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, react-router-dom, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
- Funções de implementação: Dist, Dist, handleFechaRelatorio, getRelatorio.
-
-- Agrodan@origin/development:src/pages/AtelEscola/AtelEscola.js:1
-- Agrodan@origin/development:src/pages/AtelEscola/LegendMUS.js:1
-- Agrodan@origin/development:src/pages/AtelEscola/MonitoramentoUmidadeSolo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Operações agrícolas e geoinformação
 
@@ -1538,12 +1510,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, @use-it/event-listener, crypto-js, leaflet, moment, react, react-bootstrap, react-dom, react-leaflet, react-leaflet-canvas-layer, react-leaflet-multi-options-polyline, react-router-dom, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
- Funções de implementação: Dist, handler, colorSelector, avaliar_pulv, velocidadeAcimaPorc, Dist, handleFechaRelatorio, trackPointFactory.
-
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/AuditoriaPulverizacao.js:1
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/DataMap.js:1
-- Agrodan@origin/development:src/pages/AuditoriaPulverizacao/LegendMiam.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-miam.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Auditoria operacional
 
@@ -1554,8 +1520,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/AuditoriaSGA/AuditoriaSGA.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Governança de dados
 
 ### Auditoria SIA
@@ -1565,8 +1529,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, moment-duration-format, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/AuditoriaSIA/AuditoriaSIA.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
-
  RH e desempenho
 
 ### Avaliação de equipes
@@ -1575,12 +1537,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, handleTurmaSelecionada, handleDataSelecionada, avaliadoresFinalizados, handleNext, handleBack, getStepContent, openAlert.
-
-- Agrodan@origin/development:src/pages/AvaliacaoEquipe/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipe/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipe/Resumo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-avaliacao-equipe.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  RH e desempenho
 
@@ -1590,11 +1546,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
- Funções de implementação: openAlert, handleTurmaSelecionada, handleDataSelecionada, finalizar, avaliadoresFinalizados, handleNext, handleBack, getStepContent.
-
-- Agrodan@origin/development:src/pages/AvaliacaoEquipeADM_OFC/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipeADM_OFC/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEquipeADM_OFC/Resumo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Educação e avaliação
 
@@ -1604,11 +1555,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
- Funções de implementação: openAlert, finalizar, handleAvaliadorSelecionada, handleDataSelecionada, avaliadosFinalizados, handleNext, handleBack, getStepContent.
-
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaAlunoProfessor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaAlunoProfessor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaAlunoProfessor/Resumo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Educação e avaliação
 
@@ -1618,11 +1564,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
- Funções de implementação: openAlert, finalizar, handleAvaliadorSelecionada, handleDataSelecionada, avaliadosFinalizados, handleNext, handleBack, getStepContent.
-
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaGestorGestor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaGestorGestor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaGestorGestor/Resumo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Educação e avaliação
 
@@ -1632,11 +1573,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
- Funções de implementação: openAlert, finalizar, handleAvaliadorSelecionada, handleDataSelecionada, avaliadosFinalizados, handleNext, handleBack, getStepContent.
-
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorGestor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorGestor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorGestor/Resumo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Educação e avaliação
 
@@ -1646,11 +1582,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
- Funções de implementação: openAlert, finalizar, handleAvaliadorSelecionada, handleDataSelecionada, avaliadosFinalizados, handleNext, handleBack, getStepContent.
-
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorProfessor/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorProfessor/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoEscolaProfessorProfessor/Resumo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  RH e avaliação
 
@@ -1660,12 +1591,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, handleTurmaSelecionada, handleDataSelecionada, avaliadoresFinalizados, handleNext, handleBack, getStepContent, openAlert.
-
-- Agrodan@origin/development:src/pages/AvaliacaoInvertida/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoInvertida/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoInvertida/Resumo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-avaliacao-invertida.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  RH e avaliação
 
@@ -1675,12 +1600,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, finalizar, handleAvaliadorSelecionada, handleDataSelecionada, avaliadosFinalizados, handleNext, handleBack, getStepContent.
-
-- Agrodan@origin/development:src/pages/AvaliacaoPares/Avaliacao.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoPares/Qualidade.js:1
-- Agrodan@origin/development:src/pages/AvaliacaoPares/Resumo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-avaliacao-pares.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  RH e jornadas
 
@@ -1691,8 +1610,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/BatidaPonto/BatidaPonto.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Gestão financeira
 
 ### Visão CFO
@@ -1702,8 +1619,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/CFO/CFO.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Comercial
 
 ### Resultados comerciais
@@ -1712,12 +1627,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, fs, moment, pdfreader, react, react-file-base64, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, atualizaApontamentosPagina, handleDelete, handleAtualizar, getPaperContent, openAlert, handleDownloadBD, getPaperContent.
-
-- Agrodan@origin/development:src/pages/COMERCIAL/Resultados/Auditorias.js:1
-- Agrodan@origin/development:src/pages/COMERCIAL/Resultados/Config.js:1
-- Agrodan@origin/development:src/pages/COMERCIAL/Resultados/CriarLancamento.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/comercial/rotas-comercial.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Finanças
 
@@ -1728,8 +1637,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/CONTAS_PAGAR/CONTAS_PAGAR.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Gestão agrícola
 
 ### Cadastro de talhões
@@ -1739,8 +1646,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/CadastroTalhoes/CadastroTalhoes.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Coleta agrícola
 
 ### Caderno de campo
@@ -1749,12 +1654,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, @mui/material, dexie, moment, react, react-chartjs-2, react-select, uuidv4.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, handleSetFuncs, handleSetSelecs, handleCheckRateio, handleTurmaSelecionada, handleDataSelecionada, handleProcessoSelecionado, handleFA.
-
-- Agrodan@origin/development:src/pages/CadernoCampo/Apontamentos.js:1
-- Agrodan@origin/development:src/pages/CadernoCampo/Config.js:1
-- Agrodan@origin/development:src/pages/CadernoCampo/MeusApontamentos.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-caderno-campo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Packing
 
@@ -1765,8 +1664,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/CaixasEmbaladas/CaixasEmbaladas.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Packing e unidades de gestão
 
 ### Caixas embaladas por UGB
@@ -1775,8 +1672,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de informações; Interface React; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
-
-- Agrodan@origin/development:src/pages/CaixasEmbaladasUgb/CaixasEmbaladasUgb.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
 
  Suprimentos e operação
 
@@ -1787,8 +1682,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/ConferenciaInsumos/ConferenciaInsumos.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Packing e rastreabilidade
 
 ### Controle de pallets
@@ -1797,8 +1690,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de informações; Interface React; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
-
-- Agrodan@origin/development:src/pages/ControlePallets/ControlePallets.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
 
  Qualidade
 
@@ -1809,8 +1700,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/ControleQualidade/ControleQualidade.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Packing e suprimentos
 
 ### Controle de recebimento
@@ -1819,9 +1708,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Estado por hooks; Efeitos e carregamento por hooks; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Estado por hooks; Efeitos e carregamento por hooks; Mapas e informação espacial; Mapas Leaflet.
- Funções de implementação: ControleRecebimento, alterarDados, atualizarDB, excluirDB, handleChange.
-
-- Agrodan@origin/development:src/pages/ControleRecebimento/ControleRecebimento.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Planejamento agrícola
 
@@ -1831,11 +1717,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, react-touch-screen-keyboard, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
- Funções de implementação: Tabela.
-
-- Agrodan@origin/development:src/pages/CronogramaSafra/CronogramaSafra.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafra/Colheita.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafra/CronogramaSafraApp.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Coleta e planejamento
 
@@ -1845,11 +1726,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, moment, react, react-touch-screen-keyboard.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização.
- Funções de implementação: cronogramas, talhoes, fromTable, updateDB, write, read.
-
-- Agrodan@origin/development:src/pages/CronogramaSafraForm/CronogramaSafraForm.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraForm/Colheita.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraForm/CronogramaSafraEdit.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Planejamento e sincronização
 
@@ -1859,12 +1735,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, moment, react.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, handleDownloadBD, getPaperContent, openAlert, setFa, openInfoTalhao, getTalhaoInfo, getPaperContent.
-
-- Agrodan@origin/development:src/pages/CronogramaSafraSIA/Config.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraSIA/Edicao.js:1
-- Agrodan@origin/development:src/pages/CronogramaSafraSIA/Sincronizacao.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-cronograma-safra.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Informação espacial
 
@@ -1873,8 +1743,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Disponibilizar representação de croquis.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados.
  Stack observada: @material-ui/core, @nivo/pie, moment, react.
-
-- Agrodan@origin/development:src/pages/Croquis/Croquis.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Controladoria
 
@@ -1885,8 +1753,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/Custos/Custos.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Qualidade de serviço
 
 ### Dashboard de satisfação
@@ -1896,8 +1762,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/DashSatisfacao/DashSatisfacao.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Packing
 
 ### Embalagem
@@ -1905,9 +1769,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Disponibilizar indicadores da operação de embalagem.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados.
  Stack observada: @material-ui/core, @nivo/bar, moment, react.
- Funções de implementação: BarChart.
-
-- Agrodan@origin/development:src/pages/Embalagem/Embalagem.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Estoques
 
@@ -1918,8 +1779,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/EstoqueVirtual/EstoqueVirtual.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Comercial e finanças
 
 ### Faturamento
@@ -1928,8 +1787,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de informações; Interface React; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
-
-- Agrodan@origin/development:src/pages/Faturamento/Faturamento.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
 
  Planejamento agrícola
 
@@ -1940,8 +1797,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/FechamentoTalhoes/FechamentoTalhoes.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Comercial
 
 ### Flutuação de preços
@@ -1950,8 +1805,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de informações; Interface React; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
-
-- Agrodan@origin/development:src/pages/FlutuacaoPreco/FlutuacaoPreco.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
 
  RH e finanças
 
@@ -1962,8 +1815,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/FolhaPagamento/FolhaPagamento.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Supply chain
 
 ### Gestão de estoque
@@ -1973,8 +1824,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/GestaoEstoque/GestaoEstoque.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Gestão organizacional
 
 ### Gestão de unidades de negócio
@@ -1983,12 +1832,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Planilhas; Integração HTTP.
  Stack observada: @material-ui/core, @material-ui/icons, @material-ui/styles, @react-pdf/renderer, axios, dexie, file-saver, moment, prop-types, react, react-icons, react-pdf, react-router-dom, react-select, react-to-pdf, xlsx.
  Mecanismos: Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Planilhas; Integração HTTP; Rotas backend correspondentes localizadas.
- Funções de implementação: RouterGestaoUGB2, RedirectLogin, RouterGestaoUGB3, RouterGestaoUGB, GestaoUBGs, auth, onBack, NoConect.
-
-- Agrodan@origin/development:src/pages/GestaoUGBs/Router.js:1
-- Agrodan@origin/development:src/pages/GestaoUGBs/env.js:1
-- Agrodan@origin/development:src/pages/GestaoUGBs/index.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-gestaoUGB.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Frota e equipamentos
 
@@ -1999,8 +1842,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/Horimetro/Horimetro.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Gestão de processos
 
 ### Indicadores e satisfação BPM
@@ -2009,12 +1850,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, dexie, leaflet, moment, prop-types, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf, uuidv4.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
- Funções de implementação: comp_satisfacao, a_insumos, a_pragas, a_areas, JBDW_PLANAGRO_INSUMOS, fromTable, updateDB, write.
-
-- Agrodan@origin/development:src/pages/IndicadorBPM/IndicadorBPM.js:1
-- Agrodan@origin/development:src/pages/IndicadorBPM/SatisfacaoBPM.js:1
-- Agrodan@origin/development:src/pages/IndicadorBPM/utils/downloadData.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-satisfacao-bpm.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Logística e qualidade de serviço
 
@@ -2023,9 +1858,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Representar satisfação relacionada à logística.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, moment, react.
- Funções de implementação: comp_satisfacao.
-
-- Agrodan@origin/development:src/pages/IndicadorLogistica/SatisfacaoLogistica.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Gestão de TIC
 
@@ -2035,12 +1867,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
- Funções de implementação: comp_satisfacao.
-
-- Agrodan@origin/development:src/pages/IndicadorTI/IndicadorTI.js:1
-- Agrodan@origin/development:src/pages/IndicadorTI/FilaChamados.js:1
-- Agrodan@origin/development:src/pages/IndicadorTI/SatisfacaoTI.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-ti.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Irrigação agrícola
 
@@ -2050,12 +1876,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, moment-duration-format, react, react-csv-reader, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
- Funções de implementação: Enviando, InputPhytech, handleFiledLoaded, openAlert, handleNext, handleBack, getStepContent, InputPhytech.
-
-- Agrodan@origin/development:src/pages/Irrigacao/Irrigacao.js:1
-- Agrodan@origin/development:src/pages/Irrigacao/MonitoramentoIrrigacao/Enviando.js:1
-- Agrodan@origin/development:src/pages/Irrigacao/MonitoramentoIrrigacao/InputPhytech.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-irrigacao.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Irrigação
 
@@ -2066,8 +1886,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/Irrigas/Irrigas.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Produção e aprendizagem
 
 ### Lean Packing Game
@@ -2077,8 +1895,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/LeanPackingGame/LeanPackingGame.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Operação e jornadas
 
 ### Registro de horas
@@ -2087,10 +1903,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @material-ui/icons, moment, react, react-chartjs-2, trabalho-eficiente.jpg.
  Mecanismos: Rotas backend correspondentes localizadas.
- Funções de implementação: getModal, rand, getModalStyle.
-
-- Agrodan@origin/development:src/pages/Log Horas/LogHoras.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-log-horas.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Monitoramento agrícola
 
@@ -2100,12 +1912,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Camada de dados local; Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, react-router-dom, turf.
  Mecanismos: Camada de dados local; Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
- Funções de implementação: Dist, Dist, handleFechaRelatorio, getRelatorio.
-
-- Agrodan@origin/development:src/pages/MAD/MAD.js:1
-- Agrodan@origin/development:src/pages/MAD/LegendMUS.js:1
-- Agrodan@origin/development:src/pages/MAD/MonitoramentoUmidadeSolo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-mad.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Qualidade do fruto
 
@@ -2115,12 +1921,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Estado por hooks; Efeitos e carregamento por hooks; Eventos via socket; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @nivo/bar, moment, react, socket.io-client.
  Mecanismos: Estado por hooks; Efeitos e carregamento por hooks; Eventos via socket; Rotas backend correspondentes localizadas.
- Funções de implementação: BarChart, MangaCanvas, atualizarLinha.
-
-- Agrodan@origin/development:src/pages/MAF/Maf.js:1
-- Agrodan@origin/development:src/pages/MAF/MangaCanvas.js:1
-- Agrodan@origin/development:src/pages/MAF/PosicaoLinhas.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/maf/rotas-maf.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Agricultura e geoinformação
 
@@ -2130,10 +1930,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Camada de dados local; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Camada de dados local; Mapas e informação espacial; Mapas Leaflet.
- Funções de implementação: Dist.
-
-- Agrodan@origin/development:src/pages/MIP/MIP.js:1
-- Agrodan@origin/development:src/pages/MIP/LegendMIP.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Qualidade e maturação
 
@@ -2143,11 +1939,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Função de previsão; Regra de ponto de colheita; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @nivo/pie, moment, react.
  Mecanismos: Função de previsão; Regra de ponto de colheita; Rotas backend correspondentes localizadas.
- Funções de implementação: calcular_previsao, calcular_alpha, equacoes, isPontoColheita, PieChart.
-
-- Agrodan@origin/development:src/pages/MateriaSeca/MateriaSeca.js:1
-- Agrodan@origin/development:src/pages/MateriaSeca/variaveis.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-materia-seca.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Suprimentos
 
@@ -2158,9 +1949,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @nivo/pie, moment, react.
  Mecanismos: Rotas backend correspondentes localizadas.
 
-- Agrodan@origin/development:src/pages/Materiais/Materiais.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-materiais.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
-
  Suprimentos e rastreabilidade
 
 ### Movimentação de materiais
@@ -2170,9 +1958,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @nivo/pie, moment, react.
  Mecanismos: Rotas backend correspondentes localizadas.
 
-- Agrodan@origin/development:src/pages/MovimentacaoMateriais/MovimentacaoMateriais.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-movimentacao-materiais.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
-
  Packing e logística
 
 ### Movimentação de pallets e containers
@@ -2181,12 +1966,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, dexie, moment, react, react-touch-screen-keyboard.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: FormDialog, a_turmas, a_funcionarios, a_safras, a_processos, a_servicos, a_FA, a_talhao.
-
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/MovimentacaoPallet.js:1
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/ConferenciaCameras.js:1
-- Agrodan@origin/development:src/pages/MovimentacaoPallet/DadosContainer.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-containers.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Controladoria
 
@@ -2197,9 +1976,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet; Rotas backend correspondentes localizadas.
 
-- Agrodan@origin/development:src/pages/Orcamento/Orcamento.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-orcamento.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  RH e estrutura organizacional
 
 ### Organograma e áreas
@@ -2208,11 +1984,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react.
  Mecanismos: Persistência IndexedDB via Dexie; Referências a sincronização; Estado por hooks.
- Funções de implementação: openAlert, handleClick, handlePresidencia, getStepContent, user_card, openAlert, handleClick, getStepContent.
-
-- Agrodan@origin/development:src/pages/Organograma/Areas.js:1
-- Agrodan@origin/development:src/pages/Organograma/Indicadores.js:1
-- Agrodan@origin/development:src/pages/Organograma/index.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Gestão e melhoria contínua
 
@@ -2222,11 +1993,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, moment, react, react-file-base64, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
- Funções de implementação: openAlert, atualizaApontamentosPagina, handleDelete, handleAtualizar, getPaperContent, openAlert, handleDownloadBD, getPaperContent.
-
-- Agrodan@origin/development:src/pages/PDCA/MO/Auditorias.js:1
-- Agrodan@origin/development:src/pages/PDCA/MO/Config.js:1
-- Agrodan@origin/development:src/pages/PDCA/MO/CriarPlano.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Produção e embalagem
 
@@ -2237,9 +2003,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/bar, audio-loader, audio-play, moment, play-sound, react, react-router-dom, socket.io-client.
  Mecanismos: Eventos via socket.
 
-- Agrodan@origin/development:src/pages/Packing/Packing.js:1
-- Agrodan@origin/development:src/pages/Packing/Caixaria/Caixaria.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
-
  Planejamento agronômico e governança
 
 ### PLANAGRO — planejamento e regras agrícolas
@@ -2248,12 +2011,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, leaflet, moment, path, prop-types, react, react-custom-scrollbars, react-data-table-component, react-leaflet, react-leaflet-canvas-layer, react-leaflet-control, react-select, react-to-pdf, react-to-print, recharts, turf, uuidv4, xlsx.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Mapas e informação espacial; Mapas Leaflet; Planilhas; Impressão; Regra de carência; Regra de dosagem; Regra de deriva; Rotas backend correspondentes localizadas.
- Funções de implementação: ExpandedComponent, round_2, getDateOfWeek, compareObjects, avisoAplicacoes, avisoAplicacoes2, avisoCarencia, avisoCarenciaCopia.
-
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/Legend.js:1
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/Legenda_new.js:1
-- Agrodan@origin/development:src/pages/PlanejamentoAgro/PLANAGRO.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-planagro.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Planejamento comercial
 
@@ -2263,12 +2020,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Planilhas.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, moment, prop-types, react, react-select, uuidv4, xlsx.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Planilhas; Rotas backend correspondentes localizadas.
- Funções de implementação: body, getPaperContent, getModalStyle, area, getPaperContent, getPaperContent, a_clientes, a_variedades.
-
-- Agrodan@origin/development:src/pages/PrevisaoResultados/index.js:1
-- Agrodan@origin/development:src/pages/PrevisaoResultados/pages/Acompanhamento.js:1
-- Agrodan@origin/development:src/pages/PrevisaoResultados/pages/Cambio.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-previsao-resultados.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Packing e capacidade
 
@@ -2279,8 +2030,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/ProgramacaoProcessamento/ProgramacaoProcessamento.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Gestão de projetos
 
 ### Projetos
@@ -2289,8 +2038,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de informações; Interface React; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
-
-- Agrodan@origin/development:src/pages/Projetos/Projetos.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
 
  RH e operação
 
@@ -2301,8 +2048,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/QtdFuncionarios/QtdFuncionarios.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Qualidade agrícola
 
 ### Qualidade de campo e checklists
@@ -2311,12 +2056,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, dexie, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, handleNext, handleBack, handleTurmaSelecionada, handleDataSelecionada, handleFase, handleFazenda, handleTalhao.
-
-- Agrodan@origin/development:src/pages/QualidadeCampo/Qualidade.js:1
-- Agrodan@origin/development:src/pages/QualidadeCampo/Respostas.js:1
-- Agrodan@origin/development:src/pages/QualidadeCampo/index.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-qualidade-campo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Gestão de pessoas
 
@@ -2327,8 +2066,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/RH/RH.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  SST e geoinformação
 
 ### Riscos de segurança do trabalho
@@ -2337,11 +2074,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
- Funções de implementação: escolherIcone, Dist, escolherIcone, handleFechaRelatorio.
-
-- Agrodan@origin/development:src/pages/RISCO_SST/Legenda.js:1
-- Agrodan@origin/development:src/pages/RISCO_SST/Legenda_new.js:1
-- Agrodan@origin/development:src/pages/RISCO_SST/RiscoSST.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Serviços corporativos
 
@@ -2352,8 +2084,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/Ramais/Ramais.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Packing e qualidade
 
 ### Refugo
@@ -2363,8 +2093,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/Refugo/Refugo.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Analytics
 
 ### Relatórios BI
@@ -2373,9 +2101,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de informações; Interface React; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, react-router-dom, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
- Funções de implementação: getRelatorio.
-
-- Agrodan@origin/development:src/pages/RelatoriosBI/index.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
 
  RH e operação
 
@@ -2386,8 +2111,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/ResumoMO/ResumoMO.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Gestão
 
 ### Ritual gerencial
@@ -2397,8 +2120,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/RitualGerencial/RitualGerencial.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Auditoria e qualidade
 
 ### Sistema de gestão da qualidade
@@ -2407,11 +2128,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, moment, react, react-file-base64, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
- Funções de implementação: openAlert, atualizaApontamentosPagina, handleDelete, handleAtualizar, getPaperContent, openAlert, handleDownloadBD, getPaperContent.
-
-- Agrodan@origin/development:src/pages/SGQ/Auditorias.js:1
-- Agrodan@origin/development:src/pages/SGQ/Config.js:1
-- Agrodan@origin/development:src/pages/SGQ/CriarAuditoria.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Qualidade e analytics
 
@@ -2421,11 +2137,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, react, react-file-base64, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks.
- Funções de implementação: itemRow, itens, AuditoriaAnsCard, openAlert, handleClick, getPaperContent, DadosAuditoria, Enviando.
-
-- Agrodan@origin/qualiex:src/pages/SgqRelatorios/RelatorioAuditoria.js:1
-- Agrodan@origin/qualiex:src/pages/SgqRelatorios/ResumoAuditorias.js:1
-- Agrodan@origin/qualiex:src/pages/SgqRelatorios/index.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  RH e jornadas
 
@@ -2436,8 +2147,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/SaldoBH/SaldoBH.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Qualidade de serviço
 
 ### Satisfação
@@ -2445,9 +2154,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Disponibilizar informações de satisfação.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, moment, react.
- Funções de implementação: comp_satisfacao.
-
-- Agrodan@origin/development:src/pages/Satisfacao/Satisfacao.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Segurança e gestão
 
@@ -2456,9 +2162,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Disponibilizar informações do módulo identificado como Segurança.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados.
  Stack observada: @material-ui/core, @nivo/bar, moment, react.
- Funções de implementação: BarChart.
-
-- Agrodan@origin/development:src/pages/Seguranca/Seguranca.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Compras e orçamento
 
@@ -2468,12 +2171,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks.
  Stack observada: @material-ui/core, @material-ui/icons, dexie, moment, react, react-select.
  Mecanismos: Persistência IndexedDB via Dexie; Camada de dados local; Handlers de sincronização; Referências a sincronização; Estado por hooks; Rotas backend correspondentes localizadas.
- Funções de implementação: openAlert, handleDeleteAv, handleSincAv, handleSelCentro, getPaperContent, EstoqueRepo, handleChange, a_produtos.
-
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/Solicitacao.js:1
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/index.js:1
-- Agrodan@origin/development:src/pages/SolicitacaoCompras/pages/EstoqueRepo.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-solicitacao-compras.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Inovação e melhoria contínua
 
@@ -2483,12 +2180,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Integração HTTP; Rotas backend correspondentes localizadas.
  Stack observada: @material-ui/core, @material-ui/icons, axios, moment, react.
  Mecanismos: Referências a sincronização; Estado por hooks; Efeitos e carregamento por hooks; Integração HTTP; Rotas backend correspondentes localizadas.
- Funções de implementação: EditeADM, aplicar, Atualizar, loading, onHandleName, onHandleStatus, onHandleOrigem, onHandleUGB.
-
-- Agrodan@origin/development:src/pages/SugestaoMelhorias/index.js:1
-- Agrodan@origin/development:src/pages/SugestaoMelhorias/Components/index.js:1
-- Agrodan@origin/development:src/pages/SugestaoMelhorias/Screens/index.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-sugestao-melhorias.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Manutenção e gestão
 
@@ -2499,8 +2190,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/UgbOficina/UgbOficina.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Operação agrícola
 
 ### Validação de colheita
@@ -2509,8 +2198,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de informações; Interface React; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
-
-- Agrodan@origin/development:src/pages/ValidacaoColheita/ValidacaoColheita.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
 
  Pessoas e operação
 
@@ -2521,9 +2208,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @nivo/pie, moment, react.
  Mecanismos: Rotas backend correspondentes localizadas.
 
-- Agrodan@origin/development:src/pages/ValidacaoMDO/ValidacaoMDO.js:1
-- Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-validacao-mdo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
-
  Pessoas e operação
 
 ### Validação de mão de obra
@@ -2533,8 +2217,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
 
-- Agrodan@origin/development:src/pages/ValidacaoMO/ValidacaoMO.js:1 Página de integração/embedding de dashboard ou simulador; não comprova autoria do recurso incorporado.
-
  Operação e vigilância
 
 ### Monitoramento de vigias
@@ -2543,11 +2225,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de processo; Engenharia frontend; Estado e interação; Integração de dados; Mapas e informação espacial; Mapas Leaflet.
  Stack observada: @material-ui/core, @material-ui/icons, @nivo/pie, leaflet, moment, react, react-dom, react-leaflet, react-leaflet-canvas-layer, react-router-dom, turf.
  Mecanismos: Mapas e informação espacial; Mapas Leaflet.
- Funções de implementação: Dist, Dist, handleFechaRelatorio, getRelatorio.
-
-- Agrodan@origin/development:src/pages/Vigias/Vigias.js:1
-- Agrodan@origin/development:src/pages/Vigias/LegendMUS.js:1
-- Agrodan@origin/development:src/pages/Vigias/MonitoramentoUmidadeSolo.js:1 Código de módulo em referência Git local; uso e implantação a contextualizar.
 
  Submódulo de Gestão UGB; relacionado ao case principal
 
@@ -2558,8 +2235,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
 
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/Funcionarios/index.js:1 Submódulo; não contar como produto independente.
-
  Submódulo de Gestão UGB; relacionado ao case principal
 
 ### Gestão UGB — unidades e papéis
@@ -2568,8 +2243,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem organizacional; Interfaces de gestão; Reuso de componentes.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
-
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/UGBs/index.js:1 Submódulo; não contar como produto independente.
 
  Submódulo de Gestão UGB; relacionado ao case principal
 
@@ -2580,8 +2253,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
 
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/5S/index.js:1 Submódulo; não contar como produto independente.
-
  Submódulo de Gestão UGB; relacionado ao case principal
 
 ### Gestão UGB — avaliação humana
@@ -2590,8 +2261,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem organizacional; Interfaces de gestão; Reuso de componentes.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
-
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/Avaliacao_humana/index.js:1 Submódulo; não contar como produto independente.
 
  Submódulo de Gestão UGB; relacionado ao case principal
 
@@ -2602,8 +2271,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
 
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/PlanoAcao/index.js:1 Submódulo; não contar como produto independente.
-
  Submódulo de Gestão UGB; relacionado ao case principal
 
 ### Gestão UGB — qualificação técnica
@@ -2612,8 +2279,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem organizacional; Interfaces de gestão; Reuso de componentes.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
-
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/QualificacaoTecnica/index.js:1 Submódulo; não contar como produto independente.
 
  Submódulo de Gestão UGB; relacionado ao case principal
 
@@ -2624,8 +2289,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
 
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/RequalificacaoTecnica/index.js:1 Submódulo; não contar como produto independente.
-
  Submódulo de Gestão UGB; relacionado ao case principal
 
 ### Gestão UGB — sugestões de melhoria
@@ -2634,8 +2297,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem organizacional; Interfaces de gestão; Reuso de componentes.
  Stack observada: React, JavaScript.
  Mecanismos: Código do fluxo de gestão UGB.
-
-- Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/SugestaoMelhorias/index.js:1 Submódulo; não contar como produto independente.
 
 ## SIA / SIAgro — fluxos de dados, indicadores e desenvolvimento mobile
  Detalhamento de 48 fluxos e módulos técnicos do checkout, ETL e aplicativo mobile. Há sobreposição com o catálogo de negócio: um processo pode ter tela, API, importação e visualização, apresentados em suas respectivas camadas.
@@ -2648,9 +2309,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/apontamento-producao-importer.js:14
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/apontamento-producao-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Pessoas e capacidade
 
 ### Jornadas operacionais
@@ -2659,9 +2317,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de bases; jornadas; transformações SQL.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Relacionamento entre tabelas na consulta.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/jornada-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/jornada-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Qualidade
 
@@ -2672,9 +2327,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/inspecoes-ugb-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/inspecoes-ugb-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Packing e rastreabilidade
 
 ### Origem de pallets
@@ -2683,9 +2335,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Rastreabilidade de dados; integração SQL; persistência.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Agregação na consulta SQL.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/pallet-origem-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/pallet-origem-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Gestão de produção
 
@@ -2696,9 +2345,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/meta-producao-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/meta-producao-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Gestão de desempenho
 
 ### Percentuais de metas
@@ -2707,9 +2353,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Indicadores; modelagem de dados; ETL.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Agregação na consulta SQL.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/percentuais-meta-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/percentuais-meta-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Rendimento e packing
 
@@ -2720,9 +2363,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/rendimento-ficha-dia-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/rendimento-ficha-dia-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Rendimento e packing
 
 ### Atualização de rendimento
@@ -2731,9 +2371,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Integração de versões de dados; persistência; modelagem temporal.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Agregação na consulta SQL.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/rendimento-ficha-dia-atualizado-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/rendimento-ficha-dia-atualizado-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Produção
 
@@ -2744,9 +2381,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Agregação na consulta SQL.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/total-produzido-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/total-produzido-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Gestão agrícola
 
 ### Produção por fazenda
@@ -2755,9 +2389,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Dimensões analíticas; agregação; integração SQL.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Agregação na consulta SQL; Relacionamento entre tabelas na consulta.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/total-produzido-fazenda-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/total-produzido-fazenda-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Cadastros e organização
 
@@ -2768,9 +2399,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/ugb-fazenda-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/fazenda-ugb-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Packing
 
 ### Embalagem por UGB
@@ -2779,9 +2407,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: ETL; períodos; embalagem; persistência relacional.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Agregação na consulta SQL; Relacionamento entre tabelas na consulta.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/l-ugb-embalagem-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/l-ugb-embalagem-query.js:11 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Packing
 
@@ -2792,9 +2417,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Agregação na consulta SQL; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/l-ugb-embalagem-diario-importer.js:13
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/l-ugb-embalagem-diario-query.js:11 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Operações de campo
 
 ### Base de LUGB Campo
@@ -2803,9 +2425,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Camada analítica; SQL; cargas reutilizáveis.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Agregação na consulta SQL.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-base-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-base-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Pessoas e campo
 
@@ -2816,9 +2435,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-funcionario-ugb-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-funcionario-ugb-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Campo e produtividade
 
 ### Metas de produção de campo
@@ -2827,9 +2443,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Metas operacionais; ETL; integração de domínios.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Relacionamento entre tabelas na consulta.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-meta-producao-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-meta-producao-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Campo e qualidade
 
@@ -2840,9 +2453,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Agregação na consulta SQL; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-meta-qualidade-ugb-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-meta-qualidade-ugb-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Planejamento de campo
 
 ### Composição de metas de campo
@@ -2851,9 +2461,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Cruzamento de entidades; regra de negócio; períodos e metas.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Agregação na consulta SQL; Relacionamento entre tabelas na consulta.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-metas-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-metas-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Estrutura operacional de campo
 
@@ -2864,9 +2471,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-nugb-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-nugb-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Campo e pessoas
 
 ### Qualidade por funcionário e dia
@@ -2875,9 +2479,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Granularidade analítica; qualidade; parametrização semanal.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Agregação na consulta SQL; Relacionamento entre tabelas na consulta.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-qualidade-funcionario-dia-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-qualidade-funcionario-dia-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Qualidade agrícola
 
@@ -2888,9 +2489,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Agregação na consulta SQL; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/lugb_campo/lugb-campo-qualidade-importer.js:3
-- Agrodan/etl/servers/server-dataware-house/core/sequelize/queries/lugb_campo/lugb-campo-qualidade-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Qualidade e gestão
 
 ### Desdobramento de qualidade
@@ -2899,8 +2497,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Cruzamento de dados; metas; processamento em lotes.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/lugb_campo/lugb-campo-desdobramento-qualidade.js:3 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Packing e qualidade
 
@@ -2911,8 +2507,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Cruzamento com registro específico.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/qualidade-packing-importer.js:3 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Packing e rendimento
 
 ### Qualidade NUGB no packing
@@ -2921,8 +2515,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Cruzamento temporal; indicadores de qualidade; modelos relacionais.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Cruzamento com registro específico.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/qualidade-packing-nugb-importer.js:3 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Packing e gestão
 
@@ -2933,8 +2525,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Cruzamento com registro específico.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/l-ugb-packing-importer.js:3 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Packing e capacidade
 
 ### Metas do packing
@@ -2943,8 +2533,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Metas; capacidade operacional; relacionamento de entidades.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas.
-
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/lugb-packing-metas-importer.js:13 Importador/transformação implementado no material local; dependências históricas a contextualizar.
 
  Integração corporativa
 
@@ -2955,9 +2543,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, JavaScript, SQL, Sequelize.
  Mecanismos: Persistência de registros em lote; Leitura de coleções persistidas; Relacionamento entre tabelas na consulta.
 
-- Agrodan/etl/servers/server-dataware-house/core/importer/oracledb/ApptImporter.js:13
-- Agrodan/etl/servers/server-dataware-house/core/oracledb/queries/appt-query.js:1 Importador/transformação implementado no material local; dependências históricas a contextualizar.
-
  Catracas, pessoas e operação
 
 ### Movimentação e sentido de acesso
@@ -2966,10 +2551,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de eventos; análise temporal.
  Stack observada: Node.js, Moment.js, SQL Server, Oracle.
  Mecanismos: Agrupamento de registros; Persistência de registros em lote.
-
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Indicadores do mesmo pipeline de catracas; não são seis produtos distintos.
 
  Catracas, pessoas e operação
 
@@ -2980,10 +2561,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, Moment.js, SQL Server, Oracle.
  Mecanismos: Agrupamento de registros; Persistência de registros em lote.
 
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Indicadores do mesmo pipeline de catracas; não são seis produtos distintos.
-
  Catracas, pessoas e operação
 
 ### Disponibilidade operacional
@@ -2992,10 +2569,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Indicadores de pessoas; regras temporais.
  Stack observada: Node.js, Moment.js, SQL Server, Oracle.
  Mecanismos: Agrupamento de registros; Persistência de registros em lote.
-
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Indicadores do mesmo pipeline de catracas; não são seis produtos distintos.
 
  Catracas, pessoas e operação
 
@@ -3006,10 +2579,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, Moment.js, SQL Server, Oracle.
  Mecanismos: Agrupamento de registros; Persistência de registros em lote.
 
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Indicadores do mesmo pipeline de catracas; não são seis produtos distintos.
-
  Catracas, pessoas e operação
 
 ### Visitantes e circulação por setor
@@ -3018,10 +2587,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Segmentação; dimensões organizacionais.
  Stack observada: Node.js, Moment.js, SQL Server, Oracle.
  Mecanismos: Agrupamento de registros; Persistência de registros em lote.
-
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Indicadores do mesmo pipeline de catracas; não são seis produtos distintos.
 
  Catracas, pessoas e operação
 
@@ -3032,10 +2597,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Node.js, Moment.js, SQL Server, Oracle.
  Mecanismos: Agrupamento de registros; Persistência de registros em lote.
 
-- Agrodan/etl/servers/server-dataware-house/core/catracas/processamento/catraca.js:41
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js:15
-- Agrodan/etl/servers/server-dataware-house/core/catracas/queries/listaRegistros.js:1 Indicadores do mesmo pipeline de catracas; não são seis produtos distintos.
-
  Coleta corporativa
 
 ### Construtor dinâmico de formulários
@@ -3043,9 +2604,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Compor páginas, painéis, linhas e componentes com estado Redux.
  Competências: Modelagem de interfaces; reducers; composição de componentes.
  Stack observada: React, Redux, Material UI.
-
-- Agrodan/src/redux/reducers/FormBuilder.js:1
-- Agrodan/src/redux/components/FormContainer.js:44 Artefatos localizados; extensão funcional e implantação a contextualizar.
 
  Coleta corporativa
 
@@ -3055,9 +2613,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: APIs HTTP; DAO; regras de persistência.
  Stack observada: Express, Sequelize, SQL.
 
-- Agrodan/etl/servers/server-forms/router/rotas/rotas-tot-formulario.js:1
-- Agrodan/etl/servers/server-forms/DAO/TotFormulario.js:4 Artefatos localizados; extensão funcional e implantação a contextualizar.
-
  Organização corporativa
 
 ### Setores e subsetores
@@ -3065,9 +2620,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Modelar a organização da coleta por setor e subsetor.
  Competências: Modelagem relacional; dados de referência; CRUD.
  Stack observada: Node.js, Sequelize.
-
-- Agrodan/etl/servers/server-forms/DAO/Setor.js:4
-- Agrodan/etl/servers/server-forms/DAO/SubSetor.js:4 Artefatos localizados; extensão funcional e implantação a contextualizar.
 
  Coleta corporativa
 
@@ -3077,9 +2629,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de workflow; entidades; schemas.
  Stack observada: Sequelize, SQL.
 
-- Agrodan/etl/servers/server-forms/models/ordem_preenchimento.js:1
-- Agrodan/etl/servers/server-forms/models/estado_ordem_preenchimento.js:1 Modelos presentes; fluxo completo ainda não comprovado.
-
  Dados ambientais
 
 ### Ingestão meteorológica
@@ -3087,9 +2636,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Coletar e organizar dados de estações meteorológicas.
  Competências: Ingestão HTTP; normalização JSON; observações temporais.
  Stack observada: Node.js, Sequelize.
-
-- Agrodan/etl/servers/server-estacao-meteorologica/services/estacao-meteorologica.js:1
-- Agrodan/etl/servers/server-estacao-meteorologica/models/dados_meteorologicos.js:1 Artefatos localizados; extensão funcional e implantação a contextualizar.
 
  Operação de dados
 
@@ -3100,8 +2646,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: Agenda, MongoDB, Agendash.
  Mecanismos: Registro de tarefas agendadas; Definição de periodicidade.
 
-- Agrodan/etl/servers/server-agenda/index.js:1 Agendamentos definidos; montagem do serviço comentada no bootstrap consultado.
-
  Planejamento agrícola
 
 ### Reestimativa e datas reais de colheita
@@ -3109,9 +2653,6 @@ Versão experimental ampliada — 09/10/2026.
  Finalidade: Representar integração com reestimativas e datas de colheita.
  Competências: Integração de processos; planejamento; modelagem agrícola.
  Stack observada: Node.js, SQL, Sequelize.
-
-- Agrodan/etl/servers/server-agenda/tarefas/farmlog/reestimativa-ler-datas-reais-colheita.js:1
-- Agrodan/etl/servers/server-agenda/tarefas/farmlog/reestimativa-gravar-total-produzido.js:1 Rotinas e modelos presentes; ativação comentada na agenda.
 
  Qualidade dos dados
 
@@ -3122,9 +2663,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: JavaScript, Sequelize.
  Mecanismos: Persistência de registros em lote.
 
-- Agrodan/etl/servers/server-dataware-house/core/validation/core-validation.js:1
-- Agrodan/etl/servers/server-dataware-house/core/validation/validators/campo-obrigatorio-validator.js:3 Artefatos localizados; extensão funcional e implantação a contextualizar.
-
  Operações de campo
 
 ### Ordens de serviço mobile
@@ -3133,9 +2671,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Desenvolvimento mobile; regras de negócio; interfaces operacionais.
  Stack observada: React Native, Expo.
  Mecanismos: Relacionamento entre tabelas na consulta.
-
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/OrdemServico.js:33
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/OrdemServico.js:4 Artefatos localizados; extensão funcional e implantação a contextualizar.
 
  Operações de campo
 
@@ -3146,9 +2681,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React Native, Expo.
  Mecanismos: Armazenamento local no aplicativo.
 
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/Apontamento.js:27
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/Apontamento.js:5 Artefatos localizados; extensão funcional e implantação a contextualizar.
-
  Pessoas e campo
 
 ### Colaboradores nos apontamentos
@@ -3157,9 +2689,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem de vínculos; componentes mobile; cadastros.
  Stack observada: React Native.
  Mecanismos: Armazenamento local no aplicativo.
-
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/AdicionarColaborador.js:33
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/Funcionario.js:8 Artefatos localizados; extensão funcional e implantação a contextualizar.
 
  Qualidade agrícola
 
@@ -3170,9 +2699,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React Native, Expo.
  Mecanismos: Armazenamento local no aplicativo.
 
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/Qualidade.js:33
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/Qualidade.js:5 Artefatos localizados; extensão funcional e implantação a contextualizar.
-
  Gestão de campo
 
 ### Metas e UGBs nas ordens
@@ -3181,9 +2707,6 @@ Versão experimental ampliada — 09/10/2026.
  Competências: Modelagem operacional; componentes; contexto da ordem.
  Stack observada: React Native.
  Mecanismos: Armazenamento local no aplicativo.
-
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/Metas.js:25
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/Ugbs.js:26 Artefatos localizados; extensão funcional e implantação a contextualizar.
 
  Indicadores
 
@@ -3194,9 +2717,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React Native, Victory Native.
  Mecanismos: Armazenamento local no aplicativo.
 
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Dashboard/DashBoard.js:23
-- Agrodan/sia_app/Modulos/SIAgro/Telas/Graficos.js:16 Artefatos localizados; extensão funcional e implantação a contextualizar.
-
  Engenharia mobile
 
 ### Persistência local reutilizável
@@ -3206,8 +2726,6 @@ Versão experimental ampliada — 09/10/2026.
  Stack observada: React Native, AsyncStorage.
  Mecanismos: Armazenamento local no aplicativo.
 
-- Agrodan/sia_app/Modulos/SIAgro/Objetos/ObjetoPadrao.js:5 Artefatos localizados; extensão funcional e implantação a contextualizar.
-
 ## Catálogo completo de projetos e repertório
  36 pastas locais, incluindo produtos, pesquisa, protótipos, estudos, versões anteriores e referências. O contexto e o alcance de cada entrada determinam como ela contribui para a trajetória.
  Engenharia de software · Projeto do estágio hospitalar
@@ -3215,11 +2733,14 @@ Versão experimental ampliada — 09/10/2026.
 ### EBSERH — gestão de indicadores hospitalares
  Contexto: Estágio no Hospital Universitário de Petrolina — EBSERH
  Vínculo: Estágio · Hospital Universitário de Petrolina
+ Área de aplicação: Saúde, gestão hospitalar e planejamento estratégico.
+ Público e contexto: Equipes e gestores do Hospital Universitário de Petrolina.
+ Objetivo: Organizar indicadores, avaliações e acompanhamento do planejamento hospitalar.
  Sistema de gestão de indicadores e avaliações desenvolvido no contexto do estágio no Hospital Universitário de Petrolina. Organiza indicadores, responsáveis, setores de coleta e registros de avaliação em uma aplicação Java EE com persistência relacional e interfaces JSF/PrimeFaces para cadastro, consulta e visualização.
  Problema e público: Organizar indicadores e suas avaliações — Gestores e equipes administrativas do hospital.
  Entrega: Entidades de indicadores e avaliações, beans de negócio e telas administrativas.
  Profundidade demonstrada: Projeto do estágio hospitalar: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: Gestor de Indicadores-ejb contém entidades, interfaces locais e beans de negócio; Gestor de Indicadores-war concentra managed beans e interface; src/conf contém configuração de persistência; lib reúne JARs; build.xml e nbproject organizam o build Ant/NetBeans.
+ Estrutura: Aplicação Java EE com entidades e persistência, serviços de negócio e interface JSF para gestão de indicadores e avaliações.
  Métodos: Modelagem de entidades; CRUD; camadas EJB/JPA e apresentação JSF.
  Áreas de aplicação: Gestão hospitalar; indicadores e avaliação organizacional.
 
@@ -3245,10 +2766,7 @@ Versão experimental ampliada — 09/10/2026.
 - Consultas JPQL
 - Gestão de indicadores
 - Visualização de dados
-- CRUD
-
-#### Evidências de implementação
- Repositório público — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores)
+- CRUD Repositório público — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores)
  Contexto de estágio confirmado pelo usuário. Datas, participação específica, implantação e ganhos no hospital ainda precisam ser registrados. O banco efetivamente utilizado não foi determinado apenas pelos JARs e pela configuração JPA.
 
  Engenharia de software · Projeto da faculdade
@@ -3256,11 +2774,14 @@ Versão experimental ampliada — 09/10/2026.
 ### The Game Project — gestão de projetos com gamificação
  Contexto: Projeto desenvolvido na faculdade
  Vínculo: Projeto acadêmico · The Game Project
+ Área de aplicação: Gestão de projetos, gamificação e colaboração.
+ Público e contexto: Equipes de projetos; desenvolvimento acadêmico na faculdade.
+ Objetivo: Representar projetos, etapas e progressão por missões, experiência e recompensas.
  Aplicação acadêmica de gestão de projetos que utiliza conceitos de RPG para representar projetos, tarefas, participantes, progressão e recompensas. Organiza aventuras, batalhas e históricos em entidades persistidas e interfaces web, incluindo uma visualização de cronograma para tornar o acompanhamento de atividades mais interativo.
  Problema e público: Representar tarefas e progressão de projetos através de aventuras — Equipes e alunos em atividades de projeto.
  Entrega: Aplicação web acadêmica com aventuras, personagens, histórico, tarefas e progressão.
  Profundidade demonstrada: Projeto da faculdade: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src/java/com/br/tgp separa entidades, dao, managedbeans, modelos e converters; web/taverna concentra telas de aventuras e batalhas; META-INF/persistence.xml configura MySQL; tgp-database.sql descreve a base; a árvore com/br/ebserh contém código reaproveitado de indicadores.
+ Estrutura: Aplicação web com entidades, acesso a dados, controle de interface e persistência MySQL; a gamificação relaciona aventuras, batalhas e progressão.
  Métodos: Regras de mundo e progressão; persistência relacional; sessão e autorização; DAO.
  Áreas de aplicação: Gestão de projetos; gamificação; RPG.
 
@@ -3288,10 +2809,7 @@ Versão experimental ampliada — 09/10/2026.
 - Persistência relacional
 - Regras de negócio
 - Visualização de cronogramas
-- Gerenciamento de sessões
-
-#### Evidências de implementação
- Repositório público — The Game Project (https://github.com/Danjubex/the_game_project)
+- Gerenciamento de sessões Repositório público — The Game Project (https://github.com/Danjubex/the_game_project)
  Projeto acadêmico confirmado pelo usuário. O código reaproveitado de EBSERH não transforma este projeto em experiência hospitalar adicional. A presença de Quartz e drivers PostgreSQL em lib não comprova ativação ou uso dessas tecnologias em todos os fluxos.
 
  Ciência de dados · Pesquisa aplicada
@@ -3299,11 +2817,14 @@ Versão experimental ampliada — 09/10/2026.
 ### EFS-AHP — seleção de atributos e decisão multicritério
  Contexto: Pesquisa vinculada ao doutorado profissional em Engenharia de Software — confirmado por Danillo
  Vínculo: Doutorado · CÉSAR School
+ Área de aplicação: Ciência de dados, Machine Learning e decisão multicritério.
+ Público e contexto: Pesquisa aplicada no doutorado em Engenharia de Software.
+ Objetivo: Selecionar atributos e comparar alternativas de modelos por desempenho, dimensionalidade e custo.
  Framework de pesquisa que combina seleção de atributos, algoritmos evolutivos e decisão multicritério AHP para estudar modelos em diferentes bases. Reúne experimentos comparativos, métodos como Random Forest, LASSO e PCA e análises estatísticas para investigar o equilíbrio entre qualidade preditiva, quantidade de atributos e custo de treinamento.
  Problema e público: Selecionar atributos conciliando critérios de desempenho — Pesquisadores e analistas de modelos.
  Entrega: Três frentes de experimentos, scripts e notebooks de comparação estatística.
  Profundidade demonstrada: Pesquisa aplicada do doutorado: métodos, baselines e avaliação experimental.
- Estrutura: Experimento 1–3 organizam as bases e os métodos; Estatísticas reúne notebooks e comparações; Scripts concentra rotinas auxiliares; Dockerfile descreve o ambiente.
+ Estrutura: Experimentos organizados por bases e métodos, com rotinas evolutivas, avaliação multicritério, notebooks estatísticos e ambiente conteinerizado.
  Métodos: Algoritmos genéticos; AHP; comparação com Random Forest, LASSO, PCA, t-SNE e UMAP; estatística inferencial.
  Áreas de aplicação: Ciência de dados; pesquisa experimental; decisão multicritério.
 
@@ -3332,10 +2853,7 @@ Versão experimental ampliada — 09/10/2026.
 - Otimização evolutiva
 - Decisão multicritério
 - Desenho experimental
-- Análise estatística
-
-#### Evidências de implementação
- Repositório público — EFS-AHP (https://github.com/Danjubex/efs_ahp)
+- Análise estatística Repositório público — EFS-AHP (https://github.com/Danjubex/efs_ahp)
  Resultados numéricos, significância e autoria científica devem ser confirmados a partir dos experimentos e publicações.
 
  Engenharia de software · Aplicação corporativa histórica
@@ -3343,11 +2861,14 @@ Versão experimental ampliada — 09/10/2026.
 ### Agrodan — integração de dados e sistemas operacionais web/mobile
  Contexto: Experiência profissional na Agrodan
  Vínculo: Experiência profissional · Agrodan — trajetória de cargos
+ Área de aplicação: Agronegócio, operações de campo, packing, qualidade, logística e gestão.
+ Público e contexto: Equipes de campo, operação, administração e gestores da Agrodan.
+ Objetivo: Integrar registros operacionais, regras de negócio e indicadores para apoiar a execução e a gestão.
  Ecossistema de aplicações da experiência profissional na Agrodan que reúne integração de dados agrícolas, indicadores de acesso e disponibilidade, formulários corporativos, coleta meteorológica e módulos mobile SIAgro. Combina backend Node.js, SQL e persistência relacional com interfaces React e React Native/Expo para digitalizar processos e apoiar a leitura das operações.
  Problema e público: Integrar dados e apoiar registro e acompanhamento das operações — Equipes operacionais, gestores e colaboradores da Agrodan.
  Entrega: Ecossistema web, backend de integração e aplicativo SIAgro; nove frentes documentadas em AGRODAN_PROJETOS.md.
  Profundidade demonstrada: Sistema corporativo modular: processos de negócio, dados e interfaces web/mobile.
- Estrutura: A raiz contém o frontend React/Redux; etl contém um backend Express modular com server-dataware-house, server-forms, server-estacao-meteorologica e server-agenda; sia_app contém a aplicação React Native/Expo e módulos de negócio SIAgro.
+ Estrutura: Frontend React/Redux, backend Express modular, camadas de integração e processamento de dados e aplicativo React Native/Expo para processos SIAgro.
  Métodos: ETL SQL; importação em lotes; modelagem de domínio; formulários; indicadores; jobs; persistência mobile.
  Áreas de aplicação: Agronegócio; operações; produção; qualidade; pessoas; meteorologia.
 
@@ -3434,28 +2955,21 @@ Versão experimental ampliada — 09/10/2026.
 - Validação de regras de negócio
 - Rastreabilidade de erros
 - Migrations
-- Arquitetura reutilizável
-
-#### Evidências de implementação
-
-- Agrodan/package.json
-- Agrodan/etl/package.json
-- Agrodan/etl/index.js
-- Agrodan/etl/servers/server-dataware-house/core/importer/from_catracas/CatracasImporter.js
-- Agrodan/etl/servers/server-dataware-house/core/validation/core-validation.js
-- Agrodan/sia_app/package.json
-- Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/OrdemServico.js As nove frentes detalhadas em AGRODAN_PROJETOS.md integram o mesmo ecossistema. Há módulos comentados, placeholders e dependências históricas; ativação, implantação e resultados precisam ser contextualizados. SQL Server/MySQL/PostgreSQL possuem drivers declarados; o uso por fluxo deve ser confirmado no código/configuração, sem atribuir a todos a mesma stack.
+- Arquitetura reutilizável As nove frentes detalhadas em AGRODAN_PROJETOS.md integram o mesmo ecossistema. Há módulos comentados, placeholders e dependências históricas; ativação, implantação e resultados precisam ser contextualizados. SQL Server/MySQL/PostgreSQL possuem drivers declarados; o uso por fluxo deve ser confirmado no código/configuração, sem atribuir a todos a mesma stack.
 
  Ciência de dados · Laboratório
 
 ### Algoritmos genéticos — irrigação e pesquisa operacional
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Pesquisa operacional e programação de irrigação.
+ Público e contexto: Estudos de otimização agrícola.
+ Objetivo: Explorar algoritmos genéticos para problemas de programação e restrições.
  Laboratório em JavaScript para explorar algoritmos genéticos, aplicações em irrigação e formulações de pesquisa operacional. Mantém funções, bases e resultados separados para estudar soluções de otimização e critérios de avaliação.
  Problema e público: Explorar soluções para problemas com restrições — Estudos de alocação e planejamento de recursos.
  Entrega: Scripts e experimentos de algoritmos genéticos e otimização de irrigação.
  Profundidade demonstrada: Laboratório: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: index.js e indexIrrigacao.js são entradas experimentais; funcoes*.js concentram operações; PesquisaOperacional.js reúne formulações; JSON registra bases e resultados.
+ Estrutura: Rotinas experimentais de representação, evolução e avaliação de soluções, com formulações de pesquisa operacional e registro de bases e resultados.
  Métodos: Busca evolutiva; avaliação de candidatos; formulação matemática com GLPK.
  Áreas de aplicação: Irrigação; agricultura; pesquisa operacional.
 
@@ -3472,25 +2986,21 @@ Versão experimental ampliada — 09/10/2026.
 - Otimização evolutiva
 - Pesquisa operacional
 - Modelagem de restrições
-- Avaliação de modelos
-
-#### Evidências de implementação
-
-- AlgoritmosGeneticos/indexIrrigacao.js
-- AlgoritmosGeneticos/funcoesIrrigacao.js
-- AlgoritmosGeneticos/PesquisaOperacional.js
-- AlgoritmosGeneticos/package.json Laboratório experimental; implantação agrícola e ganhos de eficiência exigem confirmação.
+- Avaliação de modelos Laboratório experimental; implantação agrícola e ganhos de eficiência exigem confirmação.
 
  Arquivo e estudos · Backup
 
 ### Backup da pesquisa EFS-AHP
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Ciência de dados, Machine Learning e decisão multicritério.
+ Público e contexto: Pesquisa aplicada no doutorado em Engenharia de Software.
+ Objetivo: Selecionar atributos e comparar alternativas de modelos por desempenho, dimensionalidade e custo.
  Cópia de materiais da pesquisa EFS-AHP, incluindo experimentos, modelos e análises estatísticas. Serve como acervo de versões e recuperação de estudos.
  Problema e público: Guardar uma versão da pesquisa — Pesquisador.
  Entrega: Cópia da família EFS-AHP; não constitui novo resultado independente.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: Experimentos, Estatísticas e Scripts seguem a família EFS-AHP.
+ Estrutura: Experimentos organizados por bases e métodos, com rotinas evolutivas, avaliação multicritério, notebooks estatísticos e ambiente conteinerizado.
  Métodos: Versionamento e preservação de experimentos.
  Áreas de aplicação: Preservação de pesquisa EFS-AHP.
 
@@ -3508,23 +3018,21 @@ Versão experimental ampliada — 09/10/2026.
 
 #### Habilidades
 
-- Organização de experimentos
-
-#### Evidências de implementação
-
-- bkp/README.md
-- bkp/package.json Não contabilizar como projeto independente.
+- Organização de experimentos Não contabilizar como projeto independente.
 
  Ciência de dados · MVP analítico
 
 ### Cartola Oracle — previsão probabilística e otimização de escalações
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Esportes, fantasy football, previsão probabilística e otimização.
+ Público e contexto: Pesquisa de desempenho e composição de escalações no Cartola.
+ Objetivo: Estimar desempenho e selecionar escalações considerando orçamento e restrições.
  Pipeline para transformar históricos de desempenho do Cartola em estimativas probabilísticas e escalações sob restrições. Usa estados e cadeias de Markov para representar desempenho e programação inteira para escolher atletas respeitando orçamento e formação, conectando previsão a uma decisão executável.
  Problema e público: Apoiar escalações sob orçamento e formação — Participantes e analistas do Cartola.
  Entrega: Pipeline de dados, modelos probabilísticos e otimizador de escalações.
  Profundidade demonstrada: MVP analítico: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src/cartola separa etl, features, models, optimize e app; data/bronze mantém dados de entrada; notebooks apresentam exploração e execução.
+ Estrutura: Pipeline que separa coleta e preparação dos dados, construção de atributos, modelos probabilísticos, otimização e aplicação de consulta; notebooks apoiam a exploração.
  Métodos: ETL histórico; engenharia de atributos; estados de Markov; programação inteira OR-Tools/CBC.
  Áreas de aplicação: Esporte; fantasy football; análise probabilística.
 
@@ -3546,10 +3054,7 @@ Versão experimental ampliada — 09/10/2026.
 - Modelagem probabilística
 - Otimização inteira
 - ETL
-- Arquitetura de pipelines
-
-#### Evidências de implementação
- Repositório público — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
+- Arquitetura de pipelines Repositório público — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
  Não há nesta revisão comprovação de vantagem preditiva ou retorno em competições.
 
  IA aplicada · Aplicação em desenvolvimento
@@ -3557,11 +3062,14 @@ Versão experimental ampliada — 09/10/2026.
 ### ClassPlanner — planejamento de aulas assistido por IA
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Educação e planejamento pedagógico.
+ Público e contexto: Professores.
+ Objetivo: Organizar planos de aula com contexto pedagógico, BNCC, objetivos, metodologia e avaliação.
  Aplicação para apoiar a criação e a organização de planos de aula, com interface baseada em informações da BNCC e integração com Gemini. Reúne frontend, API, autenticação e persistência para transformar escolhas pedagógicas em um fluxo de planejamento assistido por IA.
  Problema e público: Apoiar a elaboração e organização de planos de aula — Professores.
  Entrega: Aplicação web com planejamento assistido e backend persistente; demos e partes incompletas devem ser contextualizadas.
  Profundidade demonstrada: Aplicação em desenvolvimento: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: frontend/src organiza páginas e hooks; backend/src separa controllers, services, repositories, routes, database e llm.
+ Estrutura: Frontend organizado por páginas e hooks e backend com controladores, serviços, repositórios, rotas, banco de dados e integração com modelos de linguagem.
  Métodos: Integração Gemini; contexto BNCC; autenticação; controllers/services/repositories.
  Áreas de aplicação: Educação; planejamento pedagógico.
 
@@ -3583,25 +3091,21 @@ Versão experimental ampliada — 09/10/2026.
 - Desenvolvimento full stack
 - APIs REST
 - Autenticação
-- Modelagem de fluxos
-
-#### Evidências de implementação
-
-- ClassPlanner/backend/src/llm/gemini.js
-- ClassPlanner/backend/src/controllers/controller.plan.js
-- ClassPlanner/frontend/src/pages/CreatePlan/Components/BNCC.jsx
-- ClassPlanner/backend/package.json Telas e dados demonstrativos precisam ser diferenciados de funcionalidades completas; qualidade pedagógica exige avaliação especializada.
+- Modelagem de fluxos Telas e dados demonstrativos precisam ser diferenciados de funcionalidades completas; qualidade pedagógica exige avaliação especializada.
 
  Computação visual · Protótipo autoral
 
 ### Dente de Leão — experiência narrativa interativa
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Jogos, narrativa interativa e computação gráfica 3D.
+ Público e contexto: Exploração de experiências narrativas interativas.
+ Objetivo: Construir um ambiente de exploração com interação, física e elementos narrativos.
  Jogo narrativo experimental que explora personagens, cenários e interação em uma aplicação web 3D. A arquitetura combina renderização, controles, câmera, física e estado narrativo para construir uma experiência interativa evolutiva.
  Problema e público: Explorar interação e narrativa em um mundo 3D — Público de experiências narrativas.
  Entrega: Protótipo de mundo interativo no navegador com React Three Fiber e Rapier.
  Profundidade demonstrada: Protótipo/experimentação: implementação exploratória sem escala comprovada.
- Estrutura: src/core cuida de input; src/game concentra mundo, player, câmera e interação; src/ui contém HUD; assets fornece recursos visuais.
+ Estrutura: Camadas de entrada, mundo, personagem, câmera, interação e interface; recursos visuais e física compõem a experiência 3D.
  Métodos: Câmera; controle de personagem; física; estado de jogo; HUD.
  Áreas de aplicação: Narrativa; entretenimento; experiência interativa 3D.
 
@@ -3621,26 +3125,21 @@ Versão experimental ampliada — 09/10/2026.
 - Renderização 3D
 - Arquitetura de interação
 - Gerenciamento de estado
-- Prototipação de produto
-
-#### Evidências de implementação
-
-- dente_de_leao/README.md
-- dente_de_leao/src/game/World.tsx
-- dente_de_leao/src/game/player/Player.tsx
-- dente_de_leao/src/game/interact/useInteractionProbe.ts
-- dente_de_leao/package.json Protótipo; não atribuir lançamento comercial ou métricas de jogadores.
+- Prototipação de produto Protótipo; não atribuir lançamento comercial ou métricas de jogadores.
 
  Arquivo e estudos · Estudo
 
 ### Doutorado — algoritmo genético didático
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Ensino e pesquisa de algoritmos evolutivos.
+ Público e contexto: Experimentação acadêmica.
+ Objetivo: Explorar a representação, a evolução e a avaliação de soluções.
  Pasta com um algoritmo genético em JavaScript que demonstra geração de população, fitness, seleção, crossover e mutação para aproximar um vetor objetivo. Serve como exercício de fundamentos de computação evolutiva.
  Problema e público: Explorar o funcionamento de busca evolutiva — Estudo individual.
  Entrega: Exercício em AG.js; pasta distinta do repositório principal doutorado.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: AG.js concentra o exercício.
+ Estrutura: Exercício de algoritmo genético para explorar a representação e a evolução de soluções.
  Métodos: Implementação didática de algoritmo genético.
  Áreas de aplicação: Ensino de algoritmos; computação evolutiva.
 
@@ -3650,22 +3149,21 @@ Versão experimental ampliada — 09/10/2026.
 
 #### Habilidades
 
-- Fundamentos de otimização evolutiva
-
-#### Evidências de implementação
-
-- Doutorado/AG.js Esta pasta em git é distinta do repositório Documents/doutorado que contém o CV.
+- Fundamentos de otimização evolutiva Esta pasta em git é distinta do repositório Documents/doutorado que contém o CV.
 
  IA aplicada · Sistema local
 
 ### DVR Person Alert — visão computacional e alertas operacionais
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Segurança, monitoramento por vídeo e visão computacional.
+ Público e contexto: Monitoramento de câmeras e revisão de eventos.
+ Objetivo: Detectar eventos, coletar exemplos revisados e adaptar a classificação ao contexto das câmeras.
  Sistema de monitoramento de canais RTSP que detecta pessoas e envia alertas com imagens ou vídeos pelo Telegram. Um painel local permite acompanhar o serviço, configurar regiões de interesse e revisar detecções; módulos de estado e transporte organizam a continuidade operacional.
  Problema e público: Transformar detecções de vídeo em eventos e notificações — Operadores de câmeras.
  Entrega: Monitor de vídeo, dashboard e componentes de envio Telegram com estado persistente.
  Profundidade demonstrada: Sistema local: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: dvr_person_alert.py executa o monitor; dashboard.py fornece gestão; temporal_identity.py trata identidade temporal; telegram_outbox.py e telegram_transport.py separam entrega; tests contém verificações de componentes.
+ Estrutura: Monitoramento de vídeo, painel de gestão, tratamento temporal de identidade, revisão de eventos e entrega de alertas por Telegram em componentes separados.
  Métodos: YOLO; inferência OpenCV/PyTorch; identidade temporal; persistência; outbox e transporte de alertas.
  Áreas de aplicação: Monitoramento de vídeo; detecção de pessoas; alertas.
 
@@ -3688,35 +3186,27 @@ Versão experimental ampliada — 09/10/2026.
 - Inferência em vídeo
 - Integração de serviços
 - Persistência de estado
-- Resiliência operacional
-
-#### Evidências de implementação
-
-- DvrPersonAlert/README.md
-- DvrPersonAlert/requirements.txt
-- DvrPersonAlert/dvr_person_alert.py
-- DvrPersonAlert/persistent_state.py
-- DvrPersonAlert/telegram_outbox.py
-- DvrPersonAlert/tests/test_dvr_failover.py Acurácia, latência, estabilidade e desempenho de identidade precisam de medidas verificadas.
+- Resiliência operacional Acurácia, latência, estabilidade e desempenho de identidade precisam de medidas verificadas.
 
  Arquivo e estudos · Configuração
 
 ### Google Auth — configuração de integração
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Autenticação e integração com serviços Google.
+ Público e contexto: Configuração de integração de aplicações.
+ Objetivo: Explorar a configuração de autenticação e acesso a serviços.
  Pasta de configuração de autenticação Google, sem uma aplicação própria identificada no inventário. Serve de apoio a integrações externas.
  Problema e público: Preparar acesso a serviços externos — Preparação de ambiente.
  Entrega: Material de configuração; não comprova entrega de integração e não deve expor credenciais.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: Materiais de configuração local.
+ Estrutura: Configuração de autenticação e integração, com escopo de estudo e preparação de acesso.
  Métodos: Configuração de autenticação; sem aplicação identificada.
  Áreas de aplicação: Configuração de integração Google.
 
 #### Stack
 
 #### Habilidades
-
-#### Evidências de implementação
  Arquivos de credenciais não integram o conteúdo público.
 
  Automação e dados · Ferramenta local
@@ -3724,11 +3214,14 @@ Versão experimental ampliada — 09/10/2026.
 ### Instabot — automação de navegador com estado persistente
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Marketing digital e automação de navegador.
+ Público e contexto: Rotinas operacionais em redes sociais.
+ Objetivo: Automatizar interações com estado persistente e controle de execução.
  Ferramenta local que automatiza rotinas do Instagram em navegador real e registra usuários processados e interações. Utiliza configuração, sessão persistente e histórico para organizar execuções e reduzir repetição de operações.
  Problema e público: Organizar rotinas de navegador e manter estado — Operação de rotinas sociais.
  Entrega: Scripts de automação com organização de configuração e estado.
  Profundidade demonstrada: Ferramenta local: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src separa configuração, sessão, coleta de interações e rotinas; data guarda estado de execução.
+ Estrutura: Configuração, gerenciamento de sessão, coleta de interações e execução de rotinas com persistência do estado operacional.
  Métodos: Automação de navegador; sessão; coleta de interações; persistência de execução.
  Áreas de aplicação: Redes sociais; automação de interação.
 
@@ -3746,26 +3239,21 @@ Versão experimental ampliada — 09/10/2026.
 - Automação de navegador
 - Persistência de estado
 - Integração com interfaces
-- Diagnóstico de execução
-
-#### Evidências de implementação
-
-- instabot/README.md
-- instabot/src/instagram-bot.js
-- instabot/src/list-interactions.js
-- instabot/src/config.js
-- instabot/package.json Ganhos de conversão e conformidade operacional não foram avaliados neste mapa.
+- Diagnóstico de execução Ganhos de conversão e conformidade operacional não foram avaliados neste mapa.
 
  IA aplicada · MVP
 
 ### Conversion CRM — funil conversacional e IA assistida
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Marketing, vendas e relacionamento com clientes.
+ Público e contexto: Operações comerciais e atendimento por conversas.
+ Objetivo: Organizar o funil e apoiar decisões conversacionais com histórico e sugestões de ação.
  CRM local para organizar campanhas, leads e conversas com um fluxo SPIN assistido, fila de saída e histórico. Combina API, banco de dados e um motor de decisão com integração Gemini para apoiar respostas e encaminhamentos ao longo do funil.
  Problema e público: Acompanhar conversas e apoiar conversão — Operadores comerciais.
  Entrega: API e dashboard de CRM com motor conversacional; integração Gemini depende de outro ambiente local.
  Profundidade demonstrada: MVP: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src separa API, database, services, motor SPIN e Gemini; scripts contém listeners e dispatchers; public traz o dashboard; docs descreve fluxos.
+ Estrutura: API, banco de dados, serviços, motor de decisão SPIN e integração Gemini; processamento de eventos e dashboard apoiam o fluxo conversacional.
  Métodos: Modelagem de funil SPIN; filas; listeners/dispatchers; Gemini; persistência SQLite.
  Áreas de aplicação: Vendas; marketing; relacionamento conversacional.
 
@@ -3785,26 +3273,21 @@ Versão experimental ampliada — 09/10/2026.
 - Integração de LLMs
 - Filas
 - APIs REST
-- Rastreabilidade
-
-#### Evidências de implementação
-
-- instagram-conversion-crm/README.md
-- instagram-conversion-crm/src/database.js
-- instagram-conversion-crm/src/spin-decision-engine.js
-- instagram-conversion-crm/src/gemini-spin.js
-- instagram-conversion-crm/scripts/instagram-queue-dispatcher.js A integração Gemini referencia dependências do ClassPlanner; a autonomia do pacote e resultados comerciais precisam de validação.
+- Rastreabilidade A integração Gemini referencia dependências do ClassPlanner; a autonomia do pacote e resultados comerciais precisam de validação.
 
  Engenharia de software · MVP de produto
 
 ### Launch With Me — marketplace de validação de produtos
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Empreendedorismo, marketplace e validação de produtos.
+ Público e contexto: Criadores de produtos e potenciais usuários.
+ Objetivo: Conectar propostas de produtos, descoberta e validação em uma plataforma web.
  Plataforma para conectar empresas que precisam validar produtos a usuários que executam missões e submetem evidências. A aplicação organiza papéis, campanhas e fluxos financeiros com Next.js e Supabase, oferecendo um case de modelagem de negócio em software.
  Problema e público: Organizar missões e evidências para validação de produtos — Empresas, criadores e participantes de campanhas.
  Entrega: Aplicação Next.js e estrutura Supabase para campanhas, missões e evidências; pagamentos e recursos planejados exigem confirmação.
  Profundidade demonstrada: MVP de produto: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src/app organiza rotas por papéis e operações de servidor; src/lib centraliza integrações; supabase/migrations versiona schema, RPCs e RLS; docs descreve requisitos e arquitetura.
+ Estrutura: Rotas organizadas por papéis, operações de servidor, integrações centralizadas e persistência Supabase com funções e regras de acesso por linha.
  Métodos: Papéis de acesso; RLS; RPC; migrations; créditos; fluxos de pagamento.
  Áreas de aplicação: Empreendedorismo; validação de produtos; marketplace.
 
@@ -3826,26 +3309,21 @@ Versão experimental ampliada — 09/10/2026.
 - Modelagem de domínio
 - Controle de acesso
 - Fluxos transacionais
-- Integração de pagamentos
-
-#### Evidências de implementação
-
-- launch_with_me/docs/ARQUITETURA.md
-- launch_with_me/src/app/(company)/company/campaigns/[campaignId]/CampaignActions.tsx
-- launch_with_me/supabase/migrations/20260509000001_lwm_schema.sql
-- launch_with_me/supabase/migrations/20260603000001_lwm_grants_and_rls.sql
-- launch_with_me/package.json A documentação inclui roadmap; integrações, escala e receita não podem ser consideradas concluídas apenas por estarem previstas.
+- Integração de pagamentos A documentação inclui roadmap; integrações, escala e receita não podem ser consideradas concluídas apenas por estarem previstas.
 
  Arquivo e estudos · Experimento e biblioteca de terceiros
 
 ### Leaflet — mapas e roteamento web
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Mapas, roteamento e interfaces geográficas.
+ Público e contexto: Visualização e exploração de informações espaciais.
+ Objetivo: Representar dados geográficos e percursos em uma interface web.
  Experimento de mapas e roteamento web acompanhado por uma cópia da biblioteca Leaflet Routing Machine. Serve de referência para integração de mapas e rotas em interfaces.
  Problema e público: Experimentar rotas em mapa interativo — Estudo de interfaces geográficas.
  Entrega: Página própria apoiada em biblioteca Leaflet Routing Machine de terceiros.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: index.html contém a interface; a árvore leaflet-routing-machine inclui código e exemplos do fornecedor.
+ Estrutura: Interface de mapas e integração com uma biblioteca de roteamento, incluindo estudos e exemplos de terceiros.
  Métodos: Camadas cartográficas; interface de roteamento; integração de biblioteca.
  Áreas de aplicação: Cartografia; mapas; roteamento.
 
@@ -3858,22 +3336,21 @@ Versão experimental ampliada — 09/10/2026.
 
 #### Habilidades
 
-- Integração de mapas
-
-#### Evidências de implementação
-
-- Leaflet/index.html Código vendorizado não comprova autoria da biblioteca.
+- Integração de mapas Código vendorizado não comprova autoria da biblioteca.
 
  Automação e dados · Ferramenta local
 
 ### Job Assistant — automação supervisionada e ranking de aderência
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Carreira, recrutamento e automação supervisionada.
+ Público e contexto: Organização de oportunidades profissionais.
+ Objetivo: Coletar oportunidades e ordenar aderência com supervisão do usuário.
  Assistente local para coletar e classificar vagas, organizar critérios de aderência e apoiar o preenchimento de candidaturas com revisão humana. Mantém configuração tipada, histórico SQLite e uma CLI para executar o fluxo e registrar decisões.
  Problema e público: Organizar análise de aderência e rotinas de candidatura — Pessoa candidata a vagas.
  Entrega: Assistente CLI com coleta, ranking, armazenamento e fluxo de revisão.
  Profundidade demonstrada: Ferramenta local: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src/job_assistant separa browser, application, fit, config, database e runner; profile descreve posicionamento; tests verifica configuração, ranking e persistência.
+ Estrutura: Automação de navegador, fluxo de candidatura, ranking de aderência, configuração, banco de dados e execução supervisionada.
  Métodos: Playwright; regras de ranking; modelos Pydantic; CLI Typer; revisão humana.
  Áreas de aplicação: Carreira; recrutamento; automação supervisionada.
 
@@ -3895,26 +3372,21 @@ Versão experimental ampliada — 09/10/2026.
 - Ranking baseado em regras
 - Validação de dados
 - Arquitetura modular
-- Ferramentas CLI
-
-#### Evidências de implementação
-
-- linkedin-job-assistant/README.md
-- linkedin-job-assistant/pyproject.toml
-- linkedin-job-assistant/src/job_assistant/fit.py
-- linkedin-job-assistant/src/job_assistant/database.py
-- linkedin-job-assistant/tests/test_fit.py O ranking é baseado em regras; não apresentar como modelo de ML treinado.
+- Ferramentas CLI O ranking é baseado em regras; não apresentar como modelo de ML treinado.
 
  Ciência de dados · Protótipo
 
 ### Logística — roteamento e visualização geoespacial
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Logística, roteamento e análise geoespacial.
+ Público e contexto: Planejamento de deslocamentos e operações logísticas.
+ Objetivo: Representar pontos e rotas em mapas e apoiar decisões de percurso.
  Protótipo web para explorar pontos, polígonos de fazenda e rotas em mapas. Combina visualização geoespacial com rotinas de roteamento e experimentos de algoritmos genéticos para estudar problemas de deslocamento e apoio à operação agrícola.
  Problema e público: Explorar rotas e representar áreas geográficas — Estudos de planejamento operacional.
  Entrega: Interface React/Leaflet de desenho e roteamento; pipeline completo de sensoriamento não demonstrado.
  Profundidade demonstrada: Protótipo/experimentação: implementação exploratória sem escala comprovada.
- Estrutura: src/leaflet reúne Map, Canvas, Desenho e Roteirizador; src/Algoritmos Geneticos contém experimentos; src/util oferece funções de apoio.
+ Estrutura: Componentes de mapas, desenho e roteirização, funções de apoio e experimentos com algoritmos genéticos.
  Métodos: Heurísticas de TSP; algoritmos genéticos; polígonos e mapas; exploração NDVI.
  Áreas de aplicação: Logística; roteamento; geoinformação agrícola.
 
@@ -3932,25 +3404,21 @@ Versão experimental ampliada — 09/10/2026.
 - Modelagem geoespacial
 - Heurísticas de roteamento
 - Visualização de dados
-- Otimização evolutiva
-
-#### Evidências de implementação
-
-- Logistica/src/leaflet/Roteirizador.js
-- Logistica/src/leaflet/Map.js
-- Logistica/src/Algoritmos Geneticos/AG.js
-- Logistica/package.json A presença de NDVI.js não comprova um pipeline completo de sensoriamento remoto; distância ótima e economias não foram verificadas.
+- Otimização evolutiva A presença de NDVI.js não comprova um pipeline completo de sensoriamento remoto; distância ótima e economias não foram verificadas.
 
  Automação e dados · Protótipo
 
 ### Minhas Finanças — Open Finance e insights de transações
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Finanças pessoais, Open Finance e análise de transações.
+ Público e contexto: Organização financeira pessoal.
+ Objetivo: Integrar e analisar transações para apoiar o acompanhamento das finanças.
  Aplicação local que integra dados bancários via Pluggy, persiste transações em SQLite e produz análises de despesas, recorrência e disponibilidade diária. Inclui modo demonstração e dashboard para tornar dados financeiros acessíveis em uma interface simples.
  Problema e público: Consolidar transações e produzir leituras financeiras — Usuários de análise de transações.
  Entrega: Servidor Python, motor analítico e dashboard demonstrativo.
  Profundidade demonstrada: Protótipo/experimentação: implementação exploratória sem escala comprovada.
- Estrutura: app.py fornece o servidor; pluggy.py integra a fonte; finance.py contém o motor analítico; public apresenta o dashboard; tests verifica regras financeiras.
+ Estrutura: Servidor web, integração com a fonte de dados financeiros, motor de análise de transações e dashboard.
  Métodos: Integração Pluggy; classificação por regras; agregações; SQLite.
  Áreas de aplicação: Finanças pessoais; Open Finance.
 
@@ -3970,26 +3438,21 @@ Versão experimental ampliada — 09/10/2026.
 - ETL
 - Classificação por regras
 - Analytics
-- Visualização de dados
-
-#### Evidências de implementação
-
-- minhas-financas/README.md
-- minhas-financas/pluggy.py
-- minhas-financas/finance.py
-- minhas-financas/public/app.js
-- minhas-financas/tests/test_finance.py Classificação por regras não é ML; insights não comprovam economia financeira.
+- Visualização de dados Classificação por regras não é ML; insights não comprovam economia financeira.
 
  IA aplicada · Protótipo experimental
 
 ### Mocap — estimação de pose e movimento no navegador
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Movimento humano, captura de pose e interação com avatares.
+ Público e contexto: Experimentos de interação corporal e visualização de movimento.
+ Objetivo: Estimar a pose em vídeo e conectar pontos do corpo à visualização no navegador.
  Aplicação de motion capture que processa vídeo ou webcam para estimar poses e visualizar keypoints e esqueletos no navegador. Explora suavização de movimento e recursos 3D para aproximar inferência de visão computacional de ferramentas interativas de animação.
  Problema e público: Capturar pose em vídeo e representar movimento — Experimentos de interação corporal.
  Entrega: Aplicação de estimação de pose e visualização de movimento no navegador.
  Profundidade demonstrada: Protótipo/experimentação: implementação exploratória sem escala comprovada.
- Estrutura: src/main.js coordena inferência e renderização; docs descreve arquitetura; implementações legadas documentam alternativas; public fornece vídeos e recursos.
+ Estrutura: Coordenação da inferência e da renderização, processamento de vídeo, estimação de pose e recursos para visualização do movimento.
  Métodos: MoveNet; BlazePose/MediaPipe; inferência browser; mapeamento de pose; renderização Three/VRM.
  Áreas de aplicação: Movimento humano; visão computacional; avatares.
 
@@ -4012,25 +3475,21 @@ Versão experimental ampliada — 09/10/2026.
 - Inferência no navegador
 - Processamento temporal
 - Computação gráfica
-- Integração de modelos
-
-#### Evidências de implementação
-
-- mocap/README.md
-- mocap/docs/ARQUITETURA.md
-- mocap/src/main.js
-- mocap/package.json Não foi medido desempenho em tempo real nem qualidade do retargeting.
+- Integração de modelos Não foi medido desempenho em tempo real nem qualidade do retargeting.
 
  Computação visual · Experimento
 
 ### Movimento 3D — visualização de modelos
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Computação gráfica e visualização de modelos.
+ Público e contexto: Estudos de cenas e movimento tridimensional.
+ Objetivo: Explorar a apresentação e o movimento de modelos 3D.
  Experimento web de visualização 3D com scripts de cena e carregamento de modelos FBX. Serve como base exploratória para manipular recursos gráficos e movimento no navegador.
  Problema e público: Experimentar carregamento e exibição de modelos — Estudo de visualização.
  Entrega: Página experimental de visualização; loaders e bibliotecas são componentes de terceiros.
  Profundidade demonstrada: Experimento: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: 3d.html e app.js organizam a aplicação; FBXLoader.js e modulo/three.js fornecem bibliotecas.
+ Estrutura: Aplicação de visualização com carregamento de modelos FBX e renderização tridimensional.
  Métodos: Three.js; carregamento FBX; cenas e animação.
  Áreas de aplicação: Computação gráfica; modelos e movimento 3D.
 
@@ -4044,23 +3503,21 @@ Versão experimental ampliada — 09/10/2026.
 #### Habilidades
 
 - Renderização 3D
-- Integração de assets
-
-#### Evidências de implementação
-
-- movimento_3D/3d.html
-- movimento_3D/app.js Bibliotecas incluídas não são de autoria própria.
+- Integração de assets Bibliotecas incluídas não são de autoria própria.
 
  Ciência de dados · Laboratório com operação demo documentada
 
 ### TraderMind — pesquisa quantitativa e pipeline de modelos
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
  Laboratório de pesquisa quantitativa e painel operacional para modelos de trading no MetaTrader 5. Reúne coleta de séries temporais, construção de features, treinamento, backtests, validação fora da amostra e integração de inferência por API a um bot, mantendo pesquisa e operação em módulos identificáveis.
  Problema e público: Investigar modelos e conectar políticas ao terminal de negociação — Pesquisador e operação de demonstração.
  Entrega: Notebooks, experimentos, API Flask, dashboard e conector Python ao terminal desktop MetaTrader5; não equivale a GUI desktop nativa própria.
  Profundidade demonstrada: Laboratório com operação demo documentada: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: mt5 contém estudos e notebooks; TraderMind organiza API, connector, configuração, supervisão, painéis e documentação operacional.
+ Estrutura: Estudos e notebooks conectados a API de inferência, conector Python para MetaTrader5, configuração, supervisão e painéis operacionais.
  Métodos: Validação temporal; classificação; features; ensembles; votação de agentes; simulated annealing; API de inferência.
  Áreas de aplicação: Mercados financeiros; pesquisa quantitativa; automação de negociação.
 
@@ -4091,26 +3548,21 @@ Versão experimental ampliada — 09/10/2026.
 - Feature engineering
 - Validação fora da amostra
 - Integração de inferência
-- Arquitetura de pipelines
-
-#### Evidências de implementação
-
-- mt5/TraderMind/README.md
-- mt5/TraderMind/api/app.py
-- mt5/TraderMind/connector/bot.py
-- mt5/TraderMind/configs.py
-- mt5/mt5/best_pipeline_pca_xgboost.py O pipeline TPOT/PCA legado usa split aleatório; a presença de documentação OOS não prova ausência de leakage em todos os experimentos. Não declarar rentabilidade.
+- Arquitetura de pipelines O pipeline TPOT/PCA legado usa split aleatório; a presença de documentação OOS não prova ausência de leakage em todos os experimentos. Não declarar rentabilidade.
 
  Arquivo e estudos · Acervo de conteúdo
 
 ### OSORACLE — organização de conhecimento narrativo
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Escrita, narrativas e organização do conhecimento.
+ Público e contexto: Autores e organização de universos narrativos.
+ Objetivo: Estruturar informações, entidades e relações de um domínio narrativo.
  Vault Obsidian que organiza documentos narrativos em personagens, capítulos, referências e painéis. Serve como estrutura de conhecimento e documentação para projetos criativos.
  Problema e público: Organizar personagens, referências e universo ficcional — Autor e pesquisa narrativa.
  Entrega: Acervo narrativo de notas; não demonstra sistema de IA ou grafo computacional implementado.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: Pastas temáticas agrupam personagens, capítulos, bestiário, referências e materiais originais.
+ Estrutura: Organização temática de personagens, capítulos, bestiário, referências e materiais narrativos originais.
  Métodos: Estrutura temática; notas Markdown; gestão de referências.
  Áreas de aplicação: Escrita; worldbuilding; gestão de conhecimento.
 
@@ -4122,22 +3574,21 @@ Versão experimental ampliada — 09/10/2026.
 #### Habilidades
 
 - Organização de conhecimento
-- Documentação
-
-#### Evidências de implementação
-
-- Osoracle/Osoracle/README.md Não há evidência suficiente para descrevê-lo como sistema de IA ou grafo computacional implementado.
+- Documentação Não há evidência suficiente para descrevê-lo como sistema de IA ou grafo computacional implementado.
 
  IA aplicada · Produto em evolução
 
 ### Planejamento Xavier — produto de planejamento com IA
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Planejamento pessoal, produtividade e desenvolvimento profissional.
+ Público e contexto: Pessoas que organizam objetivos, atividades e planos de desenvolvimento.
+ Objetivo: Relacionar objetivos, capacidade e execução com planejamento e revisão assistidos por IA.
  Aplicação de planejamento pessoal que reúne objetivos, atividades, agenda e fluxos assistidos por IA. A arquitetura combina frontend tipado, banco e funções de backend com módulos de contexto e replanejamento para apoiar a evolução dos planos a partir das informações do usuário.
  Problema e público: Relacionar contexto, metas, execução e replanejamento — Pessoas que organizam metas e atividades.
  Entrega: Produto React/TypeScript com Supabase, funções de backend e configuração Capacitor.
  Profundidade demonstrada: Produto em evolução: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src/features organiza brain e context; components e pages compõem a interface; supabase/functions separa APIs e workers; migrations versiona dados; scripts reúne verificações e simulações.
+ Estrutura: Domínios de planejamento e contexto, componentes de interface, APIs, workers, persistência versionada e rotinas de simulação.
  Métodos: Modelagem de contexto; grafo; simulação; aprendizagem; conselho de seis agentes por regras; funções de IA.
  Áreas de aplicação: Planejamento pessoal; produtividade; apoio à decisão.
 
@@ -4163,10 +3614,7 @@ Versão experimental ampliada — 09/10/2026.
 - Modelagem de workflows
 - APIs
 - Migrations
-- Controle de acesso
-
-#### Evidências de implementação
- Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
+- Controle de acesso Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
  Roadmaps não comprovam entrega; ganhos de produtividade, escala e adoção precisam de métricas.
 
  Arquivo e estudos · Backup
@@ -4174,11 +3622,14 @@ Versão experimental ampliada — 09/10/2026.
 ### Backup do Planejamento Xavier
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Planejamento pessoal, produtividade e desenvolvimento profissional.
+ Público e contexto: Pessoas que organizam objetivos, atividades e planos de desenvolvimento.
+ Objetivo: Relacionar objetivos, capacidade e execução com planejamento e revisão assistidos por IA.
  Cópia de uma versão do Planejamento Xavier, com interface React e scripts operacionais. Serve para preservar uma etapa anterior da evolução do produto.
  Problema e público: Guardar uma versão do projeto — Desenvolvimento e manutenção.
  Entrega: Cópia da família Planejamento Xavier; não constitui produto adicional.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: src contém a interface; ops reúne scripts de manutenção.
+ Estrutura: Domínios de planejamento e contexto, componentes de interface, APIs, workers, persistência versionada e rotinas de simulação.
  Métodos: Backup e scripts operacionais.
  Áreas de aplicação: Preservação do produto de planejamento.
 
@@ -4191,23 +3642,21 @@ Versão experimental ampliada — 09/10/2026.
 
 #### Habilidades
 
-- Evolução de produto
-
-#### Evidências de implementação
-
-- planejamentoxavier_bkp/package.json
-- planejamentoxavier_bkp/ops/README.md Não contabilizar como experiência independente.
+- Evolução de produto Não contabilizar como experiência independente.
 
  Arquivo e estudos · Exemplos de terceiros
 
 ### PoseNet / ml5 — coleção de referências de ML
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Machine Learning e estimação de pose.
+ Público e contexto: Estudos e referências de modelos de visão computacional.
+ Objetivo: Explorar a integração de modelos existentes para identificar pontos do corpo.
  Coleção local de exemplos da comunidade ml5 para explorar conceitos de Machine Learning em JavaScript, incluindo pose, segmentação e modelos generativos. Serve como material de estudo e referência de integração.
  Problema e público: Consultar exemplos de inferência e interação — Estudo individual.
  Entrega: Coleção ml5-examples de terceiros; autoria das implementações não atribuída a Danillo.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: ml5-examples organiza exemplos por biblioteca e tarefa.
+ Estrutura: Coleção de exemplos organizados por bibliotecas e tarefas de Machine Learning; integração de modelos existentes.
  Métodos: Leitura e experimentação com exemplos ml5/PoseNet.
  Áreas de aplicação: Referências educacionais de Machine Learning.
 
@@ -4220,22 +3669,21 @@ Versão experimental ampliada — 09/10/2026.
 
 #### Habilidades
 
-- Exploração de modelos no navegador
-
-#### Evidências de implementação
-
-- poseNet/ml5-examples/README.md Não apresentar os exemplos como projetos autorais.
+- Exploração de modelos no navegador Não apresentar os exemplos como projetos autorais.
 
  Arquivo e estudos · Template
 
 ### React Native — ambiente inicial mobile
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Desenvolvimento mobile.
+ Público e contexto: Estudos de interfaces e aplicações móveis.
+ Objetivo: Explorar a estrutura inicial de aplicações com React Native.
  Projeto inicial gerado com React Native, contendo a tela padrão e configuração de desenvolvimento mobile. Serve como ambiente de exploração da ferramenta.
  Problema e público: Preparar uma aplicação React Native — Estudo individual.
  Entrega: Template hello; experiência de aplicativo de negócio aparece em Agrodan/sia_app.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: hello contém App.tsx e configurações padrão.
+ Estrutura: Template inicial de aplicação mobile e configuração de desenvolvimento.
  Métodos: Scaffold React Native/TypeScript.
  Áreas de aplicação: Desenvolvimento mobile; preparação de ambiente.
 
@@ -4248,22 +3696,21 @@ Versão experimental ampliada — 09/10/2026.
 - Jest
 
 #### Habilidades
-
-#### Evidências de implementação
-
-- react native/hello/App.tsx
-- react native/hello/package.json O template não comprova desenvolvimento ou entrega de um aplicativo mobile.
+ O template não comprova desenvolvimento ou entrega de um aplicativo mobile.
 
  Automação e dados · Legado
 
 ### Scraper legado — coleta inicial de ofertas
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Coleta de dados, ofertas e distribuição de conteúdo.
+ Público e contexto: Operações de acompanhamento e divulgação de ofertas.
+ Objetivo: Estruturar a coleta, o tratamento e a distribuição de informações de ofertas.
  Versão inicial de scripts de coleta e comparação de ofertas, com requisições HTTP, parsing HTML e exportação tabular. Ajuda a documentar a evolução até o pipeline modular Scrapers.
  Problema e público: Coletar e comparar ofertas — Exploração de coleta comercial.
  Entrega: Scripts legados de coleta; etapa anterior da família Scrapers.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: index.js, findBestOffers.js e search-maquiagem.js concentram rotinas.
+ Estrutura: Núcleo de coleta com adaptadores por site, execução, supervisão, dashboard e persistência; versões legadas estão separadas.
  Métodos: Requisições HTTP; parsing; busca de produtos.
  Áreas de aplicação: Comércio eletrônico; pesquisa de ofertas.
 
@@ -4278,24 +3725,21 @@ Versão experimental ampliada — 09/10/2026.
 #### Habilidades
 
 - Web scraping
-- Transformação de dados
-
-#### Evidências de implementação
-
-- Scraper (OLD)/index.js
-- Scraper (OLD)/findBestOffers.js
-- Scraper (OLD)/package.json Evitar duplicar a experiência do projeto atual.
+- Transformação de dados Evitar duplicar a experiência do projeto atual.
 
  Automação e dados · Pipeline operacional local
 
 ### Scrapers — pipeline de ofertas e distribuição
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Coleta de dados, ofertas e distribuição de conteúdo.
+ Público e contexto: Operações de acompanhamento e divulgação de ofertas.
+ Objetivo: Estruturar a coleta, o tratamento e a distribuição de informações de ofertas.
  Pipeline Node.js para coletar ofertas de marketplaces, processar links e organizar distribuição por canais. A estrutura separa núcleo, adaptadores por site e entradas operacionais, incluindo supervisão, painel e evolução da persistência entre SQLite e PostgreSQL/Supabase.
  Problema e público: Coletar, estruturar e distribuir ofertas de várias fontes — Operação de curadoria de ofertas.
  Entrega: Pipeline modular de coleta e operação de ofertas com integrações e scripts de manutenção.
  Profundidade demonstrada: Pipeline operacional local: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: Scraper/core concentra o núcleo e sites contém adaptadores; apps oferece runner, supervisor e dashboard; scripts auxilia manutenção; supabase/migrations versiona persistência; legacy isola versões anteriores.
+ Estrutura: Núcleo de coleta com adaptadores por site, execução, supervisão, dashboard e persistência; versões legadas estão separadas.
  Métodos: Adaptadores por site; automação e parsing; runner; supervisão; dashboard; persistência.
  Áreas de aplicação: Comércio eletrônico; ofertas; distribuição comercial.
 
@@ -4320,26 +3764,21 @@ Versão experimental ampliada — 09/10/2026.
 - Integração de APIs
 - Arquitetura modular
 - Observabilidade
-- Automação operacional
-
-#### Evidências de implementação
-
-- Scrapers/README.md
-- Scrapers/apps/main.js
-- Scrapers/apps/pipeline-supervisor.js
-- Scrapers/apps/pipeline-dashboard/app.js
-- Scrapers/package.json Volume, uptime, qualidade de dados e receita não foram quantificados nesta revisão.
+- Automação operacional Volume, uptime, qualidade de dados e receita não foram quantificados nesta revisão.
 
  Computação visual · Protótipo
 
 ### Skeleton from Video — extração de esqueletos
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Visão computacional e análise de movimento.
+ Público e contexto: Experimentação com vídeos e representação corporal.
+ Objetivo: Extrair e visualizar esqueletos a partir de vídeo.
  Experimentos para detectar poses em vídeo e desenhar esqueletos a partir de keypoints. Inclui alternativas com BlazePose e scripts de renderização que ajudam a contextualizar a evolução do projeto Mocap.
  Problema e público: Extrair e armazenar poses de pessoas — Experimentos de vídeo.
  Entrega: Protótipos de extração de esqueleto; parte da mesma linha de pesquisa de Mocap.
  Profundidade demonstrada: Protótipo/experimentação: implementação exploratória sem escala comprovada.
- Estrutura: index*.js organiza variantes; detectPoseMediaPipe.js configura BlazePose; positions.js contém poses registradas.
+ Estrutura: Variantes de detecção de pose com BlazePose e representação de posições corporais registradas.
  Métodos: BlazePose; inferência em vídeo; variantes de detecção.
  Áreas de aplicação: Visão computacional; captura de movimento.
 
@@ -4354,23 +3793,21 @@ Versão experimental ampliada — 09/10/2026.
 #### Habilidades
 
 - Estimação de pose
-- Visualização de keypoints
-
-#### Evidências de implementação
-
-- skeleton from video/detectPoseMediaPipe.js
-- skeleton from video/index.html Não contar variantes e backups como produtos separados.
+- Visualização de keypoints Não contar variantes e backups como produtos separados.
 
  Arquivo e estudos · Script exploratório
 
 ### SpeedTest — diagnóstico exploratório de rede
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Redes e diagnóstico de conectividade.
+ Público e contexto: Exploração de desempenho da conexão.
+ Objetivo: Investigar medições e apresentação de dados de conectividade.
  Script Node.js para executar um teste de velocidade e formatar dados de ping, download e upload. Serve como exercício de integração com processos externos e saída estruturada.
  Problema e público: Experimentar medição de conectividade — Estudo de monitoramento.
  Entrega: Script exploratório; referência indefinida a res impede afirmar funcionamento.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: index.js contém a execução; Requisicao_generica.js fornece uma rotina auxiliar.
+ Estrutura: Rotinas exploratórias de execução e requisições para diagnóstico de conectividade.
  Métodos: Invocação de ferramenta externa; requisições.
  Áreas de aplicação: Redes; diagnóstico de conectividade.
 
@@ -4385,23 +3822,21 @@ Versão experimental ampliada — 09/10/2026.
 
 #### Habilidades
 
-- Integração de processos
-
-#### Evidências de implementação
-
-- speedTest/index.js
-- speedTest/package.json O script referencia res sem definição local e uma CLI externa; não foi comprovado funcionamento.
+- Integração de processos O script referencia res sem definição local e uma CLI externa; não foi comprovado funcionamento.
 
  Computação visual · Experimento
 
 ### Three.js — cenas e modelos 3D web
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Computação gráfica e desenvolvimento web 3D.
+ Público e contexto: Estudos de cenas, modelos e interação.
+ Objetivo: Explorar renderização de cenas e recursos tridimensionais no navegador.
  Aplicação exploratória para carregar modelos FBX, configurar câmera e iluminação e renderizar cenas 3D no navegador. Um servidor Express fornece a base para servir a interface e os assets.
  Problema e público: Explorar cenas e modelos interativos — Estudo e prototipação.
  Entrega: Cena e interação 3D em página web.
  Profundidade demonstrada: Experimento: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: app.js contém cena e interação; index.html apresenta o canvas; server.js serve a aplicação.
+ Estrutura: Cena, interação, canvas e servidor para apresentação de uma experiência 3D web.
  Métodos: Three.js; câmera; modelos; servidor web.
  Áreas de aplicação: Computação gráfica; interação 3D web.
 
@@ -4418,32 +3853,27 @@ Versão experimental ampliada — 09/10/2026.
 
 - Renderização 3D
 - Composição de cenas
-- Integração de assets
-
-#### Evidências de implementação
-
-- threejs/app.js
-- threejs/server.js
-- threejs/package.json Não demonstra uma plataforma 3D comercial.
+- Integração de assets Não demonstra uma plataforma 3D comercial.
 
  Arquivo e estudos · Sem código identificável
 
 ### Unity — pasta de exploração
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Desenvolvimento de jogos e ambientes interativos.
+ Público e contexto: Exploração de ferramentas de desenvolvimento.
+ Objetivo: Explorar o ambiente Unity; escopo de implementação limitado no inventário.
  Pasta presente no inventário sem código de aplicação identificável nesta revisão. É uma referência a ser investigada antes de gerar conteúdo de experiência.
  Problema e público: Contextualizar o material disponível — Estudo individual.
  Entrega: Pasta de exploração; competência de implementação Unity ainda sem evidência.
  Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: Nenhuma estrutura de implementação identificada no inventário.
+ Estrutura: Exploração do ambiente; o inventário não contém uma implementação detalhada para descrever.
  Métodos: Sem código identificável nesta pasta.
  Áreas de aplicação: Exploração de desenvolvimento de jogos.
 
 #### Stack
 
 #### Habilidades
-
-#### Evidências de implementação
  O nome da pasta não comprova domínio de Unity ou C#.
 
  Engenharia de software · Produto em evolução
@@ -4451,11 +3881,14 @@ Versão experimental ampliada — 09/10/2026.
 ### Utilibox — plataforma de ferramentas e produtos de conhecimento
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing.
+ Público e contexto: Público geral, estudantes, autores e profissionais.
+ Objetivo: Transformar cálculos, métodos e organização do conhecimento em ferramentas interativas acessíveis.
  Plataforma web que reúne ferramentas de produtividade, análise e decisão, além de módulos de escrita e organização de conhecimento. A arquitetura combina processamento no navegador, funções externas, persistência e integrações comerciais para construir um ecossistema de utilidades com uma base comum.
  Problema e público: Transformar métodos, cálculos e organização de conhecimento em ferramentas acessíveis — Público geral, estudantes, autores e profissionais usuários das ferramentas.
  Entrega: Catálogo com 136 ferramentas únicas em 17 categorias comerciais, módulos Narra/Utilinotas e arquivos adicionais; status live é declarado, não validado em produção.
  Profundidade demonstrada: Produto em evolução: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: src/tools contém ferramentas e módulos como Narra e Utilinotas; pages e layouts compõem o site; lib centraliza políticas e integrações; supabase/functions e migrations suportam backend; scripts reúne auditorias e verificações.
+ Estrutura: Ferramentas por domínio, módulos Narra e UtiliNotas, páginas e layouts compartilhados, políticas e integrações centralizadas e backend Supabase.
  Métodos: Cálculos financeiros; MCDA; filas; Lean; SM-2; regras de domínio; edição documental; conhecimento narrativo; engenharia de produto.
  Áreas de aplicação: Finanças; trabalho; produção; decisões; educação; escrita; saúde; beleza; documentos; design; marketing; cotidiano.
 
@@ -4481,10 +3914,7 @@ Versão experimental ampliada — 09/10/2026.
 - Integração de LLMs
 - Sincronização de dados
 - Pagamentos
-- Analytics
-
-#### Evidências de implementação
- Abrir ferramenta — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
+- Analytics Abrir ferramenta — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
  As ferramentas têm graus distintos de maturidade; não inferir receita, usuários ou escala a partir da quantidade de rotas.
 
  Engenharia de software · Variante
@@ -4492,11 +3922,14 @@ Versão experimental ampliada — 09/10/2026.
 ### Utilibox Manga — variante de produto criativo
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing.
+ Público e contexto: Público geral, estudantes, autores e profissionais.
+ Objetivo: Transformar cálculos, métodos e organização do conhecimento em ferramentas interativas acessíveis.
  Variante da base Utilibox com recursos e referências de apresentação ligados a narrativas e quadrinhos. Reutiliza a arquitetura de ferramentas, escrita e backend para explorar uma experiência criativa especializada.
  Problema e público: Explorar uma variante da plataforma Utilibox — Exploração de segmento criativo.
  Entrega: Variante da família Utilibox; contar recursos compartilhados uma vez e confirmar diferenciais de produto.
  Profundidade demonstrada: Variante: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: Mantém src/tools, pages, lib e supabase da família Utilibox; recursos tipográficos incluem Bangers e Comic Neue.
+ Estrutura: Ferramentas por domínio, módulos Narra e UtiliNotas, páginas e layouts compartilhados, políticas e integrações centralizadas e backend Supabase.
  Métodos: Reuso de arquitetura Astro/Supabase; personalização visual e tipográfica.
  Áreas de aplicação: Produtos criativos; escrita; apresentação visual de manga.
 
@@ -4514,24 +3947,21 @@ Versão experimental ampliada — 09/10/2026.
 
 - Evolução de produto
 - Reuso de arquitetura
-- Interfaces criativas
-
-#### Evidências de implementação
-
-- utilibox-manga/package.json
-- utilibox-manga/src/tools/narra/storyReview.js
-- utilibox-manga/README.md Apresentar como família Utilibox; diferenças funcionais e autoria da variante precisam ser confirmadas.
+- Interfaces criativas Apresentar como família Utilibox; diferenças funcionais e autoria da variante precisam ser confirmadas.
 
  Web e documentos · Implementação local
 
 ### Meu CV — apresentação profissional digital
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
+ Área de aplicação: Apresentação profissional e desenvolvimento web.
+ Público e contexto: Recrutadores e leitores do currículo.
+ Objetivo: Apresentar trajetória, competências e projetos com idiomas e exportação para PDF.
  Interface web para apresentar currículo e carta de apresentação, com conteúdo estruturado em JSON, modos de visualização e estilos de impressão. A pasta contém configuração de desenvolvimento e hospedagem Vercel; o arquivo de API PDF está vazio e não demonstra serviço de conversão implementado.
  Problema e público: Apresentar a trajetória em interface web e impressão — Danillo e leitores do currículo.
  Entrega: Currículo web e recursos de impressão; endpoint api/pdf.js vazio não comprova geração PDF no servidor.
  Profundidade demonstrada: Implementação local: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: index.html concentra a interface e estilos; cv-data.json organiza conteúdo; package.json e vercel.json configuram ambiente; api/pdf.js está vazio.
+ Estrutura: HTML principal com dados estruturados, conteúdo bilíngue, controles de visualização e impressão pelo navegador.
  Métodos: HTML/CSS/JavaScript; dados JSON; layouts de impressão; configuração Vercel.
  Áreas de aplicação: Apresentação profissional; currículo digital; documentos.
 
@@ -4548,10 +3978,7 @@ Versão experimental ampliada — 09/10/2026.
 - Interfaces responsivas
 - Separação de conteúdo e apresentação
 - Layouts de impressão
-- Configuração de hospedagem
-
-#### Evidências de implementação
- Repositório público — CV digital (https://github.com/modern-concept/my_cv)
+- Configuração de hospedagem Repositório público — CV digital (https://github.com/modern-concept/my_cv)
  Contribuição e relação com a versão em doutorado/CV a contextualizar; hospedagem e API PDF não verificadas.
 
 ## Utilibox — aplicações e ferramentas do catálogo
@@ -4830,7 +4257,7 @@ Versão experimental ampliada — 09/10/2026.
  Calculadora de Estudo de Tempos — Tempo Padrão (Barnes) Calcule o número de observações necessárias (fórmula de Barnes), Tempo Normal e Tempo Padrão com tolerâncias PFD. Ferramenta para cronoanálise industrial. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — estudo-de-tempos (https://utiliboxapp.com.br/tools/estudo-de-tempos/)
 
 ## Matriz de habilidades e cases de origem
- Competências relacionadas aos cases apresentados. A correspondência completa com os arquivos de origem está disponível em cv-data.json ; os cases acima incluem as evidências específicas.
+ Competências relacionadas aos cases apresentados. Os detalhamentos apresentam as aplicações, os objetivos e os métodos dos projetos associados a cada competência.
  Habilidade Projetos, módulos e contexto
  abstração de CRUD
 - SIA · Persistência local reutilizável — Agrodan — experiência profissional

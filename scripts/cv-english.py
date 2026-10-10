@@ -133,6 +133,8 @@ def bullets(values): return '<ul>'+''.join('<li>'+html.escape(v)+'</li>' for v i
 PUBLIC_LINKS=runpy.run_path(str(Path(__file__).with_name('cv-project-links.py')))
 def sources(values): return PUBLIC_LINKS['sources'](values,'en')
 def source_heading(values): return PUBLIC_LINKS['source_heading'](values,'en')
+def source_block(values): return PUBLIC_LINKS['source_block'](values,'en')
+PROJECT_DETAILS=runpy.run_path(str(Path(__file__).with_name('cv-project-details.py')))
 
 def build_archive(base, data, locale):
     catalog = runpy.run_path(str(base/'scripts/cv-english-catalogs.py'))
@@ -146,7 +148,7 @@ def build_archive(base, data, locale):
         selected=[c for c in locale['cases'] if c['id'].startswith('case-'+prefix+'-')]
         body=''
         for c in selected:
-            body+='<article id="'+c['id']+'" class="case"><h3>'+html.escape(c['title'])+'</h3>'+paragraphs([c['context'],c['text']])+'<h4>Engineering and implementation</h4>'+bullets(c['implementation'])+'<p><strong>Technologies and methods:</strong> '+html.escape(c['stack'])+'</p><h4>'+source_heading(c['sources'])+'</h4>'+sources(c['sources'])+'<p class="scope"><strong>Evidence scope:</strong> '+html.escape(c['limit'])+'</p></article>'
+            body+='<article id="'+c['id']+'" class="case"><h3>'+html.escape(c['title'])+'</h3>'+paragraphs([c['context'],c['text']])+PROJECT_DETAILS['case_markup'](c,ext['projects'],'en')+'<h4>Engineering and implementation</h4>'+bullets(c['implementation'])+'<p><strong>Technologies and methods:</strong> '+html.escape(c['stack'])+'</p>'+source_block(c['sources'])+'<p class="scope"><strong>Evidence scope:</strong> '+html.escape(c['limit'])+'</p></article>'
         sections.append(archive_section('especialidade-'+prefix,'Technical cases — '+{'agentes':'multiagent coordination','ia':'AI integration','ml':'Machine Learning and research','visao':'computer vision','sia':'agricultural and business applications','dados':'data engineering','mobile':'mobile and enterprise web','decisao':'decision support','produto':'products and knowledge','infra':'infrastructure and desktop integration','grafica':'3D and spatial visualization'}[prefix],body))
     academic=''
     for p in ext['projects']:
@@ -162,13 +164,13 @@ def build_archive(base, data, locale):
             embedded='embedding' in m['status']
             scope='Dashboard/report integration page; source code does not establish authorship of the embedded resource.' if embedded else 'Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.'
             signals=[catalog['SIGNALS'][s] for s in m['implementationSignals']]
-            cards.append('<article id="'+prefix+str(i+1)+'" class="module"><h3>'+html.escape(name)+'</h3><p><strong>Application:</strong> '+('Integration of information for ' if embedded else 'Operational workflow for ')+html.escape(name.lower())+'.</p><p><a href="#vinculo-agrodan">Professional context — Agrodan</a></p><p><strong>Observed stack:</strong> '+html.escape(', '.join(m['stack']))+'</p>'+bullets(signals)+sources([s['path']+':'+str(s['line']) for s in m['sources']])+'<p class="scope">'+scope+'</p></article>')
+            cards.append('<article id="'+prefix+str(i+1)+'" class="module"><h3>'+html.escape(name)+'</h3><p><strong>Application:</strong> '+('Integration of information for ' if embedded else 'Operational workflow for ')+html.escape(name.lower())+'.</p><p><a href="#vinculo-agrodan">Professional context — Agrodan</a></p><p><strong>Observed stack:</strong> '+html.escape(', '.join(m['stack']))+'</p>'+bullets(signals)+sources([s['path']+':'+str(s['line']) for s in m['sources']])+'</article>')
         intro='94 business modules and submodules across 23 local Git references.' if key=='agroBusinessModules' else '48 technical workflows and modules across the checkout, ETL and mobile layers.'
         sections.append(archive_section(id,title,paragraphs([intro,'These entries belong to a shared ecosystem and may overlap across interfaces, APIs, data processing and integrations. They are not a count of independent products.'])+'<div class="module-grid">'+''.join(cards)+'</div>'))
     projects=''
     for i,p in enumerate(ext['projects']):
         title,description=catalog['PROJECTS'][p['id']]
-        projects+='<article class="case" id="projeto-'+str(i+1)+'"><h3>'+html.escape(title)+'</h3>'+paragraphs([description])+'<p><strong>Stack:</strong> '+html.escape(', '.join(p['stack']))+'</p>'+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
+        projects+='<article class="case" id="projeto-'+str(i+1)+'"><h3>'+html.escape(title)+'</h3>'+paragraphs([description])+PROJECT_DETAILS['markup'](p,'en')+'<p><strong>Architecture:</strong> '+html.escape(PROJECT_DETAILS['architecture'](p,'en'))+'</p><p><strong>Stack:</strong> '+html.escape(', '.join(p['stack']))+'</p>'+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
     sections.append(archive_section('projetos','Complete project and reference catalog',paragraphs(['36 local folders include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.'])+projects))
     tools=ext['utiliboxCatalog']; names=catalog['TOOL_TITLES']
     if len(tools)!=len(names): raise ValueError('English tool titles need updating.')
@@ -180,5 +182,5 @@ def build_archive(base, data, locale):
     for c in locale['cases']+locale['priorityCases']:
         matrix+='<tr><th scope="row">'+html.escape(c['title'])+'</th><td>'+html.escape(c['stack'])+bullets(c['implementation'])+'</td></tr>'
     sections.append(archive_section('origem-habilidades','Capabilities and their project origins','<table><thead><tr><th>Project</th><th>Engineering and demonstrated capabilities</th></tr></thead><tbody>'+matrix+'</tbody></table>'))
-    sections.append(archive_section('fontes-interpretacao','Sources and interpretation',paragraphs(['Professional roles, dates, recognitions and impact figures come from the existing CV. Added cases are based on static review of local code and documentation. Implementation evidence does not automatically establish production deployment, exclusive authorship or measured business outcomes.','Agrodan@origin/development:path identifies an archived file in a local Git reference. Original repository names, source paths, identifiers, product names and Brazilian domain acronyms are preserved. English catalog summaries are an editorial adaptation of the recorded project scope.'])))
-    return sections
+    sections.append(archive_section('fontes-interpretacao','Project and career context',paragraphs(['The projects cover professional applications at Agrodan, doctoral EFS-AHP research, hospital management during the internship and university project gamification. Independent initiatives include digital products, decision tools, education, finance, automation and interactive experiences.'])))
+    return [PROJECT_DETAILS['reader_content'](part,'en') for part in sections]

@@ -30,7 +30,11 @@ def project_links(values, language='pt'):
 def sources(values, language='pt'):
     links=project_links(values,language)
     if links:return '<p class="sources project-links">'+links+'</p>'
-    return '<ul class="sources">'+''.join('<li><code>'+html.escape(v)+'</code></li>' for v in values)+'</ul>'
+    return ''
 
 def source_heading(values, language='pt'):
-    return ('Links do projeto' if language=='pt' else 'Project links') if project_links(values,language) else ('Fontes do projeto' if language=='pt' else 'Project sources')
+    return ('Links do projeto' if language=='pt' else 'Project links') if project_links(values,language) else ''
+
+def source_block(values, language='pt'):
+    content=sources(values,language)
+    return '<h4>'+source_heading(values,language)+'</h4>'+content if content else ''

@@ -19,8 +19,8 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
             part = part.replace('href="#' + old + '"', 'href="#' + new + '"')
         part = part.replace('class="chapter ', 'class="chapter full-card ')
         supplemental.append('<section class="page full-page experimental-page"><div class="full-page-inner">' + part + '</div></section>')
-    toc = '<nav class="full-card extension-toc" aria-label="Índice do acervo técnico"><h2>Acervo técnico e fontes dos projetos</h2><ol>' + ''.join('<li><a href="#' + re.search(r'<section id="([^"]+)"', p)[1] + '">' + re.search(r'<h2>(.*?)</h2>', p)[1] + '</a></li>' for p in sections) + '</ol><p><a href="index.html?lang=pt&amp;version=full">CV original</a> · <a href="cv-experimental.md">Versão textual completa</a> · <a href="cv-data.json">Dados e fontes</a></p></nav>'
-    toc = re.sub(r'<p>.*?</p>', '<p><a href="cv-data.json">Dados estruturados e fontes</a></p>', toc)
+    toc = '<nav class="full-card extension-toc" aria-label="Índice do acervo técnico"><h2>Projetos, aplicações e tecnologias</h2><ol>' + ''.join('<li><a href="#' + re.search(r'<section id="([^"]+)"', p)[1] + '">' + re.search(r'<h2>(.*?)</h2>', p)[1] + '</a></li>' for p in sections) + '</ol><p><a href="index.html?lang=pt&amp;version=full">CV original</a> · <a href="cv-experimental.md">Versão textual completa</a> · <a href="cv-data.json">Dados e fontes</a></p></nav>'
+    toc = re.sub(r'<p>.*?</p>', '', toc)
     supplemental.insert(0, '<section class="page full-page experimental-page"><div class="full-page-inner">' + toc + '</div></section>')
     editorial = runpy.run_path(str(base / 'scripts/cv-editorial.py'))
     english = runpy.run_path(str(base / 'scripts/cv-english.py'))
@@ -30,7 +30,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
         supplemental[0] = english['translate_labels'](supplemental[0]).replace('cv-experimental.md','cv-experimental-en.md').replace('index.html?lang=pt','index.html?lang=en')
     start = page.index('  <div class="full-cv-view" id="fullCvView">')
     end = page.index('  <script>\n    const DATA_URL', start)
-    annex = '<details id="careerAppendices" class="career-appendices"><summary>Acervo técnico completo · cases, catálogos e fontes</summary>' + ''.join(supplemental) + '</details>'
+    annex = '<details id="careerAppendices" class="career-appendices"><summary>Detalhamento dos projetos · áreas, métodos e tecnologias</summary>' + ''.join(supplemental) + '</details>'
     # Retain the complete CV's actual markup: header, two-column cards,
     # experience grid and original section headings. Add content afterwards.
     original_view = page[start:end]
@@ -38,7 +38,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     navigation = '<section class="page full-page career-navigation"><div class="full-page-inner"><div class="full-card career-actions"><a href="#cv-agrodan">SIA / Agrodan</a><a href="#cv-utilibox">Utilibox e métodos aplicados</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div></div></section>'
     if language == 'en':
         navigation = english['translate_labels'](navigation)
-        annex = annex.replace('<summary>Acervo técnico completo · cases, catálogos e fontes</summary>', '<summary>Complete technical archive · cases, catalogs and sources</summary>', 1)
+        annex = annex.replace('<summary>Detalhamento dos projetos · áreas, métodos e tecnologias</summary>', '<summary>Project details · applications, methods and technologies</summary>', 1)
     career = editorial['core_sections'](data, language)
     portuguese_content = '<div class="cv-language-content" data-content-language="pt">'+navigation+career+annex+'</div>'
     if english_sections is None: raise ValueError('The main CV needs both language archives.')
@@ -46,9 +46,9 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     for part in english_sections:
         part=part.replace('class="chapter', 'class="chapter full-card')
         english_parts.append('<section class="page full-page experimental-page"><div class="full-page-inner">'+part+'</div></section>')
-    english_toc='<nav class="full-card extension-toc" aria-label="Technical archive contents"><h2>Technical archive and project sources</h2><ol>'+''.join('<li><a href="#'+re.search(r'<section id="([^"]+)"',part)[1]+'">'+re.search(r'<h2>(.*?)</h2>',part)[1]+'</a></li>' for part in english_sections)+'</ol><p><a href="cv-data.json">Structured data and sources</a></p></nav>'
+    english_toc='<nav class="full-card extension-toc" aria-label="Technical archive contents"><h2>Projects, applications and technologies</h2><ol>'+''.join('<li><a href="#'+re.search(r'<section id="([^"]+)"',part)[1]+'">'+re.search(r'<h2>(.*?)</h2>',part)[1]+'</a></li>' for part in english_sections)+'</ol></nav>'
     english_parts.insert(0,'<section class="page full-page experimental-page"><div class="full-page-inner">'+english_toc+'</div></section>')
-    english_annex='<details id="careerAppendices" class="career-appendices"><summary>Complete technical archive · cases, catalogs and sources</summary>'+''.join(english_parts)+'</details>'
+    english_annex='<details id="careerAppendices" class="career-appendices"><summary>Project details · applications, methods and technologies</summary>'+''.join(english_parts)+'</details>'
     english_content=english['translate_labels'](navigation)+editorial['core_sections'](data,'en')+english_annex
     english_ids=set(re.findall(r'\bid="([^"]+)"',english_content))
     english_content=re.sub(r'\bid="([^"]+)"',lambda match:'id="'+match[1]+'-en"',english_content)
