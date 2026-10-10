@@ -219,6 +219,7 @@ def build():
     english_text=re.sub(r'<(?:br|/p|/article|/tr)[^>]*>','\n',english_text)
     english_text=html.unescape(re.sub(r'<[^>]+>',' ',english_text))
     english_text=re.sub(r'[ \t]+',' ',english_text)
+    english_text='\n'.join(line.rstrip() for line in english_text.splitlines())
     (BASE/'cv-experimental-en.md').write_text('# '+en['profile']['name']+'\n\n'+en['profile']['headline']+'\n'+english_text+'\n',encoding='utf-8')
     # Text counterpart includes the same visible content for plain-text readers.
     text_sections=''.join(base_parts)+editorial['core_sections'](experimental)+'<h1>Anexos: acervo técnico completo</h1>'+''.join([association_map]+new_sections+preserved)
@@ -230,6 +231,7 @@ def build():
     text=html.unescape(text)
     text=re.sub(r'[ \t]+',' ',text)
     text=re.sub(r'\n\s*\n\s*\n','\n\n',text)
+    text='\n'.join(line.rstrip() for line in text.splitlines())
     (BASE/'cv-experimental.md').write_text('# '+current['profile']['name']+'\n\n'+current['profile']['headline']+'\n\n'+html.unescape(contact)+'\n\nVersão experimental ampliada — 09/10/2026.\n'+text+'\n',encoding='utf-8')
     print(f'CV experimental gerado: {len(cases)} cases aprofundados, {len(project_records)} pastas, 94 módulos de negócio e 48 fluxos técnicos. Blocos originais preservados.')
 
