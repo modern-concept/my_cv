@@ -4,6 +4,10 @@
 
 ### PDF abaixo de 2 MB
 
+Use **Baixar PDF leve** no HTML para gerar e baixar o arquivo diretamente. O botão respeita o idioma PT/EN, o modo completo/compacto, CV/Carta/CV+Carta, a variante da carta e a opção de incluir o acervo. A exportação é uma diagramação de texto com fundo branco, títulos, colunas, tabelas, gráficos vetoriais e links; a paginação é própria desse gerador e pode diferir da impressão do navegador. Nenhuma parte do conteúdo selecionado é cortada para reduzir o arquivo. O tamanho gerado é informado ao final.
+
+Funciona também ao abrir `index.html` diretamente, sem Python, servidor ou internet. Mantenha a pasta `vendor/pdfmake` junto ao HTML: ela contém a biblioteca e as fontes. O código de exportação fica em `scripts/cv-pdf-export.js` e é incorporado ao HTML na regeneração. Os arquivos locais da biblioteca também estão incluídos na configuração de hospedagem existente. O botão **Imprimir / PDF** continua usando a diagramação de impressão do navegador.
+
 Mantenha o modo completo e **Incluir acervo técnico no PDF** marcado para preservar todas as páginas adicionais. Essa opção fica marcada por padrão. A impressão usa fundos escuros sólidos e cores opacas para reduzir a complexidade do PDF, mantendo a diagramação; o visual na tela continua igual.
 
 Depois de salvar pelo navegador, comprima a estrutura do PDF e a foto. O texto, os gráficos vetoriais, os links e todas as páginas são preservados:
@@ -79,4 +83,4 @@ Fontes como `Agrodan@origin/development:caminho` indicam arquivos em referência
 
 Os originais vieram de `C:\Users\Danillo\Documents\doutorado\CV`, com a origem preservada. A versão anterior à ampliação está no histórico Git. `cv-experimental.html`, `cv-experimental-en.html` e `cv-experimental-data.json` foram retirados após a integração no CV principal. `exports/`, capturas e variantes históricas de `index.*` preservam materiais anteriores.
 
-O endpoint `api/pdf.js` está vazio; a exportação PDF usa a impressão do navegador.
+O endpoint `api/pdf.js` está vazio; a geração pelo botão **Baixar PDF leve** acontece no navegador, usando pdfmake 0.2.20 e fontes locais. **Imprimir / PDF** usa a impressão nativa. O comando de compressão abaixo é uma alternativa para PDFs salvos pela impressão nativa.

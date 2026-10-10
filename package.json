@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "vercel": "^33.2.0"
+  },
+  "dependencies": {
+    "pdfmake": "0.2.20"
   }
 }

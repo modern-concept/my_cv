@@ -73,6 +73,8 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     page = page[:start] + original_view[:closing] + overviews + detailed_skills + portuguese_content + english_content + original_view[closing:] + page[end:]
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c')
     page = page.replace('  <script>\n    const DATA_URL', '<script id="experimentalData" type="application/json">' + payload + '</script>\n  <script>\n    const DATA_URL', 1)
+    exporter=(base/'scripts/cv-pdf-export.js').read_text(encoding='utf-8')
+    page=page.replace('  <script>\n    const DATA_URL','<script>'+exporter+'</script>\n  <script>\n    const DATA_URL',1)
     page = page.replace('const res = await fetch(DATA_URL, {cache:"no-store"});\n      const data = await res.json();', 'const data = JSON.parse(document.getElementById("experimentalData").textContent);')
     page = page.replace('if(!data.languages[lang]) lang = "pt";', 'if(!["pt", "en"].includes(lang)) lang = "pt";')
     page = page.replace('lang = ({pt: "en", en: "de", de: "pt"})[lang] || "en";', 'lang = lang === "pt" ? "en" : "pt";')
@@ -1373,6 +1375,8 @@ ENGINE_TEMPLATE = r'''
       <button class="btn btn-slim" data-print-mode="both">CV+Carta</button>
     </div>
     <button class="btn" id="printBtn">Imprimir / PDF</button>
+    <button class="btn" id="downloadPdfBtn">Baixar PDF leve</button>
+    <span id="pdfExportStatus" role="status" aria-live="polite"></span>
   </div>
   <div class="page compact-view" id="compactPage">
 
@@ -1826,6 +1830,7 @@ ENGINE_TEMPLATE = r'''
     function render(data, lang){
       appData = data;
       currentLang = lang;
+      if(window.CvPdfExport) window.CvPdfExport.updateLabels(lang);
       const L = data.languages[lang];
       const labels = L.labels;
       document.documentElement.lang = lang === "pt" ? "pt-BR" : lang;
