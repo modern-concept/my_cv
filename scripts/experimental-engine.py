@@ -20,6 +20,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
         part = part.replace('class="chapter ', 'class="chapter full-card ')
         supplemental.append('<section class="page full-page experimental-page"><div class="full-page-inner">' + part + '</div></section>')
     toc = '<nav class="full-card extension-toc" aria-label="Índice do acervo técnico"><h2>Acervo técnico e fontes dos projetos</h2><ol>' + ''.join('<li><a href="#' + re.search(r'<section id="([^"]+)"', p)[1] + '">' + re.search(r'<h2>(.*?)</h2>', p)[1] + '</a></li>' for p in sections) + '</ol><p><a href="index.html?lang=pt&amp;version=full">CV original</a> · <a href="cv-experimental.md">Versão textual completa</a> · <a href="cv-data.json">Dados e fontes</a></p></nav>'
+    toc = re.sub(r'<p>.*?</p>', '<p><a href="cv-data.json">Dados estruturados e fontes</a></p>', toc)
     supplemental.insert(0, '<section class="page full-page experimental-page"><div class="full-page-inner">' + toc + '</div></section>')
     editorial = runpy.run_path(str(base / 'scripts/cv-editorial.py'))
     english = runpy.run_path(str(base / 'scripts/cv-english.py'))
