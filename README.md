@@ -31,6 +31,8 @@ Em inglês, os anexos usam uma adaptação editorial mais sintética da aplicaç
 
 ## Atualização
 
+Os links públicos ficam em `cv-project-links.json`: sites publicados têm prioridade e repositórios são incluídos quando acessíveis sem autenticação. As ferramentas do Utilibox usam endereços do catálogo publicado. `scripts/cv-project-links.py` aplica esses destinos nos destaques e anexos PT/EN; as evidências de código permanecem nos dados de pesquisa. A conferência inicial foi feita em 09/10/2026.
+
 Execute `python scripts/build-experimental-cv.py` para regenerar **`index.html` e `cv-data.json`**, além das exportações textuais. O gerador exige destinos válidos para links internos de ambas as versões e preserva os relatos profissionais, salvo ajustes autorizados de competências e tecnologias.
 
 - `scripts/experimental-engine.py`: template do motor original e integração PT/EN. O template fica no próprio script para permitir regeneração sem outro HTML.

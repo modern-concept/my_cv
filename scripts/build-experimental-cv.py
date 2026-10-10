@@ -15,7 +15,9 @@ def slug(value): return re.sub(r'[^a-z0-9]+','-',value.lower()).strip('-')
 def paras(values): return ''.join('<p>'+esc(v).replace('\n','<br>')+'</p>' for v in values)
 def bullets(values): return '<ul>'+''.join('<li>'+esc(v)+'</li>' for v in values)+'</ul>'
 def chips(values): return '<ul class="chips">'+''.join('<li>'+esc(v)+'</li>' for v in values)+'</ul>'
-def sources(values): return '<ul class="sources">'+''.join('<li><code>'+esc(v)+'</code></li>' for v in values)+'</ul>'
+PUBLIC_LINKS=runpy.run_path(str(BASE/'scripts/cv-project-links.py'))
+def sources(values): return PUBLIC_LINKS['sources'](values)
+def source_heading(values): return PUBLIC_LINKS['source_heading'](values)
 def section(id,title,body,cls=''):
     return '<section id="'+id+'" class="chapter '+cls+'"><h2>'+esc(title)+'</h2>'+body+'</section>'
 
@@ -100,7 +102,7 @@ def build():
             cid='case-'+topic['id']+'-'+str(i+1)
             record={**c,'id':cid,'relatedContextAnchors':[a for a,_ in context_links(c['context'])],'depth':'Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto.'}
             cases.append(record)
-            content+='<article class="case" id="'+cid+'"><p class="kicker">Case · '+esc(c['context'])+'</p><h3>'+esc(c['title'])+'</h3>'+linked(c['context'])+'<p><strong>Problema:</strong> '+esc(c['problem'])+'</p><p class="delivery"><strong>Contribuição e entrega:</strong> '+esc(c['text'])+'</p><h4>Engenharia, métodos e profundidade</h4>'+bullets(c['implementation'])+'<h4>Competências evidenciadas</h4>'+chips(c['skills'])+'<h4>Fontes do projeto</h4>'+sources(c['sources'])+'<p class="scope"><strong>Alcance da evidência:</strong> '+esc(c['limit'])+'</p></article>'
+            content+='<article class="case" id="'+cid+'"><p class="kicker">Case · '+esc(c['context'])+'</p><h3>'+esc(c['title'])+'</h3>'+linked(c['context'])+'<p><strong>Problema:</strong> '+esc(c['problem'])+'</p><p class="delivery"><strong>Contribuição e entrega:</strong> '+esc(c['text'])+'</p><h4>Engenharia, métodos e profundidade</h4>'+bullets(c['implementation'])+'<h4>Competências evidenciadas</h4>'+chips(c['skills'])+'<h4>'+source_heading(c['sources'])+'</h4>'+sources(c['sources'])+'<p class="scope"><strong>Alcance da evidência:</strong> '+esc(c['limit'])+'</p></article>'
         new_sections.append(section('especialidade-'+topic['id'],topic['title'],content,'specialty'))
     academic=[]
     for p in proposal['projects']:
@@ -143,7 +145,7 @@ def build():
         refs=tool.get('localSourceReferences',[])
         tool_rows.append('<tr id="utilibox-tool-'+esc(tool['slug'])+'"><th scope="row">'+esc(tool['name'])+'</th><td>'+esc(tool['desc'])+'</td><td>'+esc('; '.join(c['title'] for c in tool['categories']))+'</td><td>'+sources(['utilibox/'+r for r in refs] or ['utilibox/src/data/tools.js — verificar alias/rota'])+'</td></tr>')
     new_sections.append(section('utilibox-catalogo','Utilibox — aplicações e ferramentas do catálogo',
-      '<p>O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.</p><div class="table-scroll"><table><thead><tr><th>Ferramenta</th><th>Objetivo</th><th>Área</th><th>Fonte</th></tr></thead><tbody>'+''.join(tool_rows)+'</tbody></table></div>'))
+      '<p>O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.</p><div class="table-scroll"><table><thead><tr><th>Ferramenta</th><th>Objetivo</th><th>Área</th><th>Link / referência</th></tr></thead><tbody>'+''.join(tool_rows)+'</tbody></table></div>'))
     provenance=defaultdict(list)
     for record in proposal['skillProvenance']:
         entry=record['case']+' — '+record['context']
@@ -169,6 +171,7 @@ def build():
     all_sections=base_parts+[association_map]+new_sections+preserved
     contact=' · '.join(esc(item['label'])+': '+esc(item['value']) for item in current['contact']['items'])
     experimental['extensions']={'version':'experimental-additive','generatedAt':DATE,'language':'pt','sourceCommit':'648d76f','method':'CV original preservado. Habilidades, ferramentas e stack ajustadas; especialidades, cases, módulos e evidências acrescentados. Artefatos Git não equivalem automaticamente a autoria exclusiva, implantação ou resultado.', 'cases':cases,'projects':project_records,'topics':proposal['topics'],'agroBusinessModules':proposal['agroBusinessModules'],'agroTechnicalFlows':proposal['agroModules'],'skillProvenance':proposal['skillProvenance'],'utiliboxCatalog':proposal['utiliboxTools']}
+    experimental['extensions']['publicProjectLinks']=PUBLIC_LINKS['REGISTRY']
     editorial=runpy.run_path(str(BASE/'scripts/cv-editorial.py'))
     priorities=runpy.run_path(str(BASE/'scripts/cv-priority-projects.py'))
     experimental['extensions']['priorityCases']=priorities['build_records'](experimental)
@@ -211,6 +214,7 @@ def build():
         letter=en[key]
         english_text+=section(key,'Cover letter'+(' — Switzerland' if key.endswith('Swiss') else ''),paras([letter['greeting'],*letter['paragraphs'],letter['closing'],letter['signature']]))
     english_text=re.sub(r'<(h[1-4])[^>]*>(.*?)</\1>',lambda m:'\n\n'+'#'*int(m[1][1])+' '+re.sub('<[^>]+>','',m[2])+'\n',english_text,flags=re.S)
+    english_text=re.sub(r'<a class="project-public-link" href="([^"]+)"[^>]*>(.*?)</a>',lambda m:m[2]+' ('+m[1]+')',english_text)
     english_text=re.sub(r'<li[^>]*>','\n- ',english_text)
     english_text=re.sub(r'<(?:br|/p|/article|/tr)[^>]*>','\n',english_text)
     english_text=html.unescape(re.sub(r'<[^>]+>',' ',english_text))
@@ -219,6 +223,7 @@ def build():
     # Text counterpart includes the same visible content for plain-text readers.
     text_sections=''.join(base_parts)+editorial['core_sections'](experimental)+'<h1>Anexos: acervo técnico completo</h1>'+''.join([association_map]+new_sections+preserved)
     text=re.sub(r'<(h[1-4])[^>]*>(.*?)</\1>',lambda m:'\n\n'+'#'*int(m[1][1])+' '+re.sub('<[^>]+>','',m[2])+'\n', text_sections,flags=re.S)
+    text=re.sub(r'<a class="project-public-link" href="([^"]+)"[^>]*>(.*?)</a>',lambda m:m[2]+' ('+m[1]+')',text)
     text=re.sub(r'<li[^>]*>','\n- ',text)
     text=re.sub(r'<(?:br|/p|/article|/tr)[^>]*>','\n',text)
     text=re.sub(r'<[^>]+>',' ',text)

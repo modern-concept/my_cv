@@ -199,7 +199,7 @@ Tech Lead
  
 - Domain rules represent dosage, withholding periods, drift and application constraints. 
 - Planning interfaces connect operational inputs and budget information to the application workflow. Engineering and technologies: React · JavaScript · Node.js · operational APIs · agronomic rules.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -209,7 +209,7 @@ Tech Lead
 - Categorical encoding and normalization prepare variables such as farm, phase, month and soil. 
 - Neural training, serialized model restoration and evolutionary experiments explore irrigation-related decisions. Engineering and technologies: JavaScript · Node.js · genetic algorithms · neural network · normalization.
  Exploratory modeling; out-of-sample performance is not established.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -218,7 +218,7 @@ Tech Lead
  
 - Maps connect movement and speed to field blocks and operational records. 
 - Audit interfaces make execution patterns available for operational review. Engineering and technologies: React · geospatial data · trajectory · speed · operational APIs.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -227,7 +227,7 @@ Tech Lead
  
 - Equations and parameters relate dry-matter observations to harvest readiness. 
 - Charts and operational interfaces support monitoring by variety and field context. Engineering and technologies: React · JavaScript · curves and equations · charts · field data.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -236,7 +236,7 @@ Tech Lead
  
 - Dexie/IndexedDB stores field and purchasing data locally. 
 - Synchronization handlers and domain APIs connect local records to the backend. Engineering and technologies: React · Dexie · IndexedDB · Node.js · synchronization.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -245,7 +245,7 @@ Tech Lead
  
 - Business units, employees and roles share domain models and reusable components. 
 - Assessments, history, 5S and improvement workflows organize management information. Engineering and technologies: React · Node.js · organizational modeling · assessments · history.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -254,7 +254,7 @@ Tech Lead
  
 - Commercial entries, forecasts and exchange-rate information support operational views. 
 - Pallet and container movements link logistics records to management interfaces. Engineering and technologies: React · Node.js · commercial data · pallets · containers.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -263,7 +263,7 @@ Tech Lead
  
 - Node.js and SQL importers separate extraction, transformation and domain-specific processing. 
 - Batch persistence, joins and aggregation connect ERP and operational records to indicators. Engineering and technologies: Node.js · SQL · Oracle · Sequelize · ETL · batch import.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -272,7 +272,7 @@ Tech Lead
  
 - Mobile workflows organize work orders, employees, targets and quality records. 
 - Reusable local persistence and API integration connect collection and dashboard components. Engineering and technologies: React Native · Expo · AsyncStorage · React Navigation · APIs.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -281,7 +281,7 @@ Tech Lead
  
 - Professional responsibilities cover support, Windows/Linux administration, Active Directory and corporate networks. 
 - Backup/recovery, virtualization, monitoring, security and IoT belong to the declared IT management scope. Engineering and technologies: Windows Server · Linux · Active Directory · Zabbix · GLPI · networks · IoT.
- Agrodan career context · Technical details and sources 
+ Agrodan career context · Technical details 
 
  
 
@@ -290,7 +290,7 @@ Tech Lead
  
 - Audit, configuration and responsibility models support management interfaces. 
 - Dexie/IndexedDB local data and synchronization handlers connect workflows. Engineering and technologies: React · JavaScript · Dexie · IndexedDB · synchronization.
- Agrodan career context · Module and sources 
+ Agrodan career context · Module 
 
  
 
@@ -299,7 +299,7 @@ Tech Lead
  
 - Checklists and responses use Dexie/IndexedDB local persistence. 
 - Synchronization routines and corresponding backend routes were located in the archive. Engineering and technologies: React · JavaScript · Dexie · IndexedDB · Node.js · domain APIs.
- Agrodan career context · Module and sources 
+ Agrodan career context · Module 
 
  
 
@@ -308,7 +308,7 @@ Tech Lead
  
 - Separate packing and box-handling components structure the corporate frontend. 
 - Socket event integration is present in the module code. Engineering and technologies: React · JavaScript · socket events · operational interfaces.
- Agrodan career context · Module and sources 
+ Agrodan career context · Module 
 
  
 
@@ -321,7 +321,7 @@ Tech Lead
  
 - Saaty-scale comparisons and consistency calculations assess the coherence of judgments. 
 - Interactive decision modeling presents results and supports project export. Engineering and technologies: Astro · JavaScript · AHP · comparison matrices · consistency.
- Tool and sources 
+ Open tool — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/)
 
  
 
@@ -330,7 +330,7 @@ Tech Lead
  
 - TOPSIS ranks alternatives by closeness to the ideal solution, with configurable weights and criterion directions. 
 - PROMETHEE I and II include preference functions and real-time sensitivity analysis. Engineering and technologies: Astro · JavaScript · TOPSIS · PROMETHEE · sensitivity analysis.
- Tool and sources · Tool and sources 
+ Open tool — topsis (https://utiliboxapp.com.br/tools/topsis/) · Open tool — promethee (https://utiliboxapp.com.br/tools/promethee/)
 
  
 
@@ -339,7 +339,7 @@ Tech Lead
  
 - Calculation routines implement M/M/1, M/M/c, M/D/1, M/M/1/K and Erlang-B/C models. 
 - Server-count comparisons and sensitivity curves explore changes in arrival rates. Engineering and technologies: JavaScript · operations research · queueing models · sensitivity curves.
- Tool and sources · Tool and sources 
+ Open tool — teoria-das-filas (https://utiliboxapp.com.br/tools/teoria-das-filas/) · Open tool — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/)
 
  
 
@@ -348,7 +348,7 @@ Tech Lead
  
 - VSM models steps, processing, waiting, uptime, inventory and bottlenecks, with lead-time, takt and PCE metrics. 
 - SMED explores internal/external activities, conversion and parallelization; PDSA and A3 structure follow-up and action plans. Engineering and technologies: Astro · JavaScript · Lean · VSM · SMED · PDSA · A3.
- Tool and sources · Tool and sources · Tool and sources · Tool and sources 
+ Open tool — vsm (https://utiliboxapp.com.br/tools/vsm/) · Open tool — smed (https://utiliboxapp.com.br/tools/smed/) · Open tool — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/) · Open tool — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
 
  
 
@@ -357,7 +357,7 @@ Tech Lead
  
 - Simple and discounted payback, NPV and IRR calculations support investment analysis. 
 - Complementary tools address WACC, break-even and Price, SAC and SAM repayment systems. Engineering and technologies: JavaScript · financial mathematics · cash flows · investment analysis.
- Tool and sources · Tool and sources · Tool and sources · Tool and sources 
+ Open tool — calculadora-payback-vpl-tir (https://utiliboxapp.com.br/tools/calculadora-payback-vpl-tir/) · Open tool — calculadora-wacc (https://utiliboxapp.com.br/tools/calculadora-wacc/) · Open tool — simulador-ponto-de-equilibrio (https://utiliboxapp.com.br/tools/simulador-ponto-de-equilibrio/) · Open tool — simulador-emprestimo (https://utiliboxapp.com.br/tools/simulador-emprestimo/)
 
  
 
@@ -366,7 +366,7 @@ Tech Lead
  
 - Pareto includes cumulative curves; GUT ranks severity, urgency and trend; SWOT supports cross-analysis of strategies. 
 - Decision trees include chance/outcome nodes, expected monetary value and optimal-path identification. Engineering and technologies: JavaScript · Pareto · GUT · SWOT · EMV · decision visualization.
- Tool and sources · Tool and sources · Tool and sources · Tool and sources 
+ Open tool — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/) · Open tool — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/) · Open tool — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/) · Open tool — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
 
  
 
@@ -375,7 +375,7 @@ Tech Lead
  
 - Markdown editing, internal links and file trees connect note organization to usage context. 
 - IndexedDB persistence manages transactions and failures; AI assistance resides in dedicated modules. Engineering and technologies: Astro · JavaScript · Markdown · IndexedDB · entity modeling · contextual AI.
- Tool and sources · Tool and sources 
+ Open tool — narra (https://utiliboxapp.com.br/tools/narra/) · Open tool — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
 
  
 
@@ -384,7 +384,7 @@ Tech Lead
  
 - SM-2, due-card selection, suspension/resumption and review forecasting organize study. 
 - Anki Desktop TSV and PDF exports support structured decks and content. Engineering and technologies: JavaScript · SM-2 · local persistence · TSV · PDF.
- Tool and sources 
+ Open tool — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
 
  
 
@@ -397,7 +397,7 @@ Tech Lead
  
 - Experiments compare methods including Random Forest, LASSO and dimensionality-reduction approaches. 
 - Python notebooks and evolutionary routines organize datasets, baselines and statistical analysis; AHP supports comparison of alternatives. Engineering and technologies: Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP.
- Doctoral research · Technical details and sources 
+ Doctoral research · Public repository — EFS-AHP (https://github.com/Danjubex/efs_ahp)
 
  
 
@@ -406,7 +406,7 @@ Tech Lead
  
 - EBSERH: Java EE, EJB, JSF, PrimeFaces and JPA/Hibernate for hospital indicators and assessments. 
 - The Game Project: persistent tasks, progression rules, scheduling and an interactive project timeline. Engineering and technologies: Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz.
- Hospital internship · Context and projects · Technical details and sources 
+ Hospital internship · Context and projects · Public repository — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores) · Public repository — The Game Project (https://github.com/Danjubex/the_game_project)
 
  
 
@@ -420,7 +420,7 @@ Tech Lead
 - Strategy, execution, risk, learning, integrity and mentoring agents analyze the same planning snapshot. 
 - Claims carry evidence, confidence, polarity, weight and node references; priorities and deterministic tie-breaking resolve conflicts. Engineering and technologies: TypeScript · Deno · Supabase · typed contracts · conflict resolution.
  Rule-based agent coordination; LLM integration in a separate layer.
- Context and projects · Technical details and sources 
+ Context and projects · Live website — Planejamento Xavier (https://planejamentoxavier.com/)
 
  
 
@@ -430,7 +430,7 @@ Tech Lead
 - Twelve signals support ternary voting, minimum active-agent counts and agreement thresholds. 
 - Policies choose whether to follow, invert or ignore signals; the selected policy is frozen before final out-of-sample evaluation. Backward as-of joins respect publication delays. Engineering and technologies: Python · pandas · NumPy · simulated annealing · temporal validation.
  Signal-agent research; financial returns were not validated in this review.
- Context and projects · Technical details and sources 
+ Context and projects · Technical details 
 
  
 
@@ -439,7 +439,7 @@ Tech Lead
  
 - Provider capabilities include JSON, text and grounded search; adapters support Gemini, DeepSeek, OpenAI and compatible APIs. 
 - Global and per-attempt time budgets, output rejection, fallback and provider health tracking organize execution. Grounded search preserves source references. Engineering and technologies: TypeScript · Deno · LLM APIs · JSON · telemetry · fallback.
- Context and projects · Technical details and sources 
+ Context and projects · Live website — Planejamento Xavier (https://planejamentoxavier.com/)
 
  
 
@@ -448,7 +448,7 @@ Tech Lead
  
 - Authorized context contains real IDs, capacity, diagnostics and prior decisions. 
 - Normalized operations include dependencies, affected occurrences, expected update timestamps, context fingerprints and validation issues. Engineering and technologies: TypeScript · Supabase · operation contracts · reference validation.
- Context and projects · Technical details and sources 
+ Context and projects · Live website — Planejamento Xavier (https://planejamentoxavier.com/)
 
  
 
@@ -457,7 +457,7 @@ Tech Lead
  
 - Prompts combine class, subject, duration, resources, assessment and curriculum skills. 
 - Structured JSON responses are parsed into the planning workflow. Engineering and technologies: React · Node.js · Express · SQLite · Gemini · BNCC.
- Context and projects · Technical details and sources 
+ Context and projects · Technical details 
 
  
 
@@ -466,7 +466,7 @@ Tech Lead
  
 - Conversation state and history provide context for the decision engine. 
 - Action normalization, retries and handoff connect suggestions to the CRM workflow. Engineering and technologies: Node.js · Express · SQLite · Gemini · conversation history.
- Context and projects · Technical details and sources 
+ Context and projects · Technical details 
 
  
 
@@ -475,7 +475,7 @@ Tech Lead
  
 - Time-series preparation and feature engineering feed model and policy experiments. 
 - API and desktop connector components keep research, inference and execution responsibilities separate. Engineering and technologies: Python · scikit-learn · XGBoost · pandas · Flask · MetaTrader5.
- Context and projects · Technical details and sources 
+ Context and projects · Technical details 
 
  
 
@@ -484,7 +484,7 @@ Tech Lead
  
 - Reviewed examples form a training dataset; transfer learning and callbacks organize training and checkpoints. 
 - Temporal voting and a persistent alert outbox connect detection to operational notifications. Engineering and technologies: Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP.
- Context and projects · Technical details and sources 
+ Context and projects · Technical details 
 
  
 
@@ -494,7 +494,7 @@ Tech Lead
 - Existing pose models process video and webcam input in the browser. 
 - Keypoint rendering, smoothing and 3D resources connect inference to interactive visualization. Engineering and technologies: JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL.
  Interaction and visualization prototypes and studies.
- Context and projects · Technical details and sources 
+ Context and projects · Technical details 
 
  
 
@@ -507,7 +507,7 @@ Tech Lead
  
 - Cartola combines performance data and probabilistic estimates with constrained team selection. 
 - Logistics prototypes combine routes, maps and optimization experiments. Engineering and technologies: Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet.
- Context and projects · Technical details and sources 
+ Context and projects · Public repository — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
 
  
 
@@ -516,7 +516,7 @@ Tech Lead
  
 - The connector uses the MetaTrader5 package and requires an authenticated local terminal. 
 - Candles and account data connect policy research with separate API, dashboard and execution components. Engineering and technologies: Python · MetaTrader5 · Flask · SQLite · local APIs.
- Context and projects · Technical details and sources 
+ Context and projects · Technical details 
 
  
 
@@ -562,9 +562,9 @@ Tech Lead
 - Claims carry evidence, confidence, polarity, weight and node references; priorities and deterministic tie-breaking resolve conflicts. Technologies and methods: TypeScript · Deno · Supabase · typed contracts · conflict resolution
 
 
-#### Project sources
- 
-- planejamentoxavier/supabase/functions/_shared/brain/council.ts Evidence scope: These are rule-based pure functions. LLM integration belongs to a separate layer; the individual agents are not autonomous LLMs.
+#### Project links
+ Live website — Planejamento Xavier (https://planejamentoxavier.com/)
+ Evidence scope: These are rule-based pure functions. LLM integration belongs to a separate layer; the individual agents are not autonomous LLMs.
 
  
 
@@ -601,10 +601,9 @@ Tech Lead
 - Global and per-attempt time budgets, output rejection, fallback and provider health tracking organize execution. Grounded search preserves source references. Technologies and methods: TypeScript · Deno · LLM APIs · JSON · telemetry · fallback
 
 
-#### Project sources
- 
-- planejamentoxavier/supabase/functions/_shared/ai/engine.ts 
-- planejamentoxavier/supabase/functions/_shared/llm_client.ts Evidence scope: Adapters do not establish production usage, SLA or cost savings. Grounded search does not by itself demonstrate vector-based RAG.
+#### Project links
+ Live website — Planejamento Xavier (https://planejamentoxavier.com/)
+ Evidence scope: Adapters do not establish production usage, SLA or cost savings. Grounded search does not by itself demonstrate vector-based RAG.
 
  
 
@@ -619,9 +618,9 @@ Tech Lead
 - Normalized operations include dependencies, affected occurrences, expected update timestamps, context fingerprints and validation issues. Technologies and methods: TypeScript · Supabase · operation contracts · reference validation
 
 
-#### Project sources
- 
-- planejamentoxavier/supabase/functions/_shared/brain/councilReviewProposal.ts Evidence scope: Autonomy and behavioral effectiveness were not measured.
+#### Project links
+ Live website — Planejamento Xavier (https://planejamentoxavier.com/)
+ Evidence scope: Autonomy and behavioral effectiveness were not measured.
 
  
 
@@ -675,12 +674,9 @@ Tech Lead
 - Python notebooks and evolutionary routines organize datasets, baselines and statistical analysis; AHP supports comparison of alternatives. Technologies and methods: Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP
 
 
-#### Project sources
- 
-- [EFS-AHP]/Experimento 1/[AG].js 
-- [EFS-AHP]/Experimento 1/[AHP].js 
-- [EFS-AHP]/Experimento 3/Arquivos/[EFS_AHP]random_forest.py 
-- [EFS-AHP]/Estatísticas/[ESTATÍSTICA]EXPERIMENTO 1.ipynb Evidence scope: Final publications, metrics and statistical significance require confirmation. Dimensionality reduction and feature selection are distinct methods.
+#### Project links
+ Public repository — EFS-AHP (https://github.com/Danjubex/efs_ahp)
+ Evidence scope: Final publications, metrics and statistical significance require confirmation. Dimensionality reduction and feature selection are distinct methods.
 
  
 
@@ -937,10 +933,9 @@ Tech Lead
 - The Game Project: persistent tasks, progression rules, scheduling and an interactive project timeline. Technologies and methods: Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz
 
 
-#### Project sources
- 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Indicador.java 
-- The game project/README.md Evidence scope: Hospital internship and university work are separate contexts. Code reuse does not establish another hospital employment experience.
+#### Project links
+ Public repository — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores) · Public repository — The Game Project (https://github.com/Danjubex/the_game_project)
+ Evidence scope: Hospital internship and university work are separate contexts. Code reuse does not establish another hospital employment experience.
 
  
 
@@ -958,14 +953,9 @@ Tech Lead
 - Queueing, financial and spaced-repetition tools apply domain methods in interactive software. Technologies and methods: Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulation
 
 
-#### Project sources
- 
-- utilibox/src/tools/ahp-online/domain/consistency.js 
-- utilibox/src/tools/topsis/domain/topsis.js 
-- utilibox/src/tools/promethee/domain/promethee.js 
-- utilibox/src/tools/queueing-theory/logic.js 
-- utilibox/src/tools/vsm/client.js 
-- utilibox/src/tools/anki-flashcards/logic.js Evidence scope: The catalog contains 136 unique slugs with overlapping categories. Live status is catalog-declared; availability, external validation and actual usage were not verified.
+#### Project links
+ Open tool — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/) · Open tool — topsis (https://utiliboxapp.com.br/tools/topsis/) · Open tool — promethee (https://utiliboxapp.com.br/tools/promethee/) · Open tool — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/) · Open tool — vsm (https://utiliboxapp.com.br/tools/vsm/) · Open tool — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
+ Evidence scope: The catalog contains 136 unique slugs with overlapping categories. Live status is catalog-declared; availability, external validation and actual usage were not verified.
 
  
 
@@ -980,11 +970,9 @@ Tech Lead
 - Logistics prototypes combine routes, maps and optimization experiments. Technologies and methods: Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet
 
 
-#### Project sources
- 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/models/markov.py 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/optimize/ilp_solver.py 
-- Logistica/src/leaflet/Roteirizador.js Evidence scope: Solution quality and comparison metrics require confirmation. NDVI references alone do not establish an operational remote-sensing pipeline.
+#### Project links
+ Public repository — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
+ Evidence scope: Solution quality and comparison metrics require confirmation. NDVI references alone do not establish an operational remote-sensing pipeline.
 
  
 
@@ -1002,11 +990,9 @@ Tech Lead
 - Contextual assistance and interoperability connect editing, information and responses. Technologies and methods: JavaScript · TypeScript · Astro · entities and relationships · Markdown
 
 
-#### Project sources
- 
-- utilibox/src/tools/narra/assistant/writing/writingCompanionEngine.js 
-- utilibox/src/tools/narra/assistant/query/evidenceEngine.js 
-- utilibox/src/tools/utilinotas/content.md Evidence scope: Intent dispatch alone does not establish a multiagent architecture or implemented vector RAG/MCP.
+#### Project links
+ Open tool — narra (https://utiliboxapp.com.br/tools/narra/) · Open tool — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
+ Evidence scope: Intent dispatch alone does not establish a multiagent architecture or implemented vector RAG/MCP.
 
  
 
@@ -1120,37 +1106,22 @@ Tech Lead
 ### EBSERH — hospital indicators and assessments
  Java EE web system for hospital indicators, assessments and strategic planning, associated with the Hospital Universitário de Petrolina internship.
  Java, Java EE, EJB, JPA, Hibernate, JSF, PrimeFaces, XHTML, JPQL, Apache Ant, NetBeans
- 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Indicador.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Avaliacao.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/crud/ControleIndicadorBean.java 
-- ebserh/Gestor de Indicadores-war/src/java/com/br/curso/managedbeans/IndicadorMB.java 
-- ebserh/Gestor de Indicadores-ejb/src/conf/persistence.xml 
+ Public repository — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores)
+
  
 
 ### The Game Project — academic project management
  University application connecting persistent tasks, gamification and an interactive project timeline.
  Java, JSF, PrimeFaces, JPA, Hibernate, MySQL, JPQL, Quartz, XHTML, JavaScript, jQuery, Apache Ant, NetBeans
- 
-- The game project/README.md 
-- The game project/src/java/com/br/tgp/entidades/Aventura.java 
-- The game project/src/java/com/br/tgp/entidades/Personagem.java 
-- The game project/src/java/com/br/tgp/managedbeans/BatalhaMB.java 
-- The game project/src/java/com/br/tgp/modelos/LogicasAventura.java 
-- The game project/src/java/META-INF/persistence.xml 
-- The game project/web/taverna/gerenciar_aventura.xhtml 
-- The game project/tgp-database.sql 
+ Public repository — The Game Project (https://github.com/Danjubex/the_game_project)
+
  
 
 ### EFS-AHP — feature selection and multicriteria research
  Doctoral research combining feature selection, evolutionary algorithms, AHP and comparative ML experiments to study predictive quality, dimensionality and training cost.
  JavaScript, Node.js, Python, Jupyter, Random Forest, LASSO, PCA, t-SNE, UMAP, AHP, Docker, pandas, NumPy, scikit-learn, SciPy, DEAP
- 
-- [EFS-AHP]/README.md 
-- [EFS-AHP]/Experimento 1/[AG].js 
-- [EFS-AHP]/Experimento 1/[AHP].js 
-- [EFS-AHP]/Experimento 3/Arquivos/[EFS_AHP]random_forest.py 
-- [EFS-AHP]/Estatísticas/[ESTATÍSTICA]EXPERIMENTO 1.ipynb 
+ Public repository — EFS-AHP (https://github.com/Danjubex/efs_ahp)
+
  
 
 ## SIA — business modules
@@ -2954,37 +2925,22 @@ Tech Lead
 ### EBSERH — hospital indicators and assessments
  Java EE web system for hospital indicators, assessments and strategic planning, associated with the Hospital Universitário de Petrolina internship.
  Stack: Java, Java EE, EJB, JPA, Hibernate, JSF, PrimeFaces, XHTML, JPQL, Apache Ant, NetBeans
- 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Indicador.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Avaliacao.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/crud/ControleIndicadorBean.java 
-- ebserh/Gestor de Indicadores-war/src/java/com/br/curso/managedbeans/IndicadorMB.java 
-- ebserh/Gestor de Indicadores-ejb/src/conf/persistence.xml 
+ Public repository — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores)
+
  
 
 ### The Game Project — academic project management
  University application connecting persistent tasks, gamification and an interactive project timeline.
  Stack: Java, JSF, PrimeFaces, JPA, Hibernate, MySQL, JPQL, Quartz, XHTML, JavaScript, jQuery, Apache Ant, NetBeans
- 
-- The game project/README.md 
-- The game project/src/java/com/br/tgp/entidades/Aventura.java 
-- The game project/src/java/com/br/tgp/entidades/Personagem.java 
-- The game project/src/java/com/br/tgp/managedbeans/BatalhaMB.java 
-- The game project/src/java/com/br/tgp/modelos/LogicasAventura.java 
-- The game project/src/java/META-INF/persistence.xml 
-- The game project/web/taverna/gerenciar_aventura.xhtml 
-- The game project/tgp-database.sql 
+ Public repository — The Game Project (https://github.com/Danjubex/the_game_project)
+
  
 
 ### EFS-AHP — feature selection and multicriteria research
  Doctoral research combining feature selection, evolutionary algorithms, AHP and comparative ML experiments to study predictive quality, dimensionality and training cost.
  Stack: JavaScript, Node.js, Python, Jupyter, Random Forest, LASSO, PCA, t-SNE, UMAP, AHP, Docker, pandas, NumPy, scikit-learn, SciPy, DEAP
- 
-- [EFS-AHP]/README.md 
-- [EFS-AHP]/Experimento 1/[AG].js 
-- [EFS-AHP]/Experimento 1/[AHP].js 
-- [EFS-AHP]/Experimento 3/Arquivos/[EFS_AHP]random_forest.py 
-- [EFS-AHP]/Estatísticas/[ESTATÍSTICA]EXPERIMENTO 1.ipynb 
+ Public repository — EFS-AHP (https://github.com/Danjubex/efs_ahp)
+
  
 
 ### Agrodan — operational web/mobile and data ecosystem
@@ -3021,11 +2977,8 @@ Tech Lead
 ### Cartola Oracle — probabilistic forecasts and constrained teams
  Pipeline using performance histories, Markov representations and integer programming to select athletes under budget and formation constraints.
  Stack: Python, pandas, NumPy, PyArrow, Parquet, OR-Tools, CBC, Jupyter, Requests
- 
-- cartola_oracle/cartola_markov_optimizer/pyproject.toml 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/models/markov.py 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/optimize/ilp_solver.py 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/etl/normalize.py 
+ Public repository — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
+
  
 
 ### ClassPlanner — AI-assisted lesson planning
@@ -3185,12 +3138,8 @@ Tech Lead
 ### Planejamento Xavier — planning product with AI
  Typed frontend, database and backend functions connecting goals, activities, calendar, contextual AI and replanning.
  Stack: TypeScript, React, Vite, Tailwind CSS, Radix UI, TanStack Query, Supabase, PostgreSQL, Deno, Capacitor, Recharts, Zod
- 
-- planejamentoxavier/src/features/brain/components/CouncilPlanPage.tsx 
-- planejamentoxavier/src/features/context/ContextQuestionForm.tsx 
-- planejamentoxavier/supabase/functions/replanning-event-evaluator/index.ts 
-- planejamentoxavier/supabase/functions/_shared/brain/personalContext.ts 
-- planejamentoxavier/package.json 
+ Live website — Planejamento Xavier (https://planejamentoxavier.com/)
+
  
 
 ### Planejamento Xavier — historical backup
@@ -3270,12 +3219,8 @@ Tech Lead
 ### Utilibox — tools and knowledge products
  Shared web platform combining browser processing, external functions, persistence and commercial integrations for productivity, analysis, decisions, writing and knowledge organization.
  Stack: JavaScript, TypeScript, Astro, Node.js, Supabase, PostgreSQL, Stripe, Gemini, CodeMirror, KaTeX, pdf-lib, Playwright
- 
-- utilibox/package.json 
-- utilibox/README.md 
-- utilibox/src/tools/utilinotas/syncPolicy.test.js 
-- utilibox/supabase/functions/narra-import/index.ts 
-- utilibox/supabase/migrations/20260729200000_harden_stripe_subscription_events.sql 
+ Open tool — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
+
  
 
 ### Utilibox Manga — creative product variant
@@ -3290,925 +3235,285 @@ Tech Lead
 ### Digital CV — professional presentation
  JSON-driven CV and cover-letter interface with display/print modes and Vercel configuration. The empty PDF API does not establish server-side PDF conversion.
  Stack: HTML, CSS, JavaScript, JSON, Vercel
- 
-- my_ cv/index.html 
-- my_ cv/package.json 
-- my_ cv/vercel.json 
+ Public repository — CV digital (https://github.com/modern-concept/my_cv)
+
  
 
 ## Utilibox — complete application and tool catalog
  136 unique tool entries cover 17 overlapping commercial categories. Methods and maturity vary across the catalog; live status is declared by the catalog rather than independently checked in this review. The main CV highlights the decision, operations, finance, knowledge and learning applications.
- Tool Application Sources 
- Daily pro rata simple interest calculator Interactive tool or reference for daily pro rata simple interest calculator. 
-- utilibox/src/tools/juros-simples-pro-rata-dia/client.js 
-- utilibox/src/tools/juros-simples-pro-rata-dia/content.md 
-- utilibox/src/tools/juros-simples-pro-rata-dia/index.astro 
-- utilibox/src/tools/juros-simples-pro-rata-dia/logic.js 
- Simple interest calculator Interactive tool or reference for simple interest calculator. 
-- utilibox/src/tools/calculadora-juros-simples/client.js 
-- utilibox/src/tools/calculadora-juros-simples/content.md 
-- utilibox/src/tools/calculadora-juros-simples/index.astro 
-- utilibox/src/tools/calculadora-juros-simples/logic.js 
- Compound interest calculator Interactive tool or reference for compound interest calculator. 
-- utilibox/src/tools/calculadora-juros-compostos/client.js 
-- utilibox/src/tools/calculadora-juros-compostos/content.md 
-- utilibox/src/tools/calculadora-juros-compostos/index.astro 
-- utilibox/src/tools/calculadora-juros-compostos/Logic.js 
- Initial capital from simple interest Interactive tool or reference for initial capital from simple interest. 
-- utilibox/src/tools/juros-simples-descobrir-capital/client.js 
-- utilibox/src/tools/juros-simples-descobrir-capital/content.md 
-- utilibox/src/tools/juros-simples-descobrir-capital/index.astro 
-- utilibox/src/tools/juros-simples-descobrir-capital/logic.js 
- Percentage calculator Interactive tool or reference for percentage calculator. 
-- utilibox/src/tools/calculadora-de-porcentagem/client.js 
-- utilibox/src/tools/calculadora-de-porcentagem/content.md 
-- utilibox/src/tools/calculadora-de-porcentagem/index.astro 
-- utilibox/src/tools/calculadora-de-porcentagem/logic.js 
- Discount calculator Interactive tool or reference for discount calculator. 
-- utilibox/src/tools/calculadora-desconto/client.js 
-- utilibox/src/tools/calculadora-desconto/content.md 
-- utilibox/src/tools/calculadora-desconto/index.astro 
-- utilibox/src/tools/calculadora-desconto/logic.js 
- Price loan simulator Interactive tool or reference for price loan simulator. 
-- utilibox/src/tools/simulador-emprestimo-price/client.js 
-- utilibox/src/tools/simulador-emprestimo-price/content.md 
-- utilibox/src/tools/simulador-emprestimo-price/index.astro 
-- utilibox/src/tools/simulador-emprestimo-price/logic.js 
- Price / SAC / SAM loan simulator Interactive tool or reference for price / sac / sam loan simulator. 
-- utilibox/src/tools/simulador-emprestimo/client.js 
-- utilibox/src/tools/simulador-emprestimo/content.md 
-- utilibox/src/tools/simulador-emprestimo/index.astro 
-- utilibox/src/tools/simulador-emprestimo/logic.js 
- INSS contribution calculator — 2025 Interactive tool or reference for inss contribution calculator — 2025. 
-- utilibox/src/tools/calculadora-inss-2025/client.js 
-- utilibox/src/tools/calculadora-inss-2025/content.md 
-- utilibox/src/tools/calculadora-inss-2025/index.astro 
-- utilibox/src/tools/calculadora-inss-2025/logic.js 
- IRRF withholding calculator — 2026 Interactive tool or reference for irrf withholding calculator — 2026. 
-- utilibox/src/tools/calculadora-irrf-2026/client.js 
-- utilibox/src/tools/calculadora-irrf-2026/content.md 
-- utilibox/src/tools/calculadora-irrf-2026/index.astro 
-- utilibox/src/tools/calculadora-irrf-2026/logic.js 
- Annual IRPF estimate — 2026 Interactive tool or reference for annual irpf estimate — 2026. 
-- utilibox/src/tools/calculadora-irpf-2026/client.js 
-- utilibox/src/tools/calculadora-irpf-2026/content.md 
-- utilibox/src/tools/calculadora-irpf-2026/index.astro 
-- utilibox/src/tools/calculadora-irpf-2026/logic.js 
- IRPF refund batch estimate — 2026 Interactive tool or reference for irpf refund batch estimate — 2026. 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/client.js 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/content.md 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/index.astro 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/logic.js 
- Brazilian net salary calculator Interactive tool or reference for brazilian net salary calculator. 
-- utilibox/src/tools/calculadora-salario-liquido-br/client.js 
-- utilibox/src/tools/calculadora-salario-liquido-br/content.md 
-- utilibox/src/tools/calculadora-salario-liquido-br/index.astro 
-- utilibox/src/tools/calculadora-salario-liquido-br/logic.js 
- Mortgage repayment simulator — Price, SAC and SAM Interactive tool or reference for mortgage repayment simulator — price, sac and sam. 
-- utilibox/src/tools/simulador-financiamento-imobiliario/client.js 
-- utilibox/src/tools/simulador-financiamento-imobiliario/content.md 
-- utilibox/src/tools/simulador-financiamento-imobiliario/index.astro 
-- utilibox/src/tools/simulador-financiamento-imobiliario/logic.js 
- Payroll-linked credit margin calculator Interactive tool or reference for payroll-linked credit margin calculator. 
-- utilibox/src/tools/calculadora-margem-consignavel/client.js 
-- utilibox/src/tools/calculadora-margem-consignavel/content.md 
-- utilibox/src/tools/calculadora-margem-consignavel/index.astro 
-- utilibox/src/tools/calculadora-margem-consignavel/logic.js 
- CDI / SELIC return comparison Interactive tool or reference for cdi / selic return comparison. 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/client.js 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/content.md 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/index.astro 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/logic.js 
- CDB investment calculator Interactive tool or reference for cdb investment calculator. 
-- utilibox/src/tools/calculadora-cdb/client.js 
-- utilibox/src/tools/calculadora-cdb/content.md 
-- utilibox/src/tools/calculadora-cdb/index.astro 
-- utilibox/src/tools/calculadora-cdb/logic.js 
- WACC calculator Interactive tool or reference for wacc calculator. 
-- utilibox/src/tools/calculadora-wacc/client.js 
-- utilibox/src/tools/calculadora-wacc/content.md 
-- utilibox/src/tools/calculadora-wacc/index.astro 
-- utilibox/src/tools/calculadora-wacc/logic.js 
- Break-even simulator Interactive tool or reference for break-even simulator. 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/client.js 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/content.md 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/index.astro 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/logic.js 
- Payback, NPV and IRR calculator Interactive tool or reference for payback, npv and irr calculator. 
-- utilibox/src/tools/calculadora-payback-vpl-tir/client.js 
-- utilibox/src/tools/calculadora-payback-vpl-tir/content.md 
-- utilibox/src/tools/calculadora-payback-vpl-tir/index.astro 
-- utilibox/src/tools/calculadora-payback-vpl-tir/logic.js 
- Basic retirement savings simulator Interactive tool or reference for basic retirement savings simulator. 
-- utilibox/src/tools/simulador-aposentadoria/client.js 
-- utilibox/src/tools/simulador-aposentadoria/content.md 
-- utilibox/src/tools/simulador-aposentadoria/index.astro 
-- utilibox/src/tools/simulador-aposentadoria/logic.js 
- Late interest and penalty calculator Interactive tool or reference for late interest and penalty calculator. 
-- utilibox/src/tools/calculadora-juros-mora-multa/client.js 
-- utilibox/src/tools/calculadora-juros-mora-multa/content.md 
-- utilibox/src/tools/calculadora-juros-mora-multa/index.astro 
-- utilibox/src/tools/calculadora-juros-mora-multa/logic.js 
- Credit-card installment calculator Interactive tool or reference for credit-card installment calculator. 
-- utilibox/src/tools/calculadora-parcelamento-cartao/client.js 
-- utilibox/src/tools/calculadora-parcelamento-cartao/content.md 
-- utilibox/src/tools/calculadora-parcelamento-cartao/index.astro 
-- utilibox/src/tools/calculadora-parcelamento-cartao/logic.js 
-- utilibox/src/tools/calculadora-parcelamento-cartao/logic.test.js 
- Sales target and commission calculator Interactive tool or reference for sales target and commission calculator. 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/client.js 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/content.md 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/index.astro 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/logic.js 
- Scenario simulator Interactive tool or reference for scenario simulator. 
-- utilibox/src/tools/simulador-cenarios/client.js 
-- utilibox/src/tools/simulador-cenarios/content.md 
-- utilibox/src/tools/simulador-cenarios/index.astro 
-- utilibox/src/tools/simulador-cenarios/logic.js 
- FGC deposit protection calculator Interactive tool or reference for fgc deposit protection calculator. 
-- utilibox/src/tools/calculadora-fgc/client.js 
-- utilibox/src/tools/calculadora-fgc/content.md 
-- utilibox/src/tools/calculadora-fgc/index.astro 
-- utilibox/src/tools/calculadora-fgc/logic.js 
- Lotofácil probability and frequency analysis Interactive tool or reference for lotofácil probability and frequency analysis. 
-- utilibox/src/tools/analise-lotofacil/client.js 
-- utilibox/src/tools/analise-lotofacil/content.md 
-- utilibox/src/tools/analise-lotofacil/index.astro 
-- utilibox/src/tools/analise-lotofacil/logic.js 
- 13th-month salary calculator Interactive tool or reference for 13th-month salary calculator. 
-- utilibox/src/tools/calculadora-decimo-terceiro/client.js 
-- utilibox/src/tools/calculadora-decimo-terceiro/content.md 
-- utilibox/src/tools/calculadora-decimo-terceiro/index.astro 
-- utilibox/src/tools/calculadora-decimo-terceiro/logic.js 
- Vacation pay calculator Interactive tool or reference for vacation pay calculator. 
-- utilibox/src/tools/calculadora-de-ferias/client.js 
-- utilibox/src/tools/calculadora-de-ferias/content.md 
-- utilibox/src/tools/calculadora-de-ferias/index.astro 
-- utilibox/src/tools/calculadora-de-ferias/logic.js 
- Overtime calculator Interactive tool or reference for overtime calculator. 
-- utilibox/src/tools/calculadora-horas-extras/client.js 
-- utilibox/src/tools/calculadora-horas-extras/content.md 
-- utilibox/src/tools/calculadora-horas-extras/index.astro 
-- utilibox/src/tools/calculadora-horas-extras/logic.js 
- Teacher hourly pay calculator Interactive tool or reference for teacher hourly pay calculator. 
-- utilibox/src/tools/calculadora-hora-aula-professor/client.js 
-- utilibox/src/tools/calculadora-hora-aula-professor/content.md 
-- utilibox/src/tools/calculadora-hora-aula-professor/index.astro 
-- utilibox/src/tools/calculadora-hora-aula-professor/logic.js 
- Final school grade calculator Interactive tool or reference for final school grade calculator. 
-- utilibox/src/tools/calculadora-nota-final-escolar/client.js 
-- utilibox/src/tools/calculadora-nota-final-escolar/content.md 
-- utilibox/src/tools/calculadora-nota-final-escolar/index.astro 
-- utilibox/src/tools/calculadora-nota-final-escolar/logic.js 
- PIS/Pasep allowance estimate — 2026 Interactive tool or reference for pis/pasep allowance estimate — 2026. 
-- utilibox/src/tools/calculadora-pis-pasep-2026/client.js 
-- utilibox/src/tools/calculadora-pis-pasep-2026/content.md 
-- utilibox/src/tools/calculadora-pis-pasep-2026/index.astro 
-- utilibox/src/tools/calculadora-pis-pasep-2026/logic.js 
- Unemployment benefit estimate — 2026 Interactive tool or reference for unemployment benefit estimate — 2026. 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/client.js 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/content.md 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/index.astro 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/logic.js 
- FGTS termination balance and 40% penalty Interactive tool or reference for fgts termination balance and 40% penalty. 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/client.js 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/content.md 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/index.astro 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/logic.js 
- FGTS debt-settlement simulator Interactive tool or reference for fgts debt-settlement simulator. 
-- utilibox/src/tools/simulador-fgts-desenrola/client.js 
-- utilibox/src/tools/simulador-fgts-desenrola/content.md 
-- utilibox/src/tools/simulador-fgts-desenrola/index.astro 
-- utilibox/src/tools/simulador-fgts-desenrola/logic.js 
- Menstrual cycle simulator Interactive tool or reference for menstrual cycle simulator. 
-- utilibox/src/tools/simulador-ciclo-menstrual/client.js 
-- utilibox/src/tools/simulador-ciclo-menstrual/content.md 
-- utilibox/src/tools/simulador-ciclo-menstrual/index.astro 
-- utilibox/src/tools/simulador-ciclo-menstrual/logic.js 
- Ovulation calculator Interactive tool or reference for ovulation calculator. 
-- utilibox/src/tools/calculadora-ovulacao/client.js 
-- utilibox/src/tools/calculadora-ovulacao/content.md 
-- utilibox/src/tools/calculadora-ovulacao/index.astro 
-- utilibox/src/tools/calculadora-ovulacao/logic.js 
- Pregnancy duration calculator Interactive tool or reference for pregnancy duration calculator. 
-- utilibox/src/tools/calculadora-tempo-gestacao/client.js 
-- utilibox/src/tools/calculadora-tempo-gestacao/content.md 
-- utilibox/src/tools/calculadora-tempo-gestacao/index.astro 
-- utilibox/src/tools/calculadora-tempo-gestacao/Logic.js 
- Pregnancy weeks-to-months converter Interactive tool or reference for pregnancy weeks-to-months converter. 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/client.js 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/content.md 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/index.astro 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/logic.js 
- Gestational age calculator Interactive tool or reference for gestational age calculator. 
-- utilibox/src/tools/calculadora-idade-gestacional/client.js 
-- utilibox/src/tools/calculadora-idade-gestacional/content.md 
-- utilibox/src/tools/calculadora-idade-gestacional/index.astro 
-- utilibox/src/tools/calculadora-idade-gestacional/logic.js 
- Estimated due date Interactive tool or reference for estimated due date. 
-- utilibox/src/tools/dpp-data-provavel-parto/client.js 
-- utilibox/src/tools/dpp-data-provavel-parto/content.md 
-- utilibox/src/tools/dpp-data-provavel-parto/index.astro 
-- utilibox/src/tools/dpp-data-provavel-parto/logic.js 
- Week-by-week pregnancy reference Interactive tool or reference for week-by-week pregnancy reference. 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/client.js 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/content.md 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/index.astro 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/logic.js 
- Pregnancy timeline calculator Interactive tool or reference for pregnancy timeline calculator. 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/client.js 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/content.md 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/index.astro 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/Logic.js 
- Fetal growth percentile calculator Interactive tool or reference for fetal growth percentile calculator. 
-- utilibox/src/tools/percentil-crescimento-fetal/client.js 
-- utilibox/src/tools/percentil-crescimento-fetal/content.md 
-- utilibox/src/tools/percentil-crescimento-fetal/index.astro 
-- utilibox/src/tools/percentil-crescimento-fetal/logic.js 
- Advanced fertile-window calculator Interactive tool or reference for advanced fertile-window calculator. 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/client.js 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/content.md 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/index.astro 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/logic.js 
- Menstrual delay calculator Interactive tool or reference for menstrual delay calculator. 
-- utilibox/src/tools/calculadora-atraso-menstrual/client.js 
-- utilibox/src/tools/calculadora-atraso-menstrual/content.md 
-- utilibox/src/tools/calculadora-atraso-menstrual/index.astro 
-- utilibox/src/tools/calculadora-atraso-menstrual/logic.js 
- Pregnancy test date calculator Interactive tool or reference for pregnancy test date calculator. 
-- utilibox/src/tools/calculadora-data-teste-gravidez/client.js 
-- utilibox/src/tools/calculadora-data-teste-gravidez/content.md 
-- utilibox/src/tools/calculadora-data-teste-gravidez/index.astro 
-- utilibox/src/tools/calculadora-data-teste-gravidez/logic.js 
- Conception date calculator Interactive tool or reference for conception date calculator. 
-- utilibox/src/tools/calculadora-data-concepcao/client.js 
-- utilibox/src/tools/calculadora-data-concepcao/content.md 
-- utilibox/src/tools/calculadora-data-concepcao/index.astro 
-- utilibox/src/tools/calculadora-data-concepcao/logic.js 
- Gestational weight gain calculator Interactive tool or reference for gestational weight gain calculator. 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/client.js 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/content.md 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/index.astro 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/logic.js 
- Beta hCG by week calculator Interactive tool or reference for beta hcg by week calculator. 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/client.js 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/content.md 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/index.astro 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/logic.js 
- Heart-rate zone calculator Interactive tool or reference for heart-rate zone calculator. 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/client.js 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/content.md 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/index.astro 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/Logic.js 
- BMI calculator Interactive tool or reference for bmi calculator. 
-- utilibox/src/tools/calculadora-imc/client.js 
-- utilibox/src/tools/calculadora-imc/content.md 
-- utilibox/src/tools/calculadora-imc/index.astro 
-- utilibox/src/tools/calculadora-imc/logic.js 
- Daily calorie calculator Interactive tool or reference for daily calorie calculator. 
-- utilibox/src/tools/calculadora-de-calorias/client.js 
-- utilibox/src/tools/calculadora-de-calorias/content.md 
-- utilibox/src/tools/calculadora-de-calorias/index.astro 
-- utilibox/src/tools/calculadora-de-calorias/logic.js 
- Daily water intake calculator Interactive tool or reference for daily water intake calculator. 
-- utilibox/src/tools/calculadora-agua-diaria/client.js 
-- utilibox/src/tools/calculadora-agua-diaria/content.md 
-- utilibox/src/tools/calculadora-agua-diaria/index.astro 
-- utilibox/src/tools/calculadora-agua-diaria/logic.js 
- Calorie expenditure calculator Interactive tool or reference for calorie expenditure calculator. 
-- utilibox/src/tools/calculadora-gasto-calorico/client.js 
-- utilibox/src/tools/calculadora-gasto-calorico/content.md 
-- utilibox/src/tools/calculadora-gasto-calorico/index.astro 
-- utilibox/src/tools/calculadora-gasto-calorico/logic.js 
- Basal metabolic rate calculator Interactive tool or reference for basal metabolic rate calculator. 
-- utilibox/src/tools/calculadora-tmb/client.js 
-- utilibox/src/tools/calculadora-tmb/content.md 
-- utilibox/src/tools/calculadora-tmb/index.astro 
-- utilibox/src/tools/calculadora-tmb/logic.js 
- Running pace calculator Interactive tool or reference for running pace calculator. 
-- utilibox/src/tools/calculadora-pace-corrida/client.js 
-- utilibox/src/tools/calculadora-pace-corrida/content.md 
-- utilibox/src/tools/calculadora-pace-corrida/index.astro 
-- utilibox/src/tools/calculadora-pace-corrida/logic.js 
- Hair color formulation calculator Interactive tool or reference for hair color formulation calculator. 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/client.js 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/content.md 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/index.astro 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/logic.js 
- Dye and developer mixing calculator Interactive tool or reference for dye and developer mixing calculator. 
-- utilibox/src/tools/calculadora-mistura-tinta-oxidante/client.js 
-- utilibox/src/tools/calculadora-mistura-tinta-oxidante/content.md 
-- utilibox/src/tools/calculadora-mistura-tinta-oxidante/index.astro 
- Hair-color developer calculator Interactive tool or reference for hair-color developer calculator. 
-- utilibox/src/tools/calculadora-oxidante-coloracao/client.js 
-- utilibox/src/tools/calculadora-oxidante-coloracao/content.md 
-- utilibox/src/tools/calculadora-oxidante-coloracao/index.astro 
- Gray coverage calculator Interactive tool or reference for gray coverage calculator. 
-- utilibox/src/tools/calculadora-cobertura-brancos/client.js 
-- utilibox/src/tools/calculadora-cobertura-brancos/content.md 
-- utilibox/src/tools/calculadora-cobertura-brancos/index.astro 
- Underlying pigment calculator Interactive tool or reference for underlying pigment calculator. 
-- utilibox/src/tools/calculadora-fundo-clareamento/client.js 
-- utilibox/src/tools/calculadora-fundo-clareamento/content.md 
-- utilibox/src/tools/calculadora-fundo-clareamento/index.astro 
- Blonde toning calculator Interactive tool or reference for blonde toning calculator. 
-- utilibox/src/tools/calculadora-matizacao-loiro/client.js 
-- utilibox/src/tools/calculadora-matizacao-loiro/content.md 
-- utilibox/src/tools/calculadora-matizacao-loiro/index.astro 
- Hair pre-pigmentation calculator Interactive tool or reference for hair pre-pigmentation calculator. 
-- utilibox/src/tools/calculadora-pre-pigmentacao-capilar/client.js 
-- utilibox/src/tools/calculadora-pre-pigmentacao-capilar/content.md 
-- utilibox/src/tools/calculadora-pre-pigmentacao-capilar/index.astro 
- Hair dye quantity calculator Interactive tool or reference for hair dye quantity calculator. 
-- utilibox/src/tools/calculadora-quantidade-tinta-cabelo/client.js 
-- utilibox/src/tools/calculadora-quantidade-tinta-cabelo/content.md 
-- utilibox/src/tools/calculadora-quantidade-tinta-cabelo/index.astro 
- Hair-care schedule calculator Interactive tool or reference for hair-care schedule calculator. 
-- utilibox/src/tools/calculadora-cronograma-capilar/client.js 
-- utilibox/src/tools/calculadora-cronograma-capilar/content.md 
-- utilibox/src/tools/calculadora-cronograma-capilar/index.astro 
- Age calculator Interactive tool or reference for age calculator. 
-- utilibox/src/tools/calculadora-de-idade/client.js 
-- utilibox/src/tools/calculadora-de-idade/content.md 
-- utilibox/src/tools/calculadora-de-idade/index.astro 
-- utilibox/src/tools/calculadora-de-idade/logic.js 
- Time calculator Interactive tool or reference for time calculator. 
-- utilibox/src/tools/calculadora-de-tempo/client.js 
-- utilibox/src/tools/calculadora-de-tempo/content.md 
-- utilibox/src/tools/calculadora-de-tempo/index.astro 
-- utilibox/src/tools/calculadora-de-tempo/logic.js 
- Stopwatch and countdown timer Interactive tool or reference for stopwatch and countdown timer. 
-- utilibox/src/tools/relogio-cronometro-contador/client.js 
-- utilibox/src/tools/relogio-cronometro-contador/content.md 
-- utilibox/src/tools/relogio-cronometro-contador/index.astro 
-- utilibox/src/tools/relogio-cronometro-contador/logic.js 
- Online Pomodoro Interactive tool or reference for online pomodoro. 
-- utilibox/src/tools/pomodoro/client.js 
-- utilibox/src/tools/pomodoro/content.md 
-- utilibox/src/tools/pomodoro/index.astro 
-- utilibox/src/tools/pomodoro/logic.js 
- Business-day calculator Interactive tool or reference for business-day calculator. 
-- utilibox/src/tools/calculadora-dias-uteis/client.js 
-- utilibox/src/tools/calculadora-dias-uteis/content.md 
-- utilibox/src/tools/calculadora-dias-uteis/index.astro 
-- utilibox/src/tools/calculadora-dias-uteis/logic.js 
- Detailed age calculator Interactive tool or reference for detailed age calculator. 
-- utilibox/src/tools/calculadora-idade-completa/client.js 
-- utilibox/src/tools/calculadora-idade-completa/content.md 
-- utilibox/src/tools/calculadora-idade-completa/index.astro 
-- utilibox/src/tools/calculadora-idade-completa/logic.js 
- Measurement calculator Interactive tool or reference for measurement calculator. 
-- utilibox/src/tools/calculadora-de-medidas/client.js 
-- utilibox/src/tools/calculadora-de-medidas/content.md 
-- utilibox/src/tools/calculadora-de-medidas/index.astro 
-- utilibox/src/tools/calculadora-de-medidas/logic.js 
- Price per square meter calculator Interactive tool or reference for price per square meter calculator. 
-- utilibox/src/tools/calculadora-preco-por-m2/client.js 
-- utilibox/src/tools/calculadora-preco-por-m2/content.md 
-- utilibox/src/tools/calculadora-preco-por-m2/index.astro 
-- utilibox/src/tools/calculadora-preco-por-m2/logic.js 
- Floor and tile calculator Interactive tool or reference for floor and tile calculator. 
-- utilibox/src/tools/calculadora-piso-azulejo/client.js 
-- utilibox/src/tools/calculadora-piso-azulejo/content.md 
-- utilibox/src/tools/calculadora-piso-azulejo/index.astro 
-- utilibox/src/tools/calculadora-piso-azulejo/logic.js 
- Paint quantity calculator Interactive tool or reference for paint quantity calculator. 
-- utilibox/src/tools/calculadora-de-tinta/client.js 
-- utilibox/src/tools/calculadora-de-tinta/content.md 
-- utilibox/src/tools/calculadora-de-tinta/index.astro 
-- utilibox/src/tools/calculadora-de-tinta/logic.js 
- Electricity consumption calculator Interactive tool or reference for electricity consumption calculator. 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/client.js 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/content.md 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/index.astro 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/logic.js 
- Barbecue quantity calculator Interactive tool or reference for barbecue quantity calculator. 
-- utilibox/src/tools/calculadora-de-churrasco/client.js 
-- utilibox/src/tools/calculadora-de-churrasco/content.md 
-- utilibox/src/tools/calculadora-de-churrasco/index.astro 
-- utilibox/src/tools/calculadora-de-churrasco/logic.js 
- Feijoada quantity calculator Interactive tool or reference for feijoada quantity calculator. 
-- utilibox/src/tools/calculadora-de-feijoada/client.js 
-- utilibox/src/tools/calculadora-de-feijoada/content.md 
-- utilibox/src/tools/calculadora-de-feijoada/index.astro 
-- utilibox/src/tools/calculadora-de-feijoada/logic.js 
- Baby name generator Interactive tool or reference for baby name generator. 
-- utilibox/src/tools/gerador-nomes-bebes/client.js 
-- utilibox/src/tools/gerador-nomes-bebes/content.md 
-- utilibox/src/tools/gerador-nomes-bebes/index.astro 
-- utilibox/src/tools/gerador-nomes-bebes/logic.js 
- Pet name generator Interactive tool or reference for pet name generator. 
-- utilibox/src/tools/gerador-nomes-pets/client.js 
-- utilibox/src/tools/gerador-nomes-pets/content.md 
-- utilibox/src/tools/gerador-nomes-pets/index.astro 
-- utilibox/src/tools/gerador-nomes-pets/logic.js 
- Fuel consumption and cost per kilometer Interactive tool or reference for fuel consumption and cost per kilometer. 
-- utilibox/src/tools/calculadora-consumo-combustivel/client.js 
-- utilibox/src/tools/calculadora-consumo-combustivel/content.md 
-- utilibox/src/tools/calculadora-consumo-combustivel/index.astro 
-- utilibox/src/tools/calculadora-consumo-combustivel/logic.js 
- World Cup 2026 sticker album calculator Interactive tool or reference for world cup 2026 sticker album calculator. 
-- utilibox/src/tools/calculadora-album-copa-2026/client.js 
-- utilibox/src/tools/calculadora-album-copa-2026/content.md 
-- utilibox/src/tools/calculadora-album-copa-2026/index.astro 
-- utilibox/src/tools/calculadora-album-copa-2026/logic.js 
- Brazil World Cup 2026 schedule reference Interactive tool or reference for brazil world cup 2026 schedule reference. 
-- utilibox/src/tools/jogos-brasil-copa-2026/client.js 
-- utilibox/src/tools/jogos-brasil-copa-2026/content.md 
-- utilibox/src/tools/jogos-brasil-copa-2026/index.astro 
- Italian citizenship eligibility calculator Interactive tool or reference for italian citizenship eligibility calculator. 
-- utilibox/src/tools/cidadania-italiana/client.js 
-- utilibox/src/tools/cidadania-italiana/content.md 
-- utilibox/src/tools/cidadania-italiana/index.astro 
- Online vector editor Interactive tool or reference for online vector editor. 
-- utilibox/src/tools/editor-vetorial/client.js 
-- utilibox/src/tools/editor-vetorial/content.md 
-- utilibox/src/tools/editor-vetorial/index.astro 
- Online 3D editor Interactive tool or reference for online 3d editor. 
-- utilibox/src/tools/editor-3d/content.md 
-- utilibox/src/tools/editor-3d/index.astro 
- AI Instagram carousel generator Interactive tool or reference for ai instagram carousel generator. 
-- utilibox/src/tools/gerador-carrossel-instagram/client.js 
-- utilibox/src/tools/gerador-carrossel-instagram/content.md 
-- utilibox/src/tools/gerador-carrossel-instagram/index.astro 
- Customer lifetime value and acquisition cost — Google Ads Interactive tool or reference for customer lifetime value and acquisition cost — google ads. 
-- utilibox/src/tools/calculadora-ltv-cac-ads/client.js 
-- utilibox/src/tools/calculadora-ltv-cac-ads/content.md 
-- utilibox/src/tools/calculadora-ltv-cac-ads/index.astro 
-- utilibox/src/tools/calculadora-ltv-cac-ads/logic.js 
- Currency converter Interactive tool or reference for currency converter. 
-- utilibox/src/tools/conversor-de-moedas/client.js 
-- utilibox/src/tools/conversor-de-moedas/content.md 
-- utilibox/src/tools/conversor-de-moedas/index.astro 
-- utilibox/src/tools/conversor-de-moedas/logic.js 
- Basic calculator Interactive tool or reference for basic calculator. 
-- utilibox/src/tools/calculadora-simples/client.js 
-- utilibox/src/tools/calculadora-simples/content.md 
-- utilibox/src/tools/calculadora-simples/index.astro 
-- utilibox/src/tools/calculadora-simples/logic.js 
- Rule-of-three calculator Interactive tool or reference for rule-of-three calculator. 
-- utilibox/src/tools/calculadora-regra-de-tres/client.js 
-- utilibox/src/tools/calculadora-regra-de-tres/content.md 
-- utilibox/src/tools/calculadora-regra-de-tres/index.astro 
-- utilibox/src/tools/calculadora-regra-de-tres/logic.js 
- Unit converter Interactive tool or reference for unit converter. 
-- utilibox/src/tools/conversor-unidades/client.js 
-- utilibox/src/tools/conversor-unidades/content.md 
-- utilibox/src/tools/conversor-unidades/index.astro 
-- utilibox/src/tools/conversor-unidades/logic.js 
- Temperature converter Interactive tool or reference for temperature converter. 
-- utilibox/src/tools/conversor-temperatura/client.js 
-- utilibox/src/tools/conversor-temperatura/content.md 
-- utilibox/src/tools/conversor-temperatura/index.astro 
-- utilibox/src/tools/conversor-temperatura/logic.js 
- Rate converter Interactive tool or reference for rate converter. 
-- utilibox/src/tools/conversor-de-taxas/client.js 
-- utilibox/src/tools/conversor-de-taxas/content.md 
-- utilibox/src/tools/conversor-de-taxas/index.astro 
-- utilibox/src/tools/conversor-de-taxas/logic.js 
- Basic employment termination calculator Interactive tool or reference for basic employment termination calculator. 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/client.js 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/content.md 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/index.astro 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/logic.js 
- Basic debt adjustment calculator Interactive tool or reference for basic debt adjustment calculator. 
-- utilibox/src/tools/atualizacao-de-debitos-simples/client.js 
-- utilibox/src/tools/atualizacao-de-debitos-simples/content.md 
-- utilibox/src/tools/atualizacao-de-debitos-simples/index.astro 
-- utilibox/src/tools/atualizacao-de-debitos-simples/logic.js 
- PDF to JPG converter Interactive tool or reference for pdf to jpg converter. 
-- utilibox/src/data/tools.js 
- JPG to PDF converter Interactive tool or reference for jpg to pdf converter. 
-- utilibox/src/tools/conversor-jpg-para-pdf/client.js 
-- utilibox/src/tools/conversor-jpg-para-pdf/content.md 
-- utilibox/src/tools/conversor-jpg-para-pdf/index.astro 
-- utilibox/src/tools/conversor-jpg-para-pdf/logic.js 
- JPG/PNG image compressor Interactive tool or reference for jpg/png image compressor. 
-- utilibox/src/tools/compressor-de-imagem/client.js 
-- utilibox/src/tools/compressor-de-imagem/content.md 
-- utilibox/src/tools/compressor-de-imagem/index.astro 
-- utilibox/src/tools/compressor-de-imagem/logic.js 
- PDF compressor Interactive tool or reference for pdf compressor. 
-- utilibox/src/data/tools.js 
- Word to PDF converter Interactive tool or reference for word to pdf converter. 
-- utilibox/src/tools/conversor-word-para-pdf/client.js 
-- utilibox/src/tools/conversor-word-para-pdf/content.md 
-- utilibox/src/tools/conversor-word-para-pdf/index.astro 
- PDF to Word converter Interactive tool or reference for pdf to word converter. 
-- utilibox/src/tools/conversor-pdf-para-word/client.js 
-- utilibox/src/tools/conversor-pdf-para-word/content.md 
-- utilibox/src/tools/conversor-pdf-para-word/index.astro 
- Basic PDF signature tool Interactive tool or reference for basic pdf signature tool. 
-- utilibox/src/data/tools.js 
- Split PDF Interactive tool or reference for split pdf. 
-- utilibox/src/tools/dividir-pdf/client.js 
-- utilibox/src/tools/dividir-pdf/content.md 
-- utilibox/src/tools/dividir-pdf/index.astro 
-- utilibox/src/tools/dividir-pdf/logic.js 
- Merge PDFs Interactive tool or reference for merge pdfs. 
-- utilibox/src/tools/unir-pdf/client.js 
-- utilibox/src/tools/unir-pdf/content.md 
-- utilibox/src/tools/unir-pdf/index.astro 
-- utilibox/src/tools/unir-pdf/logic.js 
- PDF viewer Interactive tool or reference for pdf viewer. 
-- utilibox/src/tools/visualizador-de-pdf/client.js 
-- utilibox/src/tools/visualizador-de-pdf/content.md 
-- utilibox/src/tools/visualizador-de-pdf/index.astro 
- QR code generator Interactive tool or reference for qr code generator. 
-- utilibox/src/tools/gerador-qr-code/client.js 
-- utilibox/src/tools/gerador-qr-code/content.md 
-- utilibox/src/tools/gerador-qr-code/index.astro 
-- utilibox/src/tools/gerador-qr-code/logic.js 
- Email signature generator Interactive tool or reference for email signature generator. 
-- utilibox/src/data/tools.js 
- Narra Interactive tool or reference for narra. 
-- utilibox/src/tools/narra/acquisitionAttribution.js 
-- utilibox/src/tools/narra/acquisitionAttribution.test.js 
-- utilibox/src/tools/narra/aiApply.js 
-- utilibox/src/tools/narra/aiApply.test.js 
-- utilibox/src/tools/narra/aiContext.js 
-- utilibox/src/tools/narra/aiContext.test.js 
-- utilibox/src/tools/narra/aiEvaluationNotes.js 
-- utilibox/src/tools/narra/aiEvaluationNotes.test.js 
-- utilibox/src/tools/narra/aiImportFlow.js 
-- utilibox/src/tools/narra/aiImportFlow.test.js 
-- utilibox/src/tools/narra/aiOrganization.js 
-- utilibox/src/tools/narra/aiOrganization.test.js 
-- utilibox/src/tools/narra/aiSafety.js 
-- utilibox/src/tools/narra/aiSafety.test.js 
-- utilibox/src/tools/narra/aiWritingCompletion.js 
-- utilibox/src/tools/narra/aiWritingCompletion.test.js 
-- utilibox/src/tools/narra/analyzeObra.js 
-- utilibox/src/tools/narra/analyzeObra.test.js 
-- utilibox/src/tools/narra/blockEditing.js 
-- utilibox/src/tools/narra/blockEditing.test.js 
-- utilibox/src/tools/narra/blockLineMove.js 
-- utilibox/src/tools/narra/blockLineMove.test.js 
-- utilibox/src/tools/narra/blockPresentation.js 
-- utilibox/src/tools/narra/blockPresentation.test.js 
-- utilibox/src/tools/narra/blockPromptContract.js 
-- utilibox/src/tools/narra/blockPromptContract.test.js 
-- utilibox/src/tools/narra/blockSurfaces.test.js 
-- utilibox/src/tools/narra/canvasAiContext.js 
-- utilibox/src/tools/narra/canvasAiContext.test.js 
-- utilibox/src/tools/narra/characterRelationMap.js 
-- utilibox/src/tools/narra/characterRelationMap.test.js 
-- utilibox/src/tools/narra/client.js 
-- utilibox/src/tools/narra/cloudReliability.js 
-- utilibox/src/tools/narra/cloudReliability.test.js 
-- utilibox/src/tools/narra/comicStats.js 
-- utilibox/src/tools/narra/comicStats.test.js 
-- utilibox/src/tools/narra/content.md 
-- utilibox/src/tools/narra/contentLimits.js 
-- utilibox/src/tools/narra/contentLimits.test.js 
-- utilibox/src/tools/narra/dashboardMetrics.js 
-- utilibox/src/tools/narra/dashboardMetrics.test.js 
-- utilibox/src/tools/narra/editorShim.js 
-- utilibox/src/tools/narra/editorSurface.js 
-- utilibox/src/tools/narra/editorSurface.test.js 
-- utilibox/src/tools/narra/ENCRYPTION_TODO.md 
-- utilibox/src/tools/narra/entityPropertySchema.js 
-- utilibox/src/tools/narra/entityPropertySchema.test.js 
-- utilibox/src/tools/narra/entityRelationMap.js 
-- utilibox/src/tools/narra/entityRelationMap.test.js 
-- utilibox/src/tools/narra/exportAmazonEpub.js 
-- utilibox/src/tools/narra/exportAmazonEpub.test.js 
-- utilibox/src/tools/narra/exportBookStructure.js 
-- utilibox/src/tools/narra/exportBookStructure.test.js 
-- utilibox/src/tools/narra/exportUiclapPdf.js 
-- utilibox/src/tools/narra/exportUiclapPdf.test.js 
-- utilibox/src/tools/narra/fileNames.js 
-- utilibox/src/tools/narra/fileNames.test.js 
-- utilibox/src/tools/narra/folderPaths.js 
-- utilibox/src/tools/narra/folderPaths.test.js 
-- utilibox/src/tools/narra/formatMockContent.js 
-- utilibox/src/tools/narra/formatMockContent.test.js 
-- utilibox/src/tools/narra/formatMockGaps.js 
-- utilibox/src/tools/narra/formatMockGaps.test.js 
-- utilibox/src/tools/narra/frontmatter.js 
-- utilibox/src/tools/narra/guidedFlow.js 
-- utilibox/src/tools/narra/guidedFlow.test.js 
-- utilibox/src/tools/narra/guidedRecipes.js 
-- utilibox/src/tools/narra/guidedRecipes.test.js 
-- utilibox/src/tools/narra/guidedWizard.test.js 
-- utilibox/src/tools/narra/hqLayout.js 
-- utilibox/src/tools/narra/hqLayout.test.js 
-- utilibox/src/tools/narra/importedEntityProperties.js 
-- utilibox/src/tools/narra/importedEntityProperties.test.js 
-- utilibox/src/tools/narra/importedWorkStructure.js 
-- utilibox/src/tools/narra/importedWorkStructure.test.js 
-- utilibox/src/tools/narra/importFormatDetection.js 
-- utilibox/src/tools/narra/importFormatDetection.test.js 
-- utilibox/src/tools/narra/importRelations.js 
-- utilibox/src/tools/narra/importRelations.test.js 
-- utilibox/src/tools/narra/importScriptBlocks.js 
-- utilibox/src/tools/narra/importScriptBlocks.test.js 
-- utilibox/src/tools/narra/index.astro 
-- utilibox/src/tools/narra/indexedDbManager.js 
-- utilibox/src/tools/narra/indexedDbManager.test.js 
-- utilibox/src/tools/narra/initialVaultState.js 
-- utilibox/src/tools/narra/initialVaultState.test.js 
-- utilibox/src/tools/narra/interactiveStory.js 
-- utilibox/src/tools/narra/interactiveStory.test.js 
-- utilibox/src/tools/narra/legacyMigration.js 
-- utilibox/src/tools/narra/legacyMigration.test.js 
-- utilibox/src/tools/narra/livePreview.js 
-- utilibox/src/tools/narra/livePreview.test.js 
-- utilibox/src/tools/narra/localUnderstandDiagnostic.js 
-- utilibox/src/tools/narra/localUnderstandDiagnostic.test.js 
-- utilibox/src/tools/narra/manuscriptCompiler.js 
-- utilibox/src/tools/narra/manuscriptCompiler.test.js 
-- utilibox/src/tools/narra/manuscriptImport.js 
-- utilibox/src/tools/narra/manuscriptImport.test.js 
-- utilibox/src/tools/narra/markdownFormatting.js 
-- utilibox/src/tools/narra/markdownFormatting.test.js 
-- utilibox/src/tools/narra/mockWork.js 
-- utilibox/src/tools/narra/mockWork.test.js 
-- utilibox/src/tools/narra/narraAcknowledgements.js 
-- utilibox/src/tools/narra/narraAcknowledgements.test.js 
-- utilibox/src/tools/narra/narraBlocks.js 
-- utilibox/src/tools/narra/narraBlocks.test.js 
-- utilibox/src/tools/narra/narraContextEngine.js 
-- utilibox/src/tools/narra/narraContextEngine.test.js 
-- utilibox/src/tools/narra/narraCoverageMatrix.js 
-- utilibox/src/tools/narra/narraCoverageMatrix.test.js 
-- utilibox/src/tools/narra/narraCreateFlows.js 
-- utilibox/src/tools/narra/narraCreateFlows.test.js 
-- utilibox/src/tools/narra/narraCreationWeights.js 
-- utilibox/src/tools/narra/narraCreationWeights.test.js 
-- utilibox/src/tools/narra/narraDiagnosticReadiness.js 
-- utilibox/src/tools/narra/narraDiagnosticReadiness.test.js 
-- utilibox/src/tools/narra/narraExport.js 
-- utilibox/src/tools/narra/narraExport.test.js 
-- utilibox/src/tools/narra/narraGapEngine.js 
-- utilibox/src/tools/narra/narraGapEngine.test.js 
-- utilibox/src/tools/narra/narraGoalTracking.js 
-- utilibox/src/tools/narra/narraGoalTracking.test.js 
-- utilibox/src/tools/narra/narraNextBestAction.js 
-- utilibox/src/tools/narra/narraNextBestAction.test.js 
-- utilibox/src/tools/narra/narraObraPhase.js 
-- utilibox/src/tools/narra/narraObraPhase.test.js 
-- utilibox/src/tools/narra/narraOpenQuestions.js 
-- utilibox/src/tools/narra/narraOpenQuestions.test.js 
-- utilibox/src/tools/narra/narraRelationHealth.js 
-- utilibox/src/tools/narra/narraRelationHealth.test.js 
-- utilibox/src/tools/narra/narraSemanticFindings.js 
-- utilibox/src/tools/narra/narraSemanticFindings.test.js 
-- utilibox/src/tools/narra/narraStructuralGapEngine.js 
-- utilibox/src/tools/narra/narraStructuralGapEngine.test.js 
-- utilibox/src/tools/narra/narrativeEntities.js 
-- utilibox/src/tools/narra/narrativeEntities.test.js 
-- utilibox/src/tools/narra/narraValidationEngine.js 
-- utilibox/src/tools/narra/narraValidationEngine.test.js 
-- utilibox/src/tools/narra/narraWritingSession.js 
-- utilibox/src/tools/narra/narraWritingSession.test.js 
-- utilibox/src/tools/narra/noteDocumentExport.js 
-- utilibox/src/tools/narra/noteDocumentExport.test.js 
-- utilibox/src/tools/narra/noteTemplateCatalog.js 
-- utilibox/src/tools/narra/noteTemplateCatalog.test.js 
-- utilibox/src/tools/narra/noteTitleLookup.js 
-- utilibox/src/tools/narra/noteTitleLookup.test.js 
-- utilibox/src/tools/narra/obraClientContract.test.js 
-- utilibox/src/tools/narra/obraDashboard.js 
-- utilibox/src/tools/narra/obraDashboard.test.js 
-- utilibox/src/tools/narra/obraFamilyPhase.js 
-- utilibox/src/tools/narra/obraFindings.js 
-- utilibox/src/tools/narra/obraFindings.test.js 
-- utilibox/src/tools/narra/obraGateR3.test.js 
-- utilibox/src/tools/narra/obraIaPorFormato.test.js 
-- utilibox/src/tools/narra/obraLens.js 
-- utilibox/src/tools/narra/obraLens.test.js 
-- utilibox/src/tools/narra/obraLensSlots.test.js 
-- utilibox/src/tools/narra/obraProgressByFormat.js 
-- utilibox/src/tools/narra/obraProgressByFormat.test.js 
-- utilibox/src/tools/narra/obraRegressaoRomance.test.js 
-- utilibox/src/tools/narra/obraRomanceSnapshot.js 
-- utilibox/src/tools/narra/obraTestFixtures.js 
-- utilibox/src/tools/narra/offlineObraInsights.js 
-- utilibox/src/tools/narra/offlineObraInsights.test.js 
-- utilibox/src/tools/narra/onboardingBlueprints.js 
-- utilibox/src/tools/narra/onboardingComposer.js 
-- utilibox/src/tools/narra/onboardingComposer.test.js 
-- utilibox/src/tools/narra/onboardingDraft.js 
-- utilibox/src/tools/narra/onboardingDraft.test.js 
-- utilibox/src/tools/narra/onboardingEngine.js 
-- utilibox/src/tools/narra/onboardingEngine.test.js 
-- utilibox/src/tools/narra/onboardingMissions.js 
-- utilibox/src/tools/narra/onboardingMissions.test.js 
-- utilibox/src/tools/narra/onboardingMock.js 
-- utilibox/src/tools/narra/onboardingMock.test.js 
-- utilibox/src/tools/narra/onboardingSeeds.js 
-- utilibox/src/tools/narra/onboardingSeeds.test.js 
-- utilibox/src/tools/narra/onboardingTelemetry.js 
-- utilibox/src/tools/narra/onboardingTelemetry.test.js 
-- utilibox/src/tools/narra/onboardingWizardLogic.js 
-- utilibox/src/tools/narra/onboardingWizardLogic.test.js 
-- utilibox/src/tools/narra/pageEngine.js 
-- utilibox/src/tools/narra/paragraphActions.js 
-- utilibox/src/tools/narra/paragraphActions.test.js 
-- utilibox/src/tools/narra/persistenceContract.test.js 
-- utilibox/src/tools/narra/plannerDrag.js 
-- utilibox/src/tools/narra/plannerDrag.test.js 
-- utilibox/src/tools/narra/plotlineNotes.test.js 
-- utilibox/src/tools/narra/poemForms.js 
-- utilibox/src/tools/narra/poemForms.test.js 
-- utilibox/src/tools/narra/profileScope.js 
-- utilibox/src/tools/narra/profileScope.test.js 
-- utilibox/src/tools/narra/projectSchemas.js 
-- utilibox/src/tools/narra/projectSchemas.test.js 
-- utilibox/src/tools/narra/relationProperties.js 
-- utilibox/src/tools/narra/relationProperties.test.js 
-- utilibox/src/tools/narra/resourceLimits.js 
-- utilibox/src/tools/narra/resourceLimits.test.js 
-- utilibox/src/tools/narra/seedSampler.js 
-- utilibox/src/tools/narra/seedSampler.test.js 
-- utilibox/src/tools/narra/semanticFindingFamilies.js 
-- utilibox/src/tools/narra/semanticFindingsPrompt.js 
-- utilibox/src/tools/narra/semanticFindingsPrompt.test.js 
-- utilibox/src/tools/narra/semanticRefreshPolicy.js 
-- utilibox/src/tools/narra/semanticRefreshPolicy.test.js 
-- utilibox/src/tools/narra/spellcheck.js 
-- utilibox/src/tools/narra/spellcheck.test.js 
-- utilibox/src/tools/narra/spellcheckWorker.js 
-- utilibox/src/tools/narra/stageAndScreen.js 
-- utilibox/src/tools/narra/stageAndScreen.test.js 
-- utilibox/src/tools/narra/storyReview.js 
-- utilibox/src/tools/narra/storyReview.test.js 
-- utilibox/src/tools/narra/structureOutline.js 
-- utilibox/src/tools/narra/structureOutline.test.js 
-- utilibox/src/tools/narra/syncPolicy.js 
-- utilibox/src/tools/narra/syncPolicy.test.js 
-- utilibox/src/tools/narra/telemetry.js 
-- utilibox/src/tools/narra/telemetry.test.js 
-- utilibox/src/tools/narra/titlePolicy.js 
-- utilibox/src/tools/narra/titlePolicy.test.js 
-- utilibox/src/tools/narra/understandUpdate.js 
-- utilibox/src/tools/narra/understandUpdate.test.js 
-- utilibox/src/tools/narra/understandUpdateState.js 
-- utilibox/src/tools/narra/understandUpdateState.test.js 
-- utilibox/src/tools/narra/vaultExamples.js 
-- utilibox/src/tools/narra/vaultExamples.test.js 
-- utilibox/src/tools/narra/versionCompare.js 
-- utilibox/src/tools/narra/versionCompare.test.js 
-- utilibox/src/tools/narra/writingCompanion.js 
-- utilibox/src/tools/narra/writingCompanion.test.js 
- UtiliNotas — connected Markdown editor Interactive tool or reference for utilinotas — connected markdown editor. 
-- utilibox/src/tools/utilinotas/aiApply.js 
-- utilibox/src/tools/utilinotas/aiApply.test.js 
-- utilibox/src/tools/utilinotas/aiContext.js 
-- utilibox/src/tools/utilinotas/aiContext.test.js 
-- utilibox/src/tools/utilinotas/aiEvaluationNotes.js 
-- utilibox/src/tools/utilinotas/aiEvaluationNotes.test.js 
-- utilibox/src/tools/utilinotas/aiOrganization.js 
-- utilibox/src/tools/utilinotas/aiOrganization.test.js 
-- utilibox/src/tools/utilinotas/aiSafety.js 
-- utilibox/src/tools/utilinotas/aiSafety.test.js 
-- utilibox/src/tools/utilinotas/canvasAiContext.js 
-- utilibox/src/tools/utilinotas/canvasAiContext.test.js 
-- utilibox/src/tools/utilinotas/client.js 
-- utilibox/src/tools/utilinotas/cloudReliability.js 
-- utilibox/src/tools/utilinotas/cloudReliability.test.js 
-- utilibox/src/tools/utilinotas/content.md 
-- utilibox/src/tools/utilinotas/ENCRYPTION_TODO.md 
-- utilibox/src/tools/utilinotas/fileNames.js 
-- utilibox/src/tools/utilinotas/fileNames.test.js 
-- utilibox/src/tools/utilinotas/folderPaths.js 
-- utilibox/src/tools/utilinotas/folderPaths.test.js 
-- utilibox/src/tools/utilinotas/index.astro 
-- utilibox/src/tools/utilinotas/indexedDbManager.js 
-- utilibox/src/tools/utilinotas/indexedDbManager.test.js 
-- utilibox/src/tools/utilinotas/initialVaultState.js 
-- utilibox/src/tools/utilinotas/initialVaultState.test.js 
-- utilibox/src/tools/utilinotas/markdownFormatting.js 
-- utilibox/src/tools/utilinotas/markdownFormatting.test.js 
-- utilibox/src/tools/utilinotas/noteDocumentExport.js 
-- utilibox/src/tools/utilinotas/noteDocumentExport.test.js 
-- utilibox/src/tools/utilinotas/noteTemplateCatalog.js 
-- utilibox/src/tools/utilinotas/noteTemplateCatalog.test.js 
-- utilibox/src/tools/utilinotas/paragraphActions.js 
-- utilibox/src/tools/utilinotas/paragraphActions.test.js 
-- utilibox/src/tools/utilinotas/resourceLimits.js 
-- utilibox/src/tools/utilinotas/resourceLimits.test.js 
-- utilibox/src/tools/utilinotas/storyReview.js 
-- utilibox/src/tools/utilinotas/storyReviewCards.js 
-- utilibox/src/tools/utilinotas/storyReviewCards.test.js 
-- utilibox/src/tools/utilinotas/syncPolicy.js 
-- utilibox/src/tools/utilinotas/syncPolicy.test.js 
-- utilibox/src/tools/utilinotas/telemetry.js 
-- utilibox/src/tools/utilinotas/UTILINOTAS_PRODUCT_TODO.md 
-- utilibox/src/tools/utilinotas/vaultCrashRecovery.js 
-- utilibox/src/tools/utilinotas/vaultCrashRecovery.test.js 
-- utilibox/src/tools/utilinotas/vaultExamples.js 
-- utilibox/src/tools/utilinotas/vaultExamples.test.js 
-- utilibox/src/tools/utilinotas/vaultImportFormats.js 
-- utilibox/src/tools/utilinotas/vaultImportFormats.test.js 
-- utilibox/src/tools/utilinotas/visualMarkdown.js 
-- utilibox/src/tools/utilinotas/visualMarkdown.test.js 
- Anki flashcards — spaced repetition Interactive tool or reference for anki flashcards — spaced repetition. 
-- utilibox/src/tools/anki-flashcards/client.js 
-- utilibox/src/tools/anki-flashcards/content.md 
-- utilibox/src/tools/anki-flashcards/index.astro 
-- utilibox/src/tools/anki-flashcards/logic.js 
- Anki flashcards — English edition Interactive tool or reference for anki flashcards — english edition. 
-- utilibox/src/tools/anki-flashcards-en/client.js 
-- utilibox/src/tools/anki-flashcards-en/content.md 
-- utilibox/src/tools/anki-flashcards-en/index.astro 
- AHP Online Interactive tool or reference for ahp online. 
-- utilibox/src/tools/ahp-online/client.js 
-- utilibox/src/tools/ahp-online/content.md 
-- utilibox/src/tools/ahp-online/index.astro 
- AHP Online — English edition Interactive tool or reference for ahp online — english edition. 
-- utilibox/src/tools/ahp-online-free/client.js 
-- utilibox/src/tools/ahp-online-free/content.md 
-- utilibox/src/tools/ahp-online-free/index.astro 
- PROMETHEE Online Interactive tool or reference for promethee online. 
-- utilibox/src/tools/promethee/client.js 
-- utilibox/src/tools/promethee/content.md 
-- utilibox/src/tools/promethee/index.astro 
- PROMETHEE — English edition Interactive tool or reference for promethee — english edition. 
-- utilibox/src/tools/promethee-analysis/content.md 
-- utilibox/src/tools/promethee-analysis/index.astro 
- TOPSIS Online Interactive tool or reference for topsis online. 
-- utilibox/src/tools/topsis/client.js 
-- utilibox/src/tools/topsis/content.md 
-- utilibox/src/tools/topsis/index.astro 
- TOPSIS — English edition Interactive tool or reference for topsis — english edition. 
-- utilibox/src/tools/topsis-online/content.md 
-- utilibox/src/tools/topsis-online/index.astro 
- Guided decision making Interactive tool or reference for guided decision making. 
-- utilibox/src/tools/tomada-de-decisao/client.js 
-- utilibox/src/tools/tomada-de-decisao/content.md 
-- utilibox/src/tools/tomada-de-decisao/index.astro 
- Decision Maker — English edition Interactive tool or reference for decision maker — english edition. 
-- utilibox/src/tools/decision-maker/client.js 
-- utilibox/src/tools/decision-maker/content.md 
-- utilibox/src/tools/decision-maker/index.astro 
- PDSA Manager Interactive tool or reference for pdsa manager. 
-- utilibox/src/tools/pdsa-manager/client.js 
-- utilibox/src/tools/pdsa-manager/content.md 
-- utilibox/src/tools/pdsa-manager/index.astro 
- VSM Online Interactive tool or reference for vsm online. 
-- utilibox/src/tools/vsm/client.js 
-- utilibox/src/tools/vsm/content.md 
-- utilibox/src/tools/vsm/index.astro 
- SMED Online Interactive tool or reference for smed online. 
-- utilibox/src/tools/smed/client.js 
-- utilibox/src/tools/smed/content.md 
-- utilibox/src/tools/smed/index.astro 
- A3 problem-solving report Interactive tool or reference for a3 problem-solving report. 
-- utilibox/src/tools/folha-a3/client.js 
-- utilibox/src/tools/folha-a3/content.md 
-- utilibox/src/tools/folha-a3/index.astro 
- Pareto analysis Interactive tool or reference for pareto analysis. 
-- utilibox/src/tools/analise-pareto/client.js 
-- utilibox/src/tools/analise-pareto/content.md 
-- utilibox/src/tools/analise-pareto/index.astro 
-- utilibox/src/tools/analise-pareto/logic.js 
- GUT prioritization matrix Interactive tool or reference for gut prioritization matrix. 
-- utilibox/src/tools/matriz-gut/client.js 
-- utilibox/src/tools/matriz-gut/content.md 
-- utilibox/src/tools/matriz-gut/index.astro 
-- utilibox/src/tools/matriz-gut/presets.js 
- Eisenhower matrix Interactive tool or reference for eisenhower matrix. 
-- utilibox/src/tools/matriz-eisenhower/client.js 
-- utilibox/src/tools/matriz-eisenhower/content.md 
-- utilibox/src/tools/matriz-eisenhower/index.astro 
-- utilibox/src/tools/matriz-eisenhower/presets.js 
- Guided SWOT matrix Interactive tool or reference for guided swot matrix. 
-- utilibox/src/tools/matriz-swot/client.js 
-- utilibox/src/tools/matriz-swot/content.md 
-- utilibox/src/tools/matriz-swot/index.astro 
-- utilibox/src/tools/matriz-swot/logic.js 
- Critical-to-Customer tree Interactive tool or reference for critical-to-customer tree. 
-- utilibox/src/tools/arvore-ctc/client.js 
-- utilibox/src/tools/arvore-ctc/content.md 
-- utilibox/src/tools/arvore-ctc/index.astro 
-- utilibox/src/tools/arvore-ctc/logic.js 
- Expected monetary value decision tree Interactive tool or reference for expected monetary value decision tree. 
-- utilibox/src/tools/arvore-decisao/client.js 
-- utilibox/src/tools/arvore-decisao/content.md 
-- utilibox/src/tools/arvore-decisao/index.astro 
-- utilibox/src/tools/arvore-decisao/logic.js 
- ML classification tree Interactive tool or reference for ml classification tree. 
-- utilibox/src/tools/arvore-decisao-ml/client.js 
-- utilibox/src/tools/arvore-decisao-ml/content.md 
-- utilibox/src/tools/arvore-decisao-ml/index.astro 
-- utilibox/src/tools/arvore-decisao-ml/logic.js 
- Queueing theory Interactive tool or reference for queueing theory. 
-- utilibox/src/tools/teoria-das-filas/client.js 
-- utilibox/src/tools/teoria-das-filas/content.md 
-- utilibox/src/tools/teoria-das-filas/index.astro 
-- utilibox/src/tools/teoria-das-filas/logic.js 
- Queueing theory — English edition Interactive tool or reference for queueing theory — english edition. 
-- utilibox/src/tools/queueing-theory/client.js 
-- utilibox/src/tools/queueing-theory/content.md 
-- utilibox/src/tools/queueing-theory/index.astro 
-- utilibox/src/tools/queueing-theory/logic.js 
-- utilibox/src/tools/queueing-theory/SYNC_VALIDATION.md 
- Barnes time study and standard-time calculator Interactive tool or reference for barnes time study and standard-time calculator. 
-- utilibox/src/tools/estudo-de-tempos/client.js 
-- utilibox/src/tools/estudo-de-tempos/content.md 
-- utilibox/src/tools/estudo-de-tempos/index.astro 
+ Tool Application Links / references 
+ Daily pro rata simple interest calculator Interactive tool or reference for daily pro rata simple interest calculator. Open tool — juros-simples-pro-rata-dia (https://utiliboxapp.com.br/tools/juros-simples-pro-rata-dia/)
+ 
+ Simple interest calculator Interactive tool or reference for simple interest calculator. Open tool — calculadora-juros-simples (https://utiliboxapp.com.br/tools/calculadora-juros-simples/)
+ 
+ Compound interest calculator Interactive tool or reference for compound interest calculator. Open tool — calculadora-juros-compostos (https://utiliboxapp.com.br/tools/calculadora-juros-compostos/)
+ 
+ Initial capital from simple interest Interactive tool or reference for initial capital from simple interest. Open tool — juros-simples-descobrir-capital (https://utiliboxapp.com.br/tools/juros-simples-descobrir-capital/)
+ 
+ Percentage calculator Interactive tool or reference for percentage calculator. Open tool — calculadora-de-porcentagem (https://utiliboxapp.com.br/tools/calculadora-de-porcentagem/)
+ 
+ Discount calculator Interactive tool or reference for discount calculator. Open tool — calculadora-desconto (https://utiliboxapp.com.br/tools/calculadora-desconto/)
+ 
+ Price loan simulator Interactive tool or reference for price loan simulator. Open tool — simulador-emprestimo-price (https://utiliboxapp.com.br/tools/simulador-emprestimo-price/)
+ 
+ Price / SAC / SAM loan simulator Interactive tool or reference for price / sac / sam loan simulator. Open tool — simulador-emprestimo (https://utiliboxapp.com.br/tools/simulador-emprestimo/)
+ 
+ INSS contribution calculator — 2025 Interactive tool or reference for inss contribution calculator — 2025. Open tool — calculadora-inss-2025 (https://utiliboxapp.com.br/tools/calculadora-inss-2025/)
+ 
+ IRRF withholding calculator — 2026 Interactive tool or reference for irrf withholding calculator — 2026. Open tool — calculadora-irrf-2026 (https://utiliboxapp.com.br/tools/calculadora-irrf-2026/)
+ 
+ Annual IRPF estimate — 2026 Interactive tool or reference for annual irpf estimate — 2026. Open tool — calculadora-irpf-2026 (https://utiliboxapp.com.br/tools/calculadora-irpf-2026/)
+ 
+ IRPF refund batch estimate — 2026 Interactive tool or reference for irpf refund batch estimate — 2026. Open tool — calculadora-restituicao-irpf-2026-lotes (https://utiliboxapp.com.br/tools/calculadora-restituicao-irpf-2026-lotes/)
+ 
+ Brazilian net salary calculator Interactive tool or reference for brazilian net salary calculator. Open tool — calculadora-salario-liquido-br (https://utiliboxapp.com.br/tools/calculadora-salario-liquido-br/)
+ 
+ Mortgage repayment simulator — Price, SAC and SAM Interactive tool or reference for mortgage repayment simulator — price, sac and sam. Open tool — simulador-financiamento-imobiliario (https://utiliboxapp.com.br/tools/simulador-financiamento-imobiliario/)
+ 
+ Payroll-linked credit margin calculator Interactive tool or reference for payroll-linked credit margin calculator. Open tool — calculadora-margem-consignavel (https://utiliboxapp.com.br/tools/calculadora-margem-consignavel/)
+ 
+ CDI / SELIC return comparison Interactive tool or reference for cdi / selic return comparison. Open tool — calculadora-rentabilidade-cdi-selic (https://utiliboxapp.com.br/tools/calculadora-rentabilidade-cdi-selic/)
+ 
+ CDB investment calculator Interactive tool or reference for cdb investment calculator. Open tool — calculadora-cdb (https://utiliboxapp.com.br/tools/calculadora-cdb/)
+ 
+ WACC calculator Interactive tool or reference for wacc calculator. Open tool — calculadora-wacc (https://utiliboxapp.com.br/tools/calculadora-wacc/)
+ 
+ Break-even simulator Interactive tool or reference for break-even simulator. Open tool — simulador-ponto-de-equilibrio (https://utiliboxapp.com.br/tools/simulador-ponto-de-equilibrio/)
+ 
+ Payback, NPV and IRR calculator Interactive tool or reference for payback, npv and irr calculator. Open tool — calculadora-payback-vpl-tir (https://utiliboxapp.com.br/tools/calculadora-payback-vpl-tir/)
+ 
+ Basic retirement savings simulator Interactive tool or reference for basic retirement savings simulator. Open tool — simulador-aposentadoria (https://utiliboxapp.com.br/tools/simulador-aposentadoria/)
+ 
+ Late interest and penalty calculator Interactive tool or reference for late interest and penalty calculator. Open tool — calculadora-juros-mora-multa (https://utiliboxapp.com.br/tools/calculadora-juros-mora-multa/)
+ 
+ Credit-card installment calculator Interactive tool or reference for credit-card installment calculator. Open tool — calculadora-parcelamento-cartao (https://utiliboxapp.com.br/tools/calculadora-parcelamento-cartao/)
+ 
+ Sales target and commission calculator Interactive tool or reference for sales target and commission calculator. Open tool — calculadora-meta-vendas-comissao (https://utiliboxapp.com.br/tools/calculadora-meta-vendas-comissao/)
+ 
+ Scenario simulator Interactive tool or reference for scenario simulator. Open tool — simulador-cenarios (https://utiliboxapp.com.br/tools/simulador-cenarios/)
+ 
+ FGC deposit protection calculator Interactive tool or reference for fgc deposit protection calculator. Open tool — calculadora-fgc (https://utiliboxapp.com.br/tools/calculadora-fgc/)
+ 
+ Lotofácil probability and frequency analysis Interactive tool or reference for lotofácil probability and frequency analysis. Open tool — analise-lotofacil (https://utiliboxapp.com.br/tools/analise-lotofacil/)
+ 
+ 13th-month salary calculator Interactive tool or reference for 13th-month salary calculator. Open tool — calculadora-decimo-terceiro (https://utiliboxapp.com.br/tools/calculadora-decimo-terceiro/)
+ 
+ Vacation pay calculator Interactive tool or reference for vacation pay calculator. Open tool — calculadora-de-ferias (https://utiliboxapp.com.br/tools/calculadora-de-ferias/)
+ 
+ Overtime calculator Interactive tool or reference for overtime calculator. Open tool — calculadora-horas-extras (https://utiliboxapp.com.br/tools/calculadora-horas-extras/)
+ 
+ Teacher hourly pay calculator Interactive tool or reference for teacher hourly pay calculator. Open tool — calculadora-hora-aula-professor (https://utiliboxapp.com.br/tools/calculadora-hora-aula-professor/)
+ 
+ Final school grade calculator Interactive tool or reference for final school grade calculator. Open tool — calculadora-nota-final-escolar (https://utiliboxapp.com.br/tools/calculadora-nota-final-escolar/)
+ 
+ PIS/Pasep allowance estimate — 2026 Interactive tool or reference for pis/pasep allowance estimate — 2026. Open tool — calculadora-pis-pasep-2026 (https://utiliboxapp.com.br/tools/calculadora-pis-pasep-2026/)
+ 
+ Unemployment benefit estimate — 2026 Interactive tool or reference for unemployment benefit estimate — 2026. Open tool — calculadora-seguro-desemprego-2026 (https://utiliboxapp.com.br/tools/calculadora-seguro-desemprego-2026/)
+ 
+ FGTS termination balance and 40% penalty Interactive tool or reference for fgts termination balance and 40% penalty. Open tool — calculadora-fgts-rescisao-multa-40 (https://utiliboxapp.com.br/tools/calculadora-fgts-rescisao-multa-40/)
+ 
+ FGTS debt-settlement simulator Interactive tool or reference for fgts debt-settlement simulator. Open tool — simulador-fgts-desenrola (https://utiliboxapp.com.br/tools/simulador-fgts-desenrola/)
+ 
+ Menstrual cycle simulator Interactive tool or reference for menstrual cycle simulator. Open tool — simulador-ciclo-menstrual (https://utiliboxapp.com.br/tools/simulador-ciclo-menstrual/)
+ 
+ Ovulation calculator Interactive tool or reference for ovulation calculator. Open tool — calculadora-ovulacao (https://utiliboxapp.com.br/tools/calculadora-ovulacao/)
+ 
+ Pregnancy duration calculator Interactive tool or reference for pregnancy duration calculator. Open tool — calculadora-tempo-gestacao (https://utiliboxapp.com.br/tools/calculadora-tempo-gestacao/)
+ 
+ Pregnancy weeks-to-months converter Interactive tool or reference for pregnancy weeks-to-months converter. Open tool — calculadora-semanas-para-meses-gravidez (https://utiliboxapp.com.br/tools/calculadora-semanas-para-meses-gravidez/)
+ 
+ Gestational age calculator Interactive tool or reference for gestational age calculator. Open tool — calculadora-idade-gestacional (https://utiliboxapp.com.br/tools/calculadora-idade-gestacional/)
+ 
+ Estimated due date Interactive tool or reference for estimated due date. Open tool — dpp-data-provavel-parto (https://utiliboxapp.com.br/tools/dpp-data-provavel-parto/)
+ 
+ Week-by-week pregnancy reference Interactive tool or reference for week-by-week pregnancy reference. Open tool — tabela-gravidez-semana-a-semana (https://utiliboxapp.com.br/tools/tabela-gravidez-semana-a-semana/)
+ 
+ Pregnancy timeline calculator Interactive tool or reference for pregnancy timeline calculator. Open tool — calculadora-linha-do-tempo-gravidez (https://utiliboxapp.com.br/tools/calculadora-linha-do-tempo-gravidez/)
+ 
+ Fetal growth percentile calculator Interactive tool or reference for fetal growth percentile calculator. Open tool — percentil-crescimento-fetal (https://utiliboxapp.com.br/tools/percentil-crescimento-fetal/)
+ 
+ Advanced fertile-window calculator Interactive tool or reference for advanced fertile-window calculator. Open tool — calculadora-janela-fertil-avancada (https://utiliboxapp.com.br/tools/calculadora-janela-fertil-avancada/)
+ 
+ Menstrual delay calculator Interactive tool or reference for menstrual delay calculator. Open tool — calculadora-atraso-menstrual (https://utiliboxapp.com.br/tools/calculadora-atraso-menstrual/)
+ 
+ Pregnancy test date calculator Interactive tool or reference for pregnancy test date calculator. Open tool — calculadora-data-teste-gravidez (https://utiliboxapp.com.br/tools/calculadora-data-teste-gravidez/)
+ 
+ Conception date calculator Interactive tool or reference for conception date calculator. Open tool — calculadora-data-concepcao (https://utiliboxapp.com.br/tools/calculadora-data-concepcao/)
+ 
+ Gestational weight gain calculator Interactive tool or reference for gestational weight gain calculator. Open tool — calculadora-ganho-peso-gestacional (https://utiliboxapp.com.br/tools/calculadora-ganho-peso-gestacional/)
+ 
+ Beta hCG by week calculator Interactive tool or reference for beta hcg by week calculator. Open tool — calculadora-beta-hcg-semanas (https://utiliboxapp.com.br/tools/calculadora-beta-hcg-semanas/)
+ 
+ Heart-rate zone calculator Interactive tool or reference for heart-rate zone calculator. Open tool — calculadora-zonas-frequencia-cardiaca (https://utiliboxapp.com.br/tools/calculadora-zonas-frequencia-cardiaca/)
+ 
+ BMI calculator Interactive tool or reference for bmi calculator. Open tool — calculadora-imc (https://utiliboxapp.com.br/tools/calculadora-imc/)
+ 
+ Daily calorie calculator Interactive tool or reference for daily calorie calculator. Open tool — calculadora-de-calorias (https://utiliboxapp.com.br/tools/calculadora-de-calorias/)
+ 
+ Daily water intake calculator Interactive tool or reference for daily water intake calculator. Open tool — calculadora-agua-diaria (https://utiliboxapp.com.br/tools/calculadora-agua-diaria/)
+ 
+ Calorie expenditure calculator Interactive tool or reference for calorie expenditure calculator. Open tool — calculadora-gasto-calorico (https://utiliboxapp.com.br/tools/calculadora-gasto-calorico/)
+ 
+ Basal metabolic rate calculator Interactive tool or reference for basal metabolic rate calculator. Open tool — calculadora-tmb (https://utiliboxapp.com.br/tools/calculadora-tmb/)
+ 
+ Running pace calculator Interactive tool or reference for running pace calculator. Open tool — calculadora-pace-corrida (https://utiliboxapp.com.br/tools/calculadora-pace-corrida/)
+ 
+ Hair color formulation calculator Interactive tool or reference for hair color formulation calculator. Open tool — calculadora-coloracao-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-coloracao-tinta-cabelo/)
+ 
+ Dye and developer mixing calculator Interactive tool or reference for dye and developer mixing calculator. Open tool — calculadora-mistura-tinta-oxidante (https://utiliboxapp.com.br/tools/calculadora-mistura-tinta-oxidante/)
+ 
+ Hair-color developer calculator Interactive tool or reference for hair-color developer calculator. Open tool — calculadora-oxidante-coloracao (https://utiliboxapp.com.br/tools/calculadora-oxidante-coloracao/)
+ 
+ Gray coverage calculator Interactive tool or reference for gray coverage calculator. Open tool — calculadora-cobertura-brancos (https://utiliboxapp.com.br/tools/calculadora-cobertura-brancos/)
+ 
+ Underlying pigment calculator Interactive tool or reference for underlying pigment calculator. Open tool — calculadora-fundo-clareamento (https://utiliboxapp.com.br/tools/calculadora-fundo-clareamento/)
+ 
+ Blonde toning calculator Interactive tool or reference for blonde toning calculator. Open tool — calculadora-matizacao-loiro (https://utiliboxapp.com.br/tools/calculadora-matizacao-loiro/)
+ 
+ Hair pre-pigmentation calculator Interactive tool or reference for hair pre-pigmentation calculator. Open tool — calculadora-pre-pigmentacao-capilar (https://utiliboxapp.com.br/tools/calculadora-pre-pigmentacao-capilar/)
+ 
+ Hair dye quantity calculator Interactive tool or reference for hair dye quantity calculator. Open tool — calculadora-quantidade-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-quantidade-tinta-cabelo/)
+ 
+ Hair-care schedule calculator Interactive tool or reference for hair-care schedule calculator. Open tool — calculadora-cronograma-capilar (https://utiliboxapp.com.br/tools/calculadora-cronograma-capilar/)
+ 
+ Age calculator Interactive tool or reference for age calculator. Open tool — calculadora-de-idade (https://utiliboxapp.com.br/tools/calculadora-de-idade/)
+ 
+ Time calculator Interactive tool or reference for time calculator. Open tool — calculadora-de-tempo (https://utiliboxapp.com.br/tools/calculadora-de-tempo/)
+ 
+ Stopwatch and countdown timer Interactive tool or reference for stopwatch and countdown timer. Open tool — relogio-cronometro-contador (https://utiliboxapp.com.br/tools/relogio-cronometro-contador/)
+ 
+ Online Pomodoro Interactive tool or reference for online pomodoro. Open tool — pomodoro (https://utiliboxapp.com.br/tools/pomodoro/)
+ 
+ Business-day calculator Interactive tool or reference for business-day calculator. Open tool — calculadora-dias-uteis (https://utiliboxapp.com.br/tools/calculadora-dias-uteis/)
+ 
+ Detailed age calculator Interactive tool or reference for detailed age calculator. Open tool — calculadora-idade-completa (https://utiliboxapp.com.br/tools/calculadora-idade-completa/)
+ 
+ Measurement calculator Interactive tool or reference for measurement calculator. Open tool — calculadora-de-medidas (https://utiliboxapp.com.br/tools/calculadora-de-medidas/)
+ 
+ Price per square meter calculator Interactive tool or reference for price per square meter calculator. Open tool — calculadora-preco-por-m2 (https://utiliboxapp.com.br/tools/calculadora-preco-por-m2/)
+ 
+ Floor and tile calculator Interactive tool or reference for floor and tile calculator. Open tool — calculadora-piso-azulejo (https://utiliboxapp.com.br/tools/calculadora-piso-azulejo/)
+ 
+ Paint quantity calculator Interactive tool or reference for paint quantity calculator. Open tool — calculadora-de-tinta (https://utiliboxapp.com.br/tools/calculadora-de-tinta/)
+ 
+ Electricity consumption calculator Interactive tool or reference for electricity consumption calculator. Open tool — calculadora-consumo-energia-eletrica (https://utiliboxapp.com.br/tools/calculadora-consumo-energia-eletrica/)
+ 
+ Barbecue quantity calculator Interactive tool or reference for barbecue quantity calculator. Open tool — calculadora-de-churrasco (https://utiliboxapp.com.br/tools/calculadora-de-churrasco/)
+ 
+ Feijoada quantity calculator Interactive tool or reference for feijoada quantity calculator. Open tool — calculadora-de-feijoada (https://utiliboxapp.com.br/tools/calculadora-de-feijoada/)
+ 
+ Baby name generator Interactive tool or reference for baby name generator. Open tool — gerador-nomes-bebes (https://utiliboxapp.com.br/tools/gerador-nomes-bebes/)
+ 
+ Pet name generator Interactive tool or reference for pet name generator. Open tool — gerador-nomes-pets (https://utiliboxapp.com.br/tools/gerador-nomes-pets/)
+ 
+ Fuel consumption and cost per kilometer Interactive tool or reference for fuel consumption and cost per kilometer. Open tool — calculadora-consumo-combustivel (https://utiliboxapp.com.br/tools/calculadora-consumo-combustivel/)
+ 
+ World Cup 2026 sticker album calculator Interactive tool or reference for world cup 2026 sticker album calculator. Open tool — calculadora-album-copa-2026 (https://utiliboxapp.com.br/tools/calculadora-album-copa-2026/)
+ 
+ Brazil World Cup 2026 schedule reference Interactive tool or reference for brazil world cup 2026 schedule reference. Open tool — jogos-brasil-copa-2026 (https://utiliboxapp.com.br/tools/jogos-brasil-copa-2026/)
+ 
+ Italian citizenship eligibility calculator Interactive tool or reference for italian citizenship eligibility calculator. Open tool — cidadania-italiana (https://utiliboxapp.com.br/tools/cidadania-italiana/)
+ 
+ Online vector editor Interactive tool or reference for online vector editor. Open tool — editor-vetorial (https://utiliboxapp.com.br/tools/editor-vetorial/)
+ 
+ Online 3D editor Interactive tool or reference for online 3d editor. Open tool — editor-3d (https://utiliboxapp.com.br/tools/editor-3d/)
+ 
+ AI Instagram carousel generator Interactive tool or reference for ai instagram carousel generator. Open tool — gerador-carrossel-instagram (https://utiliboxapp.com.br/tools/gerador-carrossel-instagram/)
+ 
+ Customer lifetime value and acquisition cost — Google Ads Interactive tool or reference for customer lifetime value and acquisition cost — google ads. Open tool — calculadora-ltv-cac-ads (https://utiliboxapp.com.br/tools/calculadora-ltv-cac-ads/)
+ 
+ Currency converter Interactive tool or reference for currency converter. Open tool — conversor-de-moedas (https://utiliboxapp.com.br/tools/conversor-de-moedas/)
+ 
+ Basic calculator Interactive tool or reference for basic calculator. Open tool — calculadora-simples (https://utiliboxapp.com.br/tools/calculadora-simples/)
+ 
+ Rule-of-three calculator Interactive tool or reference for rule-of-three calculator. Open tool — calculadora-regra-de-tres (https://utiliboxapp.com.br/tools/calculadora-regra-de-tres/)
+ 
+ Unit converter Interactive tool or reference for unit converter. Open tool — conversor-unidades (https://utiliboxapp.com.br/tools/conversor-unidades/)
+ 
+ Temperature converter Interactive tool or reference for temperature converter. Open tool — conversor-temperatura (https://utiliboxapp.com.br/tools/conversor-temperatura/)
+ 
+ Rate converter Interactive tool or reference for rate converter. Open tool — conversor-de-taxas (https://utiliboxapp.com.br/tools/conversor-de-taxas/)
+ 
+ Basic employment termination calculator Interactive tool or reference for basic employment termination calculator. Open tool — calculadora-rescisao-trabalhista-simples (https://utiliboxapp.com.br/tools/calculadora-rescisao-trabalhista-simples/)
+ 
+ Basic debt adjustment calculator Interactive tool or reference for basic debt adjustment calculator. Open tool — atualizacao-de-debitos-simples (https://utiliboxapp.com.br/tools/atualizacao-de-debitos-simples/)
+ 
+ PDF to JPG converter Interactive tool or reference for pdf to jpg converter. Live website — Utilibox (https://utiliboxapp.com.br/)
+ 
+ JPG to PDF converter Interactive tool or reference for jpg to pdf converter. Open tool — conversor-jpg-para-pdf (https://utiliboxapp.com.br/tools/conversor-jpg-para-pdf/)
+ 
+ JPG/PNG image compressor Interactive tool or reference for jpg/png image compressor. Open tool — compressor-de-imagem (https://utiliboxapp.com.br/tools/compressor-de-imagem/)
+ 
+ PDF compressor Interactive tool or reference for pdf compressor. Live website — Utilibox (https://utiliboxapp.com.br/)
+ 
+ Word to PDF converter Interactive tool or reference for word to pdf converter. Open tool — conversor-word-para-pdf (https://utiliboxapp.com.br/tools/conversor-word-para-pdf/)
+ 
+ PDF to Word converter Interactive tool or reference for pdf to word converter. Open tool — conversor-pdf-para-word (https://utiliboxapp.com.br/tools/conversor-pdf-para-word/)
+ 
+ Basic PDF signature tool Interactive tool or reference for basic pdf signature tool. Live website — Utilibox (https://utiliboxapp.com.br/)
+ 
+ Split PDF Interactive tool or reference for split pdf. Open tool — dividir-pdf (https://utiliboxapp.com.br/tools/dividir-pdf/)
+ 
+ Merge PDFs Interactive tool or reference for merge pdfs. Open tool — unir-pdf (https://utiliboxapp.com.br/tools/unir-pdf/)
+ 
+ PDF viewer Interactive tool or reference for pdf viewer. Open tool — visualizador-de-pdf (https://utiliboxapp.com.br/tools/visualizador-de-pdf/)
+ 
+ QR code generator Interactive tool or reference for qr code generator. Open tool — gerador-qr-code (https://utiliboxapp.com.br/tools/gerador-qr-code/)
+ 
+ Email signature generator Interactive tool or reference for email signature generator. Live website — Utilibox (https://utiliboxapp.com.br/)
+ 
+ Narra Interactive tool or reference for narra. Open tool — narra (https://utiliboxapp.com.br/tools/narra/)
+ 
+ UtiliNotas — connected Markdown editor Interactive tool or reference for utilinotas — connected markdown editor. Open tool — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
+ 
+ Anki flashcards — spaced repetition Interactive tool or reference for anki flashcards — spaced repetition. Open tool — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
+ 
+ Anki flashcards — English edition Interactive tool or reference for anki flashcards — english edition. Open tool — anki-flashcards-en (https://utiliboxapp.com.br/tools/anki-flashcards-en/)
+ 
+ AHP Online Interactive tool or reference for ahp online. Open tool — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/)
+ 
+ AHP Online — English edition Interactive tool or reference for ahp online — english edition. Open tool — ahp-online-free (https://utiliboxapp.com.br/tools/ahp-online-free/)
+ 
+ PROMETHEE Online Interactive tool or reference for promethee online. Open tool — promethee (https://utiliboxapp.com.br/tools/promethee/)
+ 
+ PROMETHEE — English edition Interactive tool or reference for promethee — english edition. Open tool — promethee-analysis (https://utiliboxapp.com.br/tools/promethee-analysis/)
+ 
+ TOPSIS Online Interactive tool or reference for topsis online. Open tool — topsis (https://utiliboxapp.com.br/tools/topsis/)
+ 
+ TOPSIS — English edition Interactive tool or reference for topsis — english edition. Open tool — topsis-online (https://utiliboxapp.com.br/tools/topsis-online/)
+ 
+ Guided decision making Interactive tool or reference for guided decision making. Open tool — tomada-de-decisao (https://utiliboxapp.com.br/tools/tomada-de-decisao/)
+ 
+ Decision Maker — English edition Interactive tool or reference for decision maker — english edition. Open tool — decision-maker (https://utiliboxapp.com.br/tools/decision-maker/)
+ 
+ PDSA Manager Interactive tool or reference for pdsa manager. Open tool — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/)
+ 
+ VSM Online Interactive tool or reference for vsm online. Open tool — vsm (https://utiliboxapp.com.br/tools/vsm/)
+ 
+ SMED Online Interactive tool or reference for smed online. Open tool — smed (https://utiliboxapp.com.br/tools/smed/)
+ 
+ A3 problem-solving report Interactive tool or reference for a3 problem-solving report. Open tool — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
+ 
+ Pareto analysis Interactive tool or reference for pareto analysis. Open tool — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/)
+ 
+ GUT prioritization matrix Interactive tool or reference for gut prioritization matrix. Open tool — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/)
+ 
+ Eisenhower matrix Interactive tool or reference for eisenhower matrix. Open tool — matriz-eisenhower (https://utiliboxapp.com.br/tools/matriz-eisenhower/)
+ 
+ Guided SWOT matrix Interactive tool or reference for guided swot matrix. Open tool — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/)
+ 
+ Critical-to-Customer tree Interactive tool or reference for critical-to-customer tree. Open tool — arvore-ctc (https://utiliboxapp.com.br/tools/arvore-ctc/)
+ 
+ Expected monetary value decision tree Interactive tool or reference for expected monetary value decision tree. Open tool — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
+ 
+ ML classification tree Interactive tool or reference for ml classification tree. Open tool — arvore-decisao-ml (https://utiliboxapp.com.br/tools/arvore-decisao-ml/)
+ 
+ Queueing theory Interactive tool or reference for queueing theory. Open tool — teoria-das-filas (https://utiliboxapp.com.br/tools/teoria-das-filas/)
+ 
+ Queueing theory — English edition Interactive tool or reference for queueing theory — english edition. Open tool — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/)
+ 
+ Barnes time study and standard-time calculator Interactive tool or reference for barnes time study and standard-time calculator. Open tool — estudo-de-tempos (https://utiliboxapp.com.br/tools/estudo-de-tempos/)
+ 
  
 
 ## Capabilities and their project origins

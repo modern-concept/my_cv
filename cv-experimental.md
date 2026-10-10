@@ -181,7 +181,7 @@ Versão experimental ampliada — 09/10/2026.
  
 - PLANAGRO.js concentra uma interface de planejamento e funções especializadas. 
 - Funções avisoAplicacoes, avisoCarencia, avisoDosagem, avisoDeriva, avisoInsumo e avisoOrcamento representam verificações do domínio. Engenharia e tecnologias: React · JavaScript · Node.js · APIs operacionais · regras agronômicas.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### Irrigação — programação, algoritmos genéticos e rede neural para Kc
  Explorei programação de irrigação, algoritmos genéticos e modelagem neural de Kc, trabalhando com codificação de variáveis, normalização, parâmetros de rede e integração ao backend operacional.
@@ -189,84 +189,84 @@ Versão experimental ampliada — 09/10/2026.
 - ProgIrrig recebe horários, limites de rega, intervalos e dados de válvulas; organiza programação por cabeçal. 
 - indexIrrigacao contém população, estrutura de cromossomo, avaliação e evolução genética. Engenharia e tecnologias: JavaScript · Node.js · algoritmos genéticos · rede neural · normalização.
  Modelagem exploratória; desempenho fora da amostra ainda não demonstrado.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### Auditoria de pulverização — mapas e execução
  Construí componentes de auditoria da pulverização com dados espaciais e operacionais, relacionando trajetória, velocidade, talhões e serviços para apoiar investigação da execução em campo.
  
 - Interface utiliza dados e camadas cartográficas para analisar trajetos. 
 - O arquivo contém Dist, cálculo de média/desvio, avaliar_pulv e velocidadeAcimaPorc. Engenharia e tecnologias: React · dados geoespaciais · trajetória · velocidade · APIs operacionais.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### Matéria seca — previsão e ponto de colheita
  Implementei componentes de análise de matéria seca e previsão de colheita, relacionando leituras, variedades e parâmetros a gráficos e regras de acompanhamento.
  
 - Funções calcular_previsao, calcular_alpha, equacoes e isPontoColheita aparecem na implementação. 
 - Filtros por fazenda, semana/ano e variedades ligam resultado ao contexto da colheita. Engenharia e tecnologias: React · JavaScript · curvas e equações · gráficos · dados de campo.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### Caderno de campo e compras — dados locais e sincronização
  Desenvolvi fluxos de coleta de campo e solicitações de compras com dados locais, componentes de processo e rotinas de sincronização, integrados ao backend por domínio.
  
 - CadernoCampo/Apontamentos utiliza Dexie e módulos de localDb/downloadData. 
 - Handlers tratam colaboradores, seleção, rateio, data, processo e serviços. Engenharia e tecnologias: React · Dexie · IndexedDB · Node.js · sincronização.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### Gestão UGB, pessoas e sugestões de melhoria
  Modelei aplicações de gestão de unidades e pessoas e fluxos de sugestão de melhorias, articulando dados organizacionais, histórico, avaliações, papéis e documentos.
  
 - GestaoUGBs organiza módulos para unidades, funcionários, avaliação humana, 5S, planos, qualificação e sugestões. 
 - Funcionários inclui componentes de histórico/cadastro/faltas e banco local no acervo. Engenharia e tecnologias: React · Node.js · modelagem organizacional · avaliações · histórico.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### Comercial, previsão de resultados e movimentação de pallets
  Desenvolvi componentes de acompanhamento comercial e logística, relacionando lançamentos e previsões a interfaces de gestão e dados operacionais de pallets e containers.
  
 - COMERCIAL/Resultados contém lançamentos, auditorias e visão gerencial. 
 - PrevisaoResultados compõe previsão, acompanhamento e câmbio em telas próprias. Engenharia e tecnologias: React · Node.js · dados comerciais · pallets · containers.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### ETL modular e qualidade de dados
  Estruturei pipelines de integração com importadores reutilizáveis, processamento em lotes e regras específicas para produção, packing, qualidade e pessoas, organizando dados operacionais para análise e apoio à decisão.
  
 - Base de importação reutilizável com callbacks por lote. 
 - Importadores from_queries obtêm dados em SQL; from_dwh cruza registros já disponíveis. Engenharia e tecnologias: Node.js · SQL · Oracle · Sequelize · ETL · importação em lotes.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### SIAgro — coleta operacional mobile
  Desenvolvi módulos mobile do SIAgro para ordens de serviço, apontamentos e qualidade, combinando React Native/Expo, modelagem de objetos de negócio, persistência local e visualização de indicadores.
  
 - React Native/Expo e React Navigation para as telas e navegação. 
 - Objetos de ordem de serviço, apontamento, funcionário e qualidade. Engenharia e tecnologias: React Native · Expo · AsyncStorage · React Navigation · APIs.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### Gestão de TIC — Agrodan
  Gerenciei a operação de TIC, integrando suporte, servidores, redes, continuidade, ERP e iniciativas de IoT à entrega de serviços e soluções para a empresa.
  
 - Rotinas de equipe, help desk e parque de dispositivos constam no cargo de Gerente de TIC. 
 - Administração Windows/Linux, Active Directory e redes corporativas consta no relato profissional. Engenharia e tecnologias: Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT.
- Trajetória Agrodan · Detalhes técnicos e fontes 
+ Trajetória Agrodan · Detalhes técnicos 
 
 ### SGQ — auditorias, registros e gestão da qualidade
  Desenvolvimento de módulos de qualidade com organização de auditorias, registros e papéis, articulando acompanhamento do processo e armazenamento local.
  
 - Modelagem de auditorias, configurações e responsabilidades em interfaces de gestão. 
 - Camada de dados local com Dexie/IndexedDB e handlers de sincronização. Engenharia e tecnologias: @material-ui/core · @material-ui/icons · dexie · moment · react · react-file-base64 · react-select.
- Trajetória Agrodan · Módulo e fontes 
+ Trajetória Agrodan · Módulo 
 
 ### Qualidade de campo — checklists e avaliações operacionais
  Desenvolvimento de fluxos de avaliação da qualidade em campo, com checklists, respostas e integração entre a interface e o backend do domínio.
  
 - Organização de checklists e respostas com persistência local via Dexie/IndexedDB. 
 - Rotinas de sincronização e rotas de backend correspondentes localizadas no acervo. Engenharia e tecnologias: @material-ui/core · dexie · react · react-select.
- Trajetória Agrodan · Módulo e fontes 
+ Trajetória Agrodan · Módulo 
 
 ### Packing e caixaria — interfaces de acompanhamento da operação
  Desenvolvimento de interfaces de packing e caixaria para organizar acesso à operação e integrar eventos aos componentes de acompanhamento.
  
 - Separação dos componentes de packing e caixaria no frontend corporativo. 
 - Integração de eventos via socket observada no código do módulo. Engenharia e tecnologias: @material-ui/core · @material-ui/icons · @nivo/bar · audio-loader · audio-play · moment · play-sound · react · react-router-dom · socket.io-client.
- Trajetória Agrodan · Módulo e fontes 
+ Trajetória Agrodan · Módulo 
 
 ## Utilibox — produtos e métodos aplicados
  Decisão, pesquisa operacional, engenharia de produção, finanças e conhecimento · produto independente
@@ -276,56 +276,56 @@ Versão experimental ampliada — 09/10/2026.
  
 - Comparações pela escala de Saaty e cálculo de consistência para avaliar a coerência dos julgamentos. 
 - Modelagem da decisão em interface interativa, com apresentação dos resultados e exportação do projeto. Engenharia e tecnologias: Astro · JavaScript · AHP · matrizes de comparação · consistência.
- Ferramenta e fontes 
+ Abrir ferramenta — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/)
 
 ### TOPSIS e PROMETHEE — ranking e sensibilidade de alternativas
  Implementação de ferramentas para comparar alternativas com critérios, pesos e preferências configuráveis, tornando os métodos multicritério utilizáveis em decisões de gestão.
  
 - TOPSIS: classificação pela proximidade à solução ideal, com pesos e direções de critérios configuráveis. 
 - PROMETHEE I e II: funções de preferência e análise de sensibilidade em tempo real. Engenharia e tecnologias: Astro · JavaScript · TOPSIS · PROMETHEE · análise de sensibilidade.
- Ferramenta e fontes · Ferramenta e fontes 
+ Abrir ferramenta — topsis (https://utiliboxapp.com.br/tools/topsis/) · Abrir ferramenta — promethee (https://utiliboxapp.com.br/tools/promethee/)
 
 ### Teoria das Filas — capacidade, espera e dimensionamento
  Desenvolvimento de calculadoras e visualizações para relacionar demanda, capacidade de atendimento e espera, apoiando estudo e comparação de configurações de serviço.
  
 - Modelos M/M/1, M/M/c, M/D/1, M/M/1/K e Erlang-B/C implementados nas rotinas de cálculo. 
 - Comparação por número de servidores e curvas de sensibilidade para explorar mudanças na taxa de chegada. Engenharia e tecnologias: JavaScript · pesquisa operacional · modelos de filas · curvas de sensibilidade.
- Ferramenta e fontes · Ferramenta e fontes 
+ Abrir ferramenta — teoria-das-filas (https://utiliboxapp.com.br/tools/teoria-das-filas/) · Abrir ferramenta — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/)
 
 ### VSM, SMED, PDSA e A3 — engenharia de produção e melhoria contínua
  Tradução de métodos de melhoria de processos em ferramentas digitais para mapear fluxos, analisar setup, estruturar problemas e acompanhar ciclos de aprendizagem.
  
 - VSM: etapas, processamento, espera, uptime, inventário e gargalos; indicadores de lead time, takt e PCE. 
 - SMED: atividades internas/externas e possibilidades de conversão e paralelização; PDSA e A3 estruturam acompanhamento e planos de ação. Engenharia e tecnologias: Astro · JavaScript · Lean · VSM · SMED · PDSA · A3.
- Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes 
+ Abrir ferramenta — vsm (https://utiliboxapp.com.br/tools/vsm/) · Abrir ferramenta — smed (https://utiliboxapp.com.br/tools/smed/) · Abrir ferramenta — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/) · Abrir ferramenta — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
 
 ### Avaliação econômica — VPL, TIR, payback e cenários
  Implementação de ferramentas de análise econômica para transformar fluxos de caixa, custos e condições de financiamento em indicadores comparáveis.
  
 - Cálculos de payback simples e descontado, VPL e TIR para avaliação de investimentos. 
 - Ferramentas complementares para WACC, ponto de equilíbrio e comparação dos sistemas Price, SAC e SAM. Engenharia e tecnologias: JavaScript · matemática financeira · fluxos de caixa · análise de investimentos.
- Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes 
+ Abrir ferramenta — calculadora-payback-vpl-tir (https://utiliboxapp.com.br/tools/calculadora-payback-vpl-tir/) · Abrir ferramenta — calculadora-wacc (https://utiliboxapp.com.br/tools/calculadora-wacc/) · Abrir ferramenta — simulador-ponto-de-equilibrio (https://utiliboxapp.com.br/tools/simulador-ponto-de-equilibrio/) · Abrir ferramenta — simulador-emprestimo (https://utiliboxapp.com.br/tools/simulador-emprestimo/)
 
 ### Pareto, GUT e SWOT — priorização e análise gerencial
  Desenvolvimento de ferramentas de gestão que organizam problemas, critérios e cenários em rankings, gráficos e estruturas de decisão.
  
 - Pareto com curva acumulada; GUT com ranking por gravidade, urgência e tendência; SWOT com estratégias cruzadas. 
 - Árvore de decisão com nós de chance e resultado, valor monetário esperado e identificação do caminho ótimo. Engenharia e tecnologias: JavaScript · Pareto · GUT · SWOT · EMV · visualização de decisões.
- Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes · Ferramenta e fontes 
+ Abrir ferramenta — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/) · Abrir ferramenta — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/) · Abrir ferramenta — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/) · Abrir ferramenta — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
 
 ### Narra e UtiliNotas — conhecimento, contexto e persistência
  Construção de aplicações de organização narrativa e conhecimento com entidades relacionadas, notas conectadas e assistência contextual.
  
 - Editor Markdown, links internos e árvore de arquivos; integração entre organização das notas e contexto de uso. 
 - Camada de persistência IndexedDB com controle de transações e tratamento de falhas; assistência de IA em módulos próprios. Engenharia e tecnologias: Astro · JavaScript · Markdown · IndexedDB · modelagem de entidades · IA contextual.
- Ferramenta e fontes · Ferramenta e fontes 
+ Abrir ferramenta — narra (https://utiliboxapp.com.br/tools/narra/) · Abrir ferramenta — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
 
 ### Flashcards — repetição espaçada e acompanhamento de estudo
  Implementação de uma aplicação de estudo que organiza cartões e revisões com repetição espaçada, acompanhamento de retenção e exportação.
  
 - Algoritmo SM-2, seleção de cartões devidos e rotinas de suspensão, retomada e previsão de revisões. 
 - Exportação para Anki Desktop em TSV e PDF, com decks e conteúdo estruturado. Engenharia e tecnologias: JavaScript · SM-2 · persistência local · TSV · PDF.
- Ferramenta e fontes 
+ Abrir ferramenta — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
 
 ## Pesquisa aplicada e formação
  Doutorado, estágio hospitalar e projetos de faculdade
@@ -335,14 +335,14 @@ Versão experimental ampliada — 09/10/2026.
  
 - Rotinas de busca evolutiva e avaliação de subconjuntos. 
 - Julgamentos e pesos AHP para estruturar prioridades entre alternativas. Engenharia e tecnologias: Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP.
- Doutorado · Detalhes técnicos e fontes 
+ Doutorado · Repositório público — EFS-AHP (https://github.com/Danjubex/efs_ahp)
 
 ### Indicadores hospitalares e gamificação acadêmica
  No estágio hospitalar, desenvolvi sistema web de indicadores e avaliações com Java EE. Na faculdade, construí uma aplicação de gestão de projetos com gamificação e persistência, explorando regras de progressão e organização de tarefas.
  
 - EBSERH separa módulo EJB de negócio e módulo WAR/JSF de apresentação. 
 - Entidades e beans representam indicadores e avaliações. Engenharia e tecnologias: Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz.
- Estágio hospitalar · Contexto e projetos · Detalhes técnicos e fontes 
+ Estágio hospitalar · Contexto e projetos · Repositório público — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores) · Repositório público — The Game Project (https://github.com/Danjubex/the_game_project)
 
 ## Projetos de IA, sistemas multiagentes e Machine Learning
  Desenvolvimento independente e pesquisa quantitativa
@@ -353,7 +353,7 @@ Versão experimental ampliada — 09/10/2026.
 - Estratégico: identifica impacto sistêmico e áreas prioritárias sem objetivos. 
 - Execução: observa tarefas atrasadas e tarefas sem vínculo com metas; considera capacidade semanal. Engenharia e tecnologias: TypeScript · Deno · Supabase · contratos tipados · resolução de conflitos.
  Coordenação de agentes por regras; integração de LLMs em camada própria.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
 
 ### Ensemble de agentes financeiros — TraderMind
  Estruturei experimentos de políticas multiagentes com votação de sinais, quórum e otimização por simulated annealing, organizando calibração, validação temporal e teste fora da amostra.
@@ -361,49 +361,49 @@ Versão experimental ampliada — 09/10/2026.
 - Sinais de RSI, CCI, Williams, Bollinger, posição de preço e médias são combinados com Nasdaq, ETH, MFI, MACD e funding. 
 - A política BTC consultada tem doze sinais/agentes, votos ternários e regras de concordância e mínimo de agentes ativos. Engenharia e tecnologias: Python · pandas · NumPy · simulated annealing · validação temporal.
  Pesquisa com agentes de sinais; sem resultado financeiro validado neste levantamento.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Detalhes técnicos 
 
 ### Motor compartilhado de IA — Planejamento Xavier
  Desenvolvi uma camada compartilhada de integração de IA com adaptação de provedores, respostas estruturadas, validação, orçamento de tempo e tratamento de falhas por tarefa.
  
 - Abstração de provedores e capacidades json, text e grounded_search. 
 - Seleção de Gemini, DeepSeek, OpenAI e APIs compatíveis conforme configuração; presença de adaptador não prova uso de todos em produção. Engenharia e tecnologias: TypeScript · Deno · APIs de LLM · JSON · telemetria · fallback.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
 
 ### Revisão de planos com IA e regras
  Modelei propostas de revisão assistidas por IA com validação de referências, alternativas, operações e acompanhamento, preservando o vínculo das mudanças com o plano real.
  
 - Contexto autorizado contém IDs reais, fatos, capacidade, diagnóstico e decisões anteriores. 
 - O contrato compara manter, simplificar, ajustar estratégia, pedir informação ou rodar experimento. Engenharia e tecnologias: TypeScript · Supabase · contratos de operações · validação referencial.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
 
 ### Planejamento pedagógico assistido — ClassPlanner
  Integrei geração de planos de aula com Gemini a uma aplicação web, usando contexto pedagógico, referências BNCC e saída estruturada para objetivos, metodologia e avaliação.
  
 - Prompt combina turma, disciplina, contexto, duração, recursos, avaliação e habilidades BNCC. 
 - Instrução de domínio pede objetivos, metodologia por etapas, recursos e avaliação em JSON. Engenharia e tecnologias: React · Node.js · Express · SQLite · Gemini · BNCC.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Detalhes técnicos 
 
 ### CRM conversacional híbrido — Instagram Conversion CRM
  Construí um fluxo conversacional híbrido de IA e regras, com memória de interação, contrato de ações, tratamento de falhas e encaminhamento humano.
  
 - Motor SPIN por regras calcula o fallback antes da chamada ao modelo. 
 - Contexto inclui etapa atual, últimas mensagens e perguntas já feitas. Engenharia e tecnologias: Node.js · Express · SQLite · Gemini · memória conversacional.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Detalhes técnicos 
 
 ### TraderMind — do experimento à inferência
  Estruturei experimentos quantitativos e componentes de inferência, conectando preparação de dados, avaliação de modelos e políticas a uma API e ao terminal MetaTrader5.
  
 - Acervo de notebooks e scripts com pandas, NumPy, scikit-learn, boosting e bibliotecas de deep learning. 
 - Features e dados históricos alimentam estudos e experimentos temporais. Engenharia e tecnologias: Python · scikit-learn · XGBoost · pandas · Flask · MetaTrader5.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Detalhes técnicos 
 
 ### DVR — feedback, dataset e treinamento
  Implementei um fluxo de visão computacional com detecção, revisão de exemplos e treinamento de classificador personalizado a partir de modelo pré-treinado, integrando acompanhamento de épocas, checkpoint, estabilização temporal e alertas persistentes.
  
 - Detecção produz candidatos e recortes; a revisão no dashboard/Telegram pode alimentar classes do dataset. 
 - prepare_dataset separa treino/validação por classe com embaralhamento determinístico. Engenharia e tecnologias: Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Detalhes técnicos 
 
 ### Mocap — ML no cliente e visualização
  Desenvolvi protótipos de estimação de pose no navegador, integrando inferência, visualização de keypoints e suavização temporal para explorar captura de movimento e interação com recursos 3D.
@@ -411,7 +411,7 @@ Versão experimental ampliada — 09/10/2026.
 - Alternativas MoveNet e BlazePose/MediaPipe no acervo. 
 - Inferência TensorFlow.js/MediaPipe e coordenação do ciclo de vídeo/renderização. Engenharia e tecnologias: JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL.
  Protótipos e estudos de interação e visualização.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Detalhes técnicos 
 
 ## Otimização e integração de sistemas
  Pesquisa quantitativa e desenvolvimento independente
@@ -421,14 +421,14 @@ Versão experimental ampliada — 09/10/2026.
  
 - Cartola: ETL de históricos, representação probabilística por Markov e programação inteira OR-Tools/CBC para orçamento/formação. 
 - Logística: mapas Leaflet, desenho de áreas e experimentos de roteamento/TSP com heurísticas e algoritmos genéticos. Engenharia e tecnologias: Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Repositório público — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
 
 ### Conector desktop MetaTrader5 — TraderMind
  Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
  
 - Conector utiliza o pacote MetaTrader5 oficial e depende do terminal aberto/autenticado. 
 - Consulta conta e dados de candles; prepara o fluxo de operação ligado à política/inferência. Engenharia e tecnologias: Python · MetaTrader5 · Flask · SQLite · APIs locais.
- Contexto e projetos · Detalhes técnicos e fontes 
+ Contexto e projetos · Detalhes técnicos 
 
 # Anexos: acervo técnico completo
 
@@ -517,9 +517,9 @@ Versão experimental ampliada — 09/10/2026.
 - Resolução de conflitos 
 - Explicabilidade e provenance 
 
-#### Fontes do projeto
- 
-- planejamentoxavier/supabase/functions/_shared/brain/council.ts Alcance da evidência: Os agentes deste arquivo são funções puras por regras sobre um snapshot. A integração LLM é outra camada; não chamar cada agente de LLM autônomo.
+#### Links do projeto
+ Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
+ Alcance da evidência: Os agentes deste arquivo são funções puras por regras sobre um snapshot. A integração LLM é outra camada; não chamar cada agente de LLM autônomo.
 
  Case · Pesquisa quantitativa; ambiente demo documentado
 
@@ -584,10 +584,9 @@ Versão experimental ampliada — 09/10/2026.
 - Grounding com fontes 
 - Telemetria de chamadas 
 
-#### Fontes do projeto
- 
-- planejamentoxavier/supabase/functions/_shared/ai/engine.ts 
-- planejamentoxavier/supabase/functions/_shared/llm_client.ts Alcance da evidência: Código de roteamento não comprova SLA, custo otimizado ou operação em escala. Grounded search não equivale automaticamente a RAG vetorial.
+#### Links do projeto
+ Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
+ Alcance da evidência: Código de roteamento não comprova SLA, custo otimizado ou operação em escala. Grounded search não equivale automaticamente a RAG vetorial.
 
  Case · Planejamento Xavier
 
@@ -611,9 +610,9 @@ Versão experimental ampliada — 09/10/2026.
 - Gestão de contexto 
 - Replanejamento 
 
-#### Fontes do projeto
- 
-- planejamentoxavier/supabase/functions/_shared/brain/councilReviewProposal.ts Alcance da evidência: Descrever o mecanismo presente; autonomia e eficácia comportamental não foram medidas.
+#### Links do projeto
+ Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
+ Alcance da evidência: Descrever o mecanismo presente; autonomia e eficácia comportamental não foram medidas.
 
  Case · Educação
 
@@ -703,12 +702,9 @@ Versão experimental ampliada — 09/10/2026.
 - Desenho experimental 
 - Estatística e avaliação de modelos 
 
-#### Fontes do projeto
- 
-- [EFS-AHP]/Experimento 1/[AG].js 
-- [EFS-AHP]/Experimento 1/[AHP].js 
-- [EFS-AHP]/Experimento 3/Arquivos/[EFS_AHP]random_forest.py 
-- [EFS-AHP]/Estatísticas/[ESTATÍSTICA]EXPERIMENTO 1.ipynb Alcance da evidência: Titulação, publicações, métricas e significância final precisam de confirmação. Métodos de redução dimensional não devem ser apresentados como todos equivalentes a seletores de atributos.
+#### Links do projeto
+ Repositório público — EFS-AHP (https://github.com/Danjubex/efs_ahp)
+ Alcance da evidência: Titulação, publicações, métricas e significância final precisam de confirmação. Métodos de redução dimensional não devem ser apresentados como todos equivalentes a seletores de atributos.
 
  Case · Pesquisa quantitativa
 
@@ -1128,10 +1124,9 @@ Versão experimental ampliada — 09/10/2026.
 - Regras de negócio 
 - Gamificação 
 
-#### Fontes do projeto
- 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Indicador.java 
-- The game project/README.md Alcance da evidência: Manter os contextos separados. Não tratar reutilização de código EBSERH no projeto acadêmico como outra experiência hospitalar.
+#### Links do projeto
+ Repositório público — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores) · Repositório público — The Game Project (https://github.com/Danjubex/the_game_project)
+ Alcance da evidência: Manter os contextos separados. Não tratar reutilização de código EBSERH no projeto acadêmico como outra experiência hospitalar.
 
 ## Pesquisa operacional, finanças, produção e aprendizagem
  Utilibox revela uma extensão temática e metodológica: métodos multicritério, filas, Lean, matemática financeira, growth e repetição espaçada. Cartola e Logística trazem otimização em problemas específicos.
@@ -1169,14 +1164,9 @@ Versão experimental ampliada — 09/10/2026.
 - Matemática financeira 
 - Modelagem de aprendizagem 
 
-#### Fontes do projeto
- 
-- utilibox/src/tools/ahp-online/domain/consistency.js 
-- utilibox/src/tools/topsis/domain/topsis.js 
-- utilibox/src/tools/promethee/domain/promethee.js 
-- utilibox/src/tools/queueing-theory/logic.js 
-- utilibox/src/tools/vsm/client.js 
-- utilibox/src/tools/anki-flashcards/logic.js Alcance da evidência: O catálogo tem 136 slugs únicos e categorias sobrepostas. Status live é declarado; acurácia, validação externa e uso real não foram verificados.
+#### Links do projeto
+ Abrir ferramenta — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/) · Abrir ferramenta — topsis (https://utiliboxapp.com.br/tools/topsis/) · Abrir ferramenta — promethee (https://utiliboxapp.com.br/tools/promethee/) · Abrir ferramenta — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/) · Abrir ferramenta — vsm (https://utiliboxapp.com.br/tools/vsm/) · Abrir ferramenta — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
+ Alcance da evidência: O catálogo tem 136 slugs únicos e categorias sobrepostas. Status live é declarado; acurácia, validação externa e uso real não foram verificados.
 
  Case · Projetos analíticos
 
@@ -1198,11 +1188,9 @@ Versão experimental ampliada — 09/10/2026.
 - Geoinformação 
 - Otimização com restrições 
 
-#### Fontes do projeto
- 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/models/markov.py 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/optimize/ilp_solver.py 
-- Logistica/src/leaflet/Roteirizador.js Alcance da evidência: Confirmar métricas e comparação de soluções; presença de NDVI não comprova pipeline completo de sensoriamento remoto.
+#### Links do projeto
+ Repositório público — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
+ Alcance da evidência: Confirmar métricas e comparação de soluções; presença de NDVI não comprova pipeline completo de sensoriamento remoto.
 
 ## Produtos, conhecimento, automação e computação gráfica
  Construção de produto aparece em módulos e fluxos: marketplace, conhecimento narrativo, notas, coleta comercial, finanças pessoais, carreira e experiências 3D. Esta seção amplia a narrativa de iniciativa e engenharia.
@@ -1237,11 +1225,9 @@ Versão experimental ampliada — 09/10/2026.
 - Interoperabilidade de notas 
 - Engenharia de domínio 
 
-#### Fontes do projeto
- 
-- utilibox/src/tools/narra/assistant/writing/writingCompanionEngine.js 
-- utilibox/src/tools/narra/assistant/query/evidenceEngine.js 
-- utilibox/src/tools/utilinotas/content.md Alcance da evidência: Despacho por intenção não é sozinho arquitetura multiagente; não comprova banco vetorial/RAG/MCP implementado.
+#### Links do projeto
+ Abrir ferramenta — narra (https://utiliboxapp.com.br/tools/narra/) · Abrir ferramenta — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
+ Alcance da evidência: Despacho por intenção não é sozinho arquitetura multiagente; não comprova banco vetorial/RAG/MCP implementado.
 
  Case · Vínculos individuais a contextualizar
 
@@ -1431,12 +1417,7 @@ Versão experimental ampliada — 09/10/2026.
 - XHTML 
 - JPQL 
 - Apache Ant 
-- NetBeans 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Indicador.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Avaliacao.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/crud/ControleIndicadorBean.java 
-- ebserh/Gestor de Indicadores-war/src/java/com/br/curso/managedbeans/IndicadorMB.java 
-- ebserh/Gestor de Indicadores-ejb/src/conf/persistence.xml 
+- NetBeans Repositório público — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores)
 
 ### The Game Project — gestão de projetos com gamificação
  Projeto desenvolvido na faculdade
@@ -1456,15 +1437,7 @@ Versão experimental ampliada — 09/10/2026.
 - JavaScript 
 - jQuery 
 - Apache Ant 
-- NetBeans 
-- The game project/README.md 
-- The game project/src/java/com/br/tgp/entidades/Aventura.java 
-- The game project/src/java/com/br/tgp/entidades/Personagem.java 
-- The game project/src/java/com/br/tgp/managedbeans/BatalhaMB.java 
-- The game project/src/java/com/br/tgp/modelos/LogicasAventura.java 
-- The game project/src/java/META-INF/persistence.xml 
-- The game project/web/taverna/gerenciar_aventura.xhtml 
-- The game project/tgp-database.sql 
+- NetBeans Repositório público — The Game Project (https://github.com/Danjubex/the_game_project)
 
 ### EFS-AHP — seleção de atributos e decisão multicritério
  Pesquisa vinculada ao doutorado profissional em Engenharia de Software — confirmado por Danillo
@@ -1487,12 +1460,7 @@ Versão experimental ampliada — 09/10/2026.
 - NumPy 
 - scikit-learn 
 - SciPy 
-- DEAP 
-- [EFS-AHP]/README.md 
-- [EFS-AHP]/Experimento 1/[AG].js 
-- [EFS-AHP]/Experimento 1/[AHP].js 
-- [EFS-AHP]/Experimento 3/Arquivos/[EFS_AHP]random_forest.py 
-- [EFS-AHP]/Estatísticas/[ESTATÍSTICA]EXPERIMENTO 1.ipynb 
+- DEAP Repositório público — EFS-AHP (https://github.com/Danjubex/efs_ahp)
 
 ## SIA — catálogo de módulos e projetos de negócio
  Experiência profissional na Agrodan. O acervo de 23 referências Git locais inclui 94 módulos e submódulos de negócio. São partes do mesmo ecossistema; versões, integrações e componentes compartilhados não são produtos independentes.
@@ -3280,12 +3248,8 @@ Versão experimental ampliada — 09/10/2026.
 - CRUD 
 
 #### Evidências de implementação
- 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Indicador.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Avaliacao.java 
-- ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/crud/ControleIndicadorBean.java 
-- ebserh/Gestor de Indicadores-war/src/java/com/br/curso/managedbeans/IndicadorMB.java 
-- ebserh/Gestor de Indicadores-ejb/src/conf/persistence.xml Contexto de estágio confirmado pelo usuário. Datas, participação específica, implantação e ganhos no hospital ainda precisam ser registrados. O banco efetivamente utilizado não foi determinado apenas pelos JARs e pela configuração JPA.
+ Repositório público — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores)
+ Contexto de estágio confirmado pelo usuário. Datas, participação específica, implantação e ganhos no hospital ainda precisam ser registrados. O banco efetivamente utilizado não foi determinado apenas pelos JARs e pela configuração JPA.
 
  Engenharia de software · Projeto da faculdade
 
@@ -3327,15 +3291,8 @@ Versão experimental ampliada — 09/10/2026.
 - Gerenciamento de sessões 
 
 #### Evidências de implementação
- 
-- The game project/README.md 
-- The game project/src/java/com/br/tgp/entidades/Aventura.java 
-- The game project/src/java/com/br/tgp/entidades/Personagem.java 
-- The game project/src/java/com/br/tgp/managedbeans/BatalhaMB.java 
-- The game project/src/java/com/br/tgp/modelos/LogicasAventura.java 
-- The game project/src/java/META-INF/persistence.xml 
-- The game project/web/taverna/gerenciar_aventura.xhtml 
-- The game project/tgp-database.sql Projeto acadêmico confirmado pelo usuário. O código reaproveitado de EBSERH não transforma este projeto em experiência hospitalar adicional. A presença de Quartz e drivers PostgreSQL em lib não comprova ativação ou uso dessas tecnologias em todos os fluxos.
+ Repositório público — The Game Project (https://github.com/Danjubex/the_game_project)
+ Projeto acadêmico confirmado pelo usuário. O código reaproveitado de EBSERH não transforma este projeto em experiência hospitalar adicional. A presença de Quartz e drivers PostgreSQL em lib não comprova ativação ou uso dessas tecnologias em todos os fluxos.
 
  Ciência de dados · Pesquisa aplicada
 
@@ -3378,12 +3335,8 @@ Versão experimental ampliada — 09/10/2026.
 - Análise estatística 
 
 #### Evidências de implementação
- 
-- [EFS-AHP]/README.md 
-- [EFS-AHP]/Experimento 1/[AG].js 
-- [EFS-AHP]/Experimento 1/[AHP].js 
-- [EFS-AHP]/Experimento 3/Arquivos/[EFS_AHP]random_forest.py 
-- [EFS-AHP]/Estatísticas/[ESTATÍSTICA]EXPERIMENTO 1.ipynb Resultados numéricos, significância e autoria científica devem ser confirmados a partir dos experimentos e publicações.
+ Repositório público — EFS-AHP (https://github.com/Danjubex/efs_ahp)
+ Resultados numéricos, significância e autoria científica devem ser confirmados a partir dos experimentos e publicações.
 
  Engenharia de software · Aplicação corporativa histórica
 
@@ -3596,11 +3549,8 @@ Versão experimental ampliada — 09/10/2026.
 - Arquitetura de pipelines 
 
 #### Evidências de implementação
- 
-- cartola_oracle/cartola_markov_optimizer/pyproject.toml 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/models/markov.py 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/optimize/ilp_solver.py 
-- cartola_oracle/cartola_markov_optimizer/src/cartola/etl/normalize.py Não há nesta revisão comprovação de vantagem preditiva ou retorno em competições.
+ Repositório público — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
+ Não há nesta revisão comprovação de vantagem preditiva ou retorno em competições.
 
  IA aplicada · Aplicação em desenvolvimento
 
@@ -4216,12 +4166,8 @@ Versão experimental ampliada — 09/10/2026.
 - Controle de acesso 
 
 #### Evidências de implementação
- 
-- planejamentoxavier/src/features/brain/components/CouncilPlanPage.tsx 
-- planejamentoxavier/src/features/context/ContextQuestionForm.tsx 
-- planejamentoxavier/supabase/functions/replanning-event-evaluator/index.ts 
-- planejamentoxavier/supabase/functions/_shared/brain/personalContext.ts 
-- planejamentoxavier/package.json Roadmaps não comprovam entrega; ganhos de produtividade, escala e adoção precisam de métricas.
+ Site publicado — Planejamento Xavier (https://planejamentoxavier.com/)
+ Roadmaps não comprovam entrega; ganhos de produtividade, escala e adoção precisam de métricas.
 
  Arquivo e estudos · Backup
 
@@ -4538,12 +4484,8 @@ Versão experimental ampliada — 09/10/2026.
 - Analytics 
 
 #### Evidências de implementação
- 
-- utilibox/package.json 
-- utilibox/README.md 
-- utilibox/src/tools/utilinotas/syncPolicy.test.js 
-- utilibox/supabase/functions/narra-import/index.ts 
-- utilibox/supabase/migrations/20260729200000_harden_stripe_subscription_events.sql As ferramentas têm graus distintos de maturidade; não inferir receita, usuários ou escala a partir da quantidade de rotas.
+ Abrir ferramenta — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
+ As ferramentas têm graus distintos de maturidade; não inferir receita, usuários ou escala a partir da quantidade de rotas.
 
  Engenharia de software · Variante
 
@@ -4609,924 +4551,283 @@ Versão experimental ampliada — 09/10/2026.
 - Configuração de hospedagem 
 
 #### Evidências de implementação
- 
-- my_ cv/index.html 
-- my_ cv/package.json 
-- my_ cv/vercel.json Contribuição e relação com a versão em doutorado/CV a contextualizar; hospedagem e API PDF não verificadas.
+ Repositório público — CV digital (https://github.com/modern-concept/my_cv)
+ Contribuição e relação com a versão em doutorado/CV a contextualizar; hospedagem e API PDF não verificadas.
 
 ## Utilibox — aplicações e ferramentas do catálogo
  O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.
- Ferramenta Objetivo Área Fonte 
- Calculadora de Juros Simples Pro Rata (Dias) Calcule juros simples exatos para qualquer período em dias, considerando datas e taxa mensal. Finanças & Juros 
-- utilibox/src/tools/juros-simples-pro-rata-dia/client.js 
-- utilibox/src/tools/juros-simples-pro-rata-dia/content.md 
-- utilibox/src/tools/juros-simples-pro-rata-dia/index.astro 
-- utilibox/src/tools/juros-simples-pro-rata-dia/logic.js 
- Calculadora de Juros Simples Calcule o montante e o total de juros em regime de juros simples. Finanças & Juros 
-- utilibox/src/tools/calculadora-juros-simples/client.js 
-- utilibox/src/tools/calculadora-juros-simples/content.md 
-- utilibox/src/tools/calculadora-juros-simples/index.astro 
-- utilibox/src/tools/calculadora-juros-simples/logic.js 
- Calculadora de Juros Compostos Simule o crescimento de um investimento com juros sobre juros. Finanças & Juros 
-- utilibox/src/tools/calculadora-juros-compostos/client.js 
-- utilibox/src/tools/calculadora-juros-compostos/content.md 
-- utilibox/src/tools/calculadora-juros-compostos/index.astro 
-- utilibox/src/tools/calculadora-juros-compostos/Logic.js 
- Descobrir Capital com Juros Simples Informe montante, taxa e prazo para descobrir o capital inicial necessário. Finanças & Juros 
-- utilibox/src/tools/juros-simples-descobrir-capital/client.js 
-- utilibox/src/tools/juros-simples-descobrir-capital/content.md 
-- utilibox/src/tools/juros-simples-descobrir-capital/index.astro 
-- utilibox/src/tools/juros-simples-descobrir-capital/logic.js 
- Calculadora de Porcentagem Descubra descontos, aumentos e proporções em %. Finanças & Juros 
-- utilibox/src/tools/calculadora-de-porcentagem/client.js 
-- utilibox/src/tools/calculadora-de-porcentagem/content.md 
-- utilibox/src/tools/calculadora-de-porcentagem/index.astro 
-- utilibox/src/tools/calculadora-de-porcentagem/logic.js 
- Calculadora de Desconto Calcule descontos, preços finais e percentuais de desconto em segundos. Finanças & Juros 
-- utilibox/src/tools/calculadora-desconto/client.js 
-- utilibox/src/tools/calculadora-desconto/content.md 
-- utilibox/src/tools/calculadora-desconto/index.astro 
-- utilibox/src/tools/calculadora-desconto/logic.js 
- Simulador de Empréstimo (Price) Simule parcelas de empréstimo pela tabela Price. Finanças & Juros 
-- utilibox/src/tools/simulador-emprestimo-price/client.js 
-- utilibox/src/tools/simulador-emprestimo-price/content.md 
-- utilibox/src/tools/simulador-emprestimo-price/index.astro 
-- utilibox/src/tools/simulador-emprestimo-price/logic.js 
- Simulador de Empréstimo (Price / SAC / SAM) Simule parcelas de empréstimos nos sistemas Price, SAC e SAM. Finanças & Juros 
-- utilibox/src/tools/simulador-emprestimo/client.js 
-- utilibox/src/tools/simulador-emprestimo/content.md 
-- utilibox/src/tools/simulador-emprestimo/index.astro 
-- utilibox/src/tools/simulador-emprestimo/logic.js 
- Calculadora INSS 2025 Calcule a contribuição ao INSS conforme a tabela oficial de 2025. Finanças & Juros 
-- utilibox/src/tools/calculadora-inss-2025/client.js 
-- utilibox/src/tools/calculadora-inss-2025/content.md 
-- utilibox/src/tools/calculadora-inss-2025/index.astro 
-- utilibox/src/tools/calculadora-inss-2025/logic.js 
- Calculadora IRRF 2026 Calcule o Imposto de Renda na fonte para salários em 2026. Finanças & Juros 
-- utilibox/src/tools/calculadora-irrf-2026/client.js 
-- utilibox/src/tools/calculadora-irrf-2026/content.md 
-- utilibox/src/tools/calculadora-irrf-2026/index.astro 
-- utilibox/src/tools/calculadora-irrf-2026/logic.js 
- Calculadora IRPF 2026 (Estimativa Anual) Estime o IRPF anual de 2026 e compare modelo completo vs simplificado. Finanças & Juros 
-- utilibox/src/tools/calculadora-irpf-2026/client.js 
-- utilibox/src/tools/calculadora-irpf-2026/content.md 
-- utilibox/src/tools/calculadora-irpf-2026/index.astro 
-- utilibox/src/tools/calculadora-irpf-2026/logic.js 
- Calculadora de Restituição IRPF 2026 por Lotes Estime prioridade, correção e o lote provável da restituição do IRPF 2026. Finanças & Juros 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/client.js 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/content.md 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/index.astro 
-- utilibox/src/tools/calculadora-restituicao-irpf-2026-lotes/logic.js 
- Calculadora de Salário Líquido BR Estime o valor líquido considerando IRRF, INSS e descontos. Finanças & Juros 
-- utilibox/src/tools/calculadora-salario-liquido-br/client.js 
-- utilibox/src/tools/calculadora-salario-liquido-br/content.md 
-- utilibox/src/tools/calculadora-salario-liquido-br/index.astro 
-- utilibox/src/tools/calculadora-salario-liquido-br/logic.js 
- Simulador de Financiamento Imobiliário (Price, SAC, SAM) Compare Price, SAC e SAM: parcelas, total pago e juros. Finanças & Juros 
-- utilibox/src/tools/simulador-financiamento-imobiliario/client.js 
-- utilibox/src/tools/simulador-financiamento-imobiliario/content.md 
-- utilibox/src/tools/simulador-financiamento-imobiliario/index.astro 
-- utilibox/src/tools/simulador-financiamento-imobiliario/logic.js 
- Calculadora de Margem Consignável Veja quanto da renda pode ser comprometida com crédito consignado. Finanças & Juros 
-- utilibox/src/tools/calculadora-margem-consignavel/client.js 
-- utilibox/src/tools/calculadora-margem-consignavel/content.md 
-- utilibox/src/tools/calculadora-margem-consignavel/index.astro 
-- utilibox/src/tools/calculadora-margem-consignavel/logic.js 
- Calculadora de Rentabilidade CDI / SELIC Compare rendimentos em relação ao CDI e à SELIC. Finanças & Juros 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/client.js 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/content.md 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/index.astro 
-- utilibox/src/tools/calculadora-rentabilidade-cdi-selic/logic.js 
- Calculadora de CDB Simule rendimentos líquidos após IR. Finanças & Juros 
-- utilibox/src/tools/calculadora-cdb/client.js 
-- utilibox/src/tools/calculadora-cdb/content.md 
-- utilibox/src/tools/calculadora-cdb/index.astro 
-- utilibox/src/tools/calculadora-cdb/logic.js 
- Calculadora de WACC Calcule o custo médio ponderado de capital com equity, dívida, imposto e taxa final para valuation. Finanças & Juros 
-- utilibox/src/tools/calculadora-wacc/client.js 
-- utilibox/src/tools/calculadora-wacc/content.md 
-- utilibox/src/tools/calculadora-wacc/index.astro 
-- utilibox/src/tools/calculadora-wacc/logic.js 
- Simulador de Ponto de Equilíbrio Calcule break-even em unidades e faturamento com margem de contribuição, custos fixos e meta de lucro. Finanças & Juros 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/client.js 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/content.md 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/index.astro 
-- utilibox/src/tools/simulador-ponto-de-equilibrio/logic.js 
- Calculadora de Payback, VPL e TIR Avalie projetos com payback simples, payback descontado, VPL e TIR a partir de fluxos de caixa. Finanças & Juros 
-- utilibox/src/tools/calculadora-payback-vpl-tir/client.js 
-- utilibox/src/tools/calculadora-payback-vpl-tir/content.md 
-- utilibox/src/tools/calculadora-payback-vpl-tir/index.astro 
-- utilibox/src/tools/calculadora-payback-vpl-tir/logic.js 
- Simulador de Aposentadoria (Básico) Projete patrimônio futuro ou aporte mensal para uma meta. Finanças & Juros 
-- utilibox/src/tools/simulador-aposentadoria/client.js 
-- utilibox/src/tools/simulador-aposentadoria/content.md 
-- utilibox/src/tools/simulador-aposentadoria/index.astro 
-- utilibox/src/tools/simulador-aposentadoria/logic.js 
- Calculadora de Juros de Mora e Multa Calcule juros e multa por atraso de boletos. Finanças & Juros 
-- utilibox/src/tools/calculadora-juros-mora-multa/client.js 
-- utilibox/src/tools/calculadora-juros-mora-multa/content.md 
-- utilibox/src/tools/calculadora-juros-mora-multa/index.astro 
-- utilibox/src/tools/calculadora-juros-mora-multa/logic.js 
- Calculadora de Parcelamento no Cartão Simule valor da parcela, juros totais e custo final em compras parceladas no cartão. Finanças & Juros 
-- utilibox/src/tools/calculadora-parcelamento-cartao/client.js 
-- utilibox/src/tools/calculadora-parcelamento-cartao/content.md 
-- utilibox/src/tools/calculadora-parcelamento-cartao/index.astro 
-- utilibox/src/tools/calculadora-parcelamento-cartao/logic.js 
-- utilibox/src/tools/calculadora-parcelamento-cartao/logic.test.js 
- Calculadora de Meta de Vendas e Comissão Calcule atingimento da meta, quanto falta para bater objetivo e comissão estimada no mês. Finanças & Juros 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/client.js 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/content.md 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/index.astro 
-- utilibox/src/tools/calculadora-meta-vendas-comissao/logic.js 
- Simulador de Cenários Simule cenários pessimista, base e otimista para receita, custos ou qualquer variável e compare o resultado líquido. Finanças & Juros 
-- utilibox/src/tools/simulador-cenarios/client.js 
-- utilibox/src/tools/simulador-cenarios/content.md 
-- utilibox/src/tools/simulador-cenarios/index.astro 
-- utilibox/src/tools/simulador-cenarios/logic.js 
- Calculadora FGC — Proteção do Fundo Garantidor de Créditos Calcule quanto do seu dinheiro está protegido pelo FGC em CDB, poupança, LCI, LCA e outros. Limite de R$250.000 por CPF por conglomerado. Finanças & Juros 
-- utilibox/src/tools/calculadora-fgc/client.js 
-- utilibox/src/tools/calculadora-fgc/content.md 
-- utilibox/src/tools/calculadora-fgc/index.astro 
-- utilibox/src/tools/calculadora-fgc/logic.js 
- Análise Lotofácil — Probabilidades e Frequência Calcule probabilidades por faixa, confira sua aposta com o resultado e veja os números mais sorteados da Lotofácil. Finanças & Juros 
-- utilibox/src/tools/analise-lotofacil/client.js 
-- utilibox/src/tools/analise-lotofacil/content.md 
-- utilibox/src/tools/analise-lotofacil/index.astro 
-- utilibox/src/tools/analise-lotofacil/logic.js 
- Calculadora de 13º Salário Calcule quanto você deve receber de décimo terceiro. Salário & Trabalho 
-- utilibox/src/tools/calculadora-decimo-terceiro/client.js 
-- utilibox/src/tools/calculadora-decimo-terceiro/content.md 
-- utilibox/src/tools/calculadora-decimo-terceiro/index.astro 
-- utilibox/src/tools/calculadora-decimo-terceiro/logic.js 
- Calculadora de Férias Simule quanto receber nas férias com 1/3 constitucional. Salário & Trabalho 
-- utilibox/src/tools/calculadora-de-ferias/client.js 
-- utilibox/src/tools/calculadora-de-ferias/content.md 
-- utilibox/src/tools/calculadora-de-ferias/index.astro 
-- utilibox/src/tools/calculadora-de-ferias/logic.js 
- Calculadora de Horas Extras Veja quanto vale cada hora extra trabalhada. Salário & Trabalho 
-- utilibox/src/tools/calculadora-horas-extras/client.js 
-- utilibox/src/tools/calculadora-horas-extras/content.md 
-- utilibox/src/tools/calculadora-horas-extras/index.astro 
-- utilibox/src/tools/calculadora-horas-extras/logic.js 
- Calculadora de Hora-Aula do Professor Calcule valor por aula, carga mensal e projeção por turma para planejamento escolar. Salário & Trabalho 
-- utilibox/src/tools/calculadora-hora-aula-professor/client.js 
-- utilibox/src/tools/calculadora-hora-aula-professor/content.md 
-- utilibox/src/tools/calculadora-hora-aula-professor/index.astro 
-- utilibox/src/tools/calculadora-hora-aula-professor/logic.js 
- Calculadora de Nota Final Escolar Calcule média bimestral com pesos, recuperação e quanto precisa tirar para atingir a média mínima. Salário & Trabalho 
-- utilibox/src/tools/calculadora-nota-final-escolar/client.js 
-- utilibox/src/tools/calculadora-nota-final-escolar/content.md 
-- utilibox/src/tools/calculadora-nota-final-escolar/index.astro 
-- utilibox/src/tools/calculadora-nota-final-escolar/logic.js 
- Calculadora PIS/Pasep 2026 Estime elegibilidade, valor do abono salarial e calendário de pagamento em 2026. Salário & Trabalho 
-- utilibox/src/tools/calculadora-pis-pasep-2026/client.js 
-- utilibox/src/tools/calculadora-pis-pasep-2026/content.md 
-- utilibox/src/tools/calculadora-pis-pasep-2026/index.astro 
-- utilibox/src/tools/calculadora-pis-pasep-2026/logic.js 
- Calculadora Seguro-Desemprego 2026 Estime elegibilidade, quantidade de parcelas e valor da parcela para trabalhador formal. Salário & Trabalho 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/client.js 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/content.md 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/index.astro 
-- utilibox/src/tools/calculadora-seguro-desemprego-2026/logic.js 
- Calculadora de FGTS na Rescisão + Multa de 40% Estime saldo de FGTS, multa rescisória de 40% e total potencial de saque na demissão sem justa causa. Salário & Trabalho 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/client.js 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/content.md 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/index.astro 
-- utilibox/src/tools/calculadora-fgts-rescisao-multa-40/logic.js 
- Simulador FGTS no Desenrola 2.0 Calcule se seus 20% de FGTS cobrem a dívida com desconto do Desenrola 2.0 e Desenrola Fies. Salário & Trabalho 
-- utilibox/src/tools/simulador-fgts-desenrola/client.js 
-- utilibox/src/tools/simulador-fgts-desenrola/content.md 
-- utilibox/src/tools/simulador-fgts-desenrola/index.astro 
-- utilibox/src/tools/simulador-fgts-desenrola/logic.js 
- Simulador de Ciclo Menstrual Preveja menstruação, ovulação e janela fértil. Saúde Feminina 
-- utilibox/src/tools/simulador-ciclo-menstrual/client.js 
-- utilibox/src/tools/simulador-ciclo-menstrual/content.md 
-- utilibox/src/tools/simulador-ciclo-menstrual/index.astro 
-- utilibox/src/tools/simulador-ciclo-menstrual/logic.js 
- Calculadora de Ovulação Estime o período ovulatório e os dias mais férteis. Saúde Feminina 
-- utilibox/src/tools/calculadora-ovulacao/client.js 
-- utilibox/src/tools/calculadora-ovulacao/content.md 
-- utilibox/src/tools/calculadora-ovulacao/index.astro 
-- utilibox/src/tools/calculadora-ovulacao/logic.js 
- Calculadora de Tempo de Gestação Calcule idade gestacional e data provável do parto. Saúde Feminina 
-- utilibox/src/tools/calculadora-tempo-gestacao/client.js 
-- utilibox/src/tools/calculadora-tempo-gestacao/content.md 
-- utilibox/src/tools/calculadora-tempo-gestacao/index.astro 
-- utilibox/src/tools/calculadora-tempo-gestacao/Logic.js 
- Calculadora de Semanas para Meses de Gravidez Converta semanas e dias de gestação em mês obstétrico, trimestre e tempo restante até 40 semanas. Saúde Feminina 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/client.js 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/content.md 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/index.astro 
-- utilibox/src/tools/calculadora-semanas-para-meses-gravidez/logic.js 
- Calculadora de Idade Gestacional Descubra semanas e dias de gestação com precisão. Saúde Feminina 
-- utilibox/src/tools/calculadora-idade-gestacional/client.js 
-- utilibox/src/tools/calculadora-idade-gestacional/content.md 
-- utilibox/src/tools/calculadora-idade-gestacional/index.astro 
-- utilibox/src/tools/calculadora-idade-gestacional/logic.js 
- DPP – Data Provável do Parto Calcule a data provável do parto a partir da DUM. Saúde Feminina 
-- utilibox/src/tools/dpp-data-provavel-parto/client.js 
-- utilibox/src/tools/dpp-data-provavel-parto/content.md 
-- utilibox/src/tools/dpp-data-provavel-parto/index.astro 
-- utilibox/src/tools/dpp-data-provavel-parto/logic.js 
- Tabela de Gravidez Semana a Semana Veja a evolução da gestação semana a semana. Saúde Feminina 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/client.js 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/content.md 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/index.astro 
-- utilibox/src/tools/tabela-gravidez-semana-a-semana/logic.js 
- Calculadora Linha do Tempo da Gravidez Cronograma completo da gravidez com marcos por semana. Saúde Feminina 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/client.js 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/content.md 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/index.astro 
-- utilibox/src/tools/calculadora-linha-do-tempo-gravidez/Logic.js 
- Percentil de Crescimento Fetal Acompanhe medidas fetais e interpretação de percentis. Saúde Feminina 
-- utilibox/src/tools/percentil-crescimento-fetal/client.js 
-- utilibox/src/tools/percentil-crescimento-fetal/content.md 
-- utilibox/src/tools/percentil-crescimento-fetal/index.astro 
-- utilibox/src/tools/percentil-crescimento-fetal/logic.js 
- Calculadora de Janela Fértil Avançada Combine ciclo, duração e sintomas para uma previsão mais detalhada. Saúde Feminina 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/client.js 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/content.md 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/index.astro 
-- utilibox/src/tools/calculadora-janela-fertil-avancada/logic.js 
- Calculadora de Atraso Menstrual Estime a data prevista da menstruação e possível atraso do ciclo. Saúde Feminina 
-- utilibox/src/tools/calculadora-atraso-menstrual/client.js 
-- utilibox/src/tools/calculadora-atraso-menstrual/content.md 
-- utilibox/src/tools/calculadora-atraso-menstrual/index.astro 
-- utilibox/src/tools/calculadora-atraso-menstrual/logic.js 
- Calculadora de Data do Teste de Gravidez Descubra o melhor momento para testar após a ovulação. Saúde Feminina 
-- utilibox/src/tools/calculadora-data-teste-gravidez/client.js 
-- utilibox/src/tools/calculadora-data-teste-gravidez/content.md 
-- utilibox/src/tools/calculadora-data-teste-gravidez/index.astro 
-- utilibox/src/tools/calculadora-data-teste-gravidez/logic.js 
- Calculadora de Data da Concepção Estime a data provável da concepção a partir da DUM, DPP ou idade gestacional. Saúde Feminina 
-- utilibox/src/tools/calculadora-data-concepcao/client.js 
-- utilibox/src/tools/calculadora-data-concepcao/content.md 
-- utilibox/src/tools/calculadora-data-concepcao/index.astro 
-- utilibox/src/tools/calculadora-data-concepcao/logic.js 
- Calculadora de Ganho de Peso na Gravidez Compare o ganho de peso gestacional com faixas de referência por IMC e semana. Saúde Feminina 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/client.js 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/content.md 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/index.astro 
-- utilibox/src/tools/calculadora-ganho-peso-gestacional/logic.js 
- Calculadora de Beta hCG por Semana Compare o valor do beta hCG com faixas amplas de referência conforme a semana gestacional. Saúde Feminina 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/client.js 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/content.md 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/index.astro 
-- utilibox/src/tools/calculadora-beta-hcg-semanas/logic.js 
- Calculadora de Zonas de Frequência Cardíaca Descubra suas zonas de frequência cardíaca em 3 métodos diferentes Saúde & Corpo 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/client.js 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/content.md 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/index.astro 
-- utilibox/src/tools/calculadora-zonas-frequencia-cardiaca/Logic.js 
- Calculadora de IMC Descubra seu Índice de Massa Corporal. Saúde & Corpo 
-- utilibox/src/tools/calculadora-imc/client.js 
-- utilibox/src/tools/calculadora-imc/content.md 
-- utilibox/src/tools/calculadora-imc/index.astro 
-- utilibox/src/tools/calculadora-imc/logic.js 
- Calculadora de Calorias Diárias Estime quantas calorias consumir por dia. Saúde & Corpo 
-- utilibox/src/tools/calculadora-de-calorias/client.js 
-- utilibox/src/tools/calculadora-de-calorias/content.md 
-- utilibox/src/tools/calculadora-de-calorias/index.astro 
-- utilibox/src/tools/calculadora-de-calorias/logic.js 
- Calculadora de Água Diária Veja quantos litros de água você deve beber. Saúde & Corpo 
-- utilibox/src/tools/calculadora-agua-diaria/client.js 
-- utilibox/src/tools/calculadora-agua-diaria/content.md 
-- utilibox/src/tools/calculadora-agua-diaria/index.astro 
-- utilibox/src/tools/calculadora-agua-diaria/logic.js 
- Calculadora de Gasto Calórico Estime o gasto calórico diário ou por exercício. Saúde & Corpo 
-- utilibox/src/tools/calculadora-gasto-calorico/client.js 
-- utilibox/src/tools/calculadora-gasto-calorico/content.md 
-- utilibox/src/tools/calculadora-gasto-calorico/index.astro 
-- utilibox/src/tools/calculadora-gasto-calorico/logic.js 
- Calculadora de Taxa Metabólica Basal (TMB) Calcule sua taxa metabólica basal com base em peso, altura, idade e sexo biológico. Saúde & Corpo 
-- utilibox/src/tools/calculadora-tmb/client.js 
-- utilibox/src/tools/calculadora-tmb/content.md 
-- utilibox/src/tools/calculadora-tmb/index.astro 
-- utilibox/src/tools/calculadora-tmb/logic.js 
- Calculadora de Pace de Corrida Calcule pace por km, velocidade média e projeções de tempo para 5 km, 10 km, meia e maratona. Saúde & Corpo 
-- utilibox/src/tools/calculadora-pace-corrida/client.js 
-- utilibox/src/tools/calculadora-pace-corrida/content.md 
-- utilibox/src/tools/calculadora-pace-corrida/index.astro 
-- utilibox/src/tools/calculadora-pace-corrida/logic.js 
- Calculadora de Coloração de Tinta de Cabelo Simule estratégia de colorimetria capilar, oxidante, cobertura de brancos e neutralização de fundo na coloração. Beleza Feminina 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/client.js 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/content.md 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/index.astro 
-- utilibox/src/tools/calculadora-coloracao-tinta-cabelo/logic.js 
- Calculadora de Mistura de Tinta e Oxidante Calcule quantos gramas de coloração, oxidante e mistura total usar em proporções comuns de salão. Beleza Feminina 
-- utilibox/src/tools/calculadora-mistura-tinta-oxidante/client.js 
-- utilibox/src/tools/calculadora-mistura-tinta-oxidante/content.md 
-- utilibox/src/tools/calculadora-mistura-tinta-oxidante/index.astro 
- Calculadora de Oxidante para Coloração Simule se o caso pede 10, 20, 30 ou 40 volumes conforme objetivo, histórico químico e cobertura de brancos. Beleza Feminina 
-- utilibox/src/tools/calculadora-oxidante-coloracao/client.js 
-- utilibox/src/tools/calculadora-oxidante-coloracao/content.md 
-- utilibox/src/tools/calculadora-oxidante-coloracao/index.astro 
- Calculadora de Cobertura de Brancos Simule proporção entre base natural e nuance reflexada para melhorar cobertura de fios brancos. Beleza Feminina 
-- utilibox/src/tools/calculadora-cobertura-brancos/client.js 
-- utilibox/src/tools/calculadora-cobertura-brancos/content.md 
-- utilibox/src/tools/calculadora-cobertura-brancos/index.astro 
- Calculadora de Fundo de Clareamento Veja o fundo quente esperado por altura de tom e qual pigmento costuma neutralizar amarelo, laranja ou vermelho. Beleza Feminina 
-- utilibox/src/tools/calculadora-fundo-clareamento/client.js 
-- utilibox/src/tools/calculadora-fundo-clareamento/content.md 
-- utilibox/src/tools/calculadora-fundo-clareamento/index.astro 
- Calculadora de Matização de Loiro Simule direção de correção para amarelo, dourado, alaranjado e reflexo excessivo em loiros e mechas. Beleza Feminina 
-- utilibox/src/tools/calculadora-matizacao-loiro/client.js 
-- utilibox/src/tools/calculadora-matizacao-loiro/content.md 
-- utilibox/src/tools/calculadora-matizacao-loiro/index.astro 
- Calculadora de Pré-Pigmentação Capilar Simule quando repor fundo quente antes de escurecer cabelo claro, descolorido ou muito poroso. Beleza Feminina 
-- utilibox/src/tools/calculadora-pre-pigmentacao-capilar/client.js 
-- utilibox/src/tools/calculadora-pre-pigmentacao-capilar/content.md 
-- utilibox/src/tools/calculadora-pre-pigmentacao-capilar/index.astro 
- Calculadora de Quantidade de Tinta para Cabelo Estime quantos tubos, gramas e mistura total usar conforme comprimento, densidade e técnica aplicada. Beleza Feminina 
-- utilibox/src/tools/calculadora-quantidade-tinta-cabelo/client.js 
-- utilibox/src/tools/calculadora-quantidade-tinta-cabelo/content.md 
-- utilibox/src/tools/calculadora-quantidade-tinta-cabelo/index.astro 
- Calculadora de Cronograma Capilar Monte uma rotina de hidratação, nutrição e reconstrução conforme dano, química, ressecamento e elasticidade do fio. Beleza Feminina 
-- utilibox/src/tools/calculadora-cronograma-capilar/client.js 
-- utilibox/src/tools/calculadora-cronograma-capilar/content.md 
-- utilibox/src/tools/calculadora-cronograma-capilar/index.astro 
- Calculadora de Idade Calcule sua idade exata em anos, meses e dias. Tempo & Datas 
-- utilibox/src/tools/calculadora-de-idade/client.js 
-- utilibox/src/tools/calculadora-de-idade/content.md 
-- utilibox/src/tools/calculadora-de-idade/index.astro 
-- utilibox/src/tools/calculadora-de-idade/logic.js 
- Calculadora de Tempo Some e subtraia horas e minutos. Tempo & Datas 
-- utilibox/src/tools/calculadora-de-tempo/client.js 
-- utilibox/src/tools/calculadora-de-tempo/content.md 
-- utilibox/src/tools/calculadora-de-tempo/index.astro 
-- utilibox/src/tools/calculadora-de-tempo/logic.js 
- Cronômetro e Contador Regressivo Use um cronômetro e timer direto no navegador. Tempo & Datas 
-- utilibox/src/tools/relogio-cronometro-contador/client.js 
-- utilibox/src/tools/relogio-cronometro-contador/content.md 
-- utilibox/src/tools/relogio-cronometro-contador/index.astro 
-- utilibox/src/tools/relogio-cronometro-contador/logic.js 
- Pomodoro Online Técnica Pomodoro com ciclos de foco e pausas configuráveis, chime sonoro e modo popup. Tempo & Datas 
-- utilibox/src/tools/pomodoro/client.js 
-- utilibox/src/tools/pomodoro/content.md 
-- utilibox/src/tools/pomodoro/index.astro 
-- utilibox/src/tools/pomodoro/logic.js 
- Calculadora de Dias Úteis Calcule dias úteis entre duas datas. Tempo & Datas 
-- utilibox/src/tools/calculadora-dias-uteis/client.js 
-- utilibox/src/tools/calculadora-dias-uteis/content.md 
-- utilibox/src/tools/calculadora-dias-uteis/index.astro 
-- utilibox/src/tools/calculadora-dias-uteis/logic.js 
- Calculadora de Idade Completa Idade detalhada em anos, meses, dias, horas e minutos. Tempo & Datas 
-- utilibox/src/tools/calculadora-idade-completa/client.js 
-- utilibox/src/tools/calculadora-idade-completa/content.md 
-- utilibox/src/tools/calculadora-idade-completa/index.astro 
-- utilibox/src/tools/calculadora-idade-completa/logic.js 
- Calculadora de Medidas Converta medidas lineares, áreas e volumes. Casa & Construção 
-- utilibox/src/tools/calculadora-de-medidas/client.js 
-- utilibox/src/tools/calculadora-de-medidas/content.md 
-- utilibox/src/tools/calculadora-de-medidas/index.astro 
-- utilibox/src/tools/calculadora-de-medidas/logic.js 
- Calculadora de Preço por m² Calcule preço por m² ou preço total (com perda opcional). Casa & Construção 
-- utilibox/src/tools/calculadora-preco-por-m2/client.js 
-- utilibox/src/tools/calculadora-preco-por-m2/content.md 
-- utilibox/src/tools/calculadora-preco-por-m2/index.astro 
-- utilibox/src/tools/calculadora-preco-por-m2/logic.js 
- Calculadora de Piso e Azulejo Calcule caixas ou peças (com perda opcional) usando m²/caixa ou tamanho da peça. Casa & Construção 
-- utilibox/src/tools/calculadora-piso-azulejo/client.js 
-- utilibox/src/tools/calculadora-piso-azulejo/content.md 
-- utilibox/src/tools/calculadora-piso-azulejo/index.astro 
-- utilibox/src/tools/calculadora-piso-azulejo/logic.js 
- Calculadora de Tinta Veja quantos litros de tinta precisa para pintar. Casa & Construção 
-- utilibox/src/tools/calculadora-de-tinta/client.js 
-- utilibox/src/tools/calculadora-de-tinta/content.md 
-- utilibox/src/tools/calculadora-de-tinta/index.astro 
-- utilibox/src/tools/calculadora-de-tinta/logic.js 
- Calculadora de Consumo de Energia Elétrica Estime kWh e custo diário, mensal e anual de um aparelho com base na potência, tempo de uso e tarifa. Casa & Construção 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/client.js 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/content.md 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/index.astro 
-- utilibox/src/tools/calculadora-consumo-energia-eletrica/logic.js 
- Calculadora de Churrasco Calcule carne, bebidas e acompanhamentos por pessoa. Lazer & Família 
-- utilibox/src/tools/calculadora-de-churrasco/client.js 
-- utilibox/src/tools/calculadora-de-churrasco/content.md 
-- utilibox/src/tools/calculadora-de-churrasco/index.astro 
-- utilibox/src/tools/calculadora-de-churrasco/logic.js 
- Calculadora de Feijoada Planeje ingredientes por pessoa. Lazer & Família 
-- utilibox/src/tools/calculadora-de-feijoada/client.js 
-- utilibox/src/tools/calculadora-de-feijoada/content.md 
-- utilibox/src/tools/calculadora-de-feijoada/index.astro 
-- utilibox/src/tools/calculadora-de-feijoada/logic.js 
- Gerador de Nomes de Bebês Sugira nomes com base em estilos e tendências. Lazer & Família 
-- utilibox/src/tools/gerador-nomes-bebes/client.js 
-- utilibox/src/tools/gerador-nomes-bebes/content.md 
-- utilibox/src/tools/gerador-nomes-bebes/index.astro 
-- utilibox/src/tools/gerador-nomes-bebes/logic.js 
- Gerador de Nomes para Pets Ideias criativas de nomes para seu pet. Lazer & Família 
-- utilibox/src/tools/gerador-nomes-pets/client.js 
-- utilibox/src/tools/gerador-nomes-pets/content.md 
-- utilibox/src/tools/gerador-nomes-pets/index.astro 
-- utilibox/src/tools/gerador-nomes-pets/logic.js 
- Calculadora de Consumo de Combustível e Custo por Km Descubra km por litro, litros por 100 km, custo total e custo por quilômetro rodado. Lazer & Família 
-- utilibox/src/tools/calculadora-consumo-combustivel/client.js 
-- utilibox/src/tools/calculadora-consumo-combustivel/content.md 
-- utilibox/src/tools/calculadora-consumo-combustivel/index.astro 
-- utilibox/src/tools/calculadora-consumo-combustivel/logic.js 
- Calculadora do Álbum da Copa 2026 Quantos pacotes para completar o álbum Panini? Calcule custo esperado, duplicatas e o impacto das trocas com probabilidade real. Lazer & Família 
-- utilibox/src/tools/calculadora-album-copa-2026/client.js 
-- utilibox/src/tools/calculadora-album-copa-2026/content.md 
-- utilibox/src/tools/calculadora-album-copa-2026/index.astro 
-- utilibox/src/tools/calculadora-album-copa-2026/logic.js 
- Jogos do Brasil na Copa 2026 — Tabela Completa com Horários Veja todos os jogos do Brasil na Copa do Mundo 2026 com horários em BRT, Grupo C completo e contagem regressiva para o primeiro jogo. Lazer & Família 
-- utilibox/src/tools/jogos-brasil-copa-2026/client.js 
-- utilibox/src/tools/jogos-brasil-copa-2026/content.md 
-- utilibox/src/tools/jogos-brasil-copa-2026/index.astro 
- Calculadora de Elegibilidade para Cidadania Italiana Descubra se você tem direito à cidadania italiana por descendência (jus sanguinis). Detecta quebra de cadeia por naturalização e Regra de 1948. Lazer & Família 
-- utilibox/src/tools/cidadania-italiana/client.js 
-- utilibox/src/tools/cidadania-italiana/content.md 
-- utilibox/src/tools/cidadania-italiana/index.astro 
- Editor Vetorial Online Desenhe formas, curvas Bézier e ilustrações no navegador. Exporte como SVG ou PNG. Sem instalar nada. Design & Arte 
-- utilibox/src/tools/editor-vetorial/client.js 
-- utilibox/src/tools/editor-vetorial/content.md 
-- utilibox/src/tools/editor-vetorial/index.astro 
- Editor 3D Online Crie e edite cenas 3D no navegador com primitivos, materiais, iluminação e controles de transformação. Sem instalar nada. Design & Arte 
-- utilibox/src/tools/editor-3d/content.md 
-- utilibox/src/tools/editor-3d/index.astro 
- Gerador de Carrossel Instagram com IA Digite um tema, escolha o template e a cor, e receba 6 slides prontos para postar — criados por IA. Marketing & Growth 
-- utilibox/src/tools/gerador-carrossel-instagram/client.js 
-- utilibox/src/tools/gerador-carrossel-instagram/content.md 
-- utilibox/src/tools/gerador-carrossel-instagram/index.astro 
- Calculadora de Valor do Cliente (LTV) e Custo de Aquisição (CAC) — Google Ads Estime CAC, tempo para meta e viabilidade (LTV:CAC) usando CPC e taxa de conversão (com cenários). Marketing & Growth 
-- utilibox/src/tools/calculadora-ltv-cac-ads/client.js 
-- utilibox/src/tools/calculadora-ltv-cac-ads/content.md 
-- utilibox/src/tools/calculadora-ltv-cac-ads/index.astro 
-- utilibox/src/tools/calculadora-ltv-cac-ads/logic.js 
- Conversor de Moedas Converta valores entre diferentes moedas. Conversores & Utilidades 
-- utilibox/src/tools/conversor-de-moedas/client.js 
-- utilibox/src/tools/conversor-de-moedas/content.md 
-- utilibox/src/tools/conversor-de-moedas/index.astro 
-- utilibox/src/tools/conversor-de-moedas/logic.js 
- Calculadora Simples Soma, subtração, multiplicação e divisão. Conversores & Utilidades 
-- utilibox/src/tools/calculadora-simples/client.js 
-- utilibox/src/tools/calculadora-simples/content.md 
-- utilibox/src/tools/calculadora-simples/index.astro 
-- utilibox/src/tools/calculadora-simples/logic.js 
- Calculadora de Regra de Três Resolva regra de três direta ou inversa e descubra X com passo a passo. Conversores & Utilidades 
-- utilibox/src/tools/calculadora-regra-de-tres/client.js 
-- utilibox/src/tools/calculadora-regra-de-tres/content.md 
-- utilibox/src/tools/calculadora-regra-de-tres/index.astro 
-- utilibox/src/tools/calculadora-regra-de-tres/logic.js 
- Conversor de Unidades Converta comprimentos, áreas, volumes, pesos e mais. Conversores & Utilidades 
-- utilibox/src/tools/conversor-unidades/client.js 
-- utilibox/src/tools/conversor-unidades/content.md 
-- utilibox/src/tools/conversor-unidades/index.astro 
-- utilibox/src/tools/conversor-unidades/logic.js 
- Conversor de Temperatura Converta °C, °F e Kelvin. Conversores & Utilidades 
-- utilibox/src/tools/conversor-temperatura/client.js 
-- utilibox/src/tools/conversor-temperatura/content.md 
-- utilibox/src/tools/conversor-temperatura/index.astro 
-- utilibox/src/tools/conversor-temperatura/logic.js 
- Conversor de Taxas Converta taxas equivalentes ao dia, mês e ano em regime simples ou composto. Conversores & Utilidades 
-- utilibox/src/tools/conversor-de-taxas/client.js 
-- utilibox/src/tools/conversor-de-taxas/content.md 
-- utilibox/src/tools/conversor-de-taxas/index.astro 
-- utilibox/src/tools/conversor-de-taxas/logic.js 
- Calculadora de Rescisão (Simples) Estimativa básica de valores rescisórios. Jurídico (Básico) 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/client.js 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/content.md 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/index.astro 
-- utilibox/src/tools/calculadora-rescisao-trabalhista-simples/logic.js 
- Atualização de Débitos (Simples) Calcule juros, multa e correção simples sobre um valor. Jurídico (Básico) 
-- utilibox/src/tools/atualizacao-de-debitos-simples/client.js 
-- utilibox/src/tools/atualizacao-de-debitos-simples/content.md 
-- utilibox/src/tools/atualizacao-de-debitos-simples/index.astro 
-- utilibox/src/tools/atualizacao-de-debitos-simples/logic.js 
- PDF → JPG Grátis Converta páginas de PDF em imagens JPG online grátis, com download em ZIP. PDF & Produtividade 
-- utilibox/src/data/tools.js — verificar alias/rota 
- JPG → PDF Transforme várias imagens em um único PDF. PDF & Produtividade 
-- utilibox/src/tools/conversor-jpg-para-pdf/client.js 
-- utilibox/src/tools/conversor-jpg-para-pdf/content.md 
-- utilibox/src/tools/conversor-jpg-para-pdf/index.astro 
-- utilibox/src/tools/conversor-jpg-para-pdf/logic.js 
- Compressor de Imagem (JPG/PNG) Reduza o tamanho de fotos e imagens para envio mais rápido sem instalar programa. PDF & Produtividade 
-- utilibox/src/tools/compressor-de-imagem/client.js 
-- utilibox/src/tools/compressor-de-imagem/content.md 
-- utilibox/src/tools/compressor-de-imagem/index.astro 
-- utilibox/src/tools/compressor-de-imagem/logic.js 
- Compressor PDF Grátis Comprima PDF online grátis para reduzir tamanho e facilitar envio por e-mail, WhatsApp e formulários. PDF & Produtividade 
-- utilibox/src/data/tools.js — verificar alias/rota 
- Word → PDF Converta documentos .doc e .docx para PDF. PDF & Produtividade 
-- utilibox/src/tools/conversor-word-para-pdf/client.js 
-- utilibox/src/tools/conversor-word-para-pdf/content.md 
-- utilibox/src/tools/conversor-word-para-pdf/index.astro 
- PDF → Word Transforme PDFs em arquivos editáveis. PDF & Produtividade 
-- utilibox/src/tools/conversor-pdf-para-word/client.js 
-- utilibox/src/tools/conversor-pdf-para-word/content.md 
-- utilibox/src/tools/conversor-pdf-para-word/index.astro 
- Assinatura Digital Simples Grátis Adicione uma assinatura visual simples em PDF online grátis, com digitação ou desenho manual no navegador. PDF & Produtividade 
-- utilibox/src/data/tools.js — verificar alias/rota 
- Dividir PDF Extraia páginas específicas de um PDF. PDF & Produtividade 
-- utilibox/src/tools/dividir-pdf/client.js 
-- utilibox/src/tools/dividir-pdf/content.md 
-- utilibox/src/tools/dividir-pdf/index.astro 
-- utilibox/src/tools/dividir-pdf/logic.js 
- Unir PDFs Combine vários PDFs em um único arquivo. PDF & Produtividade 
-- utilibox/src/tools/unir-pdf/client.js 
-- utilibox/src/tools/unir-pdf/content.md 
-- utilibox/src/tools/unir-pdf/index.astro 
-- utilibox/src/tools/unir-pdf/logic.js 
- Visualizador de PDF Grátis Abra e visualize arquivos PDF diretamente no navegador, sem instalar programa e sem enviar o arquivo para servidor. PDF & Produtividade 
-- utilibox/src/tools/visualizador-de-pdf/client.js 
-- utilibox/src/tools/visualizador-de-pdf/content.md 
-- utilibox/src/tools/visualizador-de-pdf/index.astro 
- Gerador de QR Code Grátis Crie QR Code online grátis para links, textos, WhatsApp, telefone, e-mail e Wi‑Fi. PDF & Produtividade 
-- utilibox/src/tools/gerador-qr-code/client.js 
-- utilibox/src/tools/gerador-qr-code/content.md 
-- utilibox/src/tools/gerador-qr-code/index.astro 
-- utilibox/src/tools/gerador-qr-code/logic.js 
- Gerador de Assinatura de E-mail Grátis Crie assinaturas profissionais de e-mail em HTML com preview, cópia do código e download grátis. PDF & Produtividade 
-- utilibox/src/data/tools.js — verificar alias/rota 
- Narra Escreva e organize sua obra com capítulos, cenas, personagens e contexto em um só lugar. Escrita 
-- utilibox/src/tools/narra/acquisitionAttribution.js 
-- utilibox/src/tools/narra/acquisitionAttribution.test.js 
-- utilibox/src/tools/narra/aiApply.js 
-- utilibox/src/tools/narra/aiApply.test.js 
-- utilibox/src/tools/narra/aiContext.js 
-- utilibox/src/tools/narra/aiContext.test.js 
-- utilibox/src/tools/narra/aiEvaluationNotes.js 
-- utilibox/src/tools/narra/aiEvaluationNotes.test.js 
-- utilibox/src/tools/narra/aiImportFlow.js 
-- utilibox/src/tools/narra/aiImportFlow.test.js 
-- utilibox/src/tools/narra/aiOrganization.js 
-- utilibox/src/tools/narra/aiOrganization.test.js 
-- utilibox/src/tools/narra/aiSafety.js 
-- utilibox/src/tools/narra/aiSafety.test.js 
-- utilibox/src/tools/narra/aiWritingCompletion.js 
-- utilibox/src/tools/narra/aiWritingCompletion.test.js 
-- utilibox/src/tools/narra/analyzeObra.js 
-- utilibox/src/tools/narra/analyzeObra.test.js 
-- utilibox/src/tools/narra/blockEditing.js 
-- utilibox/src/tools/narra/blockEditing.test.js 
-- utilibox/src/tools/narra/blockLineMove.js 
-- utilibox/src/tools/narra/blockLineMove.test.js 
-- utilibox/src/tools/narra/blockPresentation.js 
-- utilibox/src/tools/narra/blockPresentation.test.js 
-- utilibox/src/tools/narra/blockPromptContract.js 
-- utilibox/src/tools/narra/blockPromptContract.test.js 
-- utilibox/src/tools/narra/blockSurfaces.test.js 
-- utilibox/src/tools/narra/canvasAiContext.js 
-- utilibox/src/tools/narra/canvasAiContext.test.js 
-- utilibox/src/tools/narra/characterRelationMap.js 
-- utilibox/src/tools/narra/characterRelationMap.test.js 
-- utilibox/src/tools/narra/client.js 
-- utilibox/src/tools/narra/cloudReliability.js 
-- utilibox/src/tools/narra/cloudReliability.test.js 
-- utilibox/src/tools/narra/comicStats.js 
-- utilibox/src/tools/narra/comicStats.test.js 
-- utilibox/src/tools/narra/content.md 
-- utilibox/src/tools/narra/contentLimits.js 
-- utilibox/src/tools/narra/contentLimits.test.js 
-- utilibox/src/tools/narra/dashboardMetrics.js 
-- utilibox/src/tools/narra/dashboardMetrics.test.js 
-- utilibox/src/tools/narra/editorShim.js 
-- utilibox/src/tools/narra/editorSurface.js 
-- utilibox/src/tools/narra/editorSurface.test.js 
-- utilibox/src/tools/narra/ENCRYPTION_TODO.md 
-- utilibox/src/tools/narra/entityPropertySchema.js 
-- utilibox/src/tools/narra/entityPropertySchema.test.js 
-- utilibox/src/tools/narra/entityRelationMap.js 
-- utilibox/src/tools/narra/entityRelationMap.test.js 
-- utilibox/src/tools/narra/exportAmazonEpub.js 
-- utilibox/src/tools/narra/exportAmazonEpub.test.js 
-- utilibox/src/tools/narra/exportBookStructure.js 
-- utilibox/src/tools/narra/exportBookStructure.test.js 
-- utilibox/src/tools/narra/exportUiclapPdf.js 
-- utilibox/src/tools/narra/exportUiclapPdf.test.js 
-- utilibox/src/tools/narra/fileNames.js 
-- utilibox/src/tools/narra/fileNames.test.js 
-- utilibox/src/tools/narra/folderPaths.js 
-- utilibox/src/tools/narra/folderPaths.test.js 
-- utilibox/src/tools/narra/formatMockContent.js 
-- utilibox/src/tools/narra/formatMockContent.test.js 
-- utilibox/src/tools/narra/formatMockGaps.js 
-- utilibox/src/tools/narra/formatMockGaps.test.js 
-- utilibox/src/tools/narra/frontmatter.js 
-- utilibox/src/tools/narra/guidedFlow.js 
-- utilibox/src/tools/narra/guidedFlow.test.js 
-- utilibox/src/tools/narra/guidedRecipes.js 
-- utilibox/src/tools/narra/guidedRecipes.test.js 
-- utilibox/src/tools/narra/guidedWizard.test.js 
-- utilibox/src/tools/narra/hqLayout.js 
-- utilibox/src/tools/narra/hqLayout.test.js 
-- utilibox/src/tools/narra/importedEntityProperties.js 
-- utilibox/src/tools/narra/importedEntityProperties.test.js 
-- utilibox/src/tools/narra/importedWorkStructure.js 
-- utilibox/src/tools/narra/importedWorkStructure.test.js 
-- utilibox/src/tools/narra/importFormatDetection.js 
-- utilibox/src/tools/narra/importFormatDetection.test.js 
-- utilibox/src/tools/narra/importRelations.js 
-- utilibox/src/tools/narra/importRelations.test.js 
-- utilibox/src/tools/narra/importScriptBlocks.js 
-- utilibox/src/tools/narra/importScriptBlocks.test.js 
-- utilibox/src/tools/narra/index.astro 
-- utilibox/src/tools/narra/indexedDbManager.js 
-- utilibox/src/tools/narra/indexedDbManager.test.js 
-- utilibox/src/tools/narra/initialVaultState.js 
-- utilibox/src/tools/narra/initialVaultState.test.js 
-- utilibox/src/tools/narra/interactiveStory.js 
-- utilibox/src/tools/narra/interactiveStory.test.js 
-- utilibox/src/tools/narra/legacyMigration.js 
-- utilibox/src/tools/narra/legacyMigration.test.js 
-- utilibox/src/tools/narra/livePreview.js 
-- utilibox/src/tools/narra/livePreview.test.js 
-- utilibox/src/tools/narra/localUnderstandDiagnostic.js 
-- utilibox/src/tools/narra/localUnderstandDiagnostic.test.js 
-- utilibox/src/tools/narra/manuscriptCompiler.js 
-- utilibox/src/tools/narra/manuscriptCompiler.test.js 
-- utilibox/src/tools/narra/manuscriptImport.js 
-- utilibox/src/tools/narra/manuscriptImport.test.js 
-- utilibox/src/tools/narra/markdownFormatting.js 
-- utilibox/src/tools/narra/markdownFormatting.test.js 
-- utilibox/src/tools/narra/mockWork.js 
-- utilibox/src/tools/narra/mockWork.test.js 
-- utilibox/src/tools/narra/narraAcknowledgements.js 
-- utilibox/src/tools/narra/narraAcknowledgements.test.js 
-- utilibox/src/tools/narra/narraBlocks.js 
-- utilibox/src/tools/narra/narraBlocks.test.js 
-- utilibox/src/tools/narra/narraContextEngine.js 
-- utilibox/src/tools/narra/narraContextEngine.test.js 
-- utilibox/src/tools/narra/narraCoverageMatrix.js 
-- utilibox/src/tools/narra/narraCoverageMatrix.test.js 
-- utilibox/src/tools/narra/narraCreateFlows.js 
-- utilibox/src/tools/narra/narraCreateFlows.test.js 
-- utilibox/src/tools/narra/narraCreationWeights.js 
-- utilibox/src/tools/narra/narraCreationWeights.test.js 
-- utilibox/src/tools/narra/narraDiagnosticReadiness.js 
-- utilibox/src/tools/narra/narraDiagnosticReadiness.test.js 
-- utilibox/src/tools/narra/narraExport.js 
-- utilibox/src/tools/narra/narraExport.test.js 
-- utilibox/src/tools/narra/narraGapEngine.js 
-- utilibox/src/tools/narra/narraGapEngine.test.js 
-- utilibox/src/tools/narra/narraGoalTracking.js 
-- utilibox/src/tools/narra/narraGoalTracking.test.js 
-- utilibox/src/tools/narra/narraNextBestAction.js 
-- utilibox/src/tools/narra/narraNextBestAction.test.js 
-- utilibox/src/tools/narra/narraObraPhase.js 
-- utilibox/src/tools/narra/narraObraPhase.test.js 
-- utilibox/src/tools/narra/narraOpenQuestions.js 
-- utilibox/src/tools/narra/narraOpenQuestions.test.js 
-- utilibox/src/tools/narra/narraRelationHealth.js 
-- utilibox/src/tools/narra/narraRelationHealth.test.js 
-- utilibox/src/tools/narra/narraSemanticFindings.js 
-- utilibox/src/tools/narra/narraSemanticFindings.test.js 
-- utilibox/src/tools/narra/narraStructuralGapEngine.js 
-- utilibox/src/tools/narra/narraStructuralGapEngine.test.js 
-- utilibox/src/tools/narra/narrativeEntities.js 
-- utilibox/src/tools/narra/narrativeEntities.test.js 
-- utilibox/src/tools/narra/narraValidationEngine.js 
-- utilibox/src/tools/narra/narraValidationEngine.test.js 
-- utilibox/src/tools/narra/narraWritingSession.js 
-- utilibox/src/tools/narra/narraWritingSession.test.js 
-- utilibox/src/tools/narra/noteDocumentExport.js 
-- utilibox/src/tools/narra/noteDocumentExport.test.js 
-- utilibox/src/tools/narra/noteTemplateCatalog.js 
-- utilibox/src/tools/narra/noteTemplateCatalog.test.js 
-- utilibox/src/tools/narra/noteTitleLookup.js 
-- utilibox/src/tools/narra/noteTitleLookup.test.js 
-- utilibox/src/tools/narra/obraClientContract.test.js 
-- utilibox/src/tools/narra/obraDashboard.js 
-- utilibox/src/tools/narra/obraDashboard.test.js 
-- utilibox/src/tools/narra/obraFamilyPhase.js 
-- utilibox/src/tools/narra/obraFindings.js 
-- utilibox/src/tools/narra/obraFindings.test.js 
-- utilibox/src/tools/narra/obraGateR3.test.js 
-- utilibox/src/tools/narra/obraIaPorFormato.test.js 
-- utilibox/src/tools/narra/obraLens.js 
-- utilibox/src/tools/narra/obraLens.test.js 
-- utilibox/src/tools/narra/obraLensSlots.test.js 
-- utilibox/src/tools/narra/obraProgressByFormat.js 
-- utilibox/src/tools/narra/obraProgressByFormat.test.js 
-- utilibox/src/tools/narra/obraRegressaoRomance.test.js 
-- utilibox/src/tools/narra/obraRomanceSnapshot.js 
-- utilibox/src/tools/narra/obraTestFixtures.js 
-- utilibox/src/tools/narra/offlineObraInsights.js 
-- utilibox/src/tools/narra/offlineObraInsights.test.js 
-- utilibox/src/tools/narra/onboardingBlueprints.js 
-- utilibox/src/tools/narra/onboardingComposer.js 
-- utilibox/src/tools/narra/onboardingComposer.test.js 
-- utilibox/src/tools/narra/onboardingDraft.js 
-- utilibox/src/tools/narra/onboardingDraft.test.js 
-- utilibox/src/tools/narra/onboardingEngine.js 
-- utilibox/src/tools/narra/onboardingEngine.test.js 
-- utilibox/src/tools/narra/onboardingMissions.js 
-- utilibox/src/tools/narra/onboardingMissions.test.js 
-- utilibox/src/tools/narra/onboardingMock.js 
-- utilibox/src/tools/narra/onboardingMock.test.js 
-- utilibox/src/tools/narra/onboardingSeeds.js 
-- utilibox/src/tools/narra/onboardingSeeds.test.js 
-- utilibox/src/tools/narra/onboardingTelemetry.js 
-- utilibox/src/tools/narra/onboardingTelemetry.test.js 
-- utilibox/src/tools/narra/onboardingWizardLogic.js 
-- utilibox/src/tools/narra/onboardingWizardLogic.test.js 
-- utilibox/src/tools/narra/pageEngine.js 
-- utilibox/src/tools/narra/paragraphActions.js 
-- utilibox/src/tools/narra/paragraphActions.test.js 
-- utilibox/src/tools/narra/persistenceContract.test.js 
-- utilibox/src/tools/narra/plannerDrag.js 
-- utilibox/src/tools/narra/plannerDrag.test.js 
-- utilibox/src/tools/narra/plotlineNotes.test.js 
-- utilibox/src/tools/narra/poemForms.js 
-- utilibox/src/tools/narra/poemForms.test.js 
-- utilibox/src/tools/narra/profileScope.js 
-- utilibox/src/tools/narra/profileScope.test.js 
-- utilibox/src/tools/narra/projectSchemas.js 
-- utilibox/src/tools/narra/projectSchemas.test.js 
-- utilibox/src/tools/narra/relationProperties.js 
-- utilibox/src/tools/narra/relationProperties.test.js 
-- utilibox/src/tools/narra/resourceLimits.js 
-- utilibox/src/tools/narra/resourceLimits.test.js 
-- utilibox/src/tools/narra/seedSampler.js 
-- utilibox/src/tools/narra/seedSampler.test.js 
-- utilibox/src/tools/narra/semanticFindingFamilies.js 
-- utilibox/src/tools/narra/semanticFindingsPrompt.js 
-- utilibox/src/tools/narra/semanticFindingsPrompt.test.js 
-- utilibox/src/tools/narra/semanticRefreshPolicy.js 
-- utilibox/src/tools/narra/semanticRefreshPolicy.test.js 
-- utilibox/src/tools/narra/spellcheck.js 
-- utilibox/src/tools/narra/spellcheck.test.js 
-- utilibox/src/tools/narra/spellcheckWorker.js 
-- utilibox/src/tools/narra/stageAndScreen.js 
-- utilibox/src/tools/narra/stageAndScreen.test.js 
-- utilibox/src/tools/narra/storyReview.js 
-- utilibox/src/tools/narra/storyReview.test.js 
-- utilibox/src/tools/narra/structureOutline.js 
-- utilibox/src/tools/narra/structureOutline.test.js 
-- utilibox/src/tools/narra/syncPolicy.js 
-- utilibox/src/tools/narra/syncPolicy.test.js 
-- utilibox/src/tools/narra/telemetry.js 
-- utilibox/src/tools/narra/telemetry.test.js 
-- utilibox/src/tools/narra/titlePolicy.js 
-- utilibox/src/tools/narra/titlePolicy.test.js 
-- utilibox/src/tools/narra/understandUpdate.js 
-- utilibox/src/tools/narra/understandUpdate.test.js 
-- utilibox/src/tools/narra/understandUpdateState.js 
-- utilibox/src/tools/narra/understandUpdateState.test.js 
-- utilibox/src/tools/narra/vaultExamples.js 
-- utilibox/src/tools/narra/vaultExamples.test.js 
-- utilibox/src/tools/narra/versionCompare.js 
-- utilibox/src/tools/narra/versionCompare.test.js 
-- utilibox/src/tools/narra/writingCompanion.js 
-- utilibox/src/tools/narra/writingCompanion.test.js 
- UtiliNotas - Editor Markdown Conectado Crie notas em Markdown, conecte ideias com links internos, organize uma árvore de arquivos e insira imagens. Premium salva também em uma pasta no disco. Tools Premium 
-- utilibox/src/tools/utilinotas/aiApply.js 
-- utilibox/src/tools/utilinotas/aiApply.test.js 
-- utilibox/src/tools/utilinotas/aiContext.js 
-- utilibox/src/tools/utilinotas/aiContext.test.js 
-- utilibox/src/tools/utilinotas/aiEvaluationNotes.js 
-- utilibox/src/tools/utilinotas/aiEvaluationNotes.test.js 
-- utilibox/src/tools/utilinotas/aiOrganization.js 
-- utilibox/src/tools/utilinotas/aiOrganization.test.js 
-- utilibox/src/tools/utilinotas/aiSafety.js 
-- utilibox/src/tools/utilinotas/aiSafety.test.js 
-- utilibox/src/tools/utilinotas/canvasAiContext.js 
-- utilibox/src/tools/utilinotas/canvasAiContext.test.js 
-- utilibox/src/tools/utilinotas/client.js 
-- utilibox/src/tools/utilinotas/cloudReliability.js 
-- utilibox/src/tools/utilinotas/cloudReliability.test.js 
-- utilibox/src/tools/utilinotas/content.md 
-- utilibox/src/tools/utilinotas/ENCRYPTION_TODO.md 
-- utilibox/src/tools/utilinotas/fileNames.js 
-- utilibox/src/tools/utilinotas/fileNames.test.js 
-- utilibox/src/tools/utilinotas/folderPaths.js 
-- utilibox/src/tools/utilinotas/folderPaths.test.js 
-- utilibox/src/tools/utilinotas/index.astro 
-- utilibox/src/tools/utilinotas/indexedDbManager.js 
-- utilibox/src/tools/utilinotas/indexedDbManager.test.js 
-- utilibox/src/tools/utilinotas/initialVaultState.js 
-- utilibox/src/tools/utilinotas/initialVaultState.test.js 
-- utilibox/src/tools/utilinotas/markdownFormatting.js 
-- utilibox/src/tools/utilinotas/markdownFormatting.test.js 
-- utilibox/src/tools/utilinotas/noteDocumentExport.js 
-- utilibox/src/tools/utilinotas/noteDocumentExport.test.js 
-- utilibox/src/tools/utilinotas/noteTemplateCatalog.js 
-- utilibox/src/tools/utilinotas/noteTemplateCatalog.test.js 
-- utilibox/src/tools/utilinotas/paragraphActions.js 
-- utilibox/src/tools/utilinotas/paragraphActions.test.js 
-- utilibox/src/tools/utilinotas/resourceLimits.js 
-- utilibox/src/tools/utilinotas/resourceLimits.test.js 
-- utilibox/src/tools/utilinotas/storyReview.js 
-- utilibox/src/tools/utilinotas/storyReviewCards.js 
-- utilibox/src/tools/utilinotas/storyReviewCards.test.js 
-- utilibox/src/tools/utilinotas/syncPolicy.js 
-- utilibox/src/tools/utilinotas/syncPolicy.test.js 
-- utilibox/src/tools/utilinotas/telemetry.js 
-- utilibox/src/tools/utilinotas/UTILINOTAS_PRODUCT_TODO.md 
-- utilibox/src/tools/utilinotas/vaultCrashRecovery.js 
-- utilibox/src/tools/utilinotas/vaultCrashRecovery.test.js 
-- utilibox/src/tools/utilinotas/vaultExamples.js 
-- utilibox/src/tools/utilinotas/vaultExamples.test.js 
-- utilibox/src/tools/utilinotas/vaultImportFormats.js 
-- utilibox/src/tools/utilinotas/vaultImportFormats.test.js 
-- utilibox/src/tools/utilinotas/visualMarkdown.js 
-- utilibox/src/tools/utilinotas/visualMarkdown.test.js 
- Anki Flashcards — Repetição Espaçada Crie decks de flashcards, estude com o algoritmo SM-2, acompanhe retenção e exporte para Anki Desktop (TSV) ou PDF. Inclui decks prontos de Matemática, Inglês, Anatomia e Programação. Tools Premium 
-- utilibox/src/tools/anki-flashcards/client.js 
-- utilibox/src/tools/anki-flashcards/content.md 
-- utilibox/src/tools/anki-flashcards/index.astro 
-- utilibox/src/tools/anki-flashcards/logic.js 
- Anki Flashcards — Spaced Repetition (English) Create flashcard decks, study with the SM-2 spaced repetition algorithm, track retention and export to Anki Desktop (TSV) or PDF. Includes ready-to-use decks for Math, Spanish, Anatomy and Programming. Tools Premium 
-- utilibox/src/tools/anki-flashcards-en/client.js 
-- utilibox/src/tools/anki-flashcards-en/content.md 
-- utilibox/src/tools/anki-flashcards-en/index.astro 
- AHP Online Ferramenta grátis de decisão multicritério: monte critérios, compare alternativas com a escala de Saaty, valide consistência e exporte projetos AHP. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/ahp-online/client.js 
-- utilibox/src/tools/ahp-online/content.md 
-- utilibox/src/tools/ahp-online/index.astro 
- AHP Online Free (English) Free multi-criteria decision tool: build criteria, compare alternativas com a escala de Saaty, valide consistência e exporte projetos AHP. Gestão 
-- utilibox/src/tools/ahp-online-free/client.js 
-- utilibox/src/tools/ahp-online-free/content.md 
-- utilibox/src/tools/ahp-online-free/index.astro 
- PROMETHEE Online Análise multicritério PROMETHEE I & II com funções de preferência configuráveis e análise de sensibilidade em tempo real. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/promethee/client.js 
-- utilibox/src/tools/promethee/content.md 
-- utilibox/src/tools/promethee/index.astro 
- PROMETHEE Analysis (English) Free PROMETHEE I & II multi-criteria decision analysis with configurable preference functions and real-time sensitivity analysis. Gestão 
-- utilibox/src/tools/promethee-analysis/content.md 
-- utilibox/src/tools/promethee-analysis/index.astro 
- TOPSIS Online Método TOPSIS: compare alternativas por distância à solução ideal com pesos e direções configuráveis. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/topsis/client.js 
-- utilibox/src/tools/topsis/content.md 
-- utilibox/src/tools/topsis/index.astro 
- TOPSIS Online (English) Free TOPSIS multi-criteria decision analysis: rank alternatives by closeness to ideal solution. Gestão 
-- utilibox/src/tools/topsis-online/content.md 
-- utilibox/src/tools/topsis-online/index.astro 
- Tomada de Decisão Guiada Compare opções com perguntas simples e descubra automaticamente qual escolher. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/tomada-de-decisao/client.js 
-- utilibox/src/tools/tomada-de-decisao/content.md 
-- utilibox/src/tools/tomada-de-decisao/index.astro 
- Decision Maker (English) Compare options with simple questions and automatically discover the best choice. Gestão 
-- utilibox/src/tools/decision-maker/client.js 
-- utilibox/src/tools/decision-maker/content.md 
-- utilibox/src/tools/decision-maker/index.astro 
- PDSA Manager Gerencie ciclos de melhoria contínua PDSA (Plan-Do-Study-Act) com gráficos, relatórios, métricas antes/depois e base de conhecimento de aprendizados. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/pdsa-manager/client.js 
-- utilibox/src/tools/pdsa-manager/content.md 
-- utilibox/src/tools/pdsa-manager/index.astro 
- VSM Online Mapa de Fluxo de Valor online: modele etapas, tempo de processo, espera, uptime, inventario e gargalos com lead time, takt e PCE automaticos. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/vsm/client.js 
-- utilibox/src/tools/vsm/content.md 
-- utilibox/src/tools/vsm/index.astro 
- SMED Online SMED online: separe atividades internas e externas, estime conversao, paralelizacao e ganho real na reducao de setup. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/smed/client.js 
-- utilibox/src/tools/smed/content.md 
-- utilibox/src/tools/smed/index.astro 
- Folha A3 Online Folha A3 online: estruture contexto, problema, meta, causa raiz, contramedidas, plano de acao e follow-up em uma unica pagina. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/folha-a3/client.js 
-- utilibox/src/tools/folha-a3/content.md 
-- utilibox/src/tools/folha-a3/index.astro 
- Análise de Pareto Identifique os poucos itens que causam a maioria dos problemas com gráfico 80/20 automático e curva acumulada. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/analise-pareto/client.js 
-- utilibox/src/tools/analise-pareto/content.md 
-- utilibox/src/tools/analise-pareto/index.astro 
-- utilibox/src/tools/analise-pareto/logic.js 
- Matriz GUT Priorize problemas, tarefas e iniciativas pela Gravidade, Urgência e Tendência com ranking automático. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/matriz-gut/client.js 
-- utilibox/src/tools/matriz-gut/content.md 
-- utilibox/src/tools/matriz-gut/index.astro 
-- utilibox/src/tools/matriz-gut/presets.js 
- Matriz Eisenhower Classifique tarefas por urgência e importância para decidir o que fazer agora, agendar, delegar ou eliminar. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/matriz-eisenhower/client.js 
-- utilibox/src/tools/matriz-eisenhower/content.md 
-- utilibox/src/tools/matriz-eisenhower/index.astro 
-- utilibox/src/tools/matriz-eisenhower/presets.js 
- Matriz SWOT Guiada Mapeie forças, fraquezas, oportunidades e ameaças e gere estratégias cruzadas SO, WO, ST e WT automaticamente. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/matriz-swot/client.js 
-- utilibox/src/tools/matriz-swot/content.md 
-- utilibox/src/tools/matriz-swot/index.astro 
-- utilibox/src/tools/matriz-swot/logic.js 
- Árvore CTC (Critical to Customer) Desdobre a Voz do Cliente em drivers CTQ, CTD, CTC e CTS com requisitos mensuráveis. Ferramenta do Green Belt para a fase Define do DMAIC. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/arvore-ctc/client.js 
-- utilibox/src/tools/arvore-ctc/content.md 
-- utilibox/src/tools/arvore-ctc/index.astro 
-- utilibox/src/tools/arvore-ctc/logic.js 
- Árvore de Decisão — EMV Monte árvores de decisão com nós de decisão, chance e resultado. Calcule o Valor Monetário Esperado (EMV) e encontre o caminho ótimo automaticamente. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/arvore-decisao/client.js 
-- utilibox/src/tools/arvore-decisao/content.md 
-- utilibox/src/tools/arvore-decisao/index.astro 
-- utilibox/src/tools/arvore-decisao/logic.js 
- Árvore de Decisão — ML Monte árvores de classificação no estilo Machine Learning com splits por feature, faça predições interativas e visualize o diagrama com o caminho percorrido. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/arvore-decisao-ml/client.js 
-- utilibox/src/tools/arvore-decisao-ml/content.md 
-- utilibox/src/tools/arvore-decisao-ml/index.astro 
-- utilibox/src/tools/arvore-decisao-ml/logic.js 
- Teoria das Filas Calcule M/M/1, M/M/c, M/D/1, Erlang-B/C com gráficos, análise de sensibilidade e comparativo por número de servidores. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/teoria-das-filas/client.js 
-- utilibox/src/tools/teoria-das-filas/content.md 
-- utilibox/src/tools/teoria-das-filas/index.astro 
-- utilibox/src/tools/teoria-das-filas/logic.js 
- Queueing Theory (English) Calculate M/M/1, M/M/c, M/D/1, M/M/1/K and Erlang-B/C metrics with charts, sensitivity analysis, server comparison table and DES simulation. Gestão 
-- utilibox/src/tools/queueing-theory/client.js 
-- utilibox/src/tools/queueing-theory/content.md 
-- utilibox/src/tools/queueing-theory/index.astro 
-- utilibox/src/tools/queueing-theory/logic.js 
-- utilibox/src/tools/queueing-theory/SYNC_VALIDATION.md 
- Calculadora de Estudo de Tempos — Tempo Padrão (Barnes) Calcule o número de observações necessárias (fórmula de Barnes), Tempo Normal e Tempo Padrão com tolerâncias PFD. Ferramenta para cronoanálise industrial. Gestão; Engenheiro de Produção 5.0 
-- utilibox/src/tools/estudo-de-tempos/client.js 
-- utilibox/src/tools/estudo-de-tempos/content.md 
-- utilibox/src/tools/estudo-de-tempos/index.astro 
+ Ferramenta Objetivo Área Link / referência 
+ Calculadora de Juros Simples Pro Rata (Dias) Calcule juros simples exatos para qualquer período em dias, considerando datas e taxa mensal. Finanças & Juros Abrir ferramenta — juros-simples-pro-rata-dia (https://utiliboxapp.com.br/tools/juros-simples-pro-rata-dia/)
+ 
+ Calculadora de Juros Simples Calcule o montante e o total de juros em regime de juros simples. Finanças & Juros Abrir ferramenta — calculadora-juros-simples (https://utiliboxapp.com.br/tools/calculadora-juros-simples/)
+ 
+ Calculadora de Juros Compostos Simule o crescimento de um investimento com juros sobre juros. Finanças & Juros Abrir ferramenta — calculadora-juros-compostos (https://utiliboxapp.com.br/tools/calculadora-juros-compostos/)
+ 
+ Descobrir Capital com Juros Simples Informe montante, taxa e prazo para descobrir o capital inicial necessário. Finanças & Juros Abrir ferramenta — juros-simples-descobrir-capital (https://utiliboxapp.com.br/tools/juros-simples-descobrir-capital/)
+ 
+ Calculadora de Porcentagem Descubra descontos, aumentos e proporções em %. Finanças & Juros Abrir ferramenta — calculadora-de-porcentagem (https://utiliboxapp.com.br/tools/calculadora-de-porcentagem/)
+ 
+ Calculadora de Desconto Calcule descontos, preços finais e percentuais de desconto em segundos. Finanças & Juros Abrir ferramenta — calculadora-desconto (https://utiliboxapp.com.br/tools/calculadora-desconto/)
+ 
+ Simulador de Empréstimo (Price) Simule parcelas de empréstimo pela tabela Price. Finanças & Juros Abrir ferramenta — simulador-emprestimo-price (https://utiliboxapp.com.br/tools/simulador-emprestimo-price/)
+ 
+ Simulador de Empréstimo (Price / SAC / SAM) Simule parcelas de empréstimos nos sistemas Price, SAC e SAM. Finanças & Juros Abrir ferramenta — simulador-emprestimo (https://utiliboxapp.com.br/tools/simulador-emprestimo/)
+ 
+ Calculadora INSS 2025 Calcule a contribuição ao INSS conforme a tabela oficial de 2025. Finanças & Juros Abrir ferramenta — calculadora-inss-2025 (https://utiliboxapp.com.br/tools/calculadora-inss-2025/)
+ 
+ Calculadora IRRF 2026 Calcule o Imposto de Renda na fonte para salários em 2026. Finanças & Juros Abrir ferramenta — calculadora-irrf-2026 (https://utiliboxapp.com.br/tools/calculadora-irrf-2026/)
+ 
+ Calculadora IRPF 2026 (Estimativa Anual) Estime o IRPF anual de 2026 e compare modelo completo vs simplificado. Finanças & Juros Abrir ferramenta — calculadora-irpf-2026 (https://utiliboxapp.com.br/tools/calculadora-irpf-2026/)
+ 
+ Calculadora de Restituição IRPF 2026 por Lotes Estime prioridade, correção e o lote provável da restituição do IRPF 2026. Finanças & Juros Abrir ferramenta — calculadora-restituicao-irpf-2026-lotes (https://utiliboxapp.com.br/tools/calculadora-restituicao-irpf-2026-lotes/)
+ 
+ Calculadora de Salário Líquido BR Estime o valor líquido considerando IRRF, INSS e descontos. Finanças & Juros Abrir ferramenta — calculadora-salario-liquido-br (https://utiliboxapp.com.br/tools/calculadora-salario-liquido-br/)
+ 
+ Simulador de Financiamento Imobiliário (Price, SAC, SAM) Compare Price, SAC e SAM: parcelas, total pago e juros. Finanças & Juros Abrir ferramenta — simulador-financiamento-imobiliario (https://utiliboxapp.com.br/tools/simulador-financiamento-imobiliario/)
+ 
+ Calculadora de Margem Consignável Veja quanto da renda pode ser comprometida com crédito consignado. Finanças & Juros Abrir ferramenta — calculadora-margem-consignavel (https://utiliboxapp.com.br/tools/calculadora-margem-consignavel/)
+ 
+ Calculadora de Rentabilidade CDI / SELIC Compare rendimentos em relação ao CDI e à SELIC. Finanças & Juros Abrir ferramenta — calculadora-rentabilidade-cdi-selic (https://utiliboxapp.com.br/tools/calculadora-rentabilidade-cdi-selic/)
+ 
+ Calculadora de CDB Simule rendimentos líquidos após IR. Finanças & Juros Abrir ferramenta — calculadora-cdb (https://utiliboxapp.com.br/tools/calculadora-cdb/)
+ 
+ Calculadora de WACC Calcule o custo médio ponderado de capital com equity, dívida, imposto e taxa final para valuation. Finanças & Juros Abrir ferramenta — calculadora-wacc (https://utiliboxapp.com.br/tools/calculadora-wacc/)
+ 
+ Simulador de Ponto de Equilíbrio Calcule break-even em unidades e faturamento com margem de contribuição, custos fixos e meta de lucro. Finanças & Juros Abrir ferramenta — simulador-ponto-de-equilibrio (https://utiliboxapp.com.br/tools/simulador-ponto-de-equilibrio/)
+ 
+ Calculadora de Payback, VPL e TIR Avalie projetos com payback simples, payback descontado, VPL e TIR a partir de fluxos de caixa. Finanças & Juros Abrir ferramenta — calculadora-payback-vpl-tir (https://utiliboxapp.com.br/tools/calculadora-payback-vpl-tir/)
+ 
+ Simulador de Aposentadoria (Básico) Projete patrimônio futuro ou aporte mensal para uma meta. Finanças & Juros Abrir ferramenta — simulador-aposentadoria (https://utiliboxapp.com.br/tools/simulador-aposentadoria/)
+ 
+ Calculadora de Juros de Mora e Multa Calcule juros e multa por atraso de boletos. Finanças & Juros Abrir ferramenta — calculadora-juros-mora-multa (https://utiliboxapp.com.br/tools/calculadora-juros-mora-multa/)
+ 
+ Calculadora de Parcelamento no Cartão Simule valor da parcela, juros totais e custo final em compras parceladas no cartão. Finanças & Juros Abrir ferramenta — calculadora-parcelamento-cartao (https://utiliboxapp.com.br/tools/calculadora-parcelamento-cartao/)
+ 
+ Calculadora de Meta de Vendas e Comissão Calcule atingimento da meta, quanto falta para bater objetivo e comissão estimada no mês. Finanças & Juros Abrir ferramenta — calculadora-meta-vendas-comissao (https://utiliboxapp.com.br/tools/calculadora-meta-vendas-comissao/)
+ 
+ Simulador de Cenários Simule cenários pessimista, base e otimista para receita, custos ou qualquer variável e compare o resultado líquido. Finanças & Juros Abrir ferramenta — simulador-cenarios (https://utiliboxapp.com.br/tools/simulador-cenarios/)
+ 
+ Calculadora FGC — Proteção do Fundo Garantidor de Créditos Calcule quanto do seu dinheiro está protegido pelo FGC em CDB, poupança, LCI, LCA e outros. Limite de R$250.000 por CPF por conglomerado. Finanças & Juros Abrir ferramenta — calculadora-fgc (https://utiliboxapp.com.br/tools/calculadora-fgc/)
+ 
+ Análise Lotofácil — Probabilidades e Frequência Calcule probabilidades por faixa, confira sua aposta com o resultado e veja os números mais sorteados da Lotofácil. Finanças & Juros Abrir ferramenta — analise-lotofacil (https://utiliboxapp.com.br/tools/analise-lotofacil/)
+ 
+ Calculadora de 13º Salário Calcule quanto você deve receber de décimo terceiro. Salário & Trabalho Abrir ferramenta — calculadora-decimo-terceiro (https://utiliboxapp.com.br/tools/calculadora-decimo-terceiro/)
+ 
+ Calculadora de Férias Simule quanto receber nas férias com 1/3 constitucional. Salário & Trabalho Abrir ferramenta — calculadora-de-ferias (https://utiliboxapp.com.br/tools/calculadora-de-ferias/)
+ 
+ Calculadora de Horas Extras Veja quanto vale cada hora extra trabalhada. Salário & Trabalho Abrir ferramenta — calculadora-horas-extras (https://utiliboxapp.com.br/tools/calculadora-horas-extras/)
+ 
+ Calculadora de Hora-Aula do Professor Calcule valor por aula, carga mensal e projeção por turma para planejamento escolar. Salário & Trabalho Abrir ferramenta — calculadora-hora-aula-professor (https://utiliboxapp.com.br/tools/calculadora-hora-aula-professor/)
+ 
+ Calculadora de Nota Final Escolar Calcule média bimestral com pesos, recuperação e quanto precisa tirar para atingir a média mínima. Salário & Trabalho Abrir ferramenta — calculadora-nota-final-escolar (https://utiliboxapp.com.br/tools/calculadora-nota-final-escolar/)
+ 
+ Calculadora PIS/Pasep 2026 Estime elegibilidade, valor do abono salarial e calendário de pagamento em 2026. Salário & Trabalho Abrir ferramenta — calculadora-pis-pasep-2026 (https://utiliboxapp.com.br/tools/calculadora-pis-pasep-2026/)
+ 
+ Calculadora Seguro-Desemprego 2026 Estime elegibilidade, quantidade de parcelas e valor da parcela para trabalhador formal. Salário & Trabalho Abrir ferramenta — calculadora-seguro-desemprego-2026 (https://utiliboxapp.com.br/tools/calculadora-seguro-desemprego-2026/)
+ 
+ Calculadora de FGTS na Rescisão + Multa de 40% Estime saldo de FGTS, multa rescisória de 40% e total potencial de saque na demissão sem justa causa. Salário & Trabalho Abrir ferramenta — calculadora-fgts-rescisao-multa-40 (https://utiliboxapp.com.br/tools/calculadora-fgts-rescisao-multa-40/)
+ 
+ Simulador FGTS no Desenrola 2.0 Calcule se seus 20% de FGTS cobrem a dívida com desconto do Desenrola 2.0 e Desenrola Fies. Salário & Trabalho Abrir ferramenta — simulador-fgts-desenrola (https://utiliboxapp.com.br/tools/simulador-fgts-desenrola/)
+ 
+ Simulador de Ciclo Menstrual Preveja menstruação, ovulação e janela fértil. Saúde Feminina Abrir ferramenta — simulador-ciclo-menstrual (https://utiliboxapp.com.br/tools/simulador-ciclo-menstrual/)
+ 
+ Calculadora de Ovulação Estime o período ovulatório e os dias mais férteis. Saúde Feminina Abrir ferramenta — calculadora-ovulacao (https://utiliboxapp.com.br/tools/calculadora-ovulacao/)
+ 
+ Calculadora de Tempo de Gestação Calcule idade gestacional e data provável do parto. Saúde Feminina Abrir ferramenta — calculadora-tempo-gestacao (https://utiliboxapp.com.br/tools/calculadora-tempo-gestacao/)
+ 
+ Calculadora de Semanas para Meses de Gravidez Converta semanas e dias de gestação em mês obstétrico, trimestre e tempo restante até 40 semanas. Saúde Feminina Abrir ferramenta — calculadora-semanas-para-meses-gravidez (https://utiliboxapp.com.br/tools/calculadora-semanas-para-meses-gravidez/)
+ 
+ Calculadora de Idade Gestacional Descubra semanas e dias de gestação com precisão. Saúde Feminina Abrir ferramenta — calculadora-idade-gestacional (https://utiliboxapp.com.br/tools/calculadora-idade-gestacional/)
+ 
+ DPP – Data Provável do Parto Calcule a data provável do parto a partir da DUM. Saúde Feminina Abrir ferramenta — dpp-data-provavel-parto (https://utiliboxapp.com.br/tools/dpp-data-provavel-parto/)
+ 
+ Tabela de Gravidez Semana a Semana Veja a evolução da gestação semana a semana. Saúde Feminina Abrir ferramenta — tabela-gravidez-semana-a-semana (https://utiliboxapp.com.br/tools/tabela-gravidez-semana-a-semana/)
+ 
+ Calculadora Linha do Tempo da Gravidez Cronograma completo da gravidez com marcos por semana. Saúde Feminina Abrir ferramenta — calculadora-linha-do-tempo-gravidez (https://utiliboxapp.com.br/tools/calculadora-linha-do-tempo-gravidez/)
+ 
+ Percentil de Crescimento Fetal Acompanhe medidas fetais e interpretação de percentis. Saúde Feminina Abrir ferramenta — percentil-crescimento-fetal (https://utiliboxapp.com.br/tools/percentil-crescimento-fetal/)
+ 
+ Calculadora de Janela Fértil Avançada Combine ciclo, duração e sintomas para uma previsão mais detalhada. Saúde Feminina Abrir ferramenta — calculadora-janela-fertil-avancada (https://utiliboxapp.com.br/tools/calculadora-janela-fertil-avancada/)
+ 
+ Calculadora de Atraso Menstrual Estime a data prevista da menstruação e possível atraso do ciclo. Saúde Feminina Abrir ferramenta — calculadora-atraso-menstrual (https://utiliboxapp.com.br/tools/calculadora-atraso-menstrual/)
+ 
+ Calculadora de Data do Teste de Gravidez Descubra o melhor momento para testar após a ovulação. Saúde Feminina Abrir ferramenta — calculadora-data-teste-gravidez (https://utiliboxapp.com.br/tools/calculadora-data-teste-gravidez/)
+ 
+ Calculadora de Data da Concepção Estime a data provável da concepção a partir da DUM, DPP ou idade gestacional. Saúde Feminina Abrir ferramenta — calculadora-data-concepcao (https://utiliboxapp.com.br/tools/calculadora-data-concepcao/)
+ 
+ Calculadora de Ganho de Peso na Gravidez Compare o ganho de peso gestacional com faixas de referência por IMC e semana. Saúde Feminina Abrir ferramenta — calculadora-ganho-peso-gestacional (https://utiliboxapp.com.br/tools/calculadora-ganho-peso-gestacional/)
+ 
+ Calculadora de Beta hCG por Semana Compare o valor do beta hCG com faixas amplas de referência conforme a semana gestacional. Saúde Feminina Abrir ferramenta — calculadora-beta-hcg-semanas (https://utiliboxapp.com.br/tools/calculadora-beta-hcg-semanas/)
+ 
+ Calculadora de Zonas de Frequência Cardíaca Descubra suas zonas de frequência cardíaca em 3 métodos diferentes Saúde & Corpo Abrir ferramenta — calculadora-zonas-frequencia-cardiaca (https://utiliboxapp.com.br/tools/calculadora-zonas-frequencia-cardiaca/)
+ 
+ Calculadora de IMC Descubra seu Índice de Massa Corporal. Saúde & Corpo Abrir ferramenta — calculadora-imc (https://utiliboxapp.com.br/tools/calculadora-imc/)
+ 
+ Calculadora de Calorias Diárias Estime quantas calorias consumir por dia. Saúde & Corpo Abrir ferramenta — calculadora-de-calorias (https://utiliboxapp.com.br/tools/calculadora-de-calorias/)
+ 
+ Calculadora de Água Diária Veja quantos litros de água você deve beber. Saúde & Corpo Abrir ferramenta — calculadora-agua-diaria (https://utiliboxapp.com.br/tools/calculadora-agua-diaria/)
+ 
+ Calculadora de Gasto Calórico Estime o gasto calórico diário ou por exercício. Saúde & Corpo Abrir ferramenta — calculadora-gasto-calorico (https://utiliboxapp.com.br/tools/calculadora-gasto-calorico/)
+ 
+ Calculadora de Taxa Metabólica Basal (TMB) Calcule sua taxa metabólica basal com base em peso, altura, idade e sexo biológico. Saúde & Corpo Abrir ferramenta — calculadora-tmb (https://utiliboxapp.com.br/tools/calculadora-tmb/)
+ 
+ Calculadora de Pace de Corrida Calcule pace por km, velocidade média e projeções de tempo para 5 km, 10 km, meia e maratona. Saúde & Corpo Abrir ferramenta — calculadora-pace-corrida (https://utiliboxapp.com.br/tools/calculadora-pace-corrida/)
+ 
+ Calculadora de Coloração de Tinta de Cabelo Simule estratégia de colorimetria capilar, oxidante, cobertura de brancos e neutralização de fundo na coloração. Beleza Feminina Abrir ferramenta — calculadora-coloracao-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-coloracao-tinta-cabelo/)
+ 
+ Calculadora de Mistura de Tinta e Oxidante Calcule quantos gramas de coloração, oxidante e mistura total usar em proporções comuns de salão. Beleza Feminina Abrir ferramenta — calculadora-mistura-tinta-oxidante (https://utiliboxapp.com.br/tools/calculadora-mistura-tinta-oxidante/)
+ 
+ Calculadora de Oxidante para Coloração Simule se o caso pede 10, 20, 30 ou 40 volumes conforme objetivo, histórico químico e cobertura de brancos. Beleza Feminina Abrir ferramenta — calculadora-oxidante-coloracao (https://utiliboxapp.com.br/tools/calculadora-oxidante-coloracao/)
+ 
+ Calculadora de Cobertura de Brancos Simule proporção entre base natural e nuance reflexada para melhorar cobertura de fios brancos. Beleza Feminina Abrir ferramenta — calculadora-cobertura-brancos (https://utiliboxapp.com.br/tools/calculadora-cobertura-brancos/)
+ 
+ Calculadora de Fundo de Clareamento Veja o fundo quente esperado por altura de tom e qual pigmento costuma neutralizar amarelo, laranja ou vermelho. Beleza Feminina Abrir ferramenta — calculadora-fundo-clareamento (https://utiliboxapp.com.br/tools/calculadora-fundo-clareamento/)
+ 
+ Calculadora de Matização de Loiro Simule direção de correção para amarelo, dourado, alaranjado e reflexo excessivo em loiros e mechas. Beleza Feminina Abrir ferramenta — calculadora-matizacao-loiro (https://utiliboxapp.com.br/tools/calculadora-matizacao-loiro/)
+ 
+ Calculadora de Pré-Pigmentação Capilar Simule quando repor fundo quente antes de escurecer cabelo claro, descolorido ou muito poroso. Beleza Feminina Abrir ferramenta — calculadora-pre-pigmentacao-capilar (https://utiliboxapp.com.br/tools/calculadora-pre-pigmentacao-capilar/)
+ 
+ Calculadora de Quantidade de Tinta para Cabelo Estime quantos tubos, gramas e mistura total usar conforme comprimento, densidade e técnica aplicada. Beleza Feminina Abrir ferramenta — calculadora-quantidade-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-quantidade-tinta-cabelo/)
+ 
+ Calculadora de Cronograma Capilar Monte uma rotina de hidratação, nutrição e reconstrução conforme dano, química, ressecamento e elasticidade do fio. Beleza Feminina Abrir ferramenta — calculadora-cronograma-capilar (https://utiliboxapp.com.br/tools/calculadora-cronograma-capilar/)
+ 
+ Calculadora de Idade Calcule sua idade exata em anos, meses e dias. Tempo & Datas Abrir ferramenta — calculadora-de-idade (https://utiliboxapp.com.br/tools/calculadora-de-idade/)
+ 
+ Calculadora de Tempo Some e subtraia horas e minutos. Tempo & Datas Abrir ferramenta — calculadora-de-tempo (https://utiliboxapp.com.br/tools/calculadora-de-tempo/)
+ 
+ Cronômetro e Contador Regressivo Use um cronômetro e timer direto no navegador. Tempo & Datas Abrir ferramenta — relogio-cronometro-contador (https://utiliboxapp.com.br/tools/relogio-cronometro-contador/)
+ 
+ Pomodoro Online Técnica Pomodoro com ciclos de foco e pausas configuráveis, chime sonoro e modo popup. Tempo & Datas Abrir ferramenta — pomodoro (https://utiliboxapp.com.br/tools/pomodoro/)
+ 
+ Calculadora de Dias Úteis Calcule dias úteis entre duas datas. Tempo & Datas Abrir ferramenta — calculadora-dias-uteis (https://utiliboxapp.com.br/tools/calculadora-dias-uteis/)
+ 
+ Calculadora de Idade Completa Idade detalhada em anos, meses, dias, horas e minutos. Tempo & Datas Abrir ferramenta — calculadora-idade-completa (https://utiliboxapp.com.br/tools/calculadora-idade-completa/)
+ 
+ Calculadora de Medidas Converta medidas lineares, áreas e volumes. Casa & Construção Abrir ferramenta — calculadora-de-medidas (https://utiliboxapp.com.br/tools/calculadora-de-medidas/)
+ 
+ Calculadora de Preço por m² Calcule preço por m² ou preço total (com perda opcional). Casa & Construção Abrir ferramenta — calculadora-preco-por-m2 (https://utiliboxapp.com.br/tools/calculadora-preco-por-m2/)
+ 
+ Calculadora de Piso e Azulejo Calcule caixas ou peças (com perda opcional) usando m²/caixa ou tamanho da peça. Casa & Construção Abrir ferramenta — calculadora-piso-azulejo (https://utiliboxapp.com.br/tools/calculadora-piso-azulejo/)
+ 
+ Calculadora de Tinta Veja quantos litros de tinta precisa para pintar. Casa & Construção Abrir ferramenta — calculadora-de-tinta (https://utiliboxapp.com.br/tools/calculadora-de-tinta/)
+ 
+ Calculadora de Consumo de Energia Elétrica Estime kWh e custo diário, mensal e anual de um aparelho com base na potência, tempo de uso e tarifa. Casa & Construção Abrir ferramenta — calculadora-consumo-energia-eletrica (https://utiliboxapp.com.br/tools/calculadora-consumo-energia-eletrica/)
+ 
+ Calculadora de Churrasco Calcule carne, bebidas e acompanhamentos por pessoa. Lazer & Família Abrir ferramenta — calculadora-de-churrasco (https://utiliboxapp.com.br/tools/calculadora-de-churrasco/)
+ 
+ Calculadora de Feijoada Planeje ingredientes por pessoa. Lazer & Família Abrir ferramenta — calculadora-de-feijoada (https://utiliboxapp.com.br/tools/calculadora-de-feijoada/)
+ 
+ Gerador de Nomes de Bebês Sugira nomes com base em estilos e tendências. Lazer & Família Abrir ferramenta — gerador-nomes-bebes (https://utiliboxapp.com.br/tools/gerador-nomes-bebes/)
+ 
+ Gerador de Nomes para Pets Ideias criativas de nomes para seu pet. Lazer & Família Abrir ferramenta — gerador-nomes-pets (https://utiliboxapp.com.br/tools/gerador-nomes-pets/)
+ 
+ Calculadora de Consumo de Combustível e Custo por Km Descubra km por litro, litros por 100 km, custo total e custo por quilômetro rodado. Lazer & Família Abrir ferramenta — calculadora-consumo-combustivel (https://utiliboxapp.com.br/tools/calculadora-consumo-combustivel/)
+ 
+ Calculadora do Álbum da Copa 2026 Quantos pacotes para completar o álbum Panini? Calcule custo esperado, duplicatas e o impacto das trocas com probabilidade real. Lazer & Família Abrir ferramenta — calculadora-album-copa-2026 (https://utiliboxapp.com.br/tools/calculadora-album-copa-2026/)
+ 
+ Jogos do Brasil na Copa 2026 — Tabela Completa com Horários Veja todos os jogos do Brasil na Copa do Mundo 2026 com horários em BRT, Grupo C completo e contagem regressiva para o primeiro jogo. Lazer & Família Abrir ferramenta — jogos-brasil-copa-2026 (https://utiliboxapp.com.br/tools/jogos-brasil-copa-2026/)
+ 
+ Calculadora de Elegibilidade para Cidadania Italiana Descubra se você tem direito à cidadania italiana por descendência (jus sanguinis). Detecta quebra de cadeia por naturalização e Regra de 1948. Lazer & Família Abrir ferramenta — cidadania-italiana (https://utiliboxapp.com.br/tools/cidadania-italiana/)
+ 
+ Editor Vetorial Online Desenhe formas, curvas Bézier e ilustrações no navegador. Exporte como SVG ou PNG. Sem instalar nada. Design & Arte Abrir ferramenta — editor-vetorial (https://utiliboxapp.com.br/tools/editor-vetorial/)
+ 
+ Editor 3D Online Crie e edite cenas 3D no navegador com primitivos, materiais, iluminação e controles de transformação. Sem instalar nada. Design & Arte Abrir ferramenta — editor-3d (https://utiliboxapp.com.br/tools/editor-3d/)
+ 
+ Gerador de Carrossel Instagram com IA Digite um tema, escolha o template e a cor, e receba 6 slides prontos para postar — criados por IA. Marketing & Growth Abrir ferramenta — gerador-carrossel-instagram (https://utiliboxapp.com.br/tools/gerador-carrossel-instagram/)
+ 
+ Calculadora de Valor do Cliente (LTV) e Custo de Aquisição (CAC) — Google Ads Estime CAC, tempo para meta e viabilidade (LTV:CAC) usando CPC e taxa de conversão (com cenários). Marketing & Growth Abrir ferramenta — calculadora-ltv-cac-ads (https://utiliboxapp.com.br/tools/calculadora-ltv-cac-ads/)
+ 
+ Conversor de Moedas Converta valores entre diferentes moedas. Conversores & Utilidades Abrir ferramenta — conversor-de-moedas (https://utiliboxapp.com.br/tools/conversor-de-moedas/)
+ 
+ Calculadora Simples Soma, subtração, multiplicação e divisão. Conversores & Utilidades Abrir ferramenta — calculadora-simples (https://utiliboxapp.com.br/tools/calculadora-simples/)
+ 
+ Calculadora de Regra de Três Resolva regra de três direta ou inversa e descubra X com passo a passo. Conversores & Utilidades Abrir ferramenta — calculadora-regra-de-tres (https://utiliboxapp.com.br/tools/calculadora-regra-de-tres/)
+ 
+ Conversor de Unidades Converta comprimentos, áreas, volumes, pesos e mais. Conversores & Utilidades Abrir ferramenta — conversor-unidades (https://utiliboxapp.com.br/tools/conversor-unidades/)
+ 
+ Conversor de Temperatura Converta °C, °F e Kelvin. Conversores & Utilidades Abrir ferramenta — conversor-temperatura (https://utiliboxapp.com.br/tools/conversor-temperatura/)
+ 
+ Conversor de Taxas Converta taxas equivalentes ao dia, mês e ano em regime simples ou composto. Conversores & Utilidades Abrir ferramenta — conversor-de-taxas (https://utiliboxapp.com.br/tools/conversor-de-taxas/)
+ 
+ Calculadora de Rescisão (Simples) Estimativa básica de valores rescisórios. Jurídico (Básico) Abrir ferramenta — calculadora-rescisao-trabalhista-simples (https://utiliboxapp.com.br/tools/calculadora-rescisao-trabalhista-simples/)
+ 
+ Atualização de Débitos (Simples) Calcule juros, multa e correção simples sobre um valor. Jurídico (Básico) Abrir ferramenta — atualizacao-de-debitos-simples (https://utiliboxapp.com.br/tools/atualizacao-de-debitos-simples/)
+ 
+ PDF → JPG Grátis Converta páginas de PDF em imagens JPG online grátis, com download em ZIP. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
+ 
+ JPG → PDF Transforme várias imagens em um único PDF. PDF & Produtividade Abrir ferramenta — conversor-jpg-para-pdf (https://utiliboxapp.com.br/tools/conversor-jpg-para-pdf/)
+ 
+ Compressor de Imagem (JPG/PNG) Reduza o tamanho de fotos e imagens para envio mais rápido sem instalar programa. PDF & Produtividade Abrir ferramenta — compressor-de-imagem (https://utiliboxapp.com.br/tools/compressor-de-imagem/)
+ 
+ Compressor PDF Grátis Comprima PDF online grátis para reduzir tamanho e facilitar envio por e-mail, WhatsApp e formulários. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
+ 
+ Word → PDF Converta documentos .doc e .docx para PDF. PDF & Produtividade Abrir ferramenta — conversor-word-para-pdf (https://utiliboxapp.com.br/tools/conversor-word-para-pdf/)
+ 
+ PDF → Word Transforme PDFs em arquivos editáveis. PDF & Produtividade Abrir ferramenta — conversor-pdf-para-word (https://utiliboxapp.com.br/tools/conversor-pdf-para-word/)
+ 
+ Assinatura Digital Simples Grátis Adicione uma assinatura visual simples em PDF online grátis, com digitação ou desenho manual no navegador. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
+ 
+ Dividir PDF Extraia páginas específicas de um PDF. PDF & Produtividade Abrir ferramenta — dividir-pdf (https://utiliboxapp.com.br/tools/dividir-pdf/)
+ 
+ Unir PDFs Combine vários PDFs em um único arquivo. PDF & Produtividade Abrir ferramenta — unir-pdf (https://utiliboxapp.com.br/tools/unir-pdf/)
+ 
+ Visualizador de PDF Grátis Abra e visualize arquivos PDF diretamente no navegador, sem instalar programa e sem enviar o arquivo para servidor. PDF & Produtividade Abrir ferramenta — visualizador-de-pdf (https://utiliboxapp.com.br/tools/visualizador-de-pdf/)
+ 
+ Gerador de QR Code Grátis Crie QR Code online grátis para links, textos, WhatsApp, telefone, e-mail e Wi‑Fi. PDF & Produtividade Abrir ferramenta — gerador-qr-code (https://utiliboxapp.com.br/tools/gerador-qr-code/)
+ 
+ Gerador de Assinatura de E-mail Grátis Crie assinaturas profissionais de e-mail em HTML com preview, cópia do código e download grátis. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
+ 
+ Narra Escreva e organize sua obra com capítulos, cenas, personagens e contexto em um só lugar. Escrita Abrir ferramenta — narra (https://utiliboxapp.com.br/tools/narra/)
+ 
+ UtiliNotas - Editor Markdown Conectado Crie notas em Markdown, conecte ideias com links internos, organize uma árvore de arquivos e insira imagens. Premium salva também em uma pasta no disco. Tools Premium Abrir ferramenta — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
+ 
+ Anki Flashcards — Repetição Espaçada Crie decks de flashcards, estude com o algoritmo SM-2, acompanhe retenção e exporte para Anki Desktop (TSV) ou PDF. Inclui decks prontos de Matemática, Inglês, Anatomia e Programação. Tools Premium Abrir ferramenta — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
+ 
+ Anki Flashcards — Spaced Repetition (English) Create flashcard decks, study with the SM-2 spaced repetition algorithm, track retention and export to Anki Desktop (TSV) or PDF. Includes ready-to-use decks for Math, Spanish, Anatomy and Programming. Tools Premium Abrir ferramenta — anki-flashcards-en (https://utiliboxapp.com.br/tools/anki-flashcards-en/)
+ 
+ AHP Online Ferramenta grátis de decisão multicritério: monte critérios, compare alternativas com a escala de Saaty, valide consistência e exporte projetos AHP. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/)
+ 
+ AHP Online Free (English) Free multi-criteria decision tool: build criteria, compare alternativas com a escala de Saaty, valide consistência e exporte projetos AHP. Gestão Abrir ferramenta — ahp-online-free (https://utiliboxapp.com.br/tools/ahp-online-free/)
+ 
+ PROMETHEE Online Análise multicritério PROMETHEE I & II com funções de preferência configuráveis e análise de sensibilidade em tempo real. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — promethee (https://utiliboxapp.com.br/tools/promethee/)
+ 
+ PROMETHEE Analysis (English) Free PROMETHEE I & II multi-criteria decision analysis with configurable preference functions and real-time sensitivity analysis. Gestão Abrir ferramenta — promethee-analysis (https://utiliboxapp.com.br/tools/promethee-analysis/)
+ 
+ TOPSIS Online Método TOPSIS: compare alternativas por distância à solução ideal com pesos e direções configuráveis. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — topsis (https://utiliboxapp.com.br/tools/topsis/)
+ 
+ TOPSIS Online (English) Free TOPSIS multi-criteria decision analysis: rank alternatives by closeness to ideal solution. Gestão Abrir ferramenta — topsis-online (https://utiliboxapp.com.br/tools/topsis-online/)
+ 
+ Tomada de Decisão Guiada Compare opções com perguntas simples e descubra automaticamente qual escolher. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — tomada-de-decisao (https://utiliboxapp.com.br/tools/tomada-de-decisao/)
+ 
+ Decision Maker (English) Compare options with simple questions and automatically discover the best choice. Gestão Abrir ferramenta — decision-maker (https://utiliboxapp.com.br/tools/decision-maker/)
+ 
+ PDSA Manager Gerencie ciclos de melhoria contínua PDSA (Plan-Do-Study-Act) com gráficos, relatórios, métricas antes/depois e base de conhecimento de aprendizados. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/)
+ 
+ VSM Online Mapa de Fluxo de Valor online: modele etapas, tempo de processo, espera, uptime, inventario e gargalos com lead time, takt e PCE automaticos. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — vsm (https://utiliboxapp.com.br/tools/vsm/)
+ 
+ SMED Online SMED online: separe atividades internas e externas, estime conversao, paralelizacao e ganho real na reducao de setup. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — smed (https://utiliboxapp.com.br/tools/smed/)
+ 
+ Folha A3 Online Folha A3 online: estruture contexto, problema, meta, causa raiz, contramedidas, plano de acao e follow-up em uma unica pagina. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
+ 
+ Análise de Pareto Identifique os poucos itens que causam a maioria dos problemas com gráfico 80/20 automático e curva acumulada. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/)
+ 
+ Matriz GUT Priorize problemas, tarefas e iniciativas pela Gravidade, Urgência e Tendência com ranking automático. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/)
+ 
+ Matriz Eisenhower Classifique tarefas por urgência e importância para decidir o que fazer agora, agendar, delegar ou eliminar. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — matriz-eisenhower (https://utiliboxapp.com.br/tools/matriz-eisenhower/)
+ 
+ Matriz SWOT Guiada Mapeie forças, fraquezas, oportunidades e ameaças e gere estratégias cruzadas SO, WO, ST e WT automaticamente. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/)
+ 
+ Árvore CTC (Critical to Customer) Desdobre a Voz do Cliente em drivers CTQ, CTD, CTC e CTS com requisitos mensuráveis. Ferramenta do Green Belt para a fase Define do DMAIC. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — arvore-ctc (https://utiliboxapp.com.br/tools/arvore-ctc/)
+ 
+ Árvore de Decisão — EMV Monte árvores de decisão com nós de decisão, chance e resultado. Calcule o Valor Monetário Esperado (EMV) e encontre o caminho ótimo automaticamente. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
+ 
+ Árvore de Decisão — ML Monte árvores de classificação no estilo Machine Learning com splits por feature, faça predições interativas e visualize o diagrama com o caminho percorrido. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — arvore-decisao-ml (https://utiliboxapp.com.br/tools/arvore-decisao-ml/)
+ 
+ Teoria das Filas Calcule M/M/1, M/M/c, M/D/1, Erlang-B/C com gráficos, análise de sensibilidade e comparativo por número de servidores. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — teoria-das-filas (https://utiliboxapp.com.br/tools/teoria-das-filas/)
+ 
+ Queueing Theory (English) Calculate M/M/1, M/M/c, M/D/1, M/M/1/K and Erlang-B/C metrics with charts, sensitivity analysis, server comparison table and DES simulation. Gestão Abrir ferramenta — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/)
+ 
+ Calculadora de Estudo de Tempos — Tempo Padrão (Barnes) Calcule o número de observações necessárias (fórmula de Barnes), Tempo Normal e Tempo Padrão com tolerâncias PFD. Ferramenta para cronoanálise industrial. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — estudo-de-tempos (https://utiliboxapp.com.br/tools/estudo-de-tempos/)
 
 ## Matriz de habilidades e cases de origem
  Competências relacionadas aos cases apresentados. A correspondência completa com os arquivos de origem está disponível em cv-data.json ; os cases acima incluem as evidências específicas.

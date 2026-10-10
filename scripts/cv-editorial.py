@@ -56,6 +56,9 @@ TECH_GROUPS = [
 ]
 
 def core_sections(data, language='pt'):
+    import runpy
+    from pathlib import Path
+    public_links = runpy.run_path(str(Path(__file__).with_name('cv-project-links.py')))['project_links']
     content_data = data['extensions']['locales']['en'] if language == 'en' else data['extensions']
     cases = content_data['cases']
     priorities = content_data['priorityCases']
@@ -80,6 +83,13 @@ def core_sections(data, language='pt'):
             content += '<article class="career-project" id="resumo-' + c['id'] + '"><h3>' + esc(c['title']) + '</h3><p>' + esc(c['text']) + '</p><ul class="career-deliverables">' + ''.join('<li>' + esc(v) + '</li>' for v in c['implementation'][:2]) + '</ul><p class="career-stack"><strong>Engenharia e tecnologias:</strong> ' + esc(c.get('stack', STACKS.get(shortid, ''))) + '.</p>'
             if qualifier: content += '<p class="career-qualifier">' + qualifier + '</p>'
             detail = ' · <a href="#' + c['id'] + '">Detalhes técnicos e fontes</a>' if c['id'].startswith('case-') else ''
+            links = links.replace('Ferramenta e fontes', 'Ferramenta').replace('Módulo e fontes', 'Módulo')
+            external = public_links(c.get('sources', []), language)
+            if external:
+                links = ' · '.join(part for part in links.split(' · ') if 'href="#utilibox-tool-' not in part)
+                detail = (' · ' if links else '') + external
+            else:
+                detail = detail.replace('Detalhes técnicos e fontes', 'Detalhes técnicos')
             content += '<p class="career-reference">' + links + detail + '</p></article>'
         result.append(content + '</div></section>')
     result[-1] = result[-1].replace('career-project-page"', 'career-project-page career-last"', 1)

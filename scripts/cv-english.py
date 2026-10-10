@@ -2,6 +2,7 @@
 import copy
 import html
 import runpy
+from pathlib import Path
 
 CASES = {
 'agentes-1': ('Six-agent planning council — Planejamento Xavier', 'Implemented a council of six specialized agents to support planning and replanning, with evidence for each recommendation, deterministic conflict resolution and traceable actions.', ['Strategy, execution, risk, learning, integrity and mentoring agents analyze the same planning snapshot.', 'Claims carry evidence, confidence, polarity, weight and node references; priorities and deterministic tie-breaking resolve conflicts.'], 'These are rule-based pure functions. LLM integration belongs to a separate layer; the individual agents are not autonomous LLMs.'),
@@ -84,7 +85,7 @@ LABELS = {
 'Protótipos e estudos de interação e visualização.':'Interaction and visualization prototypes and studies.',
 'Engenharia e tecnologias:':'Engineering and technologies:', 'Trajetória Agrodan':'Agrodan career context',
 'Estágio hospitalar':'Hospital internship', 'Ferramenta e fontes':'Tool and sources', 'Módulo e fontes':'Module and sources',
-'Contexto e projetos':'Context and projects', 'Detalhes técnicos e fontes':'Technical details and sources', 'Doutorado':'Doctoral research',
+'Ferramenta':'Tool', 'Módulo':'Module', 'Detalhes técnicos':'Technical details', 'Contexto e projetos':'Context and projects', 'Detalhes técnicos e fontes':'Technical details and sources', 'Doutorado':'Doctoral research',
 'Índice do acervo técnico':'Technical archive contents', 'Acervo técnico e fontes dos projetos':'Technical archive and project sources',
 'CV original':'Original CV', 'Versão textual completa':'Complete text version', 'Dados e fontes':'Data and sources',
 'Acervo técnico completo · cases, catálogos e fontes':'Complete technical archive · cases, catalogs and sources',
@@ -129,7 +130,9 @@ def archive_section(id, title, body):
 
 def paragraphs(values): return ''.join('<p>'+html.escape(v)+'</p>' for v in values)
 def bullets(values): return '<ul>'+''.join('<li>'+html.escape(v)+'</li>' for v in values)+'</ul>'
-def sources(values): return '<ul class="sources">'+''.join('<li><code>'+html.escape(v)+'</code></li>' for v in values)+'</ul>'
+PUBLIC_LINKS=runpy.run_path(str(Path(__file__).with_name('cv-project-links.py')))
+def sources(values): return PUBLIC_LINKS['sources'](values,'en')
+def source_heading(values): return PUBLIC_LINKS['source_heading'](values,'en')
 
 def build_archive(base, data, locale):
     catalog = runpy.run_path(str(base/'scripts/cv-english-catalogs.py'))
@@ -143,7 +146,7 @@ def build_archive(base, data, locale):
         selected=[c for c in locale['cases'] if c['id'].startswith('case-'+prefix+'-')]
         body=''
         for c in selected:
-            body+='<article id="'+c['id']+'" class="case"><h3>'+html.escape(c['title'])+'</h3>'+paragraphs([c['context'],c['text']])+'<h4>Engineering and implementation</h4>'+bullets(c['implementation'])+'<p><strong>Technologies and methods:</strong> '+html.escape(c['stack'])+'</p><h4>Project sources</h4>'+sources(c['sources'])+'<p class="scope"><strong>Evidence scope:</strong> '+html.escape(c['limit'])+'</p></article>'
+            body+='<article id="'+c['id']+'" class="case"><h3>'+html.escape(c['title'])+'</h3>'+paragraphs([c['context'],c['text']])+'<h4>Engineering and implementation</h4>'+bullets(c['implementation'])+'<p><strong>Technologies and methods:</strong> '+html.escape(c['stack'])+'</p><h4>'+source_heading(c['sources'])+'</h4>'+sources(c['sources'])+'<p class="scope"><strong>Evidence scope:</strong> '+html.escape(c['limit'])+'</p></article>'
         sections.append(archive_section('especialidade-'+prefix,'Technical cases — '+{'agentes':'multiagent coordination','ia':'AI integration','ml':'Machine Learning and research','visao':'computer vision','sia':'agricultural and business applications','dados':'data engineering','mobile':'mobile and enterprise web','decisao':'decision support','produto':'products and knowledge','infra':'infrastructure and desktop integration','grafica':'3D and spatial visualization'}[prefix],body))
     academic=''
     for p in ext['projects']:
@@ -172,7 +175,7 @@ def build_archive(base, data, locale):
     rows=''
     for t,name in zip(tools,names):
         rows+='<tr id="utilibox-tool-'+t['slug']+'"><th scope="row">'+html.escape(name)+'</th><td>'+html.escape('Interactive tool or reference for '+name.lower()+'.')+'</td><td>'+sources(['utilibox/'+r for r in t['localSourceReferences']] or ['utilibox/src/data/tools.js'])+'</td></tr>'
-    sections.append(archive_section('utilibox-catalogo','Utilibox — complete application and tool catalog',paragraphs(['136 unique tool entries cover 17 overlapping commercial categories. Methods and maturity vary across the catalog; live status is declared by the catalog rather than independently checked in this review. The main CV highlights the decision, operations, finance, knowledge and learning applications.'])+'<table><thead><tr><th>Tool</th><th>Application</th><th>Sources</th></tr></thead><tbody>'+rows+'</tbody></table>'))
+    sections.append(archive_section('utilibox-catalogo','Utilibox — complete application and tool catalog',paragraphs(['136 unique tool entries cover 17 overlapping commercial categories. Methods and maturity vary across the catalog; live status is declared by the catalog rather than independently checked in this review. The main CV highlights the decision, operations, finance, knowledge and learning applications.'])+'<table><thead><tr><th>Tool</th><th>Application</th><th>Links / references</th></tr></thead><tbody>'+rows+'</tbody></table>'))
     matrix=''
     for c in locale['cases']+locale['priorityCases']:
         matrix+='<tr><th scope="row">'+html.escape(c['title'])+'</th><td>'+html.escape(c['stack'])+bullets(c['implementation'])+'</td></tr>'
