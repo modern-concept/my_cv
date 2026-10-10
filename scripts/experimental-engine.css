@@ -1,4 +1,6 @@
 /* Additions to the existing complete CV theme and print engine. */
+body[data-extension-language="en"] [data-content-language="pt"],
+body:not([data-extension-language="en"]) [data-content-language="en"]{display:none!important}
 .career-section-title{font-family:Montserrat,sans-serif;font-size:14pt;line-height:1.4;color:var(--midText);border-bottom:1px solid var(--midLine);padding-bottom:3mm;margin:0 0 3mm;scroll-margin-top:90px}
 .career-project{border:1px solid rgba(255,255,255,.12);border-radius:4mm;background:rgba(255,255,255,.03);padding:4mm;margin:0 0 4mm;scroll-margin-top:90px;break-inside:avoid}
 .career-project h3{font-family:Montserrat,sans-serif;font-size:10.5pt;line-height:1.4;margin:0 0 2mm;color:var(--midText)}
@@ -49,7 +51,7 @@
 @media(max-width:740px){.experimental-page .context-grid,.experimental-page .module-grid{grid-template-columns:1fr}.extension-toc ol{columns:1}.experimental-page .chapter{font-size:10pt}.experimental-page table{table-layout:auto}.experimental-page .table-scroll{overflow-x:auto}}
 @media print{
   body[data-print-mode][data-cv-version="full"] #fullCvView .career-navigation,.career-appendices>summary{display:none!important}
-  body:not([data-print-appendices="true"]) #careerAppendices{display:none!important}
+  body:not([data-print-appendices="true"]) .career-appendices{display:none!important}
   body[data-print-mode="cv"]:not([data-print-appendices="true"]) #fullCvView .career-last{break-after:auto!important;page-break-after:auto!important}
   
   body[data-print-mode][data-cv-version="full"] #fullCvView .full-page{height:auto;min-height:0;overflow:visible}

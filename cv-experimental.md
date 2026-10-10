@@ -5529,7 +5529,7 @@ Versão experimental ampliada — 09/10/2026.
 - utilibox/src/tools/estudo-de-tempos/index.astro 
 
 ## Matriz de habilidades e cases de origem
- Competências relacionadas aos cases apresentados. A correspondência completa com os arquivos de origem está disponível em cv-experimental-data.json ; os cases acima incluem as evidências específicas.
+ Competências relacionadas aos cases apresentados. A correspondência completa com os arquivos de origem está disponível em cv-data.json ; os cases acima incluem as evidências específicas.
  Habilidade Projetos, módulos e contexto 
  abstração de CRUD 
 - SIA · Persistência local reutilizável — Agrodan — experiência profissional 

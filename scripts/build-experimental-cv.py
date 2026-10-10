@@ -1,4 +1,4 @@
-"""Create an additive, statically rendered CV experiment from saved evidence."""
+"""Generate the main bilingual CV from the saved project evidence."""
 import copy
 import html
 import json
@@ -152,7 +152,7 @@ def build():
     for skill,origins in sorted(provenance.items(),key=lambda x:x[0].lower()):
         skill_rows.append('<tr><th scope="row">'+esc(skill)+'</th><td>'+bullets(origins)+'</td></tr>')
     new_sections.append(section('origem-habilidades','Matriz de habilidades e cases de origem',
-      '<p>Competências relacionadas aos cases apresentados. A correspondência completa com os arquivos de origem está disponível em <a href="cv-experimental-data.json">cv-experimental-data.json</a>; os cases acima incluem as evidências específicas.</p><div class="table-scroll"><table><thead><tr><th>Habilidade</th><th>Projetos, módulos e contexto</th></tr></thead><tbody>'+''.join(skill_rows)+'</tbody></table></div>'))
+      '<p>Competências relacionadas aos cases apresentados. A correspondência completa com os arquivos de origem está disponível em <a href="cv-data.json">cv-data.json</a>; os cases acima incluem as evidências específicas.</p><div class="table-scroll"><table><thead><tr><th>Habilidade</th><th>Projetos, módulos e contexto</th></tr></thead><tbody>'+''.join(skill_rows)+'</tbody></table></div>'))
 
     old_summary=''.join('<article class="job"><h3>'+esc(e['company']).replace('\n','<br>')+'</h3><p>'+esc(e['role']).replace('\n','<br>')+'</p><p class="meta">'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+paras(e.get('paragraphs',[]))+'</article>' for e in current['experience'])
     preserved=[section('sintese-original','Síntese de experiência da versão original',old_summary)]
@@ -188,26 +188,21 @@ def build():
     base_parts[-2]=section('competencias','Competências e aplicações', ''.join('<h3>'+esc(g['title'])+'</h3>'+paras([g['description'],g['origin']]) for g in experimental['extensions']['editorial']['skillGroups']))
     base_parts[-1]=section('tecnologias','Tecnologias e ferramentas', ''.join('<p><strong>'+esc(g['title'])+':</strong> '+esc(g['description'])+'</p>' for g in experimental['extensions']['editorial']['technologyGroups']))
     all_sections=base_parts+[association_map]+new_sections+preserved
-    (BASE/'cv-experimental-data.json').write_text(json.dumps(experimental,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (BASE/'cv-data.json').write_text(json.dumps(experimental,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     engine=runpy.run_path(str(BASE/'scripts/experimental-engine.py'))
     engine_sections=[association_map]+new_sections
     engine_sections.append(section('fontes-interpretacao','Fontes e interpretação',
       '<p>Cargos, períodos, reconhecimentos e impactos mantêm os relatos do currículo original. Os cases adicionais usam revisão estática de código e documentos locais. As fontes demonstram métodos e mecanismos; autoria individual, implantação e impacto medido dependem do contexto de cada projeto.</p><p>As referências Agrodan@origin/development:caminho identificam arquivos das referências Git locais. Os vínculos confirmados são Agrodan (profissional), EBSERH (estágio), The Game Project (faculdade) e EFS-AHP (doutorado).</p>'))
-    page=engine['build_page'](BASE,experimental,engine_sections,job_html,edu,primary_count)
+    english_sections=english['build_archive'](BASE,experimental,locale)
+    page=engine['build_page'](BASE,experimental,engine_sections,job_html,edu,primary_count,english_sections=english_sections)
     ids=set(re.findall(r'\bid="([^"]+)"',page))
     internal_links=set(re.findall(r'href="#([^"]+)"',page))
     if internal_links-ids: raise ValueError('Vínculos sem destino: '+str(internal_links-ids))
-    (BASE/'cv-experimental.html').write_text(page,encoding='utf-8')
-    english_sections=english['build_archive'](BASE,experimental,locale)
+    (BASE/'index.html').write_text(page,encoding='utf-8')
     en_jobs=[]
     for i,j in enumerate(en['fullCv']['primaryExperience']+en['fullCv']['additionalExperience']):
         en_jobs.append('<article id="experiencia-'+str(i+1)+'" class="job"><h3>'+esc(j['role'])+'</h3><p class="company">'+esc(j['company'])+'</p><p class="meta">'+esc(j['period'])+' · '+esc(j.get('location',''))+'</p>'+chips(j.get('highlights',[]))+bullets(j.get('bullets',[]))+('<p><strong>Technologies:</strong> '+esc(', '.join(j['technologies']))+'</p>' if j.get('technologies') else '')+'</article>')
     en_education=['<article id="formacao-'+str(i+1)+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p>'+esc(e['school'])+'</p><p>'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>' for i,e in enumerate(en['education'])]
-    english_page=engine['build_page'](BASE,experimental,english_sections,en_jobs,en_education,len(en['fullCv']['primaryExperience']),language='en')
-    english_ids=set(re.findall(r'\bid="([^"]+)"',english_page))
-    english_links=set(re.findall(r'href="#([^"]+)"',english_page))
-    if english_links-english_ids: raise ValueError('English links without targets: '+str(english_links-english_ids))
-    (BASE/'cv-experimental-en.html').write_text(english_page,encoding='utf-8')
     english_text=section('profile','Professional profile',paras(en['profile']['summary']))+section('experience','Professional experience',''.join(en_jobs))+section('results','Impact highlights',bullets(en['fullCv']['keyImpacts']))+section('education','Education',''.join(en_education))
     english_text+=section('skills','Skills and applications',''.join('<h3>'+esc(g['title'])+'</h3>'+paras([g['description'],g['origin']]) for g in locale['editorial']['skillGroups']))
     english_text+=section('tools','Technologies and tools',''.join('<p><strong>'+esc(g['title'])+':</strong> '+esc(g['description'])+'</p>' for g in locale['editorial']['technologyGroups']))
