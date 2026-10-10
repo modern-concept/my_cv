@@ -189,7 +189,7 @@ Versão experimental ampliada — 09/10/2026.
 ## Tecnologias e ferramentas
  Linguagens: Python, SQL, JavaScript, TypeScript e Java.
  Web, APIs e produtos: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase.
- Mobile e offline: React Native, Expo, AsyncStorage, IndexedDB e Dexie; integrações com terminal MetaTrader5.
+ Mobile e offline: React Native, Expo, AsyncStorage, IndexedDB e Dexie.
  Dados e persistência: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize.
  ML e visão computacional: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js e MediaPipe.
  Decisão e visualização: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js e React Three Fiber.
@@ -460,6 +460,13 @@ Versão experimental ampliada — 09/10/2026.
 ## MLOps — TraderMind
  Pipeline de ML, validação, inferência, supervisão e manutenção · pesquisa e operação demo
 
+### Conector desktop MetaTrader5 — TraderMind
+ Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
+
+- Conector utiliza o pacote MetaTrader5 oficial e depende do terminal aberto/autenticado.
+- Consulta conta e dados de candles; prepara o fluxo de operação ligado à política/inferência. Engenharia e tecnologias: Python · MetaTrader5 · Flask · SQLite · APIs locais.
+ Contexto e projetos · Detalhes técnicos
+
 ### Pipeline de dados, features e contratos de qualidade
  Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.
 
@@ -581,13 +588,6 @@ Versão experimental ampliada — 09/10/2026.
 - Logística: mapas Leaflet, desenho de áreas e experimentos de roteamento/TSP com heurísticas e algoritmos genéticos. Engenharia e tecnologias: Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet.
  Contexto e projetos · Repositório público — Cartola Oracle (https://github.com/Danjubex/cartola_oracle)
 
-### Conector desktop MetaTrader5 — TraderMind
- Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
-
-- Conector utiliza o pacote MetaTrader5 oficial e depende do terminal aberto/autenticado.
-- Consulta conta e dados de candles; prepara o fluxo de operação ligado à política/inferência. Engenharia e tecnologias: Python · MetaTrader5 · Flask · SQLite · APIs locais.
- Contexto e projetos · Detalhes técnicos
-
 ## Experiência em P&D industrial — Agrodan / Agritech.NE
 
 ### Desenvolvedor da plataforma de contagem e rastreabilidade de frutas
@@ -708,9 +708,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Transformar sinais heterogêneos em uma política verificável
  Contribuição e entrega: Estruturei experimentos de políticas multiagentes com votação de sinais, quórum e otimização por simulated annealing, organizando calibração, validação temporal e teste fora da amostra.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -895,9 +895,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Organizar dados, modelos e políticas para avaliação e uso por API
  Contribuição e entrega: Estruturei experimentos quantitativos e componentes de inferência, conectando preparação de dados, avaliação de modelos e políticas a uma API e ao terminal MetaTrader5.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1477,9 +1477,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Ligar a aplicação Python ao terminal de negociação instalado localmente
  Contribuição e entrega: Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1793,9 +1793,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.
  Contribuição e entrega: Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1817,9 +1817,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.
  Contribuição e entrega: Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1841,9 +1841,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.
  Contribuição e entrega: Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1865,9 +1865,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.
  Contribuição e entrega: Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1889,9 +1889,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.
  Contribuição e entrega: Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -1913,9 +1913,9 @@ Versão experimental ampliada — 09/10/2026.
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.
  Contribuição e entrega: Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
 
 #### Engenharia, métodos e profundidade
 
@@ -4175,9 +4175,9 @@ Versão experimental ampliada — 09/10/2026.
 ### TraderMind — pesquisa quantitativa e pipeline de modelos
  Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
  Vínculo: Projetos independentes, pesquisa e produtos
- Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
- Público e contexto: Pesquisa e experimentação de estratégias de negociação.
- Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+ Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
+ Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
+ Objetivo: Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5.
  Laboratório de pesquisa quantitativa e painel operacional para modelos de trading no MetaTrader 5. Reúne coleta de séries temporais, construção de features, treinamento, backtests, validação fora da amostra e integração de inferência por API a um bot, mantendo pesquisa e operação em módulos identificáveis.
  Problema e público: Investigar modelos e conectar políticas ao terminal de negociação — Pesquisador e operação de demonstração.
  Entrega: Notebooks, experimentos, API Flask, dashboard e conector Python ao terminal desktop MetaTrader5; não equivale a GUI desktop nativa própria.

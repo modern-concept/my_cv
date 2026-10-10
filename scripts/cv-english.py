@@ -60,7 +60,7 @@ EDITORIAL = {
 'technologyGroups': [
 {'title':'Languages','description':'Python, SQL, JavaScript, TypeScript and Java.'},
 {'title':'Web, APIs and products','description':'React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase.'},
-{'title':'Mobile and offline','description':'React Native, Expo, AsyncStorage, IndexedDB and Dexie; integrations with the MetaTrader5 terminal.'},
+{'title':'Mobile and offline','description':'React Native, Expo, AsyncStorage, IndexedDB and Dexie.'},
 {'title':'Data and persistence','description':'Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize.'},
 {'title':'ML and computer vision','description':'scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js and MediaPipe.'},
 {'title':'Decision and visualization','description':'AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js and React Three Fiber.'},

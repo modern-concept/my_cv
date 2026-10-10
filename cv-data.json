@@ -389,7 +389,7 @@
           "name": "Web, APIs e produtos: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase."
         },
         {
-          "name": "Mobile e offline: React Native, Expo, AsyncStorage, IndexedDB e Dexie; integrações com terminal MetaTrader5."
+          "name": "Mobile e offline: React Native, Expo, AsyncStorage, IndexedDB e Dexie."
         },
         {
           "name": "Dados e persistência: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize."
@@ -820,7 +820,7 @@
           "name": "Web, APIs and products: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase."
         },
         {
-          "name": "Mobile and offline: React Native, Expo, AsyncStorage, IndexedDB and Dexie; integrations with the MetaTrader5 terminal."
+          "name": "Mobile and offline: React Native, Expo, AsyncStorage, IndexedDB and Dexie."
         },
         {
           "name": "Data and persistence: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize."
@@ -31170,14 +31170,14 @@
       {
         "id": "mt5",
         "pt": {
-          "applicationArea": "Mercados financeiros, pesquisa quantitativa e automação de negociação",
-          "audience": "Pesquisa e experimentação de estratégias de negociação",
-          "objective": "Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5"
+          "applicationArea": "IA, Machine Learning e MLOps aplicados à pesquisa quantitativa",
+          "audience": "Pesquisa e experimentação de modelos e estratégias em mercados financeiros",
+          "objective": "Estruturar o ciclo de dados, treinamento, validação temporal, inferência e supervisão de modelos; integrar sinais e políticas ao MetaTrader5"
         },
         "en": {
-          "applicationArea": "Financial markets, quantitative research and trading automation",
-          "audience": "Trading strategy research and experimentation",
-          "objective": "Investigate predictive models, combine signals and connect policies to MetaTrader5"
+          "applicationArea": "AI, Machine Learning and MLOps for quantitative research",
+          "audience": "Financial-market model and strategy research and experimentation",
+          "objective": "Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5"
         },
         "architecture": {
           "pt": "Estudos e notebooks conectados a API de inferência, conector Python para MetaTrader5, configuração, supervisão e painéis operacionais.",
@@ -32089,7 +32089,7 @@
         },
         {
           "title": "Mobile e offline",
-          "description": "React Native, Expo, AsyncStorage, IndexedDB e Dexie; integrações com terminal MetaTrader5."
+          "description": "React Native, Expo, AsyncStorage, IndexedDB e Dexie."
         },
         {
           "title": "Dados e persistência",
@@ -34124,7 +34124,7 @@
             },
             {
               "title": "Mobile and offline",
-              "description": "React Native, Expo, AsyncStorage, IndexedDB and Dexie; integrations with the MetaTrader5 terminal."
+              "description": "React Native, Expo, AsyncStorage, IndexedDB and Dexie."
             },
             {
               "title": "Data and persistence",

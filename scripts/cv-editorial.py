@@ -47,7 +47,7 @@ SKILL_GROUPS = [
 TECH_GROUPS = [
     ('Linguagens', 'Python, SQL, JavaScript, TypeScript e Java.'),
     ('Web, APIs e produtos', 'React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase.'),
-    ('Mobile e offline', 'React Native, Expo, AsyncStorage, IndexedDB e Dexie; integrações com terminal MetaTrader5.'),
+    ('Mobile e offline', 'React Native, Expo, AsyncStorage, IndexedDB e Dexie.'),
     ('Dados e persistência', 'Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize.'),
     ('ML e visão computacional', 'scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js e MediaPipe.'),
     ('Decisão e visualização', 'AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js e React Three Fiber.'),
@@ -67,7 +67,7 @@ def core_sections(data, language='pt'):
         ('cv-utilibox', 'Utilibox — produtos e métodos aplicados', 'Decisão, pesquisa operacional, engenharia de produção, finanças e conhecimento · produto independente', [c for c in priorities if c['section'] == 'utilibox']),
         ('cv-pesquisa', 'Pesquisa aplicada e formação', 'Doutorado, estágio hospitalar e projetos de faculdade', [c for c in cases if c['id'] in ['case-ml-1', 'case-mobile-2']]),
         ('cv-ia', 'Projetos de IA, sistemas multiagentes e Machine Learning', 'Desenvolvimento independente e pesquisa quantitativa', [c for c in cases if c['id'].startswith(('case-agentes-', 'case-ia-', 'case-visao-', 'case-ml-2'))]),
-        ('cv-produtos', 'Otimização e integração de sistemas', 'Pesquisa quantitativa e desenvolvimento independente', [c for c in cases if c['id'] in ['case-decisao-2', 'case-infra-2']]),
+        ('cv-produtos', 'Otimização e integração de sistemas', 'Pesquisa quantitativa e desenvolvimento independente', [c for c in cases if c['id'] == 'case-decisao-2']),
     ]
     result = []
     groups[0][3][:0]=[c for c in cases if c['id'].startswith('case-agritech-')]
@@ -77,7 +77,7 @@ def core_sections(data, language='pt'):
       [c for c in cases if c['id'].startswith('case-globalcom-')]))
     groups.insert(4,('cv-mlops','MLOps — TraderMind',
       'Pipeline de ML, validação, inferência, supervisão e manutenção · pesquisa e operação demo' if language=='pt' else 'ML pipeline, validation, inference, supervision and maintenance · research and demo operation',
-      [c for c in cases if c['id'].startswith('case-mlops-')]))
+      [c for c in cases if c['id'].startswith('case-mlops-') or c['id']=='case-infra-2']))
     for id, title, context, selected in groups:
         content = '<section class="page full-page career-project-page"><div class="full-page-inner"><h2 class="career-section-title" id="' + id + '">' + title + '</h2><p class="career-context">' + context + '</p>'
         for c in selected:

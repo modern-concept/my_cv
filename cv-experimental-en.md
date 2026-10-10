@@ -210,7 +210,7 @@ Tech Lead
 ## Technologies and tools
  Languages: Python, SQL, JavaScript, TypeScript and Java.
  Web, APIs and products: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase.
- Mobile and offline: React Native, Expo, AsyncStorage, IndexedDB and Dexie; integrations with the MetaTrader5 terminal.
+ Mobile and offline: React Native, Expo, AsyncStorage, IndexedDB and Dexie.
  Data and persistence: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize.
  ML and computer vision: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js and MediaPipe.
  Decision and visualization: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js and React Three Fiber.
@@ -555,6 +555,15 @@ Tech Lead
  ML pipeline, validation, inference, supervision and maintenance · research and demo operation
 
 
+### MetaTrader5 desktop connector — TraderMind
+ Built a Python connector to the MetaTrader5 desktop terminal, integrating market/account data with the documented research and execution workflow.
+
+- The connector uses the MetaTrader5 package and requires an authenticated local terminal.
+- Candles and account data connect policy research with separate API, dashboard and execution components. Engineering and technologies: Python · MetaTrader5 · Flask · SQLite · local APIs.
+ Context and projects · Technical details
+
+
+
 ### Data pipelines, features and quality contracts
  Integrated extraction, data updates, dataset construction and feature selection into operational TraderMind pipeline stages.
 
@@ -710,15 +719,6 @@ Tech Lead
 
 
 
-### MetaTrader5 desktop connector — TraderMind
- Built a Python connector to the MetaTrader5 desktop terminal, integrating market/account data with the documented research and execution workflow.
-
-- The connector uses the MetaTrader5 package and requires an authenticated local terminal.
-- Candles and account data connect policy research with separate API, dashboard and execution components. Engineering and technologies: Python · MetaTrader5 · Flask · SQLite · local APIs.
- Context and projects · Technical details
-
-
-
 ## Industrial R&D experience — Agrodan / Agritech.NE
 
 
@@ -798,9 +798,9 @@ Tech Lead
 ### Financial signal ensemble — TraderMind
  Independent projects, prototypes and research
  Designed multiagent policy experiments with signal voting, quorum and simulated annealing, separating calibration, temporal validation and out-of-sample evaluation.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -906,9 +906,9 @@ Tech Lead
 ### TraderMind — experiments and inference integration
  Independent projects, prototypes and research
  Structured quantitative experiments and inference components, connecting data preparation and model/policy evaluation to an API and the MetaTrader5 terminal.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -1234,9 +1234,9 @@ Tech Lead
 ### MetaTrader5 desktop connector — TraderMind
  Independent projects, prototypes and research
  Built a Python connector to the MetaTrader5 desktop terminal, integrating market/account data with the documented research and execution workflow.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -1409,9 +1409,9 @@ Tech Lead
 ### Data pipelines, features and quality contracts
  TraderMind · independent MLOps and quantitative research project
  Integrated extraction, data updates, dataset construction and feature selection into operational TraderMind pipeline stages.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -1424,9 +1424,9 @@ Tech Lead
 ### Training, checkpoints and artifact management
  TraderMind · independent MLOps and quantitative research project
  Organized experiments, training and execution recovery while preserving the relationship between models, features and parameters.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -1439,9 +1439,9 @@ Tech Lead
 ### Temporal validation, leakage and out-of-sample evaluation
  TraderMind · independent MLOps and quantitative research project
  Separated selection, calibration and temporal evaluation to compare models and policies without contaminating the final evaluation period.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -1454,9 +1454,9 @@ Tech Lead
 ### Model serving and MetaTrader5 integration
  TraderMind · independent MLOps and quantitative research project
  Connected ML artifacts, an inference service and the desktop terminal to bridge research and demonstration operation.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -1469,9 +1469,9 @@ Tech Lead
 ### Orchestration, retraining and operational updates
  TraderMind · independent MLOps and quantitative research project
  Coordinated data, training, evaluation and serving cycles through distinct execution modes.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -1484,9 +1484,9 @@ Tech Lead
 ### Observability and model follow-up
  TraderMind · independent MLOps and quantitative research project
  Connected the operational dashboard, pipeline stage health and performance review using recent data.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
 
 
 #### Engineering and implementation
@@ -3172,9 +3172,9 @@ Tech Lead
 
 ### TraderMind — quantitative research and model pipelines
  Research laboratory and operational dashboard combining time-series collection, features, training, backtests, out-of-sample evaluation and API/MetaTrader5 integration.
- Application area: Financial markets, quantitative research and trading automation.
- Users and context: Trading strategy research and experimentation.
- Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+ Application area: AI, Machine Learning and MLOps for quantitative research.
+ Users and context: Financial-market model and strategy research and experimentation.
+ Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
  Architecture: Studies and notebooks connected to an inference API, Python MetaTrader5 connector, configuration, supervision and operational dashboards.
  Stack: Python, JavaScript, MetaTrader 5, pandas, NumPy, scikit-learn, XGBoost, Flask, SQLite, Jupyter, PyTorch, TensorFlow, LightGBM, CatBoost, SciPy, statsmodels, DEAP, joblib
 

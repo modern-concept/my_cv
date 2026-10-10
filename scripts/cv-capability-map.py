@@ -8,7 +8,7 @@ DIMENSIONS = [
  ('IA e automação','AI & automation',['planejamentoxavier','ClassPlanner','instagram-conversion-crm','DvrPersonAlert','mt5','mocap','instabot','Scrapers']),
  ('ML e visão','ML & vision',['[EFS-AHP]','mt5','DvrPersonAlert','mocap','AlgoritmosGeneticos','agrodan-fruit-vision-platform']),
  ('Mobile e offline','Mobile & offline',['Agrodan','planejamentoxavier']),
- ('Desktop e terminais','Desktop & terminals',['mt5']),
+ ('MLOps e ciclo de modelos','MLOps & model lifecycle',['mt5','DvrPersonAlert']),
  ('Decisão e otimização','Decision & optimization',['utilibox','[EFS-AHP]','AlgoritmosGeneticos','cartola_oracle','Logistica','Agrodan']),
  ('3D e geoespacial','3D & geospatial',['dente_de_leao','mocap','movimento_3D','Logistica','Agrodan']),
 ]
