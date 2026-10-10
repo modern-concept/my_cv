@@ -159,7 +159,7 @@ Tech Lead
 
 ### AI, agents and automation
  LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.
- Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
+ Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
 
 
 ### Machine Learning and research
@@ -169,12 +169,12 @@ Tech Lead
 
 ### Software engineering
  Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.
- SIA/SIAgro, EBSERH, The Game Project and independent products. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
+ SIA/SIAgro, EBSERH, The Game Project and independent products. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
 
 
 ### Data and decisions
  ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.
- Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
+ Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
 
 
 ### Leadership and operations
@@ -184,7 +184,7 @@ Tech Lead
 
 ### Products and applied methods
  Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.
- Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.Related education: ongoing FM2S MBA in Operational Excellence.
+ Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.Related education: ongoing FM2S MBA in Operational Excellence. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
 
 
 ### Agentic AI architecture and governance
@@ -202,6 +202,11 @@ Tech Lead
  120 hours of LeetCode practice.
 
 
+### Computer vision and industrial integration
+ Platform development with fruit counting/tracking, ERP/sorting-machine integration, weight estimation, dashboard and operational alerts.
+ Agrodan / Agritech.NE — applied R&D project, March 2024 final report.
+
+
 ## Technologies and tools
  Languages: Python, SQL, JavaScript, TypeScript and Java.
  Web, APIs and products: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase.
@@ -213,10 +218,47 @@ Tech Lead
  Cloud and operations: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI.
  Proposed stack — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal.
  MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, temporal validation, supervisor, logs and dashboard.
+ Packing AI integration: Computer vision, Deep Learning, cameras, APIs, ERP, sorting machine, dashboard, Telegram and a dedicated server; CRISP-DM project methodology.
 
 
 ## Projects and applied engineering at Agrodan
  SIA / SIAgro ecosystem · professional experience
+
+
+### Computer vision platform development for packing operations
+ Worked as a developer on the platform project during my Agrodan employment period, connecting fruit counting and tracking to operational packing monitoring.
+
+- Platform for identifying and recording mangoes on the reject conveyor, with counting and tracking to avoid duplicates.
+- Connected the counting application, industrial data API, dashboard and notifications; the report describes two operating cameras. Engineering and technologies: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM.
+ Agrodan career context · Technical details
+
+
+
+### ERP, sorting-machine integration and batch traceability
+ The platform connects incoming batches, packed volume and rejected fruit to track fruit origin and support batch transitions.
+
+- API access to sorting-machine and packing data, combined with ERP batch records and variety, harvest and handling information.
+- Fruit counts are combined with the sorting-machine size distribution and variety-specific weight ranges to estimate reject weight. Engineering and technologies: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM.
+ Agrodan career context · Technical details
+
+
+
+### Dashboard, alerts and operational decision support
+ Developed the monitoring and notification platform to provide operators with processing information and batch-change timing.
+
+- Monitored integrated production data and prepared Telegram alerts when processed volume approaches incoming volume.
+- The scope includes dedicated-server counting and monitoring applications; the report records training and follow-up in February 2024. Engineering and technologies: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM.
+ Agrodan career context · Technical details
+
+
+
+### Project outcomes and industrial process improvement
+ Platform integration into the packing workflow produced project-level outcomes recorded in the final report, covering throughput, downtime and operating costs.
+
+- Reported throughput increased from 30 to 37.5 boxes per hour; daily control-change downtime decreased from 45 to 5 minutes.
+- The report records a 17% reduction in operating costs associated with labor and processing time. Engineering and technologies: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM.
+ Agrodan career context · Technical details
+
 
 
 ### PLANAGRO — inputs, applications and agronomic rules
@@ -674,6 +716,16 @@ Tech Lead
 - The connector uses the MetaTrader5 package and requires an authenticated local terminal.
 - Candles and account data connect policy research with separate API, dashboard and execution components. Engineering and technologies: Python · MetaTrader5 · Flask · SQLite · local APIs.
  Context and projects · Technical details
+
+
+
+## Industrial R&D experience — Agrodan / Agritech.NE
+
+
+### Fruit counting and traceability platform developer
+ During the Agrodan employment period · final report: March 2024
+ Worked as a platform developer during the Agrodan employment period, connecting fruit counting and tracking on the reject conveyor with ERP and sorting-machine data, an operational dashboard and Telegram alerts for batch traceability and changeover decisions. The final project report is dated March 2024.
+ Project and technical contribution
 
 
 
@@ -1441,6 +1493,73 @@ Tech Lead
 
 - Dashboard and health records track stages, training and operation; APIs expose model and service availability.
 - OOS window updates and comparisons between logged trades and backtests support regime-change analysis and model review decisions. Technologies and methods: Python · Flask · dashboard · logs · OOS · monitoring
+
+
+
+## Technical cases — Agrodan industrial computer vision platform
+
+
+### Computer vision platform development for packing operations
+ Agrodan · Agritech.NE applied R&D project · platform developer
+ Worked as a developer on the platform project during my Agrodan employment period, connecting fruit counting and tracking to operational packing monitoring.
+ Application area: Agribusiness, fruit production, packing, computer vision, traceability and operational efficiency.
+ Users and context: Sorting-machine operators, packing teams and Agrodan managers.
+ Objective: Integrate fruit counts and industrial data to monitor batches, indicate transitions and reduce interruptions.
+
+
+#### Engineering and implementation
+
+- Platform for identifying and recording mangoes on the reject conveyor, with counting and tracking to avoid duplicates.
+- Connected the counting application, industrial data API, dashboard and notifications; the report describes two operating cameras.
+- Applied R&D project with Agrodan in the Agritech.NE context, using CRISP-DM and project result follow-up. Technologies and methods: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+
+
+
+### ERP, sorting-machine integration and batch traceability
+ Agrodan · Agritech.NE applied R&D project · platform developer
+ The platform connects incoming batches, packed volume and rejected fruit to track fruit origin and support batch transitions.
+ Application area: Agribusiness, fruit production, packing, computer vision, traceability and operational efficiency.
+ Users and context: Sorting-machine operators, packing teams and Agrodan managers.
+ Objective: Integrate fruit counts and industrial data to monitor batches, indicate transitions and reduce interruptions.
+
+
+#### Engineering and implementation
+
+- API access to sorting-machine and packing data, combined with ERP batch records and variety, harvest and handling information.
+- Fruit counts are combined with the sorting-machine size distribution and variety-specific weight ranges to estimate reject weight.
+- Reconciled incoming volume, packed volume and estimated reject weight; a 98% incoming-volume proximity threshold supports batch-change decisions. Technologies and methods: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+
+
+
+### Dashboard, alerts and operational decision support
+ Agrodan · Agritech.NE applied R&D project · platform developer
+ Developed the monitoring and notification platform to provide operators with processing information and batch-change timing.
+ Application area: Agribusiness, fruit production, packing, computer vision, traceability and operational efficiency.
+ Users and context: Sorting-machine operators, packing teams and Agrodan managers.
+ Objective: Integrate fruit counts and industrial data to monitor batches, indicate transitions and reduce interruptions.
+
+
+#### Engineering and implementation
+
+- Monitored integrated production data and prepared Telegram alerts when processed volume approaches incoming volume.
+- The scope includes dedicated-server counting and monitoring applications; the report records training and follow-up in February 2024.
+- Counts, size distributions and processing volume support operational decisions beyond manual fruit removal from the tank. Technologies and methods: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+
+
+
+### Project outcomes and industrial process improvement
+ Agrodan · Agritech.NE applied R&D project · platform developer
+ Platform integration into the packing workflow produced project-level outcomes recorded in the final report, covering throughput, downtime and operating costs.
+ Application area: Agribusiness, fruit production, packing, computer vision, traceability and operational efficiency.
+ Users and context: Sorting-machine operators, packing teams and Agrodan managers.
+ Objective: Integrate fruit counts and industrial data to monitor batches, indicate transitions and reduce interruptions.
+
+
+#### Engineering and implementation
+
+- Reported throughput increased from 30 to 37.5 boxes per hour; daily control-change downtime decreased from 45 to 5 minutes.
+- The report records a 17% reduction in operating costs associated with labor and processing time.
+- Reported counting precision was 98%; variety-specific calibration remained necessary, with a Kent mango adjustment identified in the report. Technologies and methods: Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
 
 
 
@@ -2834,7 +2953,7 @@ Tech Lead
 
 
 ## Complete project and reference catalog
- 37 projects and references include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.
+ 38 projects and references include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.
 
 
 ### EBSERH — hospital indicators and assessments
@@ -3211,6 +3330,16 @@ Tech Lead
  Objective: Design evidence-driven certification operations with specialist agents and human approval.
  Architecture: Proposed architecture with deterministic workflows, 10 specialists, an orchestrator and an independent auditor; managed RAG, Supabase/PostgreSQL, persistent workers and API/MCP/RPA integrations.
  Stack: TypeScript, React, Node.js, Python, FastAPI, Supabase, PostgreSQL, pgvector, RAG, MCP, Playwright, RLS, RBAC, Filas e workers
+
+
+
+### Agrodan / Agritech.NE — fruit counting and packing traceability platform
+ Worked as a platform developer during the Agrodan employment period, connecting fruit counting and tracking on the reject conveyor with ERP and sorting-machine data, an operational dashboard and Telegram alerts for batch traceability and changeover decisions. The final project report is dated March 2024.
+ Application area: Agribusiness, fruit production, packing, computer vision, traceability and operational efficiency.
+ Users and context: Sorting-machine operators, packing teams and Agrodan managers.
+ Objective: Integrate fruit counts and industrial data to monitor batches, indicate transitions and reduce interruptions.
+ Architecture: Camera-based counting and tracking application, ERP/sorting-machine API integration, weight estimation by size and variety, dashboard and Telegram notifications; dedicated hosting is included in the project scope.
+ Stack: Visão computacional, Deep Learning, Câmeras, APIs, ERP, Integração com classificadora, Dashboard, Telegram, Servidor dedicado, CRISP-DM
 
 
 
@@ -3623,6 +3752,22 @@ Tech Lead
  Observability and model follow-up Python · Flask · dashboard · logs · OOS · monitoring
 - Dashboard and health records track stages, training and operation; APIs expose model and service availability.
 - OOS window updates and comparisons between logged trades and backtests support regime-change analysis and model review decisions.
+ Computer vision platform development for packing operations Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+- Platform for identifying and recording mangoes on the reject conveyor, with counting and tracking to avoid duplicates.
+- Connected the counting application, industrial data API, dashboard and notifications; the report describes two operating cameras.
+- Applied R&D project with Agrodan in the Agritech.NE context, using CRISP-DM and project result follow-up.
+ ERP, sorting-machine integration and batch traceability Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+- API access to sorting-machine and packing data, combined with ERP batch records and variety, harvest and handling information.
+- Fruit counts are combined with the sorting-machine size distribution and variety-specific weight ranges to estimate reject weight.
+- Reconciled incoming volume, packed volume and estimated reject weight; a 98% incoming-volume proximity threshold supports batch-change decisions.
+ Dashboard, alerts and operational decision support Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+- Monitored integrated production data and prepared Telegram alerts when processed volume approaches incoming volume.
+- The scope includes dedicated-server counting and monitoring applications; the report records training and follow-up in February 2024.
+- Counts, size distributions and processing volume support operational decisions beyond manual fruit removal from the tank.
+ Project outcomes and industrial process improvement Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+- Reported throughput increased from 30 to 37.5 boxes per hour; daily control-change downtime decreased from 45 to 5 minutes.
+- The report records a 17% reduction in operating costs associated with labor and processing time.
+- Reported counting precision was 98%; variety-specific calibration remained necessary, with a Kent mango adjustment identified in the report.
  AHP Online — multicriteria decisions and consistency Astro · JavaScript · AHP · comparison matrices · consistency
 - Saaty-scale comparisons and consistency calculations assess the coherence of judgments.
 - Interactive decision modeling presents results and supports project export.

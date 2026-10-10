@@ -148,7 +148,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### IA, agentes e automação
  Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.
- Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança.
+ Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
 
 ### Machine Learning e pesquisa
  Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.
@@ -156,11 +156,11 @@ Versão experimental ampliada — 09/10/2026.
 
 ### Engenharia de software
  Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.
- SIA/SIAgro, EBSERH, The Game Project e produtos independentes. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança.
+ SIA/SIAgro, EBSERH, The Game Project e produtos independentes. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
 
 ### Dados e decisão
  ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.
- Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança.
+ Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
 
 ### Liderança e operações
  Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.
@@ -168,7 +168,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### Produtos e métodos aplicados
  Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.
- Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Formação relacionada: MBA Operational Excellence em andamento na FM2S.
+ Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Formação relacionada: MBA Operational Excellence em andamento na FM2S. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
 
 ### Arquitetura Agentic AI e governança
  Desenho de orquestradores, agentes especialistas, ferramentas autorizadas, RAG contextual, auditoria independente e aprovação humana.
@@ -182,6 +182,10 @@ Versão experimental ampliada — 09/10/2026.
  Prática de estruturas de dados, estratégias algorítmicas, análise de complexidade e tratamento de casos de borda.
  120 horas de prática no LeetCode.
 
+### Visão computacional e integração industrial
+ Desenvolvimento de plataforma com contagem/rastreamento de frutos, integração ERP/classificadora, estimativa de peso, dashboard e alertas operacionais.
+ Agrodan / Plataforma Agritech.NE — projeto de P&D, relatório final de março/2024.
+
 ## Tecnologias e ferramentas
  Linguagens: Python, SQL, JavaScript, TypeScript e Java.
  Web, APIs e produtos: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase.
@@ -193,9 +197,38 @@ Versão experimental ampliada — 09/10/2026.
  Cloud e operação: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI.
  Stack projetada — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional.
  MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, validação temporal, supervisor, logs e dashboard.
+ Integração de IA no packing: Visão computacional, Deep Learning, câmeras, APIs, ERP, classificadora, dashboard, Telegram e servidor dedicado; CRISP-DM como metodologia do projeto.
 
 ## Projetos e engenharia aplicada na Agrodan
  Ecossistema SIA / SIAgro · experiência profissional
+
+### Desenvolvimento da plataforma de visão computacional no packing
+ Atuei como desenvolvedor no projeto da plataforma, durante meu vínculo na Agrodan, conectando a solução de contagem e rastreamento de frutos ao acompanhamento operacional do packing.
+
+- Plataforma para identificar e registrar mangas na esteira de refugo, com contagem e rastreamento para evitar duplicidades.
+- Integração entre aplicação de contagem, API de dados industriais, dashboard e notificações; o relatório descreve duas câmeras em funcionamento. Engenharia e tecnologias: Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM.
+ Trajetória Agrodan · Detalhes técnicos
+
+### Integração ERP, classificadora e rastreabilidade de lotes
+ A plataforma relaciona o lote recebido, a quantidade embalada e o refugo para acompanhar a origem da fruta e apoiar a transição entre lotes.
+
+- API para acessar dados da classificadora e de embalagem, combinados com registros de lote do ERP e informações de variedade, colheita e manejo.
+- A contagem de frutos é combinada com a distribuição de calibres da classificadora e faixas de peso por variedade para estimar o peso do refugo. Engenharia e tecnologias: Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM.
+ Trajetória Agrodan · Detalhes técnicos
+
+### Dashboard, alertas e apoio à decisão operacional
+ Desenvolvimento da plataforma de acompanhamento e notificações para dar aos operadores informação sobre o processamento e o momento de troca de lote.
+
+- Acompanhamento dos dados integrados de produção e preparação de avisos via Telegram quando o volume processado se aproxima do volume de entrada.
+- O escopo prevê aplicações de contagem e acompanhamento em servidor dedicado; o relatório registra treinamento e acompanhamento em fevereiro/2024. Engenharia e tecnologias: Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM.
+ Trajetória Agrodan · Detalhes técnicos
+
+### Resultados do projeto e melhoria do processo industrial
+ A integração da plataforma ao processo de packing apresentou ganhos registrados no relatório final do projeto, relacionados à produtividade, paradas e custos operacionais.
+
+- Produção registrada no relatório: de 30 para 37,5 caixas por hora; paradas por troca de controle: de 45 para 5 minutos por dia.
+- O relatório registra redução de 17% dos custos operacionais relacionados à mão de obra e ao tempo de processamento. Engenharia e tecnologias: Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM.
+ Trajetória Agrodan · Detalhes técnicos
 
 ### PLANAGRO — insumos, aplicações e regras agronômicas
  Desenvolvi componentes de planejamento agrícola no PLANAGRO, traduzindo aplicação de insumos, dosagem, carência, deriva e orçamento em regras e interfaces ligadas aos dados operacionais.
@@ -554,6 +587,13 @@ Versão experimental ampliada — 09/10/2026.
 - Conector utiliza o pacote MetaTrader5 oficial e depende do terminal aberto/autenticado.
 - Consulta conta e dados de candles; prepara o fluxo de operação ligado à política/inferência. Engenharia e tecnologias: Python · MetaTrader5 · Flask · SQLite · APIs locais.
  Contexto e projetos · Detalhes técnicos
+
+## Experiência em P&D industrial — Agrodan / Agritech.NE
+
+### Desenvolvedor da plataforma de contagem e rastreabilidade de frutas
+ Durante o vínculo na Agrodan · relatório final: março/2024
+ Atuação como desenvolvedor na plataforma de identificação e contagem de frutos na esteira de refugo do packing, integrando visão computacional, dados do ERP, classificadora, dashboard e alertas Telegram para apoiar rastreabilidade, acompanhamento dos lotes e redução das paradas de troca.
+ Projeto e participação técnica
 
 ## Experiência adicional e prática técnica
 
@@ -1890,6 +1930,130 @@ Versão experimental ampliada — 09/10/2026.
 - Model serving
 - Temporal validation
 - Observability Alcance da evidência: Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.
+
+## Agrodan / Agritech.NE — desenvolvimento de plataforma e visão computacional industrial
+ Experiência como desenvolvedor durante o vínculo na Agrodan. Projeto de contagem automatizada de frutas, integração industrial e rastreabilidade no packing; relatório final de março/2024.
+ O projeto integra fruticultura, indústria de alimentos, visão computacional, Deep Learning, dados de produção, APIs, dashboards, notificações e melhoria de processos. Os resultados apresentados são os registrados para o projeto/equipe.
+
+- Contagem e rastreamento
+- Integração ERP e classificadora
+- Estimativa de peso e reconciliação de volumes
+- Acompanhamento e notificações
+- Avaliação operacional Case · Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor
+
+### Desenvolvimento da plataforma de visão computacional no packing
+ Vínculo: Experiência profissional · Agrodan — trajetória de cargos
+ Problema: Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing
+ Contribuição e entrega: Atuei como desenvolvedor no projeto da plataforma, durante meu vínculo na Agrodan, conectando a solução de contagem e rastreamento de frutos ao acompanhamento operacional do packing.
+ Área de aplicação: Agronegócio, fruticultura, packing, visão computacional, rastreabilidade e eficiência operacional.
+ Público e contexto: Operadores da classificadora, equipes de packing e gestores da Agrodan.
+ Objetivo: Integrar contagem de frutos e dados industriais para acompanhar lotes, indicar trocas e reduzir interrupções.
+
+#### Engenharia, métodos e profundidade
+
+- Plataforma para identificar e registrar mangas na esteira de refugo, com contagem e rastreamento para evitar duplicidades.
+- Integração entre aplicação de contagem, API de dados industriais, dashboard e notificações; o relatório descreve duas câmeras em funcionamento.
+- Projeto de P&D em parceria com a Agrodan no contexto da Plataforma Agritech.NE, com metodologia CRISP-DM e acompanhamento dos resultados.
+
+#### Competências evidenciadas
+
+- Desenvolvimento de plataforma
+- Visão computacional aplicada
+- Integração de dados industriais
+- APIs
+- Rastreabilidade de lotes
+- Indicadores operacionais
+- Automação de notificações
+- CRISP-DM
+- P&D aplicado
+- Eficiência operacional Alcance da evidência: Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.
+
+ Case · Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor
+
+### Integração ERP, classificadora e rastreabilidade de lotes
+ Vínculo: Experiência profissional · Agrodan — trajetória de cargos
+ Problema: Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing
+ Contribuição e entrega: A plataforma relaciona o lote recebido, a quantidade embalada e o refugo para acompanhar a origem da fruta e apoiar a transição entre lotes.
+ Área de aplicação: Agronegócio, fruticultura, packing, visão computacional, rastreabilidade e eficiência operacional.
+ Público e contexto: Operadores da classificadora, equipes de packing e gestores da Agrodan.
+ Objetivo: Integrar contagem de frutos e dados industriais para acompanhar lotes, indicar trocas e reduzir interrupções.
+
+#### Engenharia, métodos e profundidade
+
+- API para acessar dados da classificadora e de embalagem, combinados com registros de lote do ERP e informações de variedade, colheita e manejo.
+- A contagem de frutos é combinada com a distribuição de calibres da classificadora e faixas de peso por variedade para estimar o peso do refugo.
+- Reconciliação entre volume de entrada, volume embalado e peso estimado do refugo; verificação de proximidade de 98% do volume de entrada para apoiar a troca de lote.
+
+#### Competências evidenciadas
+
+- Desenvolvimento de plataforma
+- Visão computacional aplicada
+- Integração de dados industriais
+- APIs
+- Rastreabilidade de lotes
+- Indicadores operacionais
+- Automação de notificações
+- CRISP-DM
+- P&D aplicado
+- Eficiência operacional Alcance da evidência: Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.
+
+ Case · Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor
+
+### Dashboard, alertas e apoio à decisão operacional
+ Vínculo: Experiência profissional · Agrodan — trajetória de cargos
+ Problema: Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing
+ Contribuição e entrega: Desenvolvimento da plataforma de acompanhamento e notificações para dar aos operadores informação sobre o processamento e o momento de troca de lote.
+ Área de aplicação: Agronegócio, fruticultura, packing, visão computacional, rastreabilidade e eficiência operacional.
+ Público e contexto: Operadores da classificadora, equipes de packing e gestores da Agrodan.
+ Objetivo: Integrar contagem de frutos e dados industriais para acompanhar lotes, indicar trocas e reduzir interrupções.
+
+#### Engenharia, métodos e profundidade
+
+- Acompanhamento dos dados integrados de produção e preparação de avisos via Telegram quando o volume processado se aproxima do volume de entrada.
+- O escopo prevê aplicações de contagem e acompanhamento em servidor dedicado; o relatório registra treinamento e acompanhamento em fevereiro/2024.
+- A contagem, os calibres e o volume de processamento apoiam a decisão operacional sem depender apenas da retirada manual da fruta do tanque.
+
+#### Competências evidenciadas
+
+- Desenvolvimento de plataforma
+- Visão computacional aplicada
+- Integração de dados industriais
+- APIs
+- Rastreabilidade de lotes
+- Indicadores operacionais
+- Automação de notificações
+- CRISP-DM
+- P&D aplicado
+- Eficiência operacional Alcance da evidência: Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.
+
+ Case · Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor
+
+### Resultados do projeto e melhoria do processo industrial
+ Vínculo: Experiência profissional · Agrodan — trajetória de cargos
+ Problema: Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing
+ Contribuição e entrega: A integração da plataforma ao processo de packing apresentou ganhos registrados no relatório final do projeto, relacionados à produtividade, paradas e custos operacionais.
+ Área de aplicação: Agronegócio, fruticultura, packing, visão computacional, rastreabilidade e eficiência operacional.
+ Público e contexto: Operadores da classificadora, equipes de packing e gestores da Agrodan.
+ Objetivo: Integrar contagem de frutos e dados industriais para acompanhar lotes, indicar trocas e reduzir interrupções.
+
+#### Engenharia, métodos e profundidade
+
+- Produção registrada no relatório: de 30 para 37,5 caixas por hora; paradas por troca de controle: de 45 para 5 minutos por dia.
+- O relatório registra redução de 17% dos custos operacionais relacionados à mão de obra e ao tempo de processamento.
+- Precisão de contagem reportada de 98%; a calibração por variedade continuava necessária, com ajuste específico para manga Kent indicado no relatório.
+
+#### Competências evidenciadas
+
+- Desenvolvimento de plataforma
+- Visão computacional aplicada
+- Integração de dados industriais
+- APIs
+- Rastreabilidade de lotes
+- Indicadores operacionais
+- Automação de notificações
+- CRISP-DM
+- P&D aplicado
+- Eficiência operacional Alcance da evidência: Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.
 
 ## Projetos vinculados a formação, estágio e faculdade
 
@@ -3228,7 +3392,7 @@ Versão experimental ampliada — 09/10/2026.
  Mecanismos: Armazenamento local no aplicativo.
 
 ## Catálogo completo de projetos e repertório
- 37 projetos e referências, incluindo produtos, pesquisa, protótipos, estudos, versões anteriores e referências. O contexto e o alcance de cada entrada determinam como ela contribui para a trajetória.
+ 38 projetos e referências, incluindo produtos, pesquisa, protótipos, estudos, versões anteriores e referências. O contexto e o alcance de cada entrada determinam como ela contribui para a trajetória.
  Engenharia de software · Projeto do estágio hospitalar
 
 ### EBSERH — gestão de indicadores hospitalares
@@ -4527,6 +4691,48 @@ Versão experimental ampliada — 09/10/2026.
 - Governança e aprovação humana
 - Arquitetura multi-tenant
 - Consultoria e desenho de produto O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
+
+ Visão computacional, integração industrial e eficiência operacional · Projeto de P&D com implementação e resultados registrados em relatório final de março/2024
+
+### Agrodan / Agritech.NE — plataforma de contagem de frutas e rastreabilidade no packing
+ Contexto: Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor
+ Vínculo: Experiência profissional · Agrodan — trajetória de cargos
+ Área de aplicação: Agronegócio, fruticultura, packing, visão computacional, rastreabilidade e eficiência operacional.
+ Público e contexto: Operadores da classificadora, equipes de packing e gestores da Agrodan.
+ Objetivo: Integrar contagem de frutos e dados industriais para acompanhar lotes, indicar trocas e reduzir interrupções.
+ Atuação como desenvolvedor na plataforma de identificação e contagem de frutos na esteira de refugo do packing, integrando visão computacional, dados do ERP, classificadora, dashboard e alertas Telegram para apoiar rastreabilidade, acompanhamento dos lotes e redução das paradas de troca.
+ Problema e público: Acompanhar o processamento dos lotes e indicar a troca de origem da fruta, reduzindo interrupções e mantendo a rastreabilidade — Operadores da classificadora, equipes de packing e gestores da Agrodan.
+ Entrega: Desenvolvimento de plataforma, integração por API, aplicação de contagem e sistema de notificações, com dashboard e hospedagem dedicada no escopo; o relatório registra treinamento e acompanhamento em fevereiro/2024.
+ Profundidade demonstrada: Projeto de P&D com implementação e resultados registrados em relatório final de março/2024: profundidade expressa pela arquitetura, métodos e artefatos.
+ Estrutura: Aplicação de contagem e rastreamento por câmeras, integração por API com ERP/classificadora, estimativa de peso por calibre e variedade, dashboard e notificações Telegram; hospedagem dedicada prevista no escopo.
+ Métodos: CRISP-DM; contagem e rastreamento para evitar duplicidades; estimativa de peso por calibre e variedade; reconciliação entre entrada, embalagem e refugo; acompanhamento em tempo real.
+ Áreas de aplicação: Agronegócio; Fruticultura; Packing house; Indústria de alimentos; Visão computacional; Rastreabilidade; Automação industrial; Melhoria de processos.
+
+#### Stack
+
+- Visão computacional
+- Deep Learning
+- Câmeras
+- APIs
+- ERP
+- Integração com classificadora
+- Dashboard
+- Telegram
+- Servidor dedicado
+- CRISP-DM
+
+#### Habilidades
+
+- Desenvolvimento de plataforma
+- Visão computacional aplicada
+- Integração de dados industriais
+- APIs
+- Rastreabilidade de lotes
+- Indicadores operacionais
+- Automação de notificações
+- CRISP-DM
+- P&D aplicado
+- Eficiência operacional Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.
 
 ## Utilibox — aplicações e ferramentas do catálogo
  O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.

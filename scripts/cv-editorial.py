@@ -70,6 +70,7 @@ def core_sections(data, language='pt'):
         ('cv-produtos', 'Otimização e integração de sistemas', 'Pesquisa quantitativa e desenvolvimento independente', [c for c in cases if c['id'] in ['case-decisao-2', 'case-infra-2']]),
     ]
     result = []
+    groups[0][3][:0]=[c for c in cases if c['id'].startswith('case-agritech-')]
     groups.insert(3,('cv-agentic-globalcom',
       'Agentic AI — Globalcom Certification OS' if language=='pt' else 'Agentic AI — Globalcom Certification OS',
       'Modern Concept · proposta e arquitetura de solução para certificação e compliance educacional' if language=='pt' else 'Modern Concept · solution proposal and architecture for educational certification and compliance',
@@ -102,6 +103,8 @@ def core_sections(data, language='pt'):
             content += '<p class="career-reference">' + links + detail + '</p></article>'
         result.append(content + '</div></section>')
     development=runpy.run_path(str(Path(__file__).with_name('cv-development.py')))
+    agritech=runpy.run_path(str(Path(__file__).with_name('cv-agritech.py')))
+    result.append(agritech['experience_markup'](language))
     result.append(development['practice_markup'](language))
     result[-1] = result[-1].replace('career-project-page"', 'career-project-page career-last"', 1)
     rendered = ''.join(result)

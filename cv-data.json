@@ -411,6 +411,9 @@
         },
         {
           "name": "MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, validação temporal, supervisor, logs e dashboard."
+        },
+        {
+          "name": "Integração de IA no packing: Visão computacional, Deep Learning, câmeras, APIs, ERP, classificadora, dashboard, Telegram e servidor dedicado; CRISP-DM como metodologia do projeto."
         }
       ],
       "skills": [
@@ -440,6 +443,9 @@
         },
         {
           "name": "Algoritmos e resolução de problemas: Prática de estruturas de dados, estratégias algorítmicas, análise de complexidade e tratamento de casos de borda."
+        },
+        {
+          "name": "Visão computacional e integração industrial: Desenvolvimento de plataforma com contagem/rastreamento de frutos, integração ERP/classificadora, estimativa de peso, dashboard e alertas operacionais."
         }
       ]
     },
@@ -836,6 +842,9 @@
         },
         {
           "name": "MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, temporal validation, supervisor, logs and dashboard."
+        },
+        {
+          "name": "Packing AI integration: Computer vision, Deep Learning, cameras, APIs, ERP, sorting machine, dashboard, Telegram and a dedicated server; CRISP-DM project methodology."
         }
       ],
       "skills": [
@@ -865,6 +874,9 @@
         },
         {
           "name": "Algorithms and problem solving: Data structure practice, algorithmic strategies, complexity analysis and edge-case handling."
+        },
+        {
+          "name": "Computer vision and industrial integration: Platform development with fruit counting/tracking, ERP/sorting-machine integration, weight estimation, dashboard and operational alerts."
         }
       ]
     }
@@ -2153,6 +2165,138 @@
         "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
         "relatedContextAnchors": [
           "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-agritech-1",
+        "title": "Desenvolvimento da plataforma de visão computacional no packing",
+        "text": "Atuei como desenvolvedor no projeto da plataforma, durante meu vínculo na Agrodan, conectando a solução de contagem e rastreamento de frutos ao acompanhamento operacional do packing.",
+        "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+        "implementation": [
+          "Plataforma para identificar e registrar mangas na esteira de refugo, com contagem e rastreamento para evitar duplicidades.",
+          "Integração entre aplicação de contagem, API de dados industriais, dashboard e notificações; o relatório descreve duas câmeras em funcionamento.",
+          "Projeto de P&D em parceria com a Agrodan no contexto da Plataforma Agritech.NE, com metodologia CRISP-DM e acompanhamento dos resultados."
+        ],
+        "skills": [
+          "Desenvolvimento de plataforma",
+          "Visão computacional aplicada",
+          "Integração de dados industriais",
+          "APIs",
+          "Rastreabilidade de lotes",
+          "Indicadores operacionais",
+          "Automação de notificações",
+          "CRISP-DM",
+          "P&D aplicado",
+          "Eficiência operacional"
+        ],
+        "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+        "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+        "sources": [
+          "agrodan-fruit-vision-platform/final-project-report"
+        ],
+        "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+        "relatedContextAnchors": [
+          "vinculo-agrodan"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-agritech-2",
+        "title": "Integração ERP, classificadora e rastreabilidade de lotes",
+        "text": "A plataforma relaciona o lote recebido, a quantidade embalada e o refugo para acompanhar a origem da fruta e apoiar a transição entre lotes.",
+        "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+        "implementation": [
+          "API para acessar dados da classificadora e de embalagem, combinados com registros de lote do ERP e informações de variedade, colheita e manejo.",
+          "A contagem de frutos é combinada com a distribuição de calibres da classificadora e faixas de peso por variedade para estimar o peso do refugo.",
+          "Reconciliação entre volume de entrada, volume embalado e peso estimado do refugo; verificação de proximidade de 98% do volume de entrada para apoiar a troca de lote."
+        ],
+        "skills": [
+          "Desenvolvimento de plataforma",
+          "Visão computacional aplicada",
+          "Integração de dados industriais",
+          "APIs",
+          "Rastreabilidade de lotes",
+          "Indicadores operacionais",
+          "Automação de notificações",
+          "CRISP-DM",
+          "P&D aplicado",
+          "Eficiência operacional"
+        ],
+        "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+        "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+        "sources": [
+          "agrodan-fruit-vision-platform/final-project-report"
+        ],
+        "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+        "relatedContextAnchors": [
+          "vinculo-agrodan"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-agritech-3",
+        "title": "Dashboard, alertas e apoio à decisão operacional",
+        "text": "Desenvolvimento da plataforma de acompanhamento e notificações para dar aos operadores informação sobre o processamento e o momento de troca de lote.",
+        "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+        "implementation": [
+          "Acompanhamento dos dados integrados de produção e preparação de avisos via Telegram quando o volume processado se aproxima do volume de entrada.",
+          "O escopo prevê aplicações de contagem e acompanhamento em servidor dedicado; o relatório registra treinamento e acompanhamento em fevereiro/2024.",
+          "A contagem, os calibres e o volume de processamento apoiam a decisão operacional sem depender apenas da retirada manual da fruta do tanque."
+        ],
+        "skills": [
+          "Desenvolvimento de plataforma",
+          "Visão computacional aplicada",
+          "Integração de dados industriais",
+          "APIs",
+          "Rastreabilidade de lotes",
+          "Indicadores operacionais",
+          "Automação de notificações",
+          "CRISP-DM",
+          "P&D aplicado",
+          "Eficiência operacional"
+        ],
+        "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+        "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+        "sources": [
+          "agrodan-fruit-vision-platform/final-project-report"
+        ],
+        "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+        "relatedContextAnchors": [
+          "vinculo-agrodan"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-agritech-4",
+        "title": "Resultados do projeto e melhoria do processo industrial",
+        "text": "A integração da plataforma ao processo de packing apresentou ganhos registrados no relatório final do projeto, relacionados à produtividade, paradas e custos operacionais.",
+        "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+        "implementation": [
+          "Produção registrada no relatório: de 30 para 37,5 caixas por hora; paradas por troca de controle: de 45 para 5 minutos por dia.",
+          "O relatório registra redução de 17% dos custos operacionais relacionados à mão de obra e ao tempo de processamento.",
+          "Precisão de contagem reportada de 98%; a calibração por variedade continuava necessária, com ajuste específico para manga Kent indicado no relatório."
+        ],
+        "skills": [
+          "Desenvolvimento de plataforma",
+          "Visão computacional aplicada",
+          "Integração de dados industriais",
+          "APIs",
+          "Rastreabilidade de lotes",
+          "Indicadores operacionais",
+          "Automação de notificações",
+          "CRISP-DM",
+          "P&D aplicado",
+          "Eficiência operacional"
+        ],
+        "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+        "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+        "sources": [
+          "agrodan-fruit-vision-platform/final-project-report"
+        ],
+        "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+        "relatedContextAnchors": [
+          "vinculo-agrodan"
         ],
         "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
       }
@@ -6072,6 +6216,82 @@
           "projetos"
         ],
         "demonstratedDepth": "Proposta de arquitetura funcional e técnica: profundidade expressa pela arquitetura, métodos e artefatos."
+      },
+      {
+        "id": "agrodan-fruit-vision-platform",
+        "title": "Agrodan / Agritech.NE — plataforma de contagem de frutas e rastreabilidade no packing",
+        "area": "Visão computacional, integração industrial e eficiência operacional",
+        "status": "Projeto de P&D com implementação e resultados registrados em relatório final de março/2024",
+        "priority": "Destaque",
+        "association": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+        "experience": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+        "summary": "Atuação como desenvolvedor na plataforma de identificação e contagem de frutos na esteira de refugo do packing, integrando visão computacional, dados do ERP, classificadora, dashboard e alertas Telegram para apoiar rastreabilidade, acompanhamento dos lotes e redução das paradas de troca.",
+        "structure": "Plataforma que relaciona contagem e rastreamento por câmeras, dados do ERP e da classificadora, cálculo do volume processado, acompanhamento e notificações.",
+        "stack": [
+          "Visão computacional",
+          "Deep Learning",
+          "Câmeras",
+          "APIs",
+          "ERP",
+          "Integração com classificadora",
+          "Dashboard",
+          "Telegram",
+          "Servidor dedicado",
+          "CRISP-DM"
+        ],
+        "skills": [
+          "Desenvolvimento de plataforma",
+          "Visão computacional aplicada",
+          "Integração de dados industriais",
+          "APIs",
+          "Rastreabilidade de lotes",
+          "Indicadores operacionais",
+          "Automação de notificações",
+          "CRISP-DM",
+          "P&D aplicado",
+          "Eficiência operacional"
+        ],
+        "evidence": [
+          "final-project-report"
+        ],
+        "sourceArtifact": "Relatório Final do Trabalho do Bolsista.docx",
+        "value": "Integração entre IA, dados e operação industrial para apoiar decisões de troca de lotes e rastreabilidade.",
+        "limits": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+        "breadth": {
+          "applicationAreas": [
+            "Agronegócio",
+            "Fruticultura",
+            "Packing house",
+            "Indústria de alimentos",
+            "Visão computacional",
+            "Rastreabilidade",
+            "Automação industrial",
+            "Melhoria de processos"
+          ],
+          "intendedAudience": "Operadores da classificadora, equipes de packing e gestores da Agrodan",
+          "problemAndObjective": "Acompanhar o processamento dos lotes e indicar a troca de origem da fruta, reduzindo interrupções e mantendo a rastreabilidade",
+          "observableDeliverables": "Desenvolvimento de plataforma, integração por API, aplicação de contagem e sistema de notificações, com dashboard e hospedagem dedicada no escopo; o relatório registra treinamento e acompanhamento em fevereiro/2024",
+          "domainMethods": "CRISP-DM; contagem e rastreamento para evitar duplicidades; estimativa de peso por calibre e variedade; reconciliação entre entrada, embalagem e refugo; acompanhamento em tempo real"
+        },
+        "reportedProjectResults": {
+          "reportDate": "2024-03",
+          "throughputBoxesPerHour": {
+            "before": 30,
+            "after": 37.5
+          },
+          "dailyChangeoverDowntimeMinutes": {
+            "before": 45,
+            "after": 5
+          },
+          "operatingCostReductionPercent": 17,
+          "reportedFruitCountingPrecisionPercent": 98,
+          "attribution": "Resultados do projeto/equipe conforme relatório final; contribuição de Danillo como desenvolvedor."
+        },
+        "anchor": "projeto-38",
+        "relatedContextAnchors": [
+          "vinculo-agrodan"
+        ],
+        "demonstratedDepth": "Projeto de P&D com implementação e resultados registrados em relatório final de março/2024: profundidade expressa pela arquitetura, métodos e artefatos."
       }
     ],
     "topics": [
@@ -7465,6 +7685,155 @@
               "projetos"
             ],
             "depth": "Pipeline local de ML e operação demo"
+          }
+        ]
+      },
+      {
+        "id": "agritech",
+        "title": "Agrodan / Agritech.NE — desenvolvimento de plataforma e visão computacional industrial",
+        "intro": "Experiência como desenvolvedor durante o vínculo na Agrodan. Projeto de contagem automatizada de frutas, integração industrial e rastreabilidade no packing; relatório final de março/2024.",
+        "text": [
+          "O projeto integra fruticultura, indústria de alimentos, visão computacional, Deep Learning, dados de produção, APIs, dashboards, notificações e melhoria de processos. Os resultados apresentados são os registrados para o projeto/equipe."
+        ],
+        "flow": [
+          "Contagem e rastreamento",
+          "Integração ERP e classificadora",
+          "Estimativa de peso e reconciliação de volumes",
+          "Acompanhamento e notificações",
+          "Avaliação operacional"
+        ],
+        "cases": [
+          {
+            "id": "case-agritech-1",
+            "title": "Desenvolvimento da plataforma de visão computacional no packing",
+            "text": "Atuei como desenvolvedor no projeto da plataforma, durante meu vínculo na Agrodan, conectando a solução de contagem e rastreamento de frutos ao acompanhamento operacional do packing.",
+            "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+            "implementation": [
+              "Plataforma para identificar e registrar mangas na esteira de refugo, com contagem e rastreamento para evitar duplicidades.",
+              "Integração entre aplicação de contagem, API de dados industriais, dashboard e notificações; o relatório descreve duas câmeras em funcionamento.",
+              "Projeto de P&D em parceria com a Agrodan no contexto da Plataforma Agritech.NE, com metodologia CRISP-DM e acompanhamento dos resultados."
+            ],
+            "skills": [
+              "Desenvolvimento de plataforma",
+              "Visão computacional aplicada",
+              "Integração de dados industriais",
+              "APIs",
+              "Rastreabilidade de lotes",
+              "Indicadores operacionais",
+              "Automação de notificações",
+              "CRISP-DM",
+              "P&D aplicado",
+              "Eficiência operacional"
+            ],
+            "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+            "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Desenvolvimento de plataforma e integração industrial"
+          },
+          {
+            "id": "case-agritech-2",
+            "title": "Integração ERP, classificadora e rastreabilidade de lotes",
+            "text": "A plataforma relaciona o lote recebido, a quantidade embalada e o refugo para acompanhar a origem da fruta e apoiar a transição entre lotes.",
+            "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+            "implementation": [
+              "API para acessar dados da classificadora e de embalagem, combinados com registros de lote do ERP e informações de variedade, colheita e manejo.",
+              "A contagem de frutos é combinada com a distribuição de calibres da classificadora e faixas de peso por variedade para estimar o peso do refugo.",
+              "Reconciliação entre volume de entrada, volume embalado e peso estimado do refugo; verificação de proximidade de 98% do volume de entrada para apoiar a troca de lote."
+            ],
+            "skills": [
+              "Desenvolvimento de plataforma",
+              "Visão computacional aplicada",
+              "Integração de dados industriais",
+              "APIs",
+              "Rastreabilidade de lotes",
+              "Indicadores operacionais",
+              "Automação de notificações",
+              "CRISP-DM",
+              "P&D aplicado",
+              "Eficiência operacional"
+            ],
+            "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+            "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Desenvolvimento de plataforma e integração industrial"
+          },
+          {
+            "id": "case-agritech-3",
+            "title": "Dashboard, alertas e apoio à decisão operacional",
+            "text": "Desenvolvimento da plataforma de acompanhamento e notificações para dar aos operadores informação sobre o processamento e o momento de troca de lote.",
+            "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+            "implementation": [
+              "Acompanhamento dos dados integrados de produção e preparação de avisos via Telegram quando o volume processado se aproxima do volume de entrada.",
+              "O escopo prevê aplicações de contagem e acompanhamento em servidor dedicado; o relatório registra treinamento e acompanhamento em fevereiro/2024.",
+              "A contagem, os calibres e o volume de processamento apoiam a decisão operacional sem depender apenas da retirada manual da fruta do tanque."
+            ],
+            "skills": [
+              "Desenvolvimento de plataforma",
+              "Visão computacional aplicada",
+              "Integração de dados industriais",
+              "APIs",
+              "Rastreabilidade de lotes",
+              "Indicadores operacionais",
+              "Automação de notificações",
+              "CRISP-DM",
+              "P&D aplicado",
+              "Eficiência operacional"
+            ],
+            "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+            "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Desenvolvimento de plataforma e integração industrial"
+          },
+          {
+            "id": "case-agritech-4",
+            "title": "Resultados do projeto e melhoria do processo industrial",
+            "text": "A integração da plataforma ao processo de packing apresentou ganhos registrados no relatório final do projeto, relacionados à produtividade, paradas e custos operacionais.",
+            "problem": "Apoiar rastreabilidade, acompanhamento de lotes e redução de interrupções no packing",
+            "implementation": [
+              "Produção registrada no relatório: de 30 para 37,5 caixas por hora; paradas por troca de controle: de 45 para 5 minutos por dia.",
+              "O relatório registra redução de 17% dos custos operacionais relacionados à mão de obra e ao tempo de processamento.",
+              "Precisão de contagem reportada de 98%; a calibração por variedade continuava necessária, com ajuste específico para manga Kent indicado no relatório."
+            ],
+            "skills": [
+              "Desenvolvimento de plataforma",
+              "Visão computacional aplicada",
+              "Integração de dados industriais",
+              "APIs",
+              "Rastreabilidade de lotes",
+              "Indicadores operacionais",
+              "Automação de notificações",
+              "CRISP-DM",
+              "P&D aplicado",
+              "Eficiência operacional"
+            ],
+            "stack": "Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM",
+            "context": "Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Desenvolvimento de plataforma e integração industrial"
           }
         ]
       }
@@ -31069,6 +31438,23 @@
           "pt": "Arquitetura proposta com workflow determinístico, 10 especialistas, orquestrador e auditor independente; RAG gerenciado, Supabase/PostgreSQL, workers persistentes e integrações API/MCP/RPA.",
           "en": "Proposed architecture with deterministic workflows, 10 specialists, an orchestrator and an independent auditor; managed RAG, Supabase/PostgreSQL, persistent workers and API/MCP/RPA integrations."
         }
+      },
+      {
+        "id": "agrodan-fruit-vision-platform",
+        "pt": {
+          "applicationArea": "Agronegócio, fruticultura, packing, visão computacional, rastreabilidade e eficiência operacional",
+          "audience": "Operadores da classificadora, equipes de packing e gestores da Agrodan",
+          "objective": "Integrar contagem de frutos e dados industriais para acompanhar lotes, indicar trocas e reduzir interrupções"
+        },
+        "en": {
+          "applicationArea": "Agribusiness, fruit production, packing, computer vision, traceability and operational efficiency",
+          "audience": "Sorting-machine operators, packing teams and Agrodan managers",
+          "objective": "Integrate fruit counts and industrial data to monitor batches, indicate transitions and reduce interruptions"
+        },
+        "architecture": {
+          "pt": "Aplicação de contagem e rastreamento por câmeras, integração por API com ERP/classificadora, estimativa de peso por calibre e variedade, dashboard e notificações Telegram; hospedagem dedicada prevista no escopo.",
+          "en": "Camera-based counting and tracking application, ERP/sorting-machine API integration, weight estimation by size and variety, dashboard and Telegram notifications; dedicated hosting is included in the project scope."
+        }
       }
     ],
     "priorityCases": [
@@ -31644,7 +32030,7 @@
         {
           "title": "IA, agentes e automação",
           "description": "Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.",
-          "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
+          "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor."
         },
         {
           "title": "Machine Learning e pesquisa",
@@ -31654,12 +32040,12 @@
         {
           "title": "Engenharia de software",
           "description": "Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.",
-          "origin": "SIA/SIAgro, EBSERH, The Game Project e produtos independentes. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
+          "origin": "SIA/SIAgro, EBSERH, The Game Project e produtos independentes. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor."
         },
         {
           "title": "Dados e decisão",
           "description": "ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.",
-          "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
+          "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor."
         },
         {
           "title": "Liderança e operações",
@@ -31669,7 +32055,7 @@
         {
           "title": "Produtos e métodos aplicados",
           "description": "Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.",
-          "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Formação relacionada: MBA Operational Excellence em andamento na FM2S."
+          "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Formação relacionada: MBA Operational Excellence em andamento na FM2S. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor."
         },
         {
           "title": "Arquitetura Agentic AI e governança",
@@ -31685,6 +32071,11 @@
           "title": "Algoritmos e resolução de problemas",
           "description": "Prática de estruturas de dados, estratégias algorítmicas, análise de complexidade e tratamento de casos de borda.",
           "origin": "120 horas de prática no LeetCode."
+        },
+        {
+          "title": "Visão computacional e integração industrial",
+          "description": "Desenvolvimento de plataforma com contagem/rastreamento de frutos, integração ERP/classificadora, estimativa de peso, dashboard e alertas operacionais.",
+          "origin": "Agrodan / Plataforma Agritech.NE — projeto de P&D, relatório final de março/2024."
         }
       ],
       "technologyGroups": [
@@ -31727,6 +32118,10 @@
         {
           "title": "MLOps — TraderMind",
           "description": "Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, validação temporal, supervisor, logs e dashboard."
+        },
+        {
+          "title": "Integração de IA no packing",
+          "description": "Visão computacional, Deep Learning, câmeras, APIs, ERP, classificadora, dashboard, Telegram e servidor dedicado; CRISP-DM como metodologia do projeto."
         }
       ],
       "caseStacks": {
@@ -32977,6 +33372,130 @@
               "projetos"
             ],
             "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-agritech-1",
+            "title": "Computer vision platform development for packing operations",
+            "text": "Worked as a developer on the platform project during my Agrodan employment period, connecting fruit counting and tracking to operational packing monitoring.",
+            "problem": "Support traceability, batch monitoring and fewer packing interruptions",
+            "implementation": [
+              "Platform for identifying and recording mangoes on the reject conveyor, with counting and tracking to avoid duplicates.",
+              "Connected the counting application, industrial data API, dashboard and notifications; the report describes two operating cameras.",
+              "Applied R&D project with Agrodan in the Agritech.NE context, using CRISP-DM and project result follow-up."
+            ],
+            "skills": [
+              "Platform development",
+              "Computer vision integration",
+              "Industrial data integration",
+              "APIs",
+              "Batch traceability",
+              "Operational dashboards",
+              "R&D",
+              "CRISP-DM"
+            ],
+            "stack": "Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM",
+            "context": "Agrodan · Agritech.NE applied R&D project · platform developer",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Platform development and industrial integration"
+          },
+          {
+            "id": "case-agritech-2",
+            "title": "ERP, sorting-machine integration and batch traceability",
+            "text": "The platform connects incoming batches, packed volume and rejected fruit to track fruit origin and support batch transitions.",
+            "problem": "Support traceability, batch monitoring and fewer packing interruptions",
+            "implementation": [
+              "API access to sorting-machine and packing data, combined with ERP batch records and variety, harvest and handling information.",
+              "Fruit counts are combined with the sorting-machine size distribution and variety-specific weight ranges to estimate reject weight.",
+              "Reconciled incoming volume, packed volume and estimated reject weight; a 98% incoming-volume proximity threshold supports batch-change decisions."
+            ],
+            "skills": [
+              "Platform development",
+              "Computer vision integration",
+              "Industrial data integration",
+              "APIs",
+              "Batch traceability",
+              "Operational dashboards",
+              "R&D",
+              "CRISP-DM"
+            ],
+            "stack": "Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM",
+            "context": "Agrodan · Agritech.NE applied R&D project · platform developer",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Platform development and industrial integration"
+          },
+          {
+            "id": "case-agritech-3",
+            "title": "Dashboard, alerts and operational decision support",
+            "text": "Developed the monitoring and notification platform to provide operators with processing information and batch-change timing.",
+            "problem": "Support traceability, batch monitoring and fewer packing interruptions",
+            "implementation": [
+              "Monitored integrated production data and prepared Telegram alerts when processed volume approaches incoming volume.",
+              "The scope includes dedicated-server counting and monitoring applications; the report records training and follow-up in February 2024.",
+              "Counts, size distributions and processing volume support operational decisions beyond manual fruit removal from the tank."
+            ],
+            "skills": [
+              "Platform development",
+              "Computer vision integration",
+              "Industrial data integration",
+              "APIs",
+              "Batch traceability",
+              "Operational dashboards",
+              "R&D",
+              "CRISP-DM"
+            ],
+            "stack": "Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM",
+            "context": "Agrodan · Agritech.NE applied R&D project · platform developer",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Platform development and industrial integration"
+          },
+          {
+            "id": "case-agritech-4",
+            "title": "Project outcomes and industrial process improvement",
+            "text": "Platform integration into the packing workflow produced project-level outcomes recorded in the final report, covering throughput, downtime and operating costs.",
+            "problem": "Support traceability, batch monitoring and fewer packing interruptions",
+            "implementation": [
+              "Reported throughput increased from 30 to 37.5 boxes per hour; daily control-change downtime decreased from 45 to 5 minutes.",
+              "The report records a 17% reduction in operating costs associated with labor and processing time.",
+              "Reported counting precision was 98%; variety-specific calibration remained necessary, with a Kent mango adjustment identified in the report."
+            ],
+            "skills": [
+              "Platform development",
+              "Computer vision integration",
+              "Industrial data integration",
+              "APIs",
+              "Batch traceability",
+              "Operational dashboards",
+              "R&D",
+              "CRISP-DM"
+            ],
+            "stack": "Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM",
+            "context": "Agrodan · Agritech.NE applied R&D project · platform developer",
+            "sources": [
+              "agrodan-fruit-vision-platform/final-project-report"
+            ],
+            "limit": "Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Platform development and industrial integration"
           }
         ],
         "priorityCases": [
@@ -33546,7 +34065,7 @@
             {
               "title": "AI, agents and automation",
               "description": "LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.",
-              "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
+              "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution."
             },
             {
               "title": "Machine Learning and research",
@@ -33556,12 +34075,12 @@
             {
               "title": "Software engineering",
               "description": "Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.",
-              "origin": "SIA/SIAgro, EBSERH, The Game Project and independent products. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
+              "origin": "SIA/SIAgro, EBSERH, The Game Project and independent products. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution."
             },
             {
               "title": "Data and decisions",
               "description": "ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.",
-              "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
+              "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution."
             },
             {
               "title": "Leadership and operations",
@@ -33571,7 +34090,7 @@
             {
               "title": "Products and applied methods",
               "description": "Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.",
-              "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.Related education: ongoing FM2S MBA in Operational Excellence."
+              "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.Related education: ongoing FM2S MBA in Operational Excellence. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution."
             },
             {
               "title": "Agentic AI architecture and governance",
@@ -33587,6 +34106,11 @@
               "title": "Algorithms and problem solving",
               "description": "Data structure practice, algorithmic strategies, complexity analysis and edge-case handling.",
               "origin": "120 hours of LeetCode practice."
+            },
+            {
+              "title": "Computer vision and industrial integration",
+              "description": "Platform development with fruit counting/tracking, ERP/sorting-machine integration, weight estimation, dashboard and operational alerts.",
+              "origin": "Agrodan / Agritech.NE — applied R&D project, March 2024 final report."
             }
           ],
           "technologyGroups": [
@@ -33629,6 +34153,10 @@
             {
               "title": "MLOps — TraderMind",
               "description": "Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, temporal validation, supervisor, logs and dashboard."
+            },
+            {
+              "title": "Packing AI integration",
+              "description": "Computer vision, Deep Learning, cameras, APIs, ERP, sorting machine, dashboard, Telegram and a dedicated server; CRISP-DM project methodology."
             }
           ]
         }
