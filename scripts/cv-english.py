@@ -136,6 +136,8 @@ def build_locale(data):
     return {'cases':cases, 'priorityCases':priorities, 'editorial':agritech['enhance_editorial'](development['enhance_editorial'](globalcom['enhance_editorial'](EDITORIAL,'en'),'en'),'en')}
 
 def translate_stack(text):
+    project_phrases = {'Biblioteca padrão Python':'Python standard library', 'Visão computacional':'Computer vision', 'Câmeras':'Cameras', 'Integração com classificadora':'Sorting-machine integration', 'Servidor dedicado':'Dedicated server'}
+    for source, target in project_phrases.items(): text=text.replace(source,target)
     phrases = {'contratos tipados':'typed contracts','resolução de conflitos':'conflict resolution','validação temporal':'temporal validation','APIs de LLM':'LLM APIs','telemetria':'telemetry','contratos de operações':'operation contracts','validação referencial':'reference validation','memória conversacional':'conversation history','APIs operacionais':'operational APIs','regras agronômicas':'agronomic rules','algoritmos genéticos':'genetic algorithms','rede neural':'neural network','normalização':'normalization','dados geoespaciais':'geospatial data','trajetória':'trajectory','velocidade':'speed','curvas e equações':'curves and equations','gráficos':'charts','dados de campo':'field data','sincronização':'synchronization','modelagem organizacional':'organizational modeling','avaliações':'assessments','histórico':'history','dados comerciais':'commercial data','importação em lotes':'batch import','simulação':'simulation','entidades e relações':'entities and relationships','redes':'networks','APIs locais':'local APIs'}
     for source, target in phrases.items(): text=text.replace(source,target)
     return text
@@ -173,7 +175,7 @@ def build_archive(base, data, locale):
     for p in ext['projects']:
         if p['id'] in ['ebserh','The game project','[EFS-AHP]']:
             title,description=catalog['PROJECTS'][p['id']]
-            academic+='<article class="case"><h3>'+html.escape(title)+'</h3>'+paragraphs([description,', '.join(p['stack'])])+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
+            academic+='<article class="case"><h3>'+html.escape(title)+'</h3>'+paragraphs([description,translate_stack(', '.join(p['stack']))])+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
     sections.append(archive_section('academico','Doctoral, hospital internship and university projects',academic))
     for key,names,id,prefix,title in [('agroBusinessModules','MODULE_TITLES','sia-negocio','sia-negocio-','SIA — business modules'),('agroTechnicalFlows','FLOW_TITLES','sia-fluxos','sia-fluxo-','SIA / SIAgro — data and mobile workflows')]:
         items=ext[key]; titles=catalog[names]
@@ -183,13 +185,13 @@ def build_archive(base, data, locale):
             embedded='embedding' in m['status']
             scope='Dashboard/report integration page; source code does not establish authorship of the embedded resource.' if embedded else 'Module code in the local Git archive; deployment and individual contribution must be interpreted in the professional context.'
             signals=[catalog['SIGNALS'][s] for s in m['implementationSignals']]
-            cards.append('<article id="'+prefix+str(i+1)+'" class="module"><h3>'+html.escape(name)+'</h3><p><strong>Application:</strong> '+('Integration of information for ' if embedded else 'Operational workflow for ')+html.escape(name.lower())+'.</p><p><a href="#vinculo-agrodan">Professional context — Agrodan</a></p><p><strong>Observed stack:</strong> '+html.escape(', '.join(m['stack']))+'</p>'+bullets(signals)+sources([s['path']+':'+str(s['line']) for s in m['sources']])+'</article>')
+            cards.append('<article id="'+prefix+str(i+1)+'" class="module"><h3>'+html.escape(name)+'</h3><p><strong>Application:</strong> '+('Integration of information for ' if embedded else 'Operational workflow for ')+html.escape(name.lower())+'.</p><p><a href="#vinculo-agrodan">Professional context — Agrodan</a></p><p><strong>Observed stack:</strong> '+html.escape(translate_stack(', '.join(m['stack'])))+'</p>'+bullets(signals)+sources([s['path']+':'+str(s['line']) for s in m['sources']])+'</article>')
         intro='94 business modules and submodules across 23 local Git references.' if key=='agroBusinessModules' else '48 technical workflows and modules across the checkout, ETL and mobile layers.'
         sections.append(archive_section(id,title,paragraphs([intro,'These entries belong to a shared ecosystem and may overlap across interfaces, APIs, data processing and integrations. They are not a count of independent products.'])+'<div class="module-grid">'+''.join(cards)+'</div>'))
     projects=''
     for i,p in enumerate(ext['projects']):
         title,description=catalog['PROJECTS'][p['id']]
-        projects+='<article class="case" id="projeto-'+str(i+1)+'"><h3>'+html.escape(title)+'</h3>'+paragraphs([description])+PROJECT_DETAILS['markup'](p,'en')+'<p><strong>Architecture:</strong> '+html.escape(PROJECT_DETAILS['architecture'](p,'en'))+'</p><p><strong>Stack:</strong> '+html.escape(', '.join(p['stack']))+'</p>'+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
+        projects+='<article class="case" id="projeto-'+str(i+1)+'"><h3>'+html.escape(title)+'</h3>'+paragraphs([description])+PROJECT_DETAILS['markup'](p,'en')+'<p><strong>Architecture:</strong> '+html.escape(PROJECT_DETAILS['architecture'](p,'en'))+'</p><p><strong>Stack:</strong> '+html.escape(translate_stack(', '.join(p['stack'])))+'</p>'+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
     sections.append(archive_section('projetos','Complete project and reference catalog',paragraphs(['38 projects and references include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.'])+projects))
     tools=ext['utiliboxCatalog']; names=catalog['TOOL_TITLES']
     if len(tools)!=len(names): raise ValueError('English tool titles need updating.')

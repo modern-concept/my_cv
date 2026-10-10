@@ -3146,7 +3146,7 @@ Tech Lead
  Users and context: Personal financial organization.
  Objective: Integrate and analyze transactions to support financial monitoring.
  Architecture: Web server, financial data source integration, transaction analysis engine and dashboard.
- Stack: Python, Biblioteca padrão Python, SQLite, Pluggy, JavaScript, HTML, CSS
+ Stack: Python, Python standard library, SQLite, Pluggy, JavaScript, HTML, CSS
 
 
 
@@ -3339,7 +3339,7 @@ Tech Lead
  Users and context: Sorting-machine operators, packing teams and Agrodan managers.
  Objective: Integrate fruit counts and industrial data to monitor batches, indicate transitions and reduce interruptions.
  Architecture: Camera-based counting and tracking application, ERP/sorting-machine API integration, weight estimation by size and variety, dashboard and Telegram notifications; dedicated hosting is included in the project scope.
- Stack: Visão computacional, Deep Learning, Câmeras, APIs, ERP, Integração com classificadora, Dashboard, Telegram, Servidor dedicado, CRISP-DM
+ Stack: Computer vision, Deep Learning, Cameras, APIs, ERP, Sorting-machine integration, Dashboard, Telegram, Dedicated server, CRISP-DM
 
 
 
