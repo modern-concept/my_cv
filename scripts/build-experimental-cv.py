@@ -148,12 +148,9 @@ def build():
       '<p>38 projetos e referências, incluindo produtos, pesquisa, protótipos, estudos, versões anteriores e referências. O contexto e o alcance de cada entrada determinam como ela contribui para a trajetória.</p>'+''.join(project_html)))
     # Tool topics are kept as a separate appendix: they expand domain breadth,
     # without turning 136 catalog entries into 136 independent work experiences.
-    tool_rows=[]
-    for tool in proposal['utiliboxTools']:
-        refs=tool.get('localSourceReferences',[])
-        tool_rows.append('<tr id="utilibox-tool-'+esc(tool['slug'])+'"><th scope="row">'+esc(tool['name'])+'</th><td>'+esc(tool['desc'])+'</td><td>'+esc('; '.join(c['title'] for c in tool['categories']))+'</td><td>'+sources(['utilibox/'+r for r in refs] or ['utilibox/src/data/tools.js — verificar alias/rota'])+'</td></tr>')
-    new_sections.append(section('utilibox-catalogo','Utilibox — aplicações e ferramentas do catálogo',
-      '<p>O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.</p><div class="table-scroll"><table><thead><tr><th>Ferramenta</th><th>Objetivo</th><th>Área</th><th>Link / referência</th></tr></thead><tbody>'+''.join(tool_rows)+'</tbody></table></div>'))
+    utilibox_domains=runpy.run_path(str(BASE/'scripts/cv-utilibox-domains.py'))
+    new_sections.append(section('utilibox-catalogo','Utilibox — áreas de aplicação e engenharia do produto',
+      utilibox_domains['render'](proposal['utiliboxTools'])))
 
     old_summary=''.join('<article class="job"><h3>'+esc(e['company']).replace('\n','<br>')+'</h3><p>'+esc(e['role']).replace('\n','<br>')+'</p><p class="meta">'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+paras(e.get('paragraphs',[]))+'</article>' for e in current['experience'])
     preserved=[section('sintese-original','Síntese de experiência da versão original',old_summary)]

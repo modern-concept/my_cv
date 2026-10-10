@@ -13,6 +13,8 @@ O HTML pode ser aberto diretamente no navegador. Para desenvolvimento, execute `
 
 ## Conteúdo e apresentação
 
+A seção Utilibox apresenta 11 áreas de aplicação, com objetivos, métodos, habilidades e três ferramentas representativas por grupo. O inventário completo permanece nos dados canônicos; os links internos existentes apontam para os respectivos grupos. O texto PT/EN é gerado por `scripts/cv-utilibox-domains.py`.
+
 A matriz de habilidades agrupa os 45 cases e os 11 destaques em 13 especialidades, com narrativas, competências aplicadas, contexto, tecnologias e links para as entregas correspondentes. Um grupo adicional descreve a prática de algoritmos e estruturas de dados. A organização é compartilhada entre PT/EN e gerada em `scripts/cv-skill-matrix.py`; cada case pertence a um grupo, mantendo seu contexto de implementação, pesquisa ou proposta.
 
 O radar usa um índice relativo de abrangência entre 6 e 10, calculado pela normalização das contagens de projetos: `6 + 4 × (contagem − mínimo) / (máximo − mínimo)`. Os gráficos de barras mantêm as contagens reais. Esse índice representa a abrangência do portfólio, sem equivaler a uma avaliação de proficiência.

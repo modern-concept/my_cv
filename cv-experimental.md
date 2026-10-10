@@ -4735,280 +4735,80 @@ Versão experimental ampliada — 09/10/2026.
 - P&D aplicado
 - Eficiência operacional Participação de Danillo como desenvolvedor confirmada pelo usuário. O relatório identifica outro integrante como bolsista; os resultados são do projeto/equipe. A variação de 30 para 37,5 caixas/h corresponde a 25%, diferente dos 22,5% citados no texto; o CV apresenta os valores absolutos.
 
-## Utilibox — aplicações e ferramentas do catálogo
- O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.
- Ferramenta Objetivo Área Link / referência
- Calculadora de Juros Simples Pro Rata (Dias) Calcule juros simples exatos para qualquer período em dias, considerando datas e taxa mensal. Finanças & Juros Abrir ferramenta — juros-simples-pro-rata-dia (https://utiliboxapp.com.br/tools/juros-simples-pro-rata-dia/)
-
- Calculadora de Juros Simples Calcule o montante e o total de juros em regime de juros simples. Finanças & Juros Abrir ferramenta — calculadora-juros-simples (https://utiliboxapp.com.br/tools/calculadora-juros-simples/)
-
- Calculadora de Juros Compostos Simule o crescimento de um investimento com juros sobre juros. Finanças & Juros Abrir ferramenta — calculadora-juros-compostos (https://utiliboxapp.com.br/tools/calculadora-juros-compostos/)
-
- Descobrir Capital com Juros Simples Informe montante, taxa e prazo para descobrir o capital inicial necessário. Finanças & Juros Abrir ferramenta — juros-simples-descobrir-capital (https://utiliboxapp.com.br/tools/juros-simples-descobrir-capital/)
-
- Calculadora de Porcentagem Descubra descontos, aumentos e proporções em %. Finanças & Juros Abrir ferramenta — calculadora-de-porcentagem (https://utiliboxapp.com.br/tools/calculadora-de-porcentagem/)
-
- Calculadora de Desconto Calcule descontos, preços finais e percentuais de desconto em segundos. Finanças & Juros Abrir ferramenta — calculadora-desconto (https://utiliboxapp.com.br/tools/calculadora-desconto/)
-
- Simulador de Empréstimo (Price) Simule parcelas de empréstimo pela tabela Price. Finanças & Juros Abrir ferramenta — simulador-emprestimo-price (https://utiliboxapp.com.br/tools/simulador-emprestimo-price/)
-
- Simulador de Empréstimo (Price / SAC / SAM) Simule parcelas de empréstimos nos sistemas Price, SAC e SAM. Finanças & Juros Abrir ferramenta — simulador-emprestimo (https://utiliboxapp.com.br/tools/simulador-emprestimo/)
-
- Calculadora INSS 2025 Calcule a contribuição ao INSS conforme a tabela oficial de 2025. Finanças & Juros Abrir ferramenta — calculadora-inss-2025 (https://utiliboxapp.com.br/tools/calculadora-inss-2025/)
-
- Calculadora IRRF 2026 Calcule o Imposto de Renda na fonte para salários em 2026. Finanças & Juros Abrir ferramenta — calculadora-irrf-2026 (https://utiliboxapp.com.br/tools/calculadora-irrf-2026/)
-
- Calculadora IRPF 2026 (Estimativa Anual) Estime o IRPF anual de 2026 e compare modelo completo vs simplificado. Finanças & Juros Abrir ferramenta — calculadora-irpf-2026 (https://utiliboxapp.com.br/tools/calculadora-irpf-2026/)
-
- Calculadora de Restituição IRPF 2026 por Lotes Estime prioridade, correção e o lote provável da restituição do IRPF 2026. Finanças & Juros Abrir ferramenta — calculadora-restituicao-irpf-2026-lotes (https://utiliboxapp.com.br/tools/calculadora-restituicao-irpf-2026-lotes/)
-
- Calculadora de Salário Líquido BR Estime o valor líquido considerando IRRF, INSS e descontos. Finanças & Juros Abrir ferramenta — calculadora-salario-liquido-br (https://utiliboxapp.com.br/tools/calculadora-salario-liquido-br/)
-
- Simulador de Financiamento Imobiliário (Price, SAC, SAM) Compare Price, SAC e SAM: parcelas, total pago e juros. Finanças & Juros Abrir ferramenta — simulador-financiamento-imobiliario (https://utiliboxapp.com.br/tools/simulador-financiamento-imobiliario/)
-
- Calculadora de Margem Consignável Veja quanto da renda pode ser comprometida com crédito consignado. Finanças & Juros Abrir ferramenta — calculadora-margem-consignavel (https://utiliboxapp.com.br/tools/calculadora-margem-consignavel/)
-
- Calculadora de Rentabilidade CDI / SELIC Compare rendimentos em relação ao CDI e à SELIC. Finanças & Juros Abrir ferramenta — calculadora-rentabilidade-cdi-selic (https://utiliboxapp.com.br/tools/calculadora-rentabilidade-cdi-selic/)
-
- Calculadora de CDB Simule rendimentos líquidos após IR. Finanças & Juros Abrir ferramenta — calculadora-cdb (https://utiliboxapp.com.br/tools/calculadora-cdb/)
-
- Calculadora de WACC Calcule o custo médio ponderado de capital com equity, dívida, imposto e taxa final para valuation. Finanças & Juros Abrir ferramenta — calculadora-wacc (https://utiliboxapp.com.br/tools/calculadora-wacc/)
-
- Simulador de Ponto de Equilíbrio Calcule break-even em unidades e faturamento com margem de contribuição, custos fixos e meta de lucro. Finanças & Juros Abrir ferramenta — simulador-ponto-de-equilibrio (https://utiliboxapp.com.br/tools/simulador-ponto-de-equilibrio/)
-
- Calculadora de Payback, VPL e TIR Avalie projetos com payback simples, payback descontado, VPL e TIR a partir de fluxos de caixa. Finanças & Juros Abrir ferramenta — calculadora-payback-vpl-tir (https://utiliboxapp.com.br/tools/calculadora-payback-vpl-tir/)
-
- Simulador de Aposentadoria (Básico) Projete patrimônio futuro ou aporte mensal para uma meta. Finanças & Juros Abrir ferramenta — simulador-aposentadoria (https://utiliboxapp.com.br/tools/simulador-aposentadoria/)
-
- Calculadora de Juros de Mora e Multa Calcule juros e multa por atraso de boletos. Finanças & Juros Abrir ferramenta — calculadora-juros-mora-multa (https://utiliboxapp.com.br/tools/calculadora-juros-mora-multa/)
-
- Calculadora de Parcelamento no Cartão Simule valor da parcela, juros totais e custo final em compras parceladas no cartão. Finanças & Juros Abrir ferramenta — calculadora-parcelamento-cartao (https://utiliboxapp.com.br/tools/calculadora-parcelamento-cartao/)
-
- Calculadora de Meta de Vendas e Comissão Calcule atingimento da meta, quanto falta para bater objetivo e comissão estimada no mês. Finanças & Juros Abrir ferramenta — calculadora-meta-vendas-comissao (https://utiliboxapp.com.br/tools/calculadora-meta-vendas-comissao/)
-
- Simulador de Cenários Simule cenários pessimista, base e otimista para receita, custos ou qualquer variável e compare o resultado líquido. Finanças & Juros Abrir ferramenta — simulador-cenarios (https://utiliboxapp.com.br/tools/simulador-cenarios/)
-
- Calculadora FGC — Proteção do Fundo Garantidor de Créditos Calcule quanto do seu dinheiro está protegido pelo FGC em CDB, poupança, LCI, LCA e outros. Limite de R$250.000 por CPF por conglomerado. Finanças & Juros Abrir ferramenta — calculadora-fgc (https://utiliboxapp.com.br/tools/calculadora-fgc/)
-
- Análise Lotofácil — Probabilidades e Frequência Calcule probabilidades por faixa, confira sua aposta com o resultado e veja os números mais sorteados da Lotofácil. Finanças & Juros Abrir ferramenta — analise-lotofacil (https://utiliboxapp.com.br/tools/analise-lotofacil/)
-
- Calculadora de 13º Salário Calcule quanto você deve receber de décimo terceiro. Salário & Trabalho Abrir ferramenta — calculadora-decimo-terceiro (https://utiliboxapp.com.br/tools/calculadora-decimo-terceiro/)
-
- Calculadora de Férias Simule quanto receber nas férias com 1/3 constitucional. Salário & Trabalho Abrir ferramenta — calculadora-de-ferias (https://utiliboxapp.com.br/tools/calculadora-de-ferias/)
-
- Calculadora de Horas Extras Veja quanto vale cada hora extra trabalhada. Salário & Trabalho Abrir ferramenta — calculadora-horas-extras (https://utiliboxapp.com.br/tools/calculadora-horas-extras/)
-
- Calculadora de Hora-Aula do Professor Calcule valor por aula, carga mensal e projeção por turma para planejamento escolar. Salário & Trabalho Abrir ferramenta — calculadora-hora-aula-professor (https://utiliboxapp.com.br/tools/calculadora-hora-aula-professor/)
-
- Calculadora de Nota Final Escolar Calcule média bimestral com pesos, recuperação e quanto precisa tirar para atingir a média mínima. Salário & Trabalho Abrir ferramenta — calculadora-nota-final-escolar (https://utiliboxapp.com.br/tools/calculadora-nota-final-escolar/)
-
- Calculadora PIS/Pasep 2026 Estime elegibilidade, valor do abono salarial e calendário de pagamento em 2026. Salário & Trabalho Abrir ferramenta — calculadora-pis-pasep-2026 (https://utiliboxapp.com.br/tools/calculadora-pis-pasep-2026/)
-
- Calculadora Seguro-Desemprego 2026 Estime elegibilidade, quantidade de parcelas e valor da parcela para trabalhador formal. Salário & Trabalho Abrir ferramenta — calculadora-seguro-desemprego-2026 (https://utiliboxapp.com.br/tools/calculadora-seguro-desemprego-2026/)
-
- Calculadora de FGTS na Rescisão + Multa de 40% Estime saldo de FGTS, multa rescisória de 40% e total potencial de saque na demissão sem justa causa. Salário & Trabalho Abrir ferramenta — calculadora-fgts-rescisao-multa-40 (https://utiliboxapp.com.br/tools/calculadora-fgts-rescisao-multa-40/)
-
- Simulador FGTS no Desenrola 2.0 Calcule se seus 20% de FGTS cobrem a dívida com desconto do Desenrola 2.0 e Desenrola Fies. Salário & Trabalho Abrir ferramenta — simulador-fgts-desenrola (https://utiliboxapp.com.br/tools/simulador-fgts-desenrola/)
-
- Simulador de Ciclo Menstrual Preveja menstruação, ovulação e janela fértil. Saúde Feminina Abrir ferramenta — simulador-ciclo-menstrual (https://utiliboxapp.com.br/tools/simulador-ciclo-menstrual/)
-
- Calculadora de Ovulação Estime o período ovulatório e os dias mais férteis. Saúde Feminina Abrir ferramenta — calculadora-ovulacao (https://utiliboxapp.com.br/tools/calculadora-ovulacao/)
-
- Calculadora de Tempo de Gestação Calcule idade gestacional e data provável do parto. Saúde Feminina Abrir ferramenta — calculadora-tempo-gestacao (https://utiliboxapp.com.br/tools/calculadora-tempo-gestacao/)
-
- Calculadora de Semanas para Meses de Gravidez Converta semanas e dias de gestação em mês obstétrico, trimestre e tempo restante até 40 semanas. Saúde Feminina Abrir ferramenta — calculadora-semanas-para-meses-gravidez (https://utiliboxapp.com.br/tools/calculadora-semanas-para-meses-gravidez/)
-
- Calculadora de Idade Gestacional Descubra semanas e dias de gestação com precisão. Saúde Feminina Abrir ferramenta — calculadora-idade-gestacional (https://utiliboxapp.com.br/tools/calculadora-idade-gestacional/)
-
- DPP – Data Provável do Parto Calcule a data provável do parto a partir da DUM. Saúde Feminina Abrir ferramenta — dpp-data-provavel-parto (https://utiliboxapp.com.br/tools/dpp-data-provavel-parto/)
-
- Tabela de Gravidez Semana a Semana Veja a evolução da gestação semana a semana. Saúde Feminina Abrir ferramenta — tabela-gravidez-semana-a-semana (https://utiliboxapp.com.br/tools/tabela-gravidez-semana-a-semana/)
-
- Calculadora Linha do Tempo da Gravidez Cronograma completo da gravidez com marcos por semana. Saúde Feminina Abrir ferramenta — calculadora-linha-do-tempo-gravidez (https://utiliboxapp.com.br/tools/calculadora-linha-do-tempo-gravidez/)
-
- Percentil de Crescimento Fetal Acompanhe medidas fetais e interpretação de percentis. Saúde Feminina Abrir ferramenta — percentil-crescimento-fetal (https://utiliboxapp.com.br/tools/percentil-crescimento-fetal/)
-
- Calculadora de Janela Fértil Avançada Combine ciclo, duração e sintomas para uma previsão mais detalhada. Saúde Feminina Abrir ferramenta — calculadora-janela-fertil-avancada (https://utiliboxapp.com.br/tools/calculadora-janela-fertil-avancada/)
-
- Calculadora de Atraso Menstrual Estime a data prevista da menstruação e possível atraso do ciclo. Saúde Feminina Abrir ferramenta — calculadora-atraso-menstrual (https://utiliboxapp.com.br/tools/calculadora-atraso-menstrual/)
-
- Calculadora de Data do Teste de Gravidez Descubra o melhor momento para testar após a ovulação. Saúde Feminina Abrir ferramenta — calculadora-data-teste-gravidez (https://utiliboxapp.com.br/tools/calculadora-data-teste-gravidez/)
-
- Calculadora de Data da Concepção Estime a data provável da concepção a partir da DUM, DPP ou idade gestacional. Saúde Feminina Abrir ferramenta — calculadora-data-concepcao (https://utiliboxapp.com.br/tools/calculadora-data-concepcao/)
-
- Calculadora de Ganho de Peso na Gravidez Compare o ganho de peso gestacional com faixas de referência por IMC e semana. Saúde Feminina Abrir ferramenta — calculadora-ganho-peso-gestacional (https://utiliboxapp.com.br/tools/calculadora-ganho-peso-gestacional/)
-
- Calculadora de Beta hCG por Semana Compare o valor do beta hCG com faixas amplas de referência conforme a semana gestacional. Saúde Feminina Abrir ferramenta — calculadora-beta-hcg-semanas (https://utiliboxapp.com.br/tools/calculadora-beta-hcg-semanas/)
-
- Calculadora de Zonas de Frequência Cardíaca Descubra suas zonas de frequência cardíaca em 3 métodos diferentes Saúde & Corpo Abrir ferramenta — calculadora-zonas-frequencia-cardiaca (https://utiliboxapp.com.br/tools/calculadora-zonas-frequencia-cardiaca/)
-
- Calculadora de IMC Descubra seu Índice de Massa Corporal. Saúde & Corpo Abrir ferramenta — calculadora-imc (https://utiliboxapp.com.br/tools/calculadora-imc/)
-
- Calculadora de Calorias Diárias Estime quantas calorias consumir por dia. Saúde & Corpo Abrir ferramenta — calculadora-de-calorias (https://utiliboxapp.com.br/tools/calculadora-de-calorias/)
-
- Calculadora de Água Diária Veja quantos litros de água você deve beber. Saúde & Corpo Abrir ferramenta — calculadora-agua-diaria (https://utiliboxapp.com.br/tools/calculadora-agua-diaria/)
-
- Calculadora de Gasto Calórico Estime o gasto calórico diário ou por exercício. Saúde & Corpo Abrir ferramenta — calculadora-gasto-calorico (https://utiliboxapp.com.br/tools/calculadora-gasto-calorico/)
-
- Calculadora de Taxa Metabólica Basal (TMB) Calcule sua taxa metabólica basal com base em peso, altura, idade e sexo biológico. Saúde & Corpo Abrir ferramenta — calculadora-tmb (https://utiliboxapp.com.br/tools/calculadora-tmb/)
-
- Calculadora de Pace de Corrida Calcule pace por km, velocidade média e projeções de tempo para 5 km, 10 km, meia e maratona. Saúde & Corpo Abrir ferramenta — calculadora-pace-corrida (https://utiliboxapp.com.br/tools/calculadora-pace-corrida/)
-
- Calculadora de Coloração de Tinta de Cabelo Simule estratégia de colorimetria capilar, oxidante, cobertura de brancos e neutralização de fundo na coloração. Beleza Feminina Abrir ferramenta — calculadora-coloracao-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-coloracao-tinta-cabelo/)
-
- Calculadora de Mistura de Tinta e Oxidante Calcule quantos gramas de coloração, oxidante e mistura total usar em proporções comuns de salão. Beleza Feminina Abrir ferramenta — calculadora-mistura-tinta-oxidante (https://utiliboxapp.com.br/tools/calculadora-mistura-tinta-oxidante/)
-
- Calculadora de Oxidante para Coloração Simule se o caso pede 10, 20, 30 ou 40 volumes conforme objetivo, histórico químico e cobertura de brancos. Beleza Feminina Abrir ferramenta — calculadora-oxidante-coloracao (https://utiliboxapp.com.br/tools/calculadora-oxidante-coloracao/)
-
- Calculadora de Cobertura de Brancos Simule proporção entre base natural e nuance reflexada para melhorar cobertura de fios brancos. Beleza Feminina Abrir ferramenta — calculadora-cobertura-brancos (https://utiliboxapp.com.br/tools/calculadora-cobertura-brancos/)
-
- Calculadora de Fundo de Clareamento Veja o fundo quente esperado por altura de tom e qual pigmento costuma neutralizar amarelo, laranja ou vermelho. Beleza Feminina Abrir ferramenta — calculadora-fundo-clareamento (https://utiliboxapp.com.br/tools/calculadora-fundo-clareamento/)
-
- Calculadora de Matização de Loiro Simule direção de correção para amarelo, dourado, alaranjado e reflexo excessivo em loiros e mechas. Beleza Feminina Abrir ferramenta — calculadora-matizacao-loiro (https://utiliboxapp.com.br/tools/calculadora-matizacao-loiro/)
-
- Calculadora de Pré-Pigmentação Capilar Simule quando repor fundo quente antes de escurecer cabelo claro, descolorido ou muito poroso. Beleza Feminina Abrir ferramenta — calculadora-pre-pigmentacao-capilar (https://utiliboxapp.com.br/tools/calculadora-pre-pigmentacao-capilar/)
-
- Calculadora de Quantidade de Tinta para Cabelo Estime quantos tubos, gramas e mistura total usar conforme comprimento, densidade e técnica aplicada. Beleza Feminina Abrir ferramenta — calculadora-quantidade-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-quantidade-tinta-cabelo/)
-
- Calculadora de Cronograma Capilar Monte uma rotina de hidratação, nutrição e reconstrução conforme dano, química, ressecamento e elasticidade do fio. Beleza Feminina Abrir ferramenta — calculadora-cronograma-capilar (https://utiliboxapp.com.br/tools/calculadora-cronograma-capilar/)
-
- Calculadora de Idade Calcule sua idade exata em anos, meses e dias. Tempo & Datas Abrir ferramenta — calculadora-de-idade (https://utiliboxapp.com.br/tools/calculadora-de-idade/)
-
- Calculadora de Tempo Some e subtraia horas e minutos. Tempo & Datas Abrir ferramenta — calculadora-de-tempo (https://utiliboxapp.com.br/tools/calculadora-de-tempo/)
-
- Cronômetro e Contador Regressivo Use um cronômetro e timer direto no navegador. Tempo & Datas Abrir ferramenta — relogio-cronometro-contador (https://utiliboxapp.com.br/tools/relogio-cronometro-contador/)
-
- Pomodoro Online Técnica Pomodoro com ciclos de foco e pausas configuráveis, chime sonoro e modo popup. Tempo & Datas Abrir ferramenta — pomodoro (https://utiliboxapp.com.br/tools/pomodoro/)
-
- Calculadora de Dias Úteis Calcule dias úteis entre duas datas. Tempo & Datas Abrir ferramenta — calculadora-dias-uteis (https://utiliboxapp.com.br/tools/calculadora-dias-uteis/)
-
- Calculadora de Idade Completa Idade detalhada em anos, meses, dias, horas e minutos. Tempo & Datas Abrir ferramenta — calculadora-idade-completa (https://utiliboxapp.com.br/tools/calculadora-idade-completa/)
-
- Calculadora de Medidas Converta medidas lineares, áreas e volumes. Casa & Construção Abrir ferramenta — calculadora-de-medidas (https://utiliboxapp.com.br/tools/calculadora-de-medidas/)
-
- Calculadora de Preço por m² Calcule preço por m² ou preço total (com perda opcional). Casa & Construção Abrir ferramenta — calculadora-preco-por-m2 (https://utiliboxapp.com.br/tools/calculadora-preco-por-m2/)
-
- Calculadora de Piso e Azulejo Calcule caixas ou peças (com perda opcional) usando m²/caixa ou tamanho da peça. Casa & Construção Abrir ferramenta — calculadora-piso-azulejo (https://utiliboxapp.com.br/tools/calculadora-piso-azulejo/)
-
- Calculadora de Tinta Veja quantos litros de tinta precisa para pintar. Casa & Construção Abrir ferramenta — calculadora-de-tinta (https://utiliboxapp.com.br/tools/calculadora-de-tinta/)
-
- Calculadora de Consumo de Energia Elétrica Estime kWh e custo diário, mensal e anual de um aparelho com base na potência, tempo de uso e tarifa. Casa & Construção Abrir ferramenta — calculadora-consumo-energia-eletrica (https://utiliboxapp.com.br/tools/calculadora-consumo-energia-eletrica/)
-
- Calculadora de Churrasco Calcule carne, bebidas e acompanhamentos por pessoa. Lazer & Família Abrir ferramenta — calculadora-de-churrasco (https://utiliboxapp.com.br/tools/calculadora-de-churrasco/)
-
- Calculadora de Feijoada Planeje ingredientes por pessoa. Lazer & Família Abrir ferramenta — calculadora-de-feijoada (https://utiliboxapp.com.br/tools/calculadora-de-feijoada/)
-
- Gerador de Nomes de Bebês Sugira nomes com base em estilos e tendências. Lazer & Família Abrir ferramenta — gerador-nomes-bebes (https://utiliboxapp.com.br/tools/gerador-nomes-bebes/)
-
- Gerador de Nomes para Pets Ideias criativas de nomes para seu pet. Lazer & Família Abrir ferramenta — gerador-nomes-pets (https://utiliboxapp.com.br/tools/gerador-nomes-pets/)
-
- Calculadora de Consumo de Combustível e Custo por Km Descubra km por litro, litros por 100 km, custo total e custo por quilômetro rodado. Lazer & Família Abrir ferramenta — calculadora-consumo-combustivel (https://utiliboxapp.com.br/tools/calculadora-consumo-combustivel/)
-
- Calculadora do Álbum da Copa 2026 Quantos pacotes para completar o álbum Panini? Calcule custo esperado, duplicatas e o impacto das trocas com probabilidade real. Lazer & Família Abrir ferramenta — calculadora-album-copa-2026 (https://utiliboxapp.com.br/tools/calculadora-album-copa-2026/)
-
- Jogos do Brasil na Copa 2026 — Tabela Completa com Horários Veja todos os jogos do Brasil na Copa do Mundo 2026 com horários em BRT, Grupo C completo e contagem regressiva para o primeiro jogo. Lazer & Família Abrir ferramenta — jogos-brasil-copa-2026 (https://utiliboxapp.com.br/tools/jogos-brasil-copa-2026/)
-
- Calculadora de Elegibilidade para Cidadania Italiana Descubra se você tem direito à cidadania italiana por descendência (jus sanguinis). Detecta quebra de cadeia por naturalização e Regra de 1948. Lazer & Família Abrir ferramenta — cidadania-italiana (https://utiliboxapp.com.br/tools/cidadania-italiana/)
-
- Editor Vetorial Online Desenhe formas, curvas Bézier e ilustrações no navegador. Exporte como SVG ou PNG. Sem instalar nada. Design & Arte Abrir ferramenta — editor-vetorial (https://utiliboxapp.com.br/tools/editor-vetorial/)
-
- Editor 3D Online Crie e edite cenas 3D no navegador com primitivos, materiais, iluminação e controles de transformação. Sem instalar nada. Design & Arte Abrir ferramenta — editor-3d (https://utiliboxapp.com.br/tools/editor-3d/)
-
- Gerador de Carrossel Instagram com IA Digite um tema, escolha o template e a cor, e receba 6 slides prontos para postar — criados por IA. Marketing & Growth Abrir ferramenta — gerador-carrossel-instagram (https://utiliboxapp.com.br/tools/gerador-carrossel-instagram/)
-
- Calculadora de Valor do Cliente (LTV) e Custo de Aquisição (CAC) — Google Ads Estime CAC, tempo para meta e viabilidade (LTV:CAC) usando CPC e taxa de conversão (com cenários). Marketing & Growth Abrir ferramenta — calculadora-ltv-cac-ads (https://utiliboxapp.com.br/tools/calculadora-ltv-cac-ads/)
-
- Conversor de Moedas Converta valores entre diferentes moedas. Conversores & Utilidades Abrir ferramenta — conversor-de-moedas (https://utiliboxapp.com.br/tools/conversor-de-moedas/)
-
- Calculadora Simples Soma, subtração, multiplicação e divisão. Conversores & Utilidades Abrir ferramenta — calculadora-simples (https://utiliboxapp.com.br/tools/calculadora-simples/)
-
- Calculadora de Regra de Três Resolva regra de três direta ou inversa e descubra X com passo a passo. Conversores & Utilidades Abrir ferramenta — calculadora-regra-de-tres (https://utiliboxapp.com.br/tools/calculadora-regra-de-tres/)
-
- Conversor de Unidades Converta comprimentos, áreas, volumes, pesos e mais. Conversores & Utilidades Abrir ferramenta — conversor-unidades (https://utiliboxapp.com.br/tools/conversor-unidades/)
-
- Conversor de Temperatura Converta °C, °F e Kelvin. Conversores & Utilidades Abrir ferramenta — conversor-temperatura (https://utiliboxapp.com.br/tools/conversor-temperatura/)
-
- Conversor de Taxas Converta taxas equivalentes ao dia, mês e ano em regime simples ou composto. Conversores & Utilidades Abrir ferramenta — conversor-de-taxas (https://utiliboxapp.com.br/tools/conversor-de-taxas/)
-
- Calculadora de Rescisão (Simples) Estimativa básica de valores rescisórios. Jurídico (Básico) Abrir ferramenta — calculadora-rescisao-trabalhista-simples (https://utiliboxapp.com.br/tools/calculadora-rescisao-trabalhista-simples/)
-
- Atualização de Débitos (Simples) Calcule juros, multa e correção simples sobre um valor. Jurídico (Básico) Abrir ferramenta — atualizacao-de-debitos-simples (https://utiliboxapp.com.br/tools/atualizacao-de-debitos-simples/)
-
- PDF → JPG Grátis Converta páginas de PDF em imagens JPG online grátis, com download em ZIP. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
-
- JPG → PDF Transforme várias imagens em um único PDF. PDF & Produtividade Abrir ferramenta — conversor-jpg-para-pdf (https://utiliboxapp.com.br/tools/conversor-jpg-para-pdf/)
-
- Compressor de Imagem (JPG/PNG) Reduza o tamanho de fotos e imagens para envio mais rápido sem instalar programa. PDF & Produtividade Abrir ferramenta — compressor-de-imagem (https://utiliboxapp.com.br/tools/compressor-de-imagem/)
-
- Compressor PDF Grátis Comprima PDF online grátis para reduzir tamanho e facilitar envio por e-mail, WhatsApp e formulários. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
-
- Word → PDF Converta documentos .doc e .docx para PDF. PDF & Produtividade Abrir ferramenta — conversor-word-para-pdf (https://utiliboxapp.com.br/tools/conversor-word-para-pdf/)
-
- PDF → Word Transforme PDFs em arquivos editáveis. PDF & Produtividade Abrir ferramenta — conversor-pdf-para-word (https://utiliboxapp.com.br/tools/conversor-pdf-para-word/)
-
- Assinatura Digital Simples Grátis Adicione uma assinatura visual simples em PDF online grátis, com digitação ou desenho manual no navegador. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
-
- Dividir PDF Extraia páginas específicas de um PDF. PDF & Produtividade Abrir ferramenta — dividir-pdf (https://utiliboxapp.com.br/tools/dividir-pdf/)
-
- Unir PDFs Combine vários PDFs em um único arquivo. PDF & Produtividade Abrir ferramenta — unir-pdf (https://utiliboxapp.com.br/tools/unir-pdf/)
-
- Visualizador de PDF Grátis Abra e visualize arquivos PDF diretamente no navegador, sem instalar programa e sem enviar o arquivo para servidor. PDF & Produtividade Abrir ferramenta — visualizador-de-pdf (https://utiliboxapp.com.br/tools/visualizador-de-pdf/)
-
- Gerador de QR Code Grátis Crie QR Code online grátis para links, textos, WhatsApp, telefone, e-mail e Wi‑Fi. PDF & Produtividade Abrir ferramenta — gerador-qr-code (https://utiliboxapp.com.br/tools/gerador-qr-code/)
-
- Gerador de Assinatura de E-mail Grátis Crie assinaturas profissionais de e-mail em HTML com preview, cópia do código e download grátis. PDF & Produtividade Site publicado — Utilibox (https://utiliboxapp.com.br/)
-
- Narra Escreva e organize sua obra com capítulos, cenas, personagens e contexto em um só lugar. Escrita Abrir ferramenta — narra (https://utiliboxapp.com.br/tools/narra/)
-
- UtiliNotas - Editor Markdown Conectado Crie notas em Markdown, conecte ideias com links internos, organize uma árvore de arquivos e insira imagens. Premium salva também em uma pasta no disco. Tools Premium Abrir ferramenta — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
-
- Anki Flashcards — Repetição Espaçada Crie decks de flashcards, estude com o algoritmo SM-2, acompanhe retenção e exporte para Anki Desktop (TSV) ou PDF. Inclui decks prontos de Matemática, Inglês, Anatomia e Programação. Tools Premium Abrir ferramenta — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
-
- Anki Flashcards — Spaced Repetition (English) Create flashcard decks, study with the SM-2 spaced repetition algorithm, track retention and export to Anki Desktop (TSV) or PDF. Includes ready-to-use decks for Math, Spanish, Anatomy and Programming. Tools Premium Abrir ferramenta — anki-flashcards-en (https://utiliboxapp.com.br/tools/anki-flashcards-en/)
-
- AHP Online Ferramenta grátis de decisão multicritério: monte critérios, compare alternativas com a escala de Saaty, valide consistência e exporte projetos AHP. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/)
-
- AHP Online Free (English) Free multi-criteria decision tool: build criteria, compare alternativas com a escala de Saaty, valide consistência e exporte projetos AHP. Gestão Abrir ferramenta — ahp-online-free (https://utiliboxapp.com.br/tools/ahp-online-free/)
-
- PROMETHEE Online Análise multicritério PROMETHEE I & II com funções de preferência configuráveis e análise de sensibilidade em tempo real. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — promethee (https://utiliboxapp.com.br/tools/promethee/)
-
- PROMETHEE Analysis (English) Free PROMETHEE I & II multi-criteria decision analysis with configurable preference functions and real-time sensitivity analysis. Gestão Abrir ferramenta — promethee-analysis (https://utiliboxapp.com.br/tools/promethee-analysis/)
-
- TOPSIS Online Método TOPSIS: compare alternativas por distância à solução ideal com pesos e direções configuráveis. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — topsis (https://utiliboxapp.com.br/tools/topsis/)
-
- TOPSIS Online (English) Free TOPSIS multi-criteria decision analysis: rank alternatives by closeness to ideal solution. Gestão Abrir ferramenta — topsis-online (https://utiliboxapp.com.br/tools/topsis-online/)
-
- Tomada de Decisão Guiada Compare opções com perguntas simples e descubra automaticamente qual escolher. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — tomada-de-decisao (https://utiliboxapp.com.br/tools/tomada-de-decisao/)
-
- Decision Maker (English) Compare options with simple questions and automatically discover the best choice. Gestão Abrir ferramenta — decision-maker (https://utiliboxapp.com.br/tools/decision-maker/)
-
- PDSA Manager Gerencie ciclos de melhoria contínua PDSA (Plan-Do-Study-Act) com gráficos, relatórios, métricas antes/depois e base de conhecimento de aprendizados. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/)
-
- VSM Online Mapa de Fluxo de Valor online: modele etapas, tempo de processo, espera, uptime, inventario e gargalos com lead time, takt e PCE automaticos. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — vsm (https://utiliboxapp.com.br/tools/vsm/)
-
- SMED Online SMED online: separe atividades internas e externas, estime conversao, paralelizacao e ganho real na reducao de setup. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — smed (https://utiliboxapp.com.br/tools/smed/)
-
- Folha A3 Online Folha A3 online: estruture contexto, problema, meta, causa raiz, contramedidas, plano de acao e follow-up em uma unica pagina. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
-
- Análise de Pareto Identifique os poucos itens que causam a maioria dos problemas com gráfico 80/20 automático e curva acumulada. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/)
-
- Matriz GUT Priorize problemas, tarefas e iniciativas pela Gravidade, Urgência e Tendência com ranking automático. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/)
-
- Matriz Eisenhower Classifique tarefas por urgência e importância para decidir o que fazer agora, agendar, delegar ou eliminar. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — matriz-eisenhower (https://utiliboxapp.com.br/tools/matriz-eisenhower/)
-
- Matriz SWOT Guiada Mapeie forças, fraquezas, oportunidades e ameaças e gere estratégias cruzadas SO, WO, ST e WT automaticamente. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/)
-
- Árvore CTC (Critical to Customer) Desdobre a Voz do Cliente em drivers CTQ, CTD, CTC e CTS com requisitos mensuráveis. Ferramenta do Green Belt para a fase Define do DMAIC. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — arvore-ctc (https://utiliboxapp.com.br/tools/arvore-ctc/)
-
- Árvore de Decisão — EMV Monte árvores de decisão com nós de decisão, chance e resultado. Calcule o Valor Monetário Esperado (EMV) e encontre o caminho ótimo automaticamente. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
-
- Árvore de Decisão — ML Monte árvores de classificação no estilo Machine Learning com splits por feature, faça predições interativas e visualize o diagrama com o caminho percorrido. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — arvore-decisao-ml (https://utiliboxapp.com.br/tools/arvore-decisao-ml/)
-
- Teoria das Filas Calcule M/M/1, M/M/c, M/D/1, Erlang-B/C com gráficos, análise de sensibilidade e comparativo por número de servidores. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — teoria-das-filas (https://utiliboxapp.com.br/tools/teoria-das-filas/)
-
- Queueing Theory (English) Calculate M/M/1, M/M/c, M/D/1, M/M/1/K and Erlang-B/C metrics with charts, sensitivity analysis, server comparison table and DES simulation. Gestão Abrir ferramenta — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/)
-
- Calculadora de Estudo de Tempos — Tempo Padrão (Barnes) Calcule o número de observações necessárias (fórmula de Barnes), Tempo Normal e Tempo Padrão com tolerâncias PFD. Ferramenta para cronoanálise industrial. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — estudo-de-tempos (https://utiliboxapp.com.br/tools/estudo-de-tempos/)
+## Utilibox — áreas de aplicação e engenharia do produto
+ Utilibox é um projeto independente que transforma métodos, cálculos e tarefas em ferramentas digitais. O repertório combina apoio à decisão, engenharia de produção, finanças, conhecimento, criação e utilidades do cotidiano. As áreas abaixo apresentam a ideia central e exemplos representativos de aplicação.
+ Decisão multicritério e gestão Engenharia de produção, Lean e melhoria contínua Finanças, investimentos e análise econômica Pessoas, remuneração e regras de cálculo Conhecimento, escrita e aprendizagem Criação visual, IA aplicada e marketing Documentos, arquivos e produtividade digital Bem-estar, corpo e informação gestacional Beleza, formulação e planejamento de consumo Construção, recursos e planejamento cotidiano Tempo, organização e foco
+
+### Decisão multicritério e gestão
+ Ferramentas para estruturar problemas, comparar alternativas e priorizar ações. A ideia central é tornar métodos de decisão utilizáveis em interfaces com critérios, pesos, rankings e visualizações, aproximando análise quantitativa e decisões de gestão.
+ Métodos e temas: AHP, TOPSIS e PROMETHEE; Pareto, GUT, SWOT e valor monetário esperado.
+ Habilidades demonstradas: Modelagem de critérios, consistência, sensibilidade e apresentação de resultados.
+ Exemplos: AHP Online · TOPSIS Online · PROMETHEE Online
+
+### Engenharia de produção, Lean e melhoria contínua
+ Aplicações para compreender o fluxo de trabalho, identificar gargalos, reduzir setup e acompanhar melhorias. O conjunto conecta ferramentas Lean a métricas de processo, dimensionamento de capacidade e aprendizagem estruturada, com relação ao MBA Operational Excellence em andamento.
+ Métodos e temas: VSM, SMED, PDSA, A3, estudo de tempos e teoria das filas.
+ Habilidades demonstradas: Tradução de métodos industriais em cálculos, modelos visuais e acompanhamento de ações.
+ Exemplos: VSM Online · SMED Online · PDSA Manager
+ Formação relacionada: MBA Operational Excellence — em andamento
+
+### Finanças, investimentos e análise econômica
+ Simuladores que transformam fluxos de caixa, taxas, custos e prazos em indicadores comparáveis. A aplicação vai da avaliação de projetos e viabilidade econômica ao planejamento financeiro, crédito e comparação de cenários.
+ Métodos e temas: VPL, TIR, payback, WACC, ponto de equilíbrio, juros e amortização.
+ Habilidades demonstradas: Matemática financeira, modelagem de cenários e explicação de indicadores ao usuário.
+ Exemplos: Calculadora de Payback, VPL e TIR · Calculadora de WACC · Simulador de Ponto de Equilíbrio
+
+### Pessoas, remuneração e regras de cálculo
+ Ferramentas para explorar remuneração, descontos, benefícios e cálculos de trabalho. O domínio evidencia a transformação de regras e parâmetros em simuladores com entradas verificáveis e resultados compreensíveis.
+ Métodos e temas: Salário líquido, horas extras, férias, rescisão e estimativas de tributos e benefícios.
+ Habilidades demonstradas: Regras parametrizadas, cálculos condicionais, datas e organização de informações.
+ Exemplos: Calculadora de Salário Líquido BR · Calculadora de Horas Extras · Calculadora de FGTS na Rescisão + Multa de 40%
+
+### Conhecimento, escrita e aprendizagem
+ Produtos para organizar ideias, conteúdos e relações, mantendo contexto ao longo da escrita e do estudo. Narra e UtiliNotas trabalham a organização do conhecimento; flashcards acrescentam planejamento de revisões e repetição espaçada.
+ Métodos e temas: Entidades e relações, Markdown, notas conectadas, SM-2 e exportação de conteúdos.
+ Habilidades demonstradas: Modelagem de domínio, persistência local, edição e experiências de aprendizagem.
+ Exemplos: Narra · UtiliNotas - Editor Markdown Conectado · Anki Flashcards — Repetição Espaçada
+
+### Criação visual, IA aplicada e marketing
+ Ferramentas que conectam criação de conteúdo, edição visual e análise comercial. O repertório combina interação gráfica no navegador, geração de conteúdo com IA e indicadores para compreender aquisição de clientes e valor econômico.
+ Métodos e temas: Edição vetorial e 3D, carrosséis com IA, LTV e CAC.
+ Habilidades demonstradas: Interfaces criativas, integração de IA e tradução de métricas de growth em ferramentas.
+ Exemplos: Editor 3D Online · Gerador de Carrossel Instagram com IA · Calculadora de Valor do Cliente (LTV) e Custo de Aquisição (CAC) — Google Ads
+
+### Documentos, arquivos e produtividade digital
+ Utilitários que simplificam tarefas recorrentes com documentos, imagens e formatos. A ideia central é reduzir etapas de trabalho por meio de interfaces diretas para manipular arquivos e produzir saídas reutilizáveis.
+ Métodos e temas: Conversão, compressão, divisão e união de PDFs, imagens e geração de QR codes.
+ Habilidades demonstradas: Processamento de arquivos, formatos, exportação e desenho de fluxos de interação.
+ Exemplos: Unir PDFs · Compressor de Imagem (JPG/PNG) · Gerador de QR Code Grátis
+
+### Bem-estar, corpo e informação gestacional
+ Calculadoras informativas para explorar medidas corporais, atividade física, ciclos e cronogramas gestacionais. Esse conjunto amplia a experiência de desenvolvimento para domínios com unidades, faixas de referência e relações temporais.
+ Métodos e temas: IMC, gasto energético, pace, idade gestacional e cronogramas por semana.
+ Habilidades demonstradas: Cálculos parametrizados, conversão de unidades e apresentação de estimativas informativas.
+ Exemplos: Calculadora de IMC · Calculadora de Pace de Corrida · Calculadora de Tempo de Gestação
+
+### Beleza, formulação e planejamento de consumo
+ Simuladores voltados a proporções, consumo e planejamento de procedimentos de beleza. O tema mostra a aplicação de lógica de cálculo e modelagem de parâmetros a situações práticas de serviços e uso de materiais.
+ Métodos e temas: Proporções de mistura, quantidade de produto, colorimetria e cronograma capilar.
+ Habilidades demonstradas: Modelagem de parâmetros, estimativas de consumo e interfaces orientadas ao contexto de uso.
+ Exemplos: Calculadora de Mistura de Tinta e Oxidante · Calculadora de Quantidade de Tinta para Cabelo · Calculadora de Cronograma Capilar
+
+### Construção, recursos e planejamento cotidiano
+ Aplicações para estimar materiais, custos, consumo e quantidades em tarefas domésticas e planejamento cotidiano. A engenharia conecta unidades, perdas, medidas e preços a resultados que ajudam o usuário a planejar recursos.
+ Métodos e temas: Área, preço por m², materiais, consumo elétrico e dimensionamento de quantidades.
+ Habilidades demonstradas: Estimativa quantitativa, conversões, regras de consumo e comparação de custos.
+ Exemplos: Calculadora de Piso e Azulejo · Calculadora de Tinta · Calculadora de Consumo de Energia Elétrica
+
+### Tempo, organização e foco
+ Ferramentas para organizar duração, datas, prazos e ciclos de trabalho. O conjunto traduz operações temporais e métodos de foco em interações simples para planejamento pessoal e produtividade.
+ Métodos e temas: Dias úteis, intervalos, cronômetro, contagem regressiva e Pomodoro.
+ Habilidades demonstradas: Lógica temporal, estado de interface, eventos e desenho de rotinas de produtividade.
+ Exemplos: Pomodoro Online · Calculadora de Dias Úteis · Cronômetro e Contador Regressivo
+
+### Engenharia transversal do produto
+ A engenharia do produto combina Astro, JavaScript e TypeScript com interfaces interativas, modelagem de dados e lógica de cálculo. Nos módulos que exigem essas capacidades, o projeto utiliza persistência local com IndexedDB, serviços Supabase/PostgreSQL, integrações de IA com Gemini, edição de conteúdo e geração de documentos. Isso conecta conhecimento de domínio a desenvolvimento de software e experiência do usuário.
+ Ver os cases de destaque do Utilibox
 
 ## Matriz de habilidades e cases de origem
  Competências organizadas por especialidade, com aplicações, métodos e projetos de origem. Cada grupo conecta o trabalho técnico ao seu contexto profissional, acadêmico ou independente; os links abrem os cases correspondentes.

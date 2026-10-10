@@ -68,6 +68,9 @@ body:not([data-extension-language="en"]) [data-content-language="en"]{display:no
 .skill-case-context{display:block;color:var(--midMuted);font-size:7.5pt;margin-top:1mm}
 .experimental-page .skill-case-list p{font-size:8.5pt;line-height:1.5;margin:1mm 0 0}
 .skill-cluster-stack{font-size:8pt;line-height:1.6;color:var(--midMuted);padding-top:2mm;border-top:1px solid var(--midLine)}
+.tool-context-anchor{display:block;height:0;scroll-margin-top:100px}
+.utilibox-domain p{font-size:8.5pt;line-height:1.6}
+.utilibox-examples{padding-top:2mm;border-top:1px solid var(--midLine)}
 @media screen and (max-width:600px){.skill-cluster-capabilities{grid-template-columns:1fr}}
 .map-heading p{font-size:9pt;margin:0;color:var(--midMuted)}
 .map-heading .career-section-title{font-size:16pt;margin-top:2mm}

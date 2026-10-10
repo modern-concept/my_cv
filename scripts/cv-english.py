@@ -193,12 +193,8 @@ def build_archive(base, data, locale):
         title,description=catalog['PROJECTS'][p['id']]
         projects+='<article class="case" id="projeto-'+str(i+1)+'"><h3>'+html.escape(title)+'</h3>'+paragraphs([description])+PROJECT_DETAILS['markup'](p,'en')+'<p><strong>Architecture:</strong> '+html.escape(PROJECT_DETAILS['architecture'](p,'en'))+'</p><p><strong>Stack:</strong> '+html.escape(translate_stack(', '.join(p['stack'])))+'</p>'+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
     sections.append(archive_section('projetos','Complete project and reference catalog',paragraphs(['38 projects and references include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.'])+projects))
-    tools=ext['utiliboxCatalog']; names=catalog['TOOL_TITLES']
-    if len(tools)!=len(names): raise ValueError('English tool titles need updating.')
-    rows=''
-    for t,name in zip(tools,names):
-        rows+='<tr id="utilibox-tool-'+t['slug']+'"><th scope="row">'+html.escape(name)+'</th><td>'+html.escape('Interactive tool or reference for '+name.lower()+'.')+'</td><td>'+sources(['utilibox/'+r for r in t['localSourceReferences']] or ['utilibox/src/data/tools.js'])+'</td></tr>'
-    sections.append(archive_section('utilibox-catalogo','Utilibox — complete application and tool catalog',paragraphs(['136 unique tool entries cover 17 overlapping commercial categories. Methods and maturity vary across the catalog; live status is declared by the catalog rather than independently checked in this review. The main CV highlights the decision, operations, finance, knowledge and learning applications.'])+'<table><thead><tr><th>Tool</th><th>Application</th><th>Links / references</th></tr></thead><tbody>'+rows+'</tbody></table>'))
+    utilibox_domains=runpy.run_path(str(base/'scripts/cv-utilibox-domains.py'))
+    sections.append(archive_section('utilibox-catalogo','Utilibox — applications and product domains',utilibox_domains['render'](ext['utiliboxCatalog'],'en')))
     matrix=runpy.run_path(str(base/'scripts/cv-skill-matrix.py'))
     sections.append(archive_section('origem-habilidades','Capabilities and their project origins',matrix['render'](locale['cases'],locale['priorityCases'],'en')))
     sections.append(archive_section('fontes-interpretacao','Project and career context',paragraphs(['The projects cover professional applications at Agrodan, doctoral EFS-AHP research, hospital management during the internship and university project gamification. Independent initiatives include digital products, decision tools, education, finance, automation and interactive experiences.'])))

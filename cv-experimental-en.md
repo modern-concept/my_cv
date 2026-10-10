@@ -3351,281 +3351,102 @@ Tech Lead
 
 
 
-## Utilibox — complete application and tool catalog
- 136 unique tool entries cover 17 overlapping commercial categories. Methods and maturity vary across the catalog; live status is declared by the catalog rather than independently checked in this review. The main CV highlights the decision, operations, finance, knowledge and learning applications.
- Tool Application Links / references
- Daily pro rata simple interest calculator Interactive tool or reference for daily pro rata simple interest calculator. Open tool — juros-simples-pro-rata-dia (https://utiliboxapp.com.br/tools/juros-simples-pro-rata-dia/)
+## Utilibox — applications and product domains
+ Utilibox is an independent project translating methods, calculations and tasks into digital tools. Its scope combines decision support, production engineering, finance, knowledge, creation and everyday utilities. The areas below present the central idea and representative application examples.
+ Multicriteria decisions and management Production engineering, Lean and continuous improvement Finance, investments and economic analysis People, compensation and calculation rules Knowledge, writing and learning Visual creation, applied AI and marketing Documents, files and digital productivity Wellbeing, body metrics and pregnancy information Beauty, formulation and consumption planning Construction, resources and everyday planning Time, organization and focus
 
- Simple interest calculator Interactive tool or reference for simple interest calculator. Open tool — calculadora-juros-simples (https://utiliboxapp.com.br/tools/calculadora-juros-simples/)
+### Multicriteria decisions and management
+ Tools for structuring problems, comparing alternatives and prioritizing actions. The central idea is to make decision methods usable through interfaces with criteria, weights, rankings and visualizations, connecting quantitative analysis to management decisions.
+ Methods and topics: AHP, TOPSIS and PROMETHEE; Pareto, GUT, SWOT and expected monetary value.
+ Demonstrated capabilities: Criteria modeling, consistency, sensitivity and result presentation.
+ Examples: AHP Online · TOPSIS Online · PROMETHEE Online
 
- Compound interest calculator Interactive tool or reference for compound interest calculator. Open tool — calculadora-juros-compostos (https://utiliboxapp.com.br/tools/calculadora-juros-compostos/)
 
- Initial capital from simple interest Interactive tool or reference for initial capital from simple interest. Open tool — juros-simples-descobrir-capital (https://utiliboxapp.com.br/tools/juros-simples-descobrir-capital/)
 
- Percentage calculator Interactive tool or reference for percentage calculator. Open tool — calculadora-de-porcentagem (https://utiliboxapp.com.br/tools/calculadora-de-porcentagem/)
+### Production engineering, Lean and continuous improvement
+ Applications for understanding workflows, identifying bottlenecks, reducing setup and tracking improvements. This group connects Lean tools to process metrics, capacity sizing and structured learning, relating to the ongoing Operational Excellence MBA.
+ Methods and topics: VSM, SMED, PDSA, A3, time study and queueing theory.
+ Demonstrated capabilities: Translating industrial methods into calculations, visual models and action tracking.
+ Examples: VSM Online · SMED Online · PDSA Manager
+ Related education: Operational Excellence MBA — in progress
 
- Discount calculator Interactive tool or reference for discount calculator. Open tool — calculadora-desconto (https://utiliboxapp.com.br/tools/calculadora-desconto/)
 
- Price loan simulator Interactive tool or reference for price loan simulator. Open tool — simulador-emprestimo-price (https://utiliboxapp.com.br/tools/simulador-emprestimo-price/)
 
- Price / SAC / SAM loan simulator Interactive tool or reference for price / sac / sam loan simulator. Open tool — simulador-emprestimo (https://utiliboxapp.com.br/tools/simulador-emprestimo/)
+### Finance, investments and economic analysis
+ Simulators translating cash flows, rates, costs and periods into comparable indicators. Applications range from project appraisal and economic feasibility to financial planning, credit and scenario comparison.
+ Methods and topics: NPV, IRR, payback, WACC, break-even, interest and amortization.
+ Demonstrated capabilities: Financial mathematics, scenario modeling and explaining indicators to users.
+ Examples: Payback, NPV and IRR calculator · WACC calculator · Break-even simulator
 
- INSS contribution calculator — 2025 Interactive tool or reference for inss contribution calculator — 2025. Open tool — calculadora-inss-2025 (https://utiliboxapp.com.br/tools/calculadora-inss-2025/)
 
- IRRF withholding calculator — 2026 Interactive tool or reference for irrf withholding calculator — 2026. Open tool — calculadora-irrf-2026 (https://utiliboxapp.com.br/tools/calculadora-irrf-2026/)
 
- Annual IRPF estimate — 2026 Interactive tool or reference for annual irpf estimate — 2026. Open tool — calculadora-irpf-2026 (https://utiliboxapp.com.br/tools/calculadora-irpf-2026/)
+### People, compensation and calculation rules
+ Tools for exploring compensation, deductions, benefits and employment calculations. This domain demonstrates translating rules and parameters into simulators with checkable inputs and understandable results.
+ Methods and topics: Net salary, overtime, vacation pay, termination and tax and benefit estimates.
+ Demonstrated capabilities: Parameterized rules, conditional calculations, dates and information organization.
+ Examples: Brazilian net salary calculator · Overtime calculator · FGTS termination balance and 40% penalty
 
- IRPF refund batch estimate — 2026 Interactive tool or reference for irpf refund batch estimate — 2026. Open tool — calculadora-restituicao-irpf-2026-lotes (https://utiliboxapp.com.br/tools/calculadora-restituicao-irpf-2026-lotes/)
 
- Brazilian net salary calculator Interactive tool or reference for brazilian net salary calculator. Open tool — calculadora-salario-liquido-br (https://utiliboxapp.com.br/tools/calculadora-salario-liquido-br/)
 
- Mortgage repayment simulator — Price, SAC and SAM Interactive tool or reference for mortgage repayment simulator — price, sac and sam. Open tool — simulador-financiamento-imobiliario (https://utiliboxapp.com.br/tools/simulador-financiamento-imobiliario/)
+### Knowledge, writing and learning
+ Products organizing ideas, content and relationships while retaining context throughout writing and study. Narra and UtiliNotas support knowledge organization; flashcards add review planning and spaced repetition.
+ Methods and topics: Entities and relationships, Markdown, connected notes, SM-2 and content export.
+ Demonstrated capabilities: Domain modeling, local persistence, editing and learning experiences.
+ Examples: Narra · UtiliNotas — connected Markdown editor · Anki flashcards — spaced repetition
 
- Payroll-linked credit margin calculator Interactive tool or reference for payroll-linked credit margin calculator. Open tool — calculadora-margem-consignavel (https://utiliboxapp.com.br/tools/calculadora-margem-consignavel/)
 
- CDI / SELIC return comparison Interactive tool or reference for cdi / selic return comparison. Open tool — calculadora-rentabilidade-cdi-selic (https://utiliboxapp.com.br/tools/calculadora-rentabilidade-cdi-selic/)
 
- CDB investment calculator Interactive tool or reference for cdb investment calculator. Open tool — calculadora-cdb (https://utiliboxapp.com.br/tools/calculadora-cdb/)
+### Visual creation, applied AI and marketing
+ Tools connecting content creation, visual editing and commercial analysis. This experience combines browser graphics interaction, AI content generation and indicators for understanding customer acquisition and economic value.
+ Methods and topics: Vector and 3D editing, AI-generated carousels, LTV and CAC.
+ Demonstrated capabilities: Creative interfaces, AI integration and translating growth metrics into tools.
+ Examples: Online 3D editor · AI Instagram carousel generator · Customer lifetime value and acquisition cost — Google Ads
 
- WACC calculator Interactive tool or reference for wacc calculator. Open tool — calculadora-wacc (https://utiliboxapp.com.br/tools/calculadora-wacc/)
 
- Break-even simulator Interactive tool or reference for break-even simulator. Open tool — simulador-ponto-de-equilibrio (https://utiliboxapp.com.br/tools/simulador-ponto-de-equilibrio/)
 
- Payback, NPV and IRR calculator Interactive tool or reference for payback, npv and irr calculator. Open tool — calculadora-payback-vpl-tir (https://utiliboxapp.com.br/tools/calculadora-payback-vpl-tir/)
+### Documents, files and digital productivity
+ Utilities simplifying recurring tasks with documents, images and formats. The central idea is to reduce workflow steps through direct interfaces for manipulating files and producing reusable outputs.
+ Methods and topics: Conversion, compression, PDF splitting and merging, images and QR-code generation.
+ Demonstrated capabilities: File processing, formats, export and interaction workflow design.
+ Examples: Merge PDFs · JPG/PNG image compressor · QR code generator
 
- Basic retirement savings simulator Interactive tool or reference for basic retirement savings simulator. Open tool — simulador-aposentadoria (https://utiliboxapp.com.br/tools/simulador-aposentadoria/)
 
- Late interest and penalty calculator Interactive tool or reference for late interest and penalty calculator. Open tool — calculadora-juros-mora-multa (https://utiliboxapp.com.br/tools/calculadora-juros-mora-multa/)
 
- Credit-card installment calculator Interactive tool or reference for credit-card installment calculator. Open tool — calculadora-parcelamento-cartao (https://utiliboxapp.com.br/tools/calculadora-parcelamento-cartao/)
+### Wellbeing, body metrics and pregnancy information
+ Informational calculators for exploring body metrics, physical activity, cycles and pregnancy timelines. This group extends development experience into domains with units, reference ranges and temporal relationships.
+ Methods and topics: BMI, energy expenditure, running pace, gestational age and weekly timelines.
+ Demonstrated capabilities: Parameterized calculations, unit conversion and presentation of informational estimates.
+ Examples: BMI calculator · Running pace calculator · Pregnancy duration calculator
 
- Sales target and commission calculator Interactive tool or reference for sales target and commission calculator. Open tool — calculadora-meta-vendas-comissao (https://utiliboxapp.com.br/tools/calculadora-meta-vendas-comissao/)
 
- Scenario simulator Interactive tool or reference for scenario simulator. Open tool — simulador-cenarios (https://utiliboxapp.com.br/tools/simulador-cenarios/)
 
- FGC deposit protection calculator Interactive tool or reference for fgc deposit protection calculator. Open tool — calculadora-fgc (https://utiliboxapp.com.br/tools/calculadora-fgc/)
+### Beauty, formulation and consumption planning
+ Simulators focused on proportions, consumption and beauty-service planning. This domain demonstrates calculation logic and parameter modeling applied to practical service and material-use situations.
+ Methods and topics: Mixing ratios, product quantities, colorimetry and hair-care schedules.
+ Demonstrated capabilities: Parameter modeling, consumption estimates and context-oriented interfaces.
+ Examples: Dye and developer mixing calculator · Hair dye quantity calculator · Hair-care schedule calculator
 
- Lotofácil probability and frequency analysis Interactive tool or reference for lotofácil probability and frequency analysis. Open tool — analise-lotofacil (https://utiliboxapp.com.br/tools/analise-lotofacil/)
 
- 13th-month salary calculator Interactive tool or reference for 13th-month salary calculator. Open tool — calculadora-decimo-terceiro (https://utiliboxapp.com.br/tools/calculadora-decimo-terceiro/)
 
- Vacation pay calculator Interactive tool or reference for vacation pay calculator. Open tool — calculadora-de-ferias (https://utiliboxapp.com.br/tools/calculadora-de-ferias/)
+### Construction, resources and everyday planning
+ Applications estimating materials, costs, consumption and quantities in household tasks and everyday planning. The engineering connects units, waste allowances, measurements and prices to outputs helping users plan resources.
+ Methods and topics: Area, price per square meter, materials, electricity use and quantity sizing.
+ Demonstrated capabilities: Quantitative estimation, conversions, consumption rules and cost comparison.
+ Examples: Floor and tile calculator · Paint quantity calculator · Electricity consumption calculator
 
- Overtime calculator Interactive tool or reference for overtime calculator. Open tool — calculadora-horas-extras (https://utiliboxapp.com.br/tools/calculadora-horas-extras/)
 
- Teacher hourly pay calculator Interactive tool or reference for teacher hourly pay calculator. Open tool — calculadora-hora-aula-professor (https://utiliboxapp.com.br/tools/calculadora-hora-aula-professor/)
 
- Final school grade calculator Interactive tool or reference for final school grade calculator. Open tool — calculadora-nota-final-escolar (https://utiliboxapp.com.br/tools/calculadora-nota-final-escolar/)
+### Time, organization and focus
+ Tools organizing duration, dates, deadlines and work cycles. This group translates time operations and focus methods into simple interactions for personal planning and productivity.
+ Methods and topics: Business days, intervals, stopwatch, countdown and Pomodoro.
+ Demonstrated capabilities: Temporal logic, interface state, events and productivity routine design.
+ Examples: Online Pomodoro · Business-day calculator · Stopwatch and countdown timer
 
- PIS/Pasep allowance estimate — 2026 Interactive tool or reference for pis/pasep allowance estimate — 2026. Open tool — calculadora-pis-pasep-2026 (https://utiliboxapp.com.br/tools/calculadora-pis-pasep-2026/)
 
- Unemployment benefit estimate — 2026 Interactive tool or reference for unemployment benefit estimate — 2026. Open tool — calculadora-seguro-desemprego-2026 (https://utiliboxapp.com.br/tools/calculadora-seguro-desemprego-2026/)
 
- FGTS termination balance and 40% penalty Interactive tool or reference for fgts termination balance and 40% penalty. Open tool — calculadora-fgts-rescisao-multa-40 (https://utiliboxapp.com.br/tools/calculadora-fgts-rescisao-multa-40/)
-
- FGTS debt-settlement simulator Interactive tool or reference for fgts debt-settlement simulator. Open tool — simulador-fgts-desenrola (https://utiliboxapp.com.br/tools/simulador-fgts-desenrola/)
-
- Menstrual cycle simulator Interactive tool or reference for menstrual cycle simulator. Open tool — simulador-ciclo-menstrual (https://utiliboxapp.com.br/tools/simulador-ciclo-menstrual/)
-
- Ovulation calculator Interactive tool or reference for ovulation calculator. Open tool — calculadora-ovulacao (https://utiliboxapp.com.br/tools/calculadora-ovulacao/)
-
- Pregnancy duration calculator Interactive tool or reference for pregnancy duration calculator. Open tool — calculadora-tempo-gestacao (https://utiliboxapp.com.br/tools/calculadora-tempo-gestacao/)
-
- Pregnancy weeks-to-months converter Interactive tool or reference for pregnancy weeks-to-months converter. Open tool — calculadora-semanas-para-meses-gravidez (https://utiliboxapp.com.br/tools/calculadora-semanas-para-meses-gravidez/)
-
- Gestational age calculator Interactive tool or reference for gestational age calculator. Open tool — calculadora-idade-gestacional (https://utiliboxapp.com.br/tools/calculadora-idade-gestacional/)
-
- Estimated due date Interactive tool or reference for estimated due date. Open tool — dpp-data-provavel-parto (https://utiliboxapp.com.br/tools/dpp-data-provavel-parto/)
-
- Week-by-week pregnancy reference Interactive tool or reference for week-by-week pregnancy reference. Open tool — tabela-gravidez-semana-a-semana (https://utiliboxapp.com.br/tools/tabela-gravidez-semana-a-semana/)
-
- Pregnancy timeline calculator Interactive tool or reference for pregnancy timeline calculator. Open tool — calculadora-linha-do-tempo-gravidez (https://utiliboxapp.com.br/tools/calculadora-linha-do-tempo-gravidez/)
-
- Fetal growth percentile calculator Interactive tool or reference for fetal growth percentile calculator. Open tool — percentil-crescimento-fetal (https://utiliboxapp.com.br/tools/percentil-crescimento-fetal/)
-
- Advanced fertile-window calculator Interactive tool or reference for advanced fertile-window calculator. Open tool — calculadora-janela-fertil-avancada (https://utiliboxapp.com.br/tools/calculadora-janela-fertil-avancada/)
-
- Menstrual delay calculator Interactive tool or reference for menstrual delay calculator. Open tool — calculadora-atraso-menstrual (https://utiliboxapp.com.br/tools/calculadora-atraso-menstrual/)
-
- Pregnancy test date calculator Interactive tool or reference for pregnancy test date calculator. Open tool — calculadora-data-teste-gravidez (https://utiliboxapp.com.br/tools/calculadora-data-teste-gravidez/)
-
- Conception date calculator Interactive tool or reference for conception date calculator. Open tool — calculadora-data-concepcao (https://utiliboxapp.com.br/tools/calculadora-data-concepcao/)
-
- Gestational weight gain calculator Interactive tool or reference for gestational weight gain calculator. Open tool — calculadora-ganho-peso-gestacional (https://utiliboxapp.com.br/tools/calculadora-ganho-peso-gestacional/)
-
- Beta hCG by week calculator Interactive tool or reference for beta hcg by week calculator. Open tool — calculadora-beta-hcg-semanas (https://utiliboxapp.com.br/tools/calculadora-beta-hcg-semanas/)
-
- Heart-rate zone calculator Interactive tool or reference for heart-rate zone calculator. Open tool — calculadora-zonas-frequencia-cardiaca (https://utiliboxapp.com.br/tools/calculadora-zonas-frequencia-cardiaca/)
-
- BMI calculator Interactive tool or reference for bmi calculator. Open tool — calculadora-imc (https://utiliboxapp.com.br/tools/calculadora-imc/)
-
- Daily calorie calculator Interactive tool or reference for daily calorie calculator. Open tool — calculadora-de-calorias (https://utiliboxapp.com.br/tools/calculadora-de-calorias/)
-
- Daily water intake calculator Interactive tool or reference for daily water intake calculator. Open tool — calculadora-agua-diaria (https://utiliboxapp.com.br/tools/calculadora-agua-diaria/)
-
- Calorie expenditure calculator Interactive tool or reference for calorie expenditure calculator. Open tool — calculadora-gasto-calorico (https://utiliboxapp.com.br/tools/calculadora-gasto-calorico/)
-
- Basal metabolic rate calculator Interactive tool or reference for basal metabolic rate calculator. Open tool — calculadora-tmb (https://utiliboxapp.com.br/tools/calculadora-tmb/)
-
- Running pace calculator Interactive tool or reference for running pace calculator. Open tool — calculadora-pace-corrida (https://utiliboxapp.com.br/tools/calculadora-pace-corrida/)
-
- Hair color formulation calculator Interactive tool or reference for hair color formulation calculator. Open tool — calculadora-coloracao-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-coloracao-tinta-cabelo/)
-
- Dye and developer mixing calculator Interactive tool or reference for dye and developer mixing calculator. Open tool — calculadora-mistura-tinta-oxidante (https://utiliboxapp.com.br/tools/calculadora-mistura-tinta-oxidante/)
-
- Hair-color developer calculator Interactive tool or reference for hair-color developer calculator. Open tool — calculadora-oxidante-coloracao (https://utiliboxapp.com.br/tools/calculadora-oxidante-coloracao/)
-
- Gray coverage calculator Interactive tool or reference for gray coverage calculator. Open tool — calculadora-cobertura-brancos (https://utiliboxapp.com.br/tools/calculadora-cobertura-brancos/)
-
- Underlying pigment calculator Interactive tool or reference for underlying pigment calculator. Open tool — calculadora-fundo-clareamento (https://utiliboxapp.com.br/tools/calculadora-fundo-clareamento/)
-
- Blonde toning calculator Interactive tool or reference for blonde toning calculator. Open tool — calculadora-matizacao-loiro (https://utiliboxapp.com.br/tools/calculadora-matizacao-loiro/)
-
- Hair pre-pigmentation calculator Interactive tool or reference for hair pre-pigmentation calculator. Open tool — calculadora-pre-pigmentacao-capilar (https://utiliboxapp.com.br/tools/calculadora-pre-pigmentacao-capilar/)
-
- Hair dye quantity calculator Interactive tool or reference for hair dye quantity calculator. Open tool — calculadora-quantidade-tinta-cabelo (https://utiliboxapp.com.br/tools/calculadora-quantidade-tinta-cabelo/)
-
- Hair-care schedule calculator Interactive tool or reference for hair-care schedule calculator. Open tool — calculadora-cronograma-capilar (https://utiliboxapp.com.br/tools/calculadora-cronograma-capilar/)
-
- Age calculator Interactive tool or reference for age calculator. Open tool — calculadora-de-idade (https://utiliboxapp.com.br/tools/calculadora-de-idade/)
-
- Time calculator Interactive tool or reference for time calculator. Open tool — calculadora-de-tempo (https://utiliboxapp.com.br/tools/calculadora-de-tempo/)
-
- Stopwatch and countdown timer Interactive tool or reference for stopwatch and countdown timer. Open tool — relogio-cronometro-contador (https://utiliboxapp.com.br/tools/relogio-cronometro-contador/)
-
- Online Pomodoro Interactive tool or reference for online pomodoro. Open tool — pomodoro (https://utiliboxapp.com.br/tools/pomodoro/)
-
- Business-day calculator Interactive tool or reference for business-day calculator. Open tool — calculadora-dias-uteis (https://utiliboxapp.com.br/tools/calculadora-dias-uteis/)
-
- Detailed age calculator Interactive tool or reference for detailed age calculator. Open tool — calculadora-idade-completa (https://utiliboxapp.com.br/tools/calculadora-idade-completa/)
-
- Measurement calculator Interactive tool or reference for measurement calculator. Open tool — calculadora-de-medidas (https://utiliboxapp.com.br/tools/calculadora-de-medidas/)
-
- Price per square meter calculator Interactive tool or reference for price per square meter calculator. Open tool — calculadora-preco-por-m2 (https://utiliboxapp.com.br/tools/calculadora-preco-por-m2/)
-
- Floor and tile calculator Interactive tool or reference for floor and tile calculator. Open tool — calculadora-piso-azulejo (https://utiliboxapp.com.br/tools/calculadora-piso-azulejo/)
-
- Paint quantity calculator Interactive tool or reference for paint quantity calculator. Open tool — calculadora-de-tinta (https://utiliboxapp.com.br/tools/calculadora-de-tinta/)
-
- Electricity consumption calculator Interactive tool or reference for electricity consumption calculator. Open tool — calculadora-consumo-energia-eletrica (https://utiliboxapp.com.br/tools/calculadora-consumo-energia-eletrica/)
-
- Barbecue quantity calculator Interactive tool or reference for barbecue quantity calculator. Open tool — calculadora-de-churrasco (https://utiliboxapp.com.br/tools/calculadora-de-churrasco/)
-
- Feijoada quantity calculator Interactive tool or reference for feijoada quantity calculator. Open tool — calculadora-de-feijoada (https://utiliboxapp.com.br/tools/calculadora-de-feijoada/)
-
- Baby name generator Interactive tool or reference for baby name generator. Open tool — gerador-nomes-bebes (https://utiliboxapp.com.br/tools/gerador-nomes-bebes/)
-
- Pet name generator Interactive tool or reference for pet name generator. Open tool — gerador-nomes-pets (https://utiliboxapp.com.br/tools/gerador-nomes-pets/)
-
- Fuel consumption and cost per kilometer Interactive tool or reference for fuel consumption and cost per kilometer. Open tool — calculadora-consumo-combustivel (https://utiliboxapp.com.br/tools/calculadora-consumo-combustivel/)
-
- World Cup 2026 sticker album calculator Interactive tool or reference for world cup 2026 sticker album calculator. Open tool — calculadora-album-copa-2026 (https://utiliboxapp.com.br/tools/calculadora-album-copa-2026/)
-
- Brazil World Cup 2026 schedule reference Interactive tool or reference for brazil world cup 2026 schedule reference. Open tool — jogos-brasil-copa-2026 (https://utiliboxapp.com.br/tools/jogos-brasil-copa-2026/)
-
- Italian citizenship eligibility calculator Interactive tool or reference for italian citizenship eligibility calculator. Open tool — cidadania-italiana (https://utiliboxapp.com.br/tools/cidadania-italiana/)
-
- Online vector editor Interactive tool or reference for online vector editor. Open tool — editor-vetorial (https://utiliboxapp.com.br/tools/editor-vetorial/)
-
- Online 3D editor Interactive tool or reference for online 3d editor. Open tool — editor-3d (https://utiliboxapp.com.br/tools/editor-3d/)
-
- AI Instagram carousel generator Interactive tool or reference for ai instagram carousel generator. Open tool — gerador-carrossel-instagram (https://utiliboxapp.com.br/tools/gerador-carrossel-instagram/)
-
- Customer lifetime value and acquisition cost — Google Ads Interactive tool or reference for customer lifetime value and acquisition cost — google ads. Open tool — calculadora-ltv-cac-ads (https://utiliboxapp.com.br/tools/calculadora-ltv-cac-ads/)
-
- Currency converter Interactive tool or reference for currency converter. Open tool — conversor-de-moedas (https://utiliboxapp.com.br/tools/conversor-de-moedas/)
-
- Basic calculator Interactive tool or reference for basic calculator. Open tool — calculadora-simples (https://utiliboxapp.com.br/tools/calculadora-simples/)
-
- Rule-of-three calculator Interactive tool or reference for rule-of-three calculator. Open tool — calculadora-regra-de-tres (https://utiliboxapp.com.br/tools/calculadora-regra-de-tres/)
-
- Unit converter Interactive tool or reference for unit converter. Open tool — conversor-unidades (https://utiliboxapp.com.br/tools/conversor-unidades/)
-
- Temperature converter Interactive tool or reference for temperature converter. Open tool — conversor-temperatura (https://utiliboxapp.com.br/tools/conversor-temperatura/)
-
- Rate converter Interactive tool or reference for rate converter. Open tool — conversor-de-taxas (https://utiliboxapp.com.br/tools/conversor-de-taxas/)
-
- Basic employment termination calculator Interactive tool or reference for basic employment termination calculator. Open tool — calculadora-rescisao-trabalhista-simples (https://utiliboxapp.com.br/tools/calculadora-rescisao-trabalhista-simples/)
-
- Basic debt adjustment calculator Interactive tool or reference for basic debt adjustment calculator. Open tool — atualizacao-de-debitos-simples (https://utiliboxapp.com.br/tools/atualizacao-de-debitos-simples/)
-
- PDF to JPG converter Interactive tool or reference for pdf to jpg converter. Live website — Utilibox (https://utiliboxapp.com.br/)
-
- JPG to PDF converter Interactive tool or reference for jpg to pdf converter. Open tool — conversor-jpg-para-pdf (https://utiliboxapp.com.br/tools/conversor-jpg-para-pdf/)
-
- JPG/PNG image compressor Interactive tool or reference for jpg/png image compressor. Open tool — compressor-de-imagem (https://utiliboxapp.com.br/tools/compressor-de-imagem/)
-
- PDF compressor Interactive tool or reference for pdf compressor. Live website — Utilibox (https://utiliboxapp.com.br/)
-
- Word to PDF converter Interactive tool or reference for word to pdf converter. Open tool — conversor-word-para-pdf (https://utiliboxapp.com.br/tools/conversor-word-para-pdf/)
-
- PDF to Word converter Interactive tool or reference for pdf to word converter. Open tool — conversor-pdf-para-word (https://utiliboxapp.com.br/tools/conversor-pdf-para-word/)
-
- Basic PDF signature tool Interactive tool or reference for basic pdf signature tool. Live website — Utilibox (https://utiliboxapp.com.br/)
-
- Split PDF Interactive tool or reference for split pdf. Open tool — dividir-pdf (https://utiliboxapp.com.br/tools/dividir-pdf/)
-
- Merge PDFs Interactive tool or reference for merge pdfs. Open tool — unir-pdf (https://utiliboxapp.com.br/tools/unir-pdf/)
-
- PDF viewer Interactive tool or reference for pdf viewer. Open tool — visualizador-de-pdf (https://utiliboxapp.com.br/tools/visualizador-de-pdf/)
-
- QR code generator Interactive tool or reference for qr code generator. Open tool — gerador-qr-code (https://utiliboxapp.com.br/tools/gerador-qr-code/)
-
- Email signature generator Interactive tool or reference for email signature generator. Live website — Utilibox (https://utiliboxapp.com.br/)
-
- Narra Interactive tool or reference for narra. Open tool — narra (https://utiliboxapp.com.br/tools/narra/)
-
- UtiliNotas — connected Markdown editor Interactive tool or reference for utilinotas — connected markdown editor. Open tool — utilinotas (https://utiliboxapp.com.br/tools/utilinotas/)
-
- Anki flashcards — spaced repetition Interactive tool or reference for anki flashcards — spaced repetition. Open tool — anki-flashcards (https://utiliboxapp.com.br/tools/anki-flashcards/)
-
- Anki flashcards — English edition Interactive tool or reference for anki flashcards — english edition. Open tool — anki-flashcards-en (https://utiliboxapp.com.br/tools/anki-flashcards-en/)
-
- AHP Online Interactive tool or reference for ahp online. Open tool — ahp-online (https://utiliboxapp.com.br/tools/ahp-online-gratis/)
-
- AHP Online — English edition Interactive tool or reference for ahp online — english edition. Open tool — ahp-online-free (https://utiliboxapp.com.br/tools/ahp-online-free/)
-
- PROMETHEE Online Interactive tool or reference for promethee online. Open tool — promethee (https://utiliboxapp.com.br/tools/promethee/)
-
- PROMETHEE — English edition Interactive tool or reference for promethee — english edition. Open tool — promethee-analysis (https://utiliboxapp.com.br/tools/promethee-analysis/)
-
- TOPSIS Online Interactive tool or reference for topsis online. Open tool — topsis (https://utiliboxapp.com.br/tools/topsis/)
-
- TOPSIS — English edition Interactive tool or reference for topsis — english edition. Open tool — topsis-online (https://utiliboxapp.com.br/tools/topsis-online/)
-
- Guided decision making Interactive tool or reference for guided decision making. Open tool — tomada-de-decisao (https://utiliboxapp.com.br/tools/tomada-de-decisao/)
-
- Decision Maker — English edition Interactive tool or reference for decision maker — english edition. Open tool — decision-maker (https://utiliboxapp.com.br/tools/decision-maker/)
-
- PDSA Manager Interactive tool or reference for pdsa manager. Open tool — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/)
-
- VSM Online Interactive tool or reference for vsm online. Open tool — vsm (https://utiliboxapp.com.br/tools/vsm/)
-
- SMED Online Interactive tool or reference for smed online. Open tool — smed (https://utiliboxapp.com.br/tools/smed/)
-
- A3 problem-solving report Interactive tool or reference for a3 problem-solving report. Open tool — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
-
- Pareto analysis Interactive tool or reference for pareto analysis. Open tool — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/)
-
- GUT prioritization matrix Interactive tool or reference for gut prioritization matrix. Open tool — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/)
-
- Eisenhower matrix Interactive tool or reference for eisenhower matrix. Open tool — matriz-eisenhower (https://utiliboxapp.com.br/tools/matriz-eisenhower/)
-
- Guided SWOT matrix Interactive tool or reference for guided swot matrix. Open tool — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/)
-
- Critical-to-Customer tree Interactive tool or reference for critical-to-customer tree. Open tool — arvore-ctc (https://utiliboxapp.com.br/tools/arvore-ctc/)
-
- Expected monetary value decision tree Interactive tool or reference for expected monetary value decision tree. Open tool — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
-
- ML classification tree Interactive tool or reference for ml classification tree. Open tool — arvore-decisao-ml (https://utiliboxapp.com.br/tools/arvore-decisao-ml/)
-
- Queueing theory Interactive tool or reference for queueing theory. Open tool — teoria-das-filas (https://utiliboxapp.com.br/tools/teoria-das-filas/)
-
- Queueing theory — English edition Interactive tool or reference for queueing theory — english edition. Open tool — queueing-theory (https://utiliboxapp.com.br/tools/queueing-theory/)
-
- Barnes time study and standard-time calculator Interactive tool or reference for barnes time study and standard-time calculator. Open tool — estudo-de-tempos (https://utiliboxapp.com.br/tools/estudo-de-tempos/)
-
+### Shared product engineering
+ Product engineering combines Astro, JavaScript and TypeScript with interactive interfaces, data modeling and calculation logic. Modules requiring these capabilities use IndexedDB local persistence, Supabase/PostgreSQL services, Gemini AI integrations, content editing and document generation. This connects domain knowledge to software development and user experience.
+ See the highlighted Utilibox cases
 
 
 ## Capabilities and their project origins
