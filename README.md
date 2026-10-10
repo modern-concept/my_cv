@@ -2,6 +2,18 @@
 
 ## CV principal
 
+### PDF abaixo de 2 MB
+
+Para o CV de envio, mantenha o modo completo e desmarque **Incluir acervo técnico no PDF**. O detalhamento do acervo continua no HTML. O acervo integral pode ultrapassar 100 páginas e requer um arquivo maior.
+
+Depois de salvar pelo navegador, a compressão da estrutura do PDF pode reduzir o tamanho sem converter o texto em imagem ou alterar a diagramação:
+
+```powershell
+python scripts/compress-cv-pdf.py "C:\caminho\CV.pdf"
+```
+
+O comando cria `CV-compact.pdf`, preservando o original. Requer PyMuPDF (`python -m pip install PyMuPDF`). O tamanho final depende do conteúdo e da exportação do navegador; o script informa quando o resultado permanece acima de 2 MB.
+
 Abra **`index.html`**. O currículo completo está em um único HTML, com português e inglês, experiência profissional, formação, competências, projetos, cartas e anexos técnicos. O botão de idioma troca todo o conteúdo na própria página. A opção em alemão foi removida.
 
 - `index.html`: página principal com o motor existente, dados incorporados e as duas versões das novas seções.
