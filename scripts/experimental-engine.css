@@ -55,6 +55,20 @@ body:not([data-extension-language="en"]) [data-content-language="en"]{display:no
 .full-recognition-context strong{color:var(--midText)}
 .impact-project-links{display:block;font-size:6.5pt;line-height:1.35;margin-top:.6mm}
 .impact-project-links a{color:#9fcce7;text-decoration:underline;text-underline-offset:1px}
+.skill-cluster-nav{display:flex;flex-wrap:wrap;gap:2mm;margin:4mm 0}
+.skill-cluster-nav a{font-size:8pt;border:1px solid var(--midLine);padding:1.5mm 2mm;border-radius:2mm;background:rgba(255,255,255,.04)}
+.skill-cluster{border:1px solid var(--midLine);border-radius:3mm;padding:4mm;margin:4mm 0;scroll-margin-top:90px}
+.experimental-page .skill-cluster h3{margin:0 0 2mm;font-size:12pt;color:#b8dceb}
+.skill-cluster-summary{font-size:9pt;line-height:1.6}
+.skill-cluster-capabilities{display:grid;grid-template-columns:1fr 1fr;gap:1.5mm 5mm;font-size:8.5pt}
+.experimental-page .skill-case-list{list-style:none;padding:0;margin:2mm 0}
+.skill-case-list>li{padding:2.5mm 0;border-bottom:1px dotted var(--midLine)}
+.skill-case-list>li:last-child{border-bottom:0}
+.skill-case-list>li>a{font-size:9pt;font-weight:700}
+.skill-case-context{display:block;color:var(--midMuted);font-size:7.5pt;margin-top:1mm}
+.experimental-page .skill-case-list p{font-size:8.5pt;line-height:1.5;margin:1mm 0 0}
+.skill-cluster-stack{font-size:8pt;line-height:1.6;color:var(--midMuted);padding-top:2mm;border-top:1px solid var(--midLine)}
+@media screen and (max-width:600px){.skill-cluster-capabilities{grid-template-columns:1fr}}
 .map-heading p{font-size:9pt;margin:0;color:var(--midMuted)}
 .map-heading .career-section-title{font-size:16pt;margin-top:2mm}
 .map-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
@@ -111,6 +125,9 @@ body:not([data-extension-language="en"]) [data-content-language="en"]{display:no
   #fullCvView>.full-page:first-child .career-reference{margin:1mm 0 0;font-size:6.5pt}
   body[data-print-mode][data-cv-version="full"] #fullCvView .capability-overview{break-before:page;break-after:page;page-break-before:always;page-break-after:always;break-inside:avoid}
   .capability-overview .map-panel,.map-evidence-grid article{break-inside:avoid}
+  .skill-cluster{break-inside:auto}
+  .skill-cluster h3,.skill-cluster h4{break-after:avoid}
+  .skill-case-list>li{break-inside:avoid}
   .career-project,.career-skill{break-inside:auto;page-break-inside:auto}
   .career-project h3,.career-project h3+p,.career-section-title,.career-context{break-after:avoid;page-break-after:avoid}
   .career-deliverables li{break-inside:avoid}

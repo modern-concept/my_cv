@@ -4,7 +4,6 @@ import html
 import json
 import re
 import runpy
-from collections import defaultdict
 from pathlib import Path
 
 BASE=Path(__file__).resolve().parents[1]
@@ -155,15 +154,6 @@ def build():
         tool_rows.append('<tr id="utilibox-tool-'+esc(tool['slug'])+'"><th scope="row">'+esc(tool['name'])+'</th><td>'+esc(tool['desc'])+'</td><td>'+esc('; '.join(c['title'] for c in tool['categories']))+'</td><td>'+sources(['utilibox/'+r for r in refs] or ['utilibox/src/data/tools.js — verificar alias/rota'])+'</td></tr>')
     new_sections.append(section('utilibox-catalogo','Utilibox — aplicações e ferramentas do catálogo',
       '<p>O catálogo contém 136 ferramentas únicas em 17 categorias comerciais, com sobreposição entre categorias. Ele demonstra temas e métodos traduzidos em software, com graus distintos de maturidade. O status live é uma declaração do catálogo, sem validação de disponibilidade nesta revisão.</p><div class="table-scroll"><table><thead><tr><th>Ferramenta</th><th>Objetivo</th><th>Área</th><th>Link / referência</th></tr></thead><tbody>'+''.join(tool_rows)+'</tbody></table></div>'))
-    provenance=defaultdict(list)
-    for record in proposal['skillProvenance']:
-        entry=record['case']+' — '+record['context']
-        if entry not in provenance[record['skill']]: provenance[record['skill']].append(entry)
-    skill_rows=[]
-    for skill,origins in sorted(provenance.items(),key=lambda x:x[0].lower()):
-        skill_rows.append('<tr><th scope="row">'+esc(skill)+'</th><td>'+bullets(origins)+'</td></tr>')
-    new_sections.append(section('origem-habilidades','Matriz de habilidades e cases de origem',
-      '<p>Competências relacionadas aos cases apresentados. Os detalhamentos apresentam as aplicações, os objetivos e os métodos dos projetos associados a cada competência.</p><div class="table-scroll"><table><thead><tr><th>Habilidade</th><th>Projetos, módulos e contexto</th></tr></thead><tbody>'+''.join(skill_rows)+'</tbody></table></div>'))
 
     old_summary=''.join('<article class="job"><h3>'+esc(e['company']).replace('\n','<br>')+'</h3><p>'+esc(e['role']).replace('\n','<br>')+'</p><p class="meta">'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+paras(e.get('paragraphs',[]))+'</article>' for e in current['experience'])
     preserved=[section('sintese-original','Síntese de experiência da versão original',old_summary)]
@@ -201,6 +191,8 @@ def build():
     english=runpy.run_path(str(BASE/'scripts/cv-english.py'))
     locale=english['build_locale'](experimental)
     experimental['extensions']['locales']={'en':locale}
+    skill_matrix=runpy.run_path(str(BASE/'scripts/cv-skill-matrix.py'))
+    new_sections.append(section('origem-habilidades','Matriz de habilidades e cases de origem',skill_matrix['render'](cases,experimental['extensions']['priorityCases'],'pt',experimental['extensions']['editorial']['caseStacks'])))
     experimental['extensions']['availableLanguages']=['pt','en']
     en=experimental['languages']['en']
     en['skills']=[{'name':g['title']+': '+g['description']} for g in locale['editorial']['skillGroups']]

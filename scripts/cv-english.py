@@ -199,9 +199,7 @@ def build_archive(base, data, locale):
     for t,name in zip(tools,names):
         rows+='<tr id="utilibox-tool-'+t['slug']+'"><th scope="row">'+html.escape(name)+'</th><td>'+html.escape('Interactive tool or reference for '+name.lower()+'.')+'</td><td>'+sources(['utilibox/'+r for r in t['localSourceReferences']] or ['utilibox/src/data/tools.js'])+'</td></tr>'
     sections.append(archive_section('utilibox-catalogo','Utilibox — complete application and tool catalog',paragraphs(['136 unique tool entries cover 17 overlapping commercial categories. Methods and maturity vary across the catalog; live status is declared by the catalog rather than independently checked in this review. The main CV highlights the decision, operations, finance, knowledge and learning applications.'])+'<table><thead><tr><th>Tool</th><th>Application</th><th>Links / references</th></tr></thead><tbody>'+rows+'</tbody></table>'))
-    matrix=''
-    for c in locale['cases']+locale['priorityCases']:
-        matrix+='<tr><th scope="row">'+html.escape(c['title'])+'</th><td>'+html.escape(c['stack'])+bullets(c['implementation'])+'</td></tr>'
-    sections.append(archive_section('origem-habilidades','Capabilities and their project origins','<table><thead><tr><th>Project</th><th>Engineering and demonstrated capabilities</th></tr></thead><tbody>'+matrix+'</tbody></table>'))
+    matrix=runpy.run_path(str(base/'scripts/cv-skill-matrix.py'))
+    sections.append(archive_section('origem-habilidades','Capabilities and their project origins',matrix['render'](locale['cases'],locale['priorityCases'],'en')))
     sections.append(archive_section('fontes-interpretacao','Project and career context',paragraphs(['The projects cover professional applications at Agrodan, doctoral EFS-AHP research, hospital management during the internship and university project gamification. Independent initiatives include digital products, decision tools, education, finance, automation and interactive experiences.'])))
     return [PROJECT_DETAILS['reader_content'](part,'en') for part in sections]

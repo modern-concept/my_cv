@@ -5011,1127 +5011,280 @@ Versão experimental ampliada — 09/10/2026.
  Calculadora de Estudo de Tempos — Tempo Padrão (Barnes) Calcule o número de observações necessárias (fórmula de Barnes), Tempo Normal e Tempo Padrão com tolerâncias PFD. Ferramenta para cronoanálise industrial. Gestão; Engenheiro de Produção 5.0 Abrir ferramenta — estudo-de-tempos (https://utiliboxapp.com.br/tools/estudo-de-tempos/)
 
 ## Matriz de habilidades e cases de origem
- Competências relacionadas aos cases apresentados. Os detalhamentos apresentam as aplicações, os objetivos e os métodos dos projetos associados a cada competência.
- Habilidade Projetos, módulos e contexto
- abstração de CRUD
-- SIA · Persistência local reutilizável — Agrodan — experiência profissional
- Abstração de provedores
-- Motor compartilhado de IA — Planejamento Xavier — Projeto de planejamento
- Agendamento
-- SIA · Agenda de rotinas operacionais — Agrodan — experiência profissional
- agregação
-- SIA · Produção por fazenda — Agrodan — experiência profissional
- Agregação SQL
-- SIA · Total produzido — Agrodan — experiência profissional
- Agregação temporal
-- SIA · Distribuição horária de acessos — Agrodan — experiência profissional
- AHP
-- EFS-AHP — framework de pesquisa — Doutorado confirmado por Danillo
- Algoritmos genéticos
-- Irrigação — programação, algoritmos genéticos e rede neural para Kc — Agrodan — material em branch local
- Alinhamento de dados
-- Ensemble de agentes financeiros — TraderMind — Pesquisa quantitativa; ambiente demo documentado
- Analytics agrícola
-- Matéria seca — previsão e ponto de colheita — Agrodan
- Analytics geoespacial
-- Auditoria de pulverização — mapas e execução — Agrodan
- analytics operacional
-- SIA · Frequência de pessoas — Agrodan — experiência profissional
- análise de fluxo
-- SIA · Utilização das catracas — Agrodan — experiência profissional
- análise operacional
-- SIA · Total produzido — Agrodan — experiência profissional
- análise temporal
-- SIA · Movimentação e sentido de acesso — Agrodan — experiência profissional
- APIs HTTP
-- SIA · API de formulários e temas — Agrodan — experiência profissional
- Arquitetura de protótipo
-- Dente de Leão — mundo e interação narrativa — Protótipo independente
- Arquitetura por papéis
-- Conselho de seis agentes — Planejamento Xavier — Projeto independente; vínculo individual a contextualizar
- Arquitetura reutilizável
-- ETL modular e qualidade de dados — Experiência profissional Agrodan
- Assistência contextual
-- Narra/Utilinotas — domínio e conhecimento — Utilibox
- Auditoria operacional
-- Auditoria de pulverização — mapas e execução — Agrodan
- Automação supervisionada
-- Marketplace, automações e interação 3D — Vínculos individuais a contextualizar
- Backend de produto
-- Planejamento pedagógico assistido — ClassPlanner — Educação
- cadastros
-- SIA · Colaboradores nos apontamentos — Agrodan — experiência profissional
- Camada analítica
-- SIA · Base de LUGB Campo — Agrodan — experiência profissional
- camada analítica
-- SIA · Consolidação LUGB Packing — Agrodan — experiência profissional
- Camada de dados local
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Formulário do cronograma de safra — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento integrado de pragas — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
- capacidade operacional
-- SIA · Metas do packing — Agrodan — experiência profissional
- Captura de qualidade
-- SIA · Qualidade mobile — Agrodan — experiência profissional
- carga de dados
-- SIA · Total produzido — Agrodan — experiência profissional
- cargas reutilizáveis
-- SIA · Base de LUGB Campo — Agrodan — experiência profissional
- Carregamento de modelos
-- Mapas, modelos e exploração espacial — Logística, Leaflet, threejs e movimento_3D
- Checkpoint e callbacks
-- DVR — feedback, dataset e treinamento — Projeto de monitoramento
- Codificação categórica
-- Irrigação — programação, algoritmos genéticos e rede neural para Kc — Agrodan — material em branch local
- Coleta e rotulagem
-- DVR — feedback, dataset e treinamento — Projeto de monitoramento
- Coleta mobile
-- SIA · Apontamentos mobile — Agrodan — experiência profissional
- Coleta web
-- Caderno de campo e compras — dados locais e sincronização — Agrodan
- componentes
-- SIA · Metas e UGBs nas ordens — Agrodan — experiência profissional
- Componentes mobile
-- SIAgro — coleta operacional mobile — Agrodan
- componentes mobile
-- SIA · Colaboradores nos apontamentos — Agrodan — experiência profissional
- composição de componentes
-- SIA · Construtor dinâmico de formulários — Agrodan — experiência profissional
- Compras e apontamentos
-- Caderno de campo e compras — dados locais e sincronização — Agrodan
- Computação evolutiva
-- EFS-AHP — framework de pesquisa — Doutorado confirmado por Danillo
- Computação gráfica
-- Marketplace, automações e interação 3D — Vínculos individuais a contextualizar
- Confiabilidade operacional
-- DVR — feedback, dataset e treinamento — Projeto de monitoramento
- consultas parametrizadas
-- SIA · NUGB de campo — Agrodan — experiência profissional
- Context engineering
-- Revisão de planos com IA e regras — Planejamento Xavier
- contexto da ordem
-- SIA · Metas e UGBs nas ordens — Agrodan — experiência profissional
- Continuidade
-- Gestão de TIC — Agrodan — Experiência já declarada no CV; contexto Agrodan confirmado
- Contratos tipados
-- Conselho de seis agentes — Planejamento Xavier — Projeto independente; vínculo individual a contextualizar
- Coordenação de agentes
-- Conselho de seis agentes — Planejamento Xavier — Projeto independente; vínculo individual a contextualizar
- CRUD
-- SIA · Setores e subsetores — Agrodan — experiência profissional
- Cruzamento de dados
-- SIA · Desdobramento de qualidade — Agrodan — experiência profissional
- Cruzamento de entidades
-- SIA · Composição de metas de campo — Agrodan — experiência profissional
- Cruzamento temporal
-- SIA · Qualidade NUGB no packing — Agrodan — experiência profissional
- Dados de execução
-- Auditoria de pulverização — mapas e execução — Agrodan
- dados de referência
-- SIA · UGBs e fazendas — Agrodan — experiência profissional
-- SIA · Setores e subsetores — Agrodan — experiência profissional
- Dados de referência
-- SIA · NUGB de campo — Agrodan — experiência profissional
- DAO
-- Indicadores hospitalares e gamificação acadêmica — EBSERH: estágio; The Game Project: faculdade
-- SIA · API de formulários e temas — Agrodan — experiência profissional
- Dataset split
-- DVR — feedback, dataset e treinamento — Projeto de monitoramento
- Decisão multicritério
-- Utilibox — multicritério, filas e métodos aplicados — Produto de ferramentas
- Deduplicação
-- SIA · Inspeções de UGB — Agrodan — experiência profissional
- Desenho experimental
-- EFS-AHP — framework de pesquisa — Doutorado confirmado por Danillo
- Desenvolvimento mobile
-- SIA · Ordens de serviço mobile — Agrodan — experiência profissional
- Dimensões analíticas
-- SIA · Produção por fazenda — Agrodan — experiência profissional
- dimensões organizacionais
-- SIA · Visitantes e circulação por setor — Agrodan — experiência profissional
- distribuição de eventos
-- SIA · Distribuição horária de acessos — Agrodan — experiência profissional
- Documentos e uploads
-- Gestão UGB, pessoas e sugestões de melhoria — Agrodan
- Efeitos e carregamento por hooks
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
- EJB
-- Indicadores hospitalares e gamificação acadêmica — EBSERH: estágio; The Game Project: faculdade
- embalagem
-- SIA · Embalagem por UGB — Agrodan — experiência profissional
- Encaminhamento humano
-- CRM conversacional híbrido — Instagram Conversion CRM — Produto e vendas
- Engenharia de atributos
-- TraderMind — do experimento à inferência — Pesquisa quantitativa
- Engenharia de domínio
-- Narra/Utilinotas — domínio e conhecimento — Utilibox
- Engenharia frontend
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Áreas de campo e packing — Agrodan — código em branches locais
-- SIA · Monitoramento Atel Escola — Agrodan — código em branches locais
-- SIA · Auditoria de pulverização — Agrodan — código em branches locais
-- SIA · Auditoria SIA — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra — Agrodan — código em branches locais
-- SIA · Formulário do cronograma de safra — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Croquis — Agrodan — código em branches locais
-- SIA · Embalagem — Agrodan — código em branches locais
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Satisfação da logística — Agrodan — código em branches locais
-- SIA · Indicadores de TI e fila de chamados — Agrodan — código em branches locais
-- SIA · Monitoramento de irrigação — Agrodan — código em branches locais
-- SIA · Registro de horas — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · Monitoramento integrado de pragas — Agrodan — código em branches locais
-- SIA · Matéria seca e previsão de colheita — Agrodan — código em branches locais
-- SIA · Materiais — Agrodan — código em branches locais
-- SIA · Movimentação de materiais — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Organograma e áreas — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · Packing e caixaria — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Riscos de segurança do trabalho — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Satisfação — Agrodan — código em branches locais
-- SIA · Segurança — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
-- SIA · Validação MDO — Agrodan — código em branches locais
-- SIA · Monitoramento de vigias — Agrodan — código em branches locais
- Ensembles
-- Ensemble de agentes financeiros — TraderMind — Pesquisa quantitativa; ambiente demo documentado
- entidades
-- SIA · Ordens de preenchimento — Agrodan — experiência profissional
- Equações e parâmetros
-- Matéria seca — previsão e ponto de colheita — Agrodan
- Estado de jogo
-- Dente de Leão — mundo e interação narrativa — Protótipo independente
- Estado e interação
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Áreas de campo e packing — Agrodan — código em branches locais
-- SIA · Monitoramento Atel Escola — Agrodan — código em branches locais
-- SIA · Auditoria de pulverização — Agrodan — código em branches locais
-- SIA · Auditoria SIA — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra — Agrodan — código em branches locais
-- SIA · Formulário do cronograma de safra — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Croquis — Agrodan — código em branches locais
-- SIA · Embalagem — Agrodan — código em branches locais
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Satisfação da logística — Agrodan — código em branches locais
-- SIA · Indicadores de TI e fila de chamados — Agrodan — código em branches locais
-- SIA · Monitoramento de irrigação — Agrodan — código em branches locais
-- SIA · Registro de horas — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · Monitoramento integrado de pragas — Agrodan — código em branches locais
-- SIA · Matéria seca e previsão de colheita — Agrodan — código em branches locais
-- SIA · Materiais — Agrodan — código em branches locais
-- SIA · Movimentação de materiais — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Organograma e áreas — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · Packing e caixaria — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Riscos de segurança do trabalho — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Satisfação — Agrodan — código em branches locais
-- SIA · Segurança — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
-- SIA · Validação MDO — Agrodan — código em branches locais
-- SIA · Monitoramento de vigias — Agrodan — código em branches locais
- Estado por hooks
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Áreas de campo e packing — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Organograma e áreas — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
- Estatística descritiva
-- Auditoria de pulverização — mapas e execução — Agrodan
- Estatística e avaliação de modelos
-- EFS-AHP — framework de pesquisa — Doutorado confirmado por Danillo
- Estimação de pose
-- Mocap — ML no cliente e visualização — Protótipo de captura de movimento
- ETL
-- ETL modular e qualidade de dados — Experiência profissional Agrodan
-- SIA · Inspeções de UGB — Agrodan — experiência profissional
-- SIA · Percentuais de metas — Agrodan — experiência profissional
-- SIA · UGBs e fazendas — Agrodan — experiência profissional
-- SIA · Embalagem por UGB — Agrodan — experiência profissional
-- SIA · Metas de produção de campo — Agrodan — experiência profissional
- ETL SQL
-- SIA · Apontamentos de produção — Agrodan — experiência profissional
- Eventos via socket
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · Packing e caixaria — Agrodan — código em branches locais
- Evidence tracing
-- Narra/Utilinotas — domínio e conhecimento — Utilibox
- experiência mobile
-- SIA · Dashboard operacional mobile — Agrodan — experiência profissional
- Explicabilidade e provenance
-- Conselho de seis agentes — Planejamento Xavier — Projeto independente; vínculo individual a contextualizar
- Fallback determinístico
-- CRM conversacional híbrido — Instagram Conversion CRM — Produto e vendas
- Feature engineering
-- Irrigação — programação, algoritmos genéticos e rede neural para Kc — Agrodan — material em branch local
- Feature selection
-- EFS-AHP — framework de pesquisa — Doutorado confirmado por Danillo
- Fluxos de logística
-- Comercial, previsão de resultados e movimentação de pallets — Agrodan
- Formulários
-- Caderno de campo e compras — dados locais e sincronização — Agrodan
- formulários mobile
-- SIA · Qualidade mobile — Agrodan — experiência profissional
- Frequência
-- SIA · Frequência de pessoas — Agrodan — experiência profissional
- Full stack
-- PLANAGRO — insumos, aplicações e regras agronômicas — Experiência profissional Agrodan
- Full stack corporativo
-- Gestão UGB, pessoas e sugestões de melhoria — Agrodan
- Função de previsão
-- SIA · Matéria seca e previsão de colheita — Agrodan — código em branches locais
- Física
-- Dente de Leão — mundo e interação narrativa — Protótipo independente
- Física e estado de jogo
-- Marketplace, automações e interação 3D — Vínculos individuais a contextualizar
- Gamificação
-- Indicadores hospitalares e gamificação acadêmica — EBSERH: estágio; The Game Project: faculdade
- Geoinformação
-- PLANAGRO — insumos, aplicações e regras agronômicas — Experiência profissional Agrodan
-- Cartola e Logística — decisão com restrições — Projetos analíticos
- Geometria
-- Mapas, modelos e exploração espacial — Logística, Leaflet, threejs e movimento_3D
- Geometria e coordenadas
-- Mocap — ML no cliente e visualização — Protótipo de captura de movimento
- Gestão de contexto
-- Revisão de planos com IA e regras — Planejamento Xavier
- Gestão de pessoas
-- Gestão UGB, pessoas e sugestões de melhoria — Agrodan
- Gestão de suporte
-- Gestão de TIC — Agrodan — Experiência já declarada no CV; contexto Agrodan confirmado
- Granularidade analítica
-- SIA · Qualidade por funcionário e dia — Agrodan — experiência profissional
- Granularidade diária
-- SIA · Embalagem diária — Agrodan — experiência profissional
- Granularidade temporal
-- SIA · Rendimento por ficha e dia — Agrodan — experiência profissional
- Grounding com fontes
-- Motor compartilhado de IA — Planejamento Xavier — Projeto de planejamento
- gráficos
-- SIA · Dashboard operacional mobile — Agrodan — experiência profissional
- Handlers de sincronização
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
- Heurísticas
-- Cartola e Logística — decisão com restrições — Projetos analíticos
- IndexedDB/Dexie
-- Caderno de campo e compras — dados locais e sincronização — Agrodan
- Indicadores
-- SIA · Percentuais de metas — Agrodan — experiência profissional
- Indicadores de pessoas
-- SIA · Disponibilidade operacional — Agrodan — experiência profissional
- indicadores de qualidade
-- SIA · Qualidade NUGB no packing — Agrodan — experiência profissional
- indicadores de rendimento
-- SIA · Rendimento por ficha e dia — Agrodan — experiência profissional
- Indicadores de utilização
-- SIA · Utilização das catracas — Agrodan — experiência profissional
- Indicadores de velocidade
-- Auditoria de pulverização — mapas e execução — Agrodan
- indicadores operacionais
-- SIA · Embalagem diária — Agrodan — experiência profissional
- Inferência e integração
-- TraderMind — do experimento à inferência — Pesquisa quantitativa
- Inferência no browser
-- Mocap — ML no cliente e visualização — Protótipo de captura de movimento
- Ingestão HTTP
-- SIA · Ingestão meteorológica — Agrodan — experiência profissional
- Input e câmera
-- Dente de Leão — mundo e interação narrativa — Protótipo independente
- inspeções
-- SIA · Inspeções de UGB — Agrodan — experiência profissional
- integração
-- SIA · NUGB de campo — Agrodan — experiência profissional
- Integração de APIs locais
-- Conector desktop MetaTrader5 — TraderMind — Projeto de pesquisa quantitativa
- Integração de bases
-- SIA · Jornadas operacionais — Agrodan — experiência profissional
- Integração de dados
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Áreas de campo e packing — Agrodan — código em branches locais
-- SIA · Monitoramento Atel Escola — Agrodan — código em branches locais
-- SIA · Auditoria de pulverização — Agrodan — código em branches locais
-- SIA · Auditoria SIA — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra — Agrodan — código em branches locais
-- SIA · Formulário do cronograma de safra — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Croquis — Agrodan — código em branches locais
-- SIA · Embalagem — Agrodan — código em branches locais
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Satisfação da logística — Agrodan — código em branches locais
-- SIA · Indicadores de TI e fila de chamados — Agrodan — código em branches locais
-- SIA · Monitoramento de irrigação — Agrodan — código em branches locais
-- SIA · Registro de horas — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · Monitoramento integrado de pragas — Agrodan — código em branches locais
-- SIA · Matéria seca e previsão de colheita — Agrodan — código em branches locais
-- SIA · Materiais — Agrodan — código em branches locais
-- SIA · Movimentação de materiais — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Organograma e áreas — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · Packing e caixaria — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Riscos de segurança do trabalho — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Satisfação — Agrodan — código em branches locais
-- SIA · Segurança — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
-- SIA · Validação MDO — Agrodan — código em branches locais
-- SIA · Monitoramento de vigias — Agrodan — código em branches locais
- integração de domínios
-- SIA · Metas de produção de campo — Agrodan — experiência profissional
- integração de fontes
-- SIA · Metas de produção — Agrodan — experiência profissional
-- SIA · Qualidade de campo — Agrodan — experiência profissional
- Integração de indicadores
-- SIA · Consolidação LUGB Packing — Agrodan — experiência profissional
- Integração de informações
-- SIA · Abastecimento da frota — Agrodan — código em branches locais
-- SIA · Absenteísmo — Agrodan — código em branches locais
-- SIA · Auditoria SGA — Agrodan — código em branches locais
-- SIA · Batidas de ponto — Agrodan — código em branches locais
-- SIA · Visão CFO — Agrodan — código em branches locais
-- SIA · Contas a pagar — Agrodan — código em branches locais
-- SIA · Cadastro de talhões — Agrodan — código em branches locais
-- SIA · Caixas embaladas — Agrodan — código em branches locais
-- SIA · Caixas embaladas por UGB — Agrodan — código em branches locais
-- SIA · Conferência de insumos — Agrodan — código em branches locais
-- SIA · Controle de pallets — Agrodan — código em branches locais
-- SIA · Controle de qualidade — Agrodan — código em branches locais
-- SIA · Custos — Agrodan — código em branches locais
-- SIA · Dashboard de satisfação — Agrodan — código em branches locais
-- SIA · Estoque virtual — Agrodan — código em branches locais
-- SIA · Faturamento — Agrodan — código em branches locais
-- SIA · Fechamento de talhões — Agrodan — código em branches locais
-- SIA · Flutuação de preços — Agrodan — código em branches locais
-- SIA · Folha de pagamento — Agrodan — código em branches locais
-- SIA · Gestão de estoque — Agrodan — código em branches locais
-- SIA · Horímetro — Agrodan — código em branches locais
-- SIA · Visão Irrigas — Agrodan — código em branches locais
-- SIA · Lean Packing Game — Agrodan — código em branches locais
-- SIA · Orçamento — Agrodan — código em branches locais
-- SIA · Programação de processamento — Agrodan — código em branches locais
-- SIA · Projetos — Agrodan — código em branches locais
-- SIA · Quantidade de funcionários — Agrodan — código em branches locais
-- SIA · Visão de RH — Agrodan — código em branches locais
-- SIA · Ramais — Agrodan — código em branches locais
-- SIA · Refugo — Agrodan — código em branches locais
-- SIA · Relatórios BI — Agrodan — código em branches locais
-- SIA · Resumo de mão de obra — Agrodan — código em branches locais
-- SIA · Ritual gerencial — Agrodan — código em branches locais
-- SIA · Saldo de banco de horas — Agrodan — código em branches locais
-- SIA · UGB Oficina — Agrodan — código em branches locais
-- SIA · Validação de colheita — Agrodan — código em branches locais
-- SIA · Validação de mão de obra — Agrodan — código em branches locais
- integração de jobs
-- SIA · Agenda de rotinas operacionais — Agrodan — experiência profissional
- Integração de processos
-- SIA · Reestimativa e datas reais de colheita — Agrodan — experiência profissional
- Integração de versões de dados
-- SIA · Atualização de rendimento — Agrodan — experiência profissional
- Integração desktop
-- Conector desktop MetaTrader5 — TraderMind — Projeto de pesquisa quantitativa
- integração entre sistemas
-- SIA · APPT e integração Farmlog — Agrodan — experiência profissional
- integração entre tabelas
-- SIA · Qualidade do packing — Agrodan — experiência profissional
- Integração Gemini
-- Planejamento pedagógico assistido — ClassPlanner — Educação
- Integração HTTP
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
- integração SQL
-- SIA · Origem de pallets — Agrodan — experiência profissional
-- SIA · Produção por fazenda — Agrodan — experiência profissional
- interação
-- SIA · Apontamentos mobile — Agrodan — experiência profissional
- Interação narrativa
-- Dente de Leão — mundo e interação narrativa — Protótipo independente
- Interface React
-- SIA · Abastecimento da frota — Agrodan — código em branches locais
-- SIA · Absenteísmo — Agrodan — código em branches locais
-- SIA · Auditoria SGA — Agrodan — código em branches locais
-- SIA · Batidas de ponto — Agrodan — código em branches locais
-- SIA · Visão CFO — Agrodan — código em branches locais
-- SIA · Contas a pagar — Agrodan — código em branches locais
-- SIA · Cadastro de talhões — Agrodan — código em branches locais
-- SIA · Caixas embaladas — Agrodan — código em branches locais
-- SIA · Caixas embaladas por UGB — Agrodan — código em branches locais
-- SIA · Conferência de insumos — Agrodan — código em branches locais
-- SIA · Controle de pallets — Agrodan — código em branches locais
-- SIA · Controle de qualidade — Agrodan — código em branches locais
-- SIA · Custos — Agrodan — código em branches locais
-- SIA · Dashboard de satisfação — Agrodan — código em branches locais
-- SIA · Estoque virtual — Agrodan — código em branches locais
-- SIA · Faturamento — Agrodan — código em branches locais
-- SIA · Fechamento de talhões — Agrodan — código em branches locais
-- SIA · Flutuação de preços — Agrodan — código em branches locais
-- SIA · Folha de pagamento — Agrodan — código em branches locais
-- SIA · Gestão de estoque — Agrodan — código em branches locais
-- SIA · Horímetro — Agrodan — código em branches locais
-- SIA · Visão Irrigas — Agrodan — código em branches locais
-- SIA · Lean Packing Game — Agrodan — código em branches locais
-- SIA · Orçamento — Agrodan — código em branches locais
-- SIA · Programação de processamento — Agrodan — código em branches locais
-- SIA · Projetos — Agrodan — código em branches locais
-- SIA · Quantidade de funcionários — Agrodan — código em branches locais
-- SIA · Visão de RH — Agrodan — código em branches locais
-- SIA · Ramais — Agrodan — código em branches locais
-- SIA · Refugo — Agrodan — código em branches locais
-- SIA · Relatórios BI — Agrodan — código em branches locais
-- SIA · Resumo de mão de obra — Agrodan — código em branches locais
-- SIA · Ritual gerencial — Agrodan — código em branches locais
-- SIA · Saldo de banco de horas — Agrodan — código em branches locais
-- SIA · UGB Oficina — Agrodan — código em branches locais
-- SIA · Validação de colheita — Agrodan — código em branches locais
-- SIA · Validação de mão de obra — Agrodan — código em branches locais
- Interfaces de gestão
-- SIA · Gestão UGB — colaboradores e histórico — Agrodan — código em branches locais
-- SIA · Gestão UGB — unidades e papéis — Agrodan — código em branches locais
-- SIA · Gestão UGB — 5S — Agrodan — código em branches locais
-- SIA · Gestão UGB — avaliação humana — Agrodan — código em branches locais
-- SIA · Gestão UGB — plano de ação — Agrodan — código em branches locais
-- SIA · Gestão UGB — qualificação técnica — Agrodan — código em branches locais
-- SIA · Gestão UGB — requalificação técnica — Agrodan — código em branches locais
-- SIA · Gestão UGB — sugestões de melhoria — Agrodan — código em branches locais
- Interfaces e APIs
-- Comercial, previsão de resultados e movimentação de pallets — Agrodan
- interfaces operacionais
-- SIA · Ordens de serviço mobile — Agrodan — experiência profissional
- Interoperabilidade de notas
-- Narra/Utilinotas — domínio e conhecimento — Utilibox
- IoT
-- Gestão de TIC — Agrodan — Experiência já declarada no CV; contexto Agrodan confirmado
- Java EE
-- Indicadores hospitalares e gamificação acadêmica — EBSERH: estágio; The Game Project: faculdade
- jornadas
-- SIA · Jornadas operacionais — Agrodan — experiência profissional
- JPA/Hibernate
-- Indicadores hospitalares e gamificação acadêmica — EBSERH: estágio; The Game Project: faculdade
- JSF/PrimeFaces
-- Indicadores hospitalares e gamificação acadêmica — EBSERH: estágio; The Game Project: faculdade
- Lean
-- Utilibox — multicritério, filas e métodos aplicados — Produto de ferramentas
- Mapas
-- Auditoria de pulverização — mapas e execução — Agrodan
- Mapas e informação espacial
-- SIA · Abastecimento da frota — Agrodan — código em branches locais
-- SIA · Absenteísmo — Agrodan — código em branches locais
-- SIA · Monitoramento Atel Escola — Agrodan — código em branches locais
-- SIA · Auditoria de pulverização — Agrodan — código em branches locais
-- SIA · Auditoria SGA — Agrodan — código em branches locais
-- SIA · Auditoria SIA — Agrodan — código em branches locais
-- SIA · Batidas de ponto — Agrodan — código em branches locais
-- SIA · Visão CFO — Agrodan — código em branches locais
-- SIA · Contas a pagar — Agrodan — código em branches locais
-- SIA · Cadastro de talhões — Agrodan — código em branches locais
-- SIA · Caixas embaladas — Agrodan — código em branches locais
-- SIA · Caixas embaladas por UGB — Agrodan — código em branches locais
-- SIA · Conferência de insumos — Agrodan — código em branches locais
-- SIA · Controle de pallets — Agrodan — código em branches locais
-- SIA · Controle de qualidade — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra — Agrodan — código em branches locais
-- SIA · Custos — Agrodan — código em branches locais
-- SIA · Dashboard de satisfação — Agrodan — código em branches locais
-- SIA · Estoque virtual — Agrodan — código em branches locais
-- SIA · Faturamento — Agrodan — código em branches locais
-- SIA · Fechamento de talhões — Agrodan — código em branches locais
-- SIA · Flutuação de preços — Agrodan — código em branches locais
-- SIA · Folha de pagamento — Agrodan — código em branches locais
-- SIA · Gestão de estoque — Agrodan — código em branches locais
-- SIA · Horímetro — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Indicadores de TI e fila de chamados — Agrodan — código em branches locais
-- SIA · Monitoramento de irrigação — Agrodan — código em branches locais
-- SIA · Visão Irrigas — Agrodan — código em branches locais
-- SIA · Lean Packing Game — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento integrado de pragas — Agrodan — código em branches locais
-- SIA · Orçamento — Agrodan — código em branches locais
-- SIA · Programação de processamento — Agrodan — código em branches locais
-- SIA · Projetos — Agrodan — código em branches locais
-- SIA · Quantidade de funcionários — Agrodan — código em branches locais
-- SIA · Visão de RH — Agrodan — código em branches locais
-- SIA · Riscos de segurança do trabalho — Agrodan — código em branches locais
-- SIA · Ramais — Agrodan — código em branches locais
-- SIA · Refugo — Agrodan — código em branches locais
-- SIA · Relatórios BI — Agrodan — código em branches locais
-- SIA · Resumo de mão de obra — Agrodan — código em branches locais
-- SIA · Ritual gerencial — Agrodan — código em branches locais
-- SIA · Saldo de banco de horas — Agrodan — código em branches locais
-- SIA · UGB Oficina — Agrodan — código em branches locais
-- SIA · Validação de colheita — Agrodan — código em branches locais
-- SIA · Validação de mão de obra — Agrodan — código em branches locais
-- SIA · Monitoramento de vigias — Agrodan — código em branches locais
- Mapas interativos
-- Mapas, modelos e exploração espacial — Logística, Leaflet, threejs e movimento_3D
- Mapas Leaflet
-- SIA · Abastecimento da frota — Agrodan — código em branches locais
-- SIA · Absenteísmo — Agrodan — código em branches locais
-- SIA · Monitoramento Atel Escola — Agrodan — código em branches locais
-- SIA · Auditoria de pulverização — Agrodan — código em branches locais
-- SIA · Auditoria SGA — Agrodan — código em branches locais
-- SIA · Auditoria SIA — Agrodan — código em branches locais
-- SIA · Batidas de ponto — Agrodan — código em branches locais
-- SIA · Visão CFO — Agrodan — código em branches locais
-- SIA · Contas a pagar — Agrodan — código em branches locais
-- SIA · Cadastro de talhões — Agrodan — código em branches locais
-- SIA · Caixas embaladas — Agrodan — código em branches locais
-- SIA · Caixas embaladas por UGB — Agrodan — código em branches locais
-- SIA · Conferência de insumos — Agrodan — código em branches locais
-- SIA · Controle de pallets — Agrodan — código em branches locais
-- SIA · Controle de qualidade — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra — Agrodan — código em branches locais
-- SIA · Custos — Agrodan — código em branches locais
-- SIA · Dashboard de satisfação — Agrodan — código em branches locais
-- SIA · Estoque virtual — Agrodan — código em branches locais
-- SIA · Faturamento — Agrodan — código em branches locais
-- SIA · Fechamento de talhões — Agrodan — código em branches locais
-- SIA · Flutuação de preços — Agrodan — código em branches locais
-- SIA · Folha de pagamento — Agrodan — código em branches locais
-- SIA · Gestão de estoque — Agrodan — código em branches locais
-- SIA · Horímetro — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Indicadores de TI e fila de chamados — Agrodan — código em branches locais
-- SIA · Monitoramento de irrigação — Agrodan — código em branches locais
-- SIA · Visão Irrigas — Agrodan — código em branches locais
-- SIA · Lean Packing Game — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento integrado de pragas — Agrodan — código em branches locais
-- SIA · Orçamento — Agrodan — código em branches locais
-- SIA · Programação de processamento — Agrodan — código em branches locais
-- SIA · Projetos — Agrodan — código em branches locais
-- SIA · Quantidade de funcionários — Agrodan — código em branches locais
-- SIA · Visão de RH — Agrodan — código em branches locais
-- SIA · Riscos de segurança do trabalho — Agrodan — código em branches locais
-- SIA · Ramais — Agrodan — código em branches locais
-- SIA · Refugo — Agrodan — código em branches locais
-- SIA · Relatórios BI — Agrodan — código em branches locais
-- SIA · Resumo de mão de obra — Agrodan — código em branches locais
-- SIA · Ritual gerencial — Agrodan — código em branches locais
-- SIA · Saldo de banco de horas — Agrodan — código em branches locais
-- SIA · UGB Oficina — Agrodan — código em branches locais
-- SIA · Validação de colheita — Agrodan — código em branches locais
-- SIA · Validação de mão de obra — Agrodan — código em branches locais
-- SIA · Monitoramento de vigias — Agrodan — código em branches locais
- Matemática financeira
-- Utilibox — multicritério, filas e métodos aplicados — Produto de ferramentas
- metas
-- SIA · Desdobramento de qualidade — Agrodan — experiência profissional
- Metas
-- SIA · Metas do packing — Agrodan — experiência profissional
- Metas operacionais
-- SIA · Metas de produção de campo — Agrodan — experiência profissional
- Modelagem agronômica
-- PLANAGRO — insumos, aplicações e regras agronômicas — Experiência profissional Agrodan
- modelagem agrícola
-- SIA · Reestimativa e datas reais de colheita — Agrodan — experiência profissional
- Modelagem comercial
-- Comercial, previsão de resultados e movimentação de pallets — Agrodan
- modelagem de apontamentos
-- SIA · Apontamentos de produção — Agrodan — experiência profissional
- Modelagem de aprendizagem
-- Utilibox — multicritério, filas e métodos aplicados — Produto de ferramentas
- Modelagem de conhecimento
-- Narra/Utilinotas — domínio e conhecimento — Utilibox
- modelagem de dados
-- SIA · Percentuais de metas — Agrodan — experiência profissional
- modelagem de domínio
-- SIA · Qualidade mobile — Agrodan — experiência profissional
- Modelagem de eventos
-- SIA · Movimentação e sentido de acesso — Agrodan — experiência profissional
- Modelagem de granularidade
-- ETL modular e qualidade de dados — Experiência profissional Agrodan
- Modelagem de interfaces
-- SIA · Construtor dinâmico de formulários — Agrodan — experiência profissional
- Modelagem de metas
-- SIA · Metas de produção — Agrodan — experiência profissional
- modelagem de metas
-- SIA · Meta de qualidade por UGB — Agrodan — experiência profissional
- Modelagem de operações
-- Revisão de planos com IA e regras — Planejamento Xavier
- Modelagem de previsão
-- Matéria seca — previsão e ponto de colheita — Agrodan
- Modelagem de processo
-- Caderno de campo e compras — dados locais e sincronização — Agrodan
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Áreas de campo e packing — Agrodan — código em branches locais
-- SIA · Monitoramento Atel Escola — Agrodan — código em branches locais
-- SIA · Auditoria de pulverização — Agrodan — código em branches locais
-- SIA · Auditoria SIA — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Controle de recebimento — Agrodan — código em branches locais
-- SIA · Cronograma de safra — Agrodan — código em branches locais
-- SIA · Formulário do cronograma de safra — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Croquis — Agrodan — código em branches locais
-- SIA · Embalagem — Agrodan — código em branches locais
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Satisfação da logística — Agrodan — código em branches locais
-- SIA · Indicadores de TI e fila de chamados — Agrodan — código em branches locais
-- SIA · Monitoramento de irrigação — Agrodan — código em branches locais
-- SIA · Registro de horas — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · Monitoramento integrado de pragas — Agrodan — código em branches locais
-- SIA · Matéria seca e previsão de colheita — Agrodan — código em branches locais
-- SIA · Materiais — Agrodan — código em branches locais
-- SIA · Movimentação de materiais — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Organograma e áreas — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · Packing e caixaria — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Riscos de segurança do trabalho — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Satisfação — Agrodan — código em branches locais
-- SIA · Segurança — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
-- SIA · Validação MDO — Agrodan — código em branches locais
-- SIA · Monitoramento de vigias — Agrodan — código em branches locais
- modelagem de registros
-- SIA · Apontamentos mobile — Agrodan — experiência profissional
- Modelagem de vínculos
-- SIA · Vínculo funcionário–UGB — Agrodan — experiência profissional
-- SIA · Colaboradores nos apontamentos — Agrodan — experiência profissional
- Modelagem de workflow
-- SIA · Ordens de preenchimento — Agrodan — experiência profissional
- Modelagem operacional
-- SIAgro — coleta operacional mobile — Agrodan
-- SIA · Metas e UGBs nas ordens — Agrodan — experiência profissional
- Modelagem organizacional
-- Gestão UGB, pessoas e sugestões de melhoria — Agrodan
-- SIA · UGBs e fazendas — Agrodan — experiência profissional
-- SIA · Gestão UGB — colaboradores e histórico — Agrodan — código em branches locais
-- SIA · Gestão UGB — unidades e papéis — Agrodan — código em branches locais
-- SIA · Gestão UGB — 5S — Agrodan — código em branches locais
-- SIA · Gestão UGB — avaliação humana — Agrodan — código em branches locais
-- SIA · Gestão UGB — plano de ação — Agrodan — código em branches locais
-- SIA · Gestão UGB — qualificação técnica — Agrodan — código em branches locais
-- SIA · Gestão UGB — requalificação técnica — Agrodan — código em branches locais
-- SIA · Gestão UGB — sugestões de melhoria — Agrodan — código em branches locais
- Modelagem pedagógica
-- Planejamento pedagógico assistido — ClassPlanner — Educação
- Modelagem probabilística
-- Cartola e Logística — decisão com restrições — Projetos analíticos
- Modelagem relacional
-- SIA · Setores e subsetores — Agrodan — experiência profissional
- modelagem temporal
-- SIA · Atualização de rendimento — Agrodan — experiência profissional
- modelos relacionais
-- SIA · Qualidade NUGB no packing — Agrodan — experiência profissional
- Modelos tabulares
-- TraderMind — do experimento à inferência — Pesquisa quantitativa
- Motores de regras
-- PLANAGRO — insumos, aplicações e regras agronômicas — Experiência profissional Agrodan
- múltiplos domínios
-- SIA · Consolidação LUGB Packing — Agrodan — experiência profissional
- Normalização
-- Irrigação — programação, algoritmos genéticos e rede neural para Kc — Agrodan — material em branch local
- normalização
-- SIA · Inspeções de UGB — Agrodan — experiência profissional
-- SIA · Embalagem diária — Agrodan — experiência profissional
- Normalização de ações
-- CRM conversacional híbrido — Instagram Conversion CRM — Produto e vendas
- normalização JSON
-- SIA · Ingestão meteorológica — Agrodan — experiência profissional
- observações temporais
-- SIA · Ingestão meteorológica — Agrodan — experiência profissional
- Open Finance
-- Marketplace, automações e interação 3D — Vínculos individuais a contextualizar
- Operação de TI
-- Gestão de TIC — Agrodan — Experiência já declarada no CV; contexto Agrodan confirmado
- Oracle driver
-- SIA · APPT e integração Farmlog — Agrodan — experiência profissional
- orquestração
-- SIA · Agenda de rotinas operacionais — Agrodan — experiência profissional
- Otimização com restrições
-- Cartola e Logística — decisão com restrições — Projetos analíticos
- parametrização semanal
-- SIA · Vínculo funcionário–UGB — Agrodan — experiência profissional
-- SIA · Qualidade por funcionário e dia — Agrodan — experiência profissional
- persistência
-- SIA · Origem de pallets — Agrodan — experiência profissional
-- SIA · Atualização de rendimento — Agrodan — experiência profissional
- Persistência em lote
-- ETL modular e qualidade de dados — Experiência profissional Agrodan
- persistência em lote
-- SIA · Apontamentos de produção — Agrodan — experiência profissional
- persistência em lotes
-- SIA · APPT e integração Farmlog — Agrodan — experiência profissional
- Persistência IndexedDB via Dexie
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Formulário do cronograma de safra — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Organograma e áreas — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
- Persistência local
-- SIAgro — coleta operacional mobile — Agrodan
-- SIA · Persistência local reutilizável — Agrodan — experiência profissional
- persistência relacional
-- SIA · Embalagem por UGB — Agrodan — experiência profissional
- períodos
-- SIA · Embalagem por UGB — Agrodan — experiência profissional
-- SIA · Frequência de pessoas — Agrodan — experiência profissional
- períodos e metas
-- SIA · Composição de metas de campo — Agrodan — experiência profissional
- Pesquisa operacional
-- Utilibox — multicritério, filas e métodos aplicados — Produto de ferramentas
- Pipelines de pesquisa
-- TraderMind — do experimento à inferência — Pesquisa quantitativa
- Planejamento
-- PLANAGRO — insumos, aplicações e regras agronômicas — Experiência profissional Agrodan
- planejamento
-- SIA · Reestimativa e datas reais de colheita — Agrodan — experiência profissional
- Planejamento de resultados
-- Comercial, previsão de resultados e movimentação de pallets — Agrodan
- Planilhas
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
- processamento em lotes
-- SIA · Desdobramento de qualidade — Agrodan — experiência profissional
- Processamento temporal
-- DVR — feedback, dataset e treinamento — Projeto de monitoramento
- Product engineering
-- Marketplace, automações e interação 3D — Vínculos individuais a contextualizar
- Programação de recursos
-- Irrigação — programação, algoritmos genéticos e rede neural para Kc — Agrodan — material em branch local
- Programação inteira
-- Cartola e Logística — decisão com restrições — Projetos analíticos
- Prompts de domínio
-- Planejamento pedagógico assistido — ClassPlanner — Educação
- Prototipação visual
-- Mapas, modelos e exploração espacial — Logística, Leaflet, threejs e movimento_3D
- Python
-- Conector desktop MetaTrader5 — TraderMind — Projeto de pesquisa quantitativa
- Qualidade
-- SIA · Meta de qualidade por UGB — Agrodan — experiência profissional
- qualidade
-- SIA · Qualidade por funcionário e dia — Agrodan — experiência profissional
- Qualidade de dados
-- ETL modular e qualidade de dados — Experiência profissional Agrodan
- Qualidade operacional
-- SIA · Qualidade de campo — Agrodan — experiência profissional
- Rastreabilidade
-- Comercial, previsão de resultados e movimentação de pallets — Agrodan
-- SIA · Qualidade do packing — Agrodan — experiência profissional
- rastreabilidade
-- SIA · Validação e rastreabilidade de erros — Agrodan — experiência profissional
- Rastreabilidade de dados
-- SIA · Origem de pallets — Agrodan — experiência profissional
- Rastreabilidade de política
-- Conector desktop MetaTrader5 — TraderMind — Projeto de pesquisa quantitativa
- React Native/Expo
-- SIAgro — coleta operacional mobile — Agrodan
- Redes e servidores
-- Gestão de TIC — Agrodan — Experiência já declarada no CV; contexto Agrodan confirmado
- Redes neurais
-- Irrigação — programação, algoritmos genéticos e rede neural para Kc — Agrodan — material em branch local
- reducers
-- SIA · Construtor dinâmico de formulários — Agrodan — experiência profissional
- Referências a sincronização
-- SIA · Acompanhamentos operacionais — Agrodan — código em branches locais
-- SIA · Avaliação de equipes — Agrodan — código em branches locais
-- SIA · Avaliação de equipes administrativas — Agrodan — código em branches locais
-- SIA · Avaliação aluno–professor — Agrodan — código em branches locais
-- SIA · Avaliação gestor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–gestor — Agrodan — código em branches locais
-- SIA · Avaliação professor–professor — Agrodan — código em branches locais
-- SIA · Avaliação invertida — Agrodan — código em branches locais
-- SIA · Avaliação por pares — Agrodan — código em branches locais
-- SIA · Resultados comerciais — Agrodan — código em branches locais
-- SIA · Caderno de campo — Agrodan — código em branches locais
-- SIA · Formulário do cronograma de safra — Agrodan — código em branches locais
-- SIA · Cronograma de safra integrado ao SIA — Agrodan — código em branches locais
-- SIA · Gestão de unidades de negócio — Agrodan — código em branches locais
-- SIA · Indicadores e satisfação BPM — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Organograma e áreas — Agrodan — código em branches locais
-- SIA · PDCA de mão de obra — Agrodan — código em branches locais
-- SIA · PLANAGRO — planejamento e regras agrícolas — Agrodan — código em branches locais
-- SIA · Previsão de resultados e câmbio — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Sistema de gestão da qualidade — Agrodan — código em branches locais
-- SIA · Relatórios de qualidade — Agrodan — código em branches locais
-- SIA · Solicitações de compras — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
- regra de negócio
-- SIA · Composição de metas de campo — Agrodan — experiência profissional
- Regra de ponto de colheita
-- SIA · Matéria seca e previsão de colheita — Agrodan — código em branches locais
- regras
-- SIA · Validação e rastreabilidade de erros — Agrodan — experiência profissional
- Regras de negócio
-- Indicadores hospitalares e gamificação acadêmica — EBSERH: estágio; The Game Project: faculdade
- regras de negócio
-- SIA · Ordens de serviço mobile — Agrodan — experiência profissional
- regras de persistência
-- SIA · API de formulários e temas — Agrodan — experiência profissional
- regras de transformação
-- SIA · Qualidade do packing — Agrodan — experiência profissional
- Regras por variedade
-- Matéria seca — previsão e ponto de colheita — Agrodan
- regras temporais
-- SIA · Disponibilidade operacional — Agrodan — experiência profissional
- relacionamento de entidades
-- SIA · Metas do packing — Agrodan — experiência profissional
- Renderização 3D
-- Mocap — ML no cliente e visualização — Protótipo de captura de movimento
-- Dente de Leão — mundo e interação narrativa — Protótipo independente
- Replanejamento
-- Revisão de planos com IA e regras — Planejamento Xavier
- Resiliência de APIs
-- Motor compartilhado de IA — Planejamento Xavier — Projeto de planejamento
- Resolução de conflitos
-- Conselho de seis agentes — Planejamento Xavier — Projeto independente; vínculo individual a contextualizar
- Retries
-- CRM conversacional híbrido — Instagram Conversion CRM — Produto e vendas
- reuso
-- SIA · Persistência local reutilizável — Agrodan — experiência profissional
- Reuso de componentes
-- Gestão UGB, pessoas e sugestões de melhoria — Agrodan
-- SIA · Gestão UGB — colaboradores e histórico — Agrodan — código em branches locais
-- SIA · Gestão UGB — unidades e papéis — Agrodan — código em branches locais
-- SIA · Gestão UGB — 5S — Agrodan — código em branches locais
-- SIA · Gestão UGB — avaliação humana — Agrodan — código em branches locais
-- SIA · Gestão UGB — plano de ação — Agrodan — código em branches locais
-- SIA · Gestão UGB — qualificação técnica — Agrodan — código em branches locais
-- SIA · Gestão UGB — requalificação técnica — Agrodan — código em branches locais
-- SIA · Gestão UGB — sugestões de melhoria — Agrodan — código em branches locais
- RLS e modelagem de acesso
-- Marketplace, automações e interação 3D — Vínculos individuais a contextualizar
- Rotas backend correspondentes localizadas
-- SIA · Auditoria de pulverização — Agrodan — código em branches locais
-- SIA · Indicadores de TI e fila de chamados — Agrodan — código em branches locais
-- SIA · Monitoramento de irrigação — Agrodan — código em branches locais
-- SIA · Registro de horas — Agrodan — código em branches locais
-- SIA · Monitoramento MAD — Agrodan — código em branches locais
-- SIA · Monitoramento MAF e manga — Agrodan — código em branches locais
-- SIA · Matéria seca e previsão de colheita — Agrodan — código em branches locais
-- SIA · Materiais — Agrodan — código em branches locais
-- SIA · Movimentação de materiais — Agrodan — código em branches locais
-- SIA · Movimentação de pallets e containers — Agrodan — código em branches locais
-- SIA · Orçamento — Agrodan — código em branches locais
-- SIA · Qualidade de campo e checklists — Agrodan — código em branches locais
-- SIA · Sugestões de melhoria — Agrodan — código em branches locais
-- SIA · Validação MDO — Agrodan — código em branches locais
- Saída estruturada
-- Planejamento pedagógico assistido — ClassPlanner — Educação
- schemas
-- SIA · Ordens de preenchimento — Agrodan — experiência profissional
- Segmentação
-- SIA · Visitantes e circulação por setor — Agrodan — experiência profissional
- Segurança
-- Gestão de TIC — Agrodan — Experiência já declarada no CV; contexto Agrodan confirmado
- Separação de serviços
-- Conector desktop MetaTrader5 — TraderMind — Projeto de pesquisa quantitativa
- Serialização de modelo
-- Irrigação — programação, algoritmos genéticos e rede neural para Kc — Agrodan — material em branch local
- Simulated annealing
-- Ensemble de agentes financeiros — TraderMind — Pesquisa quantitativa; ambiente demo documentado
- Simulação
-- Utilibox — multicritério, filas e métodos aplicados — Produto de ferramentas
- Sincronização
-- Caderno de campo e compras — dados locais e sincronização — Agrodan
- SQL
-- ETL modular e qualidade de dados — Experiência profissional Agrodan
-- SIA · Metas de produção — Agrodan — experiência profissional
-- SIA · Rendimento por ficha e dia — Agrodan — experiência profissional
-- SIA · Base de LUGB Campo — Agrodan — experiência profissional
-- SIA · Vínculo funcionário–UGB — Agrodan — experiência profissional
-- SIA · Meta de qualidade por UGB — Agrodan — experiência profissional
-- SIA · Qualidade de campo — Agrodan — experiência profissional
- Stateful conversation
-- CRM conversacional híbrido — Instagram Conversion CRM — Produto e vendas
- Suavização temporal
-- Mocap — ML no cliente e visualização — Protótipo de captura de movimento
- Telemetria de chamadas
-- Motor compartilhado de IA — Planejamento Xavier — Projeto de planejamento
- Three.js
-- Mapas, modelos e exploração espacial — Logística, Leaflet, threejs e movimento_3D
- Transfer learning
-- DVR — feedback, dataset e treinamento — Projeto de monitoramento
- transformações SQL
-- SIA · Jornadas operacionais — Agrodan — experiência profissional
- Treinamento supervisionado
-- DVR — feedback, dataset e treinamento — Projeto de monitoramento
- Validação de aplicação
-- PLANAGRO — insumos, aplicações e regras agronômicas — Experiência profissional Agrodan
- Validação de dados
-- SIA · Validação e rastreabilidade de erros — Agrodan — experiência profissional
- Validação de saída
-- Motor compartilhado de IA — Planejamento Xavier — Projeto de planejamento
- Validação referencial
-- Revisão de planos com IA e regras — Planejamento Xavier
- Validação temporal
-- Ensemble de agentes financeiros — TraderMind — Pesquisa quantitativa; ambiente demo documentado
-- TraderMind — do experimento à inferência — Pesquisa quantitativa
- Visualização
-- Matéria seca — previsão e ponto de colheita — Agrodan
- Visualização de dados
-- SIA · Dashboard operacional mobile — Agrodan — experiência profissional
- Visualização de indicadores
-- SIAgro — coleta operacional mobile — Agrodan
- Visualização geoespacial
-- Mapas, modelos e exploração espacial — Logística, Leaflet, threejs e movimento_3D
- Votação e quórum
-- Ensemble de agentes financeiros — TraderMind — Pesquisa quantitativa; ambiente demo documentado
- Workflow de melhoria
-- Gestão UGB, pessoas e sugestões de melhoria — Agrodan
+ Competências organizadas por especialidade, com aplicações, métodos e projetos de origem. Cada grupo conecta o trabalho técnico ao seu contexto profissional, acadêmico ou independente; os links abrem os cases correspondentes.
+ Agentic AI, sistemas multiagentes e governança LLMs, aplicações de IA e automação conversacional Machine Learning, pesquisa quantitativa e experimentação MLOps, pipelines e ciclo de vida de modelos Visão computacional e integração industrial Engenharia de dados, ETL e integração ERP Engenharia de software web, mobile e produtos Agronegócio, gestão operacional e sistemas corporativos Decisão multicritério, otimização e pesquisa operacional Lean, melhoria contínua e análise econômica Gestão do conhecimento, aprendizagem e modelagem de domínio Infraestrutura, segurança e liderança de tecnologia Interfaces 3D, mapas e experiências interativas
+
+### Agentic AI, sistemas multiagentes e governança
+ Arquitetura de soluções com papéis especializados, coordenação de agentes, contexto compartilhado e controle das decisões. Planejamento Xavier traz coordenação por regras; Globalcom amplia o repertório com uma proposta de arquitetura para certificação e compliance, mantendo explícito o estágio de desenho da solução.
+
+#### Competências aplicadas
+
+- Decomposição de responsabilidades, orquestração e resolução de conflitos
+- RAG, recuperação documental, MCP e integração de sistemas no desenho Globalcom
+- Workflows persistentes, auditoria independente, permissões e aprovação humana
+
+#### Cases e contextos de origem
+
+- Conselho de seis agentes — Planejamento Xavier Projeto independente; vínculo individual a contextualizar Implementei um conselho de seis agentes especializados para apoiar planejamento e replanejamento, com evidências por recomendação, resolução determinística de conflitos e geração de ações rastreáveis.
+
+- Arquitetura Agentic AI e orquestração de especialistas Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: coordenar tarefas especializadas com evidências e supervisão humana.
+
+- RAG gerenciado e inteligência documental Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: recuperar conhecimento adequado à escola, requisito e versão documental.
+
+- Workflow, eventos e execução persistente Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: manter processos e tarefas em execução mesmo sem usuário conectado.
+
+- Governança de IA, segurança e auditoria contínua Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: controlar autonomia, acesso aos dados e qualidade das decisões.
+
+- Integrações API, MCP e RPA para operações externas Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: conectar a plataforma a fontes e portais com execução controlada.
+
+- Modelagem de domínio e produto para certificação Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: traduzir uma operação de certificação em entidades e fluxos de produto.
+
+- Consultoria, arquitetura de soluções e roadmap Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: organizar uma proposta técnica de implantação incremental.
+ Tecnologias e métodos: TypeScript · Deno · Supabase · contratos tipados · resolução de conflitos · React · Node.js · Python · FastAPI · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers
+
+### LLMs, aplicações de IA e automação conversacional
+ Integração de modelos de linguagem em produtos de planejamento, educação e relacionamento comercial. O trabalho conecta respostas de IA ao domínio da aplicação, com estruturas de dados, validação e tratamento de falhas para transformar a saída do modelo em ações utilizáveis.
+
+#### Competências aplicadas
+
+- Integração de provedores, seleção de modelos e fallback
+- Saídas estruturadas, contratos de operações e validação referencial
+- Contexto conversacional e revisão de planos com apoio de IA
+
+#### Cases e contextos de origem
+
+- Motor compartilhado de IA — Planejamento Xavier Projeto de planejamento Desenvolvi uma camada compartilhada de integração de IA com adaptação de provedores, respostas estruturadas, validação, orçamento de tempo e tratamento de falhas por tarefa.
+
+- Revisão de planos com IA e regras Planejamento Xavier Modelei propostas de revisão assistidas por IA com validação de referências, alternativas, operações e acompanhamento, preservando o vínculo das mudanças com o plano real.
+
+- Planejamento pedagógico assistido — ClassPlanner Educação Integrei geração de planos de aula com Gemini a uma aplicação web, usando contexto pedagógico, referências BNCC e saída estruturada para objetivos, metodologia e avaliação.
+
+- CRM conversacional híbrido — Instagram Conversion CRM Produto e vendas Construí um fluxo conversacional híbrido de IA e regras, com memória de interação, contrato de ações, tratamento de falhas e encaminhamento humano.
+ Tecnologias e métodos: TypeScript · Deno · APIs de LLM · JSON · telemetria · fallback · Supabase · contratos de operações · validação referencial · React · Node.js · Express · SQLite · Gemini · BNCC · memória conversacional
+
+### Machine Learning, pesquisa quantitativa e experimentação
+ Pesquisa aplicada que combina preparação de dados, seleção de atributos, algoritmos evolutivos, modelos preditivos e avaliação experimental. EFS-AHP pertence ao doutorado; TraderMind explora séries temporais e ensembles de sinais em pesquisa quantitativa, sem presumir retorno financeiro validado.
+
+#### Competências aplicadas
+
+- Seleção de atributos, AHP, baselines e comparação de modelos
+- Algoritmos evolutivos, ensembles e combinação de sinais
+- Engenharia de atributos, avaliação temporal e prevenção de vazamento de dados
+
+#### Cases e contextos de origem
+
+- EFS-AHP — framework de pesquisa Doutorado confirmado por Danillo Desenvolvi a pesquisa EFS-AHP no doutorado, combinando seleção de atributos, algoritmos evolutivos e decisão multicritério, com comparação de alternativas de ML e análise experimental de desempenho, dimensionalidade e custo.
+
+- TraderMind — do experimento à inferência Pesquisa quantitativa Estruturei experimentos quantitativos e componentes de inferência, conectando preparação de dados, avaliação de modelos e políticas a uma API e ao terminal MetaTrader5.
+
+- Ensemble de agentes financeiros — TraderMind Pesquisa quantitativa; ambiente demo documentado Estruturei experimentos de políticas multiagentes com votação de sinais, quórum e otimização por simulated annealing, organizando calibração, validação temporal e teste fora da amostra.
+ Tecnologias e métodos: Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP · XGBoost · Flask · MetaTrader5 · simulated annealing · validação temporal
+
+### MLOps, pipelines e ciclo de vida de modelos
+ No TraderMind, a experiência se concentra na engenharia que conecta dados, treinamento, validação, artefatos, inferência e acompanhamento dos modelos. A integração MetaTrader5 é uma parte desse fluxo; os cases detalham pesquisa e operação demo, com responsabilidades separadas entre experimentação, API e execução.
+
+#### Competências aplicadas
+
+- Contratos de dados, preparação de features e validação fora da amostra
+- Checkpoints, persistência de artefatos e serving de modelos
+- Supervisão de processos, retreino, atualização e observabilidade
+
+#### Cases e contextos de origem
+
+- Pipeline de dados, features e contratos de qualidade TraderMind · projeto independente de MLOps e pesquisa quantitativa Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.
+
+- Treinamento, checkpoints e gestão de artefatos TraderMind · projeto independente de MLOps e pesquisa quantitativa Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.
+
+- Validação temporal, leakage e avaliação fora da amostra TraderMind · projeto independente de MLOps e pesquisa quantitativa Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.
+
+- Serving de modelos e integração com MetaTrader5 TraderMind · projeto independente de MLOps e pesquisa quantitativa Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.
+
+- Orquestração, retreino e atualização operacional TraderMind · projeto independente de MLOps e pesquisa quantitativa Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.
+
+- Observabilidade e acompanhamento de modelos TraderMind · projeto independente de MLOps e pesquisa quantitativa Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.
+
+- Conector desktop MetaTrader5 — TraderMind Projeto de pesquisa quantitativa Construí um conector Python para o terminal desktop MetaTrader5, integrando dados de mercado e conta ao fluxo de pesquisa e operação documentado no projeto.
+ Tecnologias e métodos: Python · pandas · NumPy · Parquet · DEAP · EFS-AHP · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints · validação temporal · walk-forward · OOS · backtesting · Flask · REST APIs · MetaTrader5 · supervisor · agendamento · logs · automação de pipeline · dashboard · monitoramento · SQLite · APIs locais
+
+### Visão computacional e integração industrial
+ Aplicações de visão que vão de detecção e notificações em vídeo à estimação de pose no navegador e contagem de frutas na indústria. Na Agrodan/Agritech.NE, a participação como desenvolvedor conecta a plataforma aos dados do ERP, classificadora, lotes e indicadores operacionais; os resultados industriais são os registrados para o projeto.
+
+#### Competências aplicadas
+
+- Inferência em vídeo, datasets de feedback e treinamento de classificadores
+- Estimação de pose, processamento no cliente e visualização
+- Contagem, rastreabilidade, reconciliação de volumes e alertas industriais
+
+#### Cases e contextos de origem
+
+- DVR — feedback, dataset e treinamento Projeto de monitoramento Implementei um fluxo de visão computacional com detecção, revisão de exemplos e treinamento de classificador personalizado a partir de modelo pré-treinado, integrando acompanhamento de épocas, checkpoint, estabilização temporal e alertas persistentes.
+
+- Mocap — ML no cliente e visualização Protótipo de captura de movimento Desenvolvi protótipos de estimação de pose no navegador, integrando inferência, visualização de keypoints e suavização temporal para explorar captura de movimento e interação com recursos 3D.
+
+- Desenvolvimento da plataforma de visão computacional no packing Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor Atuei como desenvolvedor no projeto da plataforma, durante meu vínculo na Agrodan, conectando a solução de contagem e rastreamento de frutos ao acompanhamento operacional do packing.
+
+- Integração ERP, classificadora e rastreabilidade de lotes Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor A plataforma relaciona o lote recebido, a quantidade embalada e o refugo para acompanhar a origem da fruta e apoiar a transição entre lotes.
+
+- Dashboard, alertas e apoio à decisão operacional Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor Desenvolvimento da plataforma de acompanhamento e notificações para dar aos operadores informação sobre o processamento e o momento de troca de lote.
+
+- Resultados do projeto e melhoria do processo industrial Agrodan · projeto de P&D da Plataforma Agritech.NE · atuação como desenvolvedor A integração da plataforma ao processo de packing apresentou ganhos registrados no relatório final do projeto, relacionados à produtividade, paradas e custos operacionais.
+ Tecnologias e métodos: Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP · JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL · Visão computacional · Deep Learning · Câmeras · APIs · ERP · Integração com classificadora · Dashboard · Telegram · Servidor dedicado · CRISP-DM
+
+### Engenharia de dados, ETL e integração ERP
+ Integração de dados operacionais para sustentar indicadores e processos corporativos na Agrodan. A engenharia envolve importação em lotes, persistência, APIs e rotinas de atualização, aproximando os registros do ERP das aplicações web, análises e decisões de gestão.
+
+#### Competências aplicadas
+
+- Modelagem de dados e consultas SQL
+- ETLs modulares, ingestão em lotes e qualidade de dados
+- Integração ERP, rastreabilidade de erros e atualização operacional
+
+#### Cases e contextos de origem
+
+- ETL modular e qualidade de dados Experiência profissional Agrodan Estruturei pipelines de integração com importadores reutilizáveis, processamento em lotes e regras específicas para produção, packing, qualidade e pessoas, organizando dados operacionais para análise e apoio à decisão.
+ Tecnologias e métodos: Node.js · SQL · Oracle · Sequelize · ETL · importação em lotes
+
+### Engenharia de software web, mobile e produtos
+ Desenvolvimento de sistemas com regras de domínio, interfaces, APIs e persistência em contextos corporativos, hospitalares, acadêmicos e empreendedores. SIAgro amplia essa experiência para coleta mobile; os produtos independentes agregam modelagem de entidades, autenticação, serviços e integrações comerciais.
+
+#### Competências aplicadas
+
+- Aplicações web, arquitetura de APIs e persistência relacional
+- React Native, navegação, coleta operacional e armazenamento local
+- Sistemas Java EE, gestão de indicadores, gamificação e produtos digitais
+
+#### Cases e contextos de origem
+
+- SIAgro — coleta operacional mobile Agrodan Desenvolvi módulos mobile do SIAgro para ordens de serviço, apontamentos e qualidade, combinando React Native/Expo, modelagem de objetos de negócio, persistência local e visualização de indicadores.
+
+- Indicadores hospitalares e gamificação acadêmica EBSERH: estágio; The Game Project: faculdade No estágio hospitalar, desenvolvi sistema web de indicadores e avaliações com Java EE. Na faculdade, construí uma aplicação de gestão de projetos com gamificação e persistência, explorando regras de progressão e organização de tarefas.
+
+- Marketplace, automações e interação 3D Vínculos individuais a contextualizar Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.
+ Tecnologias e métodos: React Native · Expo · AsyncStorage · React Navigation · APIs · Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz · Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
+
+### Agronegócio, gestão operacional e sistemas corporativos
+ No SIA/SIAgro, a tecnologia atende planejamento agrícola, irrigação, pulverização, compras, pessoas, qualidade e packing. Os cases mostram a tradução de regras do negócio em módulos, dados e interfaces, conectando desenvolvimento de software à experiência profissional de transformação digital e gestão na Agrodan.
+
+#### Competências aplicadas
+
+- Regras agronômicas, modelagem de irrigação e previsão de colheita
+- Coleta offline, sincronização, auditoria de campo e dados geoespaciais
+- Compras, avaliações, UGB, indicadores comerciais e gestão da qualidade
+
+#### Cases e contextos de origem
+
+- PLANAGRO — insumos, aplicações e regras agronômicas Experiência profissional Agrodan Desenvolvi componentes de planejamento agrícola no PLANAGRO, traduzindo aplicação de insumos, dosagem, carência, deriva e orçamento em regras e interfaces ligadas aos dados operacionais.
+
+- Irrigação — programação, algoritmos genéticos e rede neural para Kc Agrodan — material em branch local Explorei programação de irrigação, algoritmos genéticos e modelagem neural de Kc, trabalhando com codificação de variáveis, normalização, parâmetros de rede e integração ao backend operacional.
+
+- Auditoria de pulverização — mapas e execução Agrodan Construí componentes de auditoria da pulverização com dados espaciais e operacionais, relacionando trajetória, velocidade, talhões e serviços para apoiar investigação da execução em campo.
+
+- Matéria seca — previsão e ponto de colheita Agrodan Implementei componentes de análise de matéria seca e previsão de colheita, relacionando leituras, variedades e parâmetros a gráficos e regras de acompanhamento.
+
+- Caderno de campo e compras — dados locais e sincronização Agrodan Desenvolvi fluxos de coleta de campo e solicitações de compras com dados locais, componentes de processo e rotinas de sincronização, integrados ao backend por domínio.
+
+- Gestão UGB, pessoas e sugestões de melhoria Agrodan Modelei aplicações de gestão de unidades e pessoas e fluxos de sugestão de melhorias, articulando dados organizacionais, histórico, avaliações, papéis e documentos.
+
+- Comercial, previsão de resultados e movimentação de pallets Agrodan Desenvolvi componentes de acompanhamento comercial e logística, relacionando lançamentos e previsões a interfaces de gestão e dados operacionais de pallets e containers.
+
+- SGQ — auditorias, registros e gestão da qualidade Experiência profissional — Agrodan Desenvolvimento de módulos de qualidade com organização de auditorias, registros e papéis, articulando acompanhamento do processo e armazenamento local.
+
+- Qualidade de campo — checklists e avaliações operacionais Experiência profissional — Agrodan Desenvolvimento de fluxos de avaliação da qualidade em campo, com checklists, respostas e integração entre a interface e o backend do domínio.
+
+- Packing e caixaria — interfaces de acompanhamento da operação Experiência profissional — Agrodan Desenvolvimento de interfaces de packing e caixaria para organizar acesso à operação e integrar eventos aos componentes de acompanhamento.
+ Tecnologias e métodos: React · JavaScript · Node.js · APIs operacionais · regras agronômicas · algoritmos genéticos · rede neural · normalização · dados geoespaciais · trajetória · velocidade · curvas e equações · gráficos · dados de campo · Dexie · IndexedDB · sincronização · modelagem organizacional · avaliações · histórico · dados comerciais · pallets · containers · @material-ui/core · @material-ui/icons · dexie · moment · react · react-file-base64 · react-select · @nivo/bar · audio-loader · audio-play · play-sound · react-router-dom · socket.io-client
+
+### Decisão multicritério, otimização e pesquisa operacional
+ Métodos analíticos transformados em ferramentas para comparar alternativas, dimensionar capacidade e decidir sob restrições. Utilibox reúne aplicações de AHP, TOPSIS, PROMETHEE e filas; Cartola e logística ampliam o repertório para decisões quantitativas e otimização aplicada.
+
+#### Competências aplicadas
+
+- Pesos, consistência, rankings e análise de sensibilidade
+- Teoria das filas, capacidade e dimensionamento de serviços
+- Otimização com restrições, análise probabilística e roteamento
+
+#### Cases e contextos de origem
+
+- Utilibox — multicritério, filas e métodos aplicados Produto de ferramentas Implementei ferramentas de apoio à decisão e aprendizagem com métodos multicritério, filas, simulação, matemática financeira e repetição espaçada, traduzindo modelos em interfaces e cálculos explicáveis.
+
+- Cartola e Logística — decisão com restrições Projetos analíticos Desenvolvi pipelines que conectam dados e otimização à decisão, explorando escalações sob orçamento/formação e roteamento com visualização geográfica.
+
+- AHP Online — decisão multicritério com consistência Produto independente — Utilibox Desenvolvimento de uma ferramenta de decisão multicritério que organiza critérios, comparações e alternativas em um fluxo de análise e exportação de projetos.
+
+- TOPSIS e PROMETHEE — ranking e sensibilidade de alternativas Produto independente — Utilibox Implementação de ferramentas para comparar alternativas com critérios, pesos e preferências configuráveis, tornando os métodos multicritério utilizáveis em decisões de gestão.
+
+- Teoria das Filas — capacidade, espera e dimensionamento Produto independente — Utilibox Desenvolvimento de calculadoras e visualizações para relacionar demanda, capacidade de atendimento e espera, apoiando estudo e comparação de configurações de serviço.
+ Tecnologias e métodos: Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulação · Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet · matrizes de comparação · consistência · análise de sensibilidade · pesquisa operacional · modelos de filas · curvas de sensibilidade
+
+### Lean, melhoria contínua e análise econômica
+ Aplicação de métodos de engenharia de produção e gestão em ferramentas digitais do Utilibox. O repertório relaciona fluxo de valor, redução de setup, resolução estruturada de problemas, priorização e avaliação econômica; as ferramentas Lean também se conectam ao MBA Operational Excellence em andamento.
+
+#### Competências aplicadas
+
+- VSM, SMED, PDSA e A3 para análise e melhoria de processos
+- Pareto, GUT e SWOT para priorização e diagnóstico
+- VPL, TIR, payback e cenários para avaliação de investimentos
+
+#### Cases e contextos de origem
+
+- VSM, SMED, PDSA e A3 — engenharia de produção e melhoria contínua Produto independente — Utilibox Tradução de métodos de melhoria de processos em ferramentas digitais para mapear fluxos, analisar setup, estruturar problemas e acompanhar ciclos de aprendizagem.
+
+- Avaliação econômica — VPL, TIR, payback e cenários Produto independente — Utilibox Implementação de ferramentas de análise econômica para transformar fluxos de caixa, custos e condições de financiamento em indicadores comparáveis.
+
+- Pareto, GUT e SWOT — priorização e análise gerencial Produto independente — Utilibox Desenvolvimento de ferramentas de gestão que organizam problemas, critérios e cenários em rankings, gráficos e estruturas de decisão.
+ Tecnologias e métodos: Astro · JavaScript · Lean · VSM · SMED · PDSA · A3 · matemática financeira · fluxos de caixa · análise de investimentos · Pareto · GUT · SWOT · EMV · visualização de decisões
+
+### Gestão do conhecimento, aprendizagem e modelagem de domínio
+ Produtos que organizam conhecimento, relações e rotinas de aprendizagem. Narra, UtiliNotas e flashcards evidenciam modelagem de entidades, contexto e persistência, além de métodos de estudo, revisão espaçada e exportação de conteúdos.
+
+#### Competências aplicadas
+
+- Entidades, relações, contexto e organização de conhecimento
+- Persistência de conteúdo, Markdown e exportação
+- Repetição espaçada, planejamento de revisão e acompanhamento de estudo
+
+#### Cases e contextos de origem
+
+- Narra/Utilinotas — domínio e conhecimento Utilibox Construí módulos de organização narrativa e conhecimento, com relações entre entidades, assistência contextual, rastreabilidade de respostas e interoperabilidade de notas.
+
+- Narra e UtiliNotas — conhecimento, contexto e persistência Produto independente — Utilibox Construção de aplicações de organização narrativa e conhecimento com entidades relacionadas, notas conectadas e assistência contextual.
+
+- Flashcards — repetição espaçada e acompanhamento de estudo Produto independente — Utilibox Implementação de uma aplicação de estudo que organiza cartões e revisões com repetição espaçada, acompanhamento de retenção e exportação.
+ Tecnologias e métodos: JavaScript · TypeScript · Astro · entidades e relações · Markdown · IndexedDB · modelagem de entidades · IA contextual · SM-2 · persistência local · TSV · PDF
+
+### Infraestrutura, segurança e liderança de tecnologia
+ Experiência de gestão de TIC na Agrodan com ambientes corporativos, suporte, servidores, redes e continuidade operacional. Esse repertório complementa a atuação como líder de tecnologia e integra operação, equipe técnica, sistemas empresariais e necessidades do negócio.
+
+#### Competências aplicadas
+
+- Windows/Linux, Active Directory, redes e administração de servidores
+- Monitoramento, service desk, backup, recuperação e disponibilidade
+- Gestão de equipe, priorização e integração entre tecnologia e operação
+
+#### Cases e contextos de origem
+
+- Gestão de TIC — Agrodan Experiência já declarada no CV; contexto Agrodan confirmado Gerenciei a operação de TIC, integrando suporte, servidores, redes, continuidade, ERP e iniciativas de IoT à entrega de serviços e soluções para a empresa.
+ Tecnologias e métodos: Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT
+
+### Interfaces 3D, mapas e experiências interativas
+ Exploração de interfaces espaciais, mapas, modelos e mundos interativos em projetos independentes. O trabalho combina renderização no navegador, interação, física e visualização geográfica; os cases mantêm o contexto de protótipos e estudos.
+
+#### Competências aplicadas
+
+- Cenas 3D, componentes de interação e estado da aplicação
+- Modelos, animação, física e renderização WebGL
+- Mapas, rotas e visualização geoespacial
+
+#### Cases e contextos de origem
+
+- Dente de Leão — mundo e interação narrativa Protótipo independente Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.
+
+- Mapas, modelos e exploração espacial Logística, Leaflet, threejs e movimento_3D Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.
+ Tecnologias e métodos: TypeScript · React Three Fiber · Three.js · Rapier · Zustand · JavaScript · React · Leaflet · Canvas · FBX
+
+### Algoritmos, estruturas de dados e resolução de problemas
+ Prática complementar de 120 horas de LeetCode: arrays, hashing, busca binária, árvores, grafos, heaps, programação dinâmica e backtracking. O repertório apoia a análise de complexidade e a escolha de estruturas e estratégias de solução.
+ Ver experiência complementar e desafios de referência
 
 ## Síntese de experiência da versão original
 

@@ -3629,186 +3629,319 @@ Tech Lead
 
 
 ## Capabilities and their project origins
- Project Engineering and demonstrated capabilities
- Six-agent planning council — Planejamento Xavier TypeScript · Deno · Supabase · typed contracts · conflict resolution
-- Strategy, execution, risk, learning, integrity and mentoring agents analyze the same planning snapshot.
-- Claims carry evidence, confidence, polarity, weight and node references; priorities and deterministic tie-breaking resolve conflicts.
- Financial signal ensemble — TraderMind Python · pandas · NumPy · simulated annealing · temporal validation
-- Twelve signals support ternary voting, minimum active-agent counts and agreement thresholds.
-- Policies choose whether to follow, invert or ignore signals; the selected policy is frozen before final out-of-sample evaluation. Backward as-of joins respect publication delays.
- Shared AI integration engine — Planejamento Xavier TypeScript · Deno · LLM APIs · JSON · telemetry · fallback
-- Provider capabilities include JSON, text and grounded search; adapters support Gemini, DeepSeek, OpenAI and compatible APIs.
-- Global and per-attempt time budgets, output rejection, fallback and provider health tracking organize execution. Grounded search preserves source references.
- AI-assisted plan review and operation contracts TypeScript · Supabase · operation contracts · reference validation
-- Authorized context contains real IDs, capacity, diagnostics and prior decisions.
-- Normalized operations include dependencies, affected occurrences, expected update timestamps, context fingerprints and validation issues.
- AI-assisted lesson planning — ClassPlanner React · Node.js · Express · SQLite · Gemini · BNCC
-- Prompts combine class, subject, duration, resources, assessment and curriculum skills.
-- Structured JSON responses are parsed into the planning workflow.
- Hybrid conversational CRM — Instagram Conversion CRM Node.js · Express · SQLite · Gemini · conversation history
-- Conversation state and history provide context for the decision engine.
-- Action normalization, retries and handoff connect suggestions to the CRM workflow.
- EFS-AHP — doctoral research framework Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP
-- Experiments compare methods including Random Forest, LASSO and dimensionality-reduction approaches.
-- Python notebooks and evolutionary routines organize datasets, baselines and statistical analysis; AHP supports comparison of alternatives.
- TraderMind — experiments and inference integration Python · scikit-learn · XGBoost · pandas · Flask · MetaTrader5
-- Time-series preparation and feature engineering feed model and policy experiments.
-- API and desktop connector components keep research, inference and execution responsibilities separate.
- DVR — feedback, datasets and classifier training Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP
-- Reviewed examples form a training dataset; transfer learning and callbacks organize training and checkpoints.
-- Temporal voting and a persistent alert outbox connect detection to operational notifications.
- Mocap — browser inference and visualization JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL
-- Existing pose models process video and webcam input in the browser.
-- Keypoint rendering, smoothing and 3D resources connect inference to interactive visualization.
- PLANAGRO — inputs, applications and agronomic rules React · JavaScript · Node.js · operational APIs · agronomic rules
-- Domain rules represent dosage, withholding periods, drift and application constraints.
-- Planning interfaces connect operational inputs and budget information to the application workflow.
- Irrigation — scheduling, genetic algorithms and Kc modeling JavaScript · Node.js · genetic algorithms · neural network · normalization
-- Categorical encoding and normalization prepare variables such as farm, phase, month and soil.
-- Neural training, serialized model restoration and evolutionary experiments explore irrigation-related decisions.
- Spraying audit — maps and field execution React · geospatial data · trajectory · speed · operational APIs
-- Maps connect movement and speed to field blocks and operational records.
-- Audit interfaces make execution patterns available for operational review.
- Dry matter — harvest forecasting and readiness React · JavaScript · curves and equations · charts · field data
-- Equations and parameters relate dry-matter observations to harvest readiness.
-- Charts and operational interfaces support monitoring by variety and field context.
- Field notebook and purchasing — local data and synchronization React · Dexie · IndexedDB · Node.js · synchronization
-- Dexie/IndexedDB stores field and purchasing data locally.
-- Synchronization handlers and domain APIs connect local records to the backend.
- UGB management, people and improvement suggestions React · Node.js · organizational modeling · assessments · history
-- Business units, employees and roles share domain models and reusable components.
-- Assessments, history, 5S and improvement workflows organize management information.
- Commercial monitoring, forecasts and pallet movements React · Node.js · commercial data · pallets · containers
-- Commercial entries, forecasts and exchange-rate information support operational views.
-- Pallet and container movements link logistics records to management interfaces.
- Modular ETL and operational data quality Node.js · SQL · Oracle · Sequelize · ETL · batch import
-- Node.js and SQL importers separate extraction, transformation and domain-specific processing.
-- Batch persistence, joins and aggregation connect ERP and operational records to indicators.
- SIAgro — mobile operational data collection React Native · Expo · AsyncStorage · React Navigation · APIs
-- Mobile workflows organize work orders, employees, targets and quality records.
-- Reusable local persistence and API integration connect collection and dashboard components.
- Hospital indicators and academic gamification Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz
-- EBSERH: Java EE, EJB, JSF, PrimeFaces and JPA/Hibernate for hospital indicators and assessments.
-- The Game Project: persistent tasks, progression rules, scheduling and an interactive project timeline.
- Utilibox — multicriteria analysis, queues and applied methods Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulation
-- AHP, TOPSIS and PROMETHEE connect criteria and alternatives to decision analysis.
-- Queueing, financial and spaced-repetition tools apply domain methods in interactive software.
- Cartola and logistics — decisions under constraints Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet
-- Cartola combines performance data and probabilistic estimates with constrained team selection.
-- Logistics prototypes combine routes, maps and optimization experiments.
- Narra and UtiliNotas — domain and knowledge applications JavaScript · TypeScript · Astro · entities and relationships · Markdown
-- Related entities and linked notes organize narrative and knowledge contexts.
-- Contextual assistance and interoperability connect editing, information and responses.
- Marketplace, automation and 3D interaction Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
-- Product roles and integrations organize campaigns and commercial workflows.
-- Supervised automation and interactive prototypes explore different product domains.
- IT operations management — Agrodan Windows Server · Linux · Active Directory · Zabbix · GLPI · networks · IoT
-- Professional responsibilities cover support, Windows/Linux administration, Active Directory and corporate networks.
-- Backup/recovery, virtualization, monitoring, security and IoT belong to the declared IT management scope.
- MetaTrader5 desktop connector — TraderMind Python · MetaTrader5 · Flask · SQLite · local APIs
-- The connector uses the MetaTrader5 package and requires an authenticated local terminal.
-- Candles and account data connect policy research with separate API, dashboard and execution components.
- Dente de Leão — interactive narrative world TypeScript · React Three Fiber · Three.js · Rapier · Zustand
-- World, player, camera and interactions are organized into game modules.
-- React Three Fiber, Rapier and Zustand integrate rendering, physics and application state.
- Maps, models and spatial exploration JavaScript · React · Leaflet · Three.js · Canvas · FBX
-- Logistics and Leaflet projects combine map interfaces and routing components.
-- Three.js experiments include scenes, interaction and model loading using third-party libraries.
- Agentic AI architecture and specialist orchestration TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-- Designed 10 specialist roles: compliance, evidence, documents, research, writing, communication, deadlines, risk, systems audit and integration/RPA.
-- A dedicated orchestrator checks preconditions, distributes tasks and consolidates results; an independent auditor reviews agents, tools, sources and decisions.
-- Execution contracts connect school, process, requirement and task context to approved tools, evidence, confidence and human escalation.
- Managed RAG and document intelligence TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-- Designed six collections: official regulations, operational knowledge, management context, email precedents, school-specific documents and approved templates.
-- Hybrid retrieval architecture with embeddings and pgvector; tenant, school, framework, requirement, version, validity and approval filters.
-- Specified ingestion, classification, extraction, versioning, embedding reprocessing, chunk lineage and citation persistence.
- Workflow, events and persistent execution TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-- A proposed state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.
-- Designed queues, events, webhooks and scheduled jobs, with specialist workflow, agent, document, RAG, notification, RPA and audit workers.
-- Suggested Node.js/TypeScript, NestJS or Fastify, Zod and BullMQ or an alternative queue; Temporal is an optional durable workflow engine.
- AI governance, security and continuous audit TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-- Proposed policy separates automatic execution, human approval actions and critical decisions reserved for people.
-- Designed partner/school isolation with RLS and RBAC, least privilege, secret management, logs, retention, backup and recovery.
-- An independent auditor checks citation/evidence alignment, regulation versions, data integrity and workflow compliance; quarterly audits and four-month review meetings are planned.
- API, MCP and RPA integrations for external operations TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-- Integration strategy prioritizes APIs, uses MCP for standardized tool access and proposes RPA when formal integration is unavailable.
-- Specified isolated Playwright browser workers, retry policies, idempotency, layout change detection and manual fallback.
-- Proposed scope includes Notion migration/synchronization, email, portals and future school/financial system connectors; QuickSchools, QuickBooks and Wave are initial references.
- Certification domain and product modeling TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-- Proposed domain connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.
-- Supabase/PostgreSQL is the designed canonical store, with document Storage, Auth, Realtime and pgvector; a React/TypeScript frontend includes workflow visualization.
-- Architecture covers readiness, gaps, corrective plans, self-study and artifact reuse; expected outcomes are product goals rather than achieved impact metrics.
- Consulting, solution architecture and roadmap TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-- Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
-- Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence.
-- Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage.
- Data pipelines, features and quality contracts Python · pandas · NumPy · Parquet · DEAP · EFS-AHP
-- Market data and multitimeframe indicators, Parquet datasets and evolutionary feature selection with EFS-AHP.
-- Stage checks cover temporal integrity, feature availability and health, configuration consistency and artifact synchronization.
- Training, checkpoints and artifact management Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints
-- Classifier training and comparison routines, feature selection and entry and early-exit models.
-- Checkpoints resume evolutionary search; serialized models, feature lists, configuration and logs support workflow reproduction.
- Temporal validation, leakage and out-of-sample evaluation Python · temporal validation · walk-forward · OOS · backtesting
-- Walk-forward, temporal holdouts, backtests and leakage audits complement training; causal external-data alignment avoids future information.
-- Policies are selected before final OOS testing; comparisons between logged operation and replay/backtest help investigate discrepancies.
- Model serving and MetaTrader5 integration Python · Flask · REST APIs · joblib · MetaTrader5
-- A Flask API loads models and their features by pair/direction, returns predictions and probabilities and supports exit checks.
-- A Python connector integrates data and execution with MetaTrader5; service endpoints expose health, status, loaded models and uptime.
- Orchestration, retraining and operational updates Python · supervisor · scheduling · logs · pipeline automation
-- The supervisor organizes extraction, datasets, EFS-AHP, training, backtesting and serving; it distinguishes data updates without retraining from full retraining cycles.
-- Runs use identifiers and logs; scheduling and operational checks support pipeline maintenance.
- Observability and model follow-up Python · Flask · dashboard · logs · OOS · monitoring
-- Dashboard and health records track stages, training and operation; APIs expose model and service availability.
-- OOS window updates and comparisons between logged trades and backtests support regime-change analysis and model review decisions.
- Computer vision platform development for packing operations Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
-- Platform for identifying and recording mangoes on the reject conveyor, with counting and tracking to avoid duplicates.
-- Connected the counting application, industrial data API, dashboard and notifications; the report describes two operating cameras.
-- Applied R&D project with Agrodan in the Agritech.NE context, using CRISP-DM and project result follow-up.
- ERP, sorting-machine integration and batch traceability Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
-- API access to sorting-machine and packing data, combined with ERP batch records and variety, harvest and handling information.
-- Fruit counts are combined with the sorting-machine size distribution and variety-specific weight ranges to estimate reject weight.
-- Reconciled incoming volume, packed volume and estimated reject weight; a 98% incoming-volume proximity threshold supports batch-change decisions.
- Dashboard, alerts and operational decision support Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
-- Monitored integrated production data and prepared Telegram alerts when processed volume approaches incoming volume.
-- The scope includes dedicated-server counting and monitoring applications; the report records training and follow-up in February 2024.
-- Counts, size distributions and processing volume support operational decisions beyond manual fruit removal from the tank.
- Project outcomes and industrial process improvement Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
-- Reported throughput increased from 30 to 37.5 boxes per hour; daily control-change downtime decreased from 45 to 5 minutes.
-- The report records a 17% reduction in operating costs associated with labor and processing time.
-- Reported counting precision was 98%; variety-specific calibration remained necessary, with a Kent mango adjustment identified in the report.
- AHP Online — multicriteria decisions and consistency Astro · JavaScript · AHP · comparison matrices · consistency
-- Saaty-scale comparisons and consistency calculations assess the coherence of judgments.
-- Interactive decision modeling presents results and supports project export.
- TOPSIS and PROMETHEE — rankings and sensitivity Astro · JavaScript · TOPSIS · PROMETHEE · sensitivity analysis
-- TOPSIS ranks alternatives by closeness to the ideal solution, with configurable weights and criterion directions.
-- PROMETHEE I and II include preference functions and real-time sensitivity analysis.
- Queueing theory — capacity, waiting and service sizing JavaScript · operations research · queueing models · sensitivity curves
-- Calculation routines implement M/M/1, M/M/c, M/D/1, M/M/1/K and Erlang-B/C models.
-- Server-count comparisons and sensitivity curves explore changes in arrival rates.
- VSM, SMED, PDSA and A3 — production engineering and continuous improvement Astro · JavaScript · Lean · VSM · SMED · PDSA · A3
-- VSM models steps, processing, waiting, uptime, inventory and bottlenecks, with lead-time, takt and PCE metrics.
-- SMED explores internal/external activities, conversion and parallelization; PDSA and A3 structure follow-up and action plans.
- Economic analysis — NPV, IRR, payback and scenarios JavaScript · financial mathematics · cash flows · investment analysis
-- Simple and discounted payback, NPV and IRR calculations support investment analysis.
-- Complementary tools address WACC, break-even and Price, SAC and SAM repayment systems.
- Pareto, GUT and SWOT — prioritization and management analysis JavaScript · Pareto · GUT · SWOT · EMV · decision visualization
-- Pareto includes cumulative curves; GUT ranks severity, urgency and trend; SWOT supports cross-analysis of strategies.
-- Decision trees include chance/outcome nodes, expected monetary value and optimal-path identification.
- Narra and UtiliNotas — knowledge, context and persistence Astro · JavaScript · Markdown · IndexedDB · entity modeling · contextual AI
-- Markdown editing, internal links and file trees connect note organization to usage context.
-- IndexedDB persistence manages transactions and failures; AI assistance resides in dedicated modules.
- Flashcards — spaced repetition and study tracking JavaScript · SM-2 · local persistence · TSV · PDF
-- SM-2, due-card selection, suspension/resumption and review forecasting organize study.
-- Anki Desktop TSV and PDF exports support structured decks and content.
- QMS — audits, records and quality management React · JavaScript · Dexie · IndexedDB · synchronization
-- Audit, configuration and responsibility models support management interfaces.
-- Dexie/IndexedDB local data and synchronization handlers connect workflows.
- Field quality — checklists and operational assessments React · JavaScript · Dexie · IndexedDB · Node.js · domain APIs
-- Checklists and responses use Dexie/IndexedDB local persistence.
-- Synchronization routines and corresponding backend routes were located in the archive.
- Packing and box handling — operational interfaces React · JavaScript · socket events · operational interfaces
-- Separate packing and box-handling components structure the corporate frontend.
-- Socket event integration is present in the module code.
+ Capabilities organized by specialty, with applications, methods and source projects. Each group connects technical work to its professional, academic or independent context; links open the corresponding cases.
+ Agentic AI, multiagent systems and governance LLMs, AI applications and conversational automation Machine Learning, quantitative research and experimentation MLOps, pipelines and model lifecycle Computer vision and industrial integration Data engineering, ETL and ERP integration Web and mobile software engineering and products Agriculture, operational management and enterprise systems Multicriteria decisions, optimization and operations research Lean, continuous improvement and economic analysis Knowledge management, learning and domain modeling Infrastructure, security and technology leadership 3D interfaces, maps and interactive experiences
+
+### Agentic AI, multiagent systems and governance
+ Solution architecture with specialized roles, agent coordination, shared context and decision controls. Planejamento Xavier provides rule-based coordination; Globalcom extends this experience through a certification and compliance architecture proposal, explicitly identified as solution design.
+
+
+#### Applied capabilities
+
+- Responsibility decomposition, orchestration and conflict resolution
+- RAG, document retrieval, MCP and system integration in the Globalcom design
+- Persistent workflows, independent audit, permissions and human approval
+
+#### Source cases and contexts
+
+- Six-agent planning council — Planejamento Xavier Independent projects, prototypes and research Implemented a council of six specialized agents to support planning and replanning, with evidence for each recommendation, deterministic conflict resolution and traceable actions.
+
+- Agentic AI architecture and specialist orchestration Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: coordinate specialized tasks with evidence and human oversight.
+
+- Managed RAG and document intelligence Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: retrieve knowledge matching school, requirement and document version.
+
+- Workflow, events and persistent execution Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: keep processes and tasks running without an active user session.
+
+- AI governance, security and continuous audit Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: control autonomy, data access and decision quality.
+
+- API, MCP and RPA integrations for external operations Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: connect sources and portals with controlled execution.
+
+- Certification domain and product modeling Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: translate certification operations into product entities and workflows.
+
+- Consulting, solution architecture and roadmap Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: organize a technical proposal for incremental implementation.
+ Technologies and methods: TypeScript · Deno · Supabase · typed contracts · conflict resolution · React · Node.js · Python · FastAPI · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+### LLMs, AI applications and conversational automation
+ Language-model integration in planning, education and customer relationship products. This work connects AI responses to application domains through data structures, validation and failure handling, turning model output into usable actions.
+
+
+#### Applied capabilities
+
+- Provider integration, model selection and fallback
+- Structured outputs, operation contracts and reference validation
+- Conversation context and AI-assisted plan review
+
+#### Source cases and contexts
+
+- Shared AI integration engine — Planejamento Xavier Independent projects, prototypes and research Developed a shared AI integration layer with provider adapters, structured responses, validation, time budgets and task-specific failure handling.
+
+- AI-assisted plan review and operation contracts Independent projects, prototypes and research Modeled AI-assisted review proposals with reference validation, alternatives, operations and follow-up, connecting suggested changes to the actual plan.
+
+- AI-assisted lesson planning — ClassPlanner Independent projects, prototypes and research Integrated Gemini lesson-plan generation into a web application using pedagogical context, Brazilian BNCC curriculum references and structured objectives, methodology and assessment.
+
+- Hybrid conversational CRM — Instagram Conversion CRM Independent projects, prototypes and research Built a hybrid AI-and-rules conversation flow with interaction history, action contracts, failure handling and human handoff.
+ Technologies and methods: TypeScript · Deno · LLM APIs · JSON · telemetry · fallback · Supabase · operation contracts · reference validation · React · Node.js · Express · SQLite · Gemini · BNCC · conversation history
+
+
+
+### Machine Learning, quantitative research and experimentation
+ Applied research combining data preparation, feature selection, evolutionary algorithms, predictive models and experimental evaluation. EFS-AHP belongs to doctoral research; TraderMind explores time series and signal ensembles in quantitative research, without implying verified financial returns.
+
+
+#### Applied capabilities
+
+- Feature selection, AHP, baselines and model comparison
+- Evolutionary algorithms, ensembles and signal combination
+- Feature engineering, temporal evaluation and data leakage prevention
+
+#### Source cases and contexts
+
+- EFS-AHP — doctoral research framework Doctoral research Developed EFS-AHP as doctoral research combining feature selection, evolutionary algorithms and multicriteria decision analysis, comparing ML alternatives and analyzing performance, dimensionality and computational cost.
+
+- TraderMind — experiments and inference integration Independent projects, prototypes and research Structured quantitative experiments and inference components, connecting data preparation and model/policy evaluation to an API and the MetaTrader5 terminal.
+
+- Financial signal ensemble — TraderMind Independent projects, prototypes and research Designed multiagent policy experiments with signal voting, quorum and simulated annealing, separating calibration, temporal validation and out-of-sample evaluation.
+ Technologies and methods: Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP · XGBoost · Flask · MetaTrader5 · simulated annealing · temporal validation
+
+
+
+### MLOps, pipelines and model lifecycle
+ TraderMind centers on the engineering connecting data, training, validation, artifacts, inference and model monitoring. MetaTrader5 integration is one component of this workflow; the cases describe research and demo operation, separating experimentation, API and execution responsibilities.
+
+
+#### Applied capabilities
+
+- Data contracts, feature preparation and out-of-sample validation
+- Checkpoints, artifact persistence and model serving
+- Process supervision, retraining, updates and observability
+
+#### Source cases and contexts
+
+- Data pipelines, features and quality contracts TraderMind · independent MLOps and quantitative research project Integrated extraction, data updates, dataset construction and feature selection into operational TraderMind pipeline stages.
+
+- Training, checkpoints and artifact management TraderMind · independent MLOps and quantitative research project Organized experiments, training and execution recovery while preserving the relationship between models, features and parameters.
+
+- Temporal validation, leakage and out-of-sample evaluation TraderMind · independent MLOps and quantitative research project Separated selection, calibration and temporal evaluation to compare models and policies without contaminating the final evaluation period.
+
+- Model serving and MetaTrader5 integration TraderMind · independent MLOps and quantitative research project Connected ML artifacts, an inference service and the desktop terminal to bridge research and demonstration operation.
+
+- Orchestration, retraining and operational updates TraderMind · independent MLOps and quantitative research project Coordinated data, training, evaluation and serving cycles through distinct execution modes.
+
+- Observability and model follow-up TraderMind · independent MLOps and quantitative research project Connected the operational dashboard, pipeline stage health and performance review using recent data.
+
+- MetaTrader5 desktop connector — TraderMind Independent projects, prototypes and research Built a Python connector to the MetaTrader5 desktop terminal, integrating market/account data with the documented research and execution workflow.
+ Technologies and methods: Python · pandas · NumPy · Parquet · DEAP · EFS-AHP · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints · temporal validation · walk-forward · OOS · backtesting · Flask · REST APIs · MetaTrader5 · supervisor · scheduling · logs · pipeline automation · dashboard · monitoring · SQLite · local APIs
+
+
+
+### Computer vision and industrial integration
+ Vision applications range from video detection and notifications to browser pose estimation and industrial fruit counting. At Agrodan/Agritech.NE, the developer contribution connects the platform to ERP, sorting-machine, batch and operational indicator data; industrial outcomes are those reported for the project.
+
+
+#### Applied capabilities
+
+- Video inference, feedback datasets and classifier training
+- Pose estimation, client-side processing and visualization
+- Counting, traceability, volume reconciliation and industrial alerts
+
+#### Source cases and contexts
+
+- DVR — feedback, datasets and classifier training Independent projects, prototypes and research Implemented a computer-vision workflow with detection, example review and custom classifier training from a pretrained model, integrating epoch monitoring, checkpoints, temporal stabilization and persistent alerts.
+
+- Mocap — browser inference and visualization Independent projects, prototypes and research Developed browser pose-estimation prototypes integrating inference, keypoint visualization and temporal smoothing to explore motion capture and 3D interaction.
+
+- Computer vision platform development for packing operations Agrodan · Agritech.NE applied R&D project · platform developer Worked as a developer on the platform project during my Agrodan employment period, connecting fruit counting and tracking to operational packing monitoring.
+
+- ERP, sorting-machine integration and batch traceability Agrodan · Agritech.NE applied R&D project · platform developer The platform connects incoming batches, packed volume and rejected fruit to track fruit origin and support batch transitions.
+
+- Dashboard, alerts and operational decision support Agrodan · Agritech.NE applied R&D project · platform developer Developed the monitoring and notification platform to provide operators with processing information and batch-change timing.
+
+- Project outcomes and industrial process improvement Agrodan · Agritech.NE applied R&D project · platform developer Platform integration into the packing workflow produced project-level outcomes recorded in the final report, covering throughput, downtime and operating costs.
+ Technologies and methods: Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP · JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL · Computer vision · Deep Learning · Cameras · APIs · ERP · Sorting-machine integration · Dashboard · Telegram · Dedicated server · CRISP-DM
+
+
+
+### Data engineering, ETL and ERP integration
+ Operational data integration supporting corporate indicators and workflows at Agrodan. The engineering covers batch imports, persistence, APIs and update routines, connecting ERP records to web applications, analytics and management decisions.
+
+
+#### Applied capabilities
+
+- Data modeling and SQL queries
+- Modular ETL, batch ingestion and data quality
+- ERP integration, error traceability and operational updates
+
+#### Source cases and contexts
+
+- Modular ETL and operational data quality Professional experience — Agrodan Structured integration pipelines with reusable importers, batch processing and domain rules for production, packing, quality and people, organizing operational data for analysis and decisions.
+ Technologies and methods: Node.js · SQL · Oracle · Sequelize · ETL · batch import
+
+
+
+### Web and mobile software engineering and products
+ Development of systems with domain rules, interfaces, APIs and persistence across corporate, hospital, academic and entrepreneurial contexts. SIAgro extends this experience to mobile collection; independent products add entity modeling, authentication, services and commercial integrations.
+
+
+#### Applied capabilities
+
+- Web applications, API architecture and relational persistence
+- React Native, navigation, operational collection and local storage
+- Java EE systems, indicator management, gamification and digital products
+
+#### Source cases and contexts
+
+- SIAgro — mobile operational data collection Professional experience — Agrodan Developed SIAgro mobile modules for work orders, production records and quality using React Native/Expo, business-object modeling, local persistence and operational indicators.
+
+- Hospital indicators and academic gamification Hospital internship and university project During the hospital internship, developed a Java EE web system for indicators and assessments. At university, built a project-management application with gamification and persistence, exploring progression rules and task organization.
+
+- Marketplace, automation and 3D interaction Independent projects, prototypes and research Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.
+ Technologies and methods: React Native · Expo · AsyncStorage · React Navigation · APIs · Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz · Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
+
+
+
+### Agriculture, operational management and enterprise systems
+ Within SIA/SIAgro, technology supports agricultural planning, irrigation, spraying, purchasing, people, quality and packing. The cases show business rules translated into modules, data and interfaces, connecting software development to professional digital transformation and management experience at Agrodan.
+
+
+#### Applied capabilities
+
+- Agronomic rules, irrigation modeling and harvest forecasting
+- Offline collection, synchronization, field audits and geospatial data
+- Purchasing, assessments, business units, commercial indicators and quality management
+
+#### Source cases and contexts
+
+- PLANAGRO — inputs, applications and agronomic rules Professional experience — Agrodan Developed agricultural planning components in PLANAGRO, translating input application, dosage, withholding periods, drift and budgets into rules and interfaces connected to operational data.
+
+- Irrigation — scheduling, genetic algorithms and Kc modeling Professional experience — Agrodan Explored irrigation scheduling, genetic algorithms and neural modeling of crop coefficient Kc, working with variable encoding, normalization, network parameters and operational backend integration.
+
+- Spraying audit — maps and field execution Professional experience — Agrodan Built spraying-audit components using spatial and operational data, relating trajectories, speed, field blocks and services to support investigation of field execution.
+
+- Dry matter — harvest forecasting and readiness Professional experience — Agrodan Implemented dry-matter analysis and harvest-forecast components connecting readings, varieties and parameters to charts and monitoring rules.
+
+- Field notebook and purchasing — local data and synchronization Professional experience — Agrodan Developed field-data collection and purchase-request workflows with local storage, process components and synchronization routines integrated with domain-specific backend services.
+
+- UGB management, people and improvement suggestions Professional experience — Agrodan Modeled business-unit and people-management applications and improvement-suggestion workflows combining organizational records, history, assessments, roles and documents.
+
+- Commercial monitoring, forecasts and pallet movements Professional experience — Agrodan Developed commercial and logistics components connecting records and forecasts to management interfaces and operational pallet/container data.
+
+- QMS — audits, records and quality management Professional experience — Agrodan Developed quality-management modules organizing audits, records and roles with process follow-up and local storage.
+
+- Field quality — checklists and operational assessments Professional experience — Agrodan Developed field-quality assessment workflows with checklists, responses and integration between interfaces and the domain backend.
+
+- Packing and box handling — operational interfaces Professional experience — Agrodan Developed packing and box-handling interfaces organizing access to operations and connecting events to monitoring components.
+ Technologies and methods: React · JavaScript · Node.js · operational APIs · agronomic rules · genetic algorithms · neural network · normalization · geospatial data · trajectory · speed · curves and equations · charts · field data · Dexie · IndexedDB · synchronization · organizational modeling · assessments · history · commercial data · pallets · containers · domain APIs · socket events · operational interfaces
+
+
+
+### Multicriteria decisions, optimization and operations research
+ Analytical methods translated into tools for comparing alternatives, sizing capacity and making constrained decisions. Utilibox provides AHP, TOPSIS, PROMETHEE and queueing applications; Cartola and logistics extend this experience to quantitative decisions and applied optimization.
+
+
+#### Applied capabilities
+
+- Weights, consistency, rankings and sensitivity analysis
+- Queueing theory, capacity and service sizing
+- Constrained optimization, probabilistic analysis and routing
+
+#### Source cases and contexts
+
+- Utilibox — multicriteria analysis, queues and applied methods Independent projects, prototypes and research Implemented decision-support and learning tools using multicriteria methods, queueing theory, simulation, financial mathematics and spaced repetition, translating models into explainable interfaces and calculations.
+
+- Cartola and logistics — decisions under constraints Independent projects, prototypes and research Developed pipelines connecting data and optimization to decisions, exploring team selection under budget/formation constraints and routing with geographical visualization.
+
+- AHP Online — multicriteria decisions and consistency Independent product — Utilibox Developed a multicriteria decision tool organizing criteria, comparisons and alternatives into an analysis and project-export workflow.
+
+- TOPSIS and PROMETHEE — rankings and sensitivity Independent product — Utilibox Implemented tools for comparing alternatives with configurable criteria, weights and preferences, applying multicriteria methods to management decisions.
+
+- Queueing theory — capacity, waiting and service sizing Independent product — Utilibox Developed calculators and visualizations relating demand, service capacity and waiting, supporting study and comparison of service configurations.
+ Technologies and methods: Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulation · Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet · comparison matrices · consistency · sensitivity analysis · operations research · queueing models · sensitivity curves
+
+
+
+### Lean, continuous improvement and economic analysis
+ Production engineering and management methods implemented in Utilibox digital tools. This experience connects value streams, setup reduction, structured problem solving, prioritization and economic evaluation; the Lean tools also relate to the ongoing Operational Excellence MBA.
+
+
+#### Applied capabilities
+
+- VSM, SMED, PDSA and A3 for process analysis and improvement
+- Pareto, GUT and SWOT for prioritization and diagnosis
+- NPV, IRR, payback and scenarios for investment evaluation
+
+#### Source cases and contexts
+
+- VSM, SMED, PDSA and A3 — production engineering and continuous improvement Independent product — Utilibox Translated process-improvement methods into digital tools for mapping flows, analyzing setup, structuring problems and tracking learning cycles.
+
+- Economic analysis — NPV, IRR, payback and scenarios Independent product — Utilibox Implemented economic-analysis tools transforming cash flows, costs and financing conditions into comparable indicators.
+
+- Pareto, GUT and SWOT — prioritization and management analysis Independent product — Utilibox Developed management tools organizing problems, criteria and scenarios into rankings, charts and decision structures.
+ Technologies and methods: Astro · JavaScript · Lean · VSM · SMED · PDSA · A3 · financial mathematics · cash flows · investment analysis · Pareto · GUT · SWOT · EMV · decision visualization
+
+
+
+### Knowledge management, learning and domain modeling
+ Products organizing knowledge, relationships and learning routines. Narra, UtiliNotas and flashcards demonstrate entity modeling, context and persistence alongside study methods, spaced review and content export.
+
+
+#### Applied capabilities
+
+- Entities, relationships, context and knowledge organization
+- Content persistence, Markdown and export
+- Spaced repetition, review planning and study tracking
+
+#### Source cases and contexts
+
+- Narra and UtiliNotas — domain and knowledge applications Independent projects, prototypes and research Built narrative and knowledge-organization modules with entity relationships, contextual assistance, response traceability and note interoperability.
+
+- Narra and UtiliNotas — knowledge, context and persistence Independent product — Utilibox Built narrative and knowledge-organization applications with related entities, linked notes and contextual assistance.
+
+- Flashcards — spaced repetition and study tracking Independent product — Utilibox Implemented a study application organizing cards and reviews through spaced repetition, retention tracking and export.
+ Technologies and methods: JavaScript · TypeScript · Astro · entities and relationships · Markdown · IndexedDB · entity modeling · contextual AI · SM-2 · local persistence · TSV · PDF
+
+
+
+### Infrastructure, security and technology leadership
+ ICT management experience at Agrodan covers enterprise environments, support, servers, networks and operational continuity. This experience complements technology leadership, connecting operations, technical teams, enterprise systems and business needs.
+
+
+#### Applied capabilities
+
+- Windows/Linux, Active Directory, networks and server administration
+- Monitoring, service desk, backup, recovery and availability
+- Team management, prioritization and technology–operations integration
+
+#### Source cases and contexts
+
+- IT operations management — Agrodan Professional experience — Agrodan Managed IT operations, integrating support, servers, networks, continuity, ERP and IoT initiatives with delivery of technology services and solutions.
+ Technologies and methods: Windows Server · Linux · Active Directory · Zabbix · GLPI · networks · IoT
+
+
+
+### 3D interfaces, maps and interactive experiences
+ Exploration of spatial interfaces, maps, models and interactive worlds in independent projects. This work combines browser rendering, interaction, physics and geographic visualization; the cases retain their prototype and study context.
+
+
+#### Applied capabilities
+
+- 3D scenes, interaction components and application state
+- Models, animation, physics and WebGL rendering
+- Maps, routes and geospatial visualization
+
+#### Source cases and contexts
+
+- Dente de Leão — interactive narrative world Independent projects, prototypes and research Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.
+
+- Maps, models and spatial exploration Independent projects, prototypes and research Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.
+ Technologies and methods: TypeScript · React Three Fiber · Three.js · Rapier · Zustand · JavaScript · React · Leaflet · Canvas · FBX
+
+
+
+### Algorithms, data structures and problem solving
+ 120 hours of complementary LeetCode practice covering arrays, hashing, binary search, trees, graphs, heaps, dynamic programming and backtracking. This experience supports complexity analysis and the selection of data structures and solution strategies.
+ See complementary experience and reference challenges
 
 
 ## Project and career context
