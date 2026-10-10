@@ -34,13 +34,26 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     # Retain the complete CV's actual markup: header, two-column cards,
     # experience grid and original section headings. Add content afterwards.
     original_view = page[start:end]
+    # Keep the first two pages focused on career and education. Move the
+    # existing detailed skills and tools after the visual third page.
+    skill_cards=[]
+    for field in ['tFullStack', 'tFullSkills']:
+        field_position=original_view.index('id="'+field+'"')
+        card_start=original_view.rfind('<section class="full-card">',0,field_position)
+        card_end=original_view.index('</section>',field_position)+len('</section>')
+        skill_cards.append(original_view[card_start:card_end])
+        original_view=original_view[:card_start]+original_view[card_end:]
+    detailed_skills='<section class="page full-page capability-details"><div class="full-page-inner">'+''.join(skill_cards)+'</div></section>'
+    capability_map=runpy.run_path(str(base/'scripts/cv-capability-map.py'))
+    pt_overview,pt_evidence=capability_map['overview'](data,'pt')
+    en_overview,en_evidence=capability_map['overview'](data,'en')
     closing = original_view.rfind('</div>')
     navigation = '<section class="page full-page career-navigation"><div class="full-page-inner"><div class="full-card career-actions"><a href="#cv-agrodan">SIA / Agrodan</a><a href="#cv-utilibox">Utilibox e métodos aplicados</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div></div></section>'
     if language == 'en':
         navigation = english['translate_labels'](navigation)
         annex = annex.replace('<summary>Detalhamento dos projetos · áreas, métodos e tecnologias</summary>', '<summary>Project details · applications, methods and technologies</summary>', 1)
     career = editorial['core_sections'](data, language)
-    portuguese_content = '<div class="cv-language-content" data-content-language="pt">'+navigation+career+annex+'</div>'
+    portuguese_content = '<div class="cv-language-content" data-content-language="pt">'+navigation+pt_evidence+career+annex+'</div>'
     if english_sections is None: raise ValueError('The main CV needs both language archives.')
     english_parts = []
     for part in english_sections:
@@ -49,12 +62,15 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     english_toc='<nav class="full-card extension-toc" aria-label="Technical archive contents"><h2>Projects, applications and technologies</h2><ol>'+''.join('<li><a href="#'+re.search(r'<section id="([^"]+)"',part)[1]+'">'+re.search(r'<h2>(.*?)</h2>',part)[1]+'</a></li>' for part in english_sections)+'</ol></nav>'
     english_parts.insert(0,'<section class="page full-page experimental-page"><div class="full-page-inner">'+english_toc+'</div></section>')
     english_annex='<details id="careerAppendices" class="career-appendices"><summary>Project details · applications, methods and technologies</summary>'+''.join(english_parts)+'</details>'
-    english_content=english['translate_labels'](navigation)+editorial['core_sections'](data,'en')+english_annex
+    english_content=english['translate_labels'](navigation)+en_evidence+editorial['core_sections'](data,'en')+english_annex
     english_ids=set(re.findall(r'\bid="([^"]+)"',english_content))
     english_content=re.sub(r'\bid="([^"]+)"',lambda match:'id="'+match[1]+'-en"',english_content)
     english_content=re.sub(r'href="#([^"]+)"',lambda match:'href="#'+match[1]+('-en' if match[1] in english_ids else '')+'"',english_content)
     english_content='<div class="cv-language-content" data-content-language="en">'+english_content+'</div>'
-    page = page[:start] + original_view[:closing] + portuguese_content + english_content + original_view[closing:] + page[end:]
+    en_overview=re.sub(r'\bid="([^"]+)"',lambda match:'id="'+match[1]+'-en"',en_overview)
+    en_overview=re.sub(r'href="#([^"]+)"',lambda match:'href="#'+match[1]+('-en' if match[1] in english_ids else '')+'"',en_overview)
+    overviews='<div class="cv-language-content" data-content-language="pt">'+pt_overview+'</div><div class="cv-language-content" data-content-language="en">'+en_overview+'</div>'
+    page = page[:start] + original_view[:closing] + overviews + detailed_skills + portuguese_content + english_content + original_view[closing:] + page[end:]
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c')
     page = page.replace('  <script>\n    const DATA_URL', '<script id="experimentalData" type="application/json">' + payload + '</script>\n  <script>\n    const DATA_URL', 1)
     page = page.replace('const res = await fetch(DATA_URL, {cache:"no-store"});\n      const data = await res.json();', 'const data = JSON.parse(document.getElementById("experimentalData").textContent);')

@@ -49,6 +49,45 @@ body:not([data-extension-language="en"]) [data-content-language="en"]{display:no
 .experimental-page thead{background:rgba(78,134,168,.15)}
 .experimental-page th{font-weight:700}
 
+.map-eyebrow{font-size:7pt;letter-spacing:.12em;color:#9fcce7;font-weight:700}
+.map-heading p{font-size:9pt;margin:0;color:var(--midMuted)}
+.map-heading .career-section-title{font-size:16pt;margin-top:2mm}
+.map-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.map-metrics>div{display:flex;gap:3mm;align-items:center;border-bottom:1px solid var(--midLine);padding:2mm 0}
+.map-metrics b{font-size:22pt;color:#9fcce7;font-family:Montserrat,sans-serif}
+.map-metrics span{font-size:8pt;max-width:30mm;color:var(--midMuted)}
+.map-chart-grid,.map-lower-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:3mm}
+.map-panel{border:1px solid var(--midLine);border-radius:3mm;padding:3mm;background:rgba(255,255,255,.025);min-width:0}
+.map-panel h3,.map-evidence-grid h3{font-size:9pt;margin:0 0 3mm;color:var(--midText)}
+.strength-radar{display:block;width:100%;height:auto;overflow:visible}
+.radar-grid{fill:none;stroke:rgba(159,204,231,.22);stroke-width:1}
+.radar-area{fill:rgba(103,190,211,.26);stroke:#8ad5e5;stroke-width:2}
+.radar-dot{fill:#d5f1f6}
+.strength-radar text{fill:var(--midText);font:10px Arial,sans-serif}
+.strength-radar tspan{fill:#9fcce7;font-size:11px}
+.map-bars{display:flex;flex-direction:column;gap:3mm}
+.map-bar{display:grid;grid-template-columns:30mm 1fr 4mm;gap:2mm;align-items:center;font-size:7.5pt}
+.map-bar b{color:#b9dce8;text-align:right}
+.map-track{height:2.5mm;border-radius:2mm;background:rgba(255,255,255,.08);overflow:hidden}
+.map-track i{display:block;height:100%;background:#78b9cc;border-radius:2mm}
+.map-note{font-size:7pt;line-height:1.45;color:var(--midMuted);margin:2mm 0 0}
+.map-stack-text{font-size:7.5pt;line-height:1.65;color:var(--midText);border-top:1px solid var(--midLine);padding-top:2mm;margin:3mm 0 0}
+.map-highlights p{font-size:8pt;line-height:1.5;margin:0 0 3mm;color:var(--midMuted)}
+.map-highlights p:last-child{margin-bottom:0}
+.map-highlights strong{color:var(--midText)}
+.map-evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.map-evidence-grid article{border-bottom:1px solid var(--midLine);padding-bottom:2mm}
+.map-evidence-grid p{font-size:8pt;line-height:1.6;margin:0}
+.map-evidence-grid a{color:#9fcce7}
+.map-overview-evidence>h3{font-size:9pt;margin:1mm 0 3mm}
+.map-overview-evidence .map-evidence-grid{gap:2mm 4mm}
+.map-overview-evidence .map-evidence-grid h3{font-size:7.5pt;margin-bottom:1mm}
+.map-overview-evidence .map-evidence-grid p{font-size:7pt;line-height:1.4}
+.capability-details .full-split{display:block}
+.capability-details #fullSkills,.capability-details #fullTools{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.capability-details .full-split>div+div{margin-top:4mm}
+@media screen and (max-width:600px){.map-chart-grid,.map-lower-grid,.map-evidence-grid,.capability-details #fullSkills,.capability-details #fullTools{grid-template-columns:1fr}.map-metrics b{font-size:18pt}.map-metrics span{font-size:7pt}.map-bar{grid-template-columns:38mm 1fr 4mm}}
+
 @media(max-width:740px){.experimental-page .context-grid,.experimental-page .module-grid{grid-template-columns:1fr}.extension-toc ol{columns:1}.experimental-page .chapter{font-size:10pt}.experimental-page table{table-layout:auto}.experimental-page .table-scroll{overflow-x:auto}}
 @media print{
   body[data-print-mode][data-cv-version="full"] #fullCvView .career-navigation,.career-appendices>summary{display:none!important}
@@ -60,6 +99,13 @@ body:not([data-extension-language="en"]) [data-content-language="en"]{display:no
   #fullCvView .full-page-inner>.full-card+.full-card{margin-top:3mm}
   #fullCvView .full-header{margin-bottom:3mm}
   #fullCvView .full-page{break-inside:auto}
+  body[data-print-mode][data-cv-version="full"] #fullCvView>.full-page:first-child{break-after:page;page-break-after:always}
+  #fullExperiencePrimary>.full-job:last-child:nth-child(odd){grid-column:1/-1}
+  #fullCvView>.full-page:first-child .full-job{padding:1.6mm}
+  #fullCvView>.full-page:first-child .full-experience-grid{gap:1.6mm}
+  #fullCvView>.full-page:first-child .career-reference{margin:1mm 0 0;font-size:6.5pt}
+  body[data-print-mode][data-cv-version="full"] #fullCvView .capability-overview{break-before:page;break-after:page;page-break-before:always;page-break-after:always;break-inside:avoid}
+  .capability-overview .map-panel,.map-evidence-grid article{break-inside:avoid}
   .career-project,.career-skill{break-inside:auto;page-break-inside:auto}
   .career-project h3,.career-project h3+p,.career-section-title,.career-context{break-after:avoid;page-break-after:avoid}
   .career-deliverables li{break-inside:avoid}
