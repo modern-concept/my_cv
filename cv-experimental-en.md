@@ -27,12 +27,12 @@ Senior AI & Automation Engineer | Tech Lead
  AGRODAN AGROPECUARIA RORIZ DANTAS
  Nov 2023 - Apr 2024 · Belem do Sao Francisco, Pernambuco, Brazil · On-site
 
-- BRL 850K/year in pesticides
-- BRL 1.2M/year in labor
-- BRL 500K/month avoided requests
-- Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance.
-- Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices.
-- Automated request flows with AI-driven critical analysis, accounting class classification and real-time budget vs actual tracking with Telegram alerts.
+- BRL 1.2M/year in labor reductions
+- BRL 500K/month in avoided requests
+- Inventory and people auditing
+- Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance. Operational auditing and people management supported BRL 1.2M/year in labor cost reductions and BRL 780K/year in absenteeism-related cost reductions.
+- Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices. These controls supported reductions of BRL 1.8M/month in fast-moving inventory and BRL 150K/month in obsolete or slow-moving items.
+- Automated request flows with AI-driven critical analysis, accounting class classification and real-time budget vs actual tracking with Telegram alerts. Critical review of requests avoided BRL 500K/month in unnecessary orders.
 - Used SIA, the platform I had previously built as Head of Technology, to strengthen operational governance, auditing and management decision-making. Technologies: React.js, Node.js, Oracle Database, Python, Power BI, Telegram Bot API, RPA, AI/ML, ERP Integration, SQL
 
 
@@ -47,8 +47,9 @@ Senior AI & Automation Engineer | Tech Lead
 - Held concurrently with the ICT Manager role from Mar 2021 to Nov 2023, combining technology and innovation leadership with ICT management.
 - Led the company's digital transformation using PMBoK, Agile and gamification to institutionalize processes and an innovation culture.
 - Identified opportunities, trained internal leaders and spread innovation mindset, methods and tools across the organization.
-- Measured project impact and ROI while building solutions that improved auditability and supported data-driven corporate decisions.
-- Delivered digital forms, offline GPS-enabled collection, ERP integration, dashboards, ETLs and AI/ML automations, digitizing 85% of previously manual processes. Technologies: React.js, Python, Power BI, ETL, Machine Learning, Deep Learning, IoT, ERP
+- Developed process and spraying audit tools supporting BRL 850K/year in pesticide savings, a 90% reduction in spraying/product-use issues and BRL 400K/year in fuel savings; tracked project impact and ROI for corporate decisions.
+- Delivered digital forms, offline GPS-enabled collection, ERP integration, dashboards, ETLs and AI/ML automations, digitizing 85% of previously manual processes.
+- Led the Agrodan Tech open innovation program, selecting seven startups; contract renegotiation supported BRL 800K/year in savings. Technologies: React.js, Python, Power BI, ETL, Machine Learning, Deep Learning, IoT, ERP
 
 
 
@@ -58,7 +59,7 @@ Senior AI & Automation Engineer | Tech Lead
 
 - From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation.
 - Managed IT staff routines, help desk operations, device estate, servers, backup and recovery, virtualization and high-availability initiatives.
-- Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. Technologies: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
+- Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. ERP module and integration improvements reduced outsourcing needs, supporting BRL 240K/year in savings. Technologies: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
 
 
 
@@ -706,7 +707,7 @@ Senior AI & Automation Engineer | Tech Lead
 
 
 ### Agrodan — professional SIA / SIAgro ecosystem
- Professional tenure: Jan 2019–Apr 2024. Head of Technology and ICT Manager were concurrent roles from Mar 2021 to Nov 2023. Field operations, packing, people, planning, purchasing, quality and commercial modules, as well as impact results, are associated with this tenure. Indicators retain their monthly or annual basis and are not added into a total savings figure.
+ Professional tenure: Jan 2019–Apr 2024. Head of Technology and ICT Manager were concurrent roles from Mar 2021 to Nov 2023. Field operations, packing, people, planning, purchasing, quality and commercial modules are associated with this tenure. Impact results relate to initiatives starting in 2020 through Apr 2024. Indicators retain their monthly or annual basis and are not added into a total savings figure.
 
 - IT Business Partner
 - ICT Manager

@@ -134,6 +134,7 @@
         return [destination(element, {text: inline(element), style: 'heading' + Math.min(level, 4), fontSize: column ? 10 : undefined, headlineLevel: level, margin: [0, level > 1 ? (column ? 5 : 7) : 0, 0, column ? 3 : 5], keepWithNext: true})];
       }
       if (tag === 'P' || tag === 'SUMMARY') return paragraph(element, element.classList.contains('career-reference') ? 'reference' : undefined);
+      if (element.matches('.impact-project-links')) return paragraph(element, 'reference');
       if (tag === 'UL' || tag === 'OL') {
         const job = element.closest('.full-job,.full-column');
         const items = [...element.children].filter(item => item.tagName === 'LI').map(item => ({stack: blocks(item), margin: [0, 0, 0, job ? 1 : 3]}));
@@ -169,7 +170,7 @@
       const result = [];
       let pending = [];
       const flush = () => {
-        if (pending.some(item => item.text.trim())) result.push({text: pending, margin: [0, 0, 0, 4]});
+        if (pending.some(item => item.text.trim())) result.push({text: pending, margin: [0, 0, 0, element.closest('.full-column') ? 1 : 4]});
         pending = [];
       };
       for (const child of element.childNodes) {
