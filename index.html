@@ -1389,13 +1389,6 @@
         };
       }
 
-      if(lang === "de"){
-        return {
-          cv: "Lebenslauf",
-          cover: "Anschreiben",
-          both: "Beides"
-        };
-      }
 
       return {
         cv: "CV",
@@ -1443,7 +1436,7 @@
     function syncFullCvButton(L){
       const fullBtn = $("fullCvBtn");
       if(!fullBtn || !L) return;
-      fullBtn.textContent = (L.labels && L.labels.fullCv) || ((currentLang === "en") ? "Full CV" : (currentLang === "de") ? "Vollstandiger Lebenslauf" : "Completo");
+      fullBtn.textContent = (L.labels && L.labels.fullCv) || ((currentLang === "en") ? "Full CV" : "Completo");
       fullBtn.classList.toggle("active", document.body.dataset.cvVersion === "full");
     }
 
@@ -1491,7 +1484,7 @@
       }
 
       if(job.technologies && job.technologies.length){
-        const techLabel = currentLang === "en" ? "Technologies" : currentLang === "de" ? "Technologien" : "Tecnologias";
+        const techLabel = currentLang === "en" ? "Technologies" : "Tecnologias";
         wrap.appendChild(el("div", "full-tech-line", `${techLabel}: ${job.technologies.join(" · ")}`));
       }
 
@@ -1520,11 +1513,11 @@
       $("fullName").textContent = L.profile.name;
       $("fullHeadline").textContent = L.profile.headline;
       $("tFullExperience").textContent = labels.fullExperience || labels.experience;
-      $("tFullSummary").textContent = labels.profileSummary || ((lang === "en") ? "Profile" : (lang === "de") ? "Profil" : "Perfil");
-      $("tFullResults").textContent = labels.careerHighlights || ((lang === "en") ? "Impact Highlights" : (lang === "de") ? "Wirkung und Ergebnisse" : "Resultados de Impacto");
+      $("tFullSummary").textContent = labels.profileSummary || ((lang === "en") ? "Profile" : "Perfil");
+      $("tFullResults").textContent = labels.careerHighlights || ((lang === "en") ? "Impact Highlights" : "Resultados de Impacto");
       $("tFullEducation").textContent = labels.education;
-      $("tFullAdditional").textContent = labels.additionalExperience || ((lang === "en") ? "Additional Experience" : (lang === "de") ? "Weitere Erfahrung" : "Trajetoria Adicional");
-      $("tFullStack").textContent = labels.coreStack || ((lang === "en") ? "Core Stack" : (lang === "de") ? "Technologie-Stack" : "Stack Principal");
+      $("tFullAdditional").textContent = labels.additionalExperience || ((lang === "en") ? "Additional Experience" : "Trajetoria Adicional");
+      $("tFullStack").textContent = labels.coreStack || ((lang === "en") ? "Core Stack" : "Stack Principal");
       $("tFullSkills").textContent = labels.skills;
       $("tFullTools").textContent = labels.tools;
 
@@ -1597,7 +1590,7 @@
       const L = data.languages[lang];
       const labels = L.labels;
       document.documentElement.lang = lang === "pt" ? "pt-BR" : lang;
-      document.title = lang === "de" ? "Lebenslauf - Danillo Xavier" : "CV - Danillo Xavier";
+      document.title = "CV - Danillo Xavier";
 
       // buttons
       $("langBtn").textContent = lang.toUpperCase();
@@ -1755,11 +1748,11 @@
 
     function getCoverLabel(L, lang){
       if(L.labels && L.labels.coverLetter) return L.labels.coverLetter;
-      return (lang === "en") ? "Cover" : (lang === "de") ? "Anschreiben" : "Carta";
+      return (lang === "en") ? "Cover" : "Carta";
     }
 
     function getCVLabel(lang){
-      return (lang === "en") ? "Resume" : (lang === "de") ? "Lebenslauf" : "CV";
+      return (lang === "en") ? "Resume" : "CV";
     }
 
     function syncToggleLabel(L, lang){
@@ -1775,16 +1768,15 @@
     }
 
     function fallbackGreeting(lang){
-      return (lang === "en") ? "Dear Reader," : (lang === "de") ? "Sehr geehrte Damen und Herren," : "Querido Leitor,";
+      return (lang === "en") ? "Dear Reader," : "Querido Leitor,";
     }
 
     function fallbackClosing(lang){
-      return (lang === "en") ? "Sincerely," : (lang === "de") ? "Mit freundlichen Grussen," : "Atenciosamente,";
+      return (lang === "en") ? "Sincerely," : "Atenciosamente,";
     }
 
     function fallbackParagraph(lang){
       if(lang === "en") return "Add the cover letter text inside cv-data.json.";
-      if(lang === "de") return "Fugen Sie den Text des Anschreibens in cv-data.json ein.";
       return "Adicione o conteúdo da carta em cv-data.json.";
     }
 
@@ -1865,7 +1857,7 @@
       });
 
       $("langBtn").addEventListener("click", () => {
-        lang = ({pt: "en", en: "de", de: "pt"})[lang] || "en";
+        lang = ({pt: "en", en: "pt"})[lang] || "en";
         localStorage.setItem("cv_lang", lang);
         render(data, lang);
         renderCoverLetter(data, lang, coverVariant);

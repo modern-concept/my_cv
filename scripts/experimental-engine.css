@@ -17,9 +17,7 @@
 #fullCvView .career-navigation,#fullCvView .career-navigation .full-page-inner{min-height:0;height:auto}
 .career-appendices{color:var(--midText);margin-top:4mm}
 .career-appendices>summary{border:1px solid var(--midLine);background:rgba(255,255,255,.03);border-radius:3mm;padding:4mm;font-size:9pt;cursor:pointer;color:var(--midText)}
-body[data-extension-language="en"] .career-project-page,body[data-extension-language="de"] .career-project-page,
-body[data-extension-language="en"] .career-navigation,body[data-extension-language="de"] .career-navigation,
-body[data-extension-language="en"] .career-appendices,body[data-extension-language="de"] .career-appendices{display:none!important}
+
 #fullCvView .full-page{height:auto;min-height:var(--a4h);overflow:visible}
 #fullCvView .full-page-inner{height:auto}
 .experimental-page .chapter{margin:0;scroll-margin-top:90px;font-size:9pt;line-height:1.55}
@@ -47,13 +45,13 @@ body[data-extension-language="en"] .career-appendices,body[data-extension-langua
 .experimental-page td,.experimental-page th{vertical-align:top;text-align:left;border-bottom:1px solid var(--midLine);padding:2mm;overflow-wrap:anywhere}
 .experimental-page thead{background:rgba(78,134,168,.15)}
 .experimental-page th{font-weight:700}
-body[data-extension-language="en"] .experimental-page,body[data-extension-language="de"] .experimental-page{display:none!important}
+
 @media(max-width:740px){.experimental-page .context-grid,.experimental-page .module-grid{grid-template-columns:1fr}.extension-toc ol{columns:1}.experimental-page .chapter{font-size:10pt}.experimental-page table{table-layout:auto}.experimental-page .table-scroll{overflow-x:auto}}
 @media print{
   body[data-print-mode][data-cv-version="full"] #fullCvView .career-navigation,.career-appendices>summary{display:none!important}
   body:not([data-print-appendices="true"]) #careerAppendices{display:none!important}
   body[data-print-mode="cv"]:not([data-print-appendices="true"]) #fullCvView .career-last{break-after:auto!important;page-break-after:auto!important}
-  body[data-extension-language="en"] #fullCvView .career-project-page,body[data-extension-language="de"] #fullCvView .career-project-page{display:none!important}
+  
   body[data-print-mode][data-cv-version="full"] #fullCvView .full-page{height:auto;min-height:0;overflow:visible}
   #fullCvView .full-page-inner{min-height:0}
   .experimental-page .chapter{font-size:9pt;scroll-margin-top:0}
@@ -65,5 +63,5 @@ body[data-extension-language="en"] .experimental-page,body[data-extension-langua
   .experimental-page thead{display:table-header-group}
   .experimental-page tr{break-inside:avoid}
   .experimental-page .table-scroll{overflow:visible}
-  body[data-extension-language="en"] #fullCvView .experimental-page,body[data-extension-language="de"] #fullCvView .experimental-page{display:none!important}
+  
 }

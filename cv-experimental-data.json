@@ -683,24 +683,20 @@
         "coreStack": [
           "Python",
           "SQL",
+          "JavaScript",
+          "TypeScript",
+          "Java",
+          "React",
+          "Node.js",
+          "React Native / Expo",
+          "Oracle / PostgreSQL",
           "BigQuery",
           "Azure",
-          "Power BI",
           "Power Platform",
-          "React.js",
-          "Node.js",
-          "Oracle Database",
-          "Machine Learning",
-          "MCP",
-          "RAG",
-          "Agentic AI",
-          "RPA",
-          "ETL",
-          "ERP Integration",
-          "Telegram Bot API",
-          "IoT",
-          "Zabbix / GLPI",
-          "Active Directory"
+          "scikit-learn",
+          "YOLO / OpenCV",
+          "LLM APIs",
+          "ETL"
         ]
       },
       "experience": [
@@ -773,349 +769,48 @@
       ],
       "tools": [
         {
-          "name": "Cloud: Azure | GCP | AWS"
+          "name": "Languages: Python, SQL, JavaScript, TypeScript and Java."
         },
         {
-          "name": "Data: SQL | BigQuery | PySpark | Airflow | dbt"
+          "name": "Web, APIs and products: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase."
         },
         {
-          "name": "AI/ML: scikit-learn | XGBoost | LightGBM | MLflow"
+          "name": "Mobile and offline: React Native, Expo, AsyncStorage, IndexedDB and Dexie; integrations with the MetaTrader5 terminal."
         },
         {
-          "name": "Automation: RPA | Power Platform | BPMN"
+          "name": "Data and persistence: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize."
         },
         {
-          "name": "Software: Python | React | Node.js"
+          "name": "ML and computer vision: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js and MediaPipe."
         },
         {
-          "name": "Platform: Docker | Kubernetes | Terraform"
+          "name": "Decision and visualization: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js and React Three Fiber."
+        },
+        {
+          "name": "Automation and integration: LLM APIs, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform and RPA."
+        },
+        {
+          "name": "Cloud and operations: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI."
         }
       ],
       "skills": [
         {
-          "name": "Delivery: PMBOK | Scrum | Kanban"
+          "name": "AI, agents and automation: LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation."
         },
         {
-          "name": "AI Engineering: ML | MLOps | RAG | MCP | Agentic AI"
+          "name": "Machine Learning and research: Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation."
         },
         {
-          "name": "Product Engineering: Web | Mobile | Enterprise Systems"
+          "name": "Software engineering: Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations."
         },
         {
-          "name": "Data Delivery: ETL | Analytics | Decision Support"
+          "name": "Data and decisions: ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization."
         },
         {
-          "name": "Technical Leadership: Architecture | Mentoring | Security"
+          "name": "Leadership and operations: Technology management, business alignment, team development, PMBOK, Scrum, Kanban, governance, infrastructure and security."
         },
         {
-          "name": "Communication | Leadership"
-        }
-      ]
-    },
-    "de": {
-      "labels": {
-        "experience": "BERUFSERFAHRUNG",
-        "contact": "KONTAKT",
-        "education": "AUSBILDUNG",
-        "tools": "TOOLS",
-        "skills": "KOMPETENZEN",
-        "fullCv": "VOLLSTANDIGER LEBENSLAUF",
-        "fullExperience": "BERUFSERFAHRUNG",
-        "profileSummary": "PROFIL",
-        "careerHighlights": "WIRKUNG UND ERGEBNISSE",
-        "additionalExperience": "WEITERE ERFAHRUNG",
-        "coreStack": "TECHNOLOGIE-STACK",
-        "printPdf": "Drucken / PDF",
-        "coverLetter": "Anschreiben"
-      },
-      "coverLetter": {
-        "greeting": "Sehr geehrte Damen und Herren,",
-        "paragraphs": [
-          "hiermit bewerbe ich mich fur Positionen als Senior AI Engineer, Automation Engineer oder Technology Enablement Lead. Als Technology Enablement Lead bei Bayer Crop Science leite ich die Entwicklung von KI-, Machine-Learning- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja.",
-          "Ich koordiniere funktionsubergreifende technische Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung. Meine Erfahrung verbindet Software Engineering, Datenplattformen und RPA zur Steigerung von Forschungsproduktivitat und betrieblicher Effizienz.",
-          "In fruheren Rollen automatisierte ich mehr als 85 % manueller Prozesse und realisierte Auditsysteme, die operative Fehler um bis zu 90 % reduzierten. Diese Projekte schufen durch hohere Prozesseffizienz, Governance und datenbasierte Entscheidungen messbaren wirtschaftlichen Nutzen.",
-          "Gerne erlautere ich, wie meine Erfahrung mit angewandter KI, Datenplattformen und technischer Fuhrung zu den Herausforderungen Ihres Unternehmens beitragen kann."
-        ],
-        "closing": "Mit freundlichen Grussen,",
-        "signature": "Danillo Xavier"
-      },
-      "coverLetterSwiss": {
-        "greeting": "Sehr geehrte Damen und Herren,",
-        "paragraphs": [
-          "hiermit bewerbe ich mich fur Positionen als Senior AI Engineer, Automation Engineer oder Technology Enablement Lead in der Schweiz. Als Technology Enablement Lead bei Bayer Crop Science leite ich die Entwicklung von KI-, Machine-Learning- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja.",
-          "Ich koordiniere funktionsubergreifende technische Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung. In fruheren Rollen automatisierte ich mehr als 85 % manueller Prozesse und realisierte Auditsysteme, die operative Fehler um bis zu 90 % reduzierten.",
-          "Ich lebe derzeit in Brasilien und suche eine Gelegenheit zur Umsiedlung in die Schweiz. Fur Remote-Interviews stehe ich zur Verfugung und bin darauf vorbereitet, das Arbeitsbewilligungsverfahren mit allen erforderlichen Unterlagen zu unterstutzen.",
-          "Gerne erlautere ich, wie meine Erfahrung mit angewandter KI, Datenplattformen und technischer Fuhrung zu den Herausforderungen Ihres Unternehmens beitragen kann."
-        ],
-        "closing": "Mit freundlichen Grussen,",
-        "signature": "Danillo Xavier"
-      },
-      "profile": {
-        "name": "DANILLO XAVIER",
-        "headline": "Senior AI & Automation Engineer\nTech Lead",
-        "summary": [
-          "Technologiefuhrungskraft und AI & Automation Engineer mit uber 10 Jahren Erfahrung in Enterprise-Software, Machine Learning und intelligenter Automatisierung fur komplexe Betriebsumgebungen.",
-          "Derzeit Technology Enablement Lead bei Bayer Crop Science und verantwortlich fur digitale Losungen in den Mais- und Soja-Forschungs- und Entwicklungs-Pipelines. Erfahrung in Python, ML, Cloud, Datenplattformen und RPA mit nachweislich hohem operativem Nutzen."
-        ]
-      },
-      "contact": {
-        "items": [
-          {
-            "label": "Standort",
-            "value": "Petrolina, Pernambuco, Brasilien"
-          },
-          {
-            "label": "Telefon",
-            "value": "+55 87 98133-6310"
-          },
-          {
-            "label": "E-Mail",
-            "value": "danillox5@hotmail.com"
-          }
-        ],
-        "social": [
-          {
-            "label": "/cientista-de-dados",
-            "icon": "in",
-            "url": "https://www.linkedin.com/in/cientista-de-dados"
-          }
-        ]
-      },
-      "fullCv": {
-        "headerBadges": [
-          "8x Gewinner des QMS Contest LATAM 2025",
-          "2x Gewinner von ICS Global 2025",
-          "Information Security Manager fur Brazil Pipeline Delivery"
-        ],
-        "primaryExperience": [
-          {
-            "company": "BAYER CROP SCIENCE",
-            "role": "TECHNOLOGY ENABLEMENT LEAD",
-            "employment": "Vollzeit",
-            "period": "Mai 2024 - Heute · 1 Jahr 11 Monate",
-            "location": "Petrolina, Pernambuco, Brasilien",
-            "highlights": [
-              "8x QMS LATAM 2025",
-              "2x ICS Global 2025",
-              "ISM Brazil Pipeline Delivery"
-            ],
-            "bullets": [
-              "Leitung der Entwicklung von KI-, ML- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja. Integration von Datenplattformen, Entscheidungshilfen und RPA zur Steigerung von Forschungsproduktivitat und betrieblicher Effizienz.",
-              "Koordination funktionsubergreifender technischer Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung."
-            ],
-            "technologies": [
-              "Power BI",
-              "Power Automate",
-              "BigQuery",
-              "Azure",
-              "Python",
-              "ML",
-              "MCP",
-              "RAG",
-              "Agentic AI",
-              "React.js",
-              "JavaScript",
-              "SQL"
-            ]
-          },
-          {
-            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
-            "role": "LEITUNG TECHNOLOGIE UND INNOVATION",
-            "employment": "Vollzeit",
-            "period": "Marz 2021 - November 2023 · 2 Jahre 9 Monate",
-            "location": "Belem do Sao Francisco, Pernambuco, Brasilien",
-            "highlights": [
-              "85 % Prozesse digitalisiert",
-              "150+ strategische Ansichten",
-              "24 ETL-Jobs"
-            ],
-            "bullets": [
-              "Leitung der digitalen Transformation des Unternehmens mit PMBoK, Agile und Gamification.",
-              "Umsetzung digitaler Formulare, Offline-Erfassung mit GPS, ERP-Integration, Dashboards, ETLs und AI/ML-Automatisierungen.",
-              "Messung von Projektwirkung und ROI fur auditierbare, datenbasierte Unternehmensentscheidungen."
-            ],
-            "technologies": [
-              "React.js",
-              "Python",
-              "Power BI",
-              "ETL",
-              "Machine Learning",
-              "Deep Learning",
-              "IoT",
-              "ERP"
-            ]
-          }
-        ],
-        "additionalExperience": [
-          {
-            "company": "AGRODAN AGROPECUARIA RORIZ DANTAS",
-            "role": "ADMINISTRATIVE LEITUNG - SUPPLY CHAIN, CONTROLLING UND HR",
-            "employment": "Vollzeit",
-            "period": "Nov. 2023 - Apr. 2024 · 6 Monate",
-            "location": "Belem do Sao Francisco, Pernambuco, Brasilien",
-            "bullets": [
-              "Steuerung von Kennzahlen fur Personal, Prozesse, Finanzen, Einkauf und Lieferantenleistung.",
-              "Automatisierung von Antragsprozessen mit KI-basierter Prufung und Budget-vs.-Ist-Tracking in Echtzeit."
-            ]
-          },
-          {
-            "company": "GRUPO JD (LABRUNIER FARMS)",
-            "role": "SENIOR SOFTWARE ENGINEER",
-            "employment": "Vollzeit",
-            "period": "Jan. 2017 - Nov. 2018 · 1 Jahr 11 Monate",
-            "location": "Region Petrolina, Brasilien",
-            "bullets": [
-              "Leitung der Entwicklung von Management- und Monitoring-Tools fur die Traubenverpackung.",
-              "Entwicklung von Individualsoftware, Prozessen und Kennzahlen fur nutzbare Produktionsentscheidungen."
-            ]
-          },
-          {
-            "company": "STARTUPS UND EIGENE PROJEKTE",
-            "role": "GRUNDER UND UNTERNEHMER",
-            "employment": "Unternehmertum",
-            "period": "Feb. 2012 - Okt. 2019 · 7 Jahre 9 Monate",
-            "location": "Petrolina, Pernambuco, Brasilien",
-            "bullets": [
-              "Mitgrundung mehrerer Startups und in den meisten Initiativen CEO.",
-              "Praxis in Marktvalidierung, Produktentwicklung, Innovation und Fuhrung unter Unsicherheit."
-            ]
-          }
-        ],
-        "keyImpacts": [
-          "850 Tsd. BRL pro Jahr bei Betriebsmitteln durch Audit-Tools eingespart.",
-          "1,2 Mio. BRL pro Jahr bei Arbeitskosten durch operative Audits und Effizienzgewinne reduziert.",
-          "800 Tsd. BRL pro Jahr an Vertragseinsparungen sowie deutliche Bestandsreduzierungen erzielt.",
-          "Bis zu 90 % weniger Probleme bei Produkttanwendung und Ruckverfolgbarkeit durch automatisierte Audits."
-        ],
-        "coreStack": [
-          "Python",
-          "SQL",
-          "BigQuery",
-          "Azure",
-          "Power BI",
-          "Power Platform",
-          "React.js",
-          "Node.js",
-          "Oracle Database",
-          "Machine Learning",
-          "MCP",
-          "RAG",
-          "Agentic AI",
-          "RPA",
-          "ETL",
-          "ERP Integration",
-          "Telegram Bot API",
-          "IoT",
-          "Zabbix / GLPI",
-          "Active Directory"
-        ]
-      },
-      "experience": [
-        {
-          "from": "MAI 2024",
-          "to": "HEUTE",
-          "company": "BAYER CROP\nSCIENCE",
-          "role": "TECHNOLOGY ENABLEMENT LEAD",
-          "paragraphs": [
-            "Leitung der Entwicklung von KI-, ML- und Automatisierungslosungen fur Forschungs- und Entwicklungspipelines in Mais und Soja, einschliesslich Datenplattformen, Entscheidungshilfen und RPA.",
-            "Koordination funktionsubergreifender technischer Initiativen mit Python, BigQuery, Azure, Power Platform, Machine Learning und Unternehmensautomatisierung."
-          ]
-        },
-        {
-          "from": "JAN. 2019",
-          "to": "APR. 2024",
-          "company": "AGRODAN",
-          "role": "CORPORATE HEAD OF TECHNOLOGY & INNOVATION /\nADMINISTRATIVE MANAGER",
-          "paragraphs": [
-            "Aufbau eines integrierten Informationssystems fur Reporting und Offline-Datenerfassung. In funf Jahren entstanden mehr als 30 Module und 150 Berichte von Feldoperationen bis zur Verpackung.",
-            "Leitung des Open-Innovation-Programms Agrodan Tech; sieben Startups wurden ausgewahlt. Vertragliche Anpassungen erzielten Einsparungen von rund 800 Tsd. BRL pro Jahr."
-          ]
-        },
-        {
-          "from": "2012",
-          "to": "2018",
-          "company": "FRUHERE ERFAHRUNG",
-          "role": "SENIOR SOFTWARE ENGINEER - LABRUNIER FARMS (2017-2018)\nSOFTWARE ENGINEER - LABRUNIER FARMS (2016)\nSTARTUP-GRUNDER UND UNTERNEHMER (2012-2019)",
-          "paragraphs": []
-        }
-      ],
-      "education": [
-        {
-          "from": "2020",
-          "to": "2025",
-          "school": "CESAR SCHOOL",
-          "degree": "BERUFSBEGLEITENDES DOKTORAT\nIN SOFTWARE ENGINEERING",
-          "details": [
-            "Dissertation: Evolutionare Algorithmen zur Feature Selection in Regressionsalgorithmen.",
-            "Datensatze: Bewasserung (Kc), Mangogrossen, Produktivitat"
-          ]
-        },
-        {
-          "from": "JUL. 2022",
-          "to": "JUL. 2023",
-          "school": "UNIMAIS",
-          "degree": "POSTGRADUALES STUDIUM\nARBEITSSICHERHEITS-\nINGENIEURWESEN",
-          "details": [
-            "Abschlussprojekt: AgriGuard - georeferenzierte Software zur Risikouberwachung in landwirtschaftlichen Umgebungen"
-          ]
-        },
-        {
-          "from": "JAN. 2017",
-          "to": "MARZ 2018",
-          "school": "UNINASSAU",
-          "degree": "POSTGRADUALES STUDIUM\nSOFTWARE ENGINEERING UND\nPROJEKTMANAGEMENT",
-          "details": [
-            "Abschlussprojekt: Umsetzung von SCRUM auf einer Web-Plattform"
-          ]
-        },
-        {
-          "from": "2013",
-          "to": "2016",
-          "school": "UNIVASF",
-          "degree": "PRODUKTIONSINGENIEURWESEN",
-          "details": [
-            "Abschlussprojekt: F-AHP, Java-Software zur Anwendung der AHP-Entscheidungsmethode"
-          ]
-        }
-      ],
-      "tools": [
-        {
-          "name": "Cloud: Azure | GCP | AWS"
-        },
-        {
-          "name": "Daten: SQL | BigQuery | PySpark | Airflow | dbt"
-        },
-        {
-          "name": "AI/ML: scikit-learn | XGBoost | LightGBM | MLflow"
-        },
-        {
-          "name": "Automatisierung: RPA | Power Platform | BPMN"
-        },
-        {
-          "name": "Software: Python | React | Node.js"
-        },
-        {
-          "name": "Platform: Docker | Kubernetes | Terraform"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Delivery: PMBOK | Scrum | Kanban"
-        },
-        {
-          "name": "AI Engineering: ML | MLOps | RAG | MCP | Agentic AI"
-        },
-        {
-          "name": "Product Engineering: Web | Mobile | Enterprise Systems"
-        },
-        {
-          "name": "Data Delivery: ETL | Analytics | Decision Support"
-        },
-        {
-          "name": "Technical Leadership: Architecture | Mentoring | Security"
-        },
-        {
-          "name": "Kommunikation | Fuhrung"
+          "name": "Products and applied methods: Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management."
         }
       ]
     }
@@ -30257,6 +29952,1474 @@
       },
       "layout": "original-complete-cv-with-projects",
       "appendicesDefault": "collapsed"
-    }
+    },
+    "locales": {
+      "en": {
+        "cases": [
+          {
+            "title": "Six-agent planning council — Planejamento Xavier",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Implemented a council of six specialized agents to support planning and replanning, with evidence for each recommendation, deterministic conflict resolution and traceable actions.",
+            "implementation": [
+              "Strategy, execution, risk, learning, integrity and mentoring agents analyze the same planning snapshot.",
+              "Claims carry evidence, confidence, polarity, weight and node references; priorities and deterministic tie-breaking resolve conflicts."
+            ],
+            "skills": [
+              "TypeScript",
+              "Deno",
+              "Supabase",
+              "typed contracts",
+              "conflict resolution"
+            ],
+            "sources": [
+              "planejamentoxavier/supabase/functions/_shared/brain/council.ts"
+            ],
+            "text": "Implemented a council of six specialized agents to support planning and replanning, with evidence for each recommendation, deterministic conflict resolution and traceable actions.",
+            "limit": "These are rule-based pure functions. LLM integration belongs to a separate layer; the individual agents are not autonomous LLMs.",
+            "id": "case-agentes-1",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "TypeScript · Deno · Supabase · typed contracts · conflict resolution"
+          },
+          {
+            "title": "Financial signal ensemble — TraderMind",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Designed multiagent policy experiments with signal voting, quorum and simulated annealing, separating calibration, temporal validation and out-of-sample evaluation.",
+            "implementation": [
+              "Twelve signals support ternary voting, minimum active-agent counts and agreement thresholds.",
+              "Policies choose whether to follow, invert or ignore signals; the selected policy is frozen before final out-of-sample evaluation. Backward as-of joins respect publication delays."
+            ],
+            "skills": [
+              "Python",
+              "pandas",
+              "NumPy",
+              "simulated annealing",
+              "temporal validation"
+            ],
+            "sources": [
+              "mt5/TraderMind/scripts/btc_multiagent_policy.py",
+              "mt5/TraderMind/scripts/experiment_btc_multiagent_sa.py",
+              "mt5/TraderMind/scripts/experiment_gold_multiagent_sa.py"
+            ],
+            "text": "Designed multiagent policy experiments with signal voting, quorum and simulated annealing, separating calibration, temporal validation and out-of-sample evaluation.",
+            "limit": "The agents are rule-based signals. Financial returns were not verified in this review.",
+            "id": "case-agentes-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Python · pandas · NumPy · simulated annealing · temporal validation"
+          },
+          {
+            "title": "Shared AI integration engine — Planejamento Xavier",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Developed a shared AI integration layer with provider adapters, structured responses, validation, time budgets and task-specific failure handling.",
+            "implementation": [
+              "Provider capabilities include JSON, text and grounded search; adapters support Gemini, DeepSeek, OpenAI and compatible APIs.",
+              "Global and per-attempt time budgets, output rejection, fallback and provider health tracking organize execution. Grounded search preserves source references."
+            ],
+            "skills": [
+              "TypeScript",
+              "Deno",
+              "LLM APIs",
+              "JSON",
+              "telemetry",
+              "fallback"
+            ],
+            "sources": [
+              "planejamentoxavier/supabase/functions/_shared/ai/engine.ts",
+              "planejamentoxavier/supabase/functions/_shared/llm_client.ts"
+            ],
+            "text": "Developed a shared AI integration layer with provider adapters, structured responses, validation, time budgets and task-specific failure handling.",
+            "limit": "Adapters do not establish production usage, SLA or cost savings. Grounded search does not by itself demonstrate vector-based RAG.",
+            "id": "case-ia-1",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "TypeScript · Deno · LLM APIs · JSON · telemetry · fallback"
+          },
+          {
+            "title": "AI-assisted plan review and operation contracts",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Modeled AI-assisted review proposals with reference validation, alternatives, operations and follow-up, connecting suggested changes to the actual plan.",
+            "implementation": [
+              "Authorized context contains real IDs, capacity, diagnostics and prior decisions.",
+              "Normalized operations include dependencies, affected occurrences, expected update timestamps, context fingerprints and validation issues."
+            ],
+            "skills": [
+              "TypeScript",
+              "Supabase",
+              "operation contracts",
+              "reference validation"
+            ],
+            "sources": [
+              "planejamentoxavier/supabase/functions/_shared/brain/councilReviewProposal.ts"
+            ],
+            "text": "Modeled AI-assisted review proposals with reference validation, alternatives, operations and follow-up, connecting suggested changes to the actual plan.",
+            "limit": "Autonomy and behavioral effectiveness were not measured.",
+            "id": "case-ia-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "TypeScript · Supabase · operation contracts · reference validation"
+          },
+          {
+            "title": "AI-assisted lesson planning — ClassPlanner",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Integrated Gemini lesson-plan generation into a web application using pedagogical context, Brazilian BNCC curriculum references and structured objectives, methodology and assessment.",
+            "implementation": [
+              "Prompts combine class, subject, duration, resources, assessment and curriculum skills.",
+              "Structured JSON responses are parsed into the planning workflow."
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "Express",
+              "SQLite",
+              "Gemini",
+              "BNCC"
+            ],
+            "sources": [
+              "ClassPlanner/backend/src/llm/gemini.js",
+              "ClassPlanner/backend/src/controllers/controller.plan.js"
+            ],
+            "text": "Integrated Gemini lesson-plan generation into a web application using pedagogical context, Brazilian BNCC curriculum references and structured objectives, methodology and assessment.",
+            "limit": "JSON parsing does not establish complete schema validation or validated pedagogical quality; the module includes demos and implementation inconsistencies.",
+            "id": "case-ia-3",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React · Node.js · Express · SQLite · Gemini · BNCC"
+          },
+          {
+            "title": "Hybrid conversational CRM — Instagram Conversion CRM",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Built a hybrid AI-and-rules conversation flow with interaction history, action contracts, failure handling and human handoff.",
+            "implementation": [
+              "Conversation state and history provide context for the decision engine.",
+              "Action normalization, retries and handoff connect suggestions to the CRM workflow."
+            ],
+            "skills": [
+              "Node.js",
+              "Express",
+              "SQLite",
+              "Gemini",
+              "conversation history"
+            ],
+            "sources": [
+              "instagram-conversion-crm/src/gemini-spin.js",
+              "instagram-conversion-crm/src/spin-decision-engine.js"
+            ],
+            "text": "Built a hybrid AI-and-rules conversation flow with interaction history, action contracts, failure handling and human handoff.",
+            "limit": "SDK configuration depends on another local project. Conversion uplift and live operation were not verified.",
+            "id": "case-ia-4",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Node.js · Express · SQLite · Gemini · conversation history"
+          },
+          {
+            "title": "EFS-AHP — doctoral research framework",
+            "context": "Doctoral research",
+            "problem": "Developed EFS-AHP as doctoral research combining feature selection, evolutionary algorithms and multicriteria decision analysis, comparing ML alternatives and analyzing performance, dimensionality and computational cost.",
+            "implementation": [
+              "Experiments compare methods including Random Forest, LASSO and dimensionality-reduction approaches.",
+              "Python notebooks and evolutionary routines organize datasets, baselines and statistical analysis; AHP supports comparison of alternatives."
+            ],
+            "skills": [
+              "Python",
+              "scikit-learn",
+              "pandas",
+              "NumPy",
+              "SciPy",
+              "DEAP",
+              "AHP"
+            ],
+            "sources": [
+              "[EFS-AHP]/Experimento 1/[AG].js",
+              "[EFS-AHP]/Experimento 1/[AHP].js",
+              "[EFS-AHP]/Experimento 3/Arquivos/[EFS_AHP]random_forest.py",
+              "[EFS-AHP]/Estatísticas/[ESTATÍSTICA]EXPERIMENTO 1.ipynb"
+            ],
+            "text": "Developed EFS-AHP as doctoral research combining feature selection, evolutionary algorithms and multicriteria decision analysis, comparing ML alternatives and analyzing performance, dimensionality and computational cost.",
+            "limit": "Final publications, metrics and statistical significance require confirmation. Dimensionality reduction and feature selection are distinct methods.",
+            "id": "case-ml-1",
+            "relatedContextAnchors": [
+              "formacao-1"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Python · scikit-learn · pandas · NumPy · SciPy · DEAP · AHP"
+          },
+          {
+            "title": "TraderMind — experiments and inference integration",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Structured quantitative experiments and inference components, connecting data preparation and model/policy evaluation to an API and the MetaTrader5 terminal.",
+            "implementation": [
+              "Time-series preparation and feature engineering feed model and policy experiments.",
+              "API and desktop connector components keep research, inference and execution responsibilities separate."
+            ],
+            "skills": [
+              "Python",
+              "scikit-learn",
+              "XGBoost",
+              "pandas",
+              "Flask",
+              "MetaTrader5"
+            ],
+            "sources": [
+              "mt5/TraderMind/serve.py",
+              "mt5/TraderMind/connector/bot.py",
+              "mt5/TraderMind/scripts/btc_multiagent_policy.py"
+            ],
+            "text": "Structured quantitative experiments and inference components, connecting data preparation and model/policy evaluation to an API and the MetaTrader5 terminal.",
+            "limit": "Temporal validation should not be generalized to every notebook. Verified financial returns are not claimed.",
+            "id": "case-ml-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Python · scikit-learn · XGBoost · pandas · Flask · MetaTrader5"
+          },
+          {
+            "title": "DVR — feedback, datasets and classifier training",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Implemented a computer-vision workflow with detection, example review and custom classifier training from a pretrained model, integrating epoch monitoring, checkpoints, temporal stabilization and persistent alerts.",
+            "implementation": [
+              "Reviewed examples form a training dataset; transfer learning and callbacks organize training and checkpoints.",
+              "Temporal voting and a persistent alert outbox connect detection to operational notifications."
+            ],
+            "skills": [
+              "Python",
+              "OpenCV",
+              "Ultralytics/YOLO",
+              "PyTorch",
+              "Flask",
+              "RTSP"
+            ],
+            "sources": [
+              "DvrPersonAlert/uvinha_training.py",
+              "DvrPersonAlert/detection_reviews.py",
+              "DvrPersonAlert/temporal_identity.py",
+              "DvrPersonAlert/telegram_outbox.py",
+              "DvrPersonAlert/dvr_person_alert.py"
+            ],
+            "text": "Implemented a computer-vision workflow with detection, example review and custom classifier training from a pretrained model, integrating epoch monitoring, checkpoints, temporal stabilization and persistent alerts.",
+            "limit": "Training code was found but was not executed in this review. Generalization across cameras and similarity between dataset splits need evaluation.",
+            "id": "case-visao-1",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Python · OpenCV · Ultralytics/YOLO · PyTorch · Flask · RTSP"
+          },
+          {
+            "title": "Mocap — browser inference and visualization",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Developed browser pose-estimation prototypes integrating inference, keypoint visualization and temporal smoothing to explore motion capture and 3D interaction.",
+            "implementation": [
+              "Existing pose models process video and webcam input in the browser.",
+              "Keypoint rendering, smoothing and 3D resources connect inference to interactive visualization."
+            ],
+            "skills": [
+              "JavaScript",
+              "TensorFlow.js",
+              "MoveNet",
+              "BlazePose",
+              "MediaPipe",
+              "WebGL"
+            ],
+            "sources": [
+              "mocap/src/main.js",
+              "mocap/docs/ARQUITETURA.md",
+              "skeleton from video/detectPoseMediaPipe.js"
+            ],
+            "text": "Developed browser pose-estimation prototypes integrating inference, keypoint visualization and temporal smoothing to explore motion capture and 3D interaction.",
+            "limit": "These applications integrate existing models. Frame rate, latency and retargeting quality were not measured.",
+            "id": "case-visao-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "JavaScript · TensorFlow.js · MoveNet · BlazePose · MediaPipe · WebGL"
+          },
+          {
+            "title": "PLANAGRO — inputs, applications and agronomic rules",
+            "context": "Professional experience — Agrodan",
+            "problem": "Developed agricultural planning components in PLANAGRO, translating input application, dosage, withholding periods, drift and budgets into rules and interfaces connected to operational data.",
+            "implementation": [
+              "Domain rules represent dosage, withholding periods, drift and application constraints.",
+              "Planning interfaces connect operational inputs and budget information to the application workflow."
+            ],
+            "skills": [
+              "React",
+              "JavaScript",
+              "Node.js",
+              "operational APIs",
+              "agronomic rules"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/PlanejamentoAgro/PLANAGRO.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-planagro.js"
+            ],
+            "text": "Developed agricultural planning components in PLANAGRO, translating input application, dosage, withholding periods, drift and budgets into rules and interfaces connected to operational data.",
+            "limit": "Code demonstrates rules, but does not establish agronomic validation or deployment across every operation.",
+            "id": "case-sia-cases-1",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React · JavaScript · Node.js · operational APIs · agronomic rules"
+          },
+          {
+            "title": "Irrigation — scheduling, genetic algorithms and Kc modeling",
+            "context": "Professional experience — Agrodan",
+            "problem": "Explored irrigation scheduling, genetic algorithms and neural modeling of crop coefficient Kc, working with variable encoding, normalization, network parameters and operational backend integration.",
+            "implementation": [
+              "Categorical encoding and normalization prepare variables such as farm, phase, month and soil.",
+              "Neural training, serialized model restoration and evolutionary experiments explore irrigation-related decisions."
+            ],
+            "skills": [
+              "JavaScript",
+              "Node.js",
+              "genetic algorithms",
+              "neural network",
+              "normalization"
+            ],
+            "sources": [
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/KcAutomatico.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/ProgIrrig.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/irrigacao/indexIrrigacao.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-irrigacao.js"
+            ],
+            "text": "Explored irrigation scheduling, genetic algorithms and neural modeling of crop coefficient Kc, working with variable encoding, normalization, network parameters and operational backend integration.",
+            "limit": "The reviewed evaluation reuses training data; historical Kc also appears among inputs/targets and output adjustments are heuristic. Out-of-sample accuracy is not established.",
+            "id": "case-sia-cases-2",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "JavaScript · Node.js · genetic algorithms · neural network · normalization"
+          },
+          {
+            "title": "Spraying audit — maps and field execution",
+            "context": "Professional experience — Agrodan",
+            "problem": "Built spraying-audit components using spatial and operational data, relating trajectories, speed, field blocks and services to support investigation of field execution.",
+            "implementation": [
+              "Maps connect movement and speed to field blocks and operational records.",
+              "Audit interfaces make execution patterns available for operational review."
+            ],
+            "skills": [
+              "React",
+              "geospatial data",
+              "trajectory",
+              "speed",
+              "operational APIs"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/AuditoriaPulverizacao/AuditoriaPulverizacao.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-miam.js"
+            ],
+            "text": "Built spraying-audit components using spatial and operational data, relating trajectories, speed, field blocks and services to support investigation of field execution.",
+            "limit": "Previously declared problem-reduction metrics are not attributed to this specific module without confirmation of initiative, period and measurement.",
+            "id": "case-sia-cases-3",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React · geospatial data · trajectory · speed · operational APIs"
+          },
+          {
+            "title": "Dry matter — harvest forecasting and readiness",
+            "context": "Professional experience — Agrodan",
+            "problem": "Implemented dry-matter analysis and harvest-forecast components connecting readings, varieties and parameters to charts and monitoring rules.",
+            "implementation": [
+              "Equations and parameters relate dry-matter observations to harvest readiness.",
+              "Charts and operational interfaces support monitoring by variety and field context."
+            ],
+            "skills": [
+              "React",
+              "JavaScript",
+              "curves and equations",
+              "charts",
+              "field data"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/MateriaSeca/MateriaSeca.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-materia-seca.js"
+            ],
+            "text": "Implemented dry-matter analysis and harvest-forecast components connecting readings, varieties and parameters to charts and monitoring rules.",
+            "limit": "The evidence consists of equations and rules; it does not automatically establish a trained ML model or validated forecast accuracy.",
+            "id": "case-sia-cases-4",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React · JavaScript · curves and equations · charts · field data"
+          },
+          {
+            "title": "Field notebook and purchasing — local data and synchronization",
+            "context": "Professional experience — Agrodan",
+            "problem": "Developed field-data collection and purchase-request workflows with local storage, process components and synchronization routines integrated with domain-specific backend services.",
+            "implementation": [
+              "Dexie/IndexedDB stores field and purchasing data locally.",
+              "Synchronization handlers and domain APIs connect local records to the backend."
+            ],
+            "skills": [
+              "React",
+              "Dexie",
+              "IndexedDB",
+              "Node.js",
+              "synchronization"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/CadernoCampo/Apontamentos.js",
+              "Agrodan@origin/development:src/pages/SolicitacaoCompras/Solicitacao.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-caderno-campo.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-solicitacao-compras.js"
+            ],
+            "text": "Developed field-data collection and purchase-request workflows with local storage, process components and synchronization routines integrated with domain-specific backend services.",
+            "limit": "Complete offline behavior, conflict resolution and synchronization success rates were not measured in this review.",
+            "id": "case-sia-cases-5",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React · Dexie · IndexedDB · Node.js · synchronization"
+          },
+          {
+            "title": "UGB management, people and improvement suggestions",
+            "context": "Professional experience — Agrodan",
+            "problem": "Modeled business-unit and people-management applications and improvement-suggestion workflows combining organizational records, history, assessments, roles and documents.",
+            "implementation": [
+              "Business units, employees and roles share domain models and reusable components.",
+              "Assessments, history, 5S and improvement workflows organize management information."
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "organizational modeling",
+              "assessments",
+              "history"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/Funcionarios/index.js",
+              "Agrodan@origin/development:src/pages/GestaoUGBs/Modulos/UGBs/index.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-sugestao-melhorias.js"
+            ],
+            "text": "Modeled business-unit and people-management applications and improvement-suggestion workflows combining organizational records, history, assessments, roles and documents.",
+            "limit": "Submodules share architecture and are not independent products. HR outcomes are not claimed without evidence.",
+            "id": "case-sia-cases-6",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React · Node.js · organizational modeling · assessments · history"
+          },
+          {
+            "title": "Commercial monitoring, forecasts and pallet movements",
+            "context": "Professional experience — Agrodan",
+            "problem": "Developed commercial and logistics components connecting records and forecasts to management interfaces and operational pallet/container data.",
+            "implementation": [
+              "Commercial entries, forecasts and exchange-rate information support operational views.",
+              "Pallet and container movements link logistics records to management interfaces."
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "commercial data",
+              "pallets",
+              "containers"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/PrevisaoResultados/index.js",
+              "Agrodan@origin/development:src/pages/MovimentacaoPallet/MovimentacaoPallet.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/comercial/rotas-comercial.js",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-containers.js"
+            ],
+            "text": "Developed commercial and logistics components connecting records and forecasts to management interfaces and operational pallet/container data.",
+            "limit": "A forecast screen name does not prove an ML algorithm. Deployment and measured gains require project-specific attribution.",
+            "id": "case-sia-cases-7",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React · Node.js · commercial data · pallets · containers"
+          },
+          {
+            "title": "Modular ETL and operational data quality",
+            "context": "Professional experience — Agrodan",
+            "problem": "Structured integration pipelines with reusable importers, batch processing and domain rules for production, packing, quality and people, organizing operational data for analysis and decisions.",
+            "implementation": [
+              "Node.js and SQL importers separate extraction, transformation and domain-specific processing.",
+              "Batch persistence, joins and aggregation connect ERP and operational records to indicators."
+            ],
+            "skills": [
+              "Node.js",
+              "SQL",
+              "Oracle",
+              "Sequelize",
+              "ETL",
+              "batch import"
+            ],
+            "sources": [
+              "Agrodan/etl/servers/server-dataware-house/core/importer/from_queries/core-importer-from-queries.js",
+              "Agrodan/etl/servers/server-dataware-house/core/importer/from_dwh/core-importer-from-dwh.js",
+              "Agrodan/etl/servers/server-dataware-house/core/validation/core-validation.js"
+            ],
+            "text": "Structured integration pipelines with reusable importers, batch processing and domain rules for production, packing, quality and people, organizing operational data for analysis and decisions.",
+            "limit": "Historical dependencies and commented routines remain in the archive. Module counts do not establish independent products or deployment of every routine.",
+            "id": "case-dados-1",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Node.js · SQL · Oracle · Sequelize · ETL · batch import"
+          },
+          {
+            "title": "SIAgro — mobile operational data collection",
+            "context": "Professional experience — Agrodan",
+            "problem": "Developed SIAgro mobile modules for work orders, production records and quality using React Native/Expo, business-object modeling, local persistence and operational indicators.",
+            "implementation": [
+              "Mobile workflows organize work orders, employees, targets and quality records.",
+              "Reusable local persistence and API integration connect collection and dashboard components."
+            ],
+            "skills": [
+              "React Native",
+              "Expo",
+              "AsyncStorage",
+              "React Navigation",
+              "APIs"
+            ],
+            "sources": [
+              "Agrodan/sia_app/Modulos/SIAgro/Objetos/ObjetoPadrao.js",
+              "Agrodan/sia_app/Modulos/SIAgro/Telas/OrdemServico/OrdemServico.js",
+              "Agrodan/sia_app/Modulos/SIAgro/Telas/Apontamento/Apontamento.js"
+            ],
+            "text": "Developed SIAgro mobile modules for work orders, production records and quality using React Native/Expo, business-object modeling, local persistence and operational indicators.",
+            "limit": "Complete offline synchronization, operational GPS usage and app publication require confirmation.",
+            "id": "case-mobile-1",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "React Native · Expo · AsyncStorage · React Navigation · APIs"
+          },
+          {
+            "title": "Hospital indicators and academic gamification",
+            "context": "Hospital internship and university project",
+            "problem": "During the hospital internship, developed a Java EE web system for indicators and assessments. At university, built a project-management application with gamification and persistence, exploring progression rules and task organization.",
+            "implementation": [
+              "EBSERH: Java EE, EJB, JSF, PrimeFaces and JPA/Hibernate for hospital indicators and assessments.",
+              "The Game Project: persistent tasks, progression rules, scheduling and an interactive project timeline."
+            ],
+            "skills": [
+              "Java EE",
+              "EJB",
+              "JSF",
+              "PrimeFaces",
+              "JPA/Hibernate",
+              "JPQL",
+              "Quartz"
+            ],
+            "sources": [
+              "ebserh/Gestor de Indicadores-ejb/src/java/com/br/univasf/hu/planejamento/Indicador.java",
+              "The game project/README.md"
+            ],
+            "text": "During the hospital internship, developed a Java EE web system for indicators and assessments. At university, built a project-management application with gamification and persistence, exploring progression rules and task organization.",
+            "limit": "Hospital internship and university work are separate contexts. Code reuse does not establish another hospital employment experience.",
+            "id": "case-mobile-2",
+            "relatedContextAnchors": [
+              "experiencia-9",
+              "academico"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz"
+          },
+          {
+            "title": "Utilibox — multicriteria analysis, queues and applied methods",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Implemented decision-support and learning tools using multicriteria methods, queueing theory, simulation, financial mathematics and spaced repetition, translating models into explainable interfaces and calculations.",
+            "implementation": [
+              "AHP, TOPSIS and PROMETHEE connect criteria and alternatives to decision analysis.",
+              "Queueing, financial and spaced-repetition tools apply domain methods in interactive software."
+            ],
+            "skills": [
+              "Astro",
+              "JavaScript",
+              "TypeScript",
+              "AHP",
+              "TOPSIS",
+              "PROMETHEE",
+              "simulation"
+            ],
+            "sources": [
+              "utilibox/src/tools/ahp-online/domain/consistency.js",
+              "utilibox/src/tools/topsis/domain/topsis.js",
+              "utilibox/src/tools/promethee/domain/promethee.js",
+              "utilibox/src/tools/queueing-theory/logic.js",
+              "utilibox/src/tools/vsm/client.js",
+              "utilibox/src/tools/anki-flashcards/logic.js"
+            ],
+            "text": "Implemented decision-support and learning tools using multicriteria methods, queueing theory, simulation, financial mathematics and spaced repetition, translating models into explainable interfaces and calculations.",
+            "limit": "The catalog contains 136 unique slugs with overlapping categories. Live status is catalog-declared; availability, external validation and actual usage were not verified.",
+            "id": "case-decisao-1",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Astro · JavaScript · TypeScript · AHP · TOPSIS · PROMETHEE · simulation"
+          },
+          {
+            "title": "Cartola and logistics — decisions under constraints",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Developed pipelines connecting data and optimization to decisions, exploring team selection under budget/formation constraints and routing with geographical visualization.",
+            "implementation": [
+              "Cartola combines performance data and probabilistic estimates with constrained team selection.",
+              "Logistics prototypes combine routes, maps and optimization experiments."
+            ],
+            "skills": [
+              "Python",
+              "pandas",
+              "Parquet",
+              "OR-Tools/CBC",
+              "React",
+              "Leaflet"
+            ],
+            "sources": [
+              "cartola_oracle/cartola_markov_optimizer/src/cartola/models/markov.py",
+              "cartola_oracle/cartola_markov_optimizer/src/cartola/optimize/ilp_solver.py",
+              "Logistica/src/leaflet/Roteirizador.js"
+            ],
+            "text": "Developed pipelines connecting data and optimization to decisions, exploring team selection under budget/formation constraints and routing with geographical visualization.",
+            "limit": "Solution quality and comparison metrics require confirmation. NDVI references alone do not establish an operational remote-sensing pipeline.",
+            "id": "case-decisao-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Python · pandas · Parquet · OR-Tools/CBC · React · Leaflet"
+          },
+          {
+            "title": "Narra and UtiliNotas — domain and knowledge applications",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Built narrative and knowledge-organization modules with entity relationships, contextual assistance, response traceability and note interoperability.",
+            "implementation": [
+              "Related entities and linked notes organize narrative and knowledge contexts.",
+              "Contextual assistance and interoperability connect editing, information and responses."
+            ],
+            "skills": [
+              "JavaScript",
+              "TypeScript",
+              "Astro",
+              "entities and relationships",
+              "Markdown"
+            ],
+            "sources": [
+              "utilibox/src/tools/narra/assistant/writing/writingCompanionEngine.js",
+              "utilibox/src/tools/narra/assistant/query/evidenceEngine.js",
+              "utilibox/src/tools/utilinotas/content.md"
+            ],
+            "text": "Built narrative and knowledge-organization modules with entity relationships, contextual assistance, response traceability and note interoperability.",
+            "limit": "Intent dispatch alone does not establish a multiagent architecture or implemented vector RAG/MCP.",
+            "id": "case-produto-1",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "JavaScript · TypeScript · Astro · entities and relationships · Markdown"
+          },
+          {
+            "title": "Marketplace, automation and 3D interaction",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.",
+            "implementation": [
+              "Product roles and integrations organize campaigns and commercial workflows.",
+              "Supervised automation and interactive prototypes explore different product domains."
+            ],
+            "skills": [
+              "Next.js",
+              "Supabase",
+              "PostgreSQL",
+              "Stripe",
+              "Playwright",
+              "SQLite"
+            ],
+            "sources": [
+              "dente_de_leao/README.md",
+              "launch_with_me/docs/ARQUITETURA.md",
+              "linkedin-job-assistant/README.md",
+              "minhas-financas/README.md",
+              "Scrapers/README.md"
+            ],
+            "text": "Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.",
+            "limit": "Revenue, scale and publication are not claimed without data. Payment integrations and planned features have varying maturity.",
+            "id": "case-produto-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite"
+          },
+          {
+            "title": "IT operations management — Agrodan",
+            "context": "Professional experience — Agrodan",
+            "problem": "Managed IT operations, integrating support, servers, networks, continuity, ERP and IoT initiatives with delivery of technology services and solutions.",
+            "implementation": [
+              "Professional responsibilities cover support, Windows/Linux administration, Active Directory and corporate networks.",
+              "Backup/recovery, virtualization, monitoring, security and IoT belong to the declared IT management scope."
+            ],
+            "skills": [
+              "Windows Server",
+              "Linux",
+              "Active Directory",
+              "Zabbix",
+              "GLPI",
+              "networks",
+              "IoT"
+            ],
+            "sources": [
+              "my_ cv/cv-data.json"
+            ],
+            "text": "Managed IT operations, integrating support, servers, networks, continuity, ERP and IoT initiatives with delivery of technology services and solutions.",
+            "limit": "Source: the existing professional CV, rather than repository code audited in this review.",
+            "id": "case-infra-1",
+            "relatedContextAnchors": [
+              "vinculo-agrodan"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Windows Server · Linux · Active Directory · Zabbix · GLPI · networks · IoT"
+          },
+          {
+            "title": "MetaTrader5 desktop connector — TraderMind",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Built a Python connector to the MetaTrader5 desktop terminal, integrating market/account data with the documented research and execution workflow.",
+            "implementation": [
+              "The connector uses the MetaTrader5 package and requires an authenticated local terminal.",
+              "Candles and account data connect policy research with separate API, dashboard and execution components."
+            ],
+            "skills": [
+              "Python",
+              "MetaTrader5",
+              "Flask",
+              "SQLite",
+              "local APIs"
+            ],
+            "sources": [
+              "mt5/TraderMind/connector/bot.py",
+              "mt5/TraderMind/serve.py",
+              "mt5/TraderMind/docs/SETUP_DASHBOARD_BOT.md"
+            ],
+            "text": "Built a Python connector to the MetaTrader5 desktop terminal, integrating market/account data with the documented research and execution workflow.",
+            "limit": "This is desktop integration, not a custom Qt, Electron, WPF or Swing GUI application.",
+            "id": "case-infra-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "Python · MetaTrader5 · Flask · SQLite · local APIs"
+          },
+          {
+            "title": "Dente de Leão — interactive narrative world",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.",
+            "implementation": [
+              "World, player, camera and interactions are organized into game modules.",
+              "React Three Fiber, Rapier and Zustand integrate rendering, physics and application state."
+            ],
+            "skills": [
+              "TypeScript",
+              "React Three Fiber",
+              "Three.js",
+              "Rapier",
+              "Zustand"
+            ],
+            "sources": [
+              "dente_de_leao/README.md",
+              "dente_de_leao/src/game/World.tsx",
+              "dente_de_leao/src/game/player/Player.tsx",
+              "dente_de_leao/src/game/interact/useInteractionProbe.ts",
+              "dente_de_leao/package.json"
+            ],
+            "text": "Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.",
+            "limit": "A browser prototype; commercial release, a proprietary engine or Unity development are not established.",
+            "id": "case-grafica-1",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "TypeScript · React Three Fiber · Three.js · Rapier · Zustand"
+          },
+          {
+            "title": "Maps, models and spatial exploration",
+            "context": "Independent projects, prototypes and research",
+            "problem": "Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.",
+            "implementation": [
+              "Logistics and Leaflet projects combine map interfaces and routing components.",
+              "Three.js experiments include scenes, interaction and model loading using third-party libraries."
+            ],
+            "skills": [
+              "JavaScript",
+              "React",
+              "Leaflet",
+              "Three.js",
+              "Canvas",
+              "FBX"
+            ],
+            "sources": [
+              "Leaflet/index.html",
+              "Logistica/src/leaflet/Roteirizador.js",
+              "movimento_3D/3d.html",
+              "threejs/app.js"
+            ],
+            "text": "Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.",
+            "limit": "This does not establish comprehensive GIS specialization, operational remote sensing or authorship of rendering libraries.",
+            "id": "case-grafica-2",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Depth is described by the implementation and source evidence.",
+            "stack": "JavaScript · React · Leaflet · Three.js · Canvas · FBX"
+          }
+        ],
+        "priorityCases": [
+          {
+            "id": "destaque-utilibox-ahp",
+            "section": "utilibox",
+            "title": "AHP Online — multicriteria decisions and consistency",
+            "context": "Independent product — Utilibox",
+            "text": "Developed a multicriteria decision tool organizing criteria, comparisons and alternatives into an analysis and project-export workflow.",
+            "implementation": [
+              "Saaty-scale comparisons and consistency calculations assess the coherence of judgments.",
+              "Interactive decision modeling presents results and supports project export."
+            ],
+            "stack": "Astro · JavaScript · AHP · comparison matrices · consistency",
+            "relatedContextAnchors": [
+              "utilibox-tool-ahp-online"
+            ],
+            "sources": [
+              "utilibox/src/tools/ahp-online/client.js",
+              "utilibox/src/tools/ahp-online/content.md",
+              "utilibox/src/tools/ahp-online/index.astro"
+            ]
+          },
+          {
+            "id": "destaque-utilibox-topsis-promethee",
+            "section": "utilibox",
+            "title": "TOPSIS and PROMETHEE — rankings and sensitivity",
+            "context": "Independent product — Utilibox",
+            "text": "Implemented tools for comparing alternatives with configurable criteria, weights and preferences, applying multicriteria methods to management decisions.",
+            "implementation": [
+              "TOPSIS ranks alternatives by closeness to the ideal solution, with configurable weights and criterion directions.",
+              "PROMETHEE I and II include preference functions and real-time sensitivity analysis."
+            ],
+            "stack": "Astro · JavaScript · TOPSIS · PROMETHEE · sensitivity analysis",
+            "relatedContextAnchors": [
+              "utilibox-tool-topsis",
+              "utilibox-tool-promethee"
+            ],
+            "sources": [
+              "utilibox/src/tools/topsis/client.js",
+              "utilibox/src/tools/topsis/content.md",
+              "utilibox/src/tools/topsis/index.astro",
+              "utilibox/src/tools/promethee/client.js",
+              "utilibox/src/tools/promethee/content.md",
+              "utilibox/src/tools/promethee/index.astro"
+            ]
+          },
+          {
+            "id": "destaque-utilibox-filas",
+            "section": "utilibox",
+            "title": "Queueing theory — capacity, waiting and service sizing",
+            "context": "Independent product — Utilibox",
+            "text": "Developed calculators and visualizations relating demand, service capacity and waiting, supporting study and comparison of service configurations.",
+            "implementation": [
+              "Calculation routines implement M/M/1, M/M/c, M/D/1, M/M/1/K and Erlang-B/C models.",
+              "Server-count comparisons and sensitivity curves explore changes in arrival rates."
+            ],
+            "stack": "JavaScript · operations research · queueing models · sensitivity curves",
+            "relatedContextAnchors": [
+              "utilibox-tool-teoria-das-filas",
+              "utilibox-tool-queueing-theory"
+            ],
+            "sources": [
+              "utilibox/src/tools/teoria-das-filas/client.js",
+              "utilibox/src/tools/teoria-das-filas/content.md",
+              "utilibox/src/tools/teoria-das-filas/index.astro",
+              "utilibox/src/tools/teoria-das-filas/logic.js",
+              "utilibox/src/tools/queueing-theory/client.js",
+              "utilibox/src/tools/queueing-theory/content.md",
+              "utilibox/src/tools/queueing-theory/index.astro",
+              "utilibox/src/tools/queueing-theory/logic.js",
+              "utilibox/src/tools/queueing-theory/SYNC_VALIDATION.md"
+            ]
+          },
+          {
+            "id": "destaque-utilibox-lean",
+            "section": "utilibox",
+            "title": "VSM, SMED, PDSA and A3 — production engineering and continuous improvement",
+            "context": "Independent product — Utilibox",
+            "text": "Translated process-improvement methods into digital tools for mapping flows, analyzing setup, structuring problems and tracking learning cycles.",
+            "implementation": [
+              "VSM models steps, processing, waiting, uptime, inventory and bottlenecks, with lead-time, takt and PCE metrics.",
+              "SMED explores internal/external activities, conversion and parallelization; PDSA and A3 structure follow-up and action plans."
+            ],
+            "stack": "Astro · JavaScript · Lean · VSM · SMED · PDSA · A3",
+            "relatedContextAnchors": [
+              "utilibox-tool-vsm",
+              "utilibox-tool-smed",
+              "utilibox-tool-pdsa-manager",
+              "utilibox-tool-folha-a3"
+            ],
+            "sources": [
+              "utilibox/src/tools/vsm/client.js",
+              "utilibox/src/tools/vsm/content.md",
+              "utilibox/src/tools/vsm/index.astro",
+              "utilibox/src/tools/smed/client.js",
+              "utilibox/src/tools/smed/content.md",
+              "utilibox/src/tools/smed/index.astro",
+              "utilibox/src/tools/pdsa-manager/client.js",
+              "utilibox/src/tools/pdsa-manager/content.md",
+              "utilibox/src/tools/pdsa-manager/index.astro",
+              "utilibox/src/tools/folha-a3/client.js",
+              "utilibox/src/tools/folha-a3/content.md",
+              "utilibox/src/tools/folha-a3/index.astro"
+            ]
+          },
+          {
+            "id": "destaque-utilibox-financeiro",
+            "section": "utilibox",
+            "title": "Economic analysis — NPV, IRR, payback and scenarios",
+            "context": "Independent product — Utilibox",
+            "text": "Implemented economic-analysis tools transforming cash flows, costs and financing conditions into comparable indicators.",
+            "implementation": [
+              "Simple and discounted payback, NPV and IRR calculations support investment analysis.",
+              "Complementary tools address WACC, break-even and Price, SAC and SAM repayment systems."
+            ],
+            "stack": "JavaScript · financial mathematics · cash flows · investment analysis",
+            "relatedContextAnchors": [
+              "utilibox-tool-calculadora-payback-vpl-tir",
+              "utilibox-tool-calculadora-wacc",
+              "utilibox-tool-simulador-ponto-de-equilibrio",
+              "utilibox-tool-simulador-emprestimo"
+            ],
+            "sources": [
+              "utilibox/src/tools/calculadora-payback-vpl-tir/client.js",
+              "utilibox/src/tools/calculadora-payback-vpl-tir/content.md",
+              "utilibox/src/tools/calculadora-payback-vpl-tir/index.astro",
+              "utilibox/src/tools/calculadora-payback-vpl-tir/logic.js",
+              "utilibox/src/tools/calculadora-wacc/client.js",
+              "utilibox/src/tools/calculadora-wacc/content.md",
+              "utilibox/src/tools/calculadora-wacc/index.astro",
+              "utilibox/src/tools/calculadora-wacc/logic.js",
+              "utilibox/src/tools/simulador-ponto-de-equilibrio/client.js",
+              "utilibox/src/tools/simulador-ponto-de-equilibrio/content.md",
+              "utilibox/src/tools/simulador-ponto-de-equilibrio/index.astro",
+              "utilibox/src/tools/simulador-ponto-de-equilibrio/logic.js",
+              "utilibox/src/tools/simulador-emprestimo/client.js",
+              "utilibox/src/tools/simulador-emprestimo/content.md",
+              "utilibox/src/tools/simulador-emprestimo/index.astro",
+              "utilibox/src/tools/simulador-emprestimo/logic.js"
+            ]
+          },
+          {
+            "id": "destaque-utilibox-priorizacao",
+            "section": "utilibox",
+            "title": "Pareto, GUT and SWOT — prioritization and management analysis",
+            "context": "Independent product — Utilibox",
+            "text": "Developed management tools organizing problems, criteria and scenarios into rankings, charts and decision structures.",
+            "implementation": [
+              "Pareto includes cumulative curves; GUT ranks severity, urgency and trend; SWOT supports cross-analysis of strategies.",
+              "Decision trees include chance/outcome nodes, expected monetary value and optimal-path identification."
+            ],
+            "stack": "JavaScript · Pareto · GUT · SWOT · EMV · decision visualization",
+            "relatedContextAnchors": [
+              "utilibox-tool-analise-pareto",
+              "utilibox-tool-matriz-gut",
+              "utilibox-tool-matriz-swot",
+              "utilibox-tool-arvore-decisao"
+            ],
+            "sources": [
+              "utilibox/src/tools/analise-pareto/client.js",
+              "utilibox/src/tools/analise-pareto/content.md",
+              "utilibox/src/tools/analise-pareto/index.astro",
+              "utilibox/src/tools/analise-pareto/logic.js",
+              "utilibox/src/tools/matriz-gut/client.js",
+              "utilibox/src/tools/matriz-gut/content.md",
+              "utilibox/src/tools/matriz-gut/index.astro",
+              "utilibox/src/tools/matriz-gut/presets.js",
+              "utilibox/src/tools/matriz-swot/client.js",
+              "utilibox/src/tools/matriz-swot/content.md",
+              "utilibox/src/tools/matriz-swot/index.astro",
+              "utilibox/src/tools/matriz-swot/logic.js",
+              "utilibox/src/tools/arvore-decisao/client.js",
+              "utilibox/src/tools/arvore-decisao/content.md",
+              "utilibox/src/tools/arvore-decisao/index.astro",
+              "utilibox/src/tools/arvore-decisao/logic.js"
+            ]
+          },
+          {
+            "id": "destaque-utilibox-conhecimento",
+            "section": "utilibox",
+            "title": "Narra and UtiliNotas — knowledge, context and persistence",
+            "context": "Independent product — Utilibox",
+            "text": "Built narrative and knowledge-organization applications with related entities, linked notes and contextual assistance.",
+            "implementation": [
+              "Markdown editing, internal links and file trees connect note organization to usage context.",
+              "IndexedDB persistence manages transactions and failures; AI assistance resides in dedicated modules."
+            ],
+            "stack": "Astro · JavaScript · Markdown · IndexedDB · entity modeling · contextual AI",
+            "relatedContextAnchors": [
+              "utilibox-tool-narra",
+              "utilibox-tool-utilinotas"
+            ],
+            "sources": [
+              "utilibox/src/tools/narra/acquisitionAttribution.js",
+              "utilibox/src/tools/narra/acquisitionAttribution.test.js",
+              "utilibox/src/tools/narra/aiApply.js",
+              "utilibox/src/tools/narra/aiApply.test.js",
+              "utilibox/src/tools/narra/aiContext.js",
+              "utilibox/src/tools/narra/aiContext.test.js",
+              "utilibox/src/tools/narra/aiEvaluationNotes.js",
+              "utilibox/src/tools/narra/aiEvaluationNotes.test.js",
+              "utilibox/src/tools/narra/aiImportFlow.js",
+              "utilibox/src/tools/narra/aiImportFlow.test.js",
+              "utilibox/src/tools/narra/aiOrganization.js",
+              "utilibox/src/tools/narra/aiOrganization.test.js",
+              "utilibox/src/tools/narra/aiSafety.js",
+              "utilibox/src/tools/narra/aiSafety.test.js",
+              "utilibox/src/tools/narra/aiWritingCompletion.js",
+              "utilibox/src/tools/narra/aiWritingCompletion.test.js",
+              "utilibox/src/tools/narra/analyzeObra.js",
+              "utilibox/src/tools/narra/analyzeObra.test.js",
+              "utilibox/src/tools/narra/blockEditing.js",
+              "utilibox/src/tools/narra/blockEditing.test.js",
+              "utilibox/src/tools/narra/blockLineMove.js",
+              "utilibox/src/tools/narra/blockLineMove.test.js",
+              "utilibox/src/tools/narra/blockPresentation.js",
+              "utilibox/src/tools/narra/blockPresentation.test.js",
+              "utilibox/src/tools/narra/blockPromptContract.js",
+              "utilibox/src/tools/narra/blockPromptContract.test.js",
+              "utilibox/src/tools/narra/blockSurfaces.test.js",
+              "utilibox/src/tools/narra/canvasAiContext.js",
+              "utilibox/src/tools/narra/canvasAiContext.test.js",
+              "utilibox/src/tools/narra/characterRelationMap.js",
+              "utilibox/src/tools/narra/characterRelationMap.test.js",
+              "utilibox/src/tools/narra/client.js",
+              "utilibox/src/tools/narra/cloudReliability.js",
+              "utilibox/src/tools/narra/cloudReliability.test.js",
+              "utilibox/src/tools/narra/comicStats.js",
+              "utilibox/src/tools/narra/comicStats.test.js",
+              "utilibox/src/tools/narra/content.md",
+              "utilibox/src/tools/narra/contentLimits.js",
+              "utilibox/src/tools/narra/contentLimits.test.js",
+              "utilibox/src/tools/narra/dashboardMetrics.js",
+              "utilibox/src/tools/narra/dashboardMetrics.test.js",
+              "utilibox/src/tools/narra/editorShim.js",
+              "utilibox/src/tools/narra/editorSurface.js",
+              "utilibox/src/tools/narra/editorSurface.test.js",
+              "utilibox/src/tools/narra/ENCRYPTION_TODO.md",
+              "utilibox/src/tools/narra/entityPropertySchema.js",
+              "utilibox/src/tools/narra/entityPropertySchema.test.js",
+              "utilibox/src/tools/narra/entityRelationMap.js",
+              "utilibox/src/tools/narra/entityRelationMap.test.js",
+              "utilibox/src/tools/narra/exportAmazonEpub.js",
+              "utilibox/src/tools/narra/exportAmazonEpub.test.js",
+              "utilibox/src/tools/narra/exportBookStructure.js",
+              "utilibox/src/tools/narra/exportBookStructure.test.js",
+              "utilibox/src/tools/narra/exportUiclapPdf.js",
+              "utilibox/src/tools/narra/exportUiclapPdf.test.js",
+              "utilibox/src/tools/narra/fileNames.js",
+              "utilibox/src/tools/narra/fileNames.test.js",
+              "utilibox/src/tools/narra/folderPaths.js",
+              "utilibox/src/tools/narra/folderPaths.test.js",
+              "utilibox/src/tools/narra/formatMockContent.js",
+              "utilibox/src/tools/narra/formatMockContent.test.js",
+              "utilibox/src/tools/narra/formatMockGaps.js",
+              "utilibox/src/tools/narra/formatMockGaps.test.js",
+              "utilibox/src/tools/narra/frontmatter.js",
+              "utilibox/src/tools/narra/guidedFlow.js",
+              "utilibox/src/tools/narra/guidedFlow.test.js",
+              "utilibox/src/tools/narra/guidedRecipes.js",
+              "utilibox/src/tools/narra/guidedRecipes.test.js",
+              "utilibox/src/tools/narra/guidedWizard.test.js",
+              "utilibox/src/tools/narra/hqLayout.js",
+              "utilibox/src/tools/narra/hqLayout.test.js",
+              "utilibox/src/tools/narra/importedEntityProperties.js",
+              "utilibox/src/tools/narra/importedEntityProperties.test.js",
+              "utilibox/src/tools/narra/importedWorkStructure.js",
+              "utilibox/src/tools/narra/importedWorkStructure.test.js",
+              "utilibox/src/tools/narra/importFormatDetection.js",
+              "utilibox/src/tools/narra/importFormatDetection.test.js",
+              "utilibox/src/tools/narra/importRelations.js",
+              "utilibox/src/tools/narra/importRelations.test.js",
+              "utilibox/src/tools/narra/importScriptBlocks.js",
+              "utilibox/src/tools/narra/importScriptBlocks.test.js",
+              "utilibox/src/tools/narra/index.astro",
+              "utilibox/src/tools/narra/indexedDbManager.js",
+              "utilibox/src/tools/narra/indexedDbManager.test.js",
+              "utilibox/src/tools/narra/initialVaultState.js",
+              "utilibox/src/tools/narra/initialVaultState.test.js",
+              "utilibox/src/tools/narra/interactiveStory.js",
+              "utilibox/src/tools/narra/interactiveStory.test.js",
+              "utilibox/src/tools/narra/legacyMigration.js",
+              "utilibox/src/tools/narra/legacyMigration.test.js",
+              "utilibox/src/tools/narra/livePreview.js",
+              "utilibox/src/tools/narra/livePreview.test.js",
+              "utilibox/src/tools/narra/localUnderstandDiagnostic.js",
+              "utilibox/src/tools/narra/localUnderstandDiagnostic.test.js",
+              "utilibox/src/tools/narra/manuscriptCompiler.js",
+              "utilibox/src/tools/narra/manuscriptCompiler.test.js",
+              "utilibox/src/tools/narra/manuscriptImport.js",
+              "utilibox/src/tools/narra/manuscriptImport.test.js",
+              "utilibox/src/tools/narra/markdownFormatting.js",
+              "utilibox/src/tools/narra/markdownFormatting.test.js",
+              "utilibox/src/tools/narra/mockWork.js",
+              "utilibox/src/tools/narra/mockWork.test.js",
+              "utilibox/src/tools/narra/narraAcknowledgements.js",
+              "utilibox/src/tools/narra/narraAcknowledgements.test.js",
+              "utilibox/src/tools/narra/narraBlocks.js",
+              "utilibox/src/tools/narra/narraBlocks.test.js",
+              "utilibox/src/tools/narra/narraContextEngine.js",
+              "utilibox/src/tools/narra/narraContextEngine.test.js",
+              "utilibox/src/tools/narra/narraCoverageMatrix.js",
+              "utilibox/src/tools/narra/narraCoverageMatrix.test.js",
+              "utilibox/src/tools/narra/narraCreateFlows.js",
+              "utilibox/src/tools/narra/narraCreateFlows.test.js",
+              "utilibox/src/tools/narra/narraCreationWeights.js",
+              "utilibox/src/tools/narra/narraCreationWeights.test.js",
+              "utilibox/src/tools/narra/narraDiagnosticReadiness.js",
+              "utilibox/src/tools/narra/narraDiagnosticReadiness.test.js",
+              "utilibox/src/tools/narra/narraExport.js",
+              "utilibox/src/tools/narra/narraExport.test.js",
+              "utilibox/src/tools/narra/narraGapEngine.js",
+              "utilibox/src/tools/narra/narraGapEngine.test.js",
+              "utilibox/src/tools/narra/narraGoalTracking.js",
+              "utilibox/src/tools/narra/narraGoalTracking.test.js",
+              "utilibox/src/tools/narra/narraNextBestAction.js",
+              "utilibox/src/tools/narra/narraNextBestAction.test.js",
+              "utilibox/src/tools/narra/narraObraPhase.js",
+              "utilibox/src/tools/narra/narraObraPhase.test.js",
+              "utilibox/src/tools/narra/narraOpenQuestions.js",
+              "utilibox/src/tools/narra/narraOpenQuestions.test.js",
+              "utilibox/src/tools/narra/narraRelationHealth.js",
+              "utilibox/src/tools/narra/narraRelationHealth.test.js",
+              "utilibox/src/tools/narra/narraSemanticFindings.js",
+              "utilibox/src/tools/narra/narraSemanticFindings.test.js",
+              "utilibox/src/tools/narra/narraStructuralGapEngine.js",
+              "utilibox/src/tools/narra/narraStructuralGapEngine.test.js",
+              "utilibox/src/tools/narra/narrativeEntities.js",
+              "utilibox/src/tools/narra/narrativeEntities.test.js",
+              "utilibox/src/tools/narra/narraValidationEngine.js",
+              "utilibox/src/tools/narra/narraValidationEngine.test.js",
+              "utilibox/src/tools/narra/narraWritingSession.js",
+              "utilibox/src/tools/narra/narraWritingSession.test.js",
+              "utilibox/src/tools/narra/noteDocumentExport.js",
+              "utilibox/src/tools/narra/noteDocumentExport.test.js",
+              "utilibox/src/tools/narra/noteTemplateCatalog.js",
+              "utilibox/src/tools/narra/noteTemplateCatalog.test.js",
+              "utilibox/src/tools/narra/noteTitleLookup.js",
+              "utilibox/src/tools/narra/noteTitleLookup.test.js",
+              "utilibox/src/tools/narra/obraClientContract.test.js",
+              "utilibox/src/tools/narra/obraDashboard.js",
+              "utilibox/src/tools/narra/obraDashboard.test.js",
+              "utilibox/src/tools/narra/obraFamilyPhase.js",
+              "utilibox/src/tools/narra/obraFindings.js",
+              "utilibox/src/tools/narra/obraFindings.test.js",
+              "utilibox/src/tools/narra/obraGateR3.test.js",
+              "utilibox/src/tools/narra/obraIaPorFormato.test.js",
+              "utilibox/src/tools/narra/obraLens.js",
+              "utilibox/src/tools/narra/obraLens.test.js",
+              "utilibox/src/tools/narra/obraLensSlots.test.js",
+              "utilibox/src/tools/narra/obraProgressByFormat.js",
+              "utilibox/src/tools/narra/obraProgressByFormat.test.js",
+              "utilibox/src/tools/narra/obraRegressaoRomance.test.js",
+              "utilibox/src/tools/narra/obraRomanceSnapshot.js",
+              "utilibox/src/tools/narra/obraTestFixtures.js",
+              "utilibox/src/tools/narra/offlineObraInsights.js",
+              "utilibox/src/tools/narra/offlineObraInsights.test.js",
+              "utilibox/src/tools/narra/onboardingBlueprints.js",
+              "utilibox/src/tools/narra/onboardingComposer.js",
+              "utilibox/src/tools/narra/onboardingComposer.test.js",
+              "utilibox/src/tools/narra/onboardingDraft.js",
+              "utilibox/src/tools/narra/onboardingDraft.test.js",
+              "utilibox/src/tools/narra/onboardingEngine.js",
+              "utilibox/src/tools/narra/onboardingEngine.test.js",
+              "utilibox/src/tools/narra/onboardingMissions.js",
+              "utilibox/src/tools/narra/onboardingMissions.test.js",
+              "utilibox/src/tools/narra/onboardingMock.js",
+              "utilibox/src/tools/narra/onboardingMock.test.js",
+              "utilibox/src/tools/narra/onboardingSeeds.js",
+              "utilibox/src/tools/narra/onboardingSeeds.test.js",
+              "utilibox/src/tools/narra/onboardingTelemetry.js",
+              "utilibox/src/tools/narra/onboardingTelemetry.test.js",
+              "utilibox/src/tools/narra/onboardingWizardLogic.js",
+              "utilibox/src/tools/narra/onboardingWizardLogic.test.js",
+              "utilibox/src/tools/narra/pageEngine.js",
+              "utilibox/src/tools/narra/paragraphActions.js",
+              "utilibox/src/tools/narra/paragraphActions.test.js",
+              "utilibox/src/tools/narra/persistenceContract.test.js",
+              "utilibox/src/tools/narra/plannerDrag.js",
+              "utilibox/src/tools/narra/plannerDrag.test.js",
+              "utilibox/src/tools/narra/plotlineNotes.test.js",
+              "utilibox/src/tools/narra/poemForms.js",
+              "utilibox/src/tools/narra/poemForms.test.js",
+              "utilibox/src/tools/narra/profileScope.js",
+              "utilibox/src/tools/narra/profileScope.test.js",
+              "utilibox/src/tools/narra/projectSchemas.js",
+              "utilibox/src/tools/narra/projectSchemas.test.js",
+              "utilibox/src/tools/narra/relationProperties.js",
+              "utilibox/src/tools/narra/relationProperties.test.js",
+              "utilibox/src/tools/narra/resourceLimits.js",
+              "utilibox/src/tools/narra/resourceLimits.test.js",
+              "utilibox/src/tools/narra/seedSampler.js",
+              "utilibox/src/tools/narra/seedSampler.test.js",
+              "utilibox/src/tools/narra/semanticFindingFamilies.js",
+              "utilibox/src/tools/narra/semanticFindingsPrompt.js",
+              "utilibox/src/tools/narra/semanticFindingsPrompt.test.js",
+              "utilibox/src/tools/narra/semanticRefreshPolicy.js",
+              "utilibox/src/tools/narra/semanticRefreshPolicy.test.js",
+              "utilibox/src/tools/narra/spellcheck.js",
+              "utilibox/src/tools/narra/spellcheck.test.js",
+              "utilibox/src/tools/narra/spellcheckWorker.js",
+              "utilibox/src/tools/narra/stageAndScreen.js",
+              "utilibox/src/tools/narra/stageAndScreen.test.js",
+              "utilibox/src/tools/narra/storyReview.js",
+              "utilibox/src/tools/narra/storyReview.test.js",
+              "utilibox/src/tools/narra/structureOutline.js",
+              "utilibox/src/tools/narra/structureOutline.test.js",
+              "utilibox/src/tools/narra/syncPolicy.js",
+              "utilibox/src/tools/narra/syncPolicy.test.js",
+              "utilibox/src/tools/narra/telemetry.js",
+              "utilibox/src/tools/narra/telemetry.test.js",
+              "utilibox/src/tools/narra/titlePolicy.js",
+              "utilibox/src/tools/narra/titlePolicy.test.js",
+              "utilibox/src/tools/narra/understandUpdate.js",
+              "utilibox/src/tools/narra/understandUpdate.test.js",
+              "utilibox/src/tools/narra/understandUpdateState.js",
+              "utilibox/src/tools/narra/understandUpdateState.test.js",
+              "utilibox/src/tools/narra/vaultExamples.js",
+              "utilibox/src/tools/narra/vaultExamples.test.js",
+              "utilibox/src/tools/narra/versionCompare.js",
+              "utilibox/src/tools/narra/versionCompare.test.js",
+              "utilibox/src/tools/narra/writingCompanion.js",
+              "utilibox/src/tools/narra/writingCompanion.test.js",
+              "utilibox/src/tools/utilinotas/aiApply.js",
+              "utilibox/src/tools/utilinotas/aiApply.test.js",
+              "utilibox/src/tools/utilinotas/aiContext.js",
+              "utilibox/src/tools/utilinotas/aiContext.test.js",
+              "utilibox/src/tools/utilinotas/aiEvaluationNotes.js",
+              "utilibox/src/tools/utilinotas/aiEvaluationNotes.test.js",
+              "utilibox/src/tools/utilinotas/aiOrganization.js",
+              "utilibox/src/tools/utilinotas/aiOrganization.test.js",
+              "utilibox/src/tools/utilinotas/aiSafety.js",
+              "utilibox/src/tools/utilinotas/aiSafety.test.js",
+              "utilibox/src/tools/utilinotas/canvasAiContext.js",
+              "utilibox/src/tools/utilinotas/canvasAiContext.test.js",
+              "utilibox/src/tools/utilinotas/client.js",
+              "utilibox/src/tools/utilinotas/cloudReliability.js",
+              "utilibox/src/tools/utilinotas/cloudReliability.test.js",
+              "utilibox/src/tools/utilinotas/content.md",
+              "utilibox/src/tools/utilinotas/ENCRYPTION_TODO.md",
+              "utilibox/src/tools/utilinotas/fileNames.js",
+              "utilibox/src/tools/utilinotas/fileNames.test.js",
+              "utilibox/src/tools/utilinotas/folderPaths.js",
+              "utilibox/src/tools/utilinotas/folderPaths.test.js",
+              "utilibox/src/tools/utilinotas/index.astro",
+              "utilibox/src/tools/utilinotas/indexedDbManager.js",
+              "utilibox/src/tools/utilinotas/indexedDbManager.test.js",
+              "utilibox/src/tools/utilinotas/initialVaultState.js",
+              "utilibox/src/tools/utilinotas/initialVaultState.test.js",
+              "utilibox/src/tools/utilinotas/markdownFormatting.js",
+              "utilibox/src/tools/utilinotas/markdownFormatting.test.js",
+              "utilibox/src/tools/utilinotas/noteDocumentExport.js",
+              "utilibox/src/tools/utilinotas/noteDocumentExport.test.js",
+              "utilibox/src/tools/utilinotas/noteTemplateCatalog.js",
+              "utilibox/src/tools/utilinotas/noteTemplateCatalog.test.js",
+              "utilibox/src/tools/utilinotas/paragraphActions.js",
+              "utilibox/src/tools/utilinotas/paragraphActions.test.js",
+              "utilibox/src/tools/utilinotas/resourceLimits.js",
+              "utilibox/src/tools/utilinotas/resourceLimits.test.js",
+              "utilibox/src/tools/utilinotas/storyReview.js",
+              "utilibox/src/tools/utilinotas/storyReviewCards.js",
+              "utilibox/src/tools/utilinotas/storyReviewCards.test.js",
+              "utilibox/src/tools/utilinotas/syncPolicy.js",
+              "utilibox/src/tools/utilinotas/syncPolicy.test.js",
+              "utilibox/src/tools/utilinotas/telemetry.js",
+              "utilibox/src/tools/utilinotas/UTILINOTAS_PRODUCT_TODO.md",
+              "utilibox/src/tools/utilinotas/vaultCrashRecovery.js",
+              "utilibox/src/tools/utilinotas/vaultCrashRecovery.test.js",
+              "utilibox/src/tools/utilinotas/vaultExamples.js",
+              "utilibox/src/tools/utilinotas/vaultExamples.test.js",
+              "utilibox/src/tools/utilinotas/vaultImportFormats.js",
+              "utilibox/src/tools/utilinotas/vaultImportFormats.test.js",
+              "utilibox/src/tools/utilinotas/visualMarkdown.js",
+              "utilibox/src/tools/utilinotas/visualMarkdown.test.js"
+            ]
+          },
+          {
+            "id": "destaque-utilibox-aprendizagem",
+            "section": "utilibox",
+            "title": "Flashcards — spaced repetition and study tracking",
+            "context": "Independent product — Utilibox",
+            "text": "Implemented a study application organizing cards and reviews through spaced repetition, retention tracking and export.",
+            "implementation": [
+              "SM-2, due-card selection, suspension/resumption and review forecasting organize study.",
+              "Anki Desktop TSV and PDF exports support structured decks and content."
+            ],
+            "stack": "JavaScript · SM-2 · local persistence · TSV · PDF",
+            "relatedContextAnchors": [
+              "utilibox-tool-anki-flashcards"
+            ],
+            "sources": [
+              "utilibox/src/tools/anki-flashcards/client.js",
+              "utilibox/src/tools/anki-flashcards/content.md",
+              "utilibox/src/tools/anki-flashcards/index.astro",
+              "utilibox/src/tools/anki-flashcards/logic.js"
+            ]
+          },
+          {
+            "id": "destaque-sia-sgq",
+            "section": "agrodan",
+            "title": "QMS — audits, records and quality management",
+            "context": "Professional experience — Agrodan",
+            "text": "Developed quality-management modules organizing audits, records and roles with process follow-up and local storage.",
+            "implementation": [
+              "Audit, configuration and responsibility models support management interfaces.",
+              "Dexie/IndexedDB local data and synchronization handlers connect workflows."
+            ],
+            "stack": "React · JavaScript · Dexie · IndexedDB · synchronization",
+            "relatedContextAnchors": [
+              "vinculo-agrodan",
+              "sia-negocio-75"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/SGQ/Auditorias.js:1",
+              "Agrodan@origin/development:src/pages/SGQ/Config.js:1",
+              "Agrodan@origin/development:src/pages/SGQ/CriarAuditoria.js:1"
+            ]
+          },
+          {
+            "id": "destaque-sia-qualidade-campo",
+            "section": "agrodan",
+            "title": "Field quality — checklists and operational assessments",
+            "context": "Professional experience — Agrodan",
+            "text": "Developed field-quality assessment workflows with checklists, responses and integration between interfaces and the domain backend.",
+            "implementation": [
+              "Checklists and responses use Dexie/IndexedDB local persistence.",
+              "Synchronization routines and corresponding backend routes were located in the archive."
+            ],
+            "stack": "React · JavaScript · Dexie · IndexedDB · Node.js · domain APIs",
+            "relatedContextAnchors": [
+              "vinculo-agrodan",
+              "sia-negocio-67"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/QualidadeCampo/Qualidade.js:1",
+              "Agrodan@origin/development:src/pages/QualidadeCampo/Respostas.js:1",
+              "Agrodan@origin/development:src/pages/QualidadeCampo/index.js:1",
+              "Agrodan/etl@origin/development:servers/server-backend/rotas/rotas-qualidade-campo.js:1"
+            ]
+          },
+          {
+            "id": "destaque-sia-packing",
+            "section": "agrodan",
+            "title": "Packing and box handling — operational interfaces",
+            "context": "Professional experience — Agrodan",
+            "text": "Developed packing and box-handling interfaces organizing access to operations and connecting events to monitoring components.",
+            "implementation": [
+              "Separate packing and box-handling components structure the corporate frontend.",
+              "Socket event integration is present in the module code."
+            ],
+            "stack": "React · JavaScript · socket events · operational interfaces",
+            "relatedContextAnchors": [
+              "vinculo-agrodan",
+              "sia-negocio-61"
+            ],
+            "sources": [
+              "Agrodan@origin/development:src/pages/Packing/Packing.js:1",
+              "Agrodan@origin/development:src/pages/Packing/Caixaria/Caixaria.js:1"
+            ]
+          }
+        ],
+        "editorial": {
+          "skillGroups": [
+            {
+              "title": "AI, agents and automation",
+              "description": "LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.",
+              "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer."
+            },
+            {
+              "title": "Machine Learning and research",
+              "description": "Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation.",
+              "origin": "EFS-AHP doctoral research, TraderMind and exploratory irrigation modeling."
+            },
+            {
+              "title": "Software engineering",
+              "description": "Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.",
+              "origin": "SIA/SIAgro, EBSERH, The Game Project and independent products."
+            },
+            {
+              "title": "Data and decisions",
+              "description": "ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.",
+              "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística."
+            },
+            {
+              "title": "Leadership and operations",
+              "description": "Technology management, business alignment, team development, PMBOK, Scrum, Kanban, governance, infrastructure and security.",
+              "origin": "Technology Enablement Lead, Head of Technology, IT Manager and IT Business Partner roles."
+            },
+            {
+              "title": "Products and applied methods",
+              "description": "Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.",
+              "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations."
+            }
+          ],
+          "technologyGroups": [
+            {
+              "title": "Languages",
+              "description": "Python, SQL, JavaScript, TypeScript and Java."
+            },
+            {
+              "title": "Web, APIs and products",
+              "description": "React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase."
+            },
+            {
+              "title": "Mobile and offline",
+              "description": "React Native, Expo, AsyncStorage, IndexedDB and Dexie; integrations with the MetaTrader5 terminal."
+            },
+            {
+              "title": "Data and persistence",
+              "description": "Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize."
+            },
+            {
+              "title": "ML and computer vision",
+              "description": "scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js and MediaPipe."
+            },
+            {
+              "title": "Decision and visualization",
+              "description": "AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js and React Three Fiber."
+            },
+            {
+              "title": "Automation and integration",
+              "description": "LLM APIs, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform and RPA."
+            },
+            {
+              "title": "Cloud and operations",
+              "description": "Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI."
+            }
+          ]
+        }
+      }
+    },
+    "availableLanguages": [
+      "pt",
+      "en"
+    ]
   }
 }

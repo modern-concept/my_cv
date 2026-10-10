@@ -43,7 +43,7 @@ def build():
         if key not in allowed and pt[key]!=value: raise ValueError('Conteúdo original alterado: '+key)
     for key,value in current['fullCv'].items():
         if key!='coreStack' and pt['fullCv'][key]!=value: raise ValueError('Bloco profissional alterado: '+key)
-    for language in ['en','de']:
+    for language in [code for code in original['languages'] if code!='pt']:
         if experimental['languages'][language]!=original['languages'][language]: raise ValueError('Idioma original alterado')
 
     full=current['fullCv']
@@ -176,6 +176,15 @@ def build():
     pt['skills']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['skillGroups']]
     pt['tools']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['technologyGroups']]
     pt['fullCv']['coreStack']=['Python','SQL','JavaScript','TypeScript','Java','React','Node.js','React Native / Expo','Oracle / PostgreSQL','BigQuery','Azure','Power Platform','scikit-learn','YOLO / OpenCV','APIs de LLM','ETL']
+    english=runpy.run_path(str(BASE/'scripts/cv-english.py'))
+    locale=english['build_locale'](experimental)
+    experimental['extensions']['locales']={'en':locale}
+    experimental['extensions']['availableLanguages']=['pt','en']
+    en=experimental['languages']['en']
+    en['skills']=[{'name':g['title']+': '+g['description']} for g in locale['editorial']['skillGroups']]
+    en['tools']=[{'name':g['title']+': '+g['description']} for g in locale['editorial']['technologyGroups']]
+    en['fullCv']['coreStack']=[v.replace('APIs de LLM','LLM APIs') for v in pt['fullCv']['coreStack']]
+    experimental['languages'].pop('de',None)
     base_parts[-2]=section('competencias','Competências e aplicações', ''.join('<h3>'+esc(g['title'])+'</h3>'+paras([g['description'],g['origin']]) for g in experimental['extensions']['editorial']['skillGroups']))
     base_parts[-1]=section('tecnologias','Tecnologias e ferramentas', ''.join('<p><strong>'+esc(g['title'])+':</strong> '+esc(g['description'])+'</p>' for g in experimental['extensions']['editorial']['technologyGroups']))
     all_sections=base_parts+[association_map]+new_sections+preserved
@@ -189,6 +198,29 @@ def build():
     internal_links=set(re.findall(r'href="#([^"]+)"',page))
     if internal_links-ids: raise ValueError('Vínculos sem destino: '+str(internal_links-ids))
     (BASE/'cv-experimental.html').write_text(page,encoding='utf-8')
+    english_sections=english['build_archive'](BASE,experimental,locale)
+    en_jobs=[]
+    for i,j in enumerate(en['fullCv']['primaryExperience']+en['fullCv']['additionalExperience']):
+        en_jobs.append('<article id="experiencia-'+str(i+1)+'" class="job"><h3>'+esc(j['role'])+'</h3><p class="company">'+esc(j['company'])+'</p><p class="meta">'+esc(j['period'])+' · '+esc(j.get('location',''))+'</p>'+chips(j.get('highlights',[]))+bullets(j.get('bullets',[]))+('<p><strong>Technologies:</strong> '+esc(', '.join(j['technologies']))+'</p>' if j.get('technologies') else '')+'</article>')
+    en_education=['<article id="formacao-'+str(i+1)+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p>'+esc(e['school'])+'</p><p>'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>' for i,e in enumerate(en['education'])]
+    english_page=engine['build_page'](BASE,experimental,english_sections,en_jobs,en_education,len(en['fullCv']['primaryExperience']),language='en')
+    english_ids=set(re.findall(r'\bid="([^"]+)"',english_page))
+    english_links=set(re.findall(r'href="#([^"]+)"',english_page))
+    if english_links-english_ids: raise ValueError('English links without targets: '+str(english_links-english_ids))
+    (BASE/'cv-experimental-en.html').write_text(english_page,encoding='utf-8')
+    english_text=section('profile','Professional profile',paras(en['profile']['summary']))+section('experience','Professional experience',''.join(en_jobs))+section('results','Impact highlights',bullets(en['fullCv']['keyImpacts']))+section('education','Education',''.join(en_education))
+    english_text+=section('skills','Skills and applications',''.join('<h3>'+esc(g['title'])+'</h3>'+paras([g['description'],g['origin']]) for g in locale['editorial']['skillGroups']))
+    english_text+=section('tools','Technologies and tools',''.join('<p><strong>'+esc(g['title'])+':</strong> '+esc(g['description'])+'</p>' for g in locale['editorial']['technologyGroups']))
+    english_text+=editorial['core_sections'](experimental,'en')+'<h1>Technical archive</h1>'+''.join(english_sections)
+    for key in ['coverLetter','coverLetterSwiss']:
+        letter=en[key]
+        english_text+=section(key,'Cover letter'+(' — Switzerland' if key.endswith('Swiss') else ''),paras([letter['greeting'],*letter['paragraphs'],letter['closing'],letter['signature']]))
+    english_text=re.sub(r'<(h[1-4])[^>]*>(.*?)</\1>',lambda m:'\n\n'+'#'*int(m[1][1])+' '+re.sub('<[^>]+>','',m[2])+'\n',english_text,flags=re.S)
+    english_text=re.sub(r'<li[^>]*>','\n- ',english_text)
+    english_text=re.sub(r'<(?:br|/p|/article|/tr)[^>]*>','\n',english_text)
+    english_text=html.unescape(re.sub(r'<[^>]+>',' ',english_text))
+    english_text=re.sub(r'[ \t]+',' ',english_text)
+    (BASE/'cv-experimental-en.md').write_text('# '+en['profile']['name']+'\n\n'+en['profile']['headline']+'\n'+english_text+'\n',encoding='utf-8')
     # Text counterpart includes the same visible content for plain-text readers.
     text_sections=''.join(base_parts)+editorial['core_sections'](experimental)+'<h1>Anexos: acervo técnico completo</h1>'+''.join([association_map]+new_sections+preserved)
     text=re.sub(r'<(h[1-4])[^>]*>(.*?)</\1>',lambda m:'\n\n'+'#'*int(m[1][1])+' '+re.sub('<[^>]+>','',m[2])+'\n', text_sections,flags=re.S)

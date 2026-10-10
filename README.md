@@ -1,6 +1,6 @@
 # CV digital — Danillo Xavier
 
-Projeto do currículo digital, com versões em português, inglês e alemão e recursos de impressão do CV e da carta de apresentação.
+Projeto do currículo digital, com versões em português e inglês e recursos de impressão do CV e da carta de apresentação.
 
 ## Arquivos principais
 
@@ -22,12 +22,15 @@ Abra `cv-experimental.html` diretamente no navegador. A versão experimental usa
 - Conteúdo original preservado: título, perfil, contato, cargos, períodos, resultados, reconhecimentos, formação, síntese da experiência e cartas de apresentação.
 - Habilidades, ferramentas e stack reorganizadas somente na versão experimental.
 - Novas seções: contextos e vínculos, onze especialidades, 28 cases técnicos, catálogo dos 36 projetos/pastas, módulos SIA, fluxos de dados/mobile, ferramentas Utilibox e matriz de competências por case.
-- `cv-experimental-data.json`: dados originais com os ajustes autorizados e extensões estruturadas, incluindo vínculos e evidências. Os idiomas originais EN/DE permanecem preservados.
+- `cv-experimental-data.json`: dados em PT/EN com os ajustes autorizados e extensões estruturadas, incluindo vínculos e evidências. `extensions.locales.en` contém os textos editoriais em inglês.
 - `cv-experimental.md`: versão textual para leitura e processamento.
+- `cv-experimental-en.html` e `cv-experimental-en.md`: currículo ampliado e versão textual em inglês, com os mesmos destaques do SIA/Utilibox e o acervo técnico completo.
 
 O CV atual em `index.html` e `cv-data.json` continua disponível. O estado anterior à experiência foi salvo no commit `648d76f`. Para regenerar a versão experimental, execute `python scripts/build-experimental-cv.py`; o gerador preserva os blocos originais e exige que os vínculos internos tenham destino no HTML.
 
-A expansão está inicialmente em português e aparece no modo completo em PT. Os idiomas EN/DE mantêm o conteúdo original, sem tradução automática da expansão. As novas seções vêm depois das páginas originais, com índice e vínculos para os cargos e a formação. Cartas e síntese compacta permanecem acessíveis pelos controles existentes; a versão textual também as conserva. O gerador reutiliza `index.html` por meio de `scripts/experimental-engine.py`; `scripts/experimental-engine.css` adapta o tema para conteúdos extensos e permite que as páginas fluam na impressão, sem altura fixa ou corte do texto. O catálogo contém módulos, submódulos, fluxos e versões do mesmo ecossistema; seus totais não representam produtos independentes ou comprovação de implantação.
+A expansão está disponível em português e inglês. O botão de idioma alterna entre `cv-experimental.html` e `cv-experimental-en.html`, mantendo o modo compacto/completo e a opção de impressão. Os dois arquivos usam o mesmo layout. A opção em alemão foi removida da interface e dos dados ativos, inclusive no CV original; arquivos históricos e commits permanecem no repositório. As novas seções vêm depois das páginas originais, com índice e vínculos para os cargos e a formação. Cartas e síntese compacta permanecem acessíveis pelos controles existentes; as versões textuais também conservam as cartas. O gerador reutiliza `index.html` por meio de `scripts/experimental-engine.py`; `scripts/experimental-engine.css` adapta o tema para conteúdos extensos e permite que as páginas fluam na impressão. O catálogo contém módulos, submódulos, fluxos e versões do mesmo ecossistema; seus totais não representam produtos independentes ou comprovação de implantação.
+
+`scripts/cv-english.py` contém a redação dos cases, competências e controles em inglês. `scripts/cv-english-catalogs.py` contém títulos e descrições dos projetos e catálogos. A redação dos anexos em inglês é uma adaptação editorial: preserva a cobertura dos 28 cases, 36 pastas, 94 módulos, 48 fluxos e 136 ferramentas, com descrições sintéticas de aplicação. Nomes próprios, siglas de domínio, identificadores e caminhos de código são mantidos. A versão portuguesa conserva o detalhamento original da pesquisa.
 
 ### Apresentação como currículo
 
@@ -39,7 +42,7 @@ Os 28 cases aprofundados originais e o catálogo completo continuam nos anexos. 
 
 O acervo completo permanece no HTML em **Acervo técnico completo**, inicialmente recolhido. Links para fontes abrem o anexo correspondente. Para incluir esse material na impressão, marque **Incluir acervo técnico no PDF**; a impressão padrão contém o currículo e os resumos dos cases. As regras de paginação foram adaptadas no CSS, mas a paginação final depende do navegador e ainda precisa de revisão visual.
 
-`scripts/cv-editorial.py` organiza as competências, tecnologias e resumos. O original em `index.html` permanece preservado, e o motor existente continua responsável por idiomas, alternância de versões, cartas e impressão.
+`scripts/cv-editorial.py` organiza as competências, tecnologias e resumos. O conteúdo profissional e o layout de `index.html` permanecem preservados; a alteração no original retira o idioma alemão. O motor existente continua responsável pela apresentação, alternância de versões, cartas e impressão.
 
 ## Proposta de evolução do currículo
 

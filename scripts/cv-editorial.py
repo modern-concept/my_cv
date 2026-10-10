@@ -55,9 +55,10 @@ TECH_GROUPS = [
     ('Cloud e operação', 'Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI.'),
 ]
 
-def core_sections(data):
-    cases = data['extensions']['cases']
-    priorities = data['extensions']['priorityCases']
+def core_sections(data, language='pt'):
+    content_data = data['extensions']['locales']['en'] if language == 'en' else data['extensions']
+    cases = content_data['cases']
+    priorities = content_data['priorityCases']
     groups = [
         ('cv-agrodan', 'Projetos e engenharia aplicada na Agrodan', 'Ecossistema SIA / SIAgro · experiência profissional', [c for c in cases if c['id'].startswith(('case-sia-cases-', 'case-dados-', 'case-mobile-1', 'case-infra-1'))] + [c for c in priorities if c['section'] == 'agrodan']),
         ('cv-utilibox', 'Utilibox — produtos e métodos aplicados', 'Decisão, pesquisa operacional, engenharia de produção, finanças e conhecimento · produto independente', [c for c in priorities if c['section'] == 'utilibox']),
@@ -82,7 +83,13 @@ def core_sections(data):
             content += '<p class="career-reference">' + links + detail + '</p></article>'
         result.append(content + '</div></section>')
     result[-1] = result[-1].replace('career-project-page"', 'career-project-page career-last"', 1)
-    return ''.join(result)
+    rendered = ''.join(result)
+    if language == 'en':
+        import runpy
+        from pathlib import Path
+        english = runpy.run_path(str(Path(__file__).with_name('cv-english.py')))
+        rendered = english['translate_labels'](rendered)
+    return rendered
 
 def career_markup(data):
     def card(titleid, bodyid, title, cls='', tag='div'):
