@@ -1,7 +1,6 @@
 # DANILLO XAVIER
 
-Senior AI & Automation Engineer
-Tech Lead
+Senior AI & Automation Engineer | Tech Lead
 
 
 ## Professional profile
@@ -123,6 +122,7 @@ Tech Lead
  CÉSAR SCHOOL
  2020 — 2025
 
+- Completed in 2025.
 - Thesis: Evolutionary Algorithms for Feature Selection in regression algorithms.
 - Datasets: Irrigation (Kc), Mango sizes, Productivity
 

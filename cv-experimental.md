@@ -1,7 +1,6 @@
 # DANILLO XAVIER
 
-Senior AI & Automation Engineer
-Tech Lead
+Senior AI & Automation Engineer | Tech Lead
 
 Endereço: Petrolina, Pernambuco, Brasil · Telefone: +55 87 98133-6310 · Email: danillox5@hotmail.com
 
@@ -9,8 +8,8 @@ Versão experimental ampliada — 09/10/2026.
 
 
 ## Perfil profissional
- Lider de tecnologia e engenheiro de IA e automacao com mais de 10 anos de experiencia em software corporativo, Machine Learning e automacao inteligente para operacoes complexas.
- Atualmente Technology Enablement Lead na Bayer Crop Science, liderando solucoes digitais para pipelines de P&D em milho e soja. Experiencia em Python, ML, cloud, plataformas de dados e RPA, com historico de impacto operacional multimilionario.
+ Líder de tecnologia e engenheiro de IA e automação com mais de 10 anos de experiência em software corporativo, Machine Learning e automação inteligente para operações complexas.
+ Atualmente Technology Enablement Lead na Bayer Crop Science, liderando soluções digitais para pipelines de P&D em milho e soja. Experiência em Python, ML, cloud, plataformas de dados e RPA, com histórico de impacto operacional multimilionário.
 
 ## Reconhecimentos e responsabilidades
 
@@ -28,8 +27,8 @@ Versão experimental ampliada — 09/10/2026.
 - 8x QMS LATAM 2025
 - 2x ICS Global 2025
 - ISM Brazil Pipeline Delivery
-- Lidero o desenvolvimento de solucoes de IA, ML e automacao para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisao e RPA para elevar produtividade e eficiencia operacional.
-- Coordeno iniciativas tecnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa. Tecnologias relacionadas no histórico: Power BI, Power Automate, BigQuery, Azure, Python, ML, MCP, RAG, Agentic AI, React.js, JavaScript, SQL
+- Lidero o desenvolvimento de soluções de IA, ML e automação para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisão e RPA para elevar produtividade e eficiência operacional.
+- Coordeno iniciativas técnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Tecnologias relacionadas no histórico: Power BI, Power Automate, BigQuery, Azure, Python, ML, MCP, RAG, Agentic AI, React.js, JavaScript, SQL
 
 ### GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
@@ -119,6 +118,7 @@ Versão experimental ampliada — 09/10/2026.
  CÉSAR SCHOOL
  2020 — 2025
 
+- Concluído em 2025.
 - Tese: Algoritmos Evolutivos na problemática do Feature Selection em algoritmos de regressão.
 - BDs: Irrigação (Kc), Calibres da Manga, Produtividade
 
@@ -593,7 +593,7 @@ Versão experimental ampliada — 09/10/2026.
  Case acadêmico
 
 ### Demais projetos — pesquisa, produtos e empreendedorismo
- Parte do acervo está ligada a iniciativas empreendedoras ao longo dos anos. A associação individual de cada produto às empresas fundadas, datas e participação precisa de contexto específico; o catálogo mantém os projetos com sua finalidade e evidências próprias.
+ As iniciativas independentes integram o portfólio de desenvolvimento, pesquisa e empreendedorismo de Danillo Xavier. Cada entrada apresenta a aplicação, a engenharia e as evidências disponíveis. Backups, templates e estudos com bibliotecas ou exemplos de terceiros têm seu contexto identificado no catálogo.
  Catálogo completo
 
 ## Extensão da experiência e contextos de atuação
@@ -3446,7 +3446,7 @@ Versão experimental ampliada — 09/10/2026.
  Ciência de dados · Laboratório
 
 ### Algoritmos genéticos — irrigação e pesquisa operacional
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Pesquisa operacional e programação de irrigação.
  Público e contexto: Estudos de otimização agrícola.
@@ -3477,7 +3477,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Backup
 
 ### Backup da pesquisa EFS-AHP
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Backup do acervo técnico
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Ciência de dados, Machine Learning e decisão multicritério.
  Público e contexto: Pesquisa aplicada no doutorado em Engenharia de Software.
@@ -3509,7 +3509,7 @@ Versão experimental ampliada — 09/10/2026.
  Ciência de dados · MVP analítico
 
 ### Cartola Oracle — previsão probabilística e otimização de escalações
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Esportes, fantasy football, previsão probabilística e otimização.
  Público e contexto: Pesquisa de desempenho e composição de escalações no Cartola.
@@ -3546,7 +3546,7 @@ Versão experimental ampliada — 09/10/2026.
  IA aplicada · Aplicação em desenvolvimento
 
 ### ClassPlanner — planejamento de aulas assistido por IA
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Educação e planejamento pedagógico.
  Público e contexto: Professores.
@@ -3582,7 +3582,7 @@ Versão experimental ampliada — 09/10/2026.
  Computação visual · Protótipo autoral
 
 ### Dente de Leão — experiência narrativa interativa
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Jogos, narrativa interativa e computação gráfica 3D.
  Público e contexto: Exploração de experiências narrativas interativas.
@@ -3616,7 +3616,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Estudo
 
 ### Doutorado — algoritmo genético didático
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Ensino e pesquisa de algoritmos evolutivos.
  Público e contexto: Experimentação acadêmica.
@@ -3640,7 +3640,7 @@ Versão experimental ampliada — 09/10/2026.
  IA aplicada · Sistema local
 
 ### DVR Person Alert — visão computacional e alertas operacionais
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Segurança, monitoramento por vídeo e visão computacional.
  Público e contexto: Monitoramento de câmeras e revisão de eventos.
@@ -3677,7 +3677,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Configuração
 
 ### Google Auth — configuração de integração
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Configuração de integração e autenticação
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Autenticação e integração com serviços Google.
  Público e contexto: Configuração de integração de aplicações.
@@ -3698,7 +3698,7 @@ Versão experimental ampliada — 09/10/2026.
  Automação e dados · Ferramenta local
 
 ### Instabot — automação de navegador com estado persistente
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Marketing digital e automação de navegador.
  Público e contexto: Rotinas operacionais em redes sociais.
@@ -3730,7 +3730,7 @@ Versão experimental ampliada — 09/10/2026.
  IA aplicada · MVP
 
 ### Conversion CRM — funil conversacional e IA assistida
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Marketing, vendas e relacionamento com clientes.
  Público e contexto: Operações comerciais e atendimento por conversas.
@@ -3764,7 +3764,7 @@ Versão experimental ampliada — 09/10/2026.
  Engenharia de software · MVP de produto
 
 ### Launch With Me — marketplace de validação de produtos
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Empreendedorismo, marketplace e validação de produtos.
  Público e contexto: Criadores de produtos e potenciais usuários.
@@ -3800,7 +3800,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Experimento e biblioteca de terceiros
 
 ### Leaflet — mapas e roteamento web
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Estudo e integração com biblioteca de terceiros
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Mapas, roteamento e interfaces geográficas.
  Público e contexto: Visualização e exploração de informações espaciais.
@@ -3827,7 +3827,7 @@ Versão experimental ampliada — 09/10/2026.
  Automação e dados · Ferramenta local
 
 ### Job Assistant — automação supervisionada e ranking de aderência
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Carreira, recrutamento e automação supervisionada.
  Público e contexto: Organização de oportunidades profissionais.
@@ -3863,7 +3863,7 @@ Versão experimental ampliada — 09/10/2026.
  Ciência de dados · Protótipo
 
 ### Logística — roteamento e visualização geoespacial
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Logística, roteamento e análise geoespacial.
  Público e contexto: Planejamento de deslocamentos e operações logísticas.
@@ -3895,7 +3895,7 @@ Versão experimental ampliada — 09/10/2026.
  Automação e dados · Protótipo
 
 ### Minhas Finanças — Open Finance e insights de transações
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Finanças pessoais, Open Finance e análise de transações.
  Público e contexto: Organização financeira pessoal.
@@ -3929,7 +3929,7 @@ Versão experimental ampliada — 09/10/2026.
  IA aplicada · Protótipo experimental
 
 ### Mocap — estimação de pose e movimento no navegador
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Movimento humano, captura de pose e interação com avatares.
  Público e contexto: Experimentos de interação corporal e visualização de movimento.
@@ -3966,7 +3966,7 @@ Versão experimental ampliada — 09/10/2026.
  Computação visual · Experimento
 
 ### Movimento 3D — visualização de modelos
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Computação gráfica e visualização de modelos.
  Público e contexto: Estudos de cenas e movimento tridimensional.
@@ -3994,7 +3994,7 @@ Versão experimental ampliada — 09/10/2026.
  Ciência de dados · Laboratório com operação demo documentada
 
 ### TraderMind — pesquisa quantitativa e pipeline de modelos
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: IA, Machine Learning e MLOps aplicados à pesquisa quantitativa.
  Público e contexto: Pesquisa e experimentação de modelos e estratégias em mercados financeiros.
@@ -4039,7 +4039,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Acervo de conteúdo
 
 ### OSORACLE — organização de conhecimento narrativo
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Acervo de conteúdo e referências
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Escrita, narrativas e organização do conhecimento.
  Público e contexto: Autores e organização de universos narrativos.
@@ -4065,7 +4065,7 @@ Versão experimental ampliada — 09/10/2026.
  IA aplicada · Produto em evolução
 
 ### Planejamento Xavier — produto de planejamento com IA
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Planejamento pessoal, produtividade e desenvolvimento profissional.
  Público e contexto: Pessoas que organizam objetivos, atividades e planos de desenvolvimento.
@@ -4106,7 +4106,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Backup
 
 ### Backup do Planejamento Xavier
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Backup do Planejamento Xavier
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Planejamento pessoal, produtividade e desenvolvimento profissional.
  Público e contexto: Pessoas que organizam objetivos, atividades e planos de desenvolvimento.
@@ -4133,7 +4133,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Exemplos de terceiros
 
 ### PoseNet / ml5 — coleção de referências de ML
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Estudo de exemplos de terceiros
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Machine Learning e estimação de pose.
  Público e contexto: Estudos e referências de modelos de visão computacional.
@@ -4160,7 +4160,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Template
 
 ### React Native — ambiente inicial mobile
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Template de referência para desenvolvimento mobile
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Desenvolvimento mobile.
  Público e contexto: Estudos de interfaces e aplicações móveis.
@@ -4187,7 +4187,7 @@ Versão experimental ampliada — 09/10/2026.
  Automação e dados · Legado
 
 ### Scraper legado — coleta inicial de ofertas
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Coleta de dados, ofertas e distribuição de conteúdo.
  Público e contexto: Operações de acompanhamento e divulgação de ofertas.
@@ -4216,7 +4216,7 @@ Versão experimental ampliada — 09/10/2026.
  Automação e dados · Pipeline operacional local
 
 ### Scrapers — pipeline de ofertas e distribuição
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Coleta de dados, ofertas e distribuição de conteúdo.
  Público e contexto: Operações de acompanhamento e divulgação de ofertas.
@@ -4255,7 +4255,7 @@ Versão experimental ampliada — 09/10/2026.
  Computação visual · Protótipo
 
 ### Skeleton from Video — extração de esqueletos
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Visão computacional e análise de movimento.
  Público e contexto: Experimentação com vídeos e representação corporal.
@@ -4284,7 +4284,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Script exploratório
 
 ### SpeedTest — diagnóstico exploratório de rede
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Redes e diagnóstico de conectividade.
  Público e contexto: Exploração de desempenho da conexão.
@@ -4313,7 +4313,7 @@ Versão experimental ampliada — 09/10/2026.
  Computação visual · Experimento
 
 ### Three.js — cenas e modelos 3D web
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Computação gráfica e desenvolvimento web 3D.
  Público e contexto: Estudos de cenas, modelos e interação.
@@ -4344,7 +4344,7 @@ Versão experimental ampliada — 09/10/2026.
  Arquivo e estudos · Sem código identificável
 
 ### Unity — pasta de exploração
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Referência de estudo; sem código identificável
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Desenvolvimento de jogos e ambientes interativos.
  Público e contexto: Exploração de ferramentas de desenvolvimento.
@@ -4365,7 +4365,7 @@ Versão experimental ampliada — 09/10/2026.
  Engenharia de software · Produto em evolução
 
 ### Utilibox — plataforma de ferramentas e produtos de conhecimento
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing.
  Público e contexto: Público geral, estudantes, autores e profissionais.
@@ -4406,7 +4406,7 @@ Versão experimental ampliada — 09/10/2026.
  Engenharia de software · Variante
 
 ### Utilibox Manga — variante de produto criativo
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Finanças, trabalho, engenharia de produção, decisão, educação, escrita, saúde, beleza, documentos, design e marketing.
  Público e contexto: Público geral, estudantes, autores e profissionais.
@@ -4438,7 +4438,7 @@ Versão experimental ampliada — 09/10/2026.
  Web e documentos · Implementação local
 
 ### Meu CV — apresentação profissional digital
- Contexto: Projeto pessoal, pesquisa, estudo ou iniciativa empreendedora; associação individual a confirmar
+ Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Apresentação profissional e desenvolvimento web.
  Público e contexto: Recrutadores e leitores do currículo.
@@ -4904,8 +4904,8 @@ Versão experimental ampliada — 09/10/2026.
 ### BAYER CROPSCIENCE
  TECHNOLOGY ENABLEMENT LEAD
  MAIO 2024 — ATUAL
- Lidero o desenvolvimento de solucoes de IA, ML e automacao para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisao e RPA.
- Coordeno iniciativas tecnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa.
+ Lidero o desenvolvimento de soluções de IA, ML e automação para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisão e RPA.
+ Coordeno iniciativas técnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa.
 
 ### AGRODAN
  HEAD CORPORATIVO DE TECNOLOGIA E INOVAÇÃO /
@@ -4923,19 +4923,19 @@ FUNDADOR DE STARTUPS E EMPREENDEDOR (2012-2019)
 
 ## Carta de apresentação
  Prezado(a) Gestor(a) de Contratacao,
- Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de solucoes de IA, Machine Learning e automacao para pipelines de P&D em milho e soja.
- Coordeno iniciativas tecnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa. Minha experiencia combina engenharia de software, dados e RPA para aumentar a produtividade de pesquisa e a eficiencia operacional.
- Em funcoes anteriores, entreguei automacao de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em ate 90%. Esses projetos tambem geraram impacto financeiro mensuravel por meio de eficiencia de processos, melhor governanca e decisoes orientadas por dados.
- Tenho interesse em discutir como minha experiencia pratica em IA aplicada, plataformas de dados e lideranca tecnica pode contribuir para os desafios da posicao e da sua organizacao.
+ Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.
+ Coordeno iniciativas técnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Minha experiência combina engenharia de software, dados e RPA para aumentar a produtividade de pesquisa e a eficiência operacional.
+ Em funções anteriores, entreguei automação de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em até 90%. Esses projetos também geraram impacto financeiro mensuravel por meio de eficiência de processos, melhor governança e decisões orientadas por dados.
+ Tenho interesse em discutir como minha experiência prática em IA aplicada, plataformas de dados e liderança técnica pode contribuir para os desafios da posição e da sua organização.
  Atenciosamente,
  Danillo Xavier
 
 ## Carta de apresentação — Suíça
  Prezado(a) Gestor(a) de Contratacao,
- Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead na Suica. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de solucoes de IA, Machine Learning e automacao para pipelines de P&D em milho e soja.
- Coordeno iniciativas tecnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automacao corporativa. Em funcoes anteriores, entreguei automacao de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em ate 90%.
- Estou baseado no Brasil e busco uma oportunidade para realocacao na Suica. Estou disponivel para entrevistas remotas e preparado para apoiar o processo de permissao de trabalho com toda a documentacao necessaria.
- Acredito que minha experiencia em IA aplicada, plataformas de dados e lideranca tecnica pode contribuir de forma concreta para os desafios da sua organizacao.
+ Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead na Suíça. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.
+ Coordeno iniciativas técnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Em funções anteriores, entreguei automação de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em até 90%.
+ Estou baseado no Brasil e busco uma oportunidade para realocacao na Suíça. Estou disponivel para entrevistas remotas e preparado para apoiar o processo de permissao de trabalho com toda a documentacao necessaria.
+ Acredito que minha experiência em IA aplicada, plataformas de dados e liderança técnica pode contribuir de forma concreta para os desafios da sua organização.
  Atenciosamente,
  Danillo Xavier
 
