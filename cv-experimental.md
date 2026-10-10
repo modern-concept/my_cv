@@ -50,6 +50,7 @@ Versão experimental ampliada — 09/10/2026.
 - 85% dos processos digitalizados
 - 150+ visões estratégicas
 - 24 jobs de ETL
+- Função exercida simultaneamente à Gerência de TIC de mar/2021 a nov/2023, acumulando liderança de tecnologia e inovação com a gestão de TIC.
 - Liderança da transformação digital da companhia com PMBoK, Agile e gamificação para institucionalizar processos e cultura de inovação.
 - Identificação de oportunidades, formação de líderes internos e disseminação de métodos, ferramentas e mindset de inovação.
 - Mensuração de impacto e ROI dos projetos, com soluções que ampliaram auditabilidade e sustentaram decisões corporativas baseadas em dados.
@@ -59,6 +60,7 @@ Versão experimental ampliada — 09/10/2026.
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
  out de 2019 - nov de 2023 · 4 anos 2 meses · Tempo integral · Belém do São Francisco e Recife, Pernambuco · Presencial
 
+- De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação.
 - Gestão das rotinas da equipe de TI, help desk, parque de dispositivos, servidores, backup e recovery, virtualização e projetos de alta disponibilidade.
 - Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Tecnologias relacionadas no histórico: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
 
@@ -149,7 +151,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### IA, agentes e automação
  Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.
- Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
+ Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer.
 
 ### Machine Learning e pesquisa
  Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.
@@ -157,23 +159,23 @@ Versão experimental ampliada — 09/10/2026.
 
 ### Engenharia de software
  Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.
- SIA/SIAgro, EBSERH, The Game Project e produtos independentes. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
+ SIA/SIAgro, EBSERH, The Game Project e produtos independentes.
 
 ### Dados e decisão
  ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.
- Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
+ Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística.
 
 ### Liderança e operações
  Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.
- Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança.
+ Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner.
 
 ### Produtos e métodos aplicados
  Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.
- Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Formação relacionada: MBA Operational Excellence em andamento na FM2S. Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.
+ Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Formação relacionada: MBA Operational Excellence em andamento na FM2S.
 
 ### Arquitetura Agentic AI e governança
  Desenho de orquestradores, agentes especialistas, ferramentas autorizadas, RAG contextual, auditoria independente e aprovação humana.
- Globalcom Certification OS — proposta e arquitetura pela Modern Concept.
+ Globalcom Certification OS — arquitetura entregue pela Modern Concept; implementação em andamento.
 
 ### MLOps e ciclo de vida de modelos
  Pipelines de dados e features, checkpoints, artefatos de modelos, validação temporal, serving por API, supervisão, retreino e observabilidade.
@@ -196,7 +198,7 @@ Versão experimental ampliada — 09/10/2026.
  Decisão e visualização: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js e React Three Fiber.
  Automação e integração: APIs de LLM, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform e RPA.
  Cloud e operação: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI.
- Stack projetada — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional.
+ Stack especificada na arquitetura — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional.
  MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, validação temporal, supervisor, logs e dashboard.
  Integração de IA no packing: Visão computacional, Deep Learning, câmeras, APIs, ERP, classificadora, dashboard, Telegram e servidor dedicado; CRISP-DM como metodologia do projeto.
 
@@ -400,63 +402,20 @@ Versão experimental ampliada — 09/10/2026.
  Estágio hospitalar · Contexto e projetos · Repositório público — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores) · Repositório público — The Game Project (https://github.com/Danjubex/the_game_project)
 
 ## Agentic AI — Globalcom Certification OS
- Modern Concept · proposta e arquitetura de solução para certificação e compliance educacional
+ Modern Concept · arquitetura entregue para certificação e compliance educacional · implementação em andamento
 
-### Arquitetura Agentic AI e orquestração de especialistas
- Elaboração da proposta e desenho de solução: coordenar tarefas especializadas com evidências e supervisão humana.
+### Globalcom Certification OS
+ Desenhei e entreguei a arquitetura funcional e técnica do Globalcom Certification OS. O escopo integra 10 agentes especialistas, orquestrador e auditor independente, RAG, workflows persistentes, modelagem de domínio, segurança multi-tenant e integrações API/MCP/RPA. A arquitetura entregue orienta a implementação em andamento.
+ Stack especificada: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
+ Entrega de arquitetura concluída; implementação em andamento. Resultados operacionais ainda não declarados.
 
-- Desenho de 10 agentes especialistas: compliance, evidências, documentos, pesquisa, redação, comunicação, prazos, risco, auditoria de sistemas e integração/RPA.
-- Orquestrador dedicado verifica pré-condições, distribui tarefas e consolida resultados; um auditor independente revisa agentes, ferramentas, fontes e decisões. Engenharia e tecnologias: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
- Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
- Contexto e projetos · Detalhes técnicos
-
-### RAG gerenciado e inteligência documental
- Elaboração da proposta e desenho de solução: recuperar conhecimento adequado à escola, requisito e versão documental.
-
-- Desenho de seis coleções: normativas oficiais, conhecimento operacional, contexto gerencial, precedentes de e-mails, documentos por escola e templates aprovados.
-- Arquitetura de recuperação híbrida com embeddings e pgvector, filtros por tenant, escola, framework, requisito, versão, validade e aprovação. Engenharia e tecnologias: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
- Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
- Contexto e projetos · Detalhes técnicos
-
-### Workflow, eventos e execução persistente
- Elaboração da proposta e desenho de solução: manter processos e tarefas em execução mesmo sem usuário conectado.
-
-- Máquina de estados proposta controla dependências, responsáveis, prazos, pré-condições e critérios de conclusão das nove fases do processo.
-- Desenho de filas, eventos, webhooks e jobs agendados, com workers especializados para workflow, agentes, documentos, RAG, notificações, RPA e auditoria. Engenharia e tecnologias: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
- Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
- Contexto e projetos · Detalhes técnicos
-
-### Governança de IA, segurança e auditoria contínua
- Elaboração da proposta e desenho de solução: controlar autonomia, acesso aos dados e qualidade das decisões.
-
-- Política proposta distingue execução automática, ações que exigem aprovação humana e decisões críticas reservadas a pessoas.
-- Desenho de isolamento por parceiro/escola com RLS e RBAC, menor privilégio, cofre de segredos, logs, retenção, backup e recuperação. Engenharia e tecnologias: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
- Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
- Contexto e projetos · Detalhes técnicos
-
-### Integrações API, MCP e RPA para operações externas
- Elaboração da proposta e desenho de solução: conectar a plataforma a fontes e portais com execução controlada.
-
-- Estratégia de integração prioriza APIs, usa MCP para acesso padronizado a ferramentas e prevê RPA quando não há integração formal.
-- Especificação de workers de navegador isolados com Playwright, políticas de retry, idempotência, detecção de mudança de layout e fallback manual. Engenharia e tecnologias: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
- Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
- Contexto e projetos · Detalhes técnicos
-
-### Modelagem de domínio e produto para certificação
- Elaboração da proposta e desenho de solução: traduzir uma operação de certificação em entidades e fluxos de produto.
-
-- Modelagem proposta relaciona parceiros, escolas, frameworks, fases, requisitos, tarefas, documentos, evidências, riscos, decisões e histórico.
-- Supabase/PostgreSQL é a fonte canônica projetada, com Storage para documentos, Auth, Realtime e vetores pgvector; frontend React/TypeScript com visualização de fluxos. Engenharia e tecnologias: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
- Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
- Contexto e projetos · Detalhes técnicos
-
-### Consultoria, arquitetura de soluções e roadmap
- Elaboração da proposta e desenho de solução: organizar uma proposta técnica de implantação incremental.
-
-- Entrega documental combina visão executiva, arquitetura detalhada, apresentação navegável PT/EN e planejamento de implantação.
-- Roadmap parte da descoberta e domínio operacional, evolui para RAG/documentos, agentes, compliance contínuo, integrações e inteligência de certificação. Engenharia e tecnologias: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers.
- Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
- Contexto e projetos · Detalhes técnicos
+- Arquitetura Agentic AI e orquestração de especialistas
+- RAG gerenciado e inteligência documental
+- Workflow, eventos e execução persistente
+- Governança de IA, segurança e auditoria contínua
+- Integrações API, MCP e RPA para operações externas
+- Modelagem de domínio e produto para certificação
+- Consultoria, arquitetura de soluções e roadmap
 
 ## MLOps — TraderMind
  Pipeline de ML, validação, inferência, supervisão e manutenção · pesquisa e operação demo
@@ -614,12 +573,12 @@ Versão experimental ampliada — 09/10/2026.
 ## Vínculos entre projetos e trajetória
 
 ### Agrodan — ecossistema SIA / SIAgro
- Vínculo profissional confirmado. Os projetos de campo, packing, pessoas, planejamento, compras, qualidade e comercial estão ligados à trajetória na empresa. A distribuição de cada entrega pelos cargos e períodos específicos não é inferida pelas datas dos commits.
+ Atuação profissional de jan/2019 a abr/2024. Head de Tecnologia e Gerente de TIC foram funções exercidas simultaneamente de mar/2021 a nov/2023. Os projetos de campo, packing, pessoas, planejamento, compras, qualidade e comercial, assim como os resultados de impacto, estão associados a esse período na empresa. Os indicadores mantêm suas bases mensais ou anuais e não são somados em um total de savings.
 
 - GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH — nov de 2023 - abr de 2024 · 6 meses
 - HEAD DE TECNOLOGIA: TI E INOVAÇÃO — mar de 2021 - nov de 2023 · 2 anos 9 meses
 - GERENTE DE TIC — out de 2019 - nov de 2023 · 4 anos 2 meses
-- IT BUSINESS PARTNER — jan de 2019 - out de 2019 · 10 meses Cases de negócio e métodos · Módulos de negócio · ETL e mobile
+- IT BUSINESS PARTNER — jan de 2019 - out de 2019 · 10 meses Resultados de impacto · Cases de negócio e métodos · Módulos de negócio · ETL e mobile
 
 ### EFS-AHP — doutorado
  A pesquisa de seleção de atributos e decisão multicritério está vinculada ao doutorado profissional em Engenharia de Software.
@@ -1570,215 +1529,76 @@ Versão experimental ampliada — 09/10/2026.
 - Prototipação visual Alcance da evidência: Não comprova especialização GIS completa, sensoriamento remoto operacional ou desenvolvimento de bibliotecas de renderização.
 
 ## Globalcom — arquitetura Agentic AI, compliance e automação
- Projeto de proposta e arquitetura de soluções pela Modern Concept; escopo de desenho funcional e técnico.
- A proposta relaciona educação, acreditação, compliance, gestão documental, operações, governança e automação. O material entregue descreve a arquitetura e a implantação planejada.
+ Arquitetura funcional e técnica entregue pela Modern Concept; implementação em andamento.
+ A arquitetura entregue relaciona educação, acreditação, compliance, gestão documental, operações, governança e automação. O material entregue descreve a arquitetura e o roadmap da implementação em andamento.
 
 - Domínio e workflow
 - Conhecimento e evidências
 - Agentes especialistas
 - Validação e aprovação humana
-- Integrações e auditoria contínua Case · Modern Concept · Globalcom · proposta e arquitetura de solução
+- Integrações e auditoria contínua Stack especificada na arquitetura: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers
+
+#### Competências aplicadas
+
+- Arquitetura Agentic AI
+- Orquestração multiagente
+- RAG e recuperação híbrida
+- Inteligência documental
+- Modelagem de domínio
+- Workflow e eventos
+- Integrações API/MCP/RPA
+- Governança e aprovação humana
+- Arquitetura multi-tenant
+- Consultoria e desenho de produto Atuação em desenho e entrega da arquitetura funcional e técnica. Implementação em andamento; métricas operacionais e operação em produção ainda não declaradas.
 
 ### Arquitetura Agentic AI e orquestração de especialistas
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Coordenar tarefas especializadas com evidências e supervisão humana
- Contribuição e entrega: Elaboração da proposta e desenho de solução: coordenar tarefas especializadas com evidências e supervisão humana.
- Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
- Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
-
-#### Engenharia, métodos e profundidade
+ Objetivo: Coordenar tarefas especializadas com evidências e supervisão humana
 
 - Desenho de 10 agentes especialistas: compliance, evidências, documentos, pesquisa, redação, comunicação, prazos, risco, auditoria de sistemas e integração/RPA.
 - Orquestrador dedicado verifica pré-condições, distribui tarefas e consolida resultados; um auditor independente revisa agentes, ferramentas, fontes e decisões.
 - Contratos de execução associam escola, processo, requisito e tarefa a ferramentas autorizadas, evidências, confiança e escalonamento humano.
 
-#### Competências evidenciadas
-
-- Arquitetura Agentic AI
-- Orquestração multiagente
-- RAG e recuperação híbrida
-- Inteligência documental
-- Modelagem de domínio
-- Workflow e eventos
-- Integrações API/MCP/RPA
-- Governança e aprovação humana
-- Arquitetura multi-tenant
-- Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
-
- Case · Modern Concept · Globalcom · proposta e arquitetura de solução
-
 ### RAG gerenciado e inteligência documental
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Recuperar conhecimento adequado à escola, requisito e versão documental
- Contribuição e entrega: Elaboração da proposta e desenho de solução: recuperar conhecimento adequado à escola, requisito e versão documental.
- Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
- Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
-
-#### Engenharia, métodos e profundidade
+ Objetivo: Recuperar conhecimento adequado à escola, requisito e versão documental
 
 - Desenho de seis coleções: normativas oficiais, conhecimento operacional, contexto gerencial, precedentes de e-mails, documentos por escola e templates aprovados.
 - Arquitetura de recuperação híbrida com embeddings e pgvector, filtros por tenant, escola, framework, requisito, versão, validade e aprovação.
 - Previsão de ingestão, classificação, extração, versionamento, reprocessamento de embeddings, linhagem de chunks e persistência de citações.
 
-#### Competências evidenciadas
-
-- Arquitetura Agentic AI
-- Orquestração multiagente
-- RAG e recuperação híbrida
-- Inteligência documental
-- Modelagem de domínio
-- Workflow e eventos
-- Integrações API/MCP/RPA
-- Governança e aprovação humana
-- Arquitetura multi-tenant
-- Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
-
- Case · Modern Concept · Globalcom · proposta e arquitetura de solução
-
 ### Workflow, eventos e execução persistente
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Manter processos e tarefas em execução mesmo sem usuário conectado
- Contribuição e entrega: Elaboração da proposta e desenho de solução: manter processos e tarefas em execução mesmo sem usuário conectado.
- Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
- Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
+ Objetivo: Manter processos e tarefas em execução mesmo sem usuário conectado
 
-#### Engenharia, métodos e profundidade
-
-- Máquina de estados proposta controla dependências, responsáveis, prazos, pré-condições e critérios de conclusão das nove fases do processo.
+- Máquina de estados especificada controla dependências, responsáveis, prazos, pré-condições e critérios de conclusão das nove fases do processo.
 - Desenho de filas, eventos, webhooks e jobs agendados, com workers especializados para workflow, agentes, documentos, RAG, notificações, RPA e auditoria.
 - Stack sugerida: Node.js/TypeScript, NestJS ou Fastify, Zod e BullMQ ou alternativa; Temporal aparece como opção para workflows duráveis.
 
-#### Competências evidenciadas
-
-- Arquitetura Agentic AI
-- Orquestração multiagente
-- RAG e recuperação híbrida
-- Inteligência documental
-- Modelagem de domínio
-- Workflow e eventos
-- Integrações API/MCP/RPA
-- Governança e aprovação humana
-- Arquitetura multi-tenant
-- Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
-
- Case · Modern Concept · Globalcom · proposta e arquitetura de solução
-
 ### Governança de IA, segurança e auditoria contínua
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Controlar autonomia, acesso aos dados e qualidade das decisões
- Contribuição e entrega: Elaboração da proposta e desenho de solução: controlar autonomia, acesso aos dados e qualidade das decisões.
- Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
- Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
+ Objetivo: Controlar autonomia, acesso aos dados e qualidade das decisões
 
-#### Engenharia, métodos e profundidade
-
-- Política proposta distingue execução automática, ações que exigem aprovação humana e decisões críticas reservadas a pessoas.
+- Política de execução especificada distingue execução automática, ações que exigem aprovação humana e decisões críticas reservadas a pessoas.
 - Desenho de isolamento por parceiro/escola com RLS e RBAC, menor privilégio, cofre de segredos, logs, retenção, backup e recuperação.
 - Auditor independente verifica correspondência entre citação e evidência, versão normativa, integridade de dados e respeito às etapas; planejamento de auditoria trimestral e reuniões a cada quatro meses.
 
-#### Competências evidenciadas
-
-- Arquitetura Agentic AI
-- Orquestração multiagente
-- RAG e recuperação híbrida
-- Inteligência documental
-- Modelagem de domínio
-- Workflow e eventos
-- Integrações API/MCP/RPA
-- Governança e aprovação humana
-- Arquitetura multi-tenant
-- Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
-
- Case · Modern Concept · Globalcom · proposta e arquitetura de solução
-
 ### Integrações API, MCP e RPA para operações externas
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Conectar a plataforma a fontes e portais com execução controlada
- Contribuição e entrega: Elaboração da proposta e desenho de solução: conectar a plataforma a fontes e portais com execução controlada.
- Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
- Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
-
-#### Engenharia, métodos e profundidade
+ Objetivo: Conectar a plataforma a fontes e portais com execução controlada
 
 - Estratégia de integração prioriza APIs, usa MCP para acesso padronizado a ferramentas e prevê RPA quando não há integração formal.
 - Especificação de workers de navegador isolados com Playwright, políticas de retry, idempotência, detecção de mudança de layout e fallback manual.
-- Escopo proposto inclui migração/sincronização do Notion, e-mails, portais e conectores futuros para sistemas escolares e financeiros; QuickSchools, QuickBooks e Wave são referências iniciais.
-
-#### Competências evidenciadas
-
-- Arquitetura Agentic AI
-- Orquestração multiagente
-- RAG e recuperação híbrida
-- Inteligência documental
-- Modelagem de domínio
-- Workflow e eventos
-- Integrações API/MCP/RPA
-- Governança e aprovação humana
-- Arquitetura multi-tenant
-- Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
-
- Case · Modern Concept · Globalcom · proposta e arquitetura de solução
+- Escopo arquitetural inclui migração/sincronização do Notion, e-mails, portais e conectores futuros para sistemas escolares e financeiros; QuickSchools, QuickBooks e Wave são referências iniciais.
 
 ### Modelagem de domínio e produto para certificação
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Traduzir uma operação de certificação em entidades e fluxos de produto
- Contribuição e entrega: Elaboração da proposta e desenho de solução: traduzir uma operação de certificação em entidades e fluxos de produto.
- Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
- Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
+ Objetivo: Traduzir uma operação de certificação em entidades e fluxos de produto
 
-#### Engenharia, métodos e profundidade
-
-- Modelagem proposta relaciona parceiros, escolas, frameworks, fases, requisitos, tarefas, documentos, evidências, riscos, decisões e histórico.
+- Modelagem de domínio entregue relaciona parceiros, escolas, frameworks, fases, requisitos, tarefas, documentos, evidências, riscos, decisões e histórico.
 - Supabase/PostgreSQL é a fonte canônica projetada, com Storage para documentos, Auth, Realtime e vetores pgvector; frontend React/TypeScript com visualização de fluxos.
 - Arquitetura contempla readiness, gaps, planos corretivos, self-study e reutilização de artefatos; resultados esperados são objetivos do produto, sem métricas de impacto realizadas.
 
-#### Competências evidenciadas
-
-- Arquitetura Agentic AI
-- Orquestração multiagente
-- RAG e recuperação híbrida
-- Inteligência documental
-- Modelagem de domínio
-- Workflow e eventos
-- Integrações API/MCP/RPA
-- Governança e aprovação humana
-- Arquitetura multi-tenant
-- Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
-
- Case · Modern Concept · Globalcom · proposta e arquitetura de solução
-
 ### Consultoria, arquitetura de soluções e roadmap
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Organizar uma proposta técnica de implantação incremental
- Contribuição e entrega: Elaboração da proposta e desenho de solução: organizar uma proposta técnica de implantação incremental.
- Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
- Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
-
-#### Engenharia, métodos e profundidade
+ Objetivo: Entregar a arquitetura e o roadmap de implantação incremental
 
 - Entrega documental combina visão executiva, arquitetura detalhada, apresentação navegável PT/EN e planejamento de implantação.
 - Roadmap parte da descoberta e domínio operacional, evolui para RAG/documentos, agentes, compliance contínuo, integrações e inteligência de certificação.
 - Definição de indicadores a acompanhar: tempo por fase, completude de evidências, reutilização, aprovação de drafts, erros de agentes, saúde das integrações e cobertura de auditoria.
-
-#### Competências evidenciadas
-
-- Arquitetura Agentic AI
-- Orquestração multiagente
-- RAG e recuperação híbrida
-- Inteligência documental
-- Modelagem de domínio
-- Workflow e eventos
-- Integrações API/MCP/RPA
-- Governança e aprovação humana
-- Arquitetura multi-tenant
-- Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
 
 ## MLOps — ciclo de vida de modelos no TraderMind
  Engenharia do ciclo de vida de ML: dos dados e experimentos à inferência, supervisão e manutenção operacional.
@@ -4647,19 +4467,19 @@ Versão experimental ampliada — 09/10/2026.
 - Configuração de hospedagem Repositório público — CV digital (https://github.com/modern-concept/my_cv)
  Contribuição e relação com a versão em doutorado/CV a contextualizar; hospedagem e API PDF não verificadas.
 
- Agentic AI, arquitetura de soluções e compliance educacional · Proposta de arquitetura funcional e técnica
+ Agentic AI, arquitetura de soluções e compliance educacional · Arquitetura funcional e técnica entregue; implementação em andamento
 
 ### Globalcom Certification OS — arquitetura Agentic AI para certificação e compliance
- Contexto: Modern Concept · Globalcom · proposta e arquitetura de solução
+ Contexto: Modern Concept · Globalcom · arquitetura entregue · implementação em andamento
  Vínculo: Projetos independentes, pesquisa e produtos
  Área de aplicação: Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI.
  Público e contexto: Gestores Globalcom, parceiros, escolas e equipes de certificação.
  Objetivo: Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana.
- Proposta de uma plataforma de certificação e compliance educacional que combina workflow determinístico, orquestração de agentes especialistas, RAG gerenciado, evidências versionadas e integrações para acompanhar escolas nos processos CEA + SEVP.
+ Desenho e entrega da arquitetura de uma plataforma de certificação e compliance educacional que combina workflow determinístico, orquestração de agentes especialistas, RAG gerenciado, evidências versionadas e integrações para acompanhar escolas nos processos CEA + SEVP.
  Problema e público: Organizar fases, responsáveis, requisitos e evidências de certificação, com assistência de agentes e controle das decisões críticas — Gestores Globalcom, parceiros, escolas e equipes de certificação.
- Entrega: Proposta funcional e técnica, apresentação interativa bilíngue, modelo de agentes, arquitetura de dados, política de execução e roadmap de implementação.
- Profundidade demonstrada: Proposta de arquitetura funcional e técnica: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: Arquitetura proposta com workflow determinístico, 10 especialistas, orquestrador e auditor independente; RAG gerenciado, Supabase/PostgreSQL, workers persistentes e integrações API/MCP/RPA.
+ Entrega: Arquitetura funcional e técnica entregue, apresentação interativa bilíngue, modelo de agentes, arquitetura de dados, política de execução e roadmap de implementação.
+ Profundidade demonstrada: Arquitetura funcional e técnica entregue; implementação em andamento: profundidade expressa pela arquitetura, métodos e artefatos.
+ Estrutura: Arquitetura entregue, em implementação, com workflow determinístico, 10 especialistas, orquestrador e auditor independente; RAG gerenciado, Supabase/PostgreSQL, workers persistentes e integrações API/MCP/RPA.
  Métodos: Máquina de estados; agentes especializados; RAG contextual; rastreabilidade de evidências; auditoria contínua; human-in-the-loop.
  Áreas de aplicação: Educação; Certificação e acreditação; Compliance; Auditoria; Gestão documental; Operações; Agentic AI.
 
@@ -4691,7 +4511,7 @@ Versão experimental ampliada — 09/10/2026.
 - Integrações API/MCP/RPA
 - Governança e aprovação humana
 - Arquitetura multi-tenant
-- Consultoria e desenho de produto O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
+- Consultoria e desenho de produto Atuação em desenho e entrega da arquitetura funcional e técnica. Implementação em andamento; métricas operacionais e operação em produção ainda não declaradas.
 
  Visão computacional, integração industrial e eficiência operacional · Projeto de P&D com implementação e resultados registrados em relatório final de março/2024
 
@@ -4815,7 +4635,7 @@ Versão experimental ampliada — 09/10/2026.
  Agentic AI, sistemas multiagentes e governança LLMs, aplicações de IA e automação conversacional Machine Learning, pesquisa quantitativa e experimentação MLOps, pipelines e ciclo de vida de modelos Visão computacional e integração industrial Engenharia de dados, ETL e integração ERP Engenharia de software web, mobile e produtos Agronegócio, gestão operacional e sistemas corporativos Decisão multicritério, otimização e pesquisa operacional Lean, melhoria contínua e análise econômica Gestão do conhecimento, aprendizagem e modelagem de domínio Infraestrutura, segurança e liderança de tecnologia Interfaces 3D, mapas e experiências interativas
 
 ### Agentic AI, sistemas multiagentes e governança
- Arquitetura de soluções com papéis especializados, coordenação de agentes, contexto compartilhado e controle das decisões. Planejamento Xavier traz coordenação por regras; Globalcom amplia o repertório com uma proposta de arquitetura para certificação e compliance, mantendo explícito o estágio de desenho da solução.
+ Arquitetura de soluções com papéis especializados, coordenação de agentes, contexto compartilhado e controle das decisões. Planejamento Xavier traz coordenação por regras; Globalcom amplia o repertório com uma arquitetura entregue para certificação e compliance, atualmente em implementação.
 
 #### Competências aplicadas
 
@@ -4827,20 +4647,13 @@ Versão experimental ampliada — 09/10/2026.
 
 - Conselho de seis agentes — Planejamento Xavier Projeto independente; vínculo individual a contextualizar Implementei um conselho de seis agentes especializados para apoiar planejamento e replanejamento, com evidências por recomendação, resolução determinística de conflitos e geração de ações rastreáveis.
 
-- Arquitetura Agentic AI e orquestração de especialistas Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: coordenar tarefas especializadas com evidências e supervisão humana.
-
-- RAG gerenciado e inteligência documental Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: recuperar conhecimento adequado à escola, requisito e versão documental.
-
-- Workflow, eventos e execução persistente Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: manter processos e tarefas em execução mesmo sem usuário conectado.
-
-- Governança de IA, segurança e auditoria contínua Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: controlar autonomia, acesso aos dados e qualidade das decisões.
-
-- Integrações API, MCP e RPA para operações externas Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: conectar a plataforma a fontes e portais com execução controlada.
-
-- Modelagem de domínio e produto para certificação Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: traduzir uma operação de certificação em entidades e fluxos de produto.
-
-- Consultoria, arquitetura de soluções e roadmap Modern Concept · Globalcom · proposta e arquitetura de solução Elaboração da proposta e desenho de solução: organizar uma proposta técnica de implantação incremental.
- Tecnologias e métodos: TypeScript · Deno · Supabase · contratos tipados · resolução de conflitos · React · Node.js · Python · FastAPI · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers
+- Globalcom · Arquitetura Agentic AI e orquestração de especialistas
+- Globalcom · RAG gerenciado e inteligência documental
+- Globalcom · Workflow, eventos e execução persistente
+- Globalcom · Governança de IA, segurança e auditoria contínua
+- Globalcom · Integrações API, MCP e RPA para operações externas
+- Globalcom · Modelagem de domínio e produto para certificação
+- Globalcom · Consultoria, arquitetura de soluções e roadmap Tecnologias e métodos: TypeScript · Deno · Supabase · contratos tipados · resolução de conflitos · React · Node.js · Python · FastAPI · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers
 
 ### LLMs, aplicações de IA e automação conversacional
  Integração de modelos de linguagem em produtos de planejamento, educação e relacionamento comercial. O trabalho conecta respostas de IA ao domínio da aplicação, com estruturas de dados, validação e tratamento de falhas para transformar a saída do modelo em ações utilizáveis.
@@ -5100,6 +4913,7 @@ GERENTE ADMINISTRATIVO
  JANEIRO 2019 — ABRIL 2024
  Desenvolvi um sistema de informação integrado para geração de relatórios e coleta de dados offline. Ao longo de 5 anos foram mais de 30 módulos e 150 relatórios que vão do Campo ao setor de Embalagem.
  Realizei um processo de inovação Aberta, Agrodan Tech, que trouxe tecnologias inovadoras ao processo. No total, 7 startups foram selecionadas. O saving de negociação chegou a R$ 800.000,00 anuais via ajuste de contrato.
+ Head de Tecnologia e Gerente de TIC foram funções simultâneas entre mar/2021 e nov/2023.
 
 ### TRAJETORIA ANTERIOR
  ENGENHEIRO DE SOFTWARE SENIOR - LABRUNIER FARMS (2017-2018)

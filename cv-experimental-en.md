@@ -45,6 +45,7 @@ Tech Lead
 - 85% of processes digitized
 - 150+ strategic views
 - 24 ETL jobs
+- Held concurrently with the ICT Manager role from Mar 2021 to Nov 2023, combining technology and innovation leadership with ICT management.
 - Led the company's digital transformation using PMBoK, Agile and gamification to institutionalize processes and an innovation culture.
 - Identified opportunities, trained internal leaders and spread innovation mindset, methods and tools across the organization.
 - Measured project impact and ROI while building solutions that improved auditability and supported data-driven corporate decisions.
@@ -56,6 +57,7 @@ Tech Lead
  AGRODAN AGROPECUARIA RORIZ DANTAS
  Oct 2019 - Nov 2023 · 4 yrs 2 mos · Belem do Sao Francisco and Recife, Pernambuco · On-site
 
+- From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation.
 - Managed IT staff routines, help desk operations, device estate, servers, backup and recovery, virtualization and high-availability initiatives.
 - Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. Technologies: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
 
@@ -159,7 +161,7 @@ Tech Lead
 
 ### AI, agents and automation
  LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.
- Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
+ Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer.
 
 
 ### Machine Learning and research
@@ -169,27 +171,27 @@ Tech Lead
 
 ### Software engineering
  Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.
- SIA/SIAgro, EBSERH, The Game Project and independent products. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
+ SIA/SIAgro, EBSERH, The Game Project and independent products.
 
 
 ### Data and decisions
  ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.
- Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
+ Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística.
 
 
 ### Leadership and operations
  Technology management, business alignment, team development, PMBOK, Scrum, Kanban, governance, infrastructure and security.
- Technology Enablement Lead, Head of Technology, IT Manager and IT Business Partner roles. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
+ Technology Enablement Lead, Head of Technology, IT Manager and IT Business Partner roles.
 
 
 ### Products and applied methods
  Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.
- Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.Related education: ongoing FM2S MBA in Operational Excellence. Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.
+ Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations.Related education: ongoing FM2S MBA in Operational Excellence.
 
 
 ### Agentic AI architecture and governance
  Design of orchestrators, specialist agents, approved tools, contextual RAG, independent auditing and human approval.
- Globalcom Certification OS — Modern Concept solution proposal and architecture.
+ Globalcom Certification OS — Modern Concept delivered architecture; implementation in progress.
 
 
 ### MLOps and model lifecycle
@@ -224,7 +226,7 @@ Tech Lead
  Decision and visualization: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js and React Three Fiber.
  Automation and integration: LLM APIs, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform and RPA.
  Cloud and operations: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI.
- Proposed stack — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal.
+ Architecture-specified stack — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal.
  MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, temporal validation, supervisor, logs and dashboard.
  Packing AI integration: Computer vision, Deep Learning, cameras, APIs, ERP, sorting machine, dashboard, Telegram and a dedicated server; CRISP-DM project methodology.
 
@@ -486,77 +488,21 @@ Tech Lead
 
 
 ## Agentic AI — Globalcom Certification OS
- Modern Concept · solution proposal and architecture for educational certification and compliance
+ Modern Concept · delivered educational certification and compliance architecture · implementation in progress
 
 
-### Agentic AI architecture and specialist orchestration
- Solution proposal and architecture design: coordinate specialized tasks with evidence and human oversight.
+### Globalcom Certification OS
+ Designed and delivered the functional and technical architecture for Globalcom Certification OS. The scope integrates 10 specialist agents, an orchestrator and independent auditor, RAG, persistent workflows, domain modeling, multi-tenant security and API/MCP/RPA integrations. The delivered architecture guides the ongoing implementation.
+ Specified stack: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Architecture delivery completed; implementation in progress. Operational results have not yet been declared.
 
-- Designed 10 specialist roles: compliance, evidence, documents, research, writing, communication, deadlines, risk, systems audit and integration/RPA.
-- A dedicated orchestrator checks preconditions, distributes tasks and consolidates results; an independent auditor reviews agents, tools, sources and decisions. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
- Solution proposal and architecture design; technologies and execution describe the proposed scope.
- Context and projects · Technical details
-
-
-
-### Managed RAG and document intelligence
- Solution proposal and architecture design: retrieve knowledge matching school, requirement and document version.
-
-- Designed six collections: official regulations, operational knowledge, management context, email precedents, school-specific documents and approved templates.
-- Hybrid retrieval architecture with embeddings and pgvector; tenant, school, framework, requirement, version, validity and approval filters. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
- Solution proposal and architecture design; technologies and execution describe the proposed scope.
- Context and projects · Technical details
-
-
-
-### Workflow, events and persistent execution
- Solution proposal and architecture design: keep processes and tasks running without an active user session.
-
-- A proposed state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.
-- Designed queues, events, webhooks and scheduled jobs, with specialist workflow, agent, document, RAG, notification, RPA and audit workers. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
- Solution proposal and architecture design; technologies and execution describe the proposed scope.
- Context and projects · Technical details
-
-
-
-### AI governance, security and continuous audit
- Solution proposal and architecture design: control autonomy, data access and decision quality.
-
-- Proposed policy separates automatic execution, human approval actions and critical decisions reserved for people.
-- Designed partner/school isolation with RLS and RBAC, least privilege, secret management, logs, retention, backup and recovery. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
- Solution proposal and architecture design; technologies and execution describe the proposed scope.
- Context and projects · Technical details
-
-
-
-### API, MCP and RPA integrations for external operations
- Solution proposal and architecture design: connect sources and portals with controlled execution.
-
-- Integration strategy prioritizes APIs, uses MCP for standardized tool access and proposes RPA when formal integration is unavailable.
-- Specified isolated Playwright browser workers, retry policies, idempotency, layout change detection and manual fallback. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
- Solution proposal and architecture design; technologies and execution describe the proposed scope.
- Context and projects · Technical details
-
-
-
-### Certification domain and product modeling
- Solution proposal and architecture design: translate certification operations into product entities and workflows.
-
-- Proposed domain connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.
-- Supabase/PostgreSQL is the designed canonical store, with document Storage, Auth, Realtime and pgvector; a React/TypeScript frontend includes workflow visualization. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
- Solution proposal and architecture design; technologies and execution describe the proposed scope.
- Context and projects · Technical details
-
-
-
-### Consulting, solution architecture and roadmap
- Solution proposal and architecture design: organize a technical proposal for incremental implementation.
-
-- Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
-- Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
- Solution proposal and architecture design; technologies and execution describe the proposed scope.
- Context and projects · Technical details
-
+- Agentic AI architecture and specialist orchestration
+- Managed RAG and document intelligence
+- Workflow, events and persistent execution
+- AI governance, security and continuous audit
+- API, MCP and RPA integrations for external operations
+- Certification domain and product modeling
+- Consulting, solution architecture and roadmap
 
 
 ## MLOps — TraderMind
@@ -760,12 +706,12 @@ Tech Lead
 
 
 ### Agrodan — professional SIA / SIAgro ecosystem
- Field operations, packing, people, planning, purchasing, quality and commercial modules belong to the professional Agrodan trajectory. Individual modules are not assigned to specific roles or dates from commit timestamps.
+ Professional tenure: Jan 2019–Apr 2024. Head of Technology and ICT Manager were concurrent roles from Mar 2021 to Nov 2023. Field operations, packing, people, planning, purchasing, quality and commercial modules, as well as impact results, are associated with this tenure. Indicators retain their monthly or annual basis and are not added into a total savings figure.
 
 - IT Business Partner
-- IT Manager
+- ICT Manager
 - Head of Technology
-- Administrative management — supply chain, controlling and HR operations Professional experience
+- Administrative management — supply chain, controlling and HR operations Professional experience · Impact results
 
 
 ### EFS-AHP — doctoral research
@@ -1297,118 +1243,65 @@ Tech Lead
 
 
 ## Technical cases — Globalcom Agentic AI solution architecture
+ Modern Concept · functional and technical architecture delivered; implementation in progress.
+ Contribution: functional and technical architecture design and delivery. Implementation is in progress; production operation and operational metrics have not yet been declared.
+ Architecture-specified stack: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
 
 
 ### Agentic AI architecture and specialist orchestration
- Modern Concept · Globalcom · solution proposal and architecture
- Solution proposal and architecture design: coordinate specialized tasks with evidence and human oversight.
- Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
- Users and context: Globalcom managers, partners, schools and certification teams.
- Objective: Design evidence-driven certification operations with specialist agents and human approval.
-
-
-#### Engineering and implementation
+ Objective: Coordinate specialized tasks with evidence and human oversight
 
 - Designed 10 specialist roles: compliance, evidence, documents, research, writing, communication, deadlines, risk, systems audit and integration/RPA.
 - A dedicated orchestrator checks preconditions, distributes tasks and consolidates results; an independent auditor reviews agents, tools, sources and decisions.
-- Execution contracts connect school, process, requirement and task context to approved tools, evidence, confidence and human escalation. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-
+- Execution contracts connect school, process, requirement and task context to approved tools, evidence, confidence and human escalation.
 
 
 ### Managed RAG and document intelligence
- Modern Concept · Globalcom · solution proposal and architecture
- Solution proposal and architecture design: retrieve knowledge matching school, requirement and document version.
- Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
- Users and context: Globalcom managers, partners, schools and certification teams.
- Objective: Design evidence-driven certification operations with specialist agents and human approval.
-
-
-#### Engineering and implementation
+ Objective: Retrieve knowledge matching school, requirement and document version
 
 - Designed six collections: official regulations, operational knowledge, management context, email precedents, school-specific documents and approved templates.
 - Hybrid retrieval architecture with embeddings and pgvector; tenant, school, framework, requirement, version, validity and approval filters.
-- Specified ingestion, classification, extraction, versioning, embedding reprocessing, chunk lineage and citation persistence. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-
+- Specified ingestion, classification, extraction, versioning, embedding reprocessing, chunk lineage and citation persistence.
 
 
 ### Workflow, events and persistent execution
- Modern Concept · Globalcom · solution proposal and architecture
- Solution proposal and architecture design: keep processes and tasks running without an active user session.
- Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
- Users and context: Globalcom managers, partners, schools and certification teams.
- Objective: Design evidence-driven certification operations with specialist agents and human approval.
+ Objective: Keep processes and tasks running without an active user session
 
-
-#### Engineering and implementation
-
-- A proposed state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.
+- The specified state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.
 - Designed queues, events, webhooks and scheduled jobs, with specialist workflow, agent, document, RAG, notification, RPA and audit workers.
-- Suggested Node.js/TypeScript, NestJS or Fastify, Zod and BullMQ or an alternative queue; Temporal is an optional durable workflow engine. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-
+- Suggested Node.js/TypeScript, NestJS or Fastify, Zod and BullMQ or an alternative queue; Temporal is an optional durable workflow engine.
 
 
 ### AI governance, security and continuous audit
- Modern Concept · Globalcom · solution proposal and architecture
- Solution proposal and architecture design: control autonomy, data access and decision quality.
- Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
- Users and context: Globalcom managers, partners, schools and certification teams.
- Objective: Design evidence-driven certification operations with specialist agents and human approval.
+ Objective: Control autonomy, data access and decision quality
 
-
-#### Engineering and implementation
-
-- Proposed policy separates automatic execution, human approval actions and critical decisions reserved for people.
+- The specified execution policy separates automatic execution, human approval actions and critical decisions reserved for people.
 - Designed partner/school isolation with RLS and RBAC, least privilege, secret management, logs, retention, backup and recovery.
-- An independent auditor checks citation/evidence alignment, regulation versions, data integrity and workflow compliance; quarterly audits and four-month review meetings are planned. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-
+- An independent auditor checks citation/evidence alignment, regulation versions, data integrity and workflow compliance; quarterly audits and four-month review meetings are planned.
 
 
 ### API, MCP and RPA integrations for external operations
- Modern Concept · Globalcom · solution proposal and architecture
- Solution proposal and architecture design: connect sources and portals with controlled execution.
- Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
- Users and context: Globalcom managers, partners, schools and certification teams.
- Objective: Design evidence-driven certification operations with specialist agents and human approval.
-
-
-#### Engineering and implementation
+ Objective: Connect sources and portals with controlled execution
 
 - Integration strategy prioritizes APIs, uses MCP for standardized tool access and proposes RPA when formal integration is unavailable.
 - Specified isolated Playwright browser workers, retry policies, idempotency, layout change detection and manual fallback.
-- Proposed scope includes Notion migration/synchronization, email, portals and future school/financial system connectors; QuickSchools, QuickBooks and Wave are initial references. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-
+- Architectural scope includes Notion migration/synchronization, email, portals and future school/financial system connectors; QuickSchools, QuickBooks and Wave are initial references.
 
 
 ### Certification domain and product modeling
- Modern Concept · Globalcom · solution proposal and architecture
- Solution proposal and architecture design: translate certification operations into product entities and workflows.
- Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
- Users and context: Globalcom managers, partners, schools and certification teams.
- Objective: Design evidence-driven certification operations with specialist agents and human approval.
+ Objective: Translate certification operations into product entities and workflows
 
-
-#### Engineering and implementation
-
-- Proposed domain connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.
+- Delivered domain design connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.
 - Supabase/PostgreSQL is the designed canonical store, with document Storage, Auth, Realtime and pgvector; a React/TypeScript frontend includes workflow visualization.
-- Architecture covers readiness, gaps, corrective plans, self-study and artifact reuse; expected outcomes are product goals rather than achieved impact metrics. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-
+- Architecture covers readiness, gaps, corrective plans, self-study and artifact reuse; expected outcomes are product goals rather than achieved impact metrics.
 
 
 ### Consulting, solution architecture and roadmap
- Modern Concept · Globalcom · solution proposal and architecture
- Solution proposal and architecture design: organize a technical proposal for incremental implementation.
- Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
- Users and context: Globalcom managers, partners, schools and certification teams.
- Objective: Design evidence-driven certification operations with specialist agents and human approval.
-
-
-#### Engineering and implementation
+ Objective: Deliver the architecture and roadmap for incremental implementation
 
 - Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
 - Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence.
-- Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
-
+- Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage.
 
 
 ## Technical cases — TraderMind MLOps and model lifecycle
@@ -3332,11 +3225,11 @@ Tech Lead
 
 
 ### Globalcom Certification OS — Agentic AI architecture for certification and compliance
- Solution proposal for educational certification and compliance, combining deterministic workflows, specialist agent orchestration, managed RAG, versioned evidence and integrations for school CEA + SEVP processes.
+ Delivered solution architecture, currently being implemented, for educational certification and compliance, combining deterministic workflows, specialist agent orchestration, managed RAG, versioned evidence and integrations for school CEA + SEVP processes.
  Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
  Users and context: Globalcom managers, partners, schools and certification teams.
  Objective: Design evidence-driven certification operations with specialist agents and human approval.
- Architecture: Proposed architecture with deterministic workflows, 10 specialists, an orchestrator and an independent auditor; managed RAG, Supabase/PostgreSQL, persistent workers and API/MCP/RPA integrations.
+ Architecture: Delivered architecture, being implemented, with deterministic workflows, 10 specialists, an orchestrator and an independent auditor; managed RAG, Supabase/PostgreSQL, persistent workers and API/MCP/RPA integrations.
  Stack: TypeScript, React, Node.js, Python, FastAPI, Supabase, PostgreSQL, pgvector, RAG, MCP, Playwright, RLS, RBAC, Filas e workers
 
 
@@ -3454,7 +3347,7 @@ Tech Lead
  Agentic AI, multiagent systems and governance LLMs, AI applications and conversational automation Machine Learning, quantitative research and experimentation MLOps, pipelines and model lifecycle Computer vision and industrial integration Data engineering, ETL and ERP integration Web and mobile software engineering and products Agriculture, operational management and enterprise systems Multicriteria decisions, optimization and operations research Lean, continuous improvement and economic analysis Knowledge management, learning and domain modeling Infrastructure, security and technology leadership 3D interfaces, maps and interactive experiences
 
 ### Agentic AI, multiagent systems and governance
- Solution architecture with specialized roles, agent coordination, shared context and decision controls. Planejamento Xavier provides rule-based coordination; Globalcom extends this experience through a certification and compliance architecture proposal, explicitly identified as solution design.
+ Solution architecture with specialized roles, agent coordination, shared context and decision controls. Planejamento Xavier provides rule-based coordination; Globalcom extends this experience through a delivered certification and compliance architecture, currently being implemented.
 
 
 #### Applied capabilities
@@ -3467,20 +3360,13 @@ Tech Lead
 
 - Six-agent planning council — Planejamento Xavier Independent projects, prototypes and research Implemented a council of six specialized agents to support planning and replanning, with evidence for each recommendation, deterministic conflict resolution and traceable actions.
 
-- Agentic AI architecture and specialist orchestration Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: coordinate specialized tasks with evidence and human oversight.
-
-- Managed RAG and document intelligence Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: retrieve knowledge matching school, requirement and document version.
-
-- Workflow, events and persistent execution Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: keep processes and tasks running without an active user session.
-
-- AI governance, security and continuous audit Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: control autonomy, data access and decision quality.
-
-- API, MCP and RPA integrations for external operations Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: connect sources and portals with controlled execution.
-
-- Certification domain and product modeling Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: translate certification operations into product entities and workflows.
-
-- Consulting, solution architecture and roadmap Modern Concept · Globalcom · solution proposal and architecture Solution proposal and architecture design: organize a technical proposal for incremental implementation.
- Technologies and methods: TypeScript · Deno · Supabase · typed contracts · conflict resolution · React · Node.js · Python · FastAPI · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- Globalcom · Agentic AI architecture and specialist orchestration
+- Globalcom · Managed RAG and document intelligence
+- Globalcom · Workflow, events and persistent execution
+- Globalcom · AI governance, security and continuous audit
+- Globalcom · API, MCP and RPA integrations for external operations
+- Globalcom · Certification domain and product modeling
+- Globalcom · Consulting, solution architecture and roadmap Technologies and methods: TypeScript · Deno · Supabase · typed contracts · conflict resolution · React · Node.js · Python · FastAPI · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
 
 
 

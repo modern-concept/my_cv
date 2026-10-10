@@ -170,6 +170,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
             return anchor+('-en' if language=='en' and anchor in english_ids else '')
         return '<li>'+html.escape(text)+('<span class="impact-project-links">'+' · '.join('<a href="#'+target(link['anchor'])+'">'+html.escape(link['label'])+'</a>' for link in links)+'</span>' if links else '')+'</li>'
     fill('fullResults', ''.join(impact_markup(v,i) for i,v in enumerate(pt['fullCv']['keyImpacts'])))
+    fill('impactContext', html.escape(pt['fullCv'].get('impactContext','')))
     for id, values in [('fullStack', pt['fullCv']['coreStack']), ('fullSkills', [v['name'] for v in pt['skills']]), ('fullTools', [v['name'] for v in pt['tools']])]:
         if id == 'fullSkills':
             fill(id, ''.join('<article class="career-skill"><h3>' + html.escape(g['title']) + '</h3><p>' + html.escape(g['description']) + '</p><p class="career-skill-origin">' + html.escape(g['origin']) + '</p></article>' for g in group_data['skillGroups']))
@@ -1521,6 +1522,7 @@ ENGINE_TEMPLATE = r'''
               <h2 class="section-title" id="tFullResults"></h2>
               <div class="rule"></div>
             </div>
+            <p class="career-context" id="impactContext"></p>
             <ul class="full-results" id="fullResults"></ul>
           </section>
 
@@ -1777,6 +1779,7 @@ ENGINE_TEMPLATE = r'''
       });
 
       const results = $("fullResults");
+      $("impactContext").textContent = F.impactContext || "";
       results.innerHTML = "";
       (F.keyImpacts || []).forEach((item, index) => {
         const row = el("li", null, item);

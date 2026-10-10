@@ -4,8 +4,8 @@ import html
 # Title, narrative and concrete capabilities in Portuguese and English.
 GROUPS=[
  ('agentic','Agentic AI, sistemas multiagentes e governança','Agentic AI, multiagent systems and governance',
-  'Arquitetura de soluções com papéis especializados, coordenação de agentes, contexto compartilhado e controle das decisões. Planejamento Xavier traz coordenação por regras; Globalcom amplia o repertório com uma proposta de arquitetura para certificação e compliance, mantendo explícito o estágio de desenho da solução.',
-  'Solution architecture with specialized roles, agent coordination, shared context and decision controls. Planejamento Xavier provides rule-based coordination; Globalcom extends this experience through a certification and compliance architecture proposal, explicitly identified as solution design.',
+  'Arquitetura de soluções com papéis especializados, coordenação de agentes, contexto compartilhado e controle das decisões. Planejamento Xavier traz coordenação por regras; Globalcom amplia o repertório com uma arquitetura entregue para certificação e compliance, atualmente em implementação.',
+  'Solution architecture with specialized roles, agent coordination, shared context and decision controls. Planejamento Xavier provides rule-based coordination; Globalcom extends this experience through a delivered certification and compliance architecture, currently being implemented.',
   ['Decomposição de responsabilidades, orquestração e resolução de conflitos','RAG, recuperação documental, MCP e integração de sistemas no desenho Globalcom','Workflows persistentes, auditoria independente, permissões e aprovação humana'],
   ['Responsibility decomposition, orchestration and conflict resolution','RAG, document retrieval, MCP and system integration in the Globalcom design','Persistent workflows, independent audit, permissions and human approval'],
   ['case-agentes-1','case-globalcom-']),
@@ -91,7 +91,10 @@ def render(cases, priorities, language='pt', stacks=None):
         content+='<h4>'+tr('Cases e contextos de origem','Source cases and contexts')+'</h4><ul class="skill-case-list">'
         for c in selected:
             destination=('resumo-' if c['id'].startswith('destaque-') else '')+c['id']
-            content+='<li><a href="#'+esc(destination)+'">'+esc(c['title'])+'</a><span class="skill-case-context">'+esc(c['context'])+'</span><p>'+esc(c['text'])+'</p></li>'
+            if c['id'].startswith('case-globalcom-'):
+                content+='<li><a href="#'+esc(destination)+'">Globalcom · '+esc(c['title'])+'</a></li>'
+            else:
+                content+='<li><a href="#'+esc(destination)+'">'+esc(c['title'])+'</a><span class="skill-case-context">'+esc(c['context'])+'</span><p>'+esc(c['text'])+'</p></li>'
             stack=c.get('stack') or (stacks or {}).get(c['id'].removeprefix('case-'),'')
             for token in stack.split(' · '):
                 if token and token not in technologies:technologies.append(token)

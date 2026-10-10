@@ -73,13 +73,20 @@ def core_sections(data, language='pt'):
     groups[0][3][:0]=[c for c in cases if c['id'].startswith('case-agritech-')]
     groups.insert(3,('cv-agentic-globalcom',
       'Agentic AI — Globalcom Certification OS' if language=='pt' else 'Agentic AI — Globalcom Certification OS',
-      'Modern Concept · proposta e arquitetura de solução para certificação e compliance educacional' if language=='pt' else 'Modern Concept · solution proposal and architecture for educational certification and compliance',
+      'Modern Concept · arquitetura entregue para certificação e compliance educacional · implementação em andamento' if language=='pt' else 'Modern Concept · delivered educational certification and compliance architecture · implementation in progress',
       [c for c in cases if c['id'].startswith('case-globalcom-')]))
     groups.insert(4,('cv-mlops','MLOps — TraderMind',
       'Pipeline de ML, validação, inferência, supervisão e manutenção · pesquisa e operação demo' if language=='pt' else 'ML pipeline, validation, inference, supervision and maintenance · research and demo operation',
       [c for c in cases if c['id'].startswith('case-mlops-') or c['id']=='case-infra-2']))
     for id, title, context, selected in groups:
         content = '<section class="page full-page career-project-page"><div class="full-page-inner"><h2 class="career-section-title" id="' + id + '">' + title + '</h2><p class="career-context">' + context + '</p>'
+        if id == 'cv-agentic-globalcom':
+            summary = 'Desenhei e entreguei a arquitetura funcional e técnica do Globalcom Certification OS. O escopo integra 10 agentes especialistas, orquestrador e auditor independente, RAG, workflows persistentes, modelagem de domínio, segurança multi-tenant e integrações API/MCP/RPA. A arquitetura entregue orienta a implementação em andamento.' if language=='pt' else 'Designed and delivered the functional and technical architecture for Globalcom Certification OS. The scope integrates 10 specialist agents, an orchestrator and independent auditor, RAG, persistent workflows, domain modeling, multi-tenant security and API/MCP/RPA integrations. The delivered architecture guides the ongoing implementation.'
+            content += '<article class="career-project"><h3>Globalcom Certification OS</h3><p>'+esc(summary)+'</p><p class="career-stack"><strong>'+('Stack especificada: ' if language=='pt' else 'Specified stack: ')+ '</strong>'+esc(selected[0]['stack'])+'.</p><p class="career-qualifier">'+('Entrega de arquitetura concluída; implementação em andamento. Resultados operacionais ainda não declarados.' if language=='pt' else 'Architecture delivery completed; implementation in progress. Operational results have not yet been declared.')+'</p><ul class="career-reference">'
+            for c in selected:
+                content += '<li id="resumo-'+c['id']+'"><a href="#'+c['id']+'">'+esc(c['title'])+'</a></li>'
+            result.append(content+'</ul></article></div></section>')
+            continue
         for c in selected:
             shortid = c['id'].removeprefix('case-')
             qualifier = ''
@@ -88,7 +95,7 @@ def core_sections(data, language='pt'):
             elif shortid == 'sia-cases-2': qualifier = 'Modelagem exploratória; desempenho fora da amostra ainda não demonstrado.'
             elif shortid in ['visao-2', 'grafica-1', 'grafica-2']: qualifier = 'Protótipos e estudos de interação e visualização.'
             if shortid.startswith('globalcom-'):
-                qualifier = 'Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.' if language=='pt' else 'Solution proposal and architecture design; technologies and execution describe the proposed scope.'
+                qualifier = 'Arquitetura entregue; implementação em andamento.' if language=='pt' else 'Delivered architecture; implementation in progress.'
             links = ' · '.join('<a href="#' + esc(a) + '">' + ('MBA Operational Excellence' if a=='formacao-fm2s' else 'Doutorado' if a.startswith('formacao') else 'Trajetória Agrodan' if a == 'vinculo-agrodan' else 'Estágio hospitalar' if a == 'experiencia-9' else 'Ferramenta e fontes' if a.startswith('utilibox-tool-') else 'Módulo e fontes' if a.startswith('sia-negocio-') else 'Contexto e projetos') + '</a>' for a in c['relatedContextAnchors'])
             content += '<article class="career-project" id="resumo-' + c['id'] + '"><h3>' + esc(c['title']) + '</h3><p>' + esc(c['text']) + '</p><ul class="career-deliverables">' + ''.join('<li>' + esc(v) + '</li>' for v in c['implementation'][:2]) + '</ul><p class="career-stack"><strong>Engenharia e tecnologias:</strong> ' + esc(c.get('stack', STACKS.get(shortid, ''))) + '.</p>'
             if qualifier: content += '<p class="career-qualifier">' + qualifier + '</p>'

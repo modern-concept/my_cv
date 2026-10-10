@@ -7,7 +7,7 @@ import runpy
 from pathlib import Path
 
 BASE=Path(__file__).resolve().parents[1]
-DATE='2026-10-09'
+DATE='2026-10-10'
 def read(name): return json.loads((BASE/name).read_text(encoding='utf-8-sig'))
 def esc(value): return html.escape(str(value),quote=True)
 def slug(value): return re.sub(r'[^a-z0-9]+','-',value.lower()).strip('-')
@@ -107,10 +107,16 @@ def build():
     for topic in proposal['topics']:
         content='<p class="intro">'+esc(topic['intro'])+'</p>'+paras(topic['text'])
         content+='<ol class="flow">'+''.join('<li>'+esc(v)+'</li>' for v in topic['flow'])+'</ol>'
+        if topic['id']=='globalcom':
+            content+='<p><strong>Stack especificada na arquitetura:</strong> '+esc(' · '.join(GLOBALCOM['STACK']))+'</p><h4>Competências aplicadas</h4>'+chips(GLOBALCOM['PROJECT']['skills'])+'<p class="scope">'+esc(GLOBALCOM['PROJECT']['limits'])+'</p>'
         for i,c in enumerate(topic['cases']):
             cid='case-'+topic['id']+'-'+str(i+1)
             record={**c,'id':cid,'relatedContextAnchors':[a for a,_ in context_links(c['context'])],'depth':'Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto.'}
             cases.append(record)
+            if topic['id']=='globalcom':
+                record['depth']=c['depth']
+                content+='<article class="case" id="'+cid+'"><h3>'+esc(c['title'])+'</h3><p><strong>Objetivo:</strong> '+esc(c['problem'])+'</p>'+bullets(c['implementation'])+'</article>'
+                continue
             content+='<article class="case" id="'+cid+'"><p class="kicker">Case · '+esc(c['context'])+'</p><h3>'+esc(c['title'])+'</h3>'+linked(c['context'])+'<p><strong>Problema:</strong> '+esc(c['problem'])+'</p><p class="delivery"><strong>Contribuição e entrega:</strong> '+esc(c['text'])+'</p>'+PROJECT_DETAILS['case_markup'](record,proposal['projects'])+'<h4>Engenharia, métodos e profundidade</h4>'+bullets(c['implementation'])+'<h4>Competências evidenciadas</h4>'+chips(c['skills'])+source_block(c['sources'])+'<p class="scope"><strong>Alcance da evidência:</strong> '+esc(c['limit'])+'</p></article>'
         new_sections.append(section('especialidade-'+topic['id'],topic['title'],content,'specialty'))
     academic=[]
@@ -159,7 +165,7 @@ def build():
         preserved.append(section(slug(key),title,paras([c['greeting'],*c['paragraphs'],c['closing'],c['signature']]),'letter'))
     agro_roles='<ul>'+''.join('<li><a href="#'+anchors[i]+'">'+esc(j['role'])+'</a> — '+esc(j['period'])+'</li>' for i,j in enumerate(jobs) if i in [k for k in anchors if anchors[k] in agro_ids])+'</ul>'
     association_map=section('vinculos','Vínculos entre projetos e trajetória',
-      '<article id="vinculo-agrodan"><h3>Agrodan — ecossistema SIA / SIAgro</h3><p>Vínculo profissional confirmado. Os projetos de campo, packing, pessoas, planejamento, compras, qualidade e comercial estão ligados à trajetória na empresa. A distribuição de cada entrega pelos cargos e períodos específicos não é inferida pelas datas dos commits.</p>'+agro_roles+'<p><a href="#especialidade-sia-cases">Cases de negócio e métodos</a> · <a href="#sia-negocio">Módulos de negócio</a> · <a href="#sia-fluxos">ETL e mobile</a></p></article>'+
+      '<article id="vinculo-agrodan"><h3>Agrodan — ecossistema SIA / SIAgro</h3><p>Atuação profissional de jan/2019 a abr/2024. Head de Tecnologia e Gerente de TIC foram funções exercidas simultaneamente de mar/2021 a nov/2023. Os projetos de campo, packing, pessoas, planejamento, compras, qualidade e comercial, assim como os resultados de impacto, estão associados a esse período na empresa. Os indicadores mantêm suas bases mensais ou anuais e não são somados em um total de savings.</p>'+agro_roles+'<p><a href="#fullResults">Resultados de impacto</a> · <a href="#especialidade-sia-cases">Cases de negócio e métodos</a> · <a href="#sia-negocio">Módulos de negócio</a> · <a href="#sia-fluxos">ETL e mobile</a></p></article>'+
       '<article><h3>EFS-AHP — doutorado</h3><p>A pesquisa de seleção de atributos e decisão multicritério está vinculada ao doutorado profissional em Engenharia de Software.</p><p><a href="#formacao-1">Formação</a> · <a href="#case-ml-1">Case de pesquisa EFS-AHP</a></p></article>'+
       '<article><h3>EBSERH — estágio hospitalar</h3><p>O sistema de indicadores e avaliações está associado ao estágio no Hospital Universitário de Petrolina.</p><p><a href="#'+(hospital_ids[0] if hospital_ids else 'trajetoria')+'">Experiência de estágio</a> · <a href="#academico">Implementação e stack</a></p></article>'+
       '<article><h3>The Game Project — faculdade</h3><p>Projeto acadêmico de gestão de projetos com gamificação. O vínculo com a faculdade foi confirmado; não é atribuído a uma empresa nem constitui outra experiência hospitalar.</p><a href="#academico">Case acadêmico</a></article>'+

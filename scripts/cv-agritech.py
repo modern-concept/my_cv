@@ -70,8 +70,6 @@ def inject(proposal):
 
 def enhance_editorial(editorial,language='pt'):
     out=copy.deepcopy(editorial)
-    origin=' Plataforma de contagem e rastreabilidade de frutas Agrodan/Agritech.NE: atuação como desenvolvedor.' if language=='pt' else ' Agrodan/Agritech.NE fruit counting and traceability platform: developer contribution.'
-    for i in [0,2,3,5]:out['skillGroups'][i]['origin']+=origin
     out['skillGroups'].append({'title':'Visão computacional e integração industrial' if language=='pt' else 'Computer vision and industrial integration',
       'description':'Desenvolvimento de plataforma com contagem/rastreamento de frutos, integração ERP/classificadora, estimativa de peso, dashboard e alertas operacionais.' if language=='pt' else 'Platform development with fruit counting/tracking, ERP/sorting-machine integration, weight estimation, dashboard and operational alerts.',
       'origin':'Agrodan / Plataforma Agritech.NE — projeto de P&D, relatório final de março/2024.' if language=='pt' else 'Agrodan / Agritech.NE — applied R&D project, March 2024 final report.'})
