@@ -161,7 +161,13 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     fill('fullEducation', ''.join(education).replace('class="job"', 'class="full-education-entry"'))
     fill('fullSummary', ''.join('<p>' + html.escape(v) + '</p>' for v in pt['profile']['summary']))
     fill('fullRecognitions', ''.join('<p><strong>'+html.escape(v['title'])+': </strong>'+html.escape(v['description'])+'</p>' for v in pt['fullCv'].get('recognitionDescriptions',[])))
-    fill('fullResults', ''.join('<li>' + html.escape(v) + '</li>' for v in pt['fullCv']['keyImpacts']))
+    def impact_markup(text, index):
+        references=pt['fullCv'].get('impactReferences',[])
+        links=references[index]['links'] if index<len(references) else []
+        def target(anchor):
+            return anchor+('-en' if language=='en' and anchor in english_ids else '')
+        return '<li>'+html.escape(text)+('<span class="impact-project-links">'+' · '.join('<a href="#'+target(link['anchor'])+'">'+html.escape(link['label'])+'</a>' for link in links)+'</span>' if links else '')+'</li>'
+    fill('fullResults', ''.join(impact_markup(v,i) for i,v in enumerate(pt['fullCv']['keyImpacts'])))
     for id, values in [('fullStack', pt['fullCv']['coreStack']), ('fullSkills', [v['name'] for v in pt['skills']]), ('fullTools', [v['name'] for v in pt['tools']])]:
         if id == 'fullSkills':
             fill(id, ''.join('<article class="career-skill"><h3>' + html.escape(g['title']) + '</h3><p>' + html.escape(g['description']) + '</p><p class="career-skill-origin">' + html.escape(g['origin']) + '</p></article>' for g in group_data['skillGroups']))
@@ -1768,7 +1774,22 @@ ENGINE_TEMPLATE = r'''
 
       const results = $("fullResults");
       results.innerHTML = "";
-      (F.keyImpacts || []).forEach((item) => results.appendChild(el("li", null, item)));
+      (F.keyImpacts || []).forEach((item, index) => {
+        const row = el("li", null, item);
+        const references = (F.impactReferences || [])[index];
+        if(references && references.links.length){
+          const links = el("span", "impact-project-links");
+          references.links.forEach((reference, i) => {
+            if(i) links.appendChild(document.createTextNode(" · "));
+            const link = el("a", null, reference.label);
+            const translated = lang === "en" && document.getElementById(reference.anchor + "-en");
+            link.href = "#" + reference.anchor + (translated ? "-en" : "");
+            links.appendChild(link);
+          });
+          row.appendChild(links);
+        }
+        results.appendChild(row);
+      });
 
       const education = $("fullEducation");
       education.innerHTML = "";

@@ -309,6 +309,108 @@
             "title": "ICS Global 2025",
             "description": "Congresso interno anual da Bayer que avalia e premia os projetos mais inovadores do ano nas áreas de Crop Science."
           }
+        ],
+        "impactReferences": [
+          {
+            "links": [
+              {
+                "anchor": "resumo-case-sia-cases-3",
+                "label": "Auditoria de pulverização"
+              },
+              {
+                "anchor": "resumo-case-sia-cases-1",
+                "label": "PLANAGRO"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Trajetória na Agrodan"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-60",
+                "label": "PDCA de mão de obra"
+              },
+              {
+                "anchor": "sia-negocio-73",
+                "label": "Resumo de mão de obra"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Trajetória na Agrodan"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "experiencia-2",
+                "label": "Gestão administrativa"
+              },
+              {
+                "anchor": "experiencia-3",
+                "label": "Tecnologia e inovação"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Trajetória na Agrodan"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-41",
+                "label": "Gestão de estoque"
+              },
+              {
+                "anchor": "sia-negocio-36",
+                "label": "Estoque virtual"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Trajetória na Agrodan"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-80",
+                "label": "Solicitações de compras"
+              },
+              {
+                "anchor": "sia-negocio-58",
+                "label": "Orçamento"
+              },
+              {
+                "anchor": "sia-negocio-1",
+                "label": "Abastecimento da frota"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Trajetória na Agrodan"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-6",
+                "label": "Auditoria de pulverização"
+              },
+              {
+                "anchor": "sia-negocio-2",
+                "label": "Absenteísmo"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Trajetória na Agrodan"
+              }
+            ]
+          }
         ]
       },
       "experience": [
@@ -749,6 +851,108 @@
           {
             "title": "ICS Global 2025",
             "description": "Bayer’s annual internal congress that evaluates and recognizes the year’s most innovative projects across Crop Science."
+          }
+        ],
+        "impactReferences": [
+          {
+            "links": [
+              {
+                "anchor": "resumo-case-sia-cases-3",
+                "label": "Spraying audit"
+              },
+              {
+                "anchor": "resumo-case-sia-cases-1",
+                "label": "PLANAGRO"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Agrodan career context"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-60",
+                "label": "Labor PDCA"
+              },
+              {
+                "anchor": "sia-negocio-73",
+                "label": "Labor summary"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Agrodan career context"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "experiencia-2",
+                "label": "Administrative management"
+              },
+              {
+                "anchor": "experiencia-3",
+                "label": "Technology and innovation"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Agrodan career context"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-41",
+                "label": "Inventory management"
+              },
+              {
+                "anchor": "sia-negocio-36",
+                "label": "Virtual inventory"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Agrodan career context"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-80",
+                "label": "Purchase requests"
+              },
+              {
+                "anchor": "sia-negocio-58",
+                "label": "Budget"
+              },
+              {
+                "anchor": "sia-negocio-1",
+                "label": "Fleet refueling"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Agrodan career context"
+              }
+            ]
+          },
+          {
+            "links": [
+              {
+                "anchor": "sia-negocio-6",
+                "label": "Spraying audit"
+              },
+              {
+                "anchor": "sia-negocio-2",
+                "label": "Absenteeism"
+              },
+              {
+                "anchor": "vinculo-agrodan",
+                "label": "Agrodan career context"
+              }
+            ]
           }
         ]
       },
