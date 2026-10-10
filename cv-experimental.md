@@ -37,10 +37,10 @@ Versão experimental ampliada — 09/10/2026.
 - R$ 1,2 milhão/ano em mão de obra
 - R$ 500 mil/mês em solicitações evitadas
 - Auditoria de estoques e pessoas
-- Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Auditoria operacional e gestão de pessoas associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.
-- Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Esses controles apoiaram reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação.
-- Automação do fluxo de solicitações com análise crítica baseada em IA, classificação de classes contábeis e acompanhamento orçado x realizado com alertas em tempo real no Telegram. O controle crítico das solicitações evitou R$ 500 mil/mês em pedidos desnecessários.
-- Uso gerencial do SIA, sistema que construí como Head of Technology, para fortalecer governança operacional, auditoria e tomada de decisão. Tecnologias relacionadas no histórico: React.js, Node.js, Oracle Database, Python, Power BI, Telegram Bot API, RPA, AI/ML, ERP Integration, SQL
+- Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Contribuição: auditoria operacional e gestão dos controles de pessoas, associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.
+- Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Contribuição: gestão e auditoria dos controles de estoque, apoiando reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação.
+- Automação do fluxo de solicitações com análise crítica baseada em IA, classificação de classes contábeis e acompanhamento orçado x realizado com alertas em tempo real no Telegram. Contribuição: auditoria e gestão do controle crítico das solicitações, associado a R$ 500 mil/mês em pedidos desnecessários evitados.
+- Uso gerencial do SIA, plataforma desenvolvida e evoluída na trajetória de tecnologia, para fortalecer governança operacional, auditoria e tomada de decisão. Tecnologias relacionadas no histórico: React.js, Node.js, Oracle Database, Python, Power BI, Telegram Bot API, RPA, AI/ML, ERP Integration, SQL
 
 ### HEAD DE TECNOLOGIA: TI E INOVAÇÃO
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
@@ -52,7 +52,7 @@ Versão experimental ampliada — 09/10/2026.
 - Função exercida simultaneamente à Gerência de TIC de mar/2021 a nov/2023, acumulando liderança de tecnologia e inovação com a gestão de TIC.
 - Liderança da transformação digital da companhia com PMBoK, Agile e gamificação para institucionalizar processos e cultura de inovação.
 - Identificação de oportunidades, formação de líderes internos e disseminação de métodos, ferramentas e mindset de inovação.
-- Desenvolvimento de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.
+- Contribuição: desenvolvimento e evolução de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.
 - Entrega de formulários digitais, coleta offline com GPS, integração ERP, dashboards, ETLs e automações com IA/ML, digitalizando 85% dos processos antes manuais.
 - Condução do programa de inovação aberta Agrodan Tech, com sete startups selecionadas; renegociação contratual associada a R$ 800 mil/ano de economia. Tecnologias relacionadas no histórico: React.js, Python, Power BI, ETL, Machine Learning, Deep Learning, IoT, ERP
 
@@ -62,7 +62,7 @@ Versão experimental ampliada — 09/10/2026.
 
 - De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação.
 - Gestão das rotinas da equipe de TI, help desk, parque de dispositivos, servidores, backup e recovery, virtualização e projetos de alta disponibilidade.
-- Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Evolução dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia. Tecnologias relacionadas no histórico: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
+- Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Contribuição: evolução técnica dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia. Tecnologias relacionadas no histórico: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
 
 ### IT BUSINESS PARTNER
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
@@ -574,7 +574,7 @@ Versão experimental ampliada — 09/10/2026.
 ## Vínculos entre projetos e trajetória
 
 ### Agrodan — ecossistema SIA / SIAgro
- Atuação profissional de jan/2019 a abr/2024. Head de Tecnologia e Gerente de TIC foram funções exercidas simultaneamente de mar/2021 a nov/2023. Os projetos de campo, packing, pessoas, planejamento, compras, qualidade e comercial estão associados à trajetória na empresa. Os resultados de impacto correspondem a iniciativas a partir de 2020 até abr/2024. Os indicadores mantêm suas bases mensais ou anuais e não são somados em um total de savings.
+ Atuação profissional de jan/2019 a abr/2024. Head de Tecnologia e Gerente de TIC foram funções exercidas simultaneamente de mar/2021 a nov/2023. Os projetos de campo, packing, pessoas, planejamento, compras, qualidade e comercial estão associados à trajetória na empresa. Resultados de iniciativas desenvolvidas e evoluídas entre 2020 e abril de 2024, com contribuições em diferentes funções na Agrodan. Os períodos dos cargos identificam a atuação em cada função. Os indicadores mantêm suas bases mensais ou anuais e não são somados em um total de savings.
 
 - GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH — nov de 2023 - abr de 2024
 - HEAD DE TECNOLOGIA: TI E INOVAÇÃO — mar de 2021 - nov de 2023
@@ -4915,7 +4915,7 @@ GERENTE ADMINISTRATIVO
  Desenvolvi um sistema de informação integrado para geração de relatórios e coleta de dados offline. Ao longo de 5 anos foram mais de 30 módulos e 150 relatórios que vão do Campo ao setor de Embalagem.
  Realizei um processo de inovação Aberta, Agrodan Tech, que trouxe tecnologias inovadoras ao processo. No total, 7 startups foram selecionadas. O saving de negociação chegou a R$ 800.000,00 anuais via ajuste de contrato.
  Head de Tecnologia e Gerente de TIC foram funções simultâneas entre mar/2021 e nov/2023.
- Resultados das iniciativas a partir de 2020: auditorias de processos, estoques e pessoas, desenvolvimento de módulos ERP, análise crítica de compras e renegociação contratual. Contribuições e valores detalhados na experiência completa.
+ Iniciativas desenvolvidas e evoluídas entre 2020 e abril de 2024, com contribuições em diferentes funções: auditorias de processos, estoques e pessoas, desenvolvimento de módulos ERP, análise crítica de compras e renegociação contratual. Contribuições e valores detalhados na experiência completa.
 
 ### TRAJETORIA ANTERIOR
  ENGENHEIRO DE SOFTWARE SENIOR - LABRUNIER FARMS (2017-2018)

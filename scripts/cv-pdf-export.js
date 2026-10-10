@@ -90,7 +90,7 @@
       const job = element.closest('.full-job');
       const column = element.closest('.full-column');
       const dense = job || column;
-      return [destination(element, {text: runs, style: style || (dense ? 'jobParagraph' : 'paragraph'), fontSize: column ? (style === 'company' ? 7.8 : 7) : undefined, margin: [0, 0, 0, column ? 1 : dense ? 2 : 4]})];
+      return [destination(element, {text: runs, style: style || (dense ? 'jobParagraph' : 'paragraph'), fontSize: column ? (style === 'company' ? 7.8 : 7) : undefined, margin: [0, 0, 0, dense ? 1 : 4]})];
     }
     function table(element) {
       const rows = [...element.querySelectorAll(':scope > thead > tr,:scope > tbody > tr,:scope > tr')];
@@ -170,7 +170,7 @@
       const result = [];
       let pending = [];
       const flush = () => {
-        if (pending.some(item => item.text.trim())) result.push({text: pending, margin: [0, 0, 0, element.closest('.full-column') ? 1 : 4]});
+        if (pending.some(item => item.text.trim())) result.push({text: pending, margin: [0, 0, 0, element.closest('.full-job,.full-column') ? 1 : 4]});
         pending = [];
       };
       for (const child of element.childNodes) {

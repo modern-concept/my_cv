@@ -136,10 +136,10 @@
               "Auditoria de estoques e pessoas"
             ],
             "bullets": [
-              "Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Auditoria operacional e gestão de pessoas associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.",
-              "Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Esses controles apoiaram reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação.",
-              "Automação do fluxo de solicitações com análise crítica baseada em IA, classificação de classes contábeis e acompanhamento orçado x realizado com alertas em tempo real no Telegram. O controle crítico das solicitações evitou R$ 500 mil/mês em pedidos desnecessários.",
-              "Uso gerencial do SIA, sistema que construí como Head of Technology, para fortalecer governança operacional, auditoria e tomada de decisão."
+              "Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Contribuição: auditoria operacional e gestão dos controles de pessoas, associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.",
+              "Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Contribuição: gestão e auditoria dos controles de estoque, apoiando reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação.",
+              "Automação do fluxo de solicitações com análise crítica baseada em IA, classificação de classes contábeis e acompanhamento orçado x realizado com alertas em tempo real no Telegram. Contribuição: auditoria e gestão do controle crítico das solicitações, associado a R$ 500 mil/mês em pedidos desnecessários evitados.",
+              "Uso gerencial do SIA, plataforma desenvolvida e evoluída na trajetória de tecnologia, para fortalecer governança operacional, auditoria e tomada de decisão."
             ],
             "technologies": [
               "React.js",
@@ -169,7 +169,7 @@
               "Função exercida simultaneamente à Gerência de TIC de mar/2021 a nov/2023, acumulando liderança de tecnologia e inovação com a gestão de TIC.",
               "Liderança da transformação digital da companhia com PMBoK, Agile e gamificação para institucionalizar processos e cultura de inovação.",
               "Identificação de oportunidades, formação de líderes internos e disseminação de métodos, ferramentas e mindset de inovação.",
-              "Desenvolvimento de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.",
+              "Contribuição: desenvolvimento e evolução de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.",
               "Entrega de formulários digitais, coleta offline com GPS, integração ERP, dashboards, ETLs e automações com IA/ML, digitalizando 85% dos processos antes manuais.",
               "Condução do programa de inovação aberta Agrodan Tech, com sete startups selecionadas; renegociação contratual associada a R$ 800 mil/ano de economia."
             ],
@@ -193,7 +193,7 @@
             "bullets": [
               "De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação.",
               "Gestão das rotinas da equipe de TI, help desk, parque de dispositivos, servidores, backup e recovery, virtualização e projetos de alta disponibilidade.",
-              "Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Evolução dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia."
+              "Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Contribuição: evolução técnica dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia."
             ],
             "technologies": [
               "Windows Server",
@@ -326,17 +326,13 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · resultados desde 2020"
+                "label": "Trajetória na Agrodan"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head de Tecnologia"
+                "label": "Head de Tecnologia · ferramentas"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Período das iniciativas; data individual de medição não informada."
           },
           {
@@ -351,38 +347,30 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · resultados desde 2020"
+                "label": "Trajetória na Agrodan"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Gerência administrativa"
+                "label": "Gerência administrativa · controles"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Período das iniciativas; data individual de medição não informada."
           },
           {
             "links": [
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · resultados desde 2020"
+                "label": "Trajetória na Agrodan"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head de Tecnologia"
+                "label": "Head de Tecnologia · ferramentas"
               },
               {
                 "anchor": "experiencia-4",
-                "label": "Gerência de TIC"
+                "label": "Gerência de TIC · ERP"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Período das iniciativas; data individual de medição não informada."
           },
           {
@@ -397,17 +385,13 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · resultados desde 2020"
+                "label": "Trajetória na Agrodan"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Gerência administrativa"
+                "label": "Gerência administrativa · controles"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Período das iniciativas; data individual de medição não informada."
           },
           {
@@ -426,21 +410,17 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · resultados desde 2020"
+                "label": "Trajetória na Agrodan"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Gerência administrativa"
+                "label": "Gerência administrativa · controles"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head de Tecnologia"
+                "label": "Head de Tecnologia · ferramentas"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Período das iniciativas; data individual de medição não informada."
           },
           {
@@ -455,25 +435,28 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · resultados desde 2020"
+                "label": "Trajetória na Agrodan"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head de Tecnologia"
+                "label": "Head de Tecnologia · ferramentas"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Gerência administrativa"
+                "label": "Gerência administrativa · controles"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Período das iniciativas; data individual de medição não informada."
           }
         ],
-        "impactContext": "Agrodan · resultados de iniciativas a partir de 2020 até abr/2024. Contribuições descritas nos cargos relacionados; indicadores mensais/anuais de economia, estoques e despesas evitadas, sem somatório."
+        "impactContext": "Resultados de iniciativas desenvolvidas e evoluídas entre 2020 e abril de 2024, com contribuições em diferentes funções na Agrodan. Bases mensais/anuais preservadas, sem somatório.",
+        "impactHistory": {
+          "initiativePeriod": {
+            "from": "2020",
+            "to": "2024-04"
+          },
+          "scope": "Conjunto das iniciativas na Agrodan; os períodos dos cargos indicam funções exercidas, não datas individuais de medição."
+        }
       },
       "experience": [
         {
@@ -495,7 +478,7 @@
             "Desenvolvi um sistema de informação integrado para geração de relatórios e coleta de dados offline. Ao longo de 5 anos foram mais de 30 módulos e 150 relatórios que vão do Campo ao setor de Embalagem.",
             "Realizei um processo de inovação Aberta, Agrodan Tech, que trouxe tecnologias inovadoras ao processo. No total, 7 startups foram selecionadas. O saving de negociação chegou a R$ 800.000,00 anuais via ajuste de contrato.",
             "Head de Tecnologia e Gerente de TIC foram funções simultâneas entre mar/2021 e nov/2023.",
-            "Resultados das iniciativas a partir de 2020: auditorias de processos, estoques e pessoas, desenvolvimento de módulos ERP, análise crítica de compras e renegociação contratual. Contribuições e valores detalhados na experiência completa."
+            "Iniciativas desenvolvidas e evoluídas entre 2020 e abril de 2024, com contribuições em diferentes funções: auditorias de processos, estoques e pessoas, desenvolvimento de módulos ERP, análise crítica de compras e renegociação contratual. Contribuições e valores detalhados na experiência completa."
           ]
         },
         {
@@ -745,10 +728,10 @@
               "Inventory and people auditing"
             ],
             "bullets": [
-              "Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance. Operational auditing and people management supported BRL 1.2M/year in labor cost reductions and BRL 780K/year in absenteeism-related cost reductions.",
-              "Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices. These controls supported reductions of BRL 1.8M/month in fast-moving inventory and BRL 150K/month in obsolete or slow-moving items.",
-              "Automated request flows with AI-driven critical analysis, accounting class classification and real-time budget vs actual tracking with Telegram alerts. Critical review of requests avoided BRL 500K/month in unnecessary orders.",
-              "Used SIA, the platform I had previously built as Head of Technology, to strengthen operational governance, auditing and management decision-making."
+              "Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance. Contribution: operational auditing and management of people controls, supporting BRL 1.2M/year in labor cost reductions and BRL 780K/year in absenteeism-related cost reductions.",
+              "Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices. Contribution: inventory control management and auditing, supporting reductions of BRL 1.8M/month in fast-moving inventory and BRL 150K/month in obsolete or slow-moving items.",
+              "Automated request flows with AI-driven critical analysis, accounting class classification and real-time budget vs actual tracking with Telegram alerts. Contribution: auditing and management of request controls, associated with avoided expenditure of BRL 500K/month in unnecessary orders.",
+              "Used SIA, the platform developed and evolved across my technology roles, to strengthen operational governance, auditing and management decision-making."
             ],
             "technologies": [
               "React.js",
@@ -778,7 +761,7 @@
               "Held concurrently with the ICT Manager role from Mar 2021 to Nov 2023, combining technology and innovation leadership with ICT management.",
               "Led the company's digital transformation using PMBoK, Agile and gamification to institutionalize processes and an innovation culture.",
               "Identified opportunities, trained internal leaders and spread innovation mindset, methods and tools across the organization.",
-              "Developed process and spraying audit tools supporting BRL 850K/year in pesticide savings, a 90% reduction in spraying/product-use issues and BRL 400K/year in fuel savings; tracked project impact and ROI for corporate decisions.",
+              "Contribution: development and evolution of process and spraying audit tools supporting BRL 850K/year in pesticide savings, a 90% reduction in spraying/product-use issues and BRL 400K/year in fuel savings; tracked project impact and ROI for corporate decisions.",
               "Delivered digital forms, offline GPS-enabled collection, ERP integration, dashboards, ETLs and AI/ML automations, digitizing 85% of previously manual processes.",
               "Led the Agrodan Tech open innovation program, selecting seven startups; contract renegotiation supported BRL 800K/year in savings."
             ],
@@ -802,7 +785,7 @@
             "bullets": [
               "From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation.",
               "Managed IT staff routines, help desk operations, device estate, servers, backup and recovery, virtualization and high-availability initiatives.",
-              "Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. ERP module and integration improvements reduced outsourcing needs, supporting BRL 240K/year in savings."
+              "Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. Contribution: technical improvements to ERP modules and integrations reduced outsourcing needs, supporting BRL 240K/year in savings."
             ],
             "technologies": [
               "Windows Server",
@@ -935,17 +918,13 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · results since 2020"
+                "label": "Agrodan career context"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head of Technology"
+                "label": "Head of Technology · tools"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Initiative period; individual measurement date not provided."
           },
           {
@@ -960,38 +939,30 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · results since 2020"
+                "label": "Agrodan career context"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Administrative management"
+                "label": "Administrative management · controls"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Initiative period; individual measurement date not provided."
           },
           {
             "links": [
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · results since 2020"
+                "label": "Agrodan career context"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head of Technology"
+                "label": "Head of Technology · tools"
               },
               {
                 "anchor": "experiencia-4",
-                "label": "ICT management"
+                "label": "ICT management · ERP"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Initiative period; individual measurement date not provided."
           },
           {
@@ -1006,17 +977,13 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · results since 2020"
+                "label": "Agrodan career context"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Administrative management"
+                "label": "Administrative management · controls"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Initiative period; individual measurement date not provided."
           },
           {
@@ -1035,21 +1002,17 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · results since 2020"
+                "label": "Agrodan career context"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Administrative management"
+                "label": "Administrative management · controls"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head of Technology"
+                "label": "Head of Technology · tools"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Initiative period; individual measurement date not provided."
           },
           {
@@ -1064,25 +1027,28 @@
               },
               {
                 "anchor": "vinculo-agrodan",
-                "label": "Agrodan · results since 2020"
+                "label": "Agrodan career context"
               },
               {
                 "anchor": "experiencia-3",
-                "label": "Head of Technology"
+                "label": "Head of Technology · tools"
               },
               {
                 "anchor": "experiencia-2",
-                "label": "Administrative management"
+                "label": "Administrative management · controls"
               }
             ],
-            "initiativePeriod": {
-              "from": "2020",
-              "to": "2024-04"
-            },
             "measurementTiming": "Initiative period; individual measurement date not provided."
           }
         ],
-        "impactContext": "Agrodan · results from initiatives starting in 2020 through Apr 2024. Contributions described under the related roles; monthly/annual savings, inventory reductions and avoided expenditure, with no aggregated total."
+        "impactContext": "Results of initiatives developed and evolved between 2020 and April 2024, with contributions across different Agrodan roles. Monthly/annual bases retained, without an aggregated total.",
+        "impactHistory": {
+          "initiativePeriod": {
+            "from": "2020",
+            "to": "2024-04"
+          },
+          "scope": "Overall Agrodan initiatives; role periods identify positions held, not individual measurement dates."
+        }
       },
       "experience": [
         {
@@ -1104,7 +1070,7 @@
             "Built an integrated information system for reporting and offline data collection. Over 5 years, delivered 30+ modules and 150 reports spanning field operations to the packaging sector.",
             "Led an Open Innovation program (Agrodan Tech) bringing innovative technologies to the process. 7 startups were selected; negotiation savings reached ~R$ 800,000/year via contract adjustments.",
             "Head of Technology and ICT Manager were concurrent roles from Mar 2021 to Nov 2023.",
-            "Results from initiatives starting in 2020: process, inventory and people audits, ERP module development, critical purchasing review and contract renegotiation. Contributions and amounts are detailed in the full career section."
+            "Initiatives developed and evolved between 2020 and April 2024, with contributions across different roles: process, inventory and people audits, ERP module development, critical purchasing review and contract renegotiation. Contributions and amounts are detailed in the full career section."
           ]
         },
         {
