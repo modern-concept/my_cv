@@ -14,7 +14,7 @@ Tech Lead
 
 ### TECHNOLOGY ENABLEMENT LEAD
  BAYER CROP SCIENCE
- May 2024 - Present · 2 yrs 5 mos · Petrolina, Pernambuco, Brazil
+ May 2024 - Present · Petrolina, Pernambuco, Brazil
 
 - 8x QMS LATAM 2025
 - 2x ICS Global 2025
@@ -26,7 +26,7 @@ Tech Lead
 
 ### ADMINISTRATIVE MANAGER - SUPPLY CHAIN, CONTROLLERSHIP & HR OPERATIONS
  AGRODAN AGROPECUARIA RORIZ DANTAS
- Nov 2023 - Apr 2024 · 6 mos · Belem do Sao Francisco, Pernambuco, Brazil · On-site
+ Nov 2023 - Apr 2024 · Belem do Sao Francisco, Pernambuco, Brazil · On-site
 
 - BRL 850K/year in pesticides
 - BRL 1.2M/year in labor
@@ -40,7 +40,7 @@ Tech Lead
 
 ### HEAD OF TECHNOLOGY: IT AND INNOVATION
  AGRODAN AGROPECUARIA RORIZ DANTAS
- Mar 2021 - Nov 2023 · 2 yrs 9 mos · Belem do Sao Francisco, Pernambuco, Brazil
+ Mar 2021 - Nov 2023 · Belem do Sao Francisco, Pernambuco, Brazil
 
 - 85% of processes digitized
 - 150+ strategic views
@@ -55,7 +55,7 @@ Tech Lead
 
 ### ICT MANAGER
  AGRODAN AGROPECUARIA RORIZ DANTAS
- Oct 2019 - Nov 2023 · 4 yrs 2 mos · Belem do Sao Francisco and Recife, Pernambuco · On-site
+ Oct 2019 - Nov 2023 · Belem do Sao Francisco and Recife, Pernambuco · On-site
 
 - From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation.
 - Managed IT staff routines, help desk operations, device estate, servers, backup and recovery, virtualization and high-availability initiatives.
@@ -65,7 +65,7 @@ Tech Lead
 
 ### IT BUSINESS PARTNER
  AGRODAN AGROPECUARIA RORIZ DANTAS
- Jan 2019 - Oct 2019 · 10 mos · Belem do Sao Francisco, Pernambuco, Brazil
+ Jan 2019 - Oct 2019 · Belem do Sao Francisco, Pernambuco, Brazil
 
 - Translated business needs into applied technologies with a strong focus on outcomes and transformation cadence.
 - Led the creation and ongoing evolution of SIA, an integrated platform with real-time dashboards, tracking maps, offline synchronized collectors and AI-based modules for operational and strategic decisions. Technologies: React.js, Node.js, SQL, Power BI, AI, Offline Sync
@@ -74,7 +74,7 @@ Tech Lead
 
 ### STARTUP FOUNDER & ENTREPRENEUR
  D & E SOFTWARES E GAMES | SYRINX TECNOLOGIA | SILO STUDIO | CASA DOS ESMALTES
- Feb 2012 - Oct 2019 · 7 yrs 9 mos · Petrolina, Pernambuco, Brazil
+ Feb 2012 - Oct 2019 · Petrolina, Pernambuco, Brazil
 
 - Co-founded several startups and served as CEO in most of the initiatives.
 - Built hands-on experience in market validation, product development, innovation and leadership under uncertainty.
@@ -83,7 +83,7 @@ Tech Lead
 
 ### SENIOR SOFTWARE ENGINEER
  GRUPO JD (LABRUNIER FARMS)
- Jan 2017 - Nov 2018 · 1 yr 11 mos · Petrolina Region, Brazil · On-site
+ Jan 2017 - Nov 2018 · Petrolina Region, Brazil · On-site
 
 - Led the development of management and monitoring tools for grape packing operations.
 - Built custom software, operational procedures and indicators that turned raw production data into actionable insights.
@@ -92,7 +92,7 @@ Tech Lead
 
 ### JUNIOR SOFTWARE ENGINEER
  GRUPO JD (LABRUNIER FARMS)
- Sep 2016 - Dec 2016 · 4 mos · Petrolina, Pernambuco, Brazil
+ Sep 2016 - Dec 2016 · Petrolina, Pernambuco, Brazil
 
 - Implemented a production data collection system using RFID in the grape packing sector.
 - Designed, monitored and managed operational indicators for both production lines and the IT team.
@@ -101,7 +101,7 @@ Tech Lead
 
 ### INTERN - HOSPITAL PERFORMANCE & STRATEGIC PLANNING
  HOSPITAL UNIVERSITARIO DE PETROLINA
- May 2015 - Aug 2015 · 4 mos · Petrolina, Pernambuco, Brazil
+ May 2015 - Aug 2015 · Petrolina, Pernambuco, Brazil
 
 - Developed a hospital performance indicator management system and supported the design and rollout of the 2015 Strategic Plan.
 - Delivered training sessions, presentations and seminars to ensure effective adoption of the new tools.

@@ -23,7 +23,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### TECHNOLOGY ENABLEMENT LEAD
  BAYER CROP SCIENCE
- mai de 2024 - o momento · 2 anos 5 meses · Tempo integral · Petrolina, Pernambuco, Brasil
+ mai de 2024 - atual · Tempo integral · Petrolina, Pernambuco, Brasil
 
 - 8x QMS LATAM 2025
 - 2x ICS Global 2025
@@ -33,7 +33,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
- nov de 2023 - abr de 2024 · 6 meses · Tempo integral · Belém do São Francisco, Pernambuco, Brasil · Presencial
+ nov de 2023 - abr de 2024 · Tempo integral · Belém do São Francisco, Pernambuco, Brasil · Presencial
 
 - R$ 850 mil/ano em defensivos
 - R$ 1,2 milhão/ano em mão de obra
@@ -45,7 +45,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### HEAD DE TECNOLOGIA: TI E INOVAÇÃO
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
- mar de 2021 - nov de 2023 · 2 anos 9 meses · Tempo integral · Belém do São Francisco, Pernambuco, Brasil
+ mar de 2021 - nov de 2023 · Tempo integral · Belém do São Francisco, Pernambuco, Brasil
 
 - 85% dos processos digitalizados
 - 150+ visões estratégicas
@@ -58,7 +58,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### GERENTE DE TIC
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
- out de 2019 - nov de 2023 · 4 anos 2 meses · Tempo integral · Belém do São Francisco e Recife, Pernambuco · Presencial
+ out de 2019 - nov de 2023 · Tempo integral · Belém do São Francisco e Recife, Pernambuco · Presencial
 
 - De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação.
 - Gestão das rotinas da equipe de TI, help desk, parque de dispositivos, servidores, backup e recovery, virtualização e projetos de alta disponibilidade.
@@ -66,7 +66,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### IT BUSINESS PARTNER
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
- jan de 2019 - out de 2019 · 10 meses · Tempo integral · Belém do São Francisco, Pernambuco, Brasil
+ jan de 2019 - out de 2019 · Tempo integral · Belém do São Francisco, Pernambuco, Brasil
 
 - Tradução de necessidades de negócio em tecnologias aplicadas, com forte foco em resultado e cadência de transformação digital.
 - Liderança na criação e evolução do SIA, plataforma integrada com dashboards em tempo real, mapas de acompanhamento, coletores offline sincronizados e módulos com IA para decisões operacionais e estratégicas. Tecnologias relacionadas no histórico: React.js, Node.js, SQL, Power BI, AI, Offline Sync
@@ -75,7 +75,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### FUNDADOR DE STARTUPS E EMPREENDEDOR
  D & E SOFTWARES E GAMES | SYRINX TECNOLOGIA | SILO STUDIO | CASA DOS ESMALTES
- fev de 2012 - out de 2019 · 7 anos 9 meses · Empreendedorismo · Petrolina, Pernambuco, Brasil
+ fev de 2012 - out de 2019 · Empreendedorismo · Petrolina, Pernambuco, Brasil
 
 - Atuação na fundação de diversas startups, exercendo o papel de CEO na maior parte das iniciativas.
 - Vivência prática em validação de mercado, desenvolvimento de produto, inovação e liderança sob incerteza.
@@ -83,7 +83,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### ENGENHEIRO DE SOFTWARE SÊNIOR
  GRUPO JD (FAZENDAS LABRUNIER)
- jan de 2017 - nov de 2018 · 1 ano 11 meses · Tempo integral · Petrolina e Região, Brasil · Presencial
+ jan de 2017 - nov de 2018 · Tempo integral · Petrolina e Região, Brasil · Presencial
 
 - Liderança do desenvolvimento de ferramentas de gestão e monitoramento para operações de packing de uvas.
 - Construção de softwares sob medida, procedimentos operacionais e indicadores que transformaram dados brutos em insights acionáveis.
@@ -91,7 +91,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### ENGENHEIRO DE SOFTWARE JÚNIOR
  GRUPO JD (FAZENDAS LABRUNIER)
- set de 2016 - dez de 2016 · 4 meses · Tempo integral · Petrolina, Pernambuco, Brasil
+ set de 2016 - dez de 2016 · Tempo integral · Petrolina, Pernambuco, Brasil
 
 - Implementação de sistema de coleta de dados com RFID no setor de packing de uvas.
 - Desenho, monitoramento e gestão de indicadores operacionais para linhas de produção e equipe de TI.
@@ -99,7 +99,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### ESTAGIÁRIO - DESEMPENHO HOSPITALAR E PLANEJAMENTO ESTRATÉGICO
  HOSPITAL UNIVERSITÁRIO DE PETROLINA
- mai de 2015 - ago de 2015 · 4 meses · Estágio · Petrolina, Pernambuco, Brasil
+ mai de 2015 - ago de 2015 · Estágio · Petrolina, Pernambuco, Brasil
 
 - Desenvolvimento de sistema de gestão de indicadores hospitalares e apoio à criação e implementação do Planejamento Estratégico 2015.
 - Realização de treinamentos, apresentações e seminários para acelerar a adoção das novas ferramentas.
@@ -575,10 +575,10 @@ Versão experimental ampliada — 09/10/2026.
 ### Agrodan — ecossistema SIA / SIAgro
  Atuação profissional de jan/2019 a abr/2024. Head de Tecnologia e Gerente de TIC foram funções exercidas simultaneamente de mar/2021 a nov/2023. Os projetos de campo, packing, pessoas, planejamento, compras, qualidade e comercial, assim como os resultados de impacto, estão associados a esse período na empresa. Os indicadores mantêm suas bases mensais ou anuais e não são somados em um total de savings.
 
-- GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH — nov de 2023 - abr de 2024 · 6 meses
-- HEAD DE TECNOLOGIA: TI E INOVAÇÃO — mar de 2021 - nov de 2023 · 2 anos 9 meses
-- GERENTE DE TIC — out de 2019 - nov de 2023 · 4 anos 2 meses
-- IT BUSINESS PARTNER — jan de 2019 - out de 2019 · 10 meses Resultados de impacto · Cases de negócio e métodos · Módulos de negócio · ETL e mobile
+- GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH — nov de 2023 - abr de 2024
+- HEAD DE TECNOLOGIA: TI E INOVAÇÃO — mar de 2021 - nov de 2023
+- GERENTE DE TIC — out de 2019 - nov de 2023
+- IT BUSINESS PARTNER — jan de 2019 - out de 2019 Resultados de impacto · Cases de negócio e métodos · Módulos de negócio · ETL e mobile
 
 ### EFS-AHP — doutorado
  A pesquisa de seleção de atributos e decisão multicritério está vinculada ao doutorado profissional em Engenharia de Software.
