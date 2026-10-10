@@ -103,6 +103,10 @@ def build_locale(data):
     cases = []
     for c in ext['cases']:
         key = c['id'].removeprefix('case-')
+        if key.startswith('mlops-'):
+            development=runpy.run_path(str(Path(__file__).with_name('cv-development.py')))
+            cases.append(next(record for record in development['cases']('en') if record['id']==c['id']))
+            continue
         if key.startswith('globalcom-'):
             globalcom=runpy.run_path(str(Path(__file__).with_name('cv-globalcom.py')))
             cases.append(next(record for record in globalcom['records']('en') if record['id']==c['id']))
@@ -123,7 +127,8 @@ def build_locale(data):
                       context='Professional experience — Agrodan' if c['section']=='agrodan' else 'Independent product — Utilibox')
         priorities.append(record)
     globalcom=runpy.run_path(str(Path(__file__).with_name('cv-globalcom.py')))
-    return {'cases':cases, 'priorityCases':priorities, 'editorial':globalcom['enhance_editorial'](EDITORIAL,'en')}
+    development=runpy.run_path(str(Path(__file__).with_name('cv-development.py')))
+    return {'cases':cases, 'priorityCases':priorities, 'editorial':development['enhance_editorial'](globalcom['enhance_editorial'](EDITORIAL,'en'),'en')}
 
 def translate_stack(text):
     phrases = {'contratos tipados':'typed contracts','resolução de conflitos':'conflict resolution','validação temporal':'temporal validation','APIs de LLM':'LLM APIs','telemetria':'telemetry','contratos de operações':'operation contracts','validação referencial':'reference validation','memória conversacional':'conversation history','APIs operacionais':'operational APIs','regras agronômicas':'agronomic rules','algoritmos genéticos':'genetic algorithms','rede neural':'neural network','normalização':'normalization','dados geoespaciais':'geospatial data','trajetória':'trajectory','velocidade':'speed','curvas e equações':'curves and equations','gráficos':'charts','dados de campo':'field data','sincronização':'synchronization','modelagem organizacional':'organizational modeling','avaliações':'assessments','histórico':'history','dados comerciais':'commercial data','importação em lotes':'batch import','simulação':'simulation','entidades e relações':'entities and relationships','redes':'networks','APIs locais':'local APIs'}
@@ -156,7 +161,7 @@ def build_archive(base, data, locale):
         body=''
         for c in selected:
             body+='<article id="'+c['id']+'" class="case"><h3>'+html.escape(c['title'])+'</h3>'+paragraphs([c['context'],c['text']])+PROJECT_DETAILS['case_markup'](c,ext['projects'],'en')+'<h4>Engineering and implementation</h4>'+bullets(c['implementation'])+'<p><strong>Technologies and methods:</strong> '+html.escape(c['stack'])+'</p>'+source_block(c['sources'])+'<p class="scope"><strong>Evidence scope:</strong> '+html.escape(c['limit'])+'</p></article>'
-        sections.append(archive_section('especialidade-'+prefix,'Technical cases — '+{'agentes':'multiagent coordination','ia':'AI integration','ml':'Machine Learning and research','visao':'computer vision','sia':'agricultural and business applications','dados':'data engineering','mobile':'mobile and enterprise web','decisao':'decision support','produto':'products and knowledge','infra':'infrastructure and desktop integration','grafica':'3D and spatial visualization','globalcom':'Globalcom Agentic AI solution architecture'}[prefix],body))
+        sections.append(archive_section('especialidade-'+prefix,'Technical cases — '+{'agentes':'multiagent coordination','ia':'AI integration','ml':'Machine Learning and research','visao':'computer vision','sia':'agricultural and business applications','dados':'data engineering','mobile':'mobile and enterprise web','decisao':'decision support','produto':'products and knowledge','infra':'infrastructure and desktop integration','grafica':'3D and spatial visualization','globalcom':'Globalcom Agentic AI solution architecture','mlops':'TraderMind MLOps and model lifecycle'}[prefix],body))
     academic=''
     for p in ext['projects']:
         if p['id'] in ['ebserh','The game project','[EFS-AHP]']:

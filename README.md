@@ -37,6 +37,8 @@ O detalhamento do CV apresenta áreas de aplicação, público, objetivos, arqui
 
 `scripts/cv-globalcom.py` acrescenta o Globalcom Certification OS em sete frentes: Agentic AI, RAG/documentos, workflow e execução persistente, governança/segurança, API/MCP/RPA, domínio/produto e consultoria/roadmap. O conteúdo vem da proposta fornecida pelo usuário e é apresentado como desenho de arquitetura, sem afirmar implantação ou resultados realizados. O HTML de origem não é publicado junto ao CV.
 
+`scripts/cv-development.py` mantém o MBA Operational Excellence da FM2S em andamento (maio/2026 a março/2027 previsto), relaciona a formação às aplicações de Lean e melhoria contínua do Utilibox e acrescenta 120 horas de prática no LeetCode. Os desafios listados são referências temáticas, sem declaração de quantidade resolvida ou ranking. Também acrescenta seis frentes de MLOps do TraderMind: dados/qualidade, treinamento/artefatos, validação temporal, serving, supervisão/retreino e observabilidade. O MBA usa um identificador próprio e aparece primeiro na formação; os links do doutorado continuam preservados.
+
 Execute `python scripts/build-experimental-cv.py` para regenerar **`index.html` e `cv-data.json`**, além das exportações textuais. O gerador exige destinos válidos para links internos de ambas as versões e preserva os relatos profissionais, salvo ajustes autorizados de competências e tecnologias.
 
 - `scripts/experimental-engine.py`: template do motor original e integração PT/EN. O template fica no próprio script para permitir regeneração sem outro HTML.

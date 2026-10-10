@@ -367,6 +367,18 @@
           "details": [
             "TCC: F-AHP: Software Java para a aplicação do Método de Decisão Multicritério AHP"
           ]
+        },
+        {
+          "id": "formacao-fm2s",
+          "from": "MAIO 2026",
+          "to": "MARÇO 2027 (PREVISÃO)",
+          "school": "FM2S EDUCAÇÃO E CONSULTORIA",
+          "degree": "MBA OPERATIONAL EXCELLENCE — EM ANDAMENTO",
+          "details": [
+            "Administração, gestão e operações.",
+            "Formação relacionada aos projetos independentes de Lean e melhoria contínua do Utilibox: VSM, SMED, PDSA, A3, Pareto e cronoanálise."
+          ],
+          "status": "in-progress"
         }
       ],
       "tools": [
@@ -396,6 +408,9 @@
         },
         {
           "name": "Stack projetada — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional."
+        },
+        {
+          "name": "MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, validação temporal, supervisor, logs e dashboard."
         }
       ],
       "skills": [
@@ -419,6 +434,12 @@
         },
         {
           "name": "Arquitetura Agentic AI e governança: Desenho de orquestradores, agentes especialistas, ferramentas autorizadas, RAG contextual, auditoria independente e aprovação humana."
+        },
+        {
+          "name": "MLOps e ciclo de vida de modelos: Pipelines de dados e features, checkpoints, artefatos de modelos, validação temporal, serving por API, supervisão, retreino e observabilidade."
+        },
+        {
+          "name": "Algoritmos e resolução de problemas: Prática de estruturas de dados, estratégias algorítmicas, análise de complexidade e tratamento de casos de borda."
         }
       ]
     },
@@ -771,6 +792,18 @@
           "details": [
             "Capstone: F-AHP: Java software to apply the AHP multi-criteria decision method"
           ]
+        },
+        {
+          "id": "formacao-fm2s",
+          "from": "MAY 2026",
+          "to": "MAR 2027 (EXPECTED)",
+          "school": "FM2S EDUCAÇÃO E CONSULTORIA",
+          "degree": "MBA OPERATIONAL EXCELLENCE — IN PROGRESS",
+          "details": [
+            "Business Administration, Management and Operations.",
+            "Related independent Utilibox projects: VSM, SMED, PDSA, A3, Pareto and time study."
+          ],
+          "status": "in-progress"
         }
       ],
       "tools": [
@@ -800,6 +833,9 @@
         },
         {
           "name": "Proposed stack — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal."
+        },
+        {
+          "name": "MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, temporal validation, supervisor, logs and dashboard."
         }
       ],
       "skills": [
@@ -823,6 +859,12 @@
         },
         {
           "name": "Agentic AI architecture and governance: Design of orchestrators, specialist agents, approved tools, contextual RAG, independent auditing and human approval."
+        },
+        {
+          "name": "MLOps and model lifecycle: Data and feature pipelines, checkpoints, model artifacts, temporal validation, API serving, supervision, retraining and observability."
+        },
+        {
+          "name": "Algorithms and problem solving: Data structure practice, algorithmic strategies, complexity analysis and edge-case handling."
         }
       ]
     }
@@ -1929,6 +1971,186 @@
           "globalcom-certification-os/architecture-proposal"
         ],
         "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-mlops-1",
+        "title": "Pipeline de dados, features e contratos de qualidade",
+        "text": "Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.",
+        "problem": "Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.",
+        "implementation": [
+          "Dados de mercado e indicadores em múltiplos timeframes, datasets Parquet e seleção evolutiva de atributos com EFS-AHP.",
+          "Verificações por fase cobrem integridade temporal, disponibilidade e saúde de features, consistência de configuração e sincronização de artefatos."
+        ],
+        "stack": "Python · pandas · NumPy · Parquet · DEAP · EFS-AHP",
+        "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+        "sources": [
+          "mt5/TraderMind/PIPELINE_GUIDE.md",
+          "mt5/TraderMind/supervisor.py",
+          "mt5/TraderMind/api/app.py"
+        ],
+        "skills": [
+          "MLOps",
+          "ML lifecycle",
+          "Data pipelines",
+          "Model serving",
+          "Temporal validation",
+          "Observability"
+        ],
+        "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-mlops-2",
+        "title": "Treinamento, checkpoints e gestão de artefatos",
+        "text": "Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.",
+        "problem": "Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.",
+        "implementation": [
+          "Rotinas de treinamento e comparação de classificadores, seleção de atributos e modelos de entrada e saída antecipada.",
+          "Checkpoints permitem retomar a busca evolutiva; modelos serializados, listas de features, configurações e logs apoiam a reprodução do fluxo."
+        ],
+        "stack": "Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints",
+        "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+        "sources": [
+          "mt5/TraderMind/PIPELINE_GUIDE.md",
+          "mt5/TraderMind/supervisor.py",
+          "mt5/TraderMind/api/app.py"
+        ],
+        "skills": [
+          "MLOps",
+          "ML lifecycle",
+          "Data pipelines",
+          "Model serving",
+          "Temporal validation",
+          "Observability"
+        ],
+        "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-mlops-3",
+        "title": "Validação temporal, leakage e avaliação fora da amostra",
+        "text": "Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.",
+        "problem": "Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.",
+        "implementation": [
+          "Walk-forward, holdouts temporais, backtests e auditorias de leakage complementam o treinamento; alinhamento causal das fontes externas evita usar informação futura.",
+          "Políticas são escolhidas antes do teste final OOS; comparação entre operação registrada e replay/backtest apoia a investigação de divergências."
+        ],
+        "stack": "Python · validação temporal · walk-forward · OOS · backtesting",
+        "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+        "sources": [
+          "mt5/TraderMind/PIPELINE_GUIDE.md",
+          "mt5/TraderMind/supervisor.py",
+          "mt5/TraderMind/api/app.py"
+        ],
+        "skills": [
+          "MLOps",
+          "ML lifecycle",
+          "Data pipelines",
+          "Model serving",
+          "Temporal validation",
+          "Observability"
+        ],
+        "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-mlops-4",
+        "title": "Serving de modelos e integração com MetaTrader5",
+        "text": "Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.",
+        "problem": "Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.",
+        "implementation": [
+          "API Flask carrega modelos e respectivas features por par/direção, produz predições e probabilidades e atende verificações de saída.",
+          "Conector Python integra dados e execução ao MetaTrader5; o serviço expõe saúde, status, modelos carregados e uptime."
+        ],
+        "stack": "Python · Flask · REST APIs · joblib · MetaTrader5",
+        "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+        "sources": [
+          "mt5/TraderMind/PIPELINE_GUIDE.md",
+          "mt5/TraderMind/supervisor.py",
+          "mt5/TraderMind/api/app.py"
+        ],
+        "skills": [
+          "MLOps",
+          "ML lifecycle",
+          "Data pipelines",
+          "Model serving",
+          "Temporal validation",
+          "Observability"
+        ],
+        "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-mlops-5",
+        "title": "Orquestração, retreino e atualização operacional",
+        "text": "Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.",
+        "problem": "Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.",
+        "implementation": [
+          "Supervisor organiza extração, dataset, EFS-AHP, treinamento, backtest e serviço; diferencia atualização de dados sem retreino e ciclo completo de retreino.",
+          "Execuções usam identificação de rodada e logs; rotinas de agendamento e checagem operacional apoiam manutenção do pipeline."
+        ],
+        "stack": "Python · supervisor · agendamento · logs · automação de pipeline",
+        "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+        "sources": [
+          "mt5/TraderMind/PIPELINE_GUIDE.md",
+          "mt5/TraderMind/supervisor.py",
+          "mt5/TraderMind/api/app.py"
+        ],
+        "skills": [
+          "MLOps",
+          "ML lifecycle",
+          "Data pipelines",
+          "Model serving",
+          "Temporal validation",
+          "Observability"
+        ],
+        "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-mlops-6",
+        "title": "Observabilidade e acompanhamento de modelos",
+        "text": "Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.",
+        "problem": "Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.",
+        "implementation": [
+          "Dashboard e registros de saúde acompanham fases, treinamento e operação; APIs permitem inspecionar disponibilidade dos modelos e serviço.",
+          "Atualização da janela OOS e comparação entre trades registrados e backtest apoiam análise de mudança de regime e decisões de revisão do modelo."
+        ],
+        "stack": "Python · Flask · dashboard · logs · OOS · monitoramento",
+        "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+        "sources": [
+          "mt5/TraderMind/PIPELINE_GUIDE.md",
+          "mt5/TraderMind/supervisor.py",
+          "mt5/TraderMind/api/app.py"
+        ],
+        "skills": [
+          "MLOps",
+          "ML lifecycle",
+          "Data pipelines",
+          "Model serving",
+          "Temporal validation",
+          "Observability"
+        ],
+        "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -7046,6 +7268,203 @@
               "projetos"
             ],
             "depth": "Proposta de arquitetura"
+          }
+        ]
+      },
+      {
+        "id": "mlops",
+        "title": "MLOps — ciclo de vida de modelos no TraderMind",
+        "intro": "Engenharia do ciclo de vida de ML: dos dados e experimentos à inferência, supervisão e manutenção operacional.",
+        "text": [
+          "O TraderMind integra pipeline local de dados, seleção de atributos, treinamento, avaliação temporal, API de inferência, dashboard e conector MetaTrader5. O contexto é de pesquisa e operação de demonstração."
+        ],
+        "flow": [
+          "Dados e qualidade",
+          "Features e treinamento",
+          "Validação temporal",
+          "Artefatos e inferência",
+          "Supervisão e acompanhamento"
+        ],
+        "cases": [
+          {
+            "id": "case-mlops-1",
+            "title": "Pipeline de dados, features e contratos de qualidade",
+            "text": "Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.",
+            "problem": "Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.",
+            "implementation": [
+              "Dados de mercado e indicadores em múltiplos timeframes, datasets Parquet e seleção evolutiva de atributos com EFS-AHP.",
+              "Verificações por fase cobrem integridade temporal, disponibilidade e saúde de features, consistência de configuração e sincronização de artefatos."
+            ],
+            "stack": "Python · pandas · NumPy · Parquet · DEAP · EFS-AHP",
+            "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-2",
+            "title": "Treinamento, checkpoints e gestão de artefatos",
+            "text": "Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.",
+            "problem": "Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.",
+            "implementation": [
+              "Rotinas de treinamento e comparação de classificadores, seleção de atributos e modelos de entrada e saída antecipada.",
+              "Checkpoints permitem retomar a busca evolutiva; modelos serializados, listas de features, configurações e logs apoiam a reprodução do fluxo."
+            ],
+            "stack": "Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints",
+            "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-3",
+            "title": "Validação temporal, leakage e avaliação fora da amostra",
+            "text": "Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.",
+            "problem": "Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.",
+            "implementation": [
+              "Walk-forward, holdouts temporais, backtests e auditorias de leakage complementam o treinamento; alinhamento causal das fontes externas evita usar informação futura.",
+              "Políticas são escolhidas antes do teste final OOS; comparação entre operação registrada e replay/backtest apoia a investigação de divergências."
+            ],
+            "stack": "Python · validação temporal · walk-forward · OOS · backtesting",
+            "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-4",
+            "title": "Serving de modelos e integração com MetaTrader5",
+            "text": "Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.",
+            "problem": "Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.",
+            "implementation": [
+              "API Flask carrega modelos e respectivas features por par/direção, produz predições e probabilidades e atende verificações de saída.",
+              "Conector Python integra dados e execução ao MetaTrader5; o serviço expõe saúde, status, modelos carregados e uptime."
+            ],
+            "stack": "Python · Flask · REST APIs · joblib · MetaTrader5",
+            "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-5",
+            "title": "Orquestração, retreino e atualização operacional",
+            "text": "Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.",
+            "problem": "Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.",
+            "implementation": [
+              "Supervisor organiza extração, dataset, EFS-AHP, treinamento, backtest e serviço; diferencia atualização de dados sem retreino e ciclo completo de retreino.",
+              "Execuções usam identificação de rodada e logs; rotinas de agendamento e checagem operacional apoiam manutenção do pipeline."
+            ],
+            "stack": "Python · supervisor · agendamento · logs · automação de pipeline",
+            "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-6",
+            "title": "Observabilidade e acompanhamento de modelos",
+            "text": "Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.",
+            "problem": "Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.",
+            "implementation": [
+              "Dashboard e registros de saúde acompanham fases, treinamento e operação; APIs permitem inspecionar disponibilidade dos modelos e serviço.",
+              "Atualização da janela OOS e comparação entre trades registrados e backtest apoiam análise de mudança de regime e decisões de revisão do modelo."
+            ],
+            "stack": "Python · Flask · dashboard · logs · OOS · monitoramento",
+            "context": "TraderMind · projeto independente de MLOps e pesquisa quantitativa",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
           }
         ]
       }
@@ -30739,7 +31158,8 @@
           "utilibox-tool-vsm",
           "utilibox-tool-smed",
           "utilibox-tool-pdsa-manager",
-          "utilibox-tool-folha-a3"
+          "utilibox-tool-folha-a3",
+          "formacao-fm2s"
         ],
         "sources": [
           "utilibox/src/tools/vsm/client.js",
@@ -30807,7 +31227,8 @@
           "utilibox-tool-analise-pareto",
           "utilibox-tool-matriz-gut",
           "utilibox-tool-matriz-swot",
-          "utilibox-tool-arvore-decisao"
+          "utilibox-tool-arvore-decisao",
+          "formacao-fm2s"
         ],
         "sources": [
           "utilibox/src/tools/analise-pareto/client.js",
@@ -31212,6 +31633,12 @@
         ]
       }
     ],
+    "technicalPractice": {
+      "platform": "LeetCode",
+      "hours": 120,
+      "type": "Complementary algorithm and data structure practice",
+      "challengeExamples": "Reference topics; no completion count or rating declared."
+    },
     "editorial": {
       "skillGroups": [
         {
@@ -31242,12 +31669,22 @@
         {
           "title": "Produtos e métodos aplicados",
           "description": "Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.",
-          "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
+          "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Formação relacionada: MBA Operational Excellence em andamento na FM2S."
         },
         {
           "title": "Arquitetura Agentic AI e governança",
           "description": "Desenho de orquestradores, agentes especialistas, ferramentas autorizadas, RAG contextual, auditoria independente e aprovação humana.",
           "origin": "Globalcom Certification OS — proposta e arquitetura pela Modern Concept."
+        },
+        {
+          "title": "MLOps e ciclo de vida de modelos",
+          "description": "Pipelines de dados e features, checkpoints, artefatos de modelos, validação temporal, serving por API, supervisão, retreino e observabilidade.",
+          "origin": "TraderMind — pesquisa quantitativa e operação demo integrada ao MetaTrader5."
+        },
+        {
+          "title": "Algoritmos e resolução de problemas",
+          "description": "Prática de estruturas de dados, estratégias algorítmicas, análise de complexidade e tratamento de casos de borda.",
+          "origin": "120 horas de prática no LeetCode."
         }
       ],
       "technologyGroups": [
@@ -31286,6 +31723,10 @@
         {
           "title": "Stack projetada — Globalcom Agentic AI",
           "description": "React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional."
+        },
+        {
+          "title": "MLOps — TraderMind",
+          "description": "Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, validação temporal, supervisor, logs e dashboard."
         }
       ],
       "caseStacks": {
@@ -32356,6 +32797,186 @@
               "projetos"
             ],
             "depth": "Architecture proposal"
+          },
+          {
+            "id": "case-mlops-1",
+            "title": "Data pipelines, features and quality contracts",
+            "text": "Integrated extraction, data updates, dataset construction and feature selection into operational TraderMind pipeline stages.",
+            "problem": "Integrated extraction, data updates, dataset construction and feature selection into operational TraderMind pipeline stages.",
+            "implementation": [
+              "Market data and multitimeframe indicators, Parquet datasets and evolutionary feature selection with EFS-AHP.",
+              "Stage checks cover temporal integrity, feature availability and health, configuration consistency and artifact synchronization."
+            ],
+            "stack": "Python · pandas · NumPy · Parquet · DEAP · EFS-AHP",
+            "context": "TraderMind · independent MLOps and quantitative research project",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-2",
+            "title": "Training, checkpoints and artifact management",
+            "text": "Organized experiments, training and execution recovery while preserving the relationship between models, features and parameters.",
+            "problem": "Organized experiments, training and execution recovery while preserving the relationship between models, features and parameters.",
+            "implementation": [
+              "Classifier training and comparison routines, feature selection and entry and early-exit models.",
+              "Checkpoints resume evolutionary search; serialized models, feature lists, configuration and logs support workflow reproduction."
+            ],
+            "stack": "Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints",
+            "context": "TraderMind · independent MLOps and quantitative research project",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-3",
+            "title": "Temporal validation, leakage and out-of-sample evaluation",
+            "text": "Separated selection, calibration and temporal evaluation to compare models and policies without contaminating the final evaluation period.",
+            "problem": "Separated selection, calibration and temporal evaluation to compare models and policies without contaminating the final evaluation period.",
+            "implementation": [
+              "Walk-forward, temporal holdouts, backtests and leakage audits complement training; causal external-data alignment avoids future information.",
+              "Policies are selected before final OOS testing; comparisons between logged operation and replay/backtest help investigate discrepancies."
+            ],
+            "stack": "Python · temporal validation · walk-forward · OOS · backtesting",
+            "context": "TraderMind · independent MLOps and quantitative research project",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-4",
+            "title": "Model serving and MetaTrader5 integration",
+            "text": "Connected ML artifacts, an inference service and the desktop terminal to bridge research and demonstration operation.",
+            "problem": "Connected ML artifacts, an inference service and the desktop terminal to bridge research and demonstration operation.",
+            "implementation": [
+              "A Flask API loads models and their features by pair/direction, returns predictions and probabilities and supports exit checks.",
+              "A Python connector integrates data and execution with MetaTrader5; service endpoints expose health, status, loaded models and uptime."
+            ],
+            "stack": "Python · Flask · REST APIs · joblib · MetaTrader5",
+            "context": "TraderMind · independent MLOps and quantitative research project",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-5",
+            "title": "Orchestration, retraining and operational updates",
+            "text": "Coordinated data, training, evaluation and serving cycles through distinct execution modes.",
+            "problem": "Coordinated data, training, evaluation and serving cycles through distinct execution modes.",
+            "implementation": [
+              "The supervisor organizes extraction, datasets, EFS-AHP, training, backtesting and serving; it distinguishes data updates without retraining from full retraining cycles.",
+              "Runs use identifiers and logs; scheduling and operational checks support pipeline maintenance."
+            ],
+            "stack": "Python · supervisor · scheduling · logs · pipeline automation",
+            "context": "TraderMind · independent MLOps and quantitative research project",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
+          },
+          {
+            "id": "case-mlops-6",
+            "title": "Observability and model follow-up",
+            "text": "Connected the operational dashboard, pipeline stage health and performance review using recent data.",
+            "problem": "Connected the operational dashboard, pipeline stage health and performance review using recent data.",
+            "implementation": [
+              "Dashboard and health records track stages, training and operation; APIs expose model and service availability.",
+              "OOS window updates and comparisons between logged trades and backtests support regime-change analysis and model review decisions."
+            ],
+            "stack": "Python · Flask · dashboard · logs · OOS · monitoring",
+            "context": "TraderMind · independent MLOps and quantitative research project",
+            "sources": [
+              "mt5/TraderMind/PIPELINE_GUIDE.md",
+              "mt5/TraderMind/supervisor.py",
+              "mt5/TraderMind/api/app.py"
+            ],
+            "skills": [
+              "MLOps",
+              "ML lifecycle",
+              "Data pipelines",
+              "Model serving",
+              "Temporal validation",
+              "Observability"
+            ],
+            "limit": "Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Pipeline local de ML e operação demo"
           }
         ],
         "priorityCases": [
@@ -32445,7 +33066,8 @@
               "utilibox-tool-vsm",
               "utilibox-tool-smed",
               "utilibox-tool-pdsa-manager",
-              "utilibox-tool-folha-a3"
+              "utilibox-tool-folha-a3",
+              "formacao-fm2s"
             ],
             "sources": [
               "utilibox/src/tools/vsm/client.js",
@@ -32513,7 +33135,8 @@
               "utilibox-tool-analise-pareto",
               "utilibox-tool-matriz-gut",
               "utilibox-tool-matriz-swot",
-              "utilibox-tool-arvore-decisao"
+              "utilibox-tool-arvore-decisao",
+              "formacao-fm2s"
             ],
             "sources": [
               "utilibox/src/tools/analise-pareto/client.js",
@@ -32948,12 +33571,22 @@
             {
               "title": "Products and applied methods",
               "description": "Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.",
-              "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
+              "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.Related education: ongoing FM2S MBA in Operational Excellence."
             },
             {
               "title": "Agentic AI architecture and governance",
               "description": "Design of orchestrators, specialist agents, approved tools, contextual RAG, independent auditing and human approval.",
               "origin": "Globalcom Certification OS — Modern Concept solution proposal and architecture."
+            },
+            {
+              "title": "MLOps and model lifecycle",
+              "description": "Data and feature pipelines, checkpoints, model artifacts, temporal validation, API serving, supervision, retraining and observability.",
+              "origin": "TraderMind — quantitative research and demonstration operation integrated with MetaTrader5."
+            },
+            {
+              "title": "Algorithms and problem solving",
+              "description": "Data structure practice, algorithmic strategies, complexity analysis and edge-case handling.",
+              "origin": "120 hours of LeetCode practice."
             }
           ],
           "technologyGroups": [
@@ -32992,6 +33625,10 @@
             {
               "title": "Proposed stack — Globalcom Agentic AI",
               "description": "React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal."
+            },
+            {
+              "title": "MLOps — TraderMind",
+              "description": "Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, temporal validation, supervisor, logs and dashboard."
             }
           ]
         }

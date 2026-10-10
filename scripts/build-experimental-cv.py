@@ -21,13 +21,16 @@ def source_heading(values): return PUBLIC_LINKS['source_heading'](values)
 def source_block(values): return PUBLIC_LINKS['source_block'](values)
 PROJECT_DETAILS=runpy.run_path(str(BASE/'scripts/cv-project-details.py'))
 GLOBALCOM=runpy.run_path(str(BASE/'scripts/cv-globalcom.py'))
+DEVELOPMENT=runpy.run_path(str(BASE/'scripts/cv-development.py'))
 def section(id,title,body,cls=''):
     return '<section id="'+id+'" class="chapter '+cls+'"><h2>'+esc(title)+'</h2>'+body+'</section>'
 
 def build():
     original=read('cv-data.json')
+    DEVELOPMENT['education'](original)
     proposal=read('cv-proposta-detalhada.json')
     GLOBALCOM['inject'](proposal)
+    DEVELOPMENT['inject'](proposal)
     experimental=copy.deepcopy(original)
     pt=experimental['languages']['pt']
     current=original['languages']['pt']
@@ -84,7 +87,7 @@ def build():
     base_parts=[section('perfil','Perfil profissional',paras(current['profile']['summary'])),section('reconhecimento','Reconhecimentos e responsabilidades',bullets(full['headerBadges'])),section('profissional','Experiência profissional',''.join(job_html[:primary_count])),section('trajetoria','Trajetória adicional',''.join(job_html[primary_count:])),section('resultados','Resultados de impacto',bullets(full['keyImpacts']))]
     edu=[]
     for i,e in enumerate(current['education']):
-        edu.append('<article id="formacao-'+str(i+1)+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p class="company">'+esc(e['school'])+'</p><p class="meta">'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>')
+        edu.append('<article id="'+e.get('id','formacao-'+str(i+1))+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p class="company">'+esc(e['school'])+'</p><p class="meta">'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>')
     base_parts.append(section('formacao','Formação',''.join(edu)))
     base_parts.append(section('competencias','Habilidades e competências',bullets([v['name'] for v in pt['skills']])+'<h3>Origem das competências</h3><p>Os cases e módulos abaixo relacionam as competências ao problema, à implementação e à experiência correspondente. Tecnologias informadas na trajetória profissional são diferenciadas dos artefatos localizados nos projetos.</p>'))
     base_parts.append(section('tecnologias','Tecnologias e ferramentas',bullets([v['name'] for v in pt['tools']])+'<h3>Stack principal ampliada</h3>'+chips(pt['fullCv']['coreStack'])))
@@ -184,7 +187,11 @@ def build():
     editorial=runpy.run_path(str(BASE/'scripts/cv-editorial.py'))
     priorities=runpy.run_path(str(BASE/'scripts/cv-priority-projects.py'))
     experimental['extensions']['priorityCases']=priorities['build_records'](experimental)
-    experimental['extensions']['editorial']=GLOBALCOM['enhance_editorial'](editorial['editor_data']())
+    for item in experimental['extensions']['priorityCases']:
+        if item['id'] in ['destaque-utilibox-lean','destaque-utilibox-priorizacao']:
+            item['relatedContextAnchors'].append('formacao-fm2s')
+    experimental['extensions']['technicalPractice']={'platform':'LeetCode','hours':120,'type':'Complementary algorithm and data structure practice','challengeExamples':'Reference topics; no completion count or rating declared.'}
+    experimental['extensions']['editorial']=DEVELOPMENT['enhance_editorial'](GLOBALCOM['enhance_editorial'](editorial['editor_data']()))
     pt['skills']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['skillGroups']]
     pt['tools']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['technologyGroups']]
     pt['fullCv']['coreStack']=['Python','SQL','JavaScript','TypeScript','Java','React','Node.js','React Native / Expo','Oracle / PostgreSQL','BigQuery','Azure','Power Platform','scikit-learn','YOLO / OpenCV','APIs de LLM','ETL']
@@ -215,7 +222,7 @@ def build():
     en_jobs=[]
     for i,j in enumerate(en['fullCv']['primaryExperience']+en['fullCv']['additionalExperience']):
         en_jobs.append('<article id="experiencia-'+str(i+1)+'" class="job"><h3>'+esc(j['role'])+'</h3><p class="company">'+esc(j['company'])+'</p><p class="meta">'+esc(j['period'])+' · '+esc(j.get('location',''))+'</p>'+chips(j.get('highlights',[]))+bullets(j.get('bullets',[]))+('<p><strong>Technologies:</strong> '+esc(', '.join(j['technologies']))+'</p>' if j.get('technologies') else '')+'</article>')
-    en_education=['<article id="formacao-'+str(i+1)+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p>'+esc(e['school'])+'</p><p>'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>' for i,e in enumerate(en['education'])]
+    en_education=['<article id="'+e.get('id','formacao-'+str(i+1))+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p>'+esc(e['school'])+'</p><p>'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>' for i,e in enumerate(en['education'])]
     english_text=section('profile','Professional profile',paras(en['profile']['summary']))+section('experience','Professional experience',''.join(en_jobs))+section('results','Impact highlights',bullets(en['fullCv']['keyImpacts']))+section('education','Education',''.join(en_education))
     english_text+=section('skills','Skills and applications',''.join('<h3>'+esc(g['title'])+'</h3>'+paras([g['description'],g['origin']]) for g in locale['editorial']['skillGroups']))
     english_text+=section('tools','Technologies and tools',''.join('<p><strong>'+esc(g['title'])+':</strong> '+esc(g['description'])+'</p>' for g in locale['editorial']['technologyGroups']))

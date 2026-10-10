@@ -81,7 +81,16 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     page = page.replace('contactRow.appendChild(createChip(`LinkedIn ${item.label}`, "full-contact-pill"));', 'const link = el("a", "full-contact-pill", item.label); link.href = item.url; contactRow.appendChild(link);')
     page = page.replace('(F.primaryExperience || []).forEach((job) => primary.appendChild(renderFullJob(job)));', '(F.primaryExperience || []).forEach((job, i) => { const item = renderFullJob(job); item.id = "experiencia-" + (i + 1); primary.appendChild(item); });')
     page = page.replace('(F.additionalExperience || []).forEach((job) => secondary.appendChild(renderFullJob(job, true)));', '(F.additionalExperience || []).forEach((job, i) => { const item = renderFullJob(job, true); item.id = "experiencia-" + ((F.primaryExperience || []).length + i + 1); secondary.appendChild(item); });')
-    page = page.replace('(L.education || []).forEach((item) => education.appendChild(renderFullEducationItem(item)));', '(L.education || []).forEach((item, i) => { const entry = renderFullEducationItem(item); entry.id = "formacao-" + (i + 1); education.appendChild(entry); });')
+    page = page.replace('(L.education || []).forEach((item) => education.appendChild(renderFullEducationItem(item)));', '(L.education || []).forEach((item, i) => { const entry = renderFullEducationItem(item); entry.id = item.id || "formacao-" + (i + 1); if(item.status === "in-progress") education.prepend(entry); else education.appendChild(entry); });')
+    education_links = """
+      if(item.id === "formacao-fm2s"){
+        const references = el("p", "career-reference");
+        const link = el("a", null, currentLang === "en" ? "Related Lean and continuous improvement tools — Utilibox" : "Projetos relacionados de Lean e melhoria contínua — Utilibox");
+        link.href = currentLang === "en" ? "#resumo-destaque-utilibox-lean-en" : "#resumo-destaque-utilibox-lean";
+        references.appendChild(link); wrap.appendChild(references);
+      }
+    """
+    page = page.replace('      return wrap;\n    }\n\n    function renderFullCv', education_links + '      return wrap;\n    }\n\n    function renderFullCv', 1)
     relation = '''
       if(/AGRODAN/i.test(job.company)){
         const related = el("p", "career-reference");

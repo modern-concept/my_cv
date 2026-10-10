@@ -146,6 +146,14 @@ Tech Lead
 - Capstone: F-AHP: Java software to apply the AHP multi-criteria decision method
 
 
+### MBA OPERATIONAL EXCELLENCE — IN PROGRESS
+ FM2S EDUCAÇÃO E CONSULTORIA
+ MAY 2026 — MAR 2027 (EXPECTED)
+
+- Business Administration, Management and Operations.
+- Related independent Utilibox projects: VSM, SMED, PDSA, A3, Pareto and time study.
+
+
 ## Skills and applications
 
 
@@ -176,12 +184,22 @@ Tech Lead
 
 ### Products and applied methods
  Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.
- Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
+ Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.Related education: ongoing FM2S MBA in Operational Excellence.
 
 
 ### Agentic AI architecture and governance
  Design of orchestrators, specialist agents, approved tools, contextual RAG, independent auditing and human approval.
  Globalcom Certification OS — Modern Concept solution proposal and architecture.
+
+
+### MLOps and model lifecycle
+ Data and feature pipelines, checkpoints, model artifacts, temporal validation, API serving, supervision, retraining and observability.
+ TraderMind — quantitative research and demonstration operation integrated with MetaTrader5.
+
+
+### Algorithms and problem solving
+ Data structure practice, algorithmic strategies, complexity analysis and edge-case handling.
+ 120 hours of LeetCode practice.
 
 
 ## Technologies and tools
@@ -194,6 +212,7 @@ Tech Lead
  Automation and integration: LLM APIs, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform and RPA.
  Cloud and operations: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI.
  Proposed stack — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal.
+ MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, temporal validation, supervisor, logs and dashboard.
 
 
 ## Projects and applied engineering at Agrodan
@@ -354,7 +373,7 @@ Tech Lead
 
 - VSM models steps, processing, waiting, uptime, inventory and bottlenecks, with lead-time, takt and PCE metrics.
 - SMED explores internal/external activities, conversion and parallelization; PDSA and A3 structure follow-up and action plans. Engineering and technologies: Astro · JavaScript · Lean · VSM · SMED · PDSA · A3.
- Open tool — vsm (https://utiliboxapp.com.br/tools/vsm/) · Open tool — smed (https://utiliboxapp.com.br/tools/smed/) · Open tool — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/) · Open tool — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
+ MBA Operational Excellence · Open tool — vsm (https://utiliboxapp.com.br/tools/vsm/) · Open tool — smed (https://utiliboxapp.com.br/tools/smed/) · Open tool — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/) · Open tool — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
 
 
 
@@ -372,7 +391,7 @@ Tech Lead
 
 - Pareto includes cumulative curves; GUT ranks severity, urgency and trend; SWOT supports cross-analysis of strategies.
 - Decision trees include chance/outcome nodes, expected monetary value and optimal-path identification. Engineering and technologies: JavaScript · Pareto · GUT · SWOT · EMV · decision visualization.
- Open tool — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/) · Open tool — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/) · Open tool — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/) · Open tool — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
+ MBA Operational Excellence · Open tool — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/) · Open tool — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/) · Open tool — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/) · Open tool — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
 
 
 
@@ -490,6 +509,64 @@ Tech Lead
 
 
 
+## MLOps — TraderMind
+ ML pipeline, validation, inference, supervision and maintenance · research and demo operation
+
+
+### Data pipelines, features and quality contracts
+ Integrated extraction, data updates, dataset construction and feature selection into operational TraderMind pipeline stages.
+
+- Market data and multitimeframe indicators, Parquet datasets and evolutionary feature selection with EFS-AHP.
+- Stage checks cover temporal integrity, feature availability and health, configuration consistency and artifact synchronization. Engineering and technologies: Python · pandas · NumPy · Parquet · DEAP · EFS-AHP.
+ Context and projects · Technical details
+
+
+
+### Training, checkpoints and artifact management
+ Organized experiments, training and execution recovery while preserving the relationship between models, features and parameters.
+
+- Classifier training and comparison routines, feature selection and entry and early-exit models.
+- Checkpoints resume evolutionary search; serialized models, feature lists, configuration and logs support workflow reproduction. Engineering and technologies: Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints.
+ Context and projects · Technical details
+
+
+
+### Temporal validation, leakage and out-of-sample evaluation
+ Separated selection, calibration and temporal evaluation to compare models and policies without contaminating the final evaluation period.
+
+- Walk-forward, temporal holdouts, backtests and leakage audits complement training; causal external-data alignment avoids future information.
+- Policies are selected before final OOS testing; comparisons between logged operation and replay/backtest help investigate discrepancies. Engineering and technologies: Python · temporal validation · walk-forward · OOS · backtesting.
+ Context and projects · Technical details
+
+
+
+### Model serving and MetaTrader5 integration
+ Connected ML artifacts, an inference service and the desktop terminal to bridge research and demonstration operation.
+
+- A Flask API loads models and their features by pair/direction, returns predictions and probabilities and supports exit checks.
+- A Python connector integrates data and execution with MetaTrader5; service endpoints expose health, status, loaded models and uptime. Engineering and technologies: Python · Flask · REST APIs · joblib · MetaTrader5.
+ Context and projects · Technical details
+
+
+
+### Orchestration, retraining and operational updates
+ Coordinated data, training, evaluation and serving cycles through distinct execution modes.
+
+- The supervisor organizes extraction, datasets, EFS-AHP, training, backtesting and serving; it distinguishes data updates without retraining from full retraining cycles.
+- Runs use identifiers and logs; scheduling and operational checks support pipeline maintenance. Engineering and technologies: Python · supervisor · scheduling · logs · pipeline automation.
+ Context and projects · Technical details
+
+
+
+### Observability and model follow-up
+ Connected the operational dashboard, pipeline stage health and performance review using recent data.
+
+- Dashboard and health records track stages, training and operation; APIs expose model and service availability.
+- OOS window updates and comparisons between logged trades and backtests support regime-change analysis and model review decisions. Engineering and technologies: Python · Flask · dashboard · logs · OOS · monitoring.
+ Context and projects · Technical details
+
+
+
 ## AI, multiagent systems and Machine Learning projects
  Independent development and quantitative research
 
@@ -598,6 +675,22 @@ Tech Lead
 - Candles and account data connect policy research with separate API, dashboard and execution components. Engineering and technologies: Python · MetaTrader5 · Flask · SQLite · local APIs.
  Context and projects · Technical details
 
+
+
+## Additional experience and technical practice
+
+
+### LeetCode — 120 hours of algorithm and data structure practice
+ Complementary software engineering problem-solving practice, including time and space complexity, data structure selection and edge-case debugging.
+
+
+#### Topics and reference challenges
+
+- Arrays, strings and hashing: Two Sum, Group Anagrams, Product of Array Except Self.
+- Two pointers, sliding windows and binary search: Longest Substring Without Repeating Characters, Binary Search, Search in Rotated Sorted Array.
+- Stacks, linked lists and intervals: Valid Parentheses, Reverse Linked List, Merge Intervals.
+- Trees, graphs and heaps: Binary Tree Level Order Traversal, Number of Islands, Course Schedule, Top K Frequent Elements.
+- Dynamic programming and backtracking: Coin Change, House Robber, Longest Increasing Subsequence, Subsets.
 
 
 # Technical archive
@@ -1255,6 +1348,99 @@ Tech Lead
 - Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
 - Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence.
 - Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+## Technical cases — TraderMind MLOps and model lifecycle
+
+
+### Data pipelines, features and quality contracts
+ TraderMind · independent MLOps and quantitative research project
+ Integrated extraction, data updates, dataset construction and feature selection into operational TraderMind pipeline stages.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+
+
+#### Engineering and implementation
+
+- Market data and multitimeframe indicators, Parquet datasets and evolutionary feature selection with EFS-AHP.
+- Stage checks cover temporal integrity, feature availability and health, configuration consistency and artifact synchronization. Technologies and methods: Python · pandas · NumPy · Parquet · DEAP · EFS-AHP
+
+
+
+### Training, checkpoints and artifact management
+ TraderMind · independent MLOps and quantitative research project
+ Organized experiments, training and execution recovery while preserving the relationship between models, features and parameters.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+
+
+#### Engineering and implementation
+
+- Classifier training and comparison routines, feature selection and entry and early-exit models.
+- Checkpoints resume evolutionary search; serialized models, feature lists, configuration and logs support workflow reproduction. Technologies and methods: Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints
+
+
+
+### Temporal validation, leakage and out-of-sample evaluation
+ TraderMind · independent MLOps and quantitative research project
+ Separated selection, calibration and temporal evaluation to compare models and policies without contaminating the final evaluation period.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+
+
+#### Engineering and implementation
+
+- Walk-forward, temporal holdouts, backtests and leakage audits complement training; causal external-data alignment avoids future information.
+- Policies are selected before final OOS testing; comparisons between logged operation and replay/backtest help investigate discrepancies. Technologies and methods: Python · temporal validation · walk-forward · OOS · backtesting
+
+
+
+### Model serving and MetaTrader5 integration
+ TraderMind · independent MLOps and quantitative research project
+ Connected ML artifacts, an inference service and the desktop terminal to bridge research and demonstration operation.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+
+
+#### Engineering and implementation
+
+- A Flask API loads models and their features by pair/direction, returns predictions and probabilities and supports exit checks.
+- A Python connector integrates data and execution with MetaTrader5; service endpoints expose health, status, loaded models and uptime. Technologies and methods: Python · Flask · REST APIs · joblib · MetaTrader5
+
+
+
+### Orchestration, retraining and operational updates
+ TraderMind · independent MLOps and quantitative research project
+ Coordinated data, training, evaluation and serving cycles through distinct execution modes.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+
+
+#### Engineering and implementation
+
+- The supervisor organizes extraction, datasets, EFS-AHP, training, backtesting and serving; it distinguishes data updates without retraining from full retraining cycles.
+- Runs use identifiers and logs; scheduling and operational checks support pipeline maintenance. Technologies and methods: Python · supervisor · scheduling · logs · pipeline automation
+
+
+
+### Observability and model follow-up
+ TraderMind · independent MLOps and quantitative research project
+ Connected the operational dashboard, pipeline stage health and performance review using recent data.
+ Application area: Financial markets, quantitative research and trading automation.
+ Users and context: Trading strategy research and experimentation.
+ Objective: Investigate predictive models, combine signals and connect policies to MetaTrader5.
+
+
+#### Engineering and implementation
+
+- Dashboard and health records track stages, training and operation; APIs expose model and service availability.
+- OOS window updates and comparisons between logged trades and backtests support regime-change analysis and model review decisions. Technologies and methods: Python · Flask · dashboard · logs · OOS · monitoring
 
 
 
@@ -3419,6 +3605,24 @@ Tech Lead
 - Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
 - Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence.
 - Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage.
+ Data pipelines, features and quality contracts Python · pandas · NumPy · Parquet · DEAP · EFS-AHP
+- Market data and multitimeframe indicators, Parquet datasets and evolutionary feature selection with EFS-AHP.
+- Stage checks cover temporal integrity, feature availability and health, configuration consistency and artifact synchronization.
+ Training, checkpoints and artifact management Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints
+- Classifier training and comparison routines, feature selection and entry and early-exit models.
+- Checkpoints resume evolutionary search; serialized models, feature lists, configuration and logs support workflow reproduction.
+ Temporal validation, leakage and out-of-sample evaluation Python · temporal validation · walk-forward · OOS · backtesting
+- Walk-forward, temporal holdouts, backtests and leakage audits complement training; causal external-data alignment avoids future information.
+- Policies are selected before final OOS testing; comparisons between logged operation and replay/backtest help investigate discrepancies.
+ Model serving and MetaTrader5 integration Python · Flask · REST APIs · joblib · MetaTrader5
+- A Flask API loads models and their features by pair/direction, returns predictions and probabilities and supports exit checks.
+- A Python connector integrates data and execution with MetaTrader5; service endpoints expose health, status, loaded models and uptime.
+ Orchestration, retraining and operational updates Python · supervisor · scheduling · logs · pipeline automation
+- The supervisor organizes extraction, datasets, EFS-AHP, training, backtesting and serving; it distinguishes data updates without retraining from full retraining cycles.
+- Runs use identifiers and logs; scheduling and operational checks support pipeline maintenance.
+ Observability and model follow-up Python · Flask · dashboard · logs · OOS · monitoring
+- Dashboard and health records track stages, training and operation; APIs expose model and service availability.
+- OOS window updates and comparisons between logged trades and backtests support regime-change analysis and model review decisions.
  AHP Online — multicriteria decisions and consistency Astro · JavaScript · AHP · comparison matrices · consistency
 - Saaty-scale comparisons and consistency calculations assess the coherence of judgments.
 - Interactive decision modeling presents results and supports project export.

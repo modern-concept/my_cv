@@ -74,6 +74,9 @@ def core_sections(data, language='pt'):
       'Agentic AI — Globalcom Certification OS' if language=='pt' else 'Agentic AI — Globalcom Certification OS',
       'Modern Concept · proposta e arquitetura de solução para certificação e compliance educacional' if language=='pt' else 'Modern Concept · solution proposal and architecture for educational certification and compliance',
       [c for c in cases if c['id'].startswith('case-globalcom-')]))
+    groups.insert(4,('cv-mlops','MLOps — TraderMind',
+      'Pipeline de ML, validação, inferência, supervisão e manutenção · pesquisa e operação demo' if language=='pt' else 'ML pipeline, validation, inference, supervision and maintenance · research and demo operation',
+      [c for c in cases if c['id'].startswith('case-mlops-')]))
     for id, title, context, selected in groups:
         content = '<section class="page full-page career-project-page"><div class="full-page-inner"><h2 class="career-section-title" id="' + id + '">' + title + '</h2><p class="career-context">' + context + '</p>'
         for c in selected:
@@ -85,7 +88,7 @@ def core_sections(data, language='pt'):
             elif shortid in ['visao-2', 'grafica-1', 'grafica-2']: qualifier = 'Protótipos e estudos de interação e visualização.'
             if shortid.startswith('globalcom-'):
                 qualifier = 'Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.' if language=='pt' else 'Solution proposal and architecture design; technologies and execution describe the proposed scope.'
-            links = ' · '.join('<a href="#' + esc(a) + '">' + ('Doutorado' if a.startswith('formacao') else 'Trajetória Agrodan' if a == 'vinculo-agrodan' else 'Estágio hospitalar' if a == 'experiencia-9' else 'Ferramenta e fontes' if a.startswith('utilibox-tool-') else 'Módulo e fontes' if a.startswith('sia-negocio-') else 'Contexto e projetos') + '</a>' for a in c['relatedContextAnchors'])
+            links = ' · '.join('<a href="#' + esc(a) + '">' + ('MBA Operational Excellence' if a=='formacao-fm2s' else 'Doutorado' if a.startswith('formacao') else 'Trajetória Agrodan' if a == 'vinculo-agrodan' else 'Estágio hospitalar' if a == 'experiencia-9' else 'Ferramenta e fontes' if a.startswith('utilibox-tool-') else 'Módulo e fontes' if a.startswith('sia-negocio-') else 'Contexto e projetos') + '</a>' for a in c['relatedContextAnchors'])
             content += '<article class="career-project" id="resumo-' + c['id'] + '"><h3>' + esc(c['title']) + '</h3><p>' + esc(c['text']) + '</p><ul class="career-deliverables">' + ''.join('<li>' + esc(v) + '</li>' for v in c['implementation'][:2]) + '</ul><p class="career-stack"><strong>Engenharia e tecnologias:</strong> ' + esc(c.get('stack', STACKS.get(shortid, ''))) + '.</p>'
             if qualifier: content += '<p class="career-qualifier">' + qualifier + '</p>'
             detail = ' · <a href="#' + c['id'] + '">Detalhes técnicos e fontes</a>' if c['id'].startswith('case-') else ''
@@ -98,6 +101,8 @@ def core_sections(data, language='pt'):
                 detail = detail.replace('Detalhes técnicos e fontes', 'Detalhes técnicos')
             content += '<p class="career-reference">' + links + detail + '</p></article>'
         result.append(content + '</div></section>')
+    development=runpy.run_path(str(Path(__file__).with_name('cv-development.py')))
+    result.append(development['practice_markup'](language))
     result[-1] = result[-1].replace('career-project-page"', 'career-project-page career-last"', 1)
     rendered = ''.join(result)
     if language == 'en':

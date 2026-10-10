@@ -137,6 +137,13 @@ Versão experimental ampliada — 09/10/2026.
 
 - TCC: F-AHP: Software Java para a aplicação do Método de Decisão Multicritério AHP
 
+### MBA OPERATIONAL EXCELLENCE — EM ANDAMENTO
+ FM2S EDUCAÇÃO E CONSULTORIA
+ MAIO 2026 — MARÇO 2027 (PREVISÃO)
+
+- Administração, gestão e operações.
+- Formação relacionada aos projetos independentes de Lean e melhoria contínua do Utilibox: VSM, SMED, PDSA, A3, Pareto e cronoanálise.
+
 ## Competências e aplicações
 
 ### IA, agentes e automação
@@ -161,11 +168,19 @@ Versão experimental ampliada — 09/10/2026.
 
 ### Produtos e métodos aplicados
  Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.
- Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança.
+ Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança. Formação relacionada: MBA Operational Excellence em andamento na FM2S.
 
 ### Arquitetura Agentic AI e governança
  Desenho de orquestradores, agentes especialistas, ferramentas autorizadas, RAG contextual, auditoria independente e aprovação humana.
  Globalcom Certification OS — proposta e arquitetura pela Modern Concept.
+
+### MLOps e ciclo de vida de modelos
+ Pipelines de dados e features, checkpoints, artefatos de modelos, validação temporal, serving por API, supervisão, retreino e observabilidade.
+ TraderMind — pesquisa quantitativa e operação demo integrada ao MetaTrader5.
+
+### Algoritmos e resolução de problemas
+ Prática de estruturas de dados, estratégias algorítmicas, análise de complexidade e tratamento de casos de borda.
+ 120 horas de prática no LeetCode.
 
 ## Tecnologias e ferramentas
  Linguagens: Python, SQL, JavaScript, TypeScript e Java.
@@ -177,6 +192,7 @@ Versão experimental ampliada — 09/10/2026.
  Automação e integração: APIs de LLM, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform e RPA.
  Cloud e operação: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI.
  Stack projetada — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional.
+ MLOps — TraderMind: Python, pandas, NumPy, Parquet, scikit-learn, DEAP/EFS-AHP, joblib, Flask, MetaTrader5; checkpoints, validação temporal, supervisor, logs e dashboard.
 
 ## Projetos e engenharia aplicada na Agrodan
  Ecossistema SIA / SIAgro · experiência profissional
@@ -302,7 +318,7 @@ Versão experimental ampliada — 09/10/2026.
 
 - VSM: etapas, processamento, espera, uptime, inventário e gargalos; indicadores de lead time, takt e PCE.
 - SMED: atividades internas/externas e possibilidades de conversão e paralelização; PDSA e A3 estruturam acompanhamento e planos de ação. Engenharia e tecnologias: Astro · JavaScript · Lean · VSM · SMED · PDSA · A3.
- Abrir ferramenta — vsm (https://utiliboxapp.com.br/tools/vsm/) · Abrir ferramenta — smed (https://utiliboxapp.com.br/tools/smed/) · Abrir ferramenta — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/) · Abrir ferramenta — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
+ MBA Operational Excellence · Abrir ferramenta — vsm (https://utiliboxapp.com.br/tools/vsm/) · Abrir ferramenta — smed (https://utiliboxapp.com.br/tools/smed/) · Abrir ferramenta — pdsa-manager (https://utiliboxapp.com.br/tools/pdsa-manager/) · Abrir ferramenta — folha-a3 (https://utiliboxapp.com.br/tools/folha-a3/)
 
 ### Avaliação econômica — VPL, TIR, payback e cenários
  Implementação de ferramentas de análise econômica para transformar fluxos de caixa, custos e condições de financiamento em indicadores comparáveis.
@@ -316,7 +332,7 @@ Versão experimental ampliada — 09/10/2026.
 
 - Pareto com curva acumulada; GUT com ranking por gravidade, urgência e tendência; SWOT com estratégias cruzadas.
 - Árvore de decisão com nós de chance e resultado, valor monetário esperado e identificação do caminho ótimo. Engenharia e tecnologias: JavaScript · Pareto · GUT · SWOT · EMV · visualização de decisões.
- Abrir ferramenta — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/) · Abrir ferramenta — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/) · Abrir ferramenta — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/) · Abrir ferramenta — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
+ MBA Operational Excellence · Abrir ferramenta — analise-pareto (https://utiliboxapp.com.br/tools/analise-pareto/) · Abrir ferramenta — matriz-gut (https://utiliboxapp.com.br/tools/matriz-gut/) · Abrir ferramenta — matriz-swot (https://utiliboxapp.com.br/tools/matriz-swot/) · Abrir ferramenta — arvore-decisao (https://utiliboxapp.com.br/tools/arvore-decisao/)
 
 ### Narra e UtiliNotas — conhecimento, contexto e persistência
  Construção de aplicações de organização narrativa e conhecimento com entidades relacionadas, notas conectadas e assistência contextual.
@@ -408,6 +424,51 @@ Versão experimental ampliada — 09/10/2026.
  Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.
  Contexto e projetos · Detalhes técnicos
 
+## MLOps — TraderMind
+ Pipeline de ML, validação, inferência, supervisão e manutenção · pesquisa e operação demo
+
+### Pipeline de dados, features e contratos de qualidade
+ Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.
+
+- Dados de mercado e indicadores em múltiplos timeframes, datasets Parquet e seleção evolutiva de atributos com EFS-AHP.
+- Verificações por fase cobrem integridade temporal, disponibilidade e saúde de features, consistência de configuração e sincronização de artefatos. Engenharia e tecnologias: Python · pandas · NumPy · Parquet · DEAP · EFS-AHP.
+ Contexto e projetos · Detalhes técnicos
+
+### Treinamento, checkpoints e gestão de artefatos
+ Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.
+
+- Rotinas de treinamento e comparação de classificadores, seleção de atributos e modelos de entrada e saída antecipada.
+- Checkpoints permitem retomar a busca evolutiva; modelos serializados, listas de features, configurações e logs apoiam a reprodução do fluxo. Engenharia e tecnologias: Python · scikit-learn · XGBoost · LightGBM · CatBoost · joblib · checkpoints.
+ Contexto e projetos · Detalhes técnicos
+
+### Validação temporal, leakage e avaliação fora da amostra
+ Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.
+
+- Walk-forward, holdouts temporais, backtests e auditorias de leakage complementam o treinamento; alinhamento causal das fontes externas evita usar informação futura.
+- Políticas são escolhidas antes do teste final OOS; comparação entre operação registrada e replay/backtest apoia a investigação de divergências. Engenharia e tecnologias: Python · validação temporal · walk-forward · OOS · backtesting.
+ Contexto e projetos · Detalhes técnicos
+
+### Serving de modelos e integração com MetaTrader5
+ Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.
+
+- API Flask carrega modelos e respectivas features por par/direção, produz predições e probabilidades e atende verificações de saída.
+- Conector Python integra dados e execução ao MetaTrader5; o serviço expõe saúde, status, modelos carregados e uptime. Engenharia e tecnologias: Python · Flask · REST APIs · joblib · MetaTrader5.
+ Contexto e projetos · Detalhes técnicos
+
+### Orquestração, retreino e atualização operacional
+ Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.
+
+- Supervisor organiza extração, dataset, EFS-AHP, treinamento, backtest e serviço; diferencia atualização de dados sem retreino e ciclo completo de retreino.
+- Execuções usam identificação de rodada e logs; rotinas de agendamento e checagem operacional apoiam manutenção do pipeline. Engenharia e tecnologias: Python · supervisor · agendamento · logs · automação de pipeline.
+ Contexto e projetos · Detalhes técnicos
+
+### Observabilidade e acompanhamento de modelos
+ Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.
+
+- Dashboard e registros de saúde acompanham fases, treinamento e operação; APIs permitem inspecionar disponibilidade dos modelos e serviço.
+- Atualização da janela OOS e comparação entre trades registrados e backtest apoiam análise de mudança de regime e decisões de revisão do modelo. Engenharia e tecnologias: Python · Flask · dashboard · logs · OOS · monitoramento.
+ Contexto e projetos · Detalhes técnicos
+
 ## Projetos de IA, sistemas multiagentes e Machine Learning
  Desenvolvimento independente e pesquisa quantitativa
 
@@ -493,6 +554,19 @@ Versão experimental ampliada — 09/10/2026.
 - Conector utiliza o pacote MetaTrader5 oficial e depende do terminal aberto/autenticado.
 - Consulta conta e dados de candles; prepara o fluxo de operação ligado à política/inferência. Engenharia e tecnologias: Python · MetaTrader5 · Flask · SQLite · APIs locais.
  Contexto e projetos · Detalhes técnicos
+
+## Experiência adicional e prática técnica
+
+### LeetCode — 120 horas de prática em algoritmos e estruturas de dados
+ Prática complementar em resolução de problemas de engenharia de software, análise de complexidade de tempo e espaço, escolha de estruturas de dados e depuração de casos de borda.
+
+#### Temas e desafios de referência
+
+- Arrays, strings e hashing: Two Sum, Group Anagrams, Product of Array Except Self.
+- Dois ponteiros, janela deslizante e busca binária: Longest Substring Without Repeating Characters, Binary Search, Search in Rotated Sorted Array.
+- Pilhas, listas encadeadas e intervalos: Valid Parentheses, Reverse Linked List, Merge Intervals.
+- Árvores, grafos e heaps: Binary Tree Level Order Traversal, Number of Islands, Course Schedule, Top K Frequent Elements.
+- Programação dinâmica e backtracking: Coin Change, House Robber, Longest Increasing Subsequence, Subsets.
 
 # Anexos: acervo técnico completo
 
@@ -1664,6 +1738,158 @@ Versão experimental ampliada — 09/10/2026.
 - Governança e aprovação humana
 - Arquitetura multi-tenant
 - Consultoria e desenho de produto Alcance da evidência: O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.
+
+## MLOps — ciclo de vida de modelos no TraderMind
+ Engenharia do ciclo de vida de ML: dos dados e experimentos à inferência, supervisão e manutenção operacional.
+ O TraderMind integra pipeline local de dados, seleção de atributos, treinamento, avaliação temporal, API de inferência, dashboard e conector MetaTrader5. O contexto é de pesquisa e operação de demonstração.
+
+- Dados e qualidade
+- Features e treinamento
+- Validação temporal
+- Artefatos e inferência
+- Supervisão e acompanhamento Case · TraderMind · projeto independente de MLOps e pesquisa quantitativa
+
+### Pipeline de dados, features e contratos de qualidade
+ Vínculo: Projetos independentes, pesquisa e produtos
+ Problema: Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.
+ Contribuição e entrega: Integração de extração, atualização de dados, construção de datasets e seleção de atributos em fases operacionais do TraderMind.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+
+#### Engenharia, métodos e profundidade
+
+- Dados de mercado e indicadores em múltiplos timeframes, datasets Parquet e seleção evolutiva de atributos com EFS-AHP.
+- Verificações por fase cobrem integridade temporal, disponibilidade e saúde de features, consistência de configuração e sincronização de artefatos.
+
+#### Competências evidenciadas
+
+- MLOps
+- ML lifecycle
+- Data pipelines
+- Model serving
+- Temporal validation
+- Observability Alcance da evidência: Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.
+
+ Case · TraderMind · projeto independente de MLOps e pesquisa quantitativa
+
+### Treinamento, checkpoints e gestão de artefatos
+ Vínculo: Projetos independentes, pesquisa e produtos
+ Problema: Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.
+ Contribuição e entrega: Organização de experimentos, treinamento e recuperação de execução, preservando a relação entre modelo, features e parâmetros.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+
+#### Engenharia, métodos e profundidade
+
+- Rotinas de treinamento e comparação de classificadores, seleção de atributos e modelos de entrada e saída antecipada.
+- Checkpoints permitem retomar a busca evolutiva; modelos serializados, listas de features, configurações e logs apoiam a reprodução do fluxo.
+
+#### Competências evidenciadas
+
+- MLOps
+- ML lifecycle
+- Data pipelines
+- Model serving
+- Temporal validation
+- Observability Alcance da evidência: Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.
+
+ Case · TraderMind · projeto independente de MLOps e pesquisa quantitativa
+
+### Validação temporal, leakage e avaliação fora da amostra
+ Vínculo: Projetos independentes, pesquisa e produtos
+ Problema: Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.
+ Contribuição e entrega: Separação entre seleção, calibração e avaliação temporal para comparar modelos e políticas sem contaminar o período final.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+
+#### Engenharia, métodos e profundidade
+
+- Walk-forward, holdouts temporais, backtests e auditorias de leakage complementam o treinamento; alinhamento causal das fontes externas evita usar informação futura.
+- Políticas são escolhidas antes do teste final OOS; comparação entre operação registrada e replay/backtest apoia a investigação de divergências.
+
+#### Competências evidenciadas
+
+- MLOps
+- ML lifecycle
+- Data pipelines
+- Model serving
+- Temporal validation
+- Observability Alcance da evidência: Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.
+
+ Case · TraderMind · projeto independente de MLOps e pesquisa quantitativa
+
+### Serving de modelos e integração com MetaTrader5
+ Vínculo: Projetos independentes, pesquisa e produtos
+ Problema: Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.
+ Contribuição e entrega: Integração entre artefatos de ML, serviço de inferência e terminal desktop para conectar pesquisa e operação de demonstração.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+
+#### Engenharia, métodos e profundidade
+
+- API Flask carrega modelos e respectivas features por par/direção, produz predições e probabilidades e atende verificações de saída.
+- Conector Python integra dados e execução ao MetaTrader5; o serviço expõe saúde, status, modelos carregados e uptime.
+
+#### Competências evidenciadas
+
+- MLOps
+- ML lifecycle
+- Data pipelines
+- Model serving
+- Temporal validation
+- Observability Alcance da evidência: Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.
+
+ Case · TraderMind · projeto independente de MLOps e pesquisa quantitativa
+
+### Orquestração, retreino e atualização operacional
+ Vínculo: Projetos independentes, pesquisa e produtos
+ Problema: Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.
+ Contribuição e entrega: Coordenação do ciclo de dados, treinamento, avaliação e serviço com modos de execução distintos.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+
+#### Engenharia, métodos e profundidade
+
+- Supervisor organiza extração, dataset, EFS-AHP, treinamento, backtest e serviço; diferencia atualização de dados sem retreino e ciclo completo de retreino.
+- Execuções usam identificação de rodada e logs; rotinas de agendamento e checagem operacional apoiam manutenção do pipeline.
+
+#### Competências evidenciadas
+
+- MLOps
+- ML lifecycle
+- Data pipelines
+- Model serving
+- Temporal validation
+- Observability Alcance da evidência: Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.
+
+ Case · TraderMind · projeto independente de MLOps e pesquisa quantitativa
+
+### Observabilidade e acompanhamento de modelos
+ Vínculo: Projetos independentes, pesquisa e produtos
+ Problema: Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.
+ Contribuição e entrega: Conexão entre painel operacional, saúde das fases e revisão de desempenho com dados recentes.
+ Área de aplicação: Mercados financeiros, pesquisa quantitativa e automação de negociação.
+ Público e contexto: Pesquisa e experimentação de estratégias de negociação.
+ Objetivo: Investigar modelos preditivos, combinar sinais e conectar políticas ao terminal MetaTrader5.
+
+#### Engenharia, métodos e profundidade
+
+- Dashboard e registros de saúde acompanham fases, treinamento e operação; APIs permitem inspecionar disponibilidade dos modelos e serviço.
+- Atualização da janela OOS e comparação entre trades registrados e backtest apoiam análise de mudança de regime e decisões de revisão do modelo.
+
+#### Competências evidenciadas
+
+- MLOps
+- ML lifecycle
+- Data pipelines
+- Model serving
+- Temporal validation
+- Observability Alcance da evidência: Escopo de pesquisa e operação demo; sem afirmação de lucratividade ou infraestrutura cloud em produção.
 
 ## Projetos vinculados a formação, estágio e faculdade
 
