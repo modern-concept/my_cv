@@ -33,7 +33,9 @@ Em inglês, os anexos usam uma adaptação editorial mais sintética da aplicaç
 
 Os links públicos ficam em `cv-project-links.json`: sites publicados têm prioridade e repositórios são incluídos quando acessíveis sem autenticação. As ferramentas do Utilibox usam endereços do catálogo publicado. `scripts/cv-project-links.py` aplica esses destinos nos destaques e anexos PT/EN; as evidências de código permanecem nos dados de pesquisa. A conferência inicial foi feita em 09/10/2026.
 
-O detalhamento do CV apresenta áreas de aplicação, público, objetivos, arquitetura, métodos e tecnologias. `scripts/cv-project-details.py` organiza essas descrições em português e inglês. Caminhos de arquivos, listas de fontes locais e notas da revisão não são exibidos ao recrutador; a pesquisa original permanece nos dados. Os perfis bilíngues dos 36 projetos ficam em `extensions.projectProfiles`.
+O detalhamento do CV apresenta áreas de aplicação, público, objetivos, arquitetura, métodos e tecnologias. `scripts/cv-project-details.py` organiza essas descrições em português e inglês. Caminhos de arquivos, listas de fontes locais e notas da revisão não são exibidos ao recrutador; a pesquisa original permanece nos dados. Os perfis bilíngues dos 37 projetos ficam em `extensions.projectProfiles`.
+
+`scripts/cv-globalcom.py` acrescenta o Globalcom Certification OS em sete frentes: Agentic AI, RAG/documentos, workflow e execução persistente, governança/segurança, API/MCP/RPA, domínio/produto e consultoria/roadmap. O conteúdo vem da proposta fornecida pelo usuário e é apresentado como desenho de arquitetura, sem afirmar implantação ou resultados realizados. O HTML de origem não é publicado junto ao CV.
 
 Execute `python scripts/build-experimental-cv.py` para regenerar **`index.html` e `cv-data.json`**, além das exportações textuais. O gerador exige destinos válidos para links internos de ambas as versões e preserva os relatos profissionais, salvo ajustes autorizados de competências e tecnologias.
 

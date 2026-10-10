@@ -393,6 +393,9 @@
         },
         {
           "name": "Cloud e operação: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI."
+        },
+        {
+          "name": "Stack projetada — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional."
         }
       ],
       "skills": [
@@ -413,6 +416,9 @@
         },
         {
           "name": "Produtos e métodos aplicados: Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento."
+        },
+        {
+          "name": "Arquitetura Agentic AI e governança: Desenho de orquestradores, agentes especialistas, ferramentas autorizadas, RAG contextual, auditoria independente e aprovação humana."
         }
       ]
     },
@@ -791,6 +797,9 @@
         },
         {
           "name": "Cloud and operations: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI."
+        },
+        {
+          "name": "Proposed stack — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal."
         }
       ],
       "skills": [
@@ -811,6 +820,9 @@
         },
         {
           "name": "Products and applied methods: Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management."
+        },
+        {
+          "name": "Agentic AI architecture and governance: Design of orchestrators, specialist agents, approved tools, contextual RAG, independent auditing and human approval."
         }
       ]
     }
@@ -1686,6 +1698,237 @@
         "text": "Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.",
         "limit": "Não comprova especialização GIS completa, sensoriamento remoto operacional ou desenvolvimento de bibliotecas de renderização.",
         "id": "case-grafica-2",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-globalcom-1",
+        "title": "Arquitetura Agentic AI e orquestração de especialistas",
+        "problem": "Coordenar tarefas especializadas com evidências e supervisão humana",
+        "implementation": [
+          "Desenho de 10 agentes especialistas: compliance, evidências, documentos, pesquisa, redação, comunicação, prazos, risco, auditoria de sistemas e integração/RPA.",
+          "Orquestrador dedicado verifica pré-condições, distribui tarefas e consolida resultados; um auditor independente revisa agentes, ferramentas, fontes e decisões.",
+          "Contratos de execução associam escola, processo, requisito e tarefa a ferramentas autorizadas, evidências, confiança e escalonamento humano."
+        ],
+        "text": "Elaboração da proposta e desenho de solução: coordenar tarefas especializadas com evidências e supervisão humana.",
+        "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+        "sources": [
+          "globalcom-certification-os/architecture-proposal"
+        ],
+        "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-globalcom-2",
+        "title": "RAG gerenciado e inteligência documental",
+        "problem": "Recuperar conhecimento adequado à escola, requisito e versão documental",
+        "implementation": [
+          "Desenho de seis coleções: normativas oficiais, conhecimento operacional, contexto gerencial, precedentes de e-mails, documentos por escola e templates aprovados.",
+          "Arquitetura de recuperação híbrida com embeddings e pgvector, filtros por tenant, escola, framework, requisito, versão, validade e aprovação.",
+          "Previsão de ingestão, classificação, extração, versionamento, reprocessamento de embeddings, linhagem de chunks e persistência de citações."
+        ],
+        "text": "Elaboração da proposta e desenho de solução: recuperar conhecimento adequado à escola, requisito e versão documental.",
+        "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+        "sources": [
+          "globalcom-certification-os/architecture-proposal"
+        ],
+        "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-globalcom-3",
+        "title": "Workflow, eventos e execução persistente",
+        "problem": "Manter processos e tarefas em execução mesmo sem usuário conectado",
+        "implementation": [
+          "Máquina de estados proposta controla dependências, responsáveis, prazos, pré-condições e critérios de conclusão das nove fases do processo.",
+          "Desenho de filas, eventos, webhooks e jobs agendados, com workers especializados para workflow, agentes, documentos, RAG, notificações, RPA e auditoria.",
+          "Stack sugerida: Node.js/TypeScript, NestJS ou Fastify, Zod e BullMQ ou alternativa; Temporal aparece como opção para workflows duráveis."
+        ],
+        "text": "Elaboração da proposta e desenho de solução: manter processos e tarefas em execução mesmo sem usuário conectado.",
+        "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+        "sources": [
+          "globalcom-certification-os/architecture-proposal"
+        ],
+        "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-globalcom-4",
+        "title": "Governança de IA, segurança e auditoria contínua",
+        "problem": "Controlar autonomia, acesso aos dados e qualidade das decisões",
+        "implementation": [
+          "Política proposta distingue execução automática, ações que exigem aprovação humana e decisões críticas reservadas a pessoas.",
+          "Desenho de isolamento por parceiro/escola com RLS e RBAC, menor privilégio, cofre de segredos, logs, retenção, backup e recuperação.",
+          "Auditor independente verifica correspondência entre citação e evidência, versão normativa, integridade de dados e respeito às etapas; planejamento de auditoria trimestral e reuniões a cada quatro meses."
+        ],
+        "text": "Elaboração da proposta e desenho de solução: controlar autonomia, acesso aos dados e qualidade das decisões.",
+        "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+        "sources": [
+          "globalcom-certification-os/architecture-proposal"
+        ],
+        "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-globalcom-5",
+        "title": "Integrações API, MCP e RPA para operações externas",
+        "problem": "Conectar a plataforma a fontes e portais com execução controlada",
+        "implementation": [
+          "Estratégia de integração prioriza APIs, usa MCP para acesso padronizado a ferramentas e prevê RPA quando não há integração formal.",
+          "Especificação de workers de navegador isolados com Playwright, políticas de retry, idempotência, detecção de mudança de layout e fallback manual.",
+          "Escopo proposto inclui migração/sincronização do Notion, e-mails, portais e conectores futuros para sistemas escolares e financeiros; QuickSchools, QuickBooks e Wave são referências iniciais."
+        ],
+        "text": "Elaboração da proposta e desenho de solução: conectar a plataforma a fontes e portais com execução controlada.",
+        "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+        "sources": [
+          "globalcom-certification-os/architecture-proposal"
+        ],
+        "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-globalcom-6",
+        "title": "Modelagem de domínio e produto para certificação",
+        "problem": "Traduzir uma operação de certificação em entidades e fluxos de produto",
+        "implementation": [
+          "Modelagem proposta relaciona parceiros, escolas, frameworks, fases, requisitos, tarefas, documentos, evidências, riscos, decisões e histórico.",
+          "Supabase/PostgreSQL é a fonte canônica projetada, com Storage para documentos, Auth, Realtime e vetores pgvector; frontend React/TypeScript com visualização de fluxos.",
+          "Arquitetura contempla readiness, gaps, planos corretivos, self-study e reutilização de artefatos; resultados esperados são objetivos do produto, sem métricas de impacto realizadas."
+        ],
+        "text": "Elaboração da proposta e desenho de solução: traduzir uma operação de certificação em entidades e fluxos de produto.",
+        "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+        "sources": [
+          "globalcom-certification-os/architecture-proposal"
+        ],
+        "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
+      },
+      {
+        "id": "case-globalcom-7",
+        "title": "Consultoria, arquitetura de soluções e roadmap",
+        "problem": "Organizar uma proposta técnica de implantação incremental",
+        "implementation": [
+          "Entrega documental combina visão executiva, arquitetura detalhada, apresentação navegável PT/EN e planejamento de implantação.",
+          "Roadmap parte da descoberta e domínio operacional, evolui para RAG/documentos, agentes, compliance contínuo, integrações e inteligência de certificação.",
+          "Definição de indicadores a acompanhar: tempo por fase, completude de evidências, reutilização, aprovação de drafts, erros de agentes, saúde das integrações e cobertura de auditoria."
+        ],
+        "text": "Elaboração da proposta e desenho de solução: organizar uma proposta técnica de implantação incremental.",
+        "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+        "sources": [
+          "globalcom-certification-os/architecture-proposal"
+        ],
+        "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -5542,6 +5785,71 @@
           "projetos"
         ],
         "demonstratedDepth": "Implementação local: profundidade expressa pela arquitetura, métodos e artefatos."
+      },
+      {
+        "id": "globalcom-certification-os",
+        "title": "Globalcom Certification OS — arquitetura Agentic AI para certificação e compliance",
+        "area": "Agentic AI, arquitetura de soluções e compliance educacional",
+        "status": "Proposta de arquitetura funcional e técnica",
+        "priority": "Destaque",
+        "association": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "experience": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+        "summary": "Proposta de uma plataforma de certificação e compliance educacional que combina workflow determinístico, orquestração de agentes especialistas, RAG gerenciado, evidências versionadas e integrações para acompanhar escolas nos processos CEA + SEVP.",
+        "structure": "Arquitetura proposta em camadas: aplicação web, API, workflow, agentes, documentos, recuperação de conhecimento, integrações, notificações e auditoria.",
+        "stack": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "Python",
+          "FastAPI",
+          "Supabase",
+          "PostgreSQL",
+          "pgvector",
+          "RAG",
+          "MCP",
+          "Playwright",
+          "RLS",
+          "RBAC",
+          "Filas e workers"
+        ],
+        "skills": [
+          "Arquitetura Agentic AI",
+          "Orquestração multiagente",
+          "RAG e recuperação híbrida",
+          "Inteligência documental",
+          "Modelagem de domínio",
+          "Workflow e eventos",
+          "Integrações API/MCP/RPA",
+          "Governança e aprovação humana",
+          "Arquitetura multi-tenant",
+          "Consultoria e desenho de produto"
+        ],
+        "evidence": [
+          "architecture-proposal"
+        ],
+        "value": "Desenho de automação orientada a evidências para uma operação regulada.",
+        "sourceArtifact": "globalcom_certification_modern_concept_proposal_v1.html",
+        "limits": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+        "breadth": {
+          "applicationAreas": [
+            "Educação",
+            "Certificação e acreditação",
+            "Compliance",
+            "Auditoria",
+            "Gestão documental",
+            "Operações",
+            "Agentic AI"
+          ],
+          "intendedAudience": "Gestores Globalcom, parceiros, escolas e equipes de certificação",
+          "problemAndObjective": "Organizar fases, responsáveis, requisitos e evidências de certificação, com assistência de agentes e controle das decisões críticas",
+          "observableDeliverables": "Proposta funcional e técnica, apresentação interativa bilíngue, modelo de agentes, arquitetura de dados, política de execução e roadmap de implementação",
+          "domainMethods": "Máquina de estados; agentes especializados; RAG contextual; rastreabilidade de evidências; auditoria contínua; human-in-the-loop"
+        },
+        "anchor": "projeto-37",
+        "relatedContextAnchors": [
+          "projetos"
+        ],
+        "demonstratedDepth": "Proposta de arquitetura funcional e técnica: profundidade expressa pela arquitetura, métodos e artefatos."
       }
     ],
     "topics": [
@@ -6491,6 +6799,254 @@
           "Câmera e input",
           "Estado/física",
           "Interação e visualização"
+        ]
+      },
+      {
+        "id": "globalcom",
+        "title": "Globalcom — arquitetura Agentic AI, compliance e automação",
+        "intro": "Projeto de proposta e arquitetura de soluções pela Modern Concept; escopo de desenho funcional e técnico.",
+        "text": [
+          "A proposta relaciona educação, acreditação, compliance, gestão documental, operações, governança e automação. O material entregue descreve a arquitetura e a implantação planejada."
+        ],
+        "flow": [
+          "Domínio e workflow",
+          "Conhecimento e evidências",
+          "Agentes especialistas",
+          "Validação e aprovação humana",
+          "Integrações e auditoria contínua"
+        ],
+        "cases": [
+          {
+            "id": "case-globalcom-1",
+            "title": "Arquitetura Agentic AI e orquestração de especialistas",
+            "problem": "Coordenar tarefas especializadas com evidências e supervisão humana",
+            "implementation": [
+              "Desenho de 10 agentes especialistas: compliance, evidências, documentos, pesquisa, redação, comunicação, prazos, risco, auditoria de sistemas e integração/RPA.",
+              "Orquestrador dedicado verifica pré-condições, distribui tarefas e consolida resultados; um auditor independente revisa agentes, ferramentas, fontes e decisões.",
+              "Contratos de execução associam escola, processo, requisito e tarefa a ferramentas autorizadas, evidências, confiança e escalonamento humano."
+            ],
+            "text": "Elaboração da proposta e desenho de solução: coordenar tarefas especializadas com evidências e supervisão humana.",
+            "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+            "skills": [
+              "Arquitetura Agentic AI",
+              "Orquestração multiagente",
+              "RAG e recuperação híbrida",
+              "Inteligência documental",
+              "Modelagem de domínio",
+              "Workflow e eventos",
+              "Integrações API/MCP/RPA",
+              "Governança e aprovação humana",
+              "Arquitetura multi-tenant",
+              "Consultoria e desenho de produto"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Proposta de arquitetura"
+          },
+          {
+            "id": "case-globalcom-2",
+            "title": "RAG gerenciado e inteligência documental",
+            "problem": "Recuperar conhecimento adequado à escola, requisito e versão documental",
+            "implementation": [
+              "Desenho de seis coleções: normativas oficiais, conhecimento operacional, contexto gerencial, precedentes de e-mails, documentos por escola e templates aprovados.",
+              "Arquitetura de recuperação híbrida com embeddings e pgvector, filtros por tenant, escola, framework, requisito, versão, validade e aprovação.",
+              "Previsão de ingestão, classificação, extração, versionamento, reprocessamento de embeddings, linhagem de chunks e persistência de citações."
+            ],
+            "text": "Elaboração da proposta e desenho de solução: recuperar conhecimento adequado à escola, requisito e versão documental.",
+            "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+            "skills": [
+              "Arquitetura Agentic AI",
+              "Orquestração multiagente",
+              "RAG e recuperação híbrida",
+              "Inteligência documental",
+              "Modelagem de domínio",
+              "Workflow e eventos",
+              "Integrações API/MCP/RPA",
+              "Governança e aprovação humana",
+              "Arquitetura multi-tenant",
+              "Consultoria e desenho de produto"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Proposta de arquitetura"
+          },
+          {
+            "id": "case-globalcom-3",
+            "title": "Workflow, eventos e execução persistente",
+            "problem": "Manter processos e tarefas em execução mesmo sem usuário conectado",
+            "implementation": [
+              "Máquina de estados proposta controla dependências, responsáveis, prazos, pré-condições e critérios de conclusão das nove fases do processo.",
+              "Desenho de filas, eventos, webhooks e jobs agendados, com workers especializados para workflow, agentes, documentos, RAG, notificações, RPA e auditoria.",
+              "Stack sugerida: Node.js/TypeScript, NestJS ou Fastify, Zod e BullMQ ou alternativa; Temporal aparece como opção para workflows duráveis."
+            ],
+            "text": "Elaboração da proposta e desenho de solução: manter processos e tarefas em execução mesmo sem usuário conectado.",
+            "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+            "skills": [
+              "Arquitetura Agentic AI",
+              "Orquestração multiagente",
+              "RAG e recuperação híbrida",
+              "Inteligência documental",
+              "Modelagem de domínio",
+              "Workflow e eventos",
+              "Integrações API/MCP/RPA",
+              "Governança e aprovação humana",
+              "Arquitetura multi-tenant",
+              "Consultoria e desenho de produto"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Proposta de arquitetura"
+          },
+          {
+            "id": "case-globalcom-4",
+            "title": "Governança de IA, segurança e auditoria contínua",
+            "problem": "Controlar autonomia, acesso aos dados e qualidade das decisões",
+            "implementation": [
+              "Política proposta distingue execução automática, ações que exigem aprovação humana e decisões críticas reservadas a pessoas.",
+              "Desenho de isolamento por parceiro/escola com RLS e RBAC, menor privilégio, cofre de segredos, logs, retenção, backup e recuperação.",
+              "Auditor independente verifica correspondência entre citação e evidência, versão normativa, integridade de dados e respeito às etapas; planejamento de auditoria trimestral e reuniões a cada quatro meses."
+            ],
+            "text": "Elaboração da proposta e desenho de solução: controlar autonomia, acesso aos dados e qualidade das decisões.",
+            "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+            "skills": [
+              "Arquitetura Agentic AI",
+              "Orquestração multiagente",
+              "RAG e recuperação híbrida",
+              "Inteligência documental",
+              "Modelagem de domínio",
+              "Workflow e eventos",
+              "Integrações API/MCP/RPA",
+              "Governança e aprovação humana",
+              "Arquitetura multi-tenant",
+              "Consultoria e desenho de produto"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Proposta de arquitetura"
+          },
+          {
+            "id": "case-globalcom-5",
+            "title": "Integrações API, MCP e RPA para operações externas",
+            "problem": "Conectar a plataforma a fontes e portais com execução controlada",
+            "implementation": [
+              "Estratégia de integração prioriza APIs, usa MCP para acesso padronizado a ferramentas e prevê RPA quando não há integração formal.",
+              "Especificação de workers de navegador isolados com Playwright, políticas de retry, idempotência, detecção de mudança de layout e fallback manual.",
+              "Escopo proposto inclui migração/sincronização do Notion, e-mails, portais e conectores futuros para sistemas escolares e financeiros; QuickSchools, QuickBooks e Wave são referências iniciais."
+            ],
+            "text": "Elaboração da proposta e desenho de solução: conectar a plataforma a fontes e portais com execução controlada.",
+            "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+            "skills": [
+              "Arquitetura Agentic AI",
+              "Orquestração multiagente",
+              "RAG e recuperação híbrida",
+              "Inteligência documental",
+              "Modelagem de domínio",
+              "Workflow e eventos",
+              "Integrações API/MCP/RPA",
+              "Governança e aprovação humana",
+              "Arquitetura multi-tenant",
+              "Consultoria e desenho de produto"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Proposta de arquitetura"
+          },
+          {
+            "id": "case-globalcom-6",
+            "title": "Modelagem de domínio e produto para certificação",
+            "problem": "Traduzir uma operação de certificação em entidades e fluxos de produto",
+            "implementation": [
+              "Modelagem proposta relaciona parceiros, escolas, frameworks, fases, requisitos, tarefas, documentos, evidências, riscos, decisões e histórico.",
+              "Supabase/PostgreSQL é a fonte canônica projetada, com Storage para documentos, Auth, Realtime e vetores pgvector; frontend React/TypeScript com visualização de fluxos.",
+              "Arquitetura contempla readiness, gaps, planos corretivos, self-study e reutilização de artefatos; resultados esperados são objetivos do produto, sem métricas de impacto realizadas."
+            ],
+            "text": "Elaboração da proposta e desenho de solução: traduzir uma operação de certificação em entidades e fluxos de produto.",
+            "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+            "skills": [
+              "Arquitetura Agentic AI",
+              "Orquestração multiagente",
+              "RAG e recuperação híbrida",
+              "Inteligência documental",
+              "Modelagem de domínio",
+              "Workflow e eventos",
+              "Integrações API/MCP/RPA",
+              "Governança e aprovação humana",
+              "Arquitetura multi-tenant",
+              "Consultoria e desenho de produto"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Proposta de arquitetura"
+          },
+          {
+            "id": "case-globalcom-7",
+            "title": "Consultoria, arquitetura de soluções e roadmap",
+            "problem": "Organizar uma proposta técnica de implantação incremental",
+            "implementation": [
+              "Entrega documental combina visão executiva, arquitetura detalhada, apresentação navegável PT/EN e planejamento de implantação.",
+              "Roadmap parte da descoberta e domínio operacional, evolui para RAG/documentos, agentes, compliance contínuo, integrações e inteligência de certificação.",
+              "Definição de indicadores a acompanhar: tempo por fase, completude de evidências, reutilização, aprovação de drafts, erros de agentes, saúde das integrações e cobertura de auditoria."
+            ],
+            "text": "Elaboração da proposta e desenho de solução: organizar uma proposta técnica de implantação incremental.",
+            "context": "Modern Concept · Globalcom · proposta e arquitetura de solução",
+            "skills": [
+              "Arquitetura Agentic AI",
+              "Orquestração multiagente",
+              "RAG e recuperação híbrida",
+              "Inteligência documental",
+              "Modelagem de domínio",
+              "Workflow e eventos",
+              "Integrações API/MCP/RPA",
+              "Governança e aprovação humana",
+              "Arquitetura multi-tenant",
+              "Consultoria e desenho de produto"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Filas e workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "O material documenta proposta, arquitetura e apresentação interativa; não comprova backend implementado, implantação ou resultados operacionais medidos.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Proposta de arquitetura"
+          }
         ]
       }
     ],
@@ -30077,6 +30633,23 @@
           "pt": "HTML principal com dados estruturados, conteúdo bilíngue, controles de visualização e impressão pelo navegador.",
           "en": "Main HTML with structured data, bilingual content, view controls and browser printing."
         }
+      },
+      {
+        "id": "globalcom-certification-os",
+        "pt": {
+          "applicationArea": "Educação, certificação, acreditação, compliance, gestão documental, auditoria e Agentic AI",
+          "audience": "Gestores Globalcom, parceiros, escolas e equipes de certificação",
+          "objective": "Projetar uma operação de certificação orientada a evidências, agentes especialistas e aprovação humana"
+        },
+        "en": {
+          "applicationArea": "Education, certification, accreditation, compliance, document management, audit and Agentic AI",
+          "audience": "Globalcom managers, partners, schools and certification teams",
+          "objective": "Design evidence-driven certification operations with specialist agents and human approval"
+        },
+        "architecture": {
+          "pt": "Arquitetura proposta com workflow determinístico, 10 especialistas, orquestrador e auditor independente; RAG gerenciado, Supabase/PostgreSQL, workers persistentes e integrações API/MCP/RPA.",
+          "en": "Proposed architecture with deterministic workflows, 10 specialists, an orchestrator and an independent auditor; managed RAG, Supabase/PostgreSQL, persistent workers and API/MCP/RPA integrations."
+        }
       }
     ],
     "priorityCases": [
@@ -30644,7 +31217,7 @@
         {
           "title": "IA, agentes e automação",
           "description": "Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.",
-          "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer."
+          "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
         },
         {
           "title": "Machine Learning e pesquisa",
@@ -30654,22 +31227,27 @@
         {
           "title": "Engenharia de software",
           "description": "Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.",
-          "origin": "SIA/SIAgro, EBSERH, The Game Project e produtos independentes."
+          "origin": "SIA/SIAgro, EBSERH, The Game Project e produtos independentes. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
         },
         {
           "title": "Dados e decisão",
           "description": "ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.",
-          "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística."
+          "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
         },
         {
           "title": "Liderança e operações",
           "description": "Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.",
-          "origin": "Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner."
+          "origin": "Technology Enablement Lead, Head de Tecnologia, Gerente de TIC e IT Business Partner. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
         },
         {
           "title": "Produtos e métodos aplicados",
           "description": "Desenvolvimento de produtos, métodos multicritério, pesquisa operacional, análise financeira, melhoria contínua, aprendizagem e gestão do conhecimento.",
-          "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional."
+          "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, filas, VSM/SMED, PDSA, VPL/TIR, Narra e UtiliNotas; SIA: qualidade, packing e gestão operacional. Globalcom: proposta de arquitetura Agentic AI, RAG, workflow, integrações e governança."
+        },
+        {
+          "title": "Arquitetura Agentic AI e governança",
+          "description": "Desenho de orquestradores, agentes especialistas, ferramentas autorizadas, RAG contextual, auditoria independente e aprovação humana.",
+          "origin": "Globalcom Certification OS — proposta e arquitetura pela Modern Concept."
         }
       ],
       "technologyGroups": [
@@ -30704,6 +31282,10 @@
         {
           "title": "Cloud e operação",
           "description": "Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory e Zabbix/GLPI."
+        },
+        {
+          "title": "Stack projetada — Globalcom Agentic AI",
+          "description": "React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP e Playwright; NestJS/Fastify e BullMQ como alternativas sugeridas, Temporal opcional."
         }
       ],
       "caseStacks": {
@@ -31571,6 +32153,209 @@
             ],
             "depth": "Depth is described by the implementation and source evidence.",
             "stack": "JavaScript · React · Leaflet · Three.js · Canvas · FBX"
+          },
+          {
+            "id": "case-globalcom-1",
+            "title": "Agentic AI architecture and specialist orchestration",
+            "problem": "Coordinate specialized tasks with evidence and human oversight",
+            "implementation": [
+              "Designed 10 specialist roles: compliance, evidence, documents, research, writing, communication, deadlines, risk, systems audit and integration/RPA.",
+              "A dedicated orchestrator checks preconditions, distributes tasks and consolidates results; an independent auditor reviews agents, tools, sources and decisions.",
+              "Execution contracts connect school, process, requirement and task context to approved tools, evidence, confidence and human escalation."
+            ],
+            "text": "Solution proposal and architecture design: coordinate specialized tasks with evidence and human oversight.",
+            "context": "Modern Concept · Globalcom · solution proposal and architecture",
+            "skills": [
+              "Agentic AI architecture",
+              "Multiagent orchestration",
+              "RAG",
+              "Workflow design",
+              "Human-in-the-loop",
+              "Solution architecture"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "The material documents a solution proposal, architecture and interactive presentation; it does not establish backend implementation, deployment or measured operational results.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Architecture proposal"
+          },
+          {
+            "id": "case-globalcom-2",
+            "title": "Managed RAG and document intelligence",
+            "problem": "Retrieve knowledge matching school, requirement and document version",
+            "implementation": [
+              "Designed six collections: official regulations, operational knowledge, management context, email precedents, school-specific documents and approved templates.",
+              "Hybrid retrieval architecture with embeddings and pgvector; tenant, school, framework, requirement, version, validity and approval filters.",
+              "Specified ingestion, classification, extraction, versioning, embedding reprocessing, chunk lineage and citation persistence."
+            ],
+            "text": "Solution proposal and architecture design: retrieve knowledge matching school, requirement and document version.",
+            "context": "Modern Concept · Globalcom · solution proposal and architecture",
+            "skills": [
+              "Agentic AI architecture",
+              "Multiagent orchestration",
+              "RAG",
+              "Workflow design",
+              "Human-in-the-loop",
+              "Solution architecture"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "The material documents a solution proposal, architecture and interactive presentation; it does not establish backend implementation, deployment or measured operational results.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Architecture proposal"
+          },
+          {
+            "id": "case-globalcom-3",
+            "title": "Workflow, events and persistent execution",
+            "problem": "Keep processes and tasks running without an active user session",
+            "implementation": [
+              "A proposed state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.",
+              "Designed queues, events, webhooks and scheduled jobs, with specialist workflow, agent, document, RAG, notification, RPA and audit workers.",
+              "Suggested Node.js/TypeScript, NestJS or Fastify, Zod and BullMQ or an alternative queue; Temporal is an optional durable workflow engine."
+            ],
+            "text": "Solution proposal and architecture design: keep processes and tasks running without an active user session.",
+            "context": "Modern Concept · Globalcom · solution proposal and architecture",
+            "skills": [
+              "Agentic AI architecture",
+              "Multiagent orchestration",
+              "RAG",
+              "Workflow design",
+              "Human-in-the-loop",
+              "Solution architecture"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "The material documents a solution proposal, architecture and interactive presentation; it does not establish backend implementation, deployment or measured operational results.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Architecture proposal"
+          },
+          {
+            "id": "case-globalcom-4",
+            "title": "AI governance, security and continuous audit",
+            "problem": "Control autonomy, data access and decision quality",
+            "implementation": [
+              "Proposed policy separates automatic execution, human approval actions and critical decisions reserved for people.",
+              "Designed partner/school isolation with RLS and RBAC, least privilege, secret management, logs, retention, backup and recovery.",
+              "An independent auditor checks citation/evidence alignment, regulation versions, data integrity and workflow compliance; quarterly audits and four-month review meetings are planned."
+            ],
+            "text": "Solution proposal and architecture design: control autonomy, data access and decision quality.",
+            "context": "Modern Concept · Globalcom · solution proposal and architecture",
+            "skills": [
+              "Agentic AI architecture",
+              "Multiagent orchestration",
+              "RAG",
+              "Workflow design",
+              "Human-in-the-loop",
+              "Solution architecture"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "The material documents a solution proposal, architecture and interactive presentation; it does not establish backend implementation, deployment or measured operational results.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Architecture proposal"
+          },
+          {
+            "id": "case-globalcom-5",
+            "title": "API, MCP and RPA integrations for external operations",
+            "problem": "Connect sources and portals with controlled execution",
+            "implementation": [
+              "Integration strategy prioritizes APIs, uses MCP for standardized tool access and proposes RPA when formal integration is unavailable.",
+              "Specified isolated Playwright browser workers, retry policies, idempotency, layout change detection and manual fallback.",
+              "Proposed scope includes Notion migration/synchronization, email, portals and future school/financial system connectors; QuickSchools, QuickBooks and Wave are initial references."
+            ],
+            "text": "Solution proposal and architecture design: connect sources and portals with controlled execution.",
+            "context": "Modern Concept · Globalcom · solution proposal and architecture",
+            "skills": [
+              "Agentic AI architecture",
+              "Multiagent orchestration",
+              "RAG",
+              "Workflow design",
+              "Human-in-the-loop",
+              "Solution architecture"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "The material documents a solution proposal, architecture and interactive presentation; it does not establish backend implementation, deployment or measured operational results.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Architecture proposal"
+          },
+          {
+            "id": "case-globalcom-6",
+            "title": "Certification domain and product modeling",
+            "problem": "Translate certification operations into product entities and workflows",
+            "implementation": [
+              "Proposed domain connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.",
+              "Supabase/PostgreSQL is the designed canonical store, with document Storage, Auth, Realtime and pgvector; a React/TypeScript frontend includes workflow visualization.",
+              "Architecture covers readiness, gaps, corrective plans, self-study and artifact reuse; expected outcomes are product goals rather than achieved impact metrics."
+            ],
+            "text": "Solution proposal and architecture design: translate certification operations into product entities and workflows.",
+            "context": "Modern Concept · Globalcom · solution proposal and architecture",
+            "skills": [
+              "Agentic AI architecture",
+              "Multiagent orchestration",
+              "RAG",
+              "Workflow design",
+              "Human-in-the-loop",
+              "Solution architecture"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "The material documents a solution proposal, architecture and interactive presentation; it does not establish backend implementation, deployment or measured operational results.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Architecture proposal"
+          },
+          {
+            "id": "case-globalcom-7",
+            "title": "Consulting, solution architecture and roadmap",
+            "problem": "Organize a technical proposal for incremental implementation",
+            "implementation": [
+              "Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.",
+              "Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence.",
+              "Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage."
+            ],
+            "text": "Solution proposal and architecture design: organize a technical proposal for incremental implementation.",
+            "context": "Modern Concept · Globalcom · solution proposal and architecture",
+            "skills": [
+              "Agentic AI architecture",
+              "Multiagent orchestration",
+              "RAG",
+              "Workflow design",
+              "Human-in-the-loop",
+              "Solution architecture"
+            ],
+            "stack": "TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers",
+            "sources": [
+              "globalcom-certification-os/architecture-proposal"
+            ],
+            "limit": "The material documents a solution proposal, architecture and interactive presentation; it does not establish backend implementation, deployment or measured operational results.",
+            "relatedContextAnchors": [
+              "projetos"
+            ],
+            "depth": "Architecture proposal"
           }
         ],
         "priorityCases": [
@@ -32138,7 +32923,7 @@
             {
               "title": "AI, agents and automation",
               "description": "LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.",
-              "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer."
+              "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
             },
             {
               "title": "Machine Learning and research",
@@ -32148,22 +32933,27 @@
             {
               "title": "Software engineering",
               "description": "Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.",
-              "origin": "SIA/SIAgro, EBSERH, The Game Project and independent products."
+              "origin": "SIA/SIAgro, EBSERH, The Game Project and independent products. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
             },
             {
               "title": "Data and decisions",
               "description": "ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.",
-              "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística."
+              "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
             },
             {
               "title": "Leadership and operations",
               "description": "Technology management, business alignment, team development, PMBOK, Scrum, Kanban, governance, infrastructure and security.",
-              "origin": "Technology Enablement Lead, Head of Technology, IT Manager and IT Business Partner roles."
+              "origin": "Technology Enablement Lead, Head of Technology, IT Manager and IT Business Partner roles. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
             },
             {
               "title": "Products and applied methods",
               "description": "Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.",
-              "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations."
+              "origin": "Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal."
+            },
+            {
+              "title": "Agentic AI architecture and governance",
+              "description": "Design of orchestrators, specialist agents, approved tools, contextual RAG, independent auditing and human approval.",
+              "origin": "Globalcom Certification OS — Modern Concept solution proposal and architecture."
             }
           ],
           "technologyGroups": [
@@ -32198,6 +32988,10 @@
             {
               "title": "Cloud and operations",
               "description": "Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI."
+            },
+            {
+              "title": "Proposed stack — Globalcom Agentic AI",
+              "description": "React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal."
             }
           ]
         }

@@ -151,7 +151,7 @@ Tech Lead
 
 ### AI, agents and automation
  LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.
- Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer.
+ Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
 
 
 ### Machine Learning and research
@@ -161,22 +161,27 @@ Tech Lead
 
 ### Software engineering
  Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.
- SIA/SIAgro, EBSERH, The Game Project and independent products.
+ SIA/SIAgro, EBSERH, The Game Project and independent products. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
 
 
 ### Data and decisions
  ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.
- Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística.
+ Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
 
 
 ### Leadership and operations
  Technology management, business alignment, team development, PMBOK, Scrum, Kanban, governance, infrastructure and security.
- Technology Enablement Lead, Head of Technology, IT Manager and IT Business Partner roles.
+ Technology Enablement Lead, Head of Technology, IT Manager and IT Business Partner roles. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
 
 
 ### Products and applied methods
  Product development, multicriteria methods, operations research, financial analysis, continuous improvement, learning and knowledge management.
- Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations.
+ Utilibox: AHP, TOPSIS, PROMETHEE, queues, VSM/SMED, PDSA, NPV/IRR, Narra and UtiliNotas; SIA: quality, packing and operations. Globalcom: Agentic AI, RAG, workflow, integration and governance architecture proposal.
+
+
+### Agentic AI architecture and governance
+ Design of orchestrators, specialist agents, approved tools, contextual RAG, independent auditing and human approval.
+ Globalcom Certification OS — Modern Concept solution proposal and architecture.
 
 
 ## Technologies and tools
@@ -188,6 +193,7 @@ Tech Lead
  Decision and visualization: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js and React Three Fiber.
  Automation and integration: LLM APIs, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform and RPA.
  Cloud and operations: Azure, GCP, AWS, Docker, Kubernetes, Terraform, Airflow, dbt, MLflow, Windows/Linux, Active Directory and Zabbix/GLPI.
+ Proposed stack — Globalcom Agentic AI: React/TypeScript, Node.js, Python/FastAPI, Supabase/PostgreSQL, pgvector, RAG, MCP and Playwright; NestJS/Fastify and BullMQ as suggested alternatives, optional Temporal.
 
 
 ## Projects and applied engineering at Agrodan
@@ -407,6 +413,80 @@ Tech Lead
 - EBSERH: Java EE, EJB, JSF, PrimeFaces and JPA/Hibernate for hospital indicators and assessments.
 - The Game Project: persistent tasks, progression rules, scheduling and an interactive project timeline. Engineering and technologies: Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz.
  Hospital internship · Context and projects · Public repository — EBSERH (https://github.com/Danjubex/Gestor-de-Indicadores) · Public repository — The Game Project (https://github.com/Danjubex/the_game_project)
+
+
+
+## Agentic AI — Globalcom Certification OS
+ Modern Concept · solution proposal and architecture for educational certification and compliance
+
+
+### Agentic AI architecture and specialist orchestration
+ Solution proposal and architecture design: coordinate specialized tasks with evidence and human oversight.
+
+- Designed 10 specialist roles: compliance, evidence, documents, research, writing, communication, deadlines, risk, systems audit and integration/RPA.
+- A dedicated orchestrator checks preconditions, distributes tasks and consolidates results; an independent auditor reviews agents, tools, sources and decisions. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Solution proposal and architecture design; technologies and execution describe the proposed scope.
+ Context and projects · Technical details
+
+
+
+### Managed RAG and document intelligence
+ Solution proposal and architecture design: retrieve knowledge matching school, requirement and document version.
+
+- Designed six collections: official regulations, operational knowledge, management context, email precedents, school-specific documents and approved templates.
+- Hybrid retrieval architecture with embeddings and pgvector; tenant, school, framework, requirement, version, validity and approval filters. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Solution proposal and architecture design; technologies and execution describe the proposed scope.
+ Context and projects · Technical details
+
+
+
+### Workflow, events and persistent execution
+ Solution proposal and architecture design: keep processes and tasks running without an active user session.
+
+- A proposed state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.
+- Designed queues, events, webhooks and scheduled jobs, with specialist workflow, agent, document, RAG, notification, RPA and audit workers. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Solution proposal and architecture design; technologies and execution describe the proposed scope.
+ Context and projects · Technical details
+
+
+
+### AI governance, security and continuous audit
+ Solution proposal and architecture design: control autonomy, data access and decision quality.
+
+- Proposed policy separates automatic execution, human approval actions and critical decisions reserved for people.
+- Designed partner/school isolation with RLS and RBAC, least privilege, secret management, logs, retention, backup and recovery. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Solution proposal and architecture design; technologies and execution describe the proposed scope.
+ Context and projects · Technical details
+
+
+
+### API, MCP and RPA integrations for external operations
+ Solution proposal and architecture design: connect sources and portals with controlled execution.
+
+- Integration strategy prioritizes APIs, uses MCP for standardized tool access and proposes RPA when formal integration is unavailable.
+- Specified isolated Playwright browser workers, retry policies, idempotency, layout change detection and manual fallback. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Solution proposal and architecture design; technologies and execution describe the proposed scope.
+ Context and projects · Technical details
+
+
+
+### Certification domain and product modeling
+ Solution proposal and architecture design: translate certification operations into product entities and workflows.
+
+- Proposed domain connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.
+- Supabase/PostgreSQL is the designed canonical store, with document Storage, Auth, Realtime and pgvector; a React/TypeScript frontend includes workflow visualization. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Solution proposal and architecture design; technologies and execution describe the proposed scope.
+ Context and projects · Technical details
+
+
+
+### Consulting, solution architecture and roadmap
+ Solution proposal and architecture design: organize a technical proposal for incremental implementation.
+
+- Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
+- Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence. Engineering and technologies: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers.
+ Solution proposal and architecture design; technologies and execution describe the proposed scope.
+ Context and projects · Technical details
 
 
 
@@ -1060,6 +1140,121 @@ Tech Lead
 
 - Logistics and Leaflet projects combine map interfaces and routing components.
 - Three.js experiments include scenes, interaction and model loading using third-party libraries. Technologies and methods: JavaScript · React · Leaflet · Three.js · Canvas · FBX
+
+
+
+## Technical cases — Globalcom Agentic AI solution architecture
+
+
+### Agentic AI architecture and specialist orchestration
+ Modern Concept · Globalcom · solution proposal and architecture
+ Solution proposal and architecture design: coordinate specialized tasks with evidence and human oversight.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+
+
+#### Engineering and implementation
+
+- Designed 10 specialist roles: compliance, evidence, documents, research, writing, communication, deadlines, risk, systems audit and integration/RPA.
+- A dedicated orchestrator checks preconditions, distributes tasks and consolidates results; an independent auditor reviews agents, tools, sources and decisions.
+- Execution contracts connect school, process, requirement and task context to approved tools, evidence, confidence and human escalation. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+### Managed RAG and document intelligence
+ Modern Concept · Globalcom · solution proposal and architecture
+ Solution proposal and architecture design: retrieve knowledge matching school, requirement and document version.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+
+
+#### Engineering and implementation
+
+- Designed six collections: official regulations, operational knowledge, management context, email precedents, school-specific documents and approved templates.
+- Hybrid retrieval architecture with embeddings and pgvector; tenant, school, framework, requirement, version, validity and approval filters.
+- Specified ingestion, classification, extraction, versioning, embedding reprocessing, chunk lineage and citation persistence. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+### Workflow, events and persistent execution
+ Modern Concept · Globalcom · solution proposal and architecture
+ Solution proposal and architecture design: keep processes and tasks running without an active user session.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+
+
+#### Engineering and implementation
+
+- A proposed state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.
+- Designed queues, events, webhooks and scheduled jobs, with specialist workflow, agent, document, RAG, notification, RPA and audit workers.
+- Suggested Node.js/TypeScript, NestJS or Fastify, Zod and BullMQ or an alternative queue; Temporal is an optional durable workflow engine. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+### AI governance, security and continuous audit
+ Modern Concept · Globalcom · solution proposal and architecture
+ Solution proposal and architecture design: control autonomy, data access and decision quality.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+
+
+#### Engineering and implementation
+
+- Proposed policy separates automatic execution, human approval actions and critical decisions reserved for people.
+- Designed partner/school isolation with RLS and RBAC, least privilege, secret management, logs, retention, backup and recovery.
+- An independent auditor checks citation/evidence alignment, regulation versions, data integrity and workflow compliance; quarterly audits and four-month review meetings are planned. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+### API, MCP and RPA integrations for external operations
+ Modern Concept · Globalcom · solution proposal and architecture
+ Solution proposal and architecture design: connect sources and portals with controlled execution.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+
+
+#### Engineering and implementation
+
+- Integration strategy prioritizes APIs, uses MCP for standardized tool access and proposes RPA when formal integration is unavailable.
+- Specified isolated Playwright browser workers, retry policies, idempotency, layout change detection and manual fallback.
+- Proposed scope includes Notion migration/synchronization, email, portals and future school/financial system connectors; QuickSchools, QuickBooks and Wave are initial references. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+### Certification domain and product modeling
+ Modern Concept · Globalcom · solution proposal and architecture
+ Solution proposal and architecture design: translate certification operations into product entities and workflows.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+
+
+#### Engineering and implementation
+
+- Proposed domain connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.
+- Supabase/PostgreSQL is the designed canonical store, with document Storage, Auth, Realtime and pgvector; a React/TypeScript frontend includes workflow visualization.
+- Architecture covers readiness, gaps, corrective plans, self-study and artifact reuse; expected outcomes are product goals rather than achieved impact metrics. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+
+
+
+### Consulting, solution architecture and roadmap
+ Modern Concept · Globalcom · solution proposal and architecture
+ Solution proposal and architecture design: organize a technical proposal for incremental implementation.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+
+
+#### Engineering and implementation
+
+- Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
+- Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence.
+- Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage. Technologies and methods: TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
 
 
 
@@ -2453,7 +2648,7 @@ Tech Lead
 
 
 ## Complete project and reference catalog
- 36 local folders include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.
+ 37 projects and references include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.
 
 
 ### EBSERH — hospital indicators and assessments
@@ -2823,6 +3018,16 @@ Tech Lead
 
 
 
+### Globalcom Certification OS — Agentic AI architecture for certification and compliance
+ Solution proposal for educational certification and compliance, combining deterministic workflows, specialist agent orchestration, managed RAG, versioned evidence and integrations for school CEA + SEVP processes.
+ Application area: Education, certification, accreditation, compliance, document management, audit and Agentic AI.
+ Users and context: Globalcom managers, partners, schools and certification teams.
+ Objective: Design evidence-driven certification operations with specialist agents and human approval.
+ Architecture: Proposed architecture with deterministic workflows, 10 specialists, an orchestrator and an independent auditor; managed RAG, Supabase/PostgreSQL, persistent workers and API/MCP/RPA integrations.
+ Stack: TypeScript, React, Node.js, Python, FastAPI, Supabase, PostgreSQL, pgvector, RAG, MCP, Playwright, RLS, RBAC, Filas e workers
+
+
+
 ## Utilibox — complete application and tool catalog
  136 unique tool entries cover 17 overlapping commercial categories. Methods and maturity vary across the catalog; live status is declared by the catalog rather than independently checked in this review. The main CV highlights the decision, operations, finance, knowledge and learning applications.
  Tool Application Links / references
@@ -3186,6 +3391,34 @@ Tech Lead
  Maps, models and spatial exploration JavaScript · React · Leaflet · Three.js · Canvas · FBX
 - Logistics and Leaflet projects combine map interfaces and routing components.
 - Three.js experiments include scenes, interaction and model loading using third-party libraries.
+ Agentic AI architecture and specialist orchestration TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- Designed 10 specialist roles: compliance, evidence, documents, research, writing, communication, deadlines, risk, systems audit and integration/RPA.
+- A dedicated orchestrator checks preconditions, distributes tasks and consolidates results; an independent auditor reviews agents, tools, sources and decisions.
+- Execution contracts connect school, process, requirement and task context to approved tools, evidence, confidence and human escalation.
+ Managed RAG and document intelligence TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- Designed six collections: official regulations, operational knowledge, management context, email precedents, school-specific documents and approved templates.
+- Hybrid retrieval architecture with embeddings and pgvector; tenant, school, framework, requirement, version, validity and approval filters.
+- Specified ingestion, classification, extraction, versioning, embedding reprocessing, chunk lineage and citation persistence.
+ Workflow, events and persistent execution TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- A proposed state machine controls dependencies, owners, deadlines, preconditions and completion criteria across nine process phases.
+- Designed queues, events, webhooks and scheduled jobs, with specialist workflow, agent, document, RAG, notification, RPA and audit workers.
+- Suggested Node.js/TypeScript, NestJS or Fastify, Zod and BullMQ or an alternative queue; Temporal is an optional durable workflow engine.
+ AI governance, security and continuous audit TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- Proposed policy separates automatic execution, human approval actions and critical decisions reserved for people.
+- Designed partner/school isolation with RLS and RBAC, least privilege, secret management, logs, retention, backup and recovery.
+- An independent auditor checks citation/evidence alignment, regulation versions, data integrity and workflow compliance; quarterly audits and four-month review meetings are planned.
+ API, MCP and RPA integrations for external operations TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- Integration strategy prioritizes APIs, uses MCP for standardized tool access and proposes RPA when formal integration is unavailable.
+- Specified isolated Playwright browser workers, retry policies, idempotency, layout change detection and manual fallback.
+- Proposed scope includes Notion migration/synchronization, email, portals and future school/financial system connectors; QuickSchools, QuickBooks and Wave are initial references.
+ Certification domain and product modeling TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- Proposed domain connects partners, schools, frameworks, phases, requirements, tasks, documents, evidence, risks, decisions and history.
+- Supabase/PostgreSQL is the designed canonical store, with document Storage, Auth, Realtime and pgvector; a React/TypeScript frontend includes workflow visualization.
+- Architecture covers readiness, gaps, corrective plans, self-study and artifact reuse; expected outcomes are product goals rather than achieved impact metrics.
+ Consulting, solution architecture and roadmap TypeScript · React · Node.js · Python · FastAPI · Supabase · PostgreSQL · pgvector · RAG · MCP · Playwright · RLS · RBAC · Queues and workers
+- Documented deliverables combine an executive view, detailed architecture, navigable PT/EN presentation and implementation planning.
+- Roadmap starts with discovery and operational domain, then adds RAG/documents, agents, continuous compliance, integrations and certification intelligence.
+- Defined target measures: phase duration, evidence completeness, reuse, draft approval, agent errors, integration health and audit coverage.
  AHP Online — multicriteria decisions and consistency Astro · JavaScript · AHP · comparison matrices · consistency
 - Saaty-scale comparisons and consistency calculations assess the coherence of judgments.
 - Interactive decision modeling presents results and supports project export.

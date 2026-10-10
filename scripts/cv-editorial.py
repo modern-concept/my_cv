@@ -70,6 +70,10 @@ def core_sections(data, language='pt'):
         ('cv-produtos', 'Otimização e integração de sistemas', 'Pesquisa quantitativa e desenvolvimento independente', [c for c in cases if c['id'] in ['case-decisao-2', 'case-infra-2']]),
     ]
     result = []
+    groups.insert(3,('cv-agentic-globalcom',
+      'Agentic AI — Globalcom Certification OS' if language=='pt' else 'Agentic AI — Globalcom Certification OS',
+      'Modern Concept · proposta e arquitetura de solução para certificação e compliance educacional' if language=='pt' else 'Modern Concept · solution proposal and architecture for educational certification and compliance',
+      [c for c in cases if c['id'].startswith('case-globalcom-')]))
     for id, title, context, selected in groups:
         content = '<section class="page full-page career-project-page"><div class="full-page-inner"><h2 class="career-section-title" id="' + id + '">' + title + '</h2><p class="career-context">' + context + '</p>'
         for c in selected:
@@ -79,6 +83,8 @@ def core_sections(data, language='pt'):
             elif shortid == 'agentes-2': qualifier = 'Pesquisa com agentes de sinais; sem resultado financeiro validado neste levantamento.'
             elif shortid == 'sia-cases-2': qualifier = 'Modelagem exploratória; desempenho fora da amostra ainda não demonstrado.'
             elif shortid in ['visao-2', 'grafica-1', 'grafica-2']: qualifier = 'Protótipos e estudos de interação e visualização.'
+            if shortid.startswith('globalcom-'):
+                qualifier = 'Proposta e desenho de arquitetura; tecnologias e execução descritas no escopo projetado.' if language=='pt' else 'Solution proposal and architecture design; technologies and execution describe the proposed scope.'
             links = ' · '.join('<a href="#' + esc(a) + '">' + ('Doutorado' if a.startswith('formacao') else 'Trajetória Agrodan' if a == 'vinculo-agrodan' else 'Estágio hospitalar' if a == 'experiencia-9' else 'Ferramenta e fontes' if a.startswith('utilibox-tool-') else 'Módulo e fontes' if a.startswith('sia-negocio-') else 'Contexto e projetos') + '</a>' for a in c['relatedContextAnchors'])
             content += '<article class="career-project" id="resumo-' + c['id'] + '"><h3>' + esc(c['title']) + '</h3><p>' + esc(c['text']) + '</p><ul class="career-deliverables">' + ''.join('<li>' + esc(v) + '</li>' for v in c['implementation'][:2]) + '</ul><p class="career-stack"><strong>Engenharia e tecnologias:</strong> ' + esc(c.get('stack', STACKS.get(shortid, ''))) + '.</p>'
             if qualifier: content += '<p class="career-qualifier">' + qualifier + '</p>'

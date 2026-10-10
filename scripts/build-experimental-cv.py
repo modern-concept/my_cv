@@ -20,12 +20,14 @@ def sources(values): return PUBLIC_LINKS['sources'](values)
 def source_heading(values): return PUBLIC_LINKS['source_heading'](values)
 def source_block(values): return PUBLIC_LINKS['source_block'](values)
 PROJECT_DETAILS=runpy.run_path(str(BASE/'scripts/cv-project-details.py'))
+GLOBALCOM=runpy.run_path(str(BASE/'scripts/cv-globalcom.py'))
 def section(id,title,body,cls=''):
     return '<section id="'+id+'" class="chapter '+cls+'"><h2>'+esc(title)+'</h2>'+body+'</section>'
 
 def build():
     original=read('cv-data.json')
     proposal=read('cv-proposta-detalhada.json')
+    GLOBALCOM['inject'](proposal)
     experimental=copy.deepcopy(original)
     pt=experimental['languages']['pt']
     current=original['languages']['pt']
@@ -138,7 +140,7 @@ def build():
         project_records.append({**p,'anchor':pid,'relatedContextAnchors':[a for a,_ in context_links(p['association'])],'demonstratedDepth':depth})
         project_html.append('<article id="'+pid+'" class="case"><p class="kicker">'+esc(p['area'])+' · '+esc(p['status'])+'</p><h3>'+esc(p['title'])+'</h3><p><strong>Contexto:</strong> '+esc(p['association'])+'</p>'+linked(p['association'])+PROJECT_DETAILS['markup'](p)+'<p>'+esc(p['summary'])+'</p><p><strong>Problema e público:</strong> '+esc(b.get('problemAndObjective',p['value']))+' — '+esc(b.get('intendedAudience','Contexto a detalhar'))+'.</p><p><strong>Entrega:</strong> '+esc(b.get('observableDeliverables',PROJECT_DETAILS['architecture'](p)))+'.</p><p><strong>Profundidade demonstrada:</strong> '+esc(depth)+'</p><p><strong>Estrutura:</strong> '+esc(PROJECT_DETAILS['architecture'](p))+'</p><p><strong>Métodos:</strong> '+esc(b.get('domainMethods','; '.join(p['skills'])))+'.</p><p><strong>Áreas de aplicação:</strong> '+esc('; '.join(b.get('applicationAreas',[p['area']])))+'.</p><h4>Stack</h4>'+chips(p['stack'])+'<h4>Habilidades</h4>'+bullets(p['skills'])+sources([p['id']+'/'+e for e in p['evidence']])+'<p class="scope">'+esc(p['limits'])+'</p></article>')
     new_sections.append(section('projetos','Catálogo completo de projetos e repertório',
-      '<p>36 pastas locais, incluindo produtos, pesquisa, protótipos, estudos, versões anteriores e referências. O contexto e o alcance de cada entrada determinam como ela contribui para a trajetória.</p>'+''.join(project_html)))
+      '<p>37 projetos e referências, incluindo produtos, pesquisa, protótipos, estudos, versões anteriores e referências. O contexto e o alcance de cada entrada determinam como ela contribui para a trajetória.</p>'+''.join(project_html)))
     # Tool topics are kept as a separate appendix: they expand domain breadth,
     # without turning 136 catalog entries into 136 independent work experiences.
     tool_rows=[]
@@ -182,7 +184,7 @@ def build():
     editorial=runpy.run_path(str(BASE/'scripts/cv-editorial.py'))
     priorities=runpy.run_path(str(BASE/'scripts/cv-priority-projects.py'))
     experimental['extensions']['priorityCases']=priorities['build_records'](experimental)
-    experimental['extensions']['editorial']=editorial['editor_data']()
+    experimental['extensions']['editorial']=GLOBALCOM['enhance_editorial'](editorial['editor_data']())
     pt['skills']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['skillGroups']]
     pt['tools']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['technologyGroups']]
     pt['fullCv']['coreStack']=['Python','SQL','JavaScript','TypeScript','Java','React','Node.js','React Native / Expo','Oracle / PostgreSQL','BigQuery','Azure','Power Platform','scikit-learn','YOLO / OpenCV','APIs de LLM','ETL']

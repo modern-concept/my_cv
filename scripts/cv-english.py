@@ -103,6 +103,10 @@ def build_locale(data):
     cases = []
     for c in ext['cases']:
         key = c['id'].removeprefix('case-')
+        if key.startswith('globalcom-'):
+            globalcom=runpy.run_path(str(Path(__file__).with_name('cv-globalcom.py')))
+            cases.append(next(record for record in globalcom['records']('en') if record['id']==c['id']))
+            continue
         title, text, implementation, limit = CASES[key]
         record = copy.deepcopy(c)
         record.update(title=title, text=text, implementation=implementation, limit=limit,
@@ -118,7 +122,8 @@ def build_locale(data):
         record.update(title=title, text=text, implementation=implementation, stack=stack,
                       context='Professional experience — Agrodan' if c['section']=='agrodan' else 'Independent product — Utilibox')
         priorities.append(record)
-    return {'cases':cases, 'priorityCases':priorities, 'editorial':copy.deepcopy(EDITORIAL)}
+    globalcom=runpy.run_path(str(Path(__file__).with_name('cv-globalcom.py')))
+    return {'cases':cases, 'priorityCases':priorities, 'editorial':globalcom['enhance_editorial'](EDITORIAL,'en')}
 
 def translate_stack(text):
     phrases = {'contratos tipados':'typed contracts','resolução de conflitos':'conflict resolution','validação temporal':'temporal validation','APIs de LLM':'LLM APIs','telemetria':'telemetry','contratos de operações':'operation contracts','validação referencial':'reference validation','memória conversacional':'conversation history','APIs operacionais':'operational APIs','regras agronômicas':'agronomic rules','algoritmos genéticos':'genetic algorithms','rede neural':'neural network','normalização':'normalization','dados geoespaciais':'geospatial data','trajetória':'trajectory','velocidade':'speed','curvas e equações':'curves and equations','gráficos':'charts','dados de campo':'field data','sincronização':'synchronization','modelagem organizacional':'organizational modeling','avaliações':'assessments','histórico':'history','dados comerciais':'commercial data','importação em lotes':'batch import','simulação':'simulation','entidades e relações':'entities and relationships','redes':'networks','APIs locais':'local APIs'}
@@ -138,6 +143,8 @@ PROJECT_DETAILS=runpy.run_path(str(Path(__file__).with_name('cv-project-details.
 
 def build_archive(base, data, locale):
     catalog = runpy.run_path(str(base/'scripts/cv-english-catalogs.py'))
+    globalcom=runpy.run_path(str(base/'scripts/cv-globalcom.py'))
+    catalog['PROJECTS'][globalcom['ID']]=globalcom['EN_PROJECT']
     ext = data['extensions']
     sections = [archive_section('vinculos','Projects and career context',
       '<article id="vinculo-agrodan"><h3>Agrodan — professional SIA / SIAgro ecosystem</h3><p>Field operations, packing, people, planning, purchasing, quality and commercial modules belong to the professional Agrodan trajectory. Individual modules are not assigned to specific roles or dates from commit timestamps.</p>' + bullets(['IT Business Partner','IT Manager','Head of Technology','Administrative management — supply chain, controlling and HR operations']) + '<a href="#fullExperiencePrimary">Professional experience</a></article><h3>EFS-AHP — doctoral research</h3><p>Feature selection, evolutionary algorithms and multicriteria analysis are associated with doctoral research at CÉSAR School.</p><a href="#formacao-1">Education</a><h3>EBSERH and The Game Project</h3><p>EBSERH belongs to the hospital internship. The Game Project was university work. Other projects include independent products, research, studies and entrepreneurial initiatives; individual company/date attribution is not inferred.</p>')]
@@ -149,7 +156,7 @@ def build_archive(base, data, locale):
         body=''
         for c in selected:
             body+='<article id="'+c['id']+'" class="case"><h3>'+html.escape(c['title'])+'</h3>'+paragraphs([c['context'],c['text']])+PROJECT_DETAILS['case_markup'](c,ext['projects'],'en')+'<h4>Engineering and implementation</h4>'+bullets(c['implementation'])+'<p><strong>Technologies and methods:</strong> '+html.escape(c['stack'])+'</p>'+source_block(c['sources'])+'<p class="scope"><strong>Evidence scope:</strong> '+html.escape(c['limit'])+'</p></article>'
-        sections.append(archive_section('especialidade-'+prefix,'Technical cases — '+{'agentes':'multiagent coordination','ia':'AI integration','ml':'Machine Learning and research','visao':'computer vision','sia':'agricultural and business applications','dados':'data engineering','mobile':'mobile and enterprise web','decisao':'decision support','produto':'products and knowledge','infra':'infrastructure and desktop integration','grafica':'3D and spatial visualization'}[prefix],body))
+        sections.append(archive_section('especialidade-'+prefix,'Technical cases — '+{'agentes':'multiagent coordination','ia':'AI integration','ml':'Machine Learning and research','visao':'computer vision','sia':'agricultural and business applications','dados':'data engineering','mobile':'mobile and enterprise web','decisao':'decision support','produto':'products and knowledge','infra':'infrastructure and desktop integration','grafica':'3D and spatial visualization','globalcom':'Globalcom Agentic AI solution architecture'}[prefix],body))
     academic=''
     for p in ext['projects']:
         if p['id'] in ['ebserh','The game project','[EFS-AHP]']:
@@ -171,7 +178,7 @@ def build_archive(base, data, locale):
     for i,p in enumerate(ext['projects']):
         title,description=catalog['PROJECTS'][p['id']]
         projects+='<article class="case" id="projeto-'+str(i+1)+'"><h3>'+html.escape(title)+'</h3>'+paragraphs([description])+PROJECT_DETAILS['markup'](p,'en')+'<p><strong>Architecture:</strong> '+html.escape(PROJECT_DETAILS['architecture'](p,'en'))+'</p><p><strong>Stack:</strong> '+html.escape(', '.join(p['stack']))+'</p>'+sources([p['id']+'/'+e for e in p['evidence']])+'</article>'
-    sections.append(archive_section('projetos','Complete project and reference catalog',paragraphs(['36 local folders include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.'])+projects))
+    sections.append(archive_section('projetos','Complete project and reference catalog',paragraphs(['37 projects and references include professional applications, doctoral research, independent products, prototypes, studies, backups and third-party references. Source availability alone does not prove exclusive authorship, deployment or measured impact.'])+projects))
     tools=ext['utiliboxCatalog']; names=catalog['TOOL_TITLES']
     if len(tools)!=len(names): raise ValueError('English tool titles need updating.')
     rows=''
