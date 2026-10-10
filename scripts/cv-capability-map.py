@@ -62,7 +62,7 @@ def overview(data, language='pt'):
         x,y=point(i,radius*scores[i]/10)
         tx,ty=point(i,radius+28)
         anchor='middle' if i in [0,4] else 'start' if i<4 else 'end'
-        score_label=f'{scores[i]:g}'.replace('.',',' if not en else '.')
+        score_label=f'{scores[i]:.1f}'.rstrip('0').rstrip('.').replace('.',',' if not en else '.')
         svg+=f'<circle class="radar-dot" cx="{x:.1f}" cy="{y:.1f}" r="4"/><text x="{tx:.1f}" y="{ty:.1f}" text-anchor="{anchor}">'+esc(labels[i])+f'<tspan x="{tx:.1f}" dy="14">{score_label} / 10</tspan></text>'
     svg+='</svg>'
     def bars(rows):

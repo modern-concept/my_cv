@@ -112,6 +112,14 @@ body:not([data-extension-language="en"]) [data-content-language="en"]{display:no
 
 @media(max-width:740px){.experimental-page .context-grid,.experimental-page .module-grid{grid-template-columns:1fr}.extension-toc ol{columns:1}.experimental-page .chapter{font-size:10pt}.experimental-page table{table-layout:auto}.experimental-page .table-scroll{overflow-x:auto}}
 @media print{
+  /* Opaque fills avoid repeated PDF transparency groups; screen styling stays intact. */
+  #fullCvView *{background-image:none!important;box-shadow:none!important;border-color:#323a44!important;color:#e9eef3!important;background-color:transparent!important}
+  #fullCvView .full-page-inner{background-color:#121921!important}
+  #fullCvView .full-card,#fullCvView .career-project,#fullCvView .full-job,#fullCvView .map-panel,#fullCvView .skill-cluster,#fullCvView .case,#fullCvView .module{background-color:#192029!important}
+  #fullCvView a,#fullCvView .full-job-company,#fullCvView .map-eyebrow{color:#9fcce7!important}
+  #fullCvView .full-badge,#fullCvView .full-contact-pill,#fullCvView .full-chip{background-color:#202c38!important}
+  #fullCvView .map-track{background-color:#2c3945!important}
+  #fullCvView .map-track i{background-color:#78b9cc!important}
   body[data-print-mode][data-cv-version="full"] #fullCvView .career-navigation,.career-appendices>summary{display:none!important}
   body:not([data-print-appendices="true"]) .career-appendices{display:none!important}
   body[data-print-mode="cv"]:not([data-print-appendices="true"]) #fullCvView .career-last{break-after:auto!important;page-break-after:auto!important}

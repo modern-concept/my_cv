@@ -48,7 +48,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     pt_overview,pt_evidence=capability_map['overview'](data,'pt')
     en_overview,en_evidence=capability_map['overview'](data,'en')
     closing = original_view.rfind('</div>')
-    navigation = '<section class="page full-page career-navigation"><div class="full-page-inner"><div class="full-card career-actions"><a href="#cv-agrodan">SIA / Agrodan</a><a href="#cv-utilibox">Utilibox e métodos aplicados</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices"> Incluir acervo técnico no PDF</label></div></div></section>'
+    navigation = '<section class="page full-page career-navigation"><div class="full-page-inner"><div class="full-card career-actions"><a href="#cv-agrodan">SIA / Agrodan</a><a href="#cv-utilibox">Utilibox e métodos aplicados</a><a href="#cv-ia">IA e multiagentes</a><label><input type="checkbox" id="includeAppendices" checked> Incluir acervo técnico no PDF</label></div></div></section>'
     if language == 'en':
         navigation = english['translate_labels'](navigation)
         annex = annex.replace('<summary>Detalhamento dos projetos · áreas, métodos e tecnologias</summary>', '<summary>Project details · applications, methods and technologies</summary>', 1)
