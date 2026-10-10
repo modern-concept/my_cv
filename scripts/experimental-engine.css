@@ -50,6 +50,9 @@ body:not([data-extension-language="en"]) [data-content-language="en"]{display:no
 .experimental-page th{font-weight:700}
 
 .map-eyebrow{font-size:7pt;letter-spacing:.12em;color:#9fcce7;font-weight:700}
+.full-recognition-context{font-size:7.2pt;line-height:1.4;border-top:1px solid var(--midLine);margin-top:2mm;padding-top:1mm;color:var(--midMuted)}
+.full-recognition-context p{margin:1mm 0}
+.full-recognition-context strong{color:var(--midText)}
 .map-heading p{font-size:9pt;margin:0;color:var(--midMuted)}
 .map-heading .career-section-title{font-size:16pt;margin-top:2mm}
 .map-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}

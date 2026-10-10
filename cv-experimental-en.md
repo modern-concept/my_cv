@@ -207,6 +207,14 @@ Tech Lead
  Agrodan / Agritech.NE — applied R&D project, March 2024 final report.
 
 
+## Recognition and responsibilities
+
+- 8x QMS Contest LATAM 2025 Winner
+- 2x ICS Global Winner (2025) — People's Choice & Fellows
+- Information Security Manager (ISM) for Brazil Pipeline Delivery QMS LATAM 2025: Annual competition organized by Bayer LATAM’s Operational Excellence team, evaluating projects that improve processes and quality and reduce costs.
+ ICS Global 2025: Bayer’s annual internal congress that evaluates and recognizes the year’s most innovative projects across Crop Science.
+
+
 ## Technologies and tools
  Languages: Python, SQL, JavaScript, TypeScript and Java.
  Web, APIs and products: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase.

@@ -88,6 +88,7 @@ def build():
     primary_count=len(full['primaryExperience'])
     base_parts=[section('perfil','Perfil profissional',paras(current['profile']['summary'])),section('reconhecimento','Reconhecimentos e responsabilidades',bullets(full['headerBadges'])),section('profissional','Experiência profissional',''.join(job_html[:primary_count])),section('trajetoria','Trajetória adicional',''.join(job_html[primary_count:])),section('resultados','Resultados de impacto',bullets(full['keyImpacts']))]
     edu=[]
+    base_parts[1]=section('reconhecimento','Reconhecimentos e responsabilidades',bullets(full['headerBadges'])+''.join('<p><strong>'+esc(item['title'])+':</strong> '+esc(item['description'])+'</p>' for item in full.get('recognitionDescriptions',[])))
     for i,e in enumerate(current['education']):
         edu.append('<article id="'+e.get('id','formacao-'+str(i+1))+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p class="company">'+esc(e['school'])+'</p><p class="meta">'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>')
     base_parts.append(section('formacao','Formação',''.join(edu)))
@@ -227,6 +228,7 @@ def build():
     en_education=['<article id="'+e.get('id','formacao-'+str(i+1))+'" class="job"><h3>'+esc(e['degree']).replace('\n','<br>')+'</h3><p>'+esc(e['school'])+'</p><p>'+esc(e['from'])+' — '+esc(e['to'])+'</p>'+bullets(e.get('details',[]))+'</article>' for i,e in enumerate(en['education'])]
     english_text=section('profile','Professional profile',paras(en['profile']['summary']))+section('experience','Professional experience',''.join(en_jobs))+section('results','Impact highlights',bullets(en['fullCv']['keyImpacts']))+section('education','Education',''.join(en_education))
     english_text+=section('skills','Skills and applications',''.join('<h3>'+esc(g['title'])+'</h3>'+paras([g['description'],g['origin']]) for g in locale['editorial']['skillGroups']))
+    english_text+=section('recognition','Recognition and responsibilities',bullets(en['fullCv']['headerBadges'])+''.join('<p><strong>'+esc(item['title'])+':</strong> '+esc(item['description'])+'</p>' for item in en['fullCv'].get('recognitionDescriptions',[])))
     english_text+=section('tools','Technologies and tools',''.join('<p><strong>'+esc(g['title'])+':</strong> '+esc(g['description'])+'</p>' for g in locale['editorial']['technologyGroups']))
     english_text+=editorial['core_sections'](experimental,'en')+'<h1>Technical archive</h1>'+''.join(english_sections)
     for key in ['coverLetter','coverLetterSwiss']:

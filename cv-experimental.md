@@ -16,7 +16,8 @@ Versão experimental ampliada — 09/10/2026.
 
 - 8x vencedor do QMS Contest LATAM 2025
 - 2x vencedor do ICS Global 2025 — People's Choice & Fellows
-- Information Security Manager (ISM) para Brazil Pipeline Delivery
+- Information Security Manager (ISM) para Brazil Pipeline Delivery QMS LATAM 2025: Concurso anual promovido pelo time de Excelência Operacional da Bayer LATAM, que avalia projetos de melhoria de processos, melhoria da qualidade e redução de custos.
+ ICS Global 2025: Congresso interno anual da Bayer que avalia e premia os projetos mais inovadores do ano nas áreas de Crop Science.
 
 ## Experiência profissional
 

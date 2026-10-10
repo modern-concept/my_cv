@@ -160,6 +160,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     fill('fullExperienceSecondary', ''.join(jobs[primary_count:]).replace('class="job"', 'class="full-mini-job"'))
     fill('fullEducation', ''.join(education).replace('class="job"', 'class="full-education-entry"'))
     fill('fullSummary', ''.join('<p>' + html.escape(v) + '</p>' for v in pt['profile']['summary']))
+    fill('fullRecognitions', ''.join('<p><strong>'+html.escape(v['title'])+': </strong>'+html.escape(v['description'])+'</p>' for v in pt['fullCv'].get('recognitionDescriptions',[])))
     fill('fullResults', ''.join('<li>' + html.escape(v) + '</li>' for v in pt['fullCv']['keyImpacts']))
     for id, values in [('fullStack', pt['fullCv']['coreStack']), ('fullSkills', [v['name'] for v in pt['skills']]), ('fullTools', [v['name'] for v in pt['tools']])]:
         if id == 'fullSkills':
@@ -1501,6 +1502,7 @@ ENGINE_TEMPLATE = r'''
               <div class="rule"></div>
             </div>
             <div class="full-summary" id="fullSummary"></div>
+            <div class="full-recognition-context" id="fullRecognitions"></div>
           </section>
 
           <section class="full-card">
@@ -1743,6 +1745,14 @@ ENGINE_TEMPLATE = r'''
       const badgeRow = $("fullBadgeRow");
       badgeRow.innerHTML = "";
       (F.headerBadges || []).forEach((item) => badgeRow.appendChild(createChip(item, "full-badge")));
+      const recognitionContext = $("fullRecognitions");
+      recognitionContext.innerHTML = "";
+      (F.recognitionDescriptions || []).forEach(item => {
+        const paragraph = el("p");
+        paragraph.appendChild(el("strong", null, item.title + ": "));
+        paragraph.appendChild(document.createTextNode(item.description));
+        recognitionContext.appendChild(paragraph);
+      });
 
       const primary = $("fullExperiencePrimary");
       primary.innerHTML = "";

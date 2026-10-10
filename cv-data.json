@@ -299,6 +299,16 @@
           "YOLO / OpenCV",
           "APIs de LLM",
           "ETL"
+        ],
+        "recognitionDescriptions": [
+          {
+            "title": "QMS LATAM 2025",
+            "description": "Concurso anual promovido pelo time de Excelência Operacional da Bayer LATAM, que avalia projetos de melhoria de processos, melhoria da qualidade e redução de custos."
+          },
+          {
+            "title": "ICS Global 2025",
+            "description": "Congresso interno anual da Bayer que avalia e premia os projetos mais inovadores do ano nas áreas de Crop Science."
+          }
         ]
       },
       "experience": [
@@ -730,6 +740,16 @@
           "YOLO / OpenCV",
           "LLM APIs",
           "ETL"
+        ],
+        "recognitionDescriptions": [
+          {
+            "title": "QMS LATAM 2025",
+            "description": "Annual competition organized by Bayer LATAM’s Operational Excellence team, evaluating projects that improve processes and quality and reduce costs."
+          },
+          {
+            "title": "ICS Global 2025",
+            "description": "Bayer’s annual internal congress that evaluates and recognizes the year’s most innovative projects across Crop Science."
+          }
         ]
       },
       "experience": [
