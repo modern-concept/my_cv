@@ -13,7 +13,7 @@ O HTML pode ser aberto diretamente no navegador. Para desenvolvimento, execute `
 
 ## Conteúdo e apresentação
 
-O motor conserva o tema escuro, cabeçalho, cartões, grade de experiências, colunas, alternância compacto/completo, cartas e modos de impressão. As novas seções aparecem no modo completo e respeitam o idioma selecionado. Blocos extensos fluem para manter a legibilidade; a paginação final depende do navegador e ainda precisa de revisão visual.
+O motor conserva o tema escuro, cabeçalho, cartões, grade de experiências, colunas, alternância compacto/completo, cartas e modos de impressão. As novas seções aparecem no modo completo e respeitam o idioma selecionado. A altura acompanha o conteúdo, sem reservar uma folha A4 para cada seção. Na impressão, os blocos seguem em fluxo contínuo, sem quebras obrigatórias entre seções; cards e linhas extensas dos anexos podem ser divididos para aproveitar o espaço. A carta começa em uma página própria quando impressa junto ao CV. A paginação final depende do navegador e ainda precisa de revisão visual.
 
 O corpo do CV prioriza **34 destaques**:
 
