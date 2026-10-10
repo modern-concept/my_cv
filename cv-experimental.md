@@ -23,7 +23,7 @@ Versão experimental ampliada — 09/10/2026.
 
 ### TECHNOLOGY ENABLEMENT LEAD
  BAYER CROP SCIENCE
- mai de 2024 - o momento · 1 ano 11 meses · Tempo integral · Petrolina, Pernambuco, Brasil
+ mai de 2024 - o momento · 2 anos 5 meses · Tempo integral · Petrolina, Pernambuco, Brasil
 
 - 8x QMS LATAM 2025
 - 2x ICS Global 2025

@@ -14,7 +14,7 @@ Tech Lead
 
 ### TECHNOLOGY ENABLEMENT LEAD
  BAYER CROP SCIENCE
- May 2024 - Present · 1 yr 11 mos · Petrolina, Pernambuco, Brazil
+ May 2024 - Present · 2 yrs 5 mos · Petrolina, Pernambuco, Brazil
 
 - 8x QMS LATAM 2025
 - 2x ICS Global 2025
