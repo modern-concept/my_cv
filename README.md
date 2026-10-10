@@ -13,6 +13,8 @@ O HTML pode ser aberto diretamente no navegador. Para desenvolvimento, execute `
 
 ## Conteúdo e apresentação
 
+O radar usa um índice relativo de abrangência entre 6 e 10, calculado pela normalização das contagens de projetos: `6 + 4 × (contagem − mínimo) / (máximo − mínimo)`. Os gráficos de barras mantêm as contagens reais. Esse índice representa a abrangência do portfólio, sem equivaler a uma avaliação de proficiência.
+
 A terceira página do modo completo reúne o panorama visual de habilidades, stacks e áreas de atuação, em PT/EN. Os gráficos usam contagens de projetos relacionados, sem notas de proficiência; a seleção exclui backups, referências de terceiros e propostas. Cada competência tem links para os projetos correspondentes. A experiência profissional ocupa a primeira página, perfil/formação e trajetória adicional ficam na segunda, e as habilidades, ferramentas e cases detalhados vêm depois do panorama. Essas três primeiras páginas usam quebras de impressão explícitas; o restante segue em fluxo contínuo. A seleção e os gráficos são gerados por `scripts/cv-capability-map.py`.
 
 O motor conserva o tema escuro, cabeçalho, cartões, grade de experiências, colunas, alternância compacto/completo, cartas e modos de impressão. As novas seções aparecem no modo completo e respeitam o idioma selecionado. A altura acompanha o conteúdo, sem reservar uma folha A4 para cada seção. Na impressão, os blocos seguem em fluxo contínuo, sem quebras obrigatórias entre seções; cards e linhas extensas dos anexos podem ser divididos para aproveitar o espaço. A carta começa em uma página própria quando impressa junto ao CV. A paginação final depende do navegador e ainda precisa de revisão visual.

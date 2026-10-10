@@ -44,22 +44,26 @@ def overview(data, language='pt'):
         return ' · '.join('<a href="#projeto-'+str(indexes[p])+'">'+esc(names.get(p,p))+'</a>' for p in ids)
     labels=[row[1 if en else 0] for row in DIMENSIONS]
     maximum=max(len(row[2]) for row in DIMENSIONS)
+    minimum=min(len(row[2]) for row in DIMENSIONS)
+    # Relative portfolio index: remap the observed breadth to a 6–10 scale.
+    scores=[6+4*(len(row[2])-minimum)/(maximum-minimum) for row in DIMENSIONS]
     cx,cy,radius=230,170,112
     def point(i,r):
         a=-math.pi/2+i*math.pi/4
         return (cx+math.cos(a)*r,cy+math.sin(a)*r)
     def polygon(r):return ' '.join(f'{x:.1f},{y:.1f}' for x,y in (point(i,r) for i in range(8)))
-    svg='<svg class="strength-radar" viewBox="0 0 460 340" role="img" aria-labelledby="strength-chart-title"><title id="strength-chart-title">'+esc(tr('Abrangência por competência: número de projetos relacionados','Breadth by capability: number of related projects'))+'</title>'
-    for n in [3,6,9]:svg+='<polygon class="radar-grid" points="'+polygon(radius*n/maximum)+'"/>'
+    svg='<svg class="strength-radar" viewBox="0 0 460 340" role="img" aria-labelledby="strength-chart-title"><title id="strength-chart-title">'+esc(tr('Índice relativo de abrangência por competência: escala de 6 a 10','Relative breadth index by capability: scale from 6 to 10'))+'</title>'
+    for n in [2,4,6,8,10]:svg+='<polygon class="radar-grid" points="'+polygon(radius*n/10)+'"/>'
     for i in range(8):
         x,y=point(i,radius)
         svg+=f'<line class="radar-grid" x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}"/>'
-    svg+='<polygon class="radar-area" points="'+' '.join(f'{x:.1f},{y:.1f}' for i,row in enumerate(DIMENSIONS) for x,y in [point(i,radius*len(row[2])/maximum)])+'"/>'
+    svg+='<polygon class="radar-area" points="'+' '.join(f'{x:.1f},{y:.1f}' for i,score in enumerate(scores) for x,y in [point(i,radius*score/10)])+'"/>'
     for i,row in enumerate(DIMENSIONS):
-        x,y=point(i,radius*len(row[2])/maximum)
+        x,y=point(i,radius*scores[i]/10)
         tx,ty=point(i,radius+28)
         anchor='middle' if i in [0,4] else 'start' if i<4 else 'end'
-        svg+=f'<circle class="radar-dot" cx="{x:.1f}" cy="{y:.1f}" r="4"/><text x="{tx:.1f}" y="{ty:.1f}" text-anchor="{anchor}">'+esc(labels[i])+f'<tspan x="{tx:.1f}" dy="14">{len(row[2])} '+tr('projetos','projects')+'</tspan></text>'
+        score_label=f'{scores[i]:g}'.replace('.',',' if not en else '.')
+        svg+=f'<circle class="radar-dot" cx="{x:.1f}" cy="{y:.1f}" r="4"/><text x="{tx:.1f}" y="{ty:.1f}" text-anchor="{anchor}">'+esc(labels[i])+f'<tspan x="{tx:.1f}" dy="14">{score_label} / 10</tspan></text>'
     svg+='</svg>'
     def bars(rows):
         high=max(n for title,n in rows)
@@ -71,7 +75,7 @@ def overview(data, language='pt'):
     content+='<div class="map-metrics"><div><b>'+str(len(included))+'</b><span>'+tr('projetos no panorama','projects in this overview')+'</span></div><div><b>8</b><span>'+tr('frentes técnicas','technical capabilities')+'</span></div><div><b>7</b><span>'+tr('áreas de aplicação','application domains')+'</span></div></div>'
     content+='<div class="map-chart-grid"><article class="map-panel"><h3>'+tr('Força do portfólio · abrangência','Portfolio strength · breadth')+'</h3>'+svg+'</article><article class="map-panel"><h3>'+tr('Stack · presença nos projetos','Stack · presence across projects')+'</h3>'+bars(stack_rows)+'<p class="map-note">'+tr('Número de projetos que usam ao menos uma tecnologia de cada família.','Projects using at least one technology in each family.')+'</p><p class="map-stack-text">Python · SQL · JavaScript · TypeScript · Java<br>React · Node.js · Java EE · React Native<br>Oracle · PostgreSQL · SQLite · Supabase<br>scikit-learn · PyTorch · OpenCV · TensorFlow.js</p></article></div>'
     content+='<div class="map-lower-grid"><article class="map-panel"><h3>'+tr('Onde apliquei essas competências','Where I applied these capabilities')+'</h3>'+bars(sector_rows)+'</article><article class="map-panel map-highlights"><h3>'+tr('Diferenciais conectados à trajetória','Strengths connected to career experience')+'</h3><p><strong>'+tr('Liderança e operação','Leadership & operations')+'</strong><br>'+tr('Bayer, Agrodan e Labrunier: tecnologia, transformação, indicadores e integração com o negócio.','Bayer, Agrodan and Labrunier: technology, transformation, indicators and business integration.')+'</p><p><strong>Agentic AI / MLOps</strong><br>'+tr('Planejamento Xavier: coordenação multiagente. TraderMind: ciclo de modelos. Globalcom: proposta de arquitetura com RAG, MCP e auditoria.','Planejamento Xavier: multiagent coordination. TraderMind: model lifecycle. Globalcom: architecture proposal with RAG, MCP and audit.')+'</p><p><strong>'+tr('Pesquisa e melhoria contínua','Research & continuous improvement')+'</strong><br>'+tr('EFS-AHP no doutorado; Utilibox em decisão, Lean e finanças; visão industrial na Agritech.NE.','Doctoral EFS-AHP; Utilibox for decisions, Lean and finance; industrial vision at Agritech.NE.')+'</p></article></div>'
-    content+='<p class="map-note">'+tr('Escala dos gráficos: quantidade de projetos relacionados, não nota de proficiência. Um projeto pode apoiar várias frentes. Backups, referências de terceiros e a proposta Globalcom não entram na contagem.','Chart scale: related project counts, not proficiency ratings. A project may support several capabilities. Backups, third-party references and the Globalcom proposal are excluded from the counts.')+'</p></div></section>'
+    content+='<p class="map-note">'+tr('Radar: índice relativo de abrangência do portfólio, de 6 a 10. Barras: quantidade de projetos relacionados. Um projeto pode apoiar várias frentes. Backups, referências de terceiros e a proposta Globalcom não entram na contagem.','Radar: relative portfolio breadth index, from 6 to 10. Bars: related project counts. A project may support several capabilities. Backups, third-party references and the Globalcom proposal are excluded from the counts.')+'</p></div></section>'
     provenance='<section class="page full-page capability-evidence"><div class="full-page-inner"><h2 class="career-section-title">'+tr('Projetos que sustentam o panorama','Projects supporting the overview')+'</h2><div class="map-evidence-grid">'+''.join('<article><h3>'+esc(row[1 if en else 0])+'</h3><p>'+links(row[2])+'</p></article>' for row in DIMENSIONS)+'</div></div></section>'
     evidence='<div class="map-overview-evidence"><h3>'+tr('Projetos de referência por competência','Reference projects by capability')+'</h3><div class="map-evidence-grid">'+''.join('<article><h3>'+esc(row[1 if en else 0])+'</h3><p>'+links(row[2])+'</p></article>' for row in DIMENSIONS)+'</div></div>'
     content=content.removesuffix('</div></section>')+evidence+'</div></section>'
