@@ -37,7 +37,7 @@
       "coverLetter": {
         "greeting": "Prezado(a) Gestor(a) de Contratacao,",
         "paragraphs": [
-          "Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.",
+          "Escrevo para demonstrar meu interesse em oportunidades de Senior Software Engineer, Tech Lead ou Technology Enablement Lead. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.",
           "Coordeno iniciativas técnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Minha experiência combina engenharia de software, dados e RPA para aumentar a produtividade de pesquisa e a eficiência operacional.",
           "Em funções anteriores, entreguei automação de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em até 90%. Esses projetos também geraram impacto financeiro mensuravel por meio de eficiência de processos, melhor governança e decisões orientadas por dados.",
           "Tenho interesse em discutir como minha experiência prática em IA aplicada, plataformas de dados e liderança técnica pode contribuir para os desafios da posição e da sua organização."
@@ -48,7 +48,7 @@
       "coverLetterSwiss": {
         "greeting": "Prezado(a) Gestor(a) de Contratacao,",
         "paragraphs": [
-          "Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead na Suíça. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.",
+          "Escrevo para demonstrar meu interesse em oportunidades de Senior Software Engineer, Tech Lead ou Technology Enablement Lead na Suíça. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.",
           "Coordeno iniciativas técnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Em funções anteriores, entreguei automação de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em até 90%.",
           "Estou baseado no Brasil e busco uma oportunidade para realocacao na Suíça. Estou disponivel para entrevistas remotas e preparado para apoiar o processo de permissao de trabalho com toda a documentacao necessaria.",
           "Acredito que minha experiência em IA aplicada, plataformas de dados e liderança técnica pode contribuir de forma concreta para os desafios da sua organização."
@@ -58,11 +58,12 @@
       },
       "profile": {
         "name": "DANILLO XAVIER",
-        "headline": "Senior AI & Automation Engineer | Tech Lead",
+        "headline": "Senior Software Engineer | AI, Automation & Tech Lead",
         "summary": [
-          "Líder de tecnologia e engenheiro de IA e automação com mais de 10 anos de experiência em software corporativo, Machine Learning e automação inteligente para operações complexas.",
-          "Atualmente Technology Enablement Lead na Bayer Crop Science, liderando soluções digitais para pipelines de P&D em milho e soja. Experiência em Python, ML, cloud, plataformas de dados e RPA, com histórico de impacto operacional multimilionário."
-        ]
+          "Engenheiro de software com mais de 10 anos de experiência no desenvolvimento e evolução de sistemas corporativos, aplicações web e mobile, APIs, integrações ERP, pipelines de dados e soluções de IA.",
+          "Python, JavaScript/TypeScript, Java, React, Node.js e SQL. Atualmente Technology Enablement Lead na Bayer Crop Science, com trajetória de desenvolvimento, arquitetura e liderança técnica na Agrodan, Labrunier e em produtos independentes."
+        ],
+        "engineeringIntro": "Desenvolvimento e evolução de sistemas corporativos, web/mobile, APIs e integrações. Python · JavaScript/TypeScript · Java · React · Node.js · SQL."
       },
       "contact": {
         "items": [
@@ -106,8 +107,8 @@
               "ISM Brazil Pipeline Delivery"
             ],
             "bullets": [
-              "Lidero o desenvolvimento de soluções de IA, ML e automação para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisão e RPA para elevar produtividade e eficiência operacional.",
-              "Coordeno iniciativas técnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa."
+              "Desenvolvimento de soluções de IA, ML e automação com Python, BigQuery, Azure e Power Platform para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio à decisão e RPA.",
+              "Liderança técnica de iniciativas multifuncionais, conectando engenharia de software, Machine Learning e automação corporativa à produtividade da pesquisa e à eficiência operacional."
             ],
             "technologies": [
               "Power BI",
@@ -136,10 +137,10 @@
               "Auditoria de estoques e pessoas"
             ],
             "bullets": [
-              "Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Contribuição: auditoria operacional e gestão dos controles de pessoas, associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.",
-              "Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Contribuição: gestão e auditoria dos controles de estoque, apoiando reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação.",
               "Automação do fluxo de solicitações com análise crítica baseada em IA, classificação de classes contábeis e acompanhamento orçado x realizado com alertas em tempo real no Telegram. Contribuição: auditoria e gestão do controle crítico das solicitações, associado a R$ 500 mil/mês em pedidos desnecessários evitados.",
-              "Uso gerencial do SIA, plataforma desenvolvida e evoluída na trajetória de tecnologia, para fortalecer governança operacional, auditoria e tomada de decisão."
+              "Atuação de engenharia de software e gestão sobre o SIA, plataforma desenvolvida e evoluída na trajetória de tecnologia com React, Node.js, Oracle e SQL, aplicada à governança operacional, auditoria e tomada de decisão.",
+              "Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Contribuição: auditoria operacional e gestão dos controles de pessoas, associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.",
+              "Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Contribuição: gestão e auditoria dos controles de estoque, apoiando reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação."
             ],
             "technologies": [
               "React.js",
@@ -166,11 +167,11 @@
               "24 jobs de ETL"
             ],
             "bullets": [
+              "Desenvolvimento e entrega de formulários digitais, coleta offline com GPS, integrações ERP, dashboards, 24 jobs de ETL e automações com IA/ML, com React, Python e SQL; digitalização de 85% dos processos antes manuais.",
+              "Contribuição: desenvolvimento e evolução de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.",
               "Função exercida simultaneamente à Gerência de TIC de mar/2021 a nov/2023, acumulando liderança de tecnologia e inovação com a gestão de TIC.",
               "Liderança da transformação digital da companhia com PMBoK, Agile e gamificação para institucionalizar processos e cultura de inovação.",
               "Identificação de oportunidades, formação de líderes internos e disseminação de métodos, ferramentas e mindset de inovação.",
-              "Contribuição: desenvolvimento e evolução de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.",
-              "Entrega de formulários digitais, coleta offline com GPS, integração ERP, dashboards, ETLs e automações com IA/ML, digitalizando 85% dos processos antes manuais.",
               "Condução do programa de inovação aberta Agrodan Tech, com sete startups selecionadas; renegociação contratual associada a R$ 800 mil/ano de economia."
             ],
             "technologies": [
@@ -191,9 +192,9 @@
             "period": "out de 2019 - nov de 2023",
             "location": "Belém do São Francisco e Recife, Pernambuco · Presencial",
             "bullets": [
-              "De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação.",
+              "Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Contribuição: evolução técnica dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia.",
               "Gestão das rotinas da equipe de TI, help desk, parque de dispositivos, servidores, backup e recovery, virtualização e projetos de alta disponibilidade.",
-              "Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Contribuição: evolução técnica dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia."
+              "De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação."
             ],
             "technologies": [
               "Windows Server",
@@ -215,8 +216,8 @@
             "period": "jan de 2019 - out de 2019",
             "location": "Belém do São Francisco, Pernambuco, Brasil",
             "bullets": [
-              "Tradução de necessidades de negócio em tecnologias aplicadas, com forte foco em resultado e cadência de transformação digital.",
-              "Liderança na criação e evolução do SIA, plataforma integrada com dashboards em tempo real, mapas de acompanhamento, coletores offline sincronizados e módulos com IA para decisões operacionais e estratégicas."
+              "Criação e evolução do SIA com React, Node.js e SQL: dashboards em tempo real, APIs, mapas de acompanhamento, coletores offline sincronizados e módulos com IA para decisões operacionais e estratégicas.",
+              "Tradução de necessidades de negócio em tecnologias aplicadas, com forte foco em resultado e cadência de transformação digital."
             ],
             "technologies": [
               "React.js",
@@ -236,6 +237,7 @@
             "period": "fev de 2012 - out de 2019",
             "location": "Petrolina, Pernambuco, Brasil",
             "bullets": [
+              "Desenvolvimento de produtos de software e aplicativos em iniciativas empreendedoras, conectando implementação, evolução do produto e validação de mercado.",
               "Atuação na fundação de diversas startups, exercendo o papel de CEO na maior parte das iniciativas.",
               "Vivência prática em validação de mercado, desenvolvimento de produto, inovação e liderança sob incerteza.",
               "Projetos autorais chegaram a ser destacados pela Nokia em seleção de aplicativos brasileiros para smartphones."
@@ -465,8 +467,8 @@
           "company": "BAYER CROP\nSCIENCE",
           "role": "TECHNOLOGY ENABLEMENT LEAD",
           "paragraphs": [
-            "Lidero o desenvolvimento de soluções de IA, ML e automação para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisão e RPA.",
-            "Coordeno iniciativas técnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa."
+            "Desenvolvimento de soluções de IA, ML e automação com Python, BigQuery, Azure e Power Platform para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio à decisão e RPA.",
+            "Liderança técnica de iniciativas multifuncionais, conectando engenharia de software, Machine Learning e automação corporativa à produtividade da pesquisa e à eficiência operacional."
           ]
         },
         {
@@ -556,6 +558,9 @@
           "name": "Dados e persistência: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize."
         },
         {
+          "name": "Qualidade e entrega: Git, GitHub Actions, TypeScript, ESLint; smoke tests, validação de contratos e workflow de deploy de Supabase Edge Functions."
+        },
+        {
           "name": "ML e visão computacional: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js e MediaPipe."
         },
         {
@@ -579,16 +584,19 @@
       ],
       "skills": [
         {
-          "name": "IA, agentes e automação: Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos."
-        },
-        {
-          "name": "Machine Learning e pesquisa: Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal."
-        },
-        {
           "name": "Engenharia de software: Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop."
         },
         {
           "name": "Dados e decisão: ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições."
+        },
+        {
+          "name": "Qualidade, entrega e manutenção de software: Smoke tests, validação de contratos e contexto concorrente, verificação de tipos, lint, versionamento e workflow de deploy; supervisão de processos e logs."
+        },
+        {
+          "name": "IA, agentes e automação: Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos."
+        },
+        {
+          "name": "Machine Learning e pesquisa: Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal."
         },
         {
           "name": "Liderança e operações: Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança."
@@ -629,7 +637,7 @@
       "coverLetter": {
         "greeting": "Dear Hiring Manager,",
         "paragraphs": [
-          "I am applying for Senior AI Engineer, Automation Engineer and Technology Enablement Lead opportunities. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.",
+          "I am applying for Senior Software Engineer, Tech Lead and Technology Enablement Lead opportunities. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.",
           "I coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation. My experience combines software engineering, data platforms and RPA to improve research productivity and operational efficiency.",
           "In previous roles, I delivered the automation of more than 85% of manual processes and audit systems that reduced operational errors by up to 90%. These projects also created measurable financial impact through improved process efficiency, governance and data-driven decisions.",
           "I would welcome the opportunity to discuss how my applied AI, data-platform and technical-leadership experience could help address the challenges of your organization."
@@ -640,7 +648,7 @@
       "coverLetterSwiss": {
         "greeting": "Dear Hiring Manager,",
         "paragraphs": [
-          "I am applying for Senior AI Engineer, Automation Engineer and Technology Enablement Lead opportunities in Switzerland. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.",
+          "I am applying for Senior Software Engineer, Tech Lead and Technology Enablement Lead opportunities in Switzerland. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.",
           "I coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation. In previous roles, I delivered the automation of more than 85% of manual processes and audit systems that reduced operational errors by up to 90%.",
           "I am currently based in Brazil and am seeking an opportunity to relocate to Switzerland. I am available for remote interviews and prepared to support the work-permit process with all required documentation.",
           "I would welcome the opportunity to discuss how my applied AI, data-platform and technical-leadership experience could help address the challenges of your organization."
@@ -650,11 +658,12 @@
       },
       "profile": {
         "name": "DANILLO XAVIER",
-        "headline": "Senior AI & Automation Engineer | Tech Lead",
+        "headline": "Senior Software Engineer | AI, Automation & Tech Lead",
         "summary": [
-          "Technology leader and AI & Automation Engineer with 10+ years of experience building enterprise software, ML solutions and intelligent automation for complex operational environments.",
-          "Currently Technology Enablement Lead at Bayer Crop Science, leading digital solutions for corn and soybean R&D pipelines. Experienced in Python, ML, cloud, data platforms and RPA, with a track record of delivering multi-million-BRL operational impact."
-        ]
+          "Software Engineer with 10+ years of experience developing and evolving enterprise systems, web and mobile applications, APIs, ERP integrations, data pipelines and AI solutions.",
+          "Python, JavaScript/TypeScript, Java, React, Node.js and SQL. Currently Technology Enablement Lead at Bayer Crop Science, with development, architecture and technical leadership experience at Agrodan, Labrunier and in independent products."
+        ],
+        "engineeringIntro": "Development and evolution of enterprise systems, web/mobile applications, APIs and integrations. Python · JavaScript/TypeScript · Java · React · Node.js · SQL."
       },
       "contact": {
         "items": [
@@ -698,8 +707,8 @@
               "ISM Brazil Pipeline Delivery"
             ],
             "bullets": [
-              "Lead the development of AI, ML and automation solutions supporting corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA to improve research productivity and operational efficiency.",
-              "Coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation."
+              "Develop AI, ML and automation solutions with Python, BigQuery, Azure and Power Platform for corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA.",
+              "Provide technical leadership across cross-functional initiatives, connecting software engineering, Machine Learning and enterprise automation to research productivity and operational efficiency."
             ],
             "technologies": [
               "Power BI",
@@ -728,10 +737,10 @@
               "Inventory and people auditing"
             ],
             "bullets": [
-              "Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance. Contribution: operational auditing and management of people controls, supporting BRL 1.2M/year in labor cost reductions and BRL 780K/year in absenteeism-related cost reductions.",
-              "Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices. Contribution: inventory control management and auditing, supporting reductions of BRL 1.8M/month in fast-moving inventory and BRL 150K/month in obsolete or slow-moving items.",
               "Automated request flows with AI-driven critical analysis, accounting class classification and real-time budget vs actual tracking with Telegram alerts. Contribution: auditing and management of request controls, associated with avoided expenditure of BRL 500K/month in unnecessary orders.",
-              "Used SIA, the platform developed and evolved across my technology roles, to strengthen operational governance, auditing and management decision-making."
+              "Software engineering and management work on SIA, a platform developed and evolved across technology roles with React, Node.js, Oracle and SQL, supporting operational governance, auditing and decision-making.",
+              "Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance. Contribution: operational auditing and management of people controls, supporting BRL 1.2M/year in labor cost reductions and BRL 780K/year in absenteeism-related cost reductions.",
+              "Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices. Contribution: inventory control management and auditing, supporting reductions of BRL 1.8M/month in fast-moving inventory and BRL 150K/month in obsolete or slow-moving items."
             ],
             "technologies": [
               "React.js",
@@ -758,11 +767,11 @@
               "24 ETL jobs"
             ],
             "bullets": [
+              "Developed and delivered digital forms, offline GPS-enabled collection, ERP integrations, dashboards, 24 ETL jobs and AI/ML automations with React, Python and SQL, digitizing 85% of previously manual processes.",
+              "Contribution: development and evolution of process and spraying audit tools supporting BRL 850K/year in pesticide savings, a 90% reduction in spraying/product-use issues and BRL 400K/year in fuel savings; tracked project impact and ROI for corporate decisions.",
               "Held concurrently with the ICT Manager role from Mar 2021 to Nov 2023, combining technology and innovation leadership with ICT management.",
               "Led the company's digital transformation using PMBoK, Agile and gamification to institutionalize processes and an innovation culture.",
               "Identified opportunities, trained internal leaders and spread innovation mindset, methods and tools across the organization.",
-              "Contribution: development and evolution of process and spraying audit tools supporting BRL 850K/year in pesticide savings, a 90% reduction in spraying/product-use issues and BRL 400K/year in fuel savings; tracked project impact and ROI for corporate decisions.",
-              "Delivered digital forms, offline GPS-enabled collection, ERP integration, dashboards, ETLs and AI/ML automations, digitizing 85% of previously manual processes.",
               "Led the Agrodan Tech open innovation program, selecting seven startups; contract renegotiation supported BRL 800K/year in savings."
             ],
             "technologies": [
@@ -783,9 +792,9 @@
             "period": "Oct 2019 - Nov 2023",
             "location": "Belem do Sao Francisco and Recife, Pernambuco · On-site",
             "bullets": [
-              "From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation.",
+              "Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. Contribution: technical improvements to ERP modules and integrations reduced outsourcing needs, supporting BRL 240K/year in savings.",
               "Managed IT staff routines, help desk operations, device estate, servers, backup and recovery, virtualization and high-availability initiatives.",
-              "Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. Contribution: technical improvements to ERP modules and integrations reduced outsourcing needs, supporting BRL 240K/year in savings."
+              "From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation."
             ],
             "technologies": [
               "Windows Server",
@@ -807,8 +816,8 @@
             "period": "Jan 2019 - Oct 2019",
             "location": "Belem do Sao Francisco, Pernambuco, Brazil",
             "bullets": [
-              "Translated business needs into applied technologies with a strong focus on outcomes and transformation cadence.",
-              "Led the creation and ongoing evolution of SIA, an integrated platform with real-time dashboards, tracking maps, offline synchronized collectors and AI-based modules for operational and strategic decisions."
+              "Created and evolved SIA with React, Node.js and SQL: real-time dashboards, APIs, tracking maps, synchronized offline collectors and AI modules for operational and strategic decisions.",
+              "Translated business needs into applied technologies with a strong focus on outcomes and transformation cadence."
             ],
             "technologies": [
               "React.js",
@@ -1057,8 +1066,8 @@
           "company": "BAYER CROP\nSCIENCE",
           "role": "TECHNOLOGY ENABLEMENT LEAD",
           "paragraphs": [
-            "Lead the development of AI, ML and automation solutions supporting corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA.",
-            "Coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation."
+            "Develop AI, ML and automation solutions with Python, BigQuery, Azure and Power Platform for corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA.",
+            "Provide technical leadership across cross-functional initiatives, connecting software engineering, Machine Learning and enterprise automation to research productivity and operational efficiency."
           ]
         },
         {
@@ -1148,6 +1157,9 @@
           "name": "Data and persistence: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize."
         },
         {
+          "name": "Quality and delivery: Git, GitHub Actions, TypeScript, ESLint; smoke tests, contract validation and Supabase Edge Functions deployment workflow."
+        },
+        {
           "name": "ML and computer vision: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js and MediaPipe."
         },
         {
@@ -1171,16 +1183,19 @@
       ],
       "skills": [
         {
-          "name": "AI, agents and automation: LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation."
-        },
-        {
-          "name": "Machine Learning and research: Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation."
-        },
-        {
           "name": "Software engineering: Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations."
         },
         {
           "name": "Data and decisions: ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization."
+        },
+        {
+          "name": "Software quality, delivery and maintenance: Smoke tests, contract and concurrent-context validation, type checking, linting, version control and deployment workflow; process supervision and logs."
+        },
+        {
+          "name": "AI, agents and automation: LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation."
+        },
+        {
+          "name": "Machine Learning and research: Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation."
         },
         {
           "name": "Leadership and operations: Technology management, business alignment, team development, PMBOK, Scrum, Kanban, governance, infrastructure and security."
@@ -1205,7 +1220,7 @@
   },
   "extensions": {
     "version": "experimental-additive",
-    "generatedAt": "2026-10-10",
+    "generatedAt": "2026-10-13",
     "language": "pt",
     "sourceCommit": "648d76f",
     "method": "CV original preservado. Habilidades, ferramentas e stack ajustadas; especialidades, cases, módulos e evidências acrescentados. Artefatos Git não equivalem automaticamente a autoria exclusiva, implantação ou resultado.",
@@ -32350,16 +32365,6 @@
     "editorial": {
       "skillGroups": [
         {
-          "title": "IA, agentes e automação",
-          "description": "Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.",
-          "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer."
-        },
-        {
-          "title": "Machine Learning e pesquisa",
-          "description": "Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.",
-          "origin": "EFS-AHP no doutorado, TraderMind e modelagem exploratória de irrigação."
-        },
-        {
           "title": "Engenharia de software",
           "description": "Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.",
           "origin": "SIA/SIAgro, EBSERH, The Game Project e produtos independentes."
@@ -32368,6 +32373,21 @@
           "title": "Dados e decisão",
           "description": "ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.",
           "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística."
+        },
+        {
+          "title": "Qualidade, entrega e manutenção de software",
+          "description": "Smoke tests, validação de contratos e contexto concorrente, verificação de tipos, lint, versionamento e workflow de deploy; supervisão de processos e logs.",
+          "origin": "Planejamento Xavier: testes do motor, cenários de contexto obsoleto, TypeScript e workflow GitHub Actions/Supabase. Launch With Me: ESLint. TraderMind: supervisor e logs; pesquisa e operação demo."
+        },
+        {
+          "title": "IA, agentes e automação",
+          "description": "Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.",
+          "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer."
+        },
+        {
+          "title": "Machine Learning e pesquisa",
+          "description": "Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.",
+          "origin": "EFS-AHP no doutorado, TraderMind e modelagem exploratória de irrigação."
         },
         {
           "title": "Liderança e operações",
@@ -32416,6 +32436,10 @@
         {
           "title": "Dados e persistência",
           "description": "Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize."
+        },
+        {
+          "title": "Qualidade e entrega",
+          "description": "Git, GitHub Actions, TypeScript, ESLint; smoke tests, validação de contratos e workflow de deploy de Supabase Edge Functions."
         },
         {
           "title": "ML e visão computacional",
@@ -32477,7 +32501,21 @@
         "grafica-2": "JavaScript · React · Leaflet · Three.js · Canvas · FBX"
       },
       "layout": "original-complete-cv-with-projects",
-      "appendicesDefault": "collapsed"
+      "appendicesDefault": "collapsed",
+      "engineeringEvidence": {
+        "planejamentoxavier": [
+          "scripts/run-brain-tests.mjs",
+          "scripts/brain-strategic-stale-context-test.mjs",
+          "scripts/typecheck-app.mjs",
+          ".github/workflows/supabase-deploy.yml"
+        ],
+        "launch_with_me": [
+          "package.json: scripts.lint"
+        ],
+        "mt5": [
+          "TraderMind/supervisor.py"
+        ]
+      }
     },
     "locales": {
       "en": {
@@ -34385,16 +34423,6 @@
         "editorial": {
           "skillGroups": [
             {
-              "title": "AI, agents and automation",
-              "description": "LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.",
-              "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer."
-            },
-            {
-              "title": "Machine Learning and research",
-              "description": "Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation.",
-              "origin": "EFS-AHP doctoral research, TraderMind and exploratory irrigation modeling."
-            },
-            {
               "title": "Software engineering",
               "description": "Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.",
               "origin": "SIA/SIAgro, EBSERH, The Game Project and independent products."
@@ -34403,6 +34431,21 @@
               "title": "Data and decisions",
               "description": "ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.",
               "origin": "Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística."
+            },
+            {
+              "title": "Software quality, delivery and maintenance",
+              "description": "Smoke tests, contract and concurrent-context validation, type checking, linting, version control and deployment workflow; process supervision and logs.",
+              "origin": "Planejamento Xavier: engine tests, stale-context scenarios, TypeScript and GitHub Actions/Supabase workflow. Launch With Me: ESLint. TraderMind: supervisor and logs; research and demo operation."
+            },
+            {
+              "title": "AI, agents and automation",
+              "description": "LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.",
+              "origin": "Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer."
+            },
+            {
+              "title": "Machine Learning and research",
+              "description": "Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation.",
+              "origin": "EFS-AHP doctoral research, TraderMind and exploratory irrigation modeling."
             },
             {
               "title": "Leadership and operations",
@@ -34453,6 +34496,10 @@
               "description": "Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize."
             },
             {
+              "title": "Quality and delivery",
+              "description": "Git, GitHub Actions, TypeScript, ESLint; smoke tests, contract validation and Supabase Edge Functions deployment workflow."
+            },
+            {
               "title": "ML and computer vision",
               "description": "scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js and MediaPipe."
             },
@@ -34480,7 +34527,21 @@
               "title": "Packing AI integration",
               "description": "Computer vision, Deep Learning, cameras, APIs, ERP, sorting machine, dashboard, Telegram and a dedicated server; CRISP-DM project methodology."
             }
-          ]
+          ],
+          "engineeringEvidence": {
+            "planejamentoxavier": [
+              "scripts/run-brain-tests.mjs",
+              "scripts/brain-strategic-stale-context-test.mjs",
+              "scripts/typecheck-app.mjs",
+              ".github/workflows/supabase-deploy.yml"
+            ],
+            "launch_with_me": [
+              "package.json: scripts.lint"
+            ],
+            "mt5": [
+              "TraderMind/supervisor.py"
+            ]
+          }
         }
       }
     },

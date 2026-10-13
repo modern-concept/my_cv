@@ -119,7 +119,7 @@
       if (!children.length) return [];
       const result = [];
       for (let i = 0; i < children.length; i += 2) {
-        result.push({columns: children.slice(i, i + 2).map(child => ({width: '*', stack: blocks(child)})), columnGap: 14, margin: [0, 0, 0, 6]});
+        result.push({columns: children.slice(i, i + 2).map(child => ({width: '*', stack: blocks(child)})), columnGap: 14, margin: [0, 0, 0, element.matches('.full-page-grid,.full-experience-grid') ? 2 : 6]});
       }
       return result;
     }
@@ -157,7 +157,7 @@
         const children = [...element.children].filter(selected);
         if (children.every(child => !child.querySelector('p,h3,div'))) {
           const runs = children.flatMap((child, i) => [...(i ? [{text: ' · '}] : []), ...inline(child)]);
-          return [destination(element, {text: runs, fontSize: 7.5, margin: [0, 0, 0, 6]})];
+          return [destination(element, {text: runs, fontSize: 7.5, margin: [0, 0, 0, element.matches('.full-contact-row,.full-badge-row') || element.closest('.full-job') ? 3 : 6]})];
         }
       }
       if (element.matches('.name,.headline,.full-job-company,.full-job-role,.company,.role,.date,.full-job-meta,.full-tech-line,.full-title>div,.skill-case-context')) {
@@ -181,7 +181,7 @@
         }
       }
       flush();
-      if (element.id && result.length) return [destination(element, {stack: result, margin: element.matches('article,.full-card') ? [0, 0, 0, 5] : undefined})];
+      if (element.id && result.length) return [destination(element, {stack: result, margin: element.matches('article,.full-card') ? [0, 0, 0, element.matches('.full-job,.full-mini-job') ? 2 : 5] : undefined})];
       return result;
     }
     const content = [];

@@ -156,6 +156,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
             raise ValueError('Campo original não encontrado: ' + id)
     fill('fullName', html.escape(pt['profile']['name']))
     fill('fullHeadline', html.escape(pt['profile']['headline']).replace('\n', '<br>'))
+    fill('fullEngineeringIntro', html.escape(pt['profile'].get('engineeringIntro','')))
     fill('fullContactRow', ''.join('<span class="full-contact-pill">' + html.escape(v['label'] + ': ' + v['value']).replace('\n', ' · ') + '</span>' for v in pt['contact']['items'] if v['label'] not in ['Nascimento', 'Birth', 'CREA-PE']) + ''.join('<a class="full-contact-pill" href="' + html.escape(v['url'], quote=True) + '">' + html.escape(v['label']) + '</a>' for v in pt['contact']['social']))
     fill('fullBadgeRow', ''.join('<span class="full-badge">' + html.escape(v) + '</span>' for v in pt['fullCv']['headerBadges']))
     fill('fullExperiencePrimary', ''.join(jobs[:primary_count]).replace('class="job"', 'class="full-job"'))
@@ -1492,6 +1493,7 @@ ENGINE_TEMPLATE = r'''
           </div>
         </header>
 
+        <section class="full-card engineering-opening"><p id="fullEngineeringIntro"></p></section>
         <section class="full-card">
           <div class="section-head">
             <div class="rule"></div>
@@ -1734,6 +1736,7 @@ ENGINE_TEMPLATE = r'''
       $("fullAvatar").src = "avatar.png";
       $("fullName").textContent = L.profile.name;
       $("fullHeadline").textContent = L.profile.headline;
+      $("fullEngineeringIntro").textContent = L.profile.engineeringIntro || "";
       $("tFullExperience").textContent = labels.fullExperience || labels.experience;
       $("tFullSummary").textContent = labels.profileSummary || ((lang === "en") ? "Profile" : "Perfil");
       $("tFullResults").textContent = labels.careerHighlights || ((lang === "en") ? "Impact Highlights" : "Resultados de Impacto");

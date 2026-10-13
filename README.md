@@ -2,6 +2,12 @@
 
 ## CV principal
 
+O posicionamento principal é **Senior Software Engineer | AI, Automation & Tech Lead**, em PT e EN. A primeira página apresenta sistemas desenvolvidos, stack e experiências com entregas técnicas antes dos tópicos de gestão. Os cargos oficiais, períodos, resultados e acervo completo são preservados.
+
+`scripts/cv-software-positioning.py` organiza as competências de engenharia e acrescenta práticas de qualidade e entrega com referências nos projetos: smoke tests, contratos, tipagem e workflow GitHub Actions/Supabase no Planejamento Xavier, lint no Launch With Me e supervisão/logs no TraderMind. O texto descreve os mecanismos observados, sem presumir cobertura de testes, execução bem-sucedida do workflow ou operação de ML em produção.
+
+PDFs completos desta revisão: `exports/Danillo-Xavier-CV-PT-2026-10-13.pdf` e `exports/Danillo-Xavier-CV-EN-2026-10-13.pdf`.
+
 ### PDF abaixo de 2 MB
 
 Use **Baixar PDF leve** no HTML para gerar e baixar o arquivo diretamente. O botão respeita o idioma PT/EN, o modo completo/compacto, CV/Carta/CV+Carta, a variante da carta e a opção de incluir o acervo. A exportação é uma diagramação de texto com fundo branco, títulos, colunas, tabelas, gráficos vetoriais e links; a paginação é própria desse gerador e pode diferir da impressão do navegador. Nenhuma parte do conteúdo selecionado é cortada para reduzir o arquivo. O tamanho gerado é informado ao final.

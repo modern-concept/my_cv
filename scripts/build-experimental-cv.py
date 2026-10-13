@@ -7,7 +7,7 @@ import runpy
 from pathlib import Path
 
 BASE=Path(__file__).resolve().parents[1]
-DATE='2026-10-10'
+DATE='2026-10-13'
 def read(name): return json.loads((BASE/name).read_text(encoding='utf-8-sig'))
 def esc(value): return html.escape(str(value),quote=True)
 def slug(value): return re.sub(r'[^a-z0-9]+','-',value.lower()).strip('-')
@@ -188,6 +188,8 @@ def build():
             item['relatedContextAnchors'].append('formacao-fm2s')
     experimental['extensions']['technicalPractice']={'platform':'LeetCode','hours':120,'type':'Complementary algorithm and data structure practice','challengeExamples':'Reference topics; no completion count or rating declared.'}
     experimental['extensions']['editorial']=AGRITECH['enhance_editorial'](DEVELOPMENT['enhance_editorial'](GLOBALCOM['enhance_editorial'](editorial['editor_data']())))
+    software=runpy.run_path(str(BASE/'scripts/cv-software-positioning.py'))
+    experimental['extensions']['editorial']=software['editorial'](experimental['extensions']['editorial'])
     pt['skills']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['skillGroups']]
     pt['tools']=[{'name':g['title']+': '+g['description']} for g in experimental['extensions']['editorial']['technologyGroups']]
     pt['fullCv']['coreStack']=['Python','SQL','JavaScript','TypeScript','Java','React','Node.js','React Native / Expo','Oracle / PostgreSQL','BigQuery','Azure','Power Platform','scikit-learn','YOLO / OpenCV','APIs de LLM','ETL']
@@ -248,7 +250,7 @@ def build():
     text=re.sub(r'[ \t]+',' ',text)
     text=re.sub(r'\n\s*\n\s*\n','\n\n',text)
     text='\n'.join(line.rstrip() for line in text.splitlines())
-    (BASE/'cv-experimental.md').write_text('# '+current['profile']['name']+'\n\n'+current['profile']['headline']+'\n\n'+html.unescape(contact)+'\n\nVersão experimental ampliada — 09/10/2026.\n'+text+'\n',encoding='utf-8')
+    (BASE/'cv-experimental.md').write_text('# '+current['profile']['name']+'\n\n'+current['profile']['headline']+'\n\n'+html.unescape(contact)+'\n\nCurrículo e portfólio completo — '+DATE+'.\n'+text+'\n',encoding='utf-8')
     print(f'CV experimental gerado: {len(cases)} cases aprofundados, {len(project_records)} pastas, 94 módulos de negócio e 48 fluxos técnicos. Blocos originais preservados.')
 
 if __name__=='__main__': build()

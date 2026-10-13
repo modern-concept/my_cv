@@ -1,15 +1,15 @@
 # DANILLO XAVIER
 
-Senior AI & Automation Engineer | Tech Lead
+Senior Software Engineer | AI, Automation & Tech Lead
 
 Endereço: Petrolina, Pernambuco, Brasil · Telefone: +55 87 98133-6310 · Email: danillox5@hotmail.com
 
-Versão experimental ampliada — 09/10/2026.
+Currículo e portfólio completo — 2026-10-13.
 
 
 ## Perfil profissional
- Líder de tecnologia e engenheiro de IA e automação com mais de 10 anos de experiência em software corporativo, Machine Learning e automação inteligente para operações complexas.
- Atualmente Technology Enablement Lead na Bayer Crop Science, liderando soluções digitais para pipelines de P&D em milho e soja. Experiência em Python, ML, cloud, plataformas de dados e RPA, com histórico de impacto operacional multimilionário.
+ Engenheiro de software com mais de 10 anos de experiência no desenvolvimento e evolução de sistemas corporativos, aplicações web e mobile, APIs, integrações ERP, pipelines de dados e soluções de IA.
+ Python, JavaScript/TypeScript, Java, React, Node.js e SQL. Atualmente Technology Enablement Lead na Bayer Crop Science, com trajetória de desenvolvimento, arquitetura e liderança técnica na Agrodan, Labrunier e em produtos independentes.
 
 ## Reconhecimentos e responsabilidades
 
@@ -27,8 +27,8 @@ Versão experimental ampliada — 09/10/2026.
 - 8x QMS LATAM 2025
 - 2x ICS Global 2025
 - ISM Brazil Pipeline Delivery
-- Lidero o desenvolvimento de soluções de IA, ML e automação para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisão e RPA para elevar produtividade e eficiência operacional.
-- Coordeno iniciativas técnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Tecnologias relacionadas no histórico: Power BI, Power Automate, BigQuery, Azure, Python, ML, MCP, RAG, Agentic AI, React.js, JavaScript, SQL
+- Desenvolvimento de soluções de IA, ML e automação com Python, BigQuery, Azure e Power Platform para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio à decisão e RPA.
+- Liderança técnica de iniciativas multifuncionais, conectando engenharia de software, Machine Learning e automação corporativa à produtividade da pesquisa e à eficiência operacional. Tecnologias relacionadas no histórico: Power BI, Power Automate, BigQuery, Azure, Python, ML, MCP, RAG, Agentic AI, React.js, JavaScript, SQL
 
 ### GERENTE ADMINISTRATIVO - SUPPLY CHAIN, CONTROLADORIA E OPERAÇÕES DE RH
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
@@ -37,10 +37,10 @@ Versão experimental ampliada — 09/10/2026.
 - R$ 1,2 milhão/ano em mão de obra
 - R$ 500 mil/mês em solicitações evitadas
 - Auditoria de estoques e pessoas
-- Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Contribuição: auditoria operacional e gestão dos controles de pessoas, associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.
-- Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Contribuição: gestão e auditoria dos controles de estoque, apoiando reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação.
 - Automação do fluxo de solicitações com análise crítica baseada em IA, classificação de classes contábeis e acompanhamento orçado x realizado com alertas em tempo real no Telegram. Contribuição: auditoria e gestão do controle crítico das solicitações, associado a R$ 500 mil/mês em pedidos desnecessários evitados.
-- Uso gerencial do SIA, plataforma desenvolvida e evoluída na trajetória de tecnologia, para fortalecer governança operacional, auditoria e tomada de decisão. Tecnologias relacionadas no histórico: React.js, Node.js, Oracle Database, Python, Power BI, Telegram Bot API, RPA, AI/ML, ERP Integration, SQL
+- Atuação de engenharia de software e gestão sobre o SIA, plataforma desenvolvida e evoluída na trajetória de tecnologia com React, Node.js, Oracle e SQL, aplicada à governança operacional, auditoria e tomada de decisão.
+- Gestão de indicadores de pessoas e processos, cobrindo folha, equidade salarial, ponto, produção, contabilidade, finanças, compras e desempenho de fornecedores. Contribuição: auditoria operacional e gestão dos controles de pessoas, associadas a R$ 1,2 milhão/ano de redução em mão de obra e R$ 780 mil/ano em custos de absenteísmo.
+- Auditoria da movimentação física e financeira de estoques, controle de ponto de ressuprimento, renegociação contratual e otimização por notas-mestre. Contribuição: gestão e auditoria dos controles de estoque, apoiando reduções de R$ 1,8 milhão/mês em estoques de alto giro e R$ 150 mil/mês em itens obsoletos ou de baixa movimentação. Tecnologias relacionadas no histórico: React.js, Node.js, Oracle Database, Python, Power BI, Telegram Bot API, RPA, AI/ML, ERP Integration, SQL
 
 ### HEAD DE TECNOLOGIA: TI E INOVAÇÃO
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
@@ -49,27 +49,27 @@ Versão experimental ampliada — 09/10/2026.
 - 85% dos processos digitalizados
 - 150+ visões estratégicas
 - 24 jobs de ETL
+- Desenvolvimento e entrega de formulários digitais, coleta offline com GPS, integrações ERP, dashboards, 24 jobs de ETL e automações com IA/ML, com React, Python e SQL; digitalização de 85% dos processos antes manuais.
+- Contribuição: desenvolvimento e evolução de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.
 - Função exercida simultaneamente à Gerência de TIC de mar/2021 a nov/2023, acumulando liderança de tecnologia e inovação com a gestão de TIC.
 - Liderança da transformação digital da companhia com PMBoK, Agile e gamificação para institucionalizar processos e cultura de inovação.
 - Identificação de oportunidades, formação de líderes internos e disseminação de métodos, ferramentas e mindset de inovação.
-- Contribuição: desenvolvimento e evolução de ferramentas de auditoria de processos e de pulverização, com R$ 850 mil/ano economizados em defensivos, redução de 90% dos problemas de pulverização/uso de produtos e R$ 400 mil/ano em combustível; acompanhamento de impacto e ROI para decisões corporativas.
-- Entrega de formulários digitais, coleta offline com GPS, integração ERP, dashboards, ETLs e automações com IA/ML, digitalizando 85% dos processos antes manuais.
 - Condução do programa de inovação aberta Agrodan Tech, com sete startups selecionadas; renegociação contratual associada a R$ 800 mil/ano de economia. Tecnologias relacionadas no histórico: React.js, Python, Power BI, ETL, Machine Learning, Deep Learning, IoT, ERP
 
 ### GERENTE DE TIC
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
  out de 2019 - nov de 2023 · Tempo integral · Belém do São Francisco e Recife, Pernambuco · Presencial
 
-- De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação.
+- Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Contribuição: evolução técnica dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia.
 - Gestão das rotinas da equipe de TI, help desk, parque de dispositivos, servidores, backup e recovery, virtualização e projetos de alta disponibilidade.
-- Administração de ambientes Windows e Linux com Active Directory, Zabbix/GLPI, sincronização de bases, redes corporativas, ERP, integrações, dashboards, automações e projetos de IoT e segurança da informação. Contribuição: evolução técnica dos módulos e integrações ERP com redução de terceirizações associada a R$ 240 mil/ano de economia. Tecnologias relacionadas no histórico: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
+- De mar/2021 a nov/2023, acumulei esta função com a de Head de Tecnologia: TI e Inovação. Tecnologias relacionadas no histórico: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
 
 ### IT BUSINESS PARTNER
  AGRODAN AGROPECUÁRIA RORIZ DANTAS
  jan de 2019 - out de 2019 · Tempo integral · Belém do São Francisco, Pernambuco, Brasil
 
-- Tradução de necessidades de negócio em tecnologias aplicadas, com forte foco em resultado e cadência de transformação digital.
-- Liderança na criação e evolução do SIA, plataforma integrada com dashboards em tempo real, mapas de acompanhamento, coletores offline sincronizados e módulos com IA para decisões operacionais e estratégicas. Tecnologias relacionadas no histórico: React.js, Node.js, SQL, Power BI, AI, Offline Sync
+- Criação e evolução do SIA com React, Node.js e SQL: dashboards em tempo real, APIs, mapas de acompanhamento, coletores offline sincronizados e módulos com IA para decisões operacionais e estratégicas.
+- Tradução de necessidades de negócio em tecnologias aplicadas, com forte foco em resultado e cadência de transformação digital. Tecnologias relacionadas no histórico: React.js, Node.js, SQL, Power BI, AI, Offline Sync
 
 ## Trajetória adicional
 
@@ -77,6 +77,7 @@ Versão experimental ampliada — 09/10/2026.
  D & E SOFTWARES E GAMES | SYRINX TECNOLOGIA | SILO STUDIO | CASA DOS ESMALTES
  fev de 2012 - out de 2019 · Empreendedorismo · Petrolina, Pernambuco, Brasil
 
+- Desenvolvimento de produtos de software e aplicativos em iniciativas empreendedoras, conectando implementação, evolução do produto e validação de mercado.
 - Atuação na fundação de diversas startups, exercendo o papel de CEO na maior parte das iniciativas.
 - Vivência prática em validação de mercado, desenvolvimento de produto, inovação e liderança sob incerteza.
 - Projetos autorais chegaram a ser destacados pela Nokia em seleção de aplicativos brasileiros para smartphones.
@@ -150,14 +151,6 @@ Versão experimental ampliada — 09/10/2026.
 
 ## Competências e aplicações
 
-### IA, agentes e automação
- Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.
- Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer.
-
-### Machine Learning e pesquisa
- Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.
- EFS-AHP no doutorado, TraderMind e modelagem exploratória de irrigação.
-
 ### Engenharia de software
  Aplicações web e mobile, modelagem de domínio, APIs, persistência, coleta offline, sincronização e integrações desktop.
  SIA/SIAgro, EBSERH, The Game Project e produtos independentes.
@@ -165,6 +158,18 @@ Versão experimental ampliada — 09/10/2026.
 ### Dados e decisão
  ETL, integração ERP, SQL, indicadores, auditoria operacional, métodos multicritério e otimização com restrições.
  Agrodan, Labrunier, Utilibox, Cartola Oracle e Logística.
+
+### Qualidade, entrega e manutenção de software
+ Smoke tests, validação de contratos e contexto concorrente, verificação de tipos, lint, versionamento e workflow de deploy; supervisão de processos e logs.
+ Planejamento Xavier: testes do motor, cenários de contexto obsoleto, TypeScript e workflow GitHub Actions/Supabase. Launch With Me: ESLint. TraderMind: supervisor e logs; pesquisa e operação demo.
+
+### IA, agentes e automação
+ Integração de LLMs, saídas estruturadas, contexto, fallback e coordenação por regras; visão computacional e automação de processos.
+ Planejamento Xavier, ClassPlanner, CRM, DVR e trajetória na Bayer.
+
+### Machine Learning e pesquisa
+ Seleção de atributos, algoritmos evolutivos, experimentos comparativos, ensembles e validação temporal.
+ EFS-AHP no doutorado, TraderMind e modelagem exploratória de irrigação.
 
 ### Liderança e operações
  Gestão de tecnologia, interface com o negócio, desenvolvimento de equipes, PMBOK, Scrum, Kanban, governança, infraestrutura e segurança.
@@ -195,6 +200,7 @@ Versão experimental ampliada — 09/10/2026.
  Web, APIs e produtos: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces e Supabase.
  Mobile e offline: React Native, Expo, AsyncStorage, IndexedDB e Dexie.
  Dados e persistência: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet e Sequelize.
+ Qualidade e entrega: Git, GitHub Actions, TypeScript, ESLint; smoke tests, validação de contratos e workflow de deploy de Supabase Edge Functions.
  ML e visão computacional: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js e MediaPipe.
  Decisão e visualização: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js e React Three Fiber.
  Automação e integração: APIs de LLM, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform e RPA.
@@ -4905,8 +4911,8 @@ Versão experimental ampliada — 09/10/2026.
 ### BAYER CROPSCIENCE
  TECHNOLOGY ENABLEMENT LEAD
  MAIO 2024 — ATUAL
- Lidero o desenvolvimento de soluções de IA, ML e automação para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio a decisão e RPA.
- Coordeno iniciativas técnicas multifuncionais com Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa.
+ Desenvolvimento de soluções de IA, ML e automação com Python, BigQuery, Azure e Power Platform para pipelines de P&D em milho e soja, integrando plataformas de dados, sistemas de apoio à decisão e RPA.
+ Liderança técnica de iniciativas multifuncionais, conectando engenharia de software, Machine Learning e automação corporativa à produtividade da pesquisa e à eficiência operacional.
 
 ### AGRODAN
  HEAD CORPORATIVO DE TECNOLOGIA E INOVAÇÃO /
@@ -4925,7 +4931,7 @@ FUNDADOR DE STARTUPS E EMPREENDEDOR (2012-2019)
 
 ## Carta de apresentação
  Prezado(a) Gestor(a) de Contratacao,
- Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.
+ Escrevo para demonstrar meu interesse em oportunidades de Senior Software Engineer, Tech Lead ou Technology Enablement Lead. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.
  Coordeno iniciativas técnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Minha experiência combina engenharia de software, dados e RPA para aumentar a produtividade de pesquisa e a eficiência operacional.
  Em funções anteriores, entreguei automação de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em até 90%. Esses projetos também geraram impacto financeiro mensuravel por meio de eficiência de processos, melhor governança e decisões orientadas por dados.
  Tenho interesse em discutir como minha experiência prática em IA aplicada, plataformas de dados e liderança técnica pode contribuir para os desafios da posição e da sua organização.
@@ -4934,7 +4940,7 @@ FUNDADOR DE STARTUPS E EMPREENDEDOR (2012-2019)
 
 ## Carta de apresentação — Suíça
  Prezado(a) Gestor(a) de Contratacao,
- Escrevo para demonstrar meu interesse em oportunidades de Senior AI Engineer, Automation Engineer ou Technology Enablement Lead na Suíça. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.
+ Escrevo para demonstrar meu interesse em oportunidades de Senior Software Engineer, Tech Lead ou Technology Enablement Lead na Suíça. Atualmente, como Technology Enablement Lead na Bayer Crop Science, lidero o desenvolvimento de soluções de IA, Machine Learning e automação para pipelines de P&D em milho e soja.
  Coordeno iniciativas técnicas multifuncionais que integram Python, BigQuery, Azure, Power Platform, Machine Learning e automação corporativa. Em funções anteriores, entreguei automação de mais de 85% de processos manuais e sistemas de auditoria que reduziram erros operacionais em até 90%.
  Estou baseado no Brasil e busco uma oportunidade para realocacao na Suíça. Estou disponivel para entrevistas remotas e preparado para apoiar o processo de permissao de trabalho com toda a documentacao necessaria.
  Acredito que minha experiência em IA aplicada, plataformas de dados e liderança técnica pode contribuir de forma concreta para os desafios da sua organização.

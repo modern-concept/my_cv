@@ -133,7 +133,8 @@ def build_locale(data):
     globalcom=runpy.run_path(str(Path(__file__).with_name('cv-globalcom.py')))
     development=runpy.run_path(str(Path(__file__).with_name('cv-development.py')))
     agritech=runpy.run_path(str(Path(__file__).with_name('cv-agritech.py')))
-    return {'cases':cases, 'priorityCases':priorities, 'editorial':agritech['enhance_editorial'](development['enhance_editorial'](globalcom['enhance_editorial'](EDITORIAL,'en'),'en'),'en')}
+    software=runpy.run_path(str(Path(__file__).with_name('cv-software-positioning.py')))
+    return {'cases':cases, 'priorityCases':priorities, 'editorial':software['editorial'](agritech['enhance_editorial'](development['enhance_editorial'](globalcom['enhance_editorial'](EDITORIAL,'en'),'en'),'en'),'en')}
 
 def translate_stack(text):
     project_phrases = {'Biblioteca padrão Python':'Python standard library', 'Visão computacional':'Computer vision', 'Câmeras':'Cameras', 'Integração com classificadora':'Sorting-machine integration', 'Servidor dedicado':'Dedicated server'}

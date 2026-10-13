@@ -1,6 +1,7 @@
 /* Additions to the existing complete CV theme and print engine. */
 #pdfExportStatus{font-size:11px;line-height:1.35;max-width:230px;color:#c5dde8}
 #downloadPdfBtn:disabled{opacity:.65;cursor:wait}
+.engineering-opening p{font-size:8pt;line-height:1.4;margin:0;color:var(--midText)}
 body[data-extension-language="en"] [data-content-language="pt"],
 body:not([data-extension-language="en"]) [data-content-language="en"]{display:none!important}
 .career-section-title{font-family:Montserrat,sans-serif;font-size:14pt;line-height:1.4;color:var(--midText);border-bottom:1px solid var(--midLine);padding-bottom:3mm;margin:0 0 3mm;scroll-margin-top:90px}

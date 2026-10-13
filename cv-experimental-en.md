@@ -1,11 +1,11 @@
 # DANILLO XAVIER
 
-Senior AI & Automation Engineer | Tech Lead
+Senior Software Engineer | AI, Automation & Tech Lead
 
 
 ## Professional profile
- Technology leader and AI & Automation Engineer with 10+ years of experience building enterprise software, ML solutions and intelligent automation for complex operational environments.
- Currently Technology Enablement Lead at Bayer Crop Science, leading digital solutions for corn and soybean R&D pipelines. Experienced in Python, ML, cloud, data platforms and RPA, with a track record of delivering multi-million-BRL operational impact.
+ Software Engineer with 10+ years of experience developing and evolving enterprise systems, web and mobile applications, APIs, ERP integrations, data pipelines and AI solutions.
+ Python, JavaScript/TypeScript, Java, React, Node.js and SQL. Currently Technology Enablement Lead at Bayer Crop Science, with development, architecture and technical leadership experience at Agrodan, Labrunier and in independent products.
 
 
 ## Professional experience
@@ -18,8 +18,8 @@ Senior AI & Automation Engineer | Tech Lead
 - 8x QMS LATAM 2025
 - 2x ICS Global 2025
 - ISM Brazil Pipeline Delivery
-- Lead the development of AI, ML and automation solutions supporting corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA to improve research productivity and operational efficiency.
-- Coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation. Technologies: Power BI, Power Automate, BigQuery, Azure, Python, ML, MCP, RAG, Agentic AI, React.js, JavaScript, SQL
+- Develop AI, ML and automation solutions with Python, BigQuery, Azure and Power Platform for corn and soybean R&D pipelines, integrating data platforms, decision-support systems and RPA.
+- Provide technical leadership across cross-functional initiatives, connecting software engineering, Machine Learning and enterprise automation to research productivity and operational efficiency. Technologies: Power BI, Power Automate, BigQuery, Azure, Python, ML, MCP, RAG, Agentic AI, React.js, JavaScript, SQL
 
 
 
@@ -30,10 +30,10 @@ Senior AI & Automation Engineer | Tech Lead
 - BRL 1.2M/year in labor reductions
 - BRL 500K/month in avoided requests
 - Inventory and people auditing
-- Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance. Contribution: operational auditing and management of people controls, supporting BRL 1.2M/year in labor cost reductions and BRL 780K/year in absenteeism-related cost reductions.
-- Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices. Contribution: inventory control management and auditing, supporting reductions of BRL 1.8M/month in fast-moving inventory and BRL 150K/month in obsolete or slow-moving items.
 - Automated request flows with AI-driven critical analysis, accounting class classification and real-time budget vs actual tracking with Telegram alerts. Contribution: auditing and management of request controls, associated with avoided expenditure of BRL 500K/month in unnecessary orders.
-- Used SIA, the platform developed and evolved across my technology roles, to strengthen operational governance, auditing and management decision-making. Technologies: React.js, Node.js, Oracle Database, Python, Power BI, Telegram Bot API, RPA, AI/ML, ERP Integration, SQL
+- Software engineering and management work on SIA, a platform developed and evolved across technology roles with React, Node.js, Oracle and SQL, supporting operational governance, auditing and decision-making.
+- Managed people and process indicators covering payroll, pay equity, time tracking, production, accounting, finance, procurement and supplier performance. Contribution: operational auditing and management of people controls, supporting BRL 1.2M/year in labor cost reductions and BRL 780K/year in absenteeism-related cost reductions.
+- Audited physical and financial inventory movement, reorder point control, contract renegotiation and optimization through master invoices. Contribution: inventory control management and auditing, supporting reductions of BRL 1.8M/month in fast-moving inventory and BRL 150K/month in obsolete or slow-moving items. Technologies: React.js, Node.js, Oracle Database, Python, Power BI, Telegram Bot API, RPA, AI/ML, ERP Integration, SQL
 
 
 
@@ -44,11 +44,11 @@ Senior AI & Automation Engineer | Tech Lead
 - 85% of processes digitized
 - 150+ strategic views
 - 24 ETL jobs
+- Developed and delivered digital forms, offline GPS-enabled collection, ERP integrations, dashboards, 24 ETL jobs and AI/ML automations with React, Python and SQL, digitizing 85% of previously manual processes.
+- Contribution: development and evolution of process and spraying audit tools supporting BRL 850K/year in pesticide savings, a 90% reduction in spraying/product-use issues and BRL 400K/year in fuel savings; tracked project impact and ROI for corporate decisions.
 - Held concurrently with the ICT Manager role from Mar 2021 to Nov 2023, combining technology and innovation leadership with ICT management.
 - Led the company's digital transformation using PMBoK, Agile and gamification to institutionalize processes and an innovation culture.
 - Identified opportunities, trained internal leaders and spread innovation mindset, methods and tools across the organization.
-- Contribution: development and evolution of process and spraying audit tools supporting BRL 850K/year in pesticide savings, a 90% reduction in spraying/product-use issues and BRL 400K/year in fuel savings; tracked project impact and ROI for corporate decisions.
-- Delivered digital forms, offline GPS-enabled collection, ERP integration, dashboards, ETLs and AI/ML automations, digitizing 85% of previously manual processes.
 - Led the Agrodan Tech open innovation program, selecting seven startups; contract renegotiation supported BRL 800K/year in savings. Technologies: React.js, Python, Power BI, ETL, Machine Learning, Deep Learning, IoT, ERP
 
 
@@ -57,9 +57,9 @@ Senior AI & Automation Engineer | Tech Lead
  AGRODAN AGROPECUARIA RORIZ DANTAS
  Oct 2019 - Nov 2023 · Belem do Sao Francisco and Recife, Pernambuco · On-site
 
-- From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation.
+- Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. Contribution: technical improvements to ERP modules and integrations reduced outsourcing needs, supporting BRL 240K/year in savings.
 - Managed IT staff routines, help desk operations, device estate, servers, backup and recovery, virtualization and high-availability initiatives.
-- Administered Windows and Linux environments with Active Directory, Zabbix/GLPI, database synchronization, corporate networking, ERP customizations, data integration, dashboards, automations and IoT/security initiatives. Contribution: technical improvements to ERP modules and integrations reduced outsourcing needs, supporting BRL 240K/year in savings. Technologies: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
+- From Mar 2021 to Nov 2023, held this role concurrently with Head of Technology: IT and Innovation. Technologies: Windows Server, Linux, Firewall, Active Directory, Zabbix, GLPI, Mikrotik, Unifi, Arduino, Raspberry Pi
 
 
 
@@ -67,8 +67,8 @@ Senior AI & Automation Engineer | Tech Lead
  AGRODAN AGROPECUARIA RORIZ DANTAS
  Jan 2019 - Oct 2019 · Belem do Sao Francisco, Pernambuco, Brazil
 
-- Translated business needs into applied technologies with a strong focus on outcomes and transformation cadence.
-- Led the creation and ongoing evolution of SIA, an integrated platform with real-time dashboards, tracking maps, offline synchronized collectors and AI-based modules for operational and strategic decisions. Technologies: React.js, Node.js, SQL, Power BI, AI, Offline Sync
+- Created and evolved SIA with React, Node.js and SQL: real-time dashboards, APIs, tracking maps, synchronized offline collectors and AI modules for operational and strategic decisions.
+- Translated business needs into applied technologies with a strong focus on outcomes and transformation cadence. Technologies: React.js, Node.js, SQL, Power BI, AI, Offline Sync
 
 
 
@@ -160,16 +160,6 @@ Senior AI & Automation Engineer | Tech Lead
 ## Skills and applications
 
 
-### AI, agents and automation
- LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.
- Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer.
-
-
-### Machine Learning and research
- Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation.
- EFS-AHP doctoral research, TraderMind and exploratory irrigation modeling.
-
-
 ### Software engineering
  Web and mobile applications, domain modeling, APIs, persistence, offline collection, synchronization and desktop integrations.
  SIA/SIAgro, EBSERH, The Game Project and independent products.
@@ -178,6 +168,21 @@ Senior AI & Automation Engineer | Tech Lead
 ### Data and decisions
  ETL, ERP integration, SQL, indicators, operational auditing, multicriteria methods and constrained optimization.
  Agrodan, Labrunier, Utilibox, Cartola Oracle and Logística.
+
+
+### Software quality, delivery and maintenance
+ Smoke tests, contract and concurrent-context validation, type checking, linting, version control and deployment workflow; process supervision and logs.
+ Planejamento Xavier: engine tests, stale-context scenarios, TypeScript and GitHub Actions/Supabase workflow. Launch With Me: ESLint. TraderMind: supervisor and logs; research and demo operation.
+
+
+### AI, agents and automation
+ LLM integration, structured outputs, context, fallback and rule-based coordination; computer vision and process automation.
+ Planejamento Xavier, ClassPlanner, CRM, DVR and professional experience at Bayer.
+
+
+### Machine Learning and research
+ Feature selection, evolutionary algorithms, comparative experiments, ensembles and temporal validation.
+ EFS-AHP doctoral research, TraderMind and exploratory irrigation modeling.
 
 
 ### Leadership and operations
@@ -223,6 +228,7 @@ Senior AI & Automation Engineer | Tech Lead
  Web, APIs and products: React, Next.js, Astro, Node.js, Express, Flask, Java EE, JSF, PrimeFaces and Supabase.
  Mobile and offline: React Native, Expo, AsyncStorage, IndexedDB and Dexie.
  Data and persistence: Oracle, PostgreSQL, SQL Server, SQLite, BigQuery, pandas, NumPy, Parquet and Sequelize.
+ Quality and delivery: Git, GitHub Actions, TypeScript, ESLint; smoke tests, contract validation and Supabase Edge Functions deployment workflow.
  ML and computer vision: scikit-learn, XGBoost, LightGBM, CatBoost, SciPy, DEAP, PyTorch, YOLO, OpenCV, TensorFlow.js and MediaPipe.
  Decision and visualization: AHP, TOPSIS, PROMETHEE, OR-Tools, GLPK, Power BI, Leaflet, Three.js and React Three Fiber.
  Automation and integration: LLM APIs, Gemini, Playwright, Puppeteer, Telegram Bot API, Power Platform and RPA.
@@ -3658,7 +3664,7 @@ Senior AI & Automation Engineer | Tech Lead
 
 ## Cover letter
  Dear Hiring Manager,
- I am applying for Senior AI Engineer, Automation Engineer and Technology Enablement Lead opportunities. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.
+ I am applying for Senior Software Engineer, Tech Lead and Technology Enablement Lead opportunities. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.
  I coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation. My experience combines software engineering, data platforms and RPA to improve research productivity and operational efficiency.
  In previous roles, I delivered the automation of more than 85% of manual processes and audit systems that reduced operational errors by up to 90%. These projects also created measurable financial impact through improved process efficiency, governance and data-driven decisions.
  I would welcome the opportunity to discuss how my applied AI, data-platform and technical-leadership experience could help address the challenges of your organization.
@@ -3668,7 +3674,7 @@ Senior AI & Automation Engineer | Tech Lead
 
 ## Cover letter — Switzerland
  Dear Hiring Manager,
- I am applying for Senior AI Engineer, Automation Engineer and Technology Enablement Lead opportunities in Switzerland. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.
+ I am applying for Senior Software Engineer, Tech Lead and Technology Enablement Lead opportunities in Switzerland. As a Technology Enablement Lead at Bayer Crop Science, I lead the development of AI, machine learning and automation solutions supporting corn and soybean R&D pipelines.
  I coordinate cross-functional technical initiatives involving Python, BigQuery, Azure, Power Platform, Machine Learning and enterprise automation. In previous roles, I delivered the automation of more than 85% of manual processes and audit systems that reduced operational errors by up to 90%.
  I am currently based in Brazil and am seeking an opportunity to relocate to Switzerland. I am available for remote interviews and prepared to support the work-permit process with all required documentation.
  I would welcome the opportunity to discuss how my applied AI, data-platform and technical-leadership experience could help address the challenges of your organization.
