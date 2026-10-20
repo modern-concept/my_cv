@@ -27,7 +27,7 @@ def build_page(base, data, sections, jobs, education, primary_count, language='p
     if language == 'en':
         # Translate navigation separately so repository identifiers and source
         # paths in the already-English archive are never rewritten.
-        supplemental[0] = english['translate_labels'](supplemental[0]).replace('cv-experimental.md','cv-experimental-en.md').replace('index.html?lang=pt','index.html?lang=en')
+        supplemental[0] = english['translate_labels'](supplemental[0]).replace('cv-experimental.md','cv-experimental-en.md').replace('cv-completo.html?lang=pt','cv-completo.html?lang=en')
     start = page.index('  <div class="full-cv-view" id="fullCvView">')
     end = page.index('  <script>\n    const DATA_URL', start)
     annex = '<details id="careerAppendices" class="career-appendices"><summary>Detalhamento dos projetos · áreas, métodos e tecnologias</summary>' + ''.join(supplemental) + '</details>'

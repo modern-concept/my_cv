@@ -218,7 +218,7 @@ def build():
     ids=set(re.findall(r'\bid="([^"]+)"',page))
     internal_links=set(re.findall(r'href="#([^"]+)"',page))
     if internal_links-ids: raise ValueError('Vínculos sem destino: '+str(internal_links-ids))
-    (BASE/'index.html').write_text(page,encoding='utf-8')
+    (BASE/'cv-completo.html').write_text(page,encoding='utf-8')
     en_jobs=[]
     for i,j in enumerate(en['fullCv']['primaryExperience']+en['fullCv']['additionalExperience']):
         en_jobs.append('<article id="experiencia-'+str(i+1)+'" class="job"><h3>'+esc(j['role'])+'</h3><p class="company">'+esc(j['company'])+'</p><p class="meta">'+esc(j['period'])+' · '+esc(j.get('location',''))+'</p>'+chips(j.get('highlights',[]))+bullets(j.get('bullets',[]))+('<p><strong>Technologies:</strong> '+esc(', '.join(j['technologies']))+'</p>' if j.get('technologies') else '')+'</article>')

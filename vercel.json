@@ -22,7 +22,10 @@
   ],
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
+    { "src": "cv.html", "use": "@vercel/static" },
+    { "src": "cv-completo.html", "use": "@vercel/static" },
     { "src": "cv-data.json", "use": "@vercel/static" },
+    { "src": "cv-basico-data.json", "use": "@vercel/static" },
     { "src": "*.png", "use": "@vercel/static" },
     { "src": "vendor/pdfmake/*.js", "use": "@vercel/static" }
   ]

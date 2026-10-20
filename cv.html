@@ -1,0 +1,1889 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV — Danillo Xavier</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --a4w: 210mm;
+      --a4h: 297mm;
+
+      /* EXACT divisions (match mock) */
+      --doodle-h: 20%;
+      --tools-h: 30%;
+      /* right column: give more room to Education */
+      --edu-h: 54%;
+
+      /* column widths (center narrower) */
+      --col-mid: 0.70fr;
+
+      /* padding geral do miolo */
+      --pad: 6mm;
+      /* padding mínimo dos blocos laterais */
+      --pad-side: 4mm;
+      --gap: 6mm;
+
+      /* theme */
+      --bg: #0f141a;
+      --side: #111820;
+      /* painel central (referência: dark, não branco) */
+      --mid: #151A20;
+      --midText: #E9EEF3;
+      --midMuted: rgba(233,238,243,0.80);
+      --accent: #4E86A8;
+
+      --midLine: rgba(255,255,255,0.22);
+
+      --fs-section: 14pt;
+      --fs-name: 18pt;
+      --fs-small: 8.5pt;
+      --lh: 1.25;
+
+      /* debug guides (like your image) */
+      --guide-on: 0;
+      --guide-green: rgba(0, 200, 0, .55);
+      --guide-orange: rgba(255, 140, 0, .65);
+      --guide-blue: rgba(45, 114, 160, .65);
+
+      /* doodle zoom (avoid touching behind mid panel without changing height) */
+      --doodle-zoom-left: 140%;
+      --doodle-zoom-right: 140%;
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      background: var(--bg);
+      display:flex;
+      justify-content:center;
+      padding:72px 16px 16px;
+      font-family: "Open Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    .page{
+      width: var(--a4w);
+      height: var(--a4h);
+      background: var(--bg);
+      position:relative;
+      overflow:hidden;
+      border-radius: 8px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.45);
+    }
+
+    .topbar{
+      position:fixed;
+      top:16px;
+      left:50%;
+      transform:translateX(-50%);
+      width: min(100%, var(--a4w));
+      display:flex;
+      justify-content:flex-end;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:10px;
+      z-index:1000;
+    }
+    .btn{
+      border:1px solid rgba(255,255,255,.20);
+      background: rgba(0,0,0,.25);
+      color: #fff;
+      min-height:40px;
+      padding:6px 9px;
+      border-radius: 10px;
+      font: 700 9.5pt "Montserrat", sans-serif;
+      cursor:pointer;
+      backdrop-filter: blur(4px);
+    }
+    .btn:hover{ border-color: rgba(255,255,255,.35); }
+    .btn.active{
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .pill-buttons{
+      display:flex;
+      gap:6px;
+    }
+    .print-mode-buttons{
+      display:flex;
+      gap:6px;
+    }
+    .btn-slim{
+      min-width:40px;
+      padding:5px 8px;
+      letter-spacing:.8px;
+    }
+
+    /* 3-column layout */
+    .cv-page{
+      position:absolute;
+      inset:0;
+      z-index:1;
+    }
+    .grid{
+      position:absolute;
+      inset:0;
+      display:grid;
+      grid-template-columns: 1fr var(--col-mid) 1fr;
+    }
+
+    .side{
+      background: var(--side);
+      position:relative;
+      padding: 0;
+      color:#E9EEF3;
+    }
+
+    .mid{
+      background: var(--mid);
+      color: var(--midText);
+      position:relative;
+      padding: var(--pad);
+      border-left: 0;
+      border-right: 0;
+    }
+
+    /* DOODLE slots (top 30% in each side column) */
+    .doodle-slot{
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      height: var(--doodle-h);
+      width: auto;
+      border: 0;
+      background-repeat: no-repeat;
+      background-size: var(--doodle-zoom-left) auto;
+      background-position: center top;
+      opacity: .30;
+      pointer-events:none;
+    }
+
+    #doodleLeft{ background-position: left top; background-size: var(--doodle-zoom-left) auto; }
+    #doodleRight{ background-position: right top; background-size: var(--doodle-zoom-right) auto; }
+
+    .side-body{
+      position:absolute;
+      left: var(--pad-side);
+      right: var(--pad-side);
+      bottom: var(--pad-side);
+      top: var(--doodle-h);
+
+      display:flex;
+      flex-direction:column;
+      gap: 3mm;
+    }
+
+    /* right column: let Skills touch the page bottom */
+    #rightCol .side-body{ bottom: 0; }
+
+    /* Sections */
+    .section{
+      position:relative;
+      padding: 3mm;
+      overflow:hidden;
+      border: 0;
+    }
+
+    .section-head{
+      display:flex;
+      flex-direction:column;
+      gap: 2mm;
+      margin: 0 0 3mm 0;
+    }
+    .section-head .rule{
+      border-top: 1px dotted rgba(255,255,255,0.22);
+      opacity:.95;
+    }
+    .section-title{
+      margin:0;
+      text-align:center;
+      font: 800 var(--fs-section) "Montserrat", sans-serif;
+      letter-spacing: 3px;
+      text-transform:uppercase;
+      color: #E9EEF3;
+    }
+
+    /* mid section head lines */
+    .mid .section-head .rule{
+      border-top-color: var(--midLine);
+    }
+
+    /* Experience content right-aligned (as reference) */
+    #secExp{ text-align:right; }
+    #secExp .date,
+    #secExp .company,
+    #secExp .role,
+    #secExp .text,
+    #secExp .muted{ text-align:right; }
+    #secExp ul.bullets{
+      padding-left: 0;
+      padding-right: 4.2mm;
+      list-style-position: inside;
+      text-align:right;
+    }
+
+    /* Avoid overlap: let content define height; push last blocks to bottom */
+    #secTools{
+      margin-top:auto;
+    }
+    #secSkills{
+      margin-top:auto;
+    }
+
+    /* Carta de Apresentação */
+    .cover-letter-page{
+      display:none;
+      position:absolute;
+      inset:0;
+      background: var(--mid);
+      padding: var(--pad);
+      color: var(--midText);
+      z-index:1;
+    }
+    .cover-letter-page.active{
+      display:block;
+    }
+    .cv-page.hidden{
+      display:none;
+    }
+    .hidden-view{
+      display:none !important;
+    }
+
+    .full-cv-view{
+      display:none;
+      flex-direction:column;
+      gap:16px;
+      width: var(--a4w);
+    }
+    .full-cv-view.active{
+      display:flex;
+    }
+    .full-page{
+      height:auto;
+      min-height: var(--a4h);
+      overflow:visible;
+      overflow:hidden;
+    }
+    .full-page-inner{
+      min-height: var(--a4h);
+      padding: 4mm;
+      display:flex;
+      flex-direction:column;
+      gap: 3mm;
+      color: var(--midText);
+      background:
+        radial-gradient(circle at top right, rgba(78,134,168,0.18), transparent 32%),
+        linear-gradient(180deg, #121921 0%, #0f141a 100%);
+    }
+    .full-header{
+      display:grid;
+      grid-template-columns: 26mm 1fr;
+      gap: 3mm;
+      align-items:center;
+      padding-bottom: 2.4mm;
+      border-bottom: 1px dotted rgba(255,255,255,0.22);
+    }
+    .full-avatar{
+      width: 100%;
+      align-self:start;
+    }
+    .full-avatar img{
+      width:100%;
+      display:block;
+    }
+    .full-title{
+      display:flex;
+      flex-direction:column;
+      gap: 1.1mm;
+    }
+    .full-title .name{
+      text-align:left;
+      font-size: 16pt;
+      line-height: 1;
+    }
+    .full-title .headline{
+      text-align:left;
+      font-size: 9.2pt;
+      margin-top: 0;
+    }
+    .full-contact-row,
+    .full-badge-row,
+    .full-chip-list{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 2mm;
+    }
+    .full-contact-pill,
+    .full-badge,
+    .full-chip{
+      display:inline-flex;
+      align-items:center;
+      min-height: 6mm;
+      padding: 1mm 1.8mm;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.04);
+      font: 700 7pt "Open Sans", sans-serif;
+      color: rgba(233,238,243,0.88);
+    }
+    .full-badge{
+      color: #E9EEF3;
+      border-color: rgba(78,134,168,0.42);
+      background: rgba(78,134,168,0.12);
+    }
+    .full-page-grid{
+      display:grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 3mm;
+      min-height: 0;
+      flex: 1 1 auto;
+    }
+    .full-column{
+      min-height:0;
+      display:flex;
+      flex-direction:column;
+      gap: 3mm;
+    }
+    .full-card{
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 4mm;
+      background: rgba(255,255,255,0.03);
+      padding: 2.4mm;
+      min-height: 0;
+    }
+    .full-card .section-head{
+      gap: 1mm;
+      margin-bottom: 1.8mm;
+    }
+    .full-card .section-title{
+      font-size: 9.8pt;
+      letter-spacing: 1.6px;
+    }
+    .full-experience-grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.2mm;
+      align-content:start;
+    }
+    .full-job{
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 3.5mm;
+      background: rgba(255,255,255,0.035);
+      padding: 2.1mm;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .full-job + .full-job{
+      margin-top: 0;
+    }
+    .full-job .date{
+      font-size: 6.7pt;
+      margin-bottom: .8mm;
+      text-align:left;
+      white-space:normal;
+    }
+    .full-job-company{
+      font: 800 9pt "Montserrat", sans-serif;
+      color: var(--accent);
+      text-transform:uppercase;
+      line-height:1.06;
+      margin:0 0 .8mm 0;
+      white-space:pre-line;
+    }
+    .full-job-role{
+      font: 800 8pt "Montserrat", sans-serif;
+      color: #E9EEF3;
+      text-transform:uppercase;
+      line-height:1.15;
+      margin:0 0 .8mm 0;
+      white-space:pre-line;
+    }
+    .full-job-meta{
+      font: 700 6.6pt "Open Sans", sans-serif;
+      color: rgba(233,238,243,0.72);
+      line-height:1.3;
+      margin-bottom: 1mm;
+      white-space:pre-line;
+    }
+    .full-list{
+      margin: 0;
+      padding-left: 4mm;
+      font-size: 6.9pt;
+      line-height: 1.24;
+      color: rgba(233,238,243,0.9);
+    }
+    .full-list li{
+      margin: 0 0 .8mm 0;
+    }
+    .full-tech-line{
+      margin-top: 1.2mm;
+      font: 700 6.5pt "Open Sans", sans-serif;
+      color: rgba(233,238,243,0.76);
+      line-height:1.3;
+    }
+    .full-summary{
+      font-size: 7.3pt;
+      line-height: 1.3;
+      color: rgba(233,238,243,0.9);
+    }
+    .full-summary p{
+      margin: 0 0 1.2mm 0;
+      text-align: justify;
+    }
+    .full-education-entry,
+    .full-mini-job{
+      padding-bottom: 1.6mm;
+      margin-bottom: 1.6mm;
+      border-bottom: 1px dotted rgba(255,255,255,0.12);
+    }
+    .full-education-entry:last-child,
+    .full-mini-job:last-child{
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+    .full-education-entry .date,
+    .full-mini-job .date{
+      text-align:left;
+      font-size: 6.5pt;
+      margin-bottom: .5mm;
+      white-space:normal;
+    }
+    .full-education-entry .company,
+    .full-mini-job .company{
+      font-size: 8.2pt;
+      line-height:1.08;
+      margin-bottom: .5mm;
+    }
+    .full-education-entry .role,
+    .full-mini-job .role{
+      font-size: 7.1pt;
+      line-height:1.15;
+      margin-bottom: .8mm;
+    }
+    .full-education-entry ul,
+    .full-mini-job ul,
+    .full-results{
+      margin: 0;
+      padding-left: 4mm;
+      font-size: 6.8pt;
+      line-height: 1.22;
+      color: rgba(233,238,243,0.9);
+    }
+    .full-results li,
+    .full-education-entry li,
+    .full-mini-job li{
+      margin-bottom: .8mm;
+    }
+    .full-split{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3mm;
+    }
+
+    .cover-header{
+      text-align: center;
+      margin-bottom: 8mm;
+    }
+    .cover-header .name{
+      font: 800 var(--fs-name) "Montserrat", sans-serif;
+      letter-spacing: .5px;
+      color: var(--midText);
+      margin-bottom: 2mm;
+    }
+    .cover-header .contact-brief{
+      font: 600 9pt "Open Sans", sans-serif;
+      color: var(--midMuted);
+      line-height: 1.4;
+    }
+
+    .cover-content{
+      max-width: 170mm;
+      margin: 0 auto;
+    }
+    .cover-content .greeting{
+      font: 600 11pt "Open Sans", sans-serif;
+      color: var(--midText);
+      margin-bottom: 4mm;
+    }
+    .cover-content .letter-body{
+      font: 400 10pt "Open Sans", sans-serif;
+      color: var(--midMuted);
+      line-height: 1.6;
+      text-align: left;
+      white-space: pre-line;
+    }
+    .cover-content .letter-body p{
+      margin: 0 0 4mm 0;
+    }
+    .cover-content .signature{
+      margin-top: 8mm;
+      text-align: right;
+    }
+    .cover-content .signature .sign-line{
+      font: 600 10pt "Open Sans", sans-serif;
+      color: var(--midText);
+    }
+    .cover-content .signature .sign-name{
+      font: 700 11pt "Montserrat", sans-serif;
+      color: var(--accent);
+      margin-top: 1mm;
+    }
+
+    /* mid panel (single column) */
+    .mid-inner{
+      height: 100%;
+      display:flex;
+      flex-direction:column;
+      gap: 4mm;
+    }
+
+    /* Center panel centered text (as reference) */
+    .mid{ text-align:center; }
+    .mid .summary{ text-align:center; }
+
+    .avatar{
+      width: 50mm;
+      height: auto;
+      border-radius: 0;
+      overflow: visible;
+      border: 0;
+      align-self:center;
+      background: transparent;
+    }
+    .avatar img{ width:100%; height:auto; object-fit:contain; display:block; }
+
+    .name{
+      margin:0;
+      text-align:center;
+      font: 800 var(--fs-name) "Montserrat", sans-serif;
+      letter-spacing: .5px;
+      text-transform:uppercase;
+    }
+    .headline{
+      text-align:center;
+      font: 700 10pt "Montserrat", sans-serif;
+      color: var(--midMuted);
+      white-space:pre-line;
+      margin-top: 1.5mm;
+    }
+
+    .mid .section-title{
+      font: 800 11pt "Montserrat", sans-serif;
+      letter-spacing: 3px;
+      color: rgba(233,238,243,0.92);
+    }
+
+    .summary{
+      font-size: var(--fs-small);
+      line-height: var(--lh);
+      color: rgba(233,238,243,0.82);
+    }
+    .summary p{ margin:0 0 2.6mm 0; }
+
+    .contact{
+      border-top: 1px dotted var(--midLine);
+      padding-top: 3mm;
+      display:flex;
+      flex-direction:column;
+      gap: 2.2mm;
+    }
+    .kv{ text-align:center; }
+    .kv .k{
+      font: 800 9pt "Montserrat", sans-serif;
+      letter-spacing: .6px;
+      text-transform:uppercase;
+      margin-bottom: .5mm;
+      color: rgba(233,238,243,0.78);
+    }
+    .kv .v{
+      font: 700 9pt "Open Sans", sans-serif;
+      color: var(--accent);
+      white-space:pre-line;
+      line-height:1.15;
+    }
+
+    .social{
+      margin-top:auto;
+      border-top: 1px dotted var(--midLine);
+      padding-top: 3mm;
+      display:flex;
+      justify-content:center;
+      gap: 8mm;
+      flex-wrap:wrap;
+      font: 700 9pt "Open Sans", sans-serif;
+      color: rgba(233,238,243,0.70);
+    }
+
+    .pill{ display:flex; align-items:center; gap:2mm; }
+    .social-link{
+      color: inherit;
+      text-decoration: none;
+    }
+    .social-link:hover{
+      color: var(--accent);
+    }
+    .icon{
+      width: 8mm;
+      height: 8mm;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.35);
+      display:grid;
+      place-items:center;
+      font: 800 8pt "Montserrat", sans-serif;
+    }
+
+    /* text blocks (side) */
+    .entry{ margin-bottom: 5mm; }
+    .date{
+      font: 800 7.8pt "Montserrat", sans-serif;
+      color: rgba(255,255,255,.55);
+      letter-spacing:.6px;
+      text-transform:uppercase;
+      margin-bottom:1.5mm;
+      white-space:nowrap;
+    }
+    .company{
+      font: 800 11pt "Montserrat", sans-serif;
+      color: var(--accent);
+      letter-spacing: .4px;
+      text-transform:uppercase;
+      white-space:pre-line;
+      line-height:1.05;
+      margin:0 0 1mm 0;
+    }
+    .role{
+      font: 800 9pt "Montserrat", sans-serif;
+      color: #E9EEF3;
+      text-transform:uppercase;
+      letter-spacing:.4px;
+      white-space:pre-line;
+      margin:0 0 2.2mm 0;
+    }
+    ul.bullets{
+      margin: 2mm 0 0 0;
+      padding-left: 4.2mm;
+      color: rgba(255,255,255,.86);
+      font-size: var(--fs-small);
+      line-height: var(--lh);
+    }
+    ul.bullets li{ margin: 0 0 1.6mm 0; }
+    .text{
+      font-size: var(--fs-small);
+      line-height: var(--lh);
+      color: rgba(255,255,255,.86);
+      margin:0;
+    }
+    .muted{
+      color: rgba(255,255,255,.72);
+      font-size: var(--fs-small);
+      line-height: var(--lh);
+    }
+
+    /* compact capability groups */
+    .rating-row{
+      margin: 2.2mm 0 0;
+    }
+    .rating-row .label{
+      font: 700 var(--fs-small) "Open Sans", sans-serif;
+      color: rgba(255,255,255,.90);
+    }
+
+    @media screen and (max-width: 860px){
+      body{
+        display:block;
+        padding:0 0 12px;
+      }
+
+      .topbar{
+        position: sticky;
+        top: 0;
+        left: auto;
+        transform: none;
+        width: 100%;
+        padding: 12px;
+        justify-content: space-between;
+        background: linear-gradient(180deg, rgba(15,20,26,.96), rgba(15,20,26,.82));
+        backdrop-filter: blur(10px);
+      }
+
+      .page,
+      .full-page{
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      .full-cv-view{
+        width: 100%;
+        gap: 0;
+      }
+
+      .full-page-inner{
+        height: auto;
+        padding: 14px 10px;
+        min-height: 0;
+      }
+
+      .full-page-grid,
+      .full-experience-grid,
+      .full-split{
+        grid-template-columns: 1fr;
+      }
+
+      .full-header{
+        display:flex;
+        flex-direction:column;
+        grid-template-columns:none;
+      }
+
+      .full-avatar{
+        width: min(120px, 34vw);
+        margin: 0 auto;
+      }
+
+      .full-title .name,
+      .full-title .headline{
+        text-align:center;
+      }
+
+      .full-contact-row,
+      .full-badge-row,
+      .full-chip-list{
+        justify-content:center;
+      }
+
+      .full-job .date,
+      .full-job-company,
+      .full-job-role,
+      .full-job-meta,
+      .full-education-entry .date,
+      .full-mini-job .date,
+      .full-education-entry .company,
+      .full-mini-job .company,
+      .full-education-entry .role,
+      .full-mini-job .role{
+        text-align:center;
+      }
+
+      .cv-page,
+      .cover-letter-page,
+      .grid{
+        position: relative;
+        inset: auto;
+      }
+
+      .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+
+      #midCol,
+      #leftCol,
+      #rightCol,
+      .mid-inner,
+      .side-body{
+        display: contents;
+      }
+
+      .mid,
+      .side{
+        padding: 0;
+      }
+
+      .section,
+      .summary,
+      .contact,
+      .social,
+      .avatar,
+      .mid-inner > div,
+      .mid-inner > .section-head{
+        width: 100%;
+      }
+
+      .avatar,
+      .mid .avatar{
+        order: 1;
+        width: clamp(148px, 44vw, 184px) !important;
+        max-width: 184px;
+        margin: 10px auto 6px;
+        flex: 0 0 auto;
+      }
+
+      .avatar img,
+      .mid .avatar img{
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .mid-inner > div:nth-child(2){
+        order: 2;
+        padding: 0 10px;
+      }
+
+      .summary,
+      .mid .summary{
+        order: 3;
+        margin: 0;
+        padding: 0 10px 8px;
+        font-size: clamp(1.05rem, 4.25vw, 1.18rem);
+        line-height: 1.5;
+        text-align: justify;
+      }
+
+      .summary p,
+      .mid .summary p{
+        text-align: justify;
+      }
+
+      .mid-inner > .section-head{
+        order: 4;
+        margin: 0;
+        padding: 4px 10px 0;
+      }
+
+      .contact{
+        order: 5;
+        margin: 0;
+        padding: 8px 10px 0;
+        border-top: 0;
+      }
+
+      .social{
+        order: 6;
+        margin: 0;
+        padding: 10px 10px 4px;
+        border-top: 0;
+      }
+
+      #secEdu{ order: 7; }
+      #secExp{ order: 8; }
+      #secSkills{ order: 9; }
+      #secTools{ order: 10; }
+
+      .doodle-slot{
+        display: none;
+      }
+
+      #secTools,
+      #secSkills{
+        margin-top: 0;
+      }
+
+      .section{
+        padding: 10px 10px 0;
+        overflow: visible;
+      }
+
+      .section-head{
+        margin: 0 0 8px;
+      }
+
+      .entry{
+        margin-bottom: 12px;
+      }
+
+      .entry:last-child{
+        margin-bottom: 0;
+      }
+
+      .mid,
+      .side,
+      #secExp,
+      #secEdu,
+      #secSkills,
+      #secTools,
+      .kv,
+      .rating-row,
+      .date,
+      .company,
+      .role{
+        text-align: center;
+      }
+
+      .text,
+      .muted,
+      .summary,
+      ul.bullets,
+      ul.bullets li{
+        text-align: left;
+      }
+
+      #secExp .date,
+      #secExp .company,
+      #secExp .role{
+        text-align: center;
+      }
+
+      #secExp .text,
+      #secExp .muted,
+      #secExp ul.bullets{
+        text-align: left;
+        padding-right: 0;
+      }
+
+      ul.bullets{
+        margin-top: 6px;
+        margin-bottom: 0;
+        padding-left: 18px;
+      }
+
+      .rating-row{
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        margin: 0 0 12px;
+      }
+
+      .rating-row:last-child{
+        margin-bottom: 0;
+      }
+
+      .rating-row .label,
+      .kv .v,
+      .social,
+      .headline,
+      .name{
+        text-align: center;
+      }
+
+      .name{
+        font-size: clamp(2.05rem, 9vw, 3rem);
+        line-height: 1;
+        letter-spacing: .02em;
+        text-wrap: balance;
+      }
+
+      .headline{
+        font-size: clamp(1.08rem, 4.7vw, 1.32rem);
+        line-height: 1.22;
+        text-wrap: balance;
+      }
+
+      .section-title{
+        width: 100%;
+        font-size: clamp(1.12rem, 5.4vw, 1.38rem);
+        line-height: 1.1;
+        letter-spacing: .1em;
+      }
+
+      .mid .section-title,
+      .mid-inner > .section-head .section-title{
+        font: 800 clamp(1.12rem, 5.4vw, 1.38rem) "Montserrat", sans-serif;
+        line-height: 1.1;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: #E9EEF3;
+      }
+
+      .company{
+        font-size: clamp(1.1rem, 4.9vw, 1.3rem);
+        line-height: 1.1;
+      }
+
+      .role{
+        font-size: clamp(0.98rem, 4.2vw, 1.12rem);
+      }
+
+      .date{
+        font-size: clamp(0.8rem, 3.4vw, 0.92rem);
+      }
+
+      .text,
+      .muted,
+      ul.bullets,
+      .rating-row .label,
+      .kv .v,
+      .social{
+        font-size: clamp(1rem, 3.95vw, 1.12rem);
+        line-height: 1.48;
+      }
+
+      .kv .k{
+        font-size: clamp(0.86rem, 3.5vw, 0.98rem);
+        letter-spacing: .08em;
+      }
+
+      .cover-letter-page{
+        padding: 20px 10px;
+      }
+
+      .cover-content{
+        max-width: none;
+      }
+    }
+
+    /* print */
+    @page{ size: A4 portrait; margin: 0; }
+    @media print{
+      body{
+        padding:0;
+        background:white;
+        display:block;
+      }
+
+      .topbar{ display:none !important; }
+
+      .page,
+      .full-page{
+        box-shadow:none;
+        border-radius:0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      :root{ --guide-on: 0; }
+
+      .compact-view{
+        display:block !important;
+        width: var(--a4w);
+        height: auto;
+        overflow: visible;
+        background: transparent;
+      }
+
+      .compact-view .cv-page,
+      .compact-view .cover-letter-page,
+      .full-cv-view{
+        display:none !important;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="compact"] .compact-view .cv-page{
+        display:block !important;
+        position:relative;
+        inset:auto;
+        width: var(--a4w);
+        height: var(--a4h);
+        overflow:hidden;
+      }
+      body[data-print-mode="cv"][data-cv-version="compact"] .compact-view .grid{
+        position:absolute;
+        inset:0;
+      }
+
+      body[data-print-mode="cover"] .compact-view .cover-letter-page{
+        display:block !important;
+        position:relative;
+        inset:auto;
+        width: var(--a4w);
+        height: var(--a4h);
+      }
+
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .cv-page,
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .cover-letter-page{
+        display:block !important;
+        position:relative;
+        inset:auto;
+        width: var(--a4w);
+        height: var(--a4h);
+        overflow:hidden;
+        break-after: page;
+        page-break-after: always;
+      }
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .grid{
+        position:absolute;
+        inset:0;
+      }
+      body[data-print-mode="both"][data-cv-version="compact"] .compact-view .cover-letter-page{
+        break-after: auto;
+        page-break-after: auto;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .compact-view{
+        display:none !important;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .full-cv-view,
+      body[data-print-mode="both"][data-cv-version="full"] .full-cv-view{
+        display:block !important;
+        width: var(--a4w);
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .full-page,
+      body[data-print-mode="both"][data-cv-version="full"] .full-page{
+        display:block !important;
+        width: var(--a4w);
+        height: var(--a4h);
+        overflow:hidden;
+        break-after: page;
+        page-break-after: always;
+      }
+
+      body[data-print-mode="cv"][data-cv-version="full"] .full-page:last-child,
+      body[data-print-mode="both"][data-cv-version="full"] .full-page:last-child{
+        break-after: auto;
+        page-break-after: auto;
+      }
+
+      body[data-print-mode="both"][data-cv-version="full"] .compact-view{
+        display:block !important;
+      }
+      body[data-print-mode="both"][data-cv-version="full"] .compact-view .cv-page{
+        display:none !important;
+      }
+      body[data-print-mode="both"][data-cv-version="full"] .compact-view .cover-letter-page{
+        display:block !important;
+        position:relative;
+        inset:auto;
+        width: var(--a4w);
+        height: var(--a4h);
+        break-before: page;
+        page-break-before: always;
+      }
+    }
+  </style>
+</head>
+<body data-print-mode="cv" data-cv-version="compact" data-page-view="cv">
+  <div class="topbar">
+    <div class="pill-buttons">
+      <a class="btn btn-slim" href="./">Portfólio</a>
+      <button class="btn btn-slim" id="toggleCoverBtn">Carta</button>
+      <button class="btn btn-slim" id="fullCvBtn">Completo</button>
+      <button class="btn btn-slim" id="langBtn">PT</button>
+    </div>
+    <div class="print-mode-buttons" id="printModeButtons">
+      <button class="btn btn-slim" data-print-mode="cv">CV</button>
+      <button class="btn btn-slim" data-print-mode="cover">Carta</button>
+      <button class="btn btn-slim" data-print-mode="both">CV+Carta</button>
+    </div>
+    <button class="btn" id="printBtn">Imprimir / PDF</button>
+  </div>
+  <div class="page compact-view" id="compactPage">
+
+    <!-- Página de CV -->
+    <div class="cv-page" id="cvPage">
+    <div class="grid">
+      <!-- LEFT COLUMN -->
+      <aside class="side" id="leftCol">
+        <div class="doodle-slot" id="doodleLeft"></div>
+
+        <div class="side-body">
+          <section class="section" id="secExp">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tExp">EXPERIÊNCIA</h2>
+              <div class="rule"></div>
+            </div>
+            <div id="experience"></div>
+          </section>
+
+          <section class="section" id="secTools">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tTools">FERRAMENTAS</h2>
+              <div class="rule"></div>
+            </div>
+            <div id="tools"></div>
+          </section>
+        </div>
+      </aside>
+
+      <!-- MIDDLE PANEL -->
+      <main class="mid" id="midCol">
+        <div class="mid-inner">
+          <div class="avatar"><img id="avatar" alt="avatar" /></div>
+          <div>
+            <h1 class="name" id="name"></h1>
+            <div class="headline" id="headline"></div>
+          </div>
+
+          <div class="summary" id="summary"></div>
+
+          <div class="section-head">
+            <div class="rule"></div>
+            <div class="section-title" id="tContact">CONTATO</div>
+            <div class="rule"></div>
+          </div>
+          <div class="contact" id="contact"></div>
+
+          <div class="social" id="social"></div>
+        </div>
+      </main>
+
+      <!-- RIGHT COLUMN -->
+      <aside class="side" id="rightCol">
+        <div class="doodle-slot" id="doodleRight"></div>
+
+        <div class="side-body">
+          <section class="section" id="secEdu">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tEdu">FORMAÇÃO</h2>
+              <div class="rule"></div>
+            </div>
+            <div id="education"></div>
+          </section>
+
+          <section class="section" id="secSkills">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tSkills">HABILIDADES</h2>
+              <div class="rule"></div>
+            </div>
+            <div id="skills"></div>
+          </section>
+        </div>
+      </aside>
+    </div>
+    </div>
+    <!-- Fim da página de CV -->
+
+    <!-- Página de Carta de Apresentação -->
+    <div class="cover-letter-page" id="coverLetterPage">
+      <div class="cover-header">
+        <h1 class="name" id="coverName"></h1>
+        <div class="contact-brief" id="coverContact"></div>
+      </div>
+
+      <div class="cover-content">
+        <div class="greeting" id="coverGreeting"></div>
+        <div class="letter-body" id="coverBody"></div>
+        <div class="signature">
+          <div class="sign-line" id="coverClosing">Atenciosamente,</div>
+          <div class="sign-name" id="coverSignature"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim da página de Carta -->
+
+  </div>
+
+  <div class="full-cv-view" id="fullCvView">
+    <section class="page full-page">
+      <div class="full-page-inner">
+        <header class="full-header">
+          <div class="full-avatar"><img id="fullAvatar" alt="avatar" /></div>
+          <div class="full-title">
+            <h1 class="name" id="fullName"></h1>
+            <div class="headline" id="fullHeadline"></div>
+            <div class="full-contact-row" id="fullContactRow"></div>
+            <div class="full-badge-row" id="fullBadgeRow"></div>
+          </div>
+        </header>
+
+        <section class="full-card">
+          <div class="section-head">
+            <div class="rule"></div>
+            <h2 class="section-title" id="tFullExperience"></h2>
+            <div class="rule"></div>
+          </div>
+          <div class="full-experience-grid" id="fullExperiencePrimary"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="page full-page">
+      <div class="full-page-inner full-page-grid">
+        <div class="full-column">
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullSummary"></h2>
+              <div class="rule"></div>
+            </div>
+            <div class="full-summary" id="fullSummary"></div>
+          </section>
+
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullResults"></h2>
+              <div class="rule"></div>
+            </div>
+            <ul class="full-results" id="fullResults"></ul>
+          </section>
+
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullEducation"></h2>
+              <div class="rule"></div>
+            </div>
+            <div id="fullEducation"></div>
+          </section>
+        </div>
+
+        <div class="full-column">
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullAdditional"></h2>
+              <div class="rule"></div>
+            </div>
+            <div id="fullExperienceSecondary"></div>
+          </section>
+
+          <section class="full-card">
+            <div class="section-head">
+              <div class="rule"></div>
+              <h2 class="section-title" id="tFullStack"></h2>
+              <div class="rule"></div>
+            </div>
+            <div class="full-chip-list" id="fullStack"></div>
+          </section>
+
+          <section class="full-card">
+            <div class="full-split">
+              <div>
+                <div class="section-head">
+                  <div class="rule"></div>
+                  <h2 class="section-title" id="tFullSkills"></h2>
+                  <div class="rule"></div>
+                </div>
+                <div class="full-chip-list" id="fullSkills"></div>
+              </div>
+              <div>
+                <div class="section-head">
+                  <div class="rule"></div>
+                  <h2 class="section-title" id="tFullTools"></h2>
+                  <div class="rule"></div>
+                </div>
+                <div class="full-chip-list" id="fullTools"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const DATA_URL = "cv-basico-data.json";
+    const $ = (id) => document.getElementById(id);
+    let appData = null;
+    let currentLang = "pt";
+
+    function el(tag, cls, text){
+      const n = document.createElement(tag);
+      if(cls) n.className = cls;
+      if(text !== undefined) n.textContent = text;
+      return n;
+    }
+
+    function resolveSocialUrl(item){
+      if(item.url) return item.url;
+      if(item.icon === "in" && item.label){
+        const handle = String(item.label).replace(/^\/+/, "").trim();
+        if(handle) return `https://www.linkedin.com/in/${handle}`;
+      }
+      return "";
+    }
+
+    function getPrintModeLabels(lang){
+      if(lang === "en"){
+        return {
+          cv: "Resume",
+          cover: "Cover",
+          both: "Both"
+        };
+      }
+
+      if(lang === "de"){
+        return {
+          cv: "Lebenslauf",
+          cover: "Anschreiben",
+          both: "Beides"
+        };
+      }
+
+      return {
+        cv: "CV",
+        cover: "Carta",
+        both: "CV+Carta"
+      };
+    }
+
+    function setPrintMode(mode, lang){
+      const nextMode = ["cv", "cover", "both"].includes(mode) ? mode : "cv";
+      document.body.dataset.printMode = nextMode;
+      localStorage.setItem("cv_print_mode", nextMode);
+      syncPrintModeButtons(lang);
+    }
+
+    function createChip(text, className="full-chip"){
+      return el("span", className, text);
+    }
+
+    function getLanguageData(lang = currentLang){
+      return appData && appData.languages ? appData.languages[lang] : null;
+    }
+
+    function setPageView(mode){
+      document.body.dataset.pageView = (mode === "cover") ? "cover" : "cv";
+      applyViewState();
+    }
+
+    function setCvVersion(version){
+      const nextVersion = version === "full" ? "full" : "compact";
+      document.body.dataset.cvVersion = nextVersion;
+      document.body.dataset.pageView = "cv";
+      localStorage.setItem("cv_version", nextVersion);
+      applyViewState();
+    }
+
+    function ensurePrintOrder(){
+      const compactPage = $("compactPage");
+      const fullView = $("fullCvView");
+      if(!compactPage || !fullView || !compactPage.parentNode) return;
+      if(fullView.nextElementSibling === compactPage) return;
+      compactPage.parentNode.insertBefore(fullView, compactPage);
+    }
+
+    function syncFullCvButton(L){
+      const fullBtn = $("fullCvBtn");
+      if(!fullBtn || !L) return;
+      fullBtn.textContent = (L.labels && L.labels.fullCv) || ((currentLang === "en") ? "Full CV" : (currentLang === "de") ? "Vollstandiger Lebenslauf" : "Completo");
+      fullBtn.classList.toggle("active", document.body.dataset.cvVersion === "full");
+    }
+
+    function applyViewState(){
+      const L = getLanguageData();
+      const compactPage = $("compactPage");
+      const cvPage = $("cvPage");
+      const coverPage = $("coverLetterPage");
+      const fullView = $("fullCvView");
+      const isCover = document.body.dataset.pageView === "cover";
+      const isFull = document.body.dataset.cvVersion === "full";
+
+      compactPage.classList.toggle("hidden-view", isFull && !isCover);
+      fullView.classList.toggle("active", isFull && !isCover);
+      cvPage.classList.toggle("hidden", isCover);
+      coverPage.classList.toggle("active", isCover);
+
+      if(L){
+        syncToggleLabel(L, currentLang);
+        syncFullCvButton(L);
+      }
+    }
+
+    function renderFullJob(job, compact=false){
+      const wrap = el("article", compact ? "full-mini-job" : "full-job");
+      wrap.appendChild(el("div", "date", `${job.period}\n${job.location}`));
+      wrap.appendChild(el("div", compact ? "company" : "full-job-company", job.company));
+      wrap.appendChild(el("div", compact ? "role" : "full-job-role", job.role));
+
+      const metaParts = [job.employment, job.scope].filter(Boolean);
+      if(metaParts.length){
+        wrap.appendChild(el("div", compact ? "muted" : "full-job-meta", metaParts.join(" • ")));
+      }
+
+      if(job.highlights && job.highlights.length && !compact){
+        const badges = el("div", "full-badge-row");
+        job.highlights.forEach((item) => badges.appendChild(createChip(item, "full-badge")));
+        wrap.appendChild(badges);
+      }
+
+      if(job.bullets && job.bullets.length){
+        const ul = el("ul", compact ? "full-results" : "full-list");
+        job.bullets.forEach((item) => ul.appendChild(el("li", null, item)));
+        wrap.appendChild(ul);
+      }
+
+      if(job.technologies && job.technologies.length){
+        const techLabel = currentLang === "en" ? "Technologies" : currentLang === "de" ? "Technologien" : "Tecnologias";
+        wrap.appendChild(el("div", "full-tech-line", `${techLabel}: ${job.technologies.join(" · ")}`));
+      }
+
+      return wrap;
+    }
+
+    function renderFullEducationItem(item){
+      const wrap = el("article", "full-education-entry");
+      wrap.appendChild(el("div", "date", `${item.from} — ${item.to}`));
+      wrap.appendChild(el("div", "company", item.school));
+      wrap.appendChild(el("div", "role", item.degree));
+      if(item.details && item.details.length){
+        const ul = el("ul", "full-results");
+        item.details.forEach((detail) => ul.appendChild(el("li", null, detail)));
+        wrap.appendChild(ul);
+      }
+      return wrap;
+    }
+
+    function renderFullCv(data, lang){
+      const L = data.languages[lang];
+      const F = L.fullCv || {};
+      const labels = L.labels || {};
+
+      $("fullAvatar").src = "avatar.png";
+      $("fullName").textContent = L.profile.name;
+      $("fullHeadline").textContent = L.profile.headline;
+      $("tFullExperience").textContent = labels.fullExperience || labels.experience;
+      $("tFullSummary").textContent = labels.profileSummary || ((lang === "en") ? "Profile" : (lang === "de") ? "Profil" : "Perfil");
+      $("tFullResults").textContent = labels.careerHighlights || ((lang === "en") ? "Impact Highlights" : (lang === "de") ? "Wirkung und Ergebnisse" : "Resultados de Impacto");
+      $("tFullEducation").textContent = labels.education;
+      $("tFullAdditional").textContent = labels.additionalExperience || ((lang === "en") ? "Additional Experience" : (lang === "de") ? "Weitere Erfahrung" : "Trajetoria Adicional");
+      $("tFullStack").textContent = labels.coreStack || ((lang === "en") ? "Core Stack" : (lang === "de") ? "Technologie-Stack" : "Stack Principal");
+      $("tFullSkills").textContent = labels.skills;
+      $("tFullTools").textContent = labels.tools;
+
+      const contactRow = $("fullContactRow");
+      contactRow.innerHTML = "";
+      (L.contact.items || []).forEach((item) => {
+        if(["Nascimento", "Birth", "CREA-PE"].includes(item.label)) return;
+        const value = String(item.value).replace(/\n/g, " • ");
+        contactRow.appendChild(createChip(`${item.label}: ${value}`, "full-contact-pill"));
+      });
+      (L.contact.social || []).forEach((item) => {
+        contactRow.appendChild(createChip(`LinkedIn ${item.label}`, "full-contact-pill"));
+      });
+
+      const badgeRow = $("fullBadgeRow");
+      badgeRow.innerHTML = "";
+      (F.headerBadges || []).forEach((item) => badgeRow.appendChild(createChip(item, "full-badge")));
+
+      const primary = $("fullExperiencePrimary");
+      primary.innerHTML = "";
+      (F.primaryExperience || []).forEach((job) => primary.appendChild(renderFullJob(job)));
+
+      const summary = $("fullSummary");
+      summary.innerHTML = "";
+      (L.profile.summary || []).forEach((paragraph) => {
+        const p = el("p");
+        p.textContent = paragraph;
+        summary.appendChild(p);
+      });
+
+      const results = $("fullResults");
+      results.innerHTML = "";
+      (F.keyImpacts || []).forEach((item) => results.appendChild(el("li", null, item)));
+
+      const education = $("fullEducation");
+      education.innerHTML = "";
+      (L.education || []).forEach((item) => education.appendChild(renderFullEducationItem(item)));
+
+      const secondary = $("fullExperienceSecondary");
+      secondary.innerHTML = "";
+      (F.additionalExperience || []).forEach((job) => secondary.appendChild(renderFullJob(job, true)));
+
+      const stack = $("fullStack");
+      stack.innerHTML = "";
+      (F.coreStack || []).forEach((item) => stack.appendChild(createChip(item)));
+
+      const fullSkills = $("fullSkills");
+      fullSkills.innerHTML = "";
+      (L.skills || []).forEach((item) => fullSkills.appendChild(createChip(item.name)));
+
+      const fullTools = $("fullTools");
+      fullTools.innerHTML = "";
+      (L.tools || []).forEach((item) => fullTools.appendChild(createChip(item.name)));
+    }
+
+    function syncPrintModeButtons(lang){
+      const labels = getPrintModeLabels(lang);
+      const activeMode = document.body.dataset.printMode || "cv";
+      document.querySelectorAll("[data-print-mode]").forEach((btn) => {
+        if(!(btn instanceof HTMLButtonElement)) return;
+        const mode = btn.dataset.printMode;
+        btn.textContent = labels[mode] || mode;
+        btn.classList.toggle("active", mode === activeMode);
+      });
+    }
+
+    function render(data, lang){
+      appData = data;
+      currentLang = lang;
+      const L = data.languages[lang];
+      const labels = L.labels;
+      document.documentElement.lang = lang === "pt" ? "pt-BR" : lang;
+      document.title = lang === "de" ? "Lebenslauf - Danillo Xavier" : "CV - Danillo Xavier";
+
+      // buttons
+      $("langBtn").textContent = lang.toUpperCase();
+      $("printBtn").textContent = labels.printPdf;
+      syncPrintModeButtons(lang);
+
+      // titles
+      $("tExp").textContent = labels.experience;
+      $("tTools").textContent = labels.tools;
+      $("tContact").textContent = labels.contact;
+      $("tEdu").textContent = labels.education;
+      $("tSkills").textContent = labels.skills;
+
+      // header
+      $("avatar").src = "avatar.png";
+      $("name").textContent = L.profile.name;
+      $("headline").textContent = L.profile.headline;
+
+      const summary = $("summary");
+      summary.innerHTML = "";
+      (L.profile.summary || []).forEach(p => {
+        const para = document.createElement("p");
+        para.textContent = p;
+        summary.appendChild(para);
+      });
+
+      // doodles (no margins; files: Doodles.png = right, Doodle Left.png = left)
+      const dl = $("doodleLeft");
+      dl.style.backgroundImage = (data.assets && data.assets.bgLeft)
+        ? `url("${data.assets.bgLeft}")`
+        : "none";
+
+      const dr = $("doodleRight");
+      dr.style.backgroundImage = (data.assets && (data.assets.bgRight || data.assets.bgDoodles))
+        ? `url("${data.assets.bgRight || data.assets.bgDoodles}")`
+        : "none";
+
+      // experience
+      const exp = $("experience");
+      exp.innerHTML = "";
+      (L.experience || []).forEach(x => {
+        const wrap = el("div", "entry");
+        wrap.appendChild(el("div", "date", `${x.from}  —  ${x.to}`));
+
+        const company = el("div", "company");
+        company.textContent = x.company;
+        wrap.appendChild(company);
+
+        const role = el("div", "role");
+        role.textContent = x.role;
+        wrap.appendChild(role);
+
+        if(x.bullets && x.bullets.length){
+          const ul = el("ul", "bullets");
+          x.bullets.forEach(b => ul.appendChild(el("li", null, b)));
+          wrap.appendChild(ul);
+        }
+
+        if(x.paragraphs && x.paragraphs.length){
+          x.paragraphs.forEach(p => {
+            const para = el("p", "text");
+            para.textContent = p;
+            para.style.marginTop = "2mm";
+            wrap.appendChild(para);
+          });
+        }
+
+        if(x.footer){
+          const f = el("p", "muted");
+          f.textContent = x.footer;
+          f.style.marginTop = "2.6mm";
+          wrap.appendChild(f);
+        }
+
+        exp.appendChild(wrap);
+      });
+
+      // tools
+      const tools = $("tools");
+      tools.innerHTML = "";
+      (L.tools || []).forEach(t => {
+        const row = el("div", "rating-row");
+        row.appendChild(el("div", "label", t.name));
+        tools.appendChild(row);
+      });
+
+      // contact
+      const c = $("contact");
+      c.innerHTML = "";
+      (L.contact.items || []).forEach(it => {
+        const kv = el("div", "kv");
+        kv.appendChild(el("div", "k", it.label));
+        const v = el("div", "v");
+        v.textContent = it.value;
+        kv.appendChild(v);
+        c.appendChild(kv);
+      });
+
+      // social
+      const soc = $("social");
+      soc.innerHTML = "";
+      (L.contact.social || []).forEach(s => {
+        const url = resolveSocialUrl(s);
+        const pill = url ? el("a", "pill social-link") : el("div", "pill");
+        if(url){
+          pill.href = url;
+          pill.target = "_blank";
+          pill.rel = "noreferrer noopener";
+          pill.setAttribute("aria-label", `LinkedIn ${s.label}`);
+        }
+        pill.appendChild(el("div", "icon", (s.icon || "").toUpperCase().slice(0,2) || "•"));
+        pill.appendChild(el("div", null, s.label));
+        soc.appendChild(pill);
+      });
+
+      // education
+      const edu = $("education");
+      edu.innerHTML = "";
+      (L.education || []).forEach(e => {
+        const wrap = el("div", "entry");
+        wrap.appendChild(el("div", "date", `${e.from}  —  ${e.to}`));
+
+        const school = el("div", "company");
+        school.textContent = e.school;
+        wrap.appendChild(school);
+
+        const degree = el("div", "role");
+        degree.textContent = e.degree;
+        wrap.appendChild(degree);
+
+        if(e.details && e.details.length){
+          const ul = el("ul", "bullets");
+          e.details.forEach(d => ul.appendChild(el("li", null, d)));
+          wrap.appendChild(ul);
+        }
+
+        edu.appendChild(wrap);
+      });
+
+      // skills
+      const skills = $("skills");
+      skills.innerHTML = "";
+      (L.skills || []).forEach(t => {
+        const row = el("div", "rating-row");
+        row.appendChild(el("div", "label", t.name));
+        skills.appendChild(row);
+      });
+
+      // cover letter
+      renderCoverLetter(data, lang);
+      renderFullCv(data, lang);
+      syncFullCvButton(L);
+      applyViewState();
+    }
+
+    function getCoverLabel(L, lang){
+      if(L.labels && L.labels.coverLetter) return L.labels.coverLetter;
+      return (lang === "en") ? "Cover" : (lang === "de") ? "Anschreiben" : "Carta";
+    }
+
+    function getCVLabel(lang){
+      return (lang === "en") ? "Resume" : (lang === "de") ? "Lebenslauf" : "CV";
+    }
+
+    function syncToggleLabel(L, lang){
+      const toggleBtn = $("toggleCoverBtn");
+      if(!toggleBtn) return;
+      const coverLabel = getCoverLabel(L, lang);
+      const cvLabel = getCVLabel(lang);
+      toggleBtn.dataset.coverLabel = coverLabel;
+      toggleBtn.dataset.cvLabel = cvLabel;
+      const isShowingCV = document.body.dataset.pageView !== "cover";
+      toggleBtn.textContent = isShowingCV ? coverLabel : cvLabel;
+      toggleBtn.classList.toggle("active", !isShowingCV);
+    }
+
+    function fallbackGreeting(lang){
+      return (lang === "en") ? "Dear Reader," : (lang === "de") ? "Sehr geehrte Damen und Herren," : "Querido Leitor,";
+    }
+
+    function fallbackClosing(lang){
+      return (lang === "en") ? "Sincerely," : (lang === "de") ? "Mit freundlichen Grussen," : "Atenciosamente,";
+    }
+
+    function fallbackParagraph(lang){
+      if(lang === "en") return "Add the cover letter text inside cv-data.json.";
+      if(lang === "de") return "Fugen Sie den Text des Anschreibens in cv-data.json ein.";
+      return "Adicione o conteúdo da carta em cv-data.json.";
+    }
+
+    function renderCoverLetter(data, lang, variant = "standard") {
+      const L = data.languages[lang];
+      if (!L) return;
+
+      const cover = variant === "swiss" ? (L.coverLetterSwiss || L.coverLetter || {}) : (L.coverLetter || {});
+      $("coverName").textContent = (L.profile && L.profile.name) || "";
+
+      const items = Array.isArray(L.contact && L.contact.items) ? L.contact.items : [];
+      const contactInfo = items.find(i => (i.label || "").toLowerCase().includes('email') || (i.label || "").toLowerCase().includes('e-mail'));
+      const phoneInfo = items.find(i => (i.label || "").toLowerCase().includes('telefone') || (i.label || "").toLowerCase().includes('phone'));
+
+      let briefContact = '';
+      if (contactInfo) briefContact += contactInfo.value;
+      if (phoneInfo) briefContact += (briefContact ? ' • ' : '') + (phoneInfo.value || '').split('\n')[0];
+
+      $("coverContact").textContent = briefContact;
+      $("coverGreeting").textContent = cover.greeting || fallbackGreeting(lang);
+
+      const bodyDiv = $("coverBody");
+      bodyDiv.innerHTML = "";
+      const paragraphs = Array.isArray(cover.paragraphs) ? cover.paragraphs.filter(Boolean) : [];
+      if(!paragraphs.length && cover.body) paragraphs.push(cover.body);
+      if(!paragraphs.length) paragraphs.push(fallbackParagraph(lang));
+      paragraphs.forEach(p => {
+        const para = el("p");
+        para.textContent = p;
+        bodyDiv.appendChild(para);
+      });
+
+      $("coverClosing").textContent = cover.closing || fallbackClosing(lang);
+      $("coverSignature").textContent = cover.signature || ((L.profile && L.profile.name) || "");
+
+      syncToggleLabel(L, lang);
+    }
+
+    function togglePages() {
+      const isShowingCV = document.body.dataset.pageView !== "cover";
+      setPageView(isShowingCV ? "cover" : "cv");
+    }
+
+    function printSelectedMode(){
+      window.print();
+    }
+
+    async function init(){
+      const res = await fetch(DATA_URL, {cache:"no-store"});
+      const data = await res.json();
+      ensurePrintOrder();
+
+      const params = new URLSearchParams(window.location.search);
+      const requestedLang = params.get("lang");
+      const requestedVersion = params.get("version");
+      const requestedPrintMode = params.get("print");
+      const requestedCoverVariant = params.get("cover");
+      const coverVariant = requestedCoverVariant === "swiss" ? "swiss" : "standard";
+      let lang = requestedLang || localStorage.getItem("cv_lang") || (data.meta && data.meta.defaultLang) || "pt";
+      if(!data.languages[lang]) lang = "pt";
+
+      const savedCvVersion = requestedVersion || localStorage.getItem("cv_version") || "compact";
+      document.body.dataset.cvVersion = savedCvVersion === "full" ? "full" : "compact";
+      document.body.dataset.pageView = requestedPrintMode === "cover" ? "cover" : "cv";
+
+      const savedPrintMode = requestedPrintMode || localStorage.getItem("cv_print_mode") || "cv";
+      render(data, lang);
+      renderCoverLetter(data, lang, coverVariant);
+      setPrintMode(savedPrintMode, lang);
+
+      $("toggleCoverBtn").addEventListener("click", () => {
+        togglePages();
+      });
+
+      $("fullCvBtn").addEventListener("click", () => {
+        const isFull = document.body.dataset.cvVersion === "full";
+        setCvVersion(isFull ? "compact" : "full");
+      });
+
+      $("langBtn").addEventListener("click", () => {
+        lang = ({pt: "en", en: "de", de: "pt"})[lang] || "en";
+        localStorage.setItem("cv_lang", lang);
+        render(data, lang);
+        renderCoverLetter(data, lang, coverVariant);
+        setPrintMode(document.body.dataset.printMode || "cv", lang);
+      });
+
+      document.querySelectorAll("#printModeButtons [data-print-mode]").forEach((btn) => {
+        btn.addEventListener("click", () => setPrintMode(btn.dataset.printMode, lang));
+      });
+
+      $("printBtn").addEventListener("click", () => printSelectedMode());
+    }
+
+    init().catch(err => {
+      console.error(err);
+      alert("Erro ao carregar cv-data.json. Abra via servidor (ex: python -m http.server).\n\nDetalhes: " + err.message);
+    });
+  </script>
+</body>
+</html>
