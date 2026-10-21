@@ -25,6 +25,44 @@ AGRITECH=runpy.run_path(str(BASE/'scripts/cv-agritech.py'))
 def section(id,title,body,cls=''):
     return '<section id="'+id+'" class="chapter '+cls+'"><h2>'+esc(title)+'</h2>'+body+'</section>'
 
+# Study repositories the author keeps out of the CV and the portfolio.
+STUDY_PROJECTS={'dente_de_leao','Doutorado','Leaflet','Osoracle','movimento_3D','threejs'}
+STUDY_LINES=('Dente de Leão','Leaflet inclui','threejs e movimento_3D')
+STUDY_SKILLS={'Física e estado de jogo','Carregamento de modelos','Three.js','Computação gráfica'}
+RENAMED={'Marketplace, automações e interação 3D':'Marketplace, automações e produtos','Mapas, modelos e exploração espacial':'Mapas e exploração espacial'}
+def drop_studies(proposal):
+    study=lambda path: path.split('/')[0] in STUDY_PROJECTS
+    proposal['projects']=[p for p in proposal['projects'] if p['id'] not in STUDY_PROJECTS]
+    dropped=set()
+    for topic in proposal['topics']:
+        dropped|={c['title'] for c in topic['cases'] if c['sources'] and all(study(s) for s in c['sources'])}
+        topic['cases']=[c for c in topic['cases'] if c['title'] not in dropped]
+        for c in topic['cases']:
+            c['sources']=[s for s in c['sources'] if not study(s)]
+            c['implementation']=[s for s in c['implementation'] if not s.startswith(STUDY_LINES)]
+            c['skills']=[s for s in c['skills'] if s not in STUDY_SKILLS]
+            c['title']=RENAMED.get(c['title'],c['title'])
+        if topic['id']=='grafica':
+            topic['intro']='O repertório visual inclui pose, avatares 3D, interação e mapas, com origem no Mocap e nos experimentos de logística.'
+            topic['text']=['Desenvolvi protótipos de interação e visualização no navegador, explorando estimação de pose, avatares 3D, mapas e interfaces de acompanhamento.',topic['text'][-1]]
+            for c in topic['cases']:
+                if c['title']=='Mapas e exploração espacial':
+                    c['context']='Logística'
+                    c['problem']='Representar informação e percursos em espaços geográficos'
+                    c['text']='Explorei visualização espacial com Leaflet no protótipo de Logística, construindo interfaces de mapa, desenho de áreas e roteamento.'
+                    c['limit']='Não comprova especialização GIS completa nem sensoriamento remoto operacional.'
+        for c in topic['cases']:
+            if c['title']=='Marketplace, automações e produtos':
+                c['text']='Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial e finanças pessoais.'
+    provenance=[]
+    for s in proposal['skillProvenance']:
+        if s['case'] in dropped or (s['case'] in RENAMED and s['skill'] in STUDY_SKILLS): continue
+        s['case']=RENAMED.get(s['case'],s['case'])
+        if s['case']=='Mapas e exploração espacial': s['context']='Logística'
+        s['evidence']=[e for e in s['evidence'] if not study(e)]
+        provenance.append(s)
+    proposal['skillProvenance']=provenance
+
 def build():
     original=read('cv-data.json')
     DEVELOPMENT['education'](original)
@@ -32,6 +70,7 @@ def build():
     GLOBALCOM['inject'](proposal)
     DEVELOPMENT['inject'](proposal)
     AGRITECH['inject'](proposal)
+    drop_studies(proposal)
     experimental=copy.deepcopy(original)
     pt=experimental['languages']['pt']
     current=original['languages']['pt']

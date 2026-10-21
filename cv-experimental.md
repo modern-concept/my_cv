@@ -1364,13 +1364,10 @@ Currículo e portfólio completo — 2026-10-13.
 
  Case · Vínculos individuais a contextualizar
 
-### Marketplace, automações e interação 3D
+### Marketplace, automações e produtos
  Vínculo: Projetos independentes, pesquisa e produtos
  Problema: Ligar regras de produto, fontes externas e interfaces a experiências completas
- Contribuição e entrega: Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.
- Área de aplicação: Jogos, narrativa interativa e computação gráfica 3D.
- Público e contexto: Exploração de experiências narrativas interativas.
- Objetivo: Construir um ambiente de exploração com interação, física e elementos narrativos.
+ Contribuição e entrega: Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial e finanças pessoais.
  Área de aplicação: Empreendedorismo, marketplace e validação de produtos.
  Público e contexto: Criadores de produtos e potenciais usuários.
  Objetivo: Conectar propostas de produtos, descoberta e validação em uma plataforma web.
@@ -1390,16 +1387,13 @@ Currículo e portfólio completo — 2026-10-13.
 - Scrapers: adaptadores por site, runner, supervisão e distribuição de ofertas.
 - Job Assistant: Playwright, ranking por regras, CLI e revisão humana.
 - Minhas Finanças: Pluggy, classificação por regras, agregações e SQLite.
-- Dente de Leão: React Three Fiber, Rapier, Zustand, câmera, interação e HUD.
 
 #### Competências evidenciadas
 
 - Product engineering
 - RLS e modelagem de acesso
 - Automação supervisionada
-- Open Finance
-- Computação gráfica
-- Física e estado de jogo Alcance da evidência: Não atribuir faturamento, escala ou publicação sem dados; pagamentos e recursos planejados têm maturidade variável.
+- Open Finance Alcance da evidência: Não atribuir faturamento, escala ou publicação sem dados; pagamentos e recursos planejados têm maturidade variável.
 
 ## Infraestrutura, integração desktop, IoT e operação de tecnologia
  A experiência em TIC registrada no CV complementa o código dos projetos: servidores, redes, suporte, continuidade, ERP, segurança e IoT. A integração com MetaTrader5 é um case local de conexão com software desktop.
@@ -1464,9 +1458,8 @@ Currículo e portfólio completo — 2026-10-13.
 - Rastreabilidade de política Alcance da evidência: Não equivale a aplicação GUI própria em Qt, Electron, WPF ou Swing. O F-AHP Java declarado no TCC precisa de seus próprios arquivos para detalhar plataforma e interface.
 
 ## Computação gráfica, experiência 3D e geoinformação
- O repertório visual inclui cena, câmera, física, interação e mapas. A origem das competências aparece nos protótipos 3D, no Mocap, na experiência narrativa e nos experimentos de logística.
- Desenvolvi protótipos de interação e visualização no navegador, explorando cenas 3D, modelos, câmera, controle de personagem, física e interfaces de acompanhamento.
- No Dente de Leão, a organização separa input, mundo, personagem, câmera e HUD; React Three Fiber, Rapier e Zustand apoiam renderização, física e estado. Em outros estudos, Three.js e loaders FBX ampliam o repertório de modelos e visualização.
+ O repertório visual inclui pose, avatares 3D, interação e mapas, com origem no Mocap e nos experimentos de logística.
+ Desenvolvi protótipos de interação e visualização no navegador, explorando estimação de pose, avatares 3D, mapas e interfaces de acompanhamento.
  Em geoinformação, utilizei Leaflet para representar áreas, desenho e roteamento, conectando visualização espacial a experimentos de planejamento logístico. No Mocap, a representação visual também é ligada à inferência de pose e ao movimento.
 
 - Dados/recursos
@@ -1474,56 +1467,19 @@ Currículo e portfólio completo — 2026-10-13.
 - Cena ou mapa
 - Câmera e input
 - Estado/física
-- Interação e visualização Case · Protótipo independente
+- Interação e visualização Case · Logística
 
-### Dente de Leão — mundo e interação narrativa
+### Mapas e exploração espacial
  Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Construir uma experiência de exploração e interação em ambiente 3D
- Contribuição e entrega: Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.
- Área de aplicação: Jogos, narrativa interativa e computação gráfica 3D.
- Público e contexto: Exploração de experiências narrativas interativas.
- Objetivo: Construir um ambiente de exploração com interação, física e elementos narrativos.
-
-#### Engenharia, métodos e profundidade
-
-- src/core concentra entrada do usuário.
-- src/game organiza mundo, personagem, câmera e interação.
-- src/ui contém elementos de HUD.
-- React Three Fiber, Rapier e Zustand articulam renderização, física e estado.
-
-#### Competências evidenciadas
-
-- Renderização 3D
-- Input e câmera
-- Física
-- Estado de jogo
-- Interação narrativa
-- Arquitetura de protótipo Alcance da evidência: É um protótipo no navegador; não afirmar lançamento comercial de jogo, engine própria ou desenvolvimento Unity a partir dele.
-
- Case · Logística, Leaflet, threejs e movimento_3D
-
-### Mapas, modelos e exploração espacial
- Vínculo: Projetos independentes, pesquisa e produtos
- Problema: Representar informação e interação em espaços geográficos ou cenas
- Contribuição e entrega: Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.
- Área de aplicação: Mapas, roteamento e interfaces geográficas.
- Público e contexto: Visualização e exploração de informações espaciais.
- Objetivo: Representar dados geográficos e percursos em uma interface web.
+ Problema: Representar informação e percursos em espaços geográficos
+ Contribuição e entrega: Explorei visualização espacial com Leaflet no protótipo de Logística, construindo interfaces de mapa, desenho de áreas e roteamento.
  Área de aplicação: Logística, roteamento e análise geoespacial.
  Público e contexto: Planejamento de deslocamentos e operações logísticas.
  Objetivo: Representar pontos e rotas em mapas e apoiar decisões de percurso.
- Área de aplicação: Computação gráfica e visualização de modelos.
- Público e contexto: Estudos de cenas e movimento tridimensional.
- Objetivo: Explorar a apresentação e o movimento de modelos 3D.
- Área de aplicação: Computação gráfica e desenvolvimento web 3D.
- Público e contexto: Estudos de cenas, modelos e interação.
- Objetivo: Explorar renderização de cenas e recursos tridimensionais no navegador.
 
 #### Engenharia, métodos e profundidade
 
 - Logística reúne componentes de mapa, canvas, desenho e roteirização.
-- Leaflet inclui uma página própria e biblioteca de roteamento de terceiros.
-- threejs e movimento_3D contêm experiências de cenas, interação e carregamento de modelos.
 - Loaders/bibliotecas incluídos são componentes reutilizados; não autoria própria.
 
 #### Competências evidenciadas
@@ -1531,9 +1487,7 @@ Currículo e portfólio completo — 2026-10-13.
 - Mapas interativos
 - Visualização geoespacial
 - Geometria
-- Carregamento de modelos
-- Three.js
-- Prototipação visual Alcance da evidência: Não comprova especialização GIS completa, sensoriamento remoto operacional ou desenvolvimento de bibliotecas de renderização.
+- Prototipação visual Alcance da evidência: Não comprova especialização GIS completa nem sensoriamento remoto operacional.
 
 ## Globalcom — arquitetura Agentic AI, compliance e automação
  Arquitetura funcional e técnica entregue pela Modern Concept; implementação em andamento.
@@ -3586,64 +3540,6 @@ Currículo e portfólio completo — 2026-10-13.
 - Autenticação
 - Modelagem de fluxos Telas e dados demonstrativos precisam ser diferenciados de funcionalidades completas; qualidade pedagógica exige avaliação especializada.
 
- Computação visual · Protótipo autoral
-
-### Dente de Leão — experiência narrativa interativa
- Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
- Vínculo: Projetos independentes, pesquisa e produtos
- Área de aplicação: Jogos, narrativa interativa e computação gráfica 3D.
- Público e contexto: Exploração de experiências narrativas interativas.
- Objetivo: Construir um ambiente de exploração com interação, física e elementos narrativos.
- Jogo narrativo experimental que explora personagens, cenários e interação em uma aplicação web 3D. A arquitetura combina renderização, controles, câmera, física e estado narrativo para construir uma experiência interativa evolutiva.
- Problema e público: Explorar interação e narrativa em um mundo 3D — Público de experiências narrativas.
- Entrega: Protótipo de mundo interativo no navegador com React Three Fiber e Rapier.
- Profundidade demonstrada: Protótipo/experimentação: implementação exploratória sem escala comprovada.
- Estrutura: Camadas de entrada, mundo, personagem, câmera, interação e interface; recursos visuais e física compõem a experiência 3D.
- Métodos: Câmera; controle de personagem; física; estado de jogo; HUD.
- Áreas de aplicação: Narrativa; entretenimento; experiência interativa 3D.
-
-#### Stack
-
-- TypeScript
-- React
-- Vite
-- Three.js
-- React Three Fiber
-- Drei
-- Rapier
-- Zustand
-
-#### Habilidades
-
-- Renderização 3D
-- Arquitetura de interação
-- Gerenciamento de estado
-- Prototipação de produto Protótipo; não atribuir lançamento comercial ou métricas de jogadores.
-
- Arquivo e estudos · Estudo
-
-### Doutorado — algoritmo genético didático
- Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
- Vínculo: Projetos independentes, pesquisa e produtos
- Área de aplicação: Ensino e pesquisa de algoritmos evolutivos.
- Público e contexto: Experimentação acadêmica.
- Objetivo: Explorar a representação, a evolução e a avaliação de soluções.
- Pasta com um algoritmo genético em JavaScript que demonstra geração de população, fitness, seleção, crossover e mutação para aproximar um vetor objetivo. Serve como exercício de fundamentos de computação evolutiva.
- Problema e público: Explorar o funcionamento de busca evolutiva — Estudo individual.
- Entrega: Exercício em AG.js; pasta distinta do repositório principal doutorado.
- Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: Exercício de algoritmo genético para explorar a representação e a evolução de soluções.
- Métodos: Implementação didática de algoritmo genético.
- Áreas de aplicação: Ensino de algoritmos; computação evolutiva.
-
-#### Stack
-
-- JavaScript
-
-#### Habilidades
-
-- Fundamentos de otimização evolutiva Esta pasta em git é distinta do repositório Documents/doutorado que contém o CV.
-
  IA aplicada · Sistema local
 
 ### DVR Person Alert — visão computacional e alertas operacionais
@@ -3804,33 +3700,6 @@ Currículo e portfólio completo — 2026-10-13.
 - Fluxos transacionais
 - Integração de pagamentos A documentação inclui roadmap; integrações, escala e receita não podem ser consideradas concluídas apenas por estarem previstas.
 
- Arquivo e estudos · Experimento e biblioteca de terceiros
-
-### Leaflet — mapas e roteamento web
- Contexto: Estudo e integração com biblioteca de terceiros
- Vínculo: Projetos independentes, pesquisa e produtos
- Área de aplicação: Mapas, roteamento e interfaces geográficas.
- Público e contexto: Visualização e exploração de informações espaciais.
- Objetivo: Representar dados geográficos e percursos em uma interface web.
- Experimento de mapas e roteamento web acompanhado por uma cópia da biblioteca Leaflet Routing Machine. Serve de referência para integração de mapas e rotas em interfaces.
- Problema e público: Experimentar rotas em mapa interativo — Estudo de interfaces geográficas.
- Entrega: Página própria apoiada em biblioteca Leaflet Routing Machine de terceiros.
- Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: Interface de mapas e integração com uma biblioteca de roteamento, incluindo estudos e exemplos de terceiros.
- Métodos: Camadas cartográficas; interface de roteamento; integração de biblioteca.
- Áreas de aplicação: Cartografia; mapas; roteamento.
-
-#### Stack
-
-- JavaScript
-- HTML
-- Leaflet
-- Leaflet Routing Machine
-
-#### Habilidades
-
-- Integração de mapas Código vendorizado não comprova autoria da biblioteca.
-
  Automação e dados · Ferramenta local
 
 ### Job Assistant — automação supervisionada e ranking de aderência
@@ -3970,34 +3839,6 @@ Currículo e portfólio completo — 2026-10-13.
 - Computação gráfica
 - Integração de modelos Não foi medido desempenho em tempo real nem qualidade do retargeting.
 
- Computação visual · Experimento
-
-### Movimento 3D — visualização de modelos
- Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
- Vínculo: Projetos independentes, pesquisa e produtos
- Área de aplicação: Computação gráfica e visualização de modelos.
- Público e contexto: Estudos de cenas e movimento tridimensional.
- Objetivo: Explorar a apresentação e o movimento de modelos 3D.
- Experimento web de visualização 3D com scripts de cena e carregamento de modelos FBX. Serve como base exploratória para manipular recursos gráficos e movimento no navegador.
- Problema e público: Experimentar carregamento e exibição de modelos — Estudo de visualização.
- Entrega: Página experimental de visualização; loaders e bibliotecas são componentes de terceiros.
- Profundidade demonstrada: Experimento: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: Aplicação de visualização com carregamento de modelos FBX e renderização tridimensional.
- Métodos: Three.js; carregamento FBX; cenas e animação.
- Áreas de aplicação: Computação gráfica; modelos e movimento 3D.
-
-#### Stack
-
-- JavaScript
-- HTML
-- Three.js
-- FBXLoader
-
-#### Habilidades
-
-- Renderização 3D
-- Integração de assets Bibliotecas incluídas não são de autoria própria.
-
  Ciência de dados · Laboratório com operação demo documentada
 
 ### TraderMind — pesquisa quantitativa e pipeline de modelos
@@ -4042,32 +3883,6 @@ Currículo e portfólio completo — 2026-10-13.
 - Validação fora da amostra
 - Integração de inferência
 - Arquitetura de pipelines O pipeline TPOT/PCA legado usa split aleatório; a presença de documentação OOS não prova ausência de leakage em todos os experimentos. Não declarar rentabilidade.
-
- Arquivo e estudos · Acervo de conteúdo
-
-### OSORACLE — organização de conhecimento narrativo
- Contexto: Acervo de conteúdo e referências
- Vínculo: Projetos independentes, pesquisa e produtos
- Área de aplicação: Escrita, narrativas e organização do conhecimento.
- Público e contexto: Autores e organização de universos narrativos.
- Objetivo: Estruturar informações, entidades e relações de um domínio narrativo.
- Vault Obsidian que organiza documentos narrativos em personagens, capítulos, referências e painéis. Serve como estrutura de conhecimento e documentação para projetos criativos.
- Problema e público: Organizar personagens, referências e universo ficcional — Autor e pesquisa narrativa.
- Entrega: Acervo narrativo de notas; não demonstra sistema de IA ou grafo computacional implementado.
- Profundidade demonstrada: Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo.
- Estrutura: Organização temática de personagens, capítulos, bestiário, referências e materiais narrativos originais.
- Métodos: Estrutura temática; notas Markdown; gestão de referências.
- Áreas de aplicação: Escrita; worldbuilding; gestão de conhecimento.
-
-#### Stack
-
-- Obsidian
-- Markdown
-
-#### Habilidades
-
-- Organização de conhecimento
-- Documentação Não há evidência suficiente para descrevê-lo como sistema de IA ou grafo computacional implementado.
 
  IA aplicada · Produto em evolução
 
@@ -4316,37 +4131,6 @@ Currículo e portfólio completo — 2026-10-13.
 #### Habilidades
 
 - Integração de processos O script referencia res sem definição local e uma CLI externa; não foi comprovado funcionamento.
-
- Computação visual · Experimento
-
-### Three.js — cenas e modelos 3D web
- Contexto: Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo
- Vínculo: Projetos independentes, pesquisa e produtos
- Área de aplicação: Computação gráfica e desenvolvimento web 3D.
- Público e contexto: Estudos de cenas, modelos e interação.
- Objetivo: Explorar renderização de cenas e recursos tridimensionais no navegador.
- Aplicação exploratória para carregar modelos FBX, configurar câmera e iluminação e renderizar cenas 3D no navegador. Um servidor Express fornece a base para servir a interface e os assets.
- Problema e público: Explorar cenas e modelos interativos — Estudo e prototipação.
- Entrega: Cena e interação 3D em página web.
- Profundidade demonstrada: Experimento: profundidade expressa pela arquitetura, métodos e artefatos.
- Estrutura: Cena, interação, canvas e servidor para apresentação de uma experiência 3D web.
- Métodos: Three.js; câmera; modelos; servidor web.
- Áreas de aplicação: Computação gráfica; interação 3D web.
-
-#### Stack
-
-- JavaScript
-- Three.js
-- WebGL
-- FBXLoader
-- OrbitControls
-- Express
-
-#### Habilidades
-
-- Renderização 3D
-- Composição de cenas
-- Integração de assets Não demonstra uma plataforma 3D comercial.
 
  Arquivo e estudos · Sem código identificável
 
@@ -4779,7 +4563,7 @@ Currículo e portfólio completo — 2026-10-13.
 
 - Indicadores hospitalares e gamificação acadêmica EBSERH: estágio; The Game Project: faculdade No estágio hospitalar, desenvolvi sistema web de indicadores e avaliações com Java EE. Na faculdade, construí uma aplicação de gestão de projetos com gamificação e persistência, explorando regras de progressão e organização de tarefas.
 
-- Marketplace, automações e interação 3D Vínculos individuais a contextualizar Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.
+- Marketplace, automações e produtos Vínculos individuais a contextualizar Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial e finanças pessoais.
  Tecnologias e métodos: React Native · Expo · AsyncStorage · React Navigation · APIs · Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz · Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
 
 ### Agronegócio, gestão operacional e sistemas corporativos
@@ -4887,20 +4671,18 @@ Currículo e portfólio completo — 2026-10-13.
  Tecnologias e métodos: Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT
 
 ### Interfaces 3D, mapas e experiências interativas
- Exploração de interfaces espaciais, mapas, modelos e mundos interativos em projetos independentes. O trabalho combina renderização no navegador, interação, física e visualização geográfica; os cases mantêm o contexto de protótipos e estudos.
+ Exploração de interfaces espaciais, mapas, pose e avatares 3D em projetos independentes. O trabalho combina renderização no navegador, interação e visualização geográfica; os cases mantêm o contexto de protótipos.
 
 #### Competências aplicadas
 
-- Cenas 3D, componentes de interação e estado da aplicação
-- Modelos, animação, física e renderização WebGL
+- Estimação de pose e avatares 3D
+- Interação e renderização no navegador
 - Mapas, rotas e visualização geoespacial
 
 #### Cases e contextos de origem
 
-- Dente de Leão — mundo e interação narrativa Protótipo independente Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.
-
-- Mapas, modelos e exploração espacial Logística, Leaflet, threejs e movimento_3D Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.
- Tecnologias e métodos: TypeScript · React Three Fiber · Three.js · Rapier · Zustand · JavaScript · React · Leaflet · Canvas · FBX
+- Mapas e exploração espacial Logística Explorei visualização espacial com Leaflet no protótipo de Logística, construindo interfaces de mapa, desenho de áreas e roteamento.
+ Tecnologias e métodos: JavaScript · React · Leaflet · Canvas
 
 ### Algoritmos, estruturas de dados e resolução de problemas
  Prática complementar de 120 horas de LeetCode: arrays, hashing, busca binária, árvores, grafos, heaps, programação dinâmica e backtracking. O repertório apoia a análise de complexidade e a escolha de estruturas e estratégias de solução.

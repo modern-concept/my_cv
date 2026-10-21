@@ -65,10 +65,10 @@ GROUPS=[
   ['Windows/Linux, Active Directory, redes e administração de servidores','Monitoramento, service desk, backup, recuperação e disponibilidade','Gestão de equipe, priorização e integração entre tecnologia e operação'],
   ['Windows/Linux, Active Directory, networks and server administration','Monitoring, service desk, backup, recovery and availability','Team management, prioritization and technology–operations integration'],['case-infra-1']),
  ('spatial','Interfaces 3D, mapas e experiências interativas','3D interfaces, maps and interactive experiences',
-  'Exploração de interfaces espaciais, mapas, modelos e mundos interativos em projetos independentes. O trabalho combina renderização no navegador, interação, física e visualização geográfica; os cases mantêm o contexto de protótipos e estudos.',
-  'Exploration of spatial interfaces, maps, models and interactive worlds in independent projects. This work combines browser rendering, interaction, physics and geographic visualization; the cases retain their prototype and study context.',
-  ['Cenas 3D, componentes de interação e estado da aplicação','Modelos, animação, física e renderização WebGL','Mapas, rotas e visualização geoespacial'],
-  ['3D scenes, interaction components and application state','Models, animation, physics and WebGL rendering','Maps, routes and geospatial visualization'],['case-grafica-']),
+  'Exploração de interfaces espaciais, mapas, pose e avatares 3D em projetos independentes. O trabalho combina renderização no navegador, interação e visualização geográfica; os cases mantêm o contexto de protótipos.',
+  'Exploration of spatial interfaces, maps, pose and 3D avatars in independent projects. This work combines browser rendering, interaction and geographic visualization; the cases retain their prototype context.',
+  ['Estimação de pose e avatares 3D','Interação e renderização no navegador','Mapas, rotas e visualização geoespacial'],
+  ['Pose estimation and 3D avatars','Browser interaction and rendering','Maps, routes and geospatial visualization'],['case-grafica-']),
 ]
 
 def render(cases, priorities, language='pt', stacks=None):

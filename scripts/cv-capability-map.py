@@ -10,7 +10,7 @@ DIMENSIONS = [
  ('Mobile e offline','Mobile & offline',['Agrodan','planejamentoxavier']),
  ('MLOps e ciclo de modelos','MLOps & model lifecycle',['mt5','DvrPersonAlert']),
  ('Decisão e otimização','Decision & optimization',['utilibox','[EFS-AHP]','AlgoritmosGeneticos','cartola_oracle','Logistica','Agrodan']),
- ('3D e geoespacial','3D & geospatial',['dente_de_leao','mocap','movimento_3D','Logistica','Agrodan']),
+ ('3D e geoespacial','3D & geospatial',['mocap','Logistica','Agrodan']),
 ]
 SECTORS = [
  ('Agro e indústria','Agriculture & industry',['Agrodan','agrodan-fruit-vision-platform','AlgoritmosGeneticos']),
@@ -19,7 +19,7 @@ SECTORS = [
  ('Operações e logística','Operations & logistics',['Agrodan','Logistica','utilibox']),
  ('Saúde','Healthcare',['ebserh']),
  ('Produtos digitais e CRM','Digital products & CRM',['planejamentoxavier','launch_with_me','instagram-conversion-crm','Scrapers','instabot']),
- ('Interação e visão','Interaction & vision',['DvrPersonAlert','mocap','dente_de_leao','movimento_3D']),
+ ('Interação e visão','Interaction & vision',['DvrPersonAlert','mocap']),
 ]
 STACKS = [
  ('Python / dados / ML','Python / data / ML',{'Python','pandas','scikit-learn','PyTorch','TensorFlow.js','OpenCV','NumPy'}),

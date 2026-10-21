@@ -1147,12 +1147,9 @@ Senior Software Engineer | AI, Automation & Tech Lead
 
 
 
-### Marketplace, automation and 3D interaction
+### Marketplace, automation and products
  Independent projects, prototypes and research
- Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.
- Application area: Games, interactive narrative and 3D graphics.
- Users and context: Interactive narrative experience exploration.
- Objective: Build an exploration environment with interaction, physics and narrative elements.
+ Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection and personal finance.
  Application area: Entrepreneurship, marketplaces and product validation.
  Users and context: Product creators and potential users.
  Objective: Connect product proposals, discovery and validation in a web platform.
@@ -1170,7 +1167,7 @@ Senior Software Engineer | AI, Automation & Tech Lead
 #### Engineering and implementation
 
 - Product roles and integrations organize campaigns and commercial workflows.
-- Supervised automation and interactive prototypes explore different product domains. Technologies and methods: Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
+- Supervised automation explores different product domains. Technologies and methods: Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
 
 
 
@@ -1210,42 +1207,18 @@ Senior Software Engineer | AI, Automation & Tech Lead
 ## Technical cases — 3D and spatial visualization
 
 
-### Dente de Leão — interactive narrative world
+### Maps and spatial exploration
  Independent projects, prototypes and research
- Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.
- Application area: Games, interactive narrative and 3D graphics.
- Users and context: Interactive narrative experience exploration.
- Objective: Build an exploration environment with interaction, physics and narrative elements.
-
-
-#### Engineering and implementation
-
-- World, player, camera and interactions are organized into game modules.
-- React Three Fiber, Rapier and Zustand integrate rendering, physics and application state. Technologies and methods: TypeScript · React Three Fiber · Three.js · Rapier · Zustand
-
-
-
-### Maps, models and spatial exploration
- Independent projects, prototypes and research
- Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.
- Application area: Maps, routing and geographic interfaces.
- Users and context: Spatial information visualization and exploration.
- Objective: Represent geographic data and routes in a web interface.
+ Explored spatial visualization with Leaflet in the Logistics prototype, building map, area-drawing and routing interfaces.
  Application area: Logistics, routing and geospatial analysis.
  Users and context: Travel planning and logistics operations.
  Objective: Represent locations and routes on maps and support routing decisions.
- Application area: Computer graphics and model visualization.
- Users and context: 3D scene and movement studies.
- Objective: Explore 3D model presentation and movement.
- Application area: Computer graphics and 3D web development.
- Users and context: Scene, model and interaction studies.
- Objective: Explore browser rendering of scenes and 3D assets.
 
 
 #### Engineering and implementation
 
-- Logistics and Leaflet projects combine map interfaces and routing components.
-- Three.js experiments include scenes, interaction and model loading using third-party libraries. Technologies and methods: JavaScript · React · Leaflet · Three.js · Canvas · FBX
+- The Logistics project combines map interfaces, drawing and routing components.
+- Routing experiments connect spatial visualization with logistics planning. Technologies and methods: JavaScript · React · Leaflet · Canvas
 
 
 
@@ -2948,26 +2921,6 @@ Senior Software Engineer | AI, Automation & Tech Lead
 
 
 
-### Dente de Leão — interactive narrative prototype
- Experimental browser 3D experience combining rendering, controls, camera, physics and narrative state.
- Application area: Games, interactive narrative and 3D graphics.
- Users and context: Interactive narrative experience exploration.
- Objective: Build an exploration environment with interaction, physics and narrative elements.
- Architecture: Input, world, character, camera, interaction and interface layers; visual assets and physics compose the 3D experience.
- Stack: TypeScript, React, Vite, Three.js, React Three Fiber, Drei, Rapier, Zustand
-
-
-
-### Doctoral study — educational genetic algorithm
- JavaScript exercise demonstrating population generation, fitness, selection, crossover and mutation against a target vector.
- Application area: Evolutionary algorithm teaching and research.
- Users and context: Academic experimentation.
- Objective: Explore solution representation, evolution and evaluation.
- Architecture: Genetic algorithm exercise exploring solution representation and evolution.
- Stack: JavaScript
-
-
-
 ### DVR Person Alert — vision and operational notifications
  RTSP monitoring application with person detection, Telegram alerts, local controls, detection review and state/transport components.
  Application area: Security, video monitoring and computer vision.
@@ -3018,16 +2971,6 @@ Senior Software Engineer | AI, Automation & Tech Lead
 
 
 
-### Leaflet — web maps and routing
- Map/routing experiment accompanied by a third-party Leaflet Routing Machine library; a reference for integration.
- Application area: Maps, routing and geographic interfaces.
- Users and context: Spatial information visualization and exploration.
- Objective: Represent geographic data and routes in a web interface.
- Architecture: Map interface and routing library integration, including studies and third-party examples.
- Stack: JavaScript, HTML, Leaflet, Leaflet Routing Machine
-
-
-
 ### Job Assistant — supervised automation and fit ranking
  Local CLI collecting and ranking vacancies, organizing fit criteria and assisting applications with human review, typed configuration and SQLite history.
  Application area: Careers, recruitment and supervised automation.
@@ -3068,16 +3011,6 @@ Senior Software Engineer | AI, Automation & Tech Lead
 
 
 
-### Movimento 3D — model visualization
- Exploratory browser scene and FBX-loading experiment for graphical resources and movement.
- Application area: Computer graphics and model visualization.
- Users and context: 3D scene and movement studies.
- Objective: Explore 3D model presentation and movement.
- Architecture: Visualization application with FBX model loading and 3D rendering.
- Stack: JavaScript, HTML, Three.js, FBXLoader
-
-
-
 ### TraderMind — quantitative research and model pipelines
  Research laboratory and operational dashboard combining time-series collection, features, training, backtests, out-of-sample evaluation and API/MetaTrader5 integration.
  Application area: AI, Machine Learning and MLOps for quantitative research.
@@ -3085,16 +3018,6 @@ Senior Software Engineer | AI, Automation & Tech Lead
  Objective: Structure the data, training, temporal validation, inference and model supervision lifecycle; integrate signals and policies with MetaTrader5.
  Architecture: Studies and notebooks connected to an inference API, Python MetaTrader5 connector, configuration, supervision and operational dashboards.
  Stack: Python, JavaScript, MetaTrader 5, pandas, NumPy, scikit-learn, XGBoost, Flask, SQLite, Jupyter, PyTorch, TensorFlow, LightGBM, CatBoost, SciPy, statsmodels, DEAP, joblib
-
-
-
-### OSORACLE — narrative knowledge organization
- Obsidian vault organizing characters, chapters, references and dashboards for creative-project documentation.
- Application area: Writing, narratives and knowledge organization.
- Users and context: Writers and narrative world organization.
- Objective: Structure information, entities and relationships in a narrative domain.
- Architecture: Thematic organization of characters, chapters, bestiary, references and original narrative materials.
- Stack: Obsidian, Markdown
 
 
 
@@ -3176,16 +3099,6 @@ Senior Software Engineer | AI, Automation & Tech Lead
  Objective: Investigate connectivity measurements and their presentation.
  Architecture: Exploratory execution and request routines for connectivity diagnostics.
  Stack: JavaScript, Node.js, child_process, speedtest-net, fast-speedtest-api, Axios
-
-
-
-### Three.js — browser scenes and 3D models
- Exploratory application for FBX loading, cameras, lighting and browser rendering, with Express serving interface assets.
- Application area: Computer graphics and 3D web development.
- Users and context: Scene, model and interaction studies.
- Objective: Explore browser rendering of scenes and 3D assets.
- Architecture: Scene, interaction, canvas and server for a 3D web experience.
- Stack: JavaScript, Three.js, WebGL, FBXLoader, OrbitControls, Express
 
 
 
@@ -3510,7 +3423,7 @@ Senior Software Engineer | AI, Automation & Tech Lead
 
 - Hospital indicators and academic gamification Hospital internship and university project During the hospital internship, developed a Java EE web system for indicators and assessments. At university, built a project-management application with gamification and persistence, exploring progression rules and task organization.
 
-- Marketplace, automation and 3D interaction Independent projects, prototypes and research Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.
+- Marketplace, automation and products Independent projects, prototypes and research Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection and personal finance.
  Technologies and methods: React Native · Expo · AsyncStorage · React Navigation · APIs · Java EE · EJB · JSF · PrimeFaces · JPA/Hibernate · JPQL · Quartz · Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite
 
 
@@ -3635,21 +3548,19 @@ Senior Software Engineer | AI, Automation & Tech Lead
 
 
 ### 3D interfaces, maps and interactive experiences
- Exploration of spatial interfaces, maps, models and interactive worlds in independent projects. This work combines browser rendering, interaction, physics and geographic visualization; the cases retain their prototype and study context.
+ Exploration of spatial interfaces, maps, pose and 3D avatars in independent projects. This work combines browser rendering, interaction and geographic visualization; the cases retain their prototype context.
 
 
 #### Applied capabilities
 
-- 3D scenes, interaction components and application state
-- Models, animation, physics and WebGL rendering
+- Pose estimation and 3D avatars
+- Browser interaction and rendering
 - Maps, routes and geospatial visualization
 
 #### Source cases and contexts
 
-- Dente de Leão — interactive narrative world Independent projects, prototypes and research Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.
-
-- Maps, models and spatial exploration Independent projects, prototypes and research Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.
- Technologies and methods: TypeScript · React Three Fiber · Three.js · Rapier · Zustand · JavaScript · React · Leaflet · Canvas · FBX
+- Maps and spatial exploration Independent projects, prototypes and research Explored spatial visualization with Leaflet in the Logistics prototype, building map, area-drawing and routing interfaces.
+ Technologies and methods: JavaScript · React · Leaflet · Canvas
 
 
 

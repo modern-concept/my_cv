@@ -1937,32 +1937,28 @@
         "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
       },
       {
-        "title": "Marketplace, automações e interação 3D",
+        "title": "Marketplace, automações e produtos",
         "context": "Vínculos individuais a contextualizar",
         "problem": "Ligar regras de produto, fontes externas e interfaces a experiências completas",
         "implementation": [
           "Launch With Me: rotas por papéis, schema, migrations, RLS/RPC e missões/evidências.",
           "Scrapers: adaptadores por site, runner, supervisão e distribuição de ofertas.",
           "Job Assistant: Playwright, ranking por regras, CLI e revisão humana.",
-          "Minhas Finanças: Pluggy, classificação por regras, agregações e SQLite.",
-          "Dente de Leão: React Three Fiber, Rapier, Zustand, câmera, interação e HUD."
+          "Minhas Finanças: Pluggy, classificação por regras, agregações e SQLite."
         ],
         "skills": [
           "Product engineering",
           "RLS e modelagem de acesso",
           "Automação supervisionada",
-          "Open Finance",
-          "Computação gráfica",
-          "Física e estado de jogo"
+          "Open Finance"
         ],
         "sources": [
-          "dente_de_leao/README.md",
           "launch_with_me/docs/ARQUITETURA.md",
           "linkedin-job-assistant/README.md",
           "minhas-financas/README.md",
           "Scrapers/README.md"
         ],
-        "text": "Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.",
+        "text": "Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial e finanças pessoais.",
         "limit": "Não atribuir faturamento, escala ou publicação sem dados; pagamentos e recursos planejados têm maturidade variável.",
         "id": "case-produto-2",
         "relatedContextAnchors": [
@@ -2030,65 +2026,25 @@
         "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
       },
       {
-        "title": "Dente de Leão — mundo e interação narrativa",
-        "context": "Protótipo independente",
-        "problem": "Construir uma experiência de exploração e interação em ambiente 3D",
-        "implementation": [
-          "src/core concentra entrada do usuário.",
-          "src/game organiza mundo, personagem, câmera e interação.",
-          "src/ui contém elementos de HUD.",
-          "React Three Fiber, Rapier e Zustand articulam renderização, física e estado."
-        ],
-        "skills": [
-          "Renderização 3D",
-          "Input e câmera",
-          "Física",
-          "Estado de jogo",
-          "Interação narrativa",
-          "Arquitetura de protótipo"
-        ],
-        "sources": [
-          "dente_de_leao/README.md",
-          "dente_de_leao/src/game/World.tsx",
-          "dente_de_leao/src/game/player/Player.tsx",
-          "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-          "dente_de_leao/package.json"
-        ],
-        "text": "Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.",
-        "limit": "É um protótipo no navegador; não afirmar lançamento comercial de jogo, engine própria ou desenvolvimento Unity a partir dele.",
-        "id": "case-grafica-1",
-        "relatedContextAnchors": [
-          "projetos"
-        ],
-        "depth": "Arquitetura e métodos descritos pelos artefatos abaixo; implantação e impacto conforme o contexto."
-      },
-      {
-        "title": "Mapas, modelos e exploração espacial",
-        "context": "Logística, Leaflet, threejs e movimento_3D",
-        "problem": "Representar informação e interação em espaços geográficos ou cenas",
+        "title": "Mapas e exploração espacial",
+        "context": "Logística",
+        "problem": "Representar informação e percursos em espaços geográficos",
         "implementation": [
           "Logística reúne componentes de mapa, canvas, desenho e roteirização.",
-          "Leaflet inclui uma página própria e biblioteca de roteamento de terceiros.",
-          "threejs e movimento_3D contêm experiências de cenas, interação e carregamento de modelos.",
           "Loaders/bibliotecas incluídos são componentes reutilizados; não autoria própria."
         ],
         "skills": [
           "Mapas interativos",
           "Visualização geoespacial",
           "Geometria",
-          "Carregamento de modelos",
-          "Three.js",
           "Prototipação visual"
         ],
         "sources": [
-          "Leaflet/index.html",
-          "Logistica/src/leaflet/Roteirizador.js",
-          "movimento_3D/3d.html",
-          "threejs/app.js"
+          "Logistica/src/leaflet/Roteirizador.js"
         ],
-        "text": "Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.",
-        "limit": "Não comprova especialização GIS completa, sensoriamento remoto operacional ou desenvolvimento de bibliotecas de renderização.",
-        "id": "case-grafica-2",
+        "text": "Explorei visualização espacial com Leaflet no protótipo de Logística, construindo interfaces de mapa, desenho de áreas e roteamento.",
+        "limit": "Não comprova especialização GIS completa nem sensoriamento remoto operacional.",
+        "id": "case-grafica-1",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -3737,149 +3693,6 @@
         "demonstratedDepth": "Aplicação em desenvolvimento: profundidade expressa pela arquitetura, métodos e artefatos."
       },
       {
-        "id": "dente_de_leao",
-        "title": "Dente de Leão — experiência narrativa interativa",
-        "area": "Computação visual",
-        "status": "Protótipo autoral",
-        "priority": "Complementar",
-        "summary": "Jogo narrativo experimental que explora personagens, cenários e interação em uma aplicação web 3D. A arquitetura combina renderização, controles, câmera, física e estado narrativo para construir uma experiência interativa evolutiva.",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Vite",
-          "Three.js",
-          "React Three Fiber",
-          "Drei",
-          "Rapier",
-          "Zustand"
-        ],
-        "skills": [
-          "Renderização 3D",
-          "Arquitetura de interação",
-          "Gerenciamento de estado",
-          "Prototipação de produto"
-        ],
-        "structure": "src/core cuida de input; src/game concentra mundo, player, câmera e interação; src/ui contém HUD; assets fornece recursos visuais.",
-        "evidence": [
-          "README.md",
-          "src/game/World.tsx",
-          "src/game/player/Player.tsx",
-          "src/game/interact/useInteractionProbe.ts",
-          "package.json"
-        ],
-        "experience": "Construí um protótipo narrativo em React Three Fiber, articulando câmera, controle de personagem, interação e estado para explorar experiências 3D no navegador.",
-        "value": "Amplia a narrativa de engenharia com computação gráfica e construção de interfaces interativas.",
-        "limits": "Protótipo; não atribuir lançamento comercial ou métricas de jogadores.",
-        "breadth": {
-          "applicationAreas": [
-            "Narrativa",
-            "entretenimento",
-            "experiência interativa 3D"
-          ],
-          "intendedAudience": "Público de experiências narrativas",
-          "problemAndObjective": "Explorar interação e narrativa em um mundo 3D",
-          "domainMethods": "Câmera; controle de personagem; física; estado de jogo; HUD",
-          "engineering": "src/core cuida de input; src/game concentra mundo, player, câmera e interação; src/ui contém HUD; assets fornece recursos visuais.",
-          "observableDeliverables": "Protótipo de mundo interativo no navegador com React Three Fiber e Rapier",
-          "outcomesToConfirm": "Uso real, implantação, resultados quantitativos e participação individual ainda não confirmados; os arquivos demonstram artefatos e métodos.",
-          "chronology": {
-            "firstCompatibleCommit": "2026-02-14",
-            "lastCompatibleCommit": "2026-02-14",
-            "interpretation": "Datas de autoria Git compatíveis com Danillo; não são períodos de emprego nem duração de experiência."
-          }
-        },
-        "association": "Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo",
-        "manifests": [
-          {
-            "path": "package.json",
-            "name": "dente-de-leao",
-            "dependencies": {
-              "@react-three/drei": "^9.117.0",
-              "@react-three/fiber": "^8.17.12",
-              "@react-three/rapier": "^1.5.0",
-              "react": "^18.3.1",
-              "react-dom": "^18.3.1",
-              "three": "^0.182.0",
-              "zustand": "^4.5.5"
-            },
-            "devDependencies": {
-              "@types/node": "^20.11.30",
-              "@types/react": "^18.3.3",
-              "@types/react-dom": "^18.3.0",
-              "@vitejs/plugin-react": "^4.2.1",
-              "typescript": "^5.4.5",
-              "vite": "^5.4.21"
-            },
-            "scripts": [
-              "dev",
-              "build",
-              "preview"
-            ]
-          }
-        ],
-        "pythonImportsObserved": [
-          "PIL",
-          "argparse",
-          "math",
-          "pathlib"
-        ],
-        "sourceCoverage": 23,
-        "javaArtifacts": [],
-        "anchor": "projeto-9",
-        "relatedContextAnchors": [
-          "projetos"
-        ],
-        "demonstratedDepth": "Protótipo/experimentação: implementação exploratória sem escala comprovada."
-      },
-      {
-        "id": "Doutorado",
-        "title": "Doutorado — algoritmo genético didático",
-        "area": "Arquivo e estudos",
-        "status": "Estudo",
-        "priority": "Arquivo",
-        "summary": "Pasta com um algoritmo genético em JavaScript que demonstra geração de população, fitness, seleção, crossover e mutação para aproximar um vetor objetivo. Serve como exercício de fundamentos de computação evolutiva.",
-        "stack": [
-          "JavaScript"
-        ],
-        "skills": [
-          "Fundamentos de otimização evolutiva"
-        ],
-        "structure": "AG.js concentra o exercício.",
-        "evidence": [
-          "AG.js"
-        ],
-        "experience": "Implementei um exercício de algoritmo genético com seleção por roleta, crossover e mutação binária.",
-        "value": "Complementa a base conceitual de otimização.",
-        "limits": "Esta pasta em git é distinta do repositório Documents/doutorado que contém o CV.",
-        "breadth": {
-          "applicationAreas": [
-            "Ensino de algoritmos",
-            "computação evolutiva"
-          ],
-          "intendedAudience": "Estudo individual",
-          "problemAndObjective": "Explorar o funcionamento de busca evolutiva",
-          "domainMethods": "Implementação didática de algoritmo genético",
-          "engineering": "AG.js concentra o exercício.",
-          "observableDeliverables": "Exercício em AG.js; pasta distinta do repositório principal doutorado",
-          "outcomesToConfirm": "Uso real, implantação, resultados quantitativos e participação individual ainda não confirmados; os arquivos demonstram artefatos e métodos.",
-          "chronology": {
-            "firstCompatibleCommit": null,
-            "lastCompatibleCommit": null,
-            "interpretation": "Datas de autoria Git compatíveis com Danillo; não são períodos de emprego nem duração de experiência."
-          }
-        },
-        "association": "Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo",
-        "manifests": [],
-        "pythonImportsObserved": [],
-        "sourceCoverage": 1,
-        "javaArtifacts": [],
-        "anchor": "projeto-10",
-        "relatedContextAnchors": [
-          "projetos"
-        ],
-        "demonstratedDepth": "Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo."
-      },
-      {
         "id": "DvrPersonAlert",
         "title": "DVR Person Alert — visão computacional e alertas operacionais",
         "area": "IA aplicada",
@@ -3993,7 +3806,7 @@
         ],
         "sourceCoverage": 13,
         "javaArtifacts": [],
-        "anchor": "projeto-11",
+        "anchor": "projeto-9",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -4034,7 +3847,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 0,
         "javaArtifacts": [],
-        "anchor": "projeto-12",
+        "anchor": "projeto-10",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -4115,7 +3928,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 27,
         "javaArtifacts": [],
-        "anchor": "projeto-13",
+        "anchor": "projeto-11",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -4209,7 +4022,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 29,
         "javaArtifacts": [],
-        "anchor": "projeto-14",
+        "anchor": "projeto-12",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -4306,63 +4119,11 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 100,
         "javaArtifacts": [],
-        "anchor": "projeto-15",
+        "anchor": "projeto-13",
         "relatedContextAnchors": [
           "projetos"
         ],
         "demonstratedDepth": "MVP de produto: profundidade expressa pela arquitetura, métodos e artefatos."
-      },
-      {
-        "id": "Leaflet",
-        "title": "Leaflet — mapas e roteamento web",
-        "area": "Arquivo e estudos",
-        "status": "Experimento e biblioteca de terceiros",
-        "priority": "Arquivo",
-        "summary": "Experimento de mapas e roteamento web acompanhado por uma cópia da biblioteca Leaflet Routing Machine. Serve de referência para integração de mapas e rotas em interfaces.",
-        "stack": [
-          "JavaScript",
-          "HTML",
-          "Leaflet",
-          "Leaflet Routing Machine"
-        ],
-        "skills": [
-          "Integração de mapas"
-        ],
-        "structure": "index.html contém a interface; a árvore leaflet-routing-machine inclui código e exemplos do fornecedor.",
-        "evidence": [
-          "index.html"
-        ],
-        "experience": "Explorei integração de mapas e roteamento web com Leaflet.",
-        "value": "Complementa o projeto Logistica com repertório geoespacial.",
-        "limits": "Código vendorizado não comprova autoria da biblioteca.",
-        "breadth": {
-          "applicationAreas": [
-            "Cartografia",
-            "mapas",
-            "roteamento"
-          ],
-          "intendedAudience": "Estudo de interfaces geográficas",
-          "problemAndObjective": "Experimentar rotas em mapa interativo",
-          "domainMethods": "Camadas cartográficas; interface de roteamento; integração de biblioteca",
-          "engineering": "index.html contém a interface; a árvore leaflet-routing-machine inclui código e exemplos do fornecedor.",
-          "observableDeliverables": "Página própria apoiada em biblioteca Leaflet Routing Machine de terceiros",
-          "outcomesToConfirm": "Uso real, implantação, resultados quantitativos e participação individual ainda não confirmados; os arquivos demonstram artefatos e métodos.",
-          "chronology": {
-            "firstCompatibleCommit": null,
-            "lastCompatibleCommit": null,
-            "interpretation": "Datas de autoria Git compatíveis com Danillo; não são períodos de emprego nem duração de experiência."
-          }
-        },
-        "association": "Estudo e integração com biblioteca de terceiros",
-        "manifests": [],
-        "pythonImportsObserved": [],
-        "sourceCoverage": 1,
-        "javaArtifacts": [],
-        "anchor": "projeto-16",
-        "relatedContextAnchors": [
-          "projetos"
-        ],
-        "demonstratedDepth": "Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo."
       },
       {
         "id": "linkedin-job-assistant",
@@ -4461,7 +4222,7 @@
         ],
         "sourceCoverage": 12,
         "javaArtifacts": [],
-        "anchor": "projeto-17",
+        "anchor": "projeto-14",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -4545,7 +4306,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 17,
         "javaArtifacts": [],
-        "anchor": "projeto-18",
+        "anchor": "projeto-15",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -4624,7 +4385,7 @@
         ],
         "sourceCoverage": 6,
         "javaArtifacts": [],
-        "anchor": "projeto-19",
+        "anchor": "projeto-16",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -4712,64 +4473,11 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 18,
         "javaArtifacts": [],
-        "anchor": "projeto-20",
+        "anchor": "projeto-17",
         "relatedContextAnchors": [
           "projetos"
         ],
         "demonstratedDepth": "Protótipo/experimentação: implementação exploratória sem escala comprovada."
-      },
-      {
-        "id": "movimento_3D",
-        "title": "Movimento 3D — visualização de modelos",
-        "area": "Computação visual",
-        "status": "Experimento",
-        "priority": "Complementar",
-        "summary": "Experimento web de visualização 3D com scripts de cena e carregamento de modelos FBX. Serve como base exploratória para manipular recursos gráficos e movimento no navegador.",
-        "stack": [
-          "JavaScript",
-          "HTML",
-          "Three.js",
-          "FBXLoader"
-        ],
-        "skills": [
-          "Renderização 3D",
-          "Integração de assets"
-        ],
-        "structure": "3d.html e app.js organizam a aplicação; FBXLoader.js e modulo/three.js fornecem bibliotecas.",
-        "evidence": [
-          "3d.html",
-          "app.js"
-        ],
-        "experience": "Explorei visualização de modelos 3D e integração de assets FBX no navegador.",
-        "value": "Complementa os cases Mocap e Dente de Leão.",
-        "limits": "Bibliotecas incluídas não são de autoria própria.",
-        "breadth": {
-          "applicationAreas": [
-            "Computação gráfica",
-            "modelos e movimento 3D"
-          ],
-          "intendedAudience": "Estudo de visualização",
-          "problemAndObjective": "Experimentar carregamento e exibição de modelos",
-          "domainMethods": "Three.js; carregamento FBX; cenas e animação",
-          "engineering": "3d.html e app.js organizam a aplicação; FBXLoader.js e modulo/three.js fornecem bibliotecas.",
-          "observableDeliverables": "Página experimental de visualização; loaders e bibliotecas são componentes de terceiros",
-          "outcomesToConfirm": "Uso real, implantação, resultados quantitativos e participação individual ainda não confirmados; os arquivos demonstram artefatos e métodos.",
-          "chronology": {
-            "firstCompatibleCommit": null,
-            "lastCompatibleCommit": null,
-            "interpretation": "Datas de autoria Git compatíveis com Danillo; não são períodos de emprego nem duração de experiência."
-          }
-        },
-        "association": "Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo",
-        "manifests": [],
-        "pythonImportsObserved": [],
-        "sourceCoverage": 2,
-        "javaArtifacts": [],
-        "anchor": "projeto-21",
-        "relatedContextAnchors": [
-          "projetos"
-        ],
-        "demonstratedDepth": "Experimento: profundidade expressa pela arquitetura, métodos e artefatos."
       },
       {
         "id": "mt5",
@@ -5120,62 +4828,11 @@
         ],
         "sourceCoverage": 1208,
         "javaArtifacts": [],
-        "anchor": "projeto-22",
+        "anchor": "projeto-18",
         "relatedContextAnchors": [
           "projetos"
         ],
         "demonstratedDepth": "Laboratório com operação demo documentada: profundidade expressa pela arquitetura, métodos e artefatos."
-      },
-      {
-        "id": "Osoracle",
-        "title": "OSORACLE — organização de conhecimento narrativo",
-        "area": "Arquivo e estudos",
-        "status": "Acervo de conteúdo",
-        "priority": "Arquivo",
-        "summary": "Vault Obsidian que organiza documentos narrativos em personagens, capítulos, referências e painéis. Serve como estrutura de conhecimento e documentação para projetos criativos.",
-        "stack": [
-          "Obsidian",
-          "Markdown"
-        ],
-        "skills": [
-          "Organização de conhecimento",
-          "Documentação"
-        ],
-        "structure": "Pastas temáticas agrupam personagens, capítulos, bestiário, referências e materiais originais.",
-        "evidence": [
-          "Osoracle/README.md"
-        ],
-        "experience": "Organizei um acervo narrativo em um vault interligado, estruturando referências e documentação de conteúdo.",
-        "value": "Complementa a habilidade de documentação e organização de domínio.",
-        "limits": "Não há evidência suficiente para descrevê-lo como sistema de IA ou grafo computacional implementado.",
-        "breadth": {
-          "applicationAreas": [
-            "Escrita",
-            "worldbuilding",
-            "gestão de conhecimento"
-          ],
-          "intendedAudience": "Autor e pesquisa narrativa",
-          "problemAndObjective": "Organizar personagens, referências e universo ficcional",
-          "domainMethods": "Estrutura temática; notas Markdown; gestão de referências",
-          "engineering": "Pastas temáticas agrupam personagens, capítulos, bestiário, referências e materiais originais.",
-          "observableDeliverables": "Acervo narrativo de notas; não demonstra sistema de IA ou grafo computacional implementado",
-          "outcomesToConfirm": "Uso real, implantação, resultados quantitativos e participação individual ainda não confirmados; os arquivos demonstram artefatos e métodos.",
-          "chronology": {
-            "firstCompatibleCommit": null,
-            "lastCompatibleCommit": null,
-            "interpretation": "Datas de autoria Git compatíveis com Danillo; não são períodos de emprego nem duração de experiência."
-          }
-        },
-        "association": "Acervo de conteúdo e referências",
-        "manifests": [],
-        "pythonImportsObserved": [],
-        "sourceCoverage": 0,
-        "javaArtifacts": [],
-        "anchor": "projeto-23",
-        "relatedContextAnchors": [
-          "projetos"
-        ],
-        "demonstratedDepth": "Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo."
       },
       {
         "id": "planejamentoxavier",
@@ -5352,7 +5009,7 @@
         "javaArtifacts": [
           "android/gradle/wrapper/gradle-wrapper.jar"
         ],
-        "anchor": "projeto-24",
+        "anchor": "projeto-19",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -5492,7 +5149,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 261,
         "javaArtifacts": [],
-        "anchor": "projeto-25",
+        "anchor": "projeto-20",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -5542,7 +5199,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 0,
         "javaArtifacts": [],
-        "anchor": "projeto-26",
+        "anchor": "projeto-21",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -5633,7 +5290,7 @@
         "javaArtifacts": [
           "hello/android/gradle/wrapper/gradle-wrapper.jar"
         ],
-        "anchor": "projeto-27",
+        "anchor": "projeto-22",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -5703,7 +5360,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 3,
         "javaArtifacts": [],
-        "anchor": "projeto-28",
+        "anchor": "projeto-23",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -5852,7 +5509,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 120,
         "javaArtifacts": [],
-        "anchor": "projeto-29",
+        "anchor": "projeto-24",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -5925,7 +5582,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 10,
         "javaArtifacts": [],
-        "anchor": "projeto-30",
+        "anchor": "projeto-25",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -6000,82 +5657,11 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 4,
         "javaArtifacts": [],
-        "anchor": "projeto-31",
+        "anchor": "projeto-26",
         "relatedContextAnchors": [
           "projetos"
         ],
         "demonstratedDepth": "Estudo, referência, configuração ou versão histórica; alcance detalhado abaixo."
-      },
-      {
-        "id": "threejs",
-        "title": "Three.js — cenas e modelos 3D web",
-        "area": "Computação visual",
-        "status": "Experimento",
-        "priority": "Complementar",
-        "summary": "Aplicação exploratória para carregar modelos FBX, configurar câmera e iluminação e renderizar cenas 3D no navegador. Um servidor Express fornece a base para servir a interface e os assets.",
-        "stack": [
-          "JavaScript",
-          "Three.js",
-          "WebGL",
-          "FBXLoader",
-          "OrbitControls",
-          "Express"
-        ],
-        "skills": [
-          "Renderização 3D",
-          "Composição de cenas",
-          "Integração de assets"
-        ],
-        "structure": "app.js contém cena e interação; index.html apresenta o canvas; server.js serve a aplicação.",
-        "evidence": [
-          "app.js",
-          "server.js",
-          "package.json"
-        ],
-        "experience": "Explorei cenas 3D com carregamento de modelos FBX, câmera e iluminação usando Three.js e um servidor Express.",
-        "value": "Complementa a trajetória de computação visual.",
-        "limits": "Não demonstra uma plataforma 3D comercial.",
-        "breadth": {
-          "applicationAreas": [
-            "Computação gráfica",
-            "interação 3D web"
-          ],
-          "intendedAudience": "Estudo e prototipação",
-          "problemAndObjective": "Explorar cenas e modelos interativos",
-          "domainMethods": "Three.js; câmera; modelos; servidor web",
-          "engineering": "app.js contém cena e interação; index.html apresenta o canvas; server.js serve a aplicação.",
-          "observableDeliverables": "Cena e interação 3D em página web",
-          "outcomesToConfirm": "Uso real, implantação, resultados quantitativos e participação individual ainda não confirmados; os arquivos demonstram artefatos e métodos.",
-          "chronology": {
-            "firstCompatibleCommit": null,
-            "lastCompatibleCommit": null,
-            "interpretation": "Datas de autoria Git compatíveis com Danillo; não são períodos de emprego nem duração de experiência."
-          }
-        },
-        "association": "Iniciativa independente — portfólio de desenvolvimento, pesquisa e empreendedorismo",
-        "manifests": [
-          {
-            "path": "package.json",
-            "name": "threejs",
-            "dependencies": {
-              "express": "^4.17.1",
-              "fflate": "^0.6.9",
-              "three": "^0.128.0"
-            },
-            "devDependencies": {},
-            "scripts": [
-              "start"
-            ]
-          }
-        ],
-        "pythonImportsObserved": [],
-        "sourceCoverage": 3,
-        "javaArtifacts": [],
-        "anchor": "projeto-32",
-        "relatedContextAnchors": [
-          "projetos"
-        ],
-        "demonstratedDepth": "Experimento: profundidade expressa pela arquitetura, métodos e artefatos."
       },
       {
         "id": "Unity",
@@ -6112,7 +5698,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 0,
         "javaArtifacts": [],
-        "anchor": "projeto-33",
+        "anchor": "projeto-27",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -6275,7 +5861,7 @@
         ],
         "sourceCoverage": 1314,
         "javaArtifacts": [],
-        "anchor": "projeto-34",
+        "anchor": "projeto-28",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -6411,7 +5997,7 @@
         ],
         "sourceCoverage": 1216,
         "javaArtifacts": [],
-        "anchor": "projeto-35",
+        "anchor": "projeto-29",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -6483,7 +6069,7 @@
         "pythonImportsObserved": [],
         "sourceCoverage": 2,
         "javaArtifacts": [],
-        "anchor": "projeto-36",
+        "anchor": "projeto-30",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -6548,7 +6134,7 @@
           "observableDeliverables": "Arquitetura funcional e técnica entregue, apresentação interativa bilíngue, modelo de agentes, arquitetura de dados, política de execução e roadmap de implementação",
           "domainMethods": "Máquina de estados; agentes especializados; RAG contextual; rastreabilidade de evidências; auditoria contínua; human-in-the-loop"
         },
-        "anchor": "projeto-37",
+        "anchor": "projeto-31",
         "relatedContextAnchors": [
           "projetos"
         ],
@@ -6624,7 +6210,7 @@
           "reportedFruitCountingPrecisionPercent": 98,
           "attribution": "Resultados do projeto/equipe conforme relatório final; contribuição de Danillo como desenvolvedor."
         },
-        "anchor": "projeto-38",
+        "anchor": "projeto-32",
         "relatedContextAnchors": [
           "vinculo-agrodan"
         ],
@@ -7398,32 +6984,28 @@
             "limit": "Despacho por intenção não é sozinho arquitetura multiagente; não comprova banco vetorial/RAG/MCP implementado."
           },
           {
-            "title": "Marketplace, automações e interação 3D",
+            "title": "Marketplace, automações e produtos",
             "context": "Vínculos individuais a contextualizar",
             "problem": "Ligar regras de produto, fontes externas e interfaces a experiências completas",
             "implementation": [
               "Launch With Me: rotas por papéis, schema, migrations, RLS/RPC e missões/evidências.",
               "Scrapers: adaptadores por site, runner, supervisão e distribuição de ofertas.",
               "Job Assistant: Playwright, ranking por regras, CLI e revisão humana.",
-              "Minhas Finanças: Pluggy, classificação por regras, agregações e SQLite.",
-              "Dente de Leão: React Three Fiber, Rapier, Zustand, câmera, interação e HUD."
+              "Minhas Finanças: Pluggy, classificação por regras, agregações e SQLite."
             ],
             "skills": [
               "Product engineering",
               "RLS e modelagem de acesso",
               "Automação supervisionada",
-              "Open Finance",
-              "Computação gráfica",
-              "Física e estado de jogo"
+              "Open Finance"
             ],
             "sources": [
-              "dente_de_leao/README.md",
               "launch_with_me/docs/ARQUITETURA.md",
               "linkedin-job-assistant/README.md",
               "minhas-financas/README.md",
               "Scrapers/README.md"
             ],
-            "text": "Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial, finanças pessoais e experiência narrativa 3D.",
+            "text": "Estruturei produtos e protótipos com regras de acesso, integrações e fluxos supervisionados, incluindo marketplace, coleta comercial e finanças pessoais.",
             "limit": "Não atribuir faturamento, escala ou publicação sem dados; pagamentos e recursos planejados têm maturidade variável."
           }
         ],
@@ -7508,67 +7090,31 @@
       {
         "id": "grafica",
         "title": "Computação gráfica, experiência 3D e geoinformação",
-        "intro": "O repertório visual inclui cena, câmera, física, interação e mapas. A origem das competências aparece nos protótipos 3D, no Mocap, na experiência narrativa e nos experimentos de logística.",
+        "intro": "O repertório visual inclui pose, avatares 3D, interação e mapas, com origem no Mocap e nos experimentos de logística.",
         "text": [
-          "Desenvolvi protótipos de interação e visualização no navegador, explorando cenas 3D, modelos, câmera, controle de personagem, física e interfaces de acompanhamento.",
-          "No Dente de Leão, a organização separa input, mundo, personagem, câmera e HUD; React Three Fiber, Rapier e Zustand apoiam renderização, física e estado. Em outros estudos, Three.js e loaders FBX ampliam o repertório de modelos e visualização.",
+          "Desenvolvi protótipos de interação e visualização no navegador, explorando estimação de pose, avatares 3D, mapas e interfaces de acompanhamento.",
           "Em geoinformação, utilizei Leaflet para representar áreas, desenho e roteamento, conectando visualização espacial a experimentos de planejamento logístico. No Mocap, a representação visual também é ligada à inferência de pose e ao movimento."
         ],
         "cases": [
           {
-            "title": "Dente de Leão — mundo e interação narrativa",
-            "context": "Protótipo independente",
-            "problem": "Construir uma experiência de exploração e interação em ambiente 3D",
-            "implementation": [
-              "src/core concentra entrada do usuário.",
-              "src/game organiza mundo, personagem, câmera e interação.",
-              "src/ui contém elementos de HUD.",
-              "React Three Fiber, Rapier e Zustand articulam renderização, física e estado."
-            ],
-            "skills": [
-              "Renderização 3D",
-              "Input e câmera",
-              "Física",
-              "Estado de jogo",
-              "Interação narrativa",
-              "Arquitetura de protótipo"
-            ],
-            "sources": [
-              "dente_de_leao/README.md",
-              "dente_de_leao/src/game/World.tsx",
-              "dente_de_leao/src/game/player/Player.tsx",
-              "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-              "dente_de_leao/package.json"
-            ],
-            "text": "Construí um protótipo narrativo 3D com controle de personagem, câmera, interação, física e HUD, organizando estado e renderização com React Three Fiber, Rapier e Zustand.",
-            "limit": "É um protótipo no navegador; não afirmar lançamento comercial de jogo, engine própria ou desenvolvimento Unity a partir dele."
-          },
-          {
-            "title": "Mapas, modelos e exploração espacial",
-            "context": "Logística, Leaflet, threejs e movimento_3D",
-            "problem": "Representar informação e interação em espaços geográficos ou cenas",
+            "title": "Mapas e exploração espacial",
+            "context": "Logística",
+            "problem": "Representar informação e percursos em espaços geográficos",
             "implementation": [
               "Logística reúne componentes de mapa, canvas, desenho e roteirização.",
-              "Leaflet inclui uma página própria e biblioteca de roteamento de terceiros.",
-              "threejs e movimento_3D contêm experiências de cenas, interação e carregamento de modelos.",
               "Loaders/bibliotecas incluídos são componentes reutilizados; não autoria própria."
             ],
             "skills": [
               "Mapas interativos",
               "Visualização geoespacial",
               "Geometria",
-              "Carregamento de modelos",
-              "Three.js",
               "Prototipação visual"
             ],
             "sources": [
-              "Leaflet/index.html",
-              "Logistica/src/leaflet/Roteirizador.js",
-              "movimento_3D/3d.html",
-              "threejs/app.js"
+              "Logistica/src/leaflet/Roteirizador.js"
             ],
-            "text": "Explorei visualização espacial e modelos 3D com Leaflet e Three.js, construindo interfaces de mapa, desenho, roteamento e interação com cenas.",
-            "limit": "Não comprova especialização GIS completa, sensoriamento remoto operacional ou desenvolvimento de bibliotecas de renderização."
+            "text": "Explorei visualização espacial com Leaflet no protótipo de Logística, construindo interfaces de mapa, desenho de áreas e roteamento.",
+            "limit": "Não comprova especialização GIS completa nem sensoriamento remoto operacional."
           }
         ],
         "flow": [
@@ -21463,10 +21009,9 @@
       },
       {
         "skill": "Product engineering",
-        "case": "Marketplace, automações e interação 3D",
+        "case": "Marketplace, automações e produtos",
         "context": "Vínculos individuais a contextualizar",
         "evidence": [
-          "dente_de_leao/README.md",
           "launch_with_me/docs/ARQUITETURA.md",
           "linkedin-job-assistant/README.md",
           "minhas-financas/README.md",
@@ -21475,10 +21020,9 @@
       },
       {
         "skill": "RLS e modelagem de acesso",
-        "case": "Marketplace, automações e interação 3D",
+        "case": "Marketplace, automações e produtos",
         "context": "Vínculos individuais a contextualizar",
         "evidence": [
-          "dente_de_leao/README.md",
           "launch_with_me/docs/ARQUITETURA.md",
           "linkedin-job-assistant/README.md",
           "minhas-financas/README.md",
@@ -21487,10 +21031,9 @@
       },
       {
         "skill": "Automação supervisionada",
-        "case": "Marketplace, automações e interação 3D",
+        "case": "Marketplace, automações e produtos",
         "context": "Vínculos individuais a contextualizar",
         "evidence": [
-          "dente_de_leao/README.md",
           "launch_with_me/docs/ARQUITETURA.md",
           "linkedin-job-assistant/README.md",
           "minhas-financas/README.md",
@@ -21499,34 +21042,9 @@
       },
       {
         "skill": "Open Finance",
-        "case": "Marketplace, automações e interação 3D",
+        "case": "Marketplace, automações e produtos",
         "context": "Vínculos individuais a contextualizar",
         "evidence": [
-          "dente_de_leao/README.md",
-          "launch_with_me/docs/ARQUITETURA.md",
-          "linkedin-job-assistant/README.md",
-          "minhas-financas/README.md",
-          "Scrapers/README.md"
-        ]
-      },
-      {
-        "skill": "Computação gráfica",
-        "case": "Marketplace, automações e interação 3D",
-        "context": "Vínculos individuais a contextualizar",
-        "evidence": [
-          "dente_de_leao/README.md",
-          "launch_with_me/docs/ARQUITETURA.md",
-          "linkedin-job-assistant/README.md",
-          "minhas-financas/README.md",
-          "Scrapers/README.md"
-        ]
-      },
-      {
-        "skill": "Física e estado de jogo",
-        "case": "Marketplace, automações e interação 3D",
-        "context": "Vínculos individuais a contextualizar",
-        "evidence": [
-          "dente_de_leao/README.md",
           "launch_with_me/docs/ARQUITETURA.md",
           "linkedin-job-assistant/README.md",
           "minhas-financas/README.md",
@@ -21632,141 +21150,35 @@
         ]
       },
       {
-        "skill": "Renderização 3D",
-        "case": "Dente de Leão — mundo e interação narrativa",
-        "context": "Protótipo independente",
-        "evidence": [
-          "dente_de_leao/README.md",
-          "dente_de_leao/src/game/World.tsx",
-          "dente_de_leao/src/game/player/Player.tsx",
-          "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-          "dente_de_leao/package.json"
-        ]
-      },
-      {
-        "skill": "Input e câmera",
-        "case": "Dente de Leão — mundo e interação narrativa",
-        "context": "Protótipo independente",
-        "evidence": [
-          "dente_de_leao/README.md",
-          "dente_de_leao/src/game/World.tsx",
-          "dente_de_leao/src/game/player/Player.tsx",
-          "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-          "dente_de_leao/package.json"
-        ]
-      },
-      {
-        "skill": "Física",
-        "case": "Dente de Leão — mundo e interação narrativa",
-        "context": "Protótipo independente",
-        "evidence": [
-          "dente_de_leao/README.md",
-          "dente_de_leao/src/game/World.tsx",
-          "dente_de_leao/src/game/player/Player.tsx",
-          "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-          "dente_de_leao/package.json"
-        ]
-      },
-      {
-        "skill": "Estado de jogo",
-        "case": "Dente de Leão — mundo e interação narrativa",
-        "context": "Protótipo independente",
-        "evidence": [
-          "dente_de_leao/README.md",
-          "dente_de_leao/src/game/World.tsx",
-          "dente_de_leao/src/game/player/Player.tsx",
-          "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-          "dente_de_leao/package.json"
-        ]
-      },
-      {
-        "skill": "Interação narrativa",
-        "case": "Dente de Leão — mundo e interação narrativa",
-        "context": "Protótipo independente",
-        "evidence": [
-          "dente_de_leao/README.md",
-          "dente_de_leao/src/game/World.tsx",
-          "dente_de_leao/src/game/player/Player.tsx",
-          "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-          "dente_de_leao/package.json"
-        ]
-      },
-      {
-        "skill": "Arquitetura de protótipo",
-        "case": "Dente de Leão — mundo e interação narrativa",
-        "context": "Protótipo independente",
-        "evidence": [
-          "dente_de_leao/README.md",
-          "dente_de_leao/src/game/World.tsx",
-          "dente_de_leao/src/game/player/Player.tsx",
-          "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-          "dente_de_leao/package.json"
-        ]
-      },
-      {
         "skill": "Mapas interativos",
-        "case": "Mapas, modelos e exploração espacial",
-        "context": "Logística, Leaflet, threejs e movimento_3D",
+        "case": "Mapas e exploração espacial",
+        "context": "Logística",
         "evidence": [
-          "Leaflet/index.html",
-          "Logistica/src/leaflet/Roteirizador.js",
-          "movimento_3D/3d.html",
-          "threejs/app.js"
+          "Logistica/src/leaflet/Roteirizador.js"
         ]
       },
       {
         "skill": "Visualização geoespacial",
-        "case": "Mapas, modelos e exploração espacial",
-        "context": "Logística, Leaflet, threejs e movimento_3D",
+        "case": "Mapas e exploração espacial",
+        "context": "Logística",
         "evidence": [
-          "Leaflet/index.html",
-          "Logistica/src/leaflet/Roteirizador.js",
-          "movimento_3D/3d.html",
-          "threejs/app.js"
+          "Logistica/src/leaflet/Roteirizador.js"
         ]
       },
       {
         "skill": "Geometria",
-        "case": "Mapas, modelos e exploração espacial",
-        "context": "Logística, Leaflet, threejs e movimento_3D",
+        "case": "Mapas e exploração espacial",
+        "context": "Logística",
         "evidence": [
-          "Leaflet/index.html",
-          "Logistica/src/leaflet/Roteirizador.js",
-          "movimento_3D/3d.html",
-          "threejs/app.js"
-        ]
-      },
-      {
-        "skill": "Carregamento de modelos",
-        "case": "Mapas, modelos e exploração espacial",
-        "context": "Logística, Leaflet, threejs e movimento_3D",
-        "evidence": [
-          "Leaflet/index.html",
-          "Logistica/src/leaflet/Roteirizador.js",
-          "movimento_3D/3d.html",
-          "threejs/app.js"
-        ]
-      },
-      {
-        "skill": "Three.js",
-        "case": "Mapas, modelos e exploração espacial",
-        "context": "Logística, Leaflet, threejs e movimento_3D",
-        "evidence": [
-          "Leaflet/index.html",
-          "Logistica/src/leaflet/Roteirizador.js",
-          "movimento_3D/3d.html",
-          "threejs/app.js"
+          "Logistica/src/leaflet/Roteirizador.js"
         ]
       },
       {
         "skill": "Prototipação visual",
-        "case": "Mapas, modelos e exploração espacial",
-        "context": "Logística, Leaflet, threejs e movimento_3D",
+        "case": "Mapas e exploração espacial",
+        "context": "Logística",
         "evidence": [
-          "Leaflet/index.html",
-          "Logistica/src/leaflet/Roteirizador.js",
-          "movimento_3D/3d.html",
-          "threejs/app.js"
+          "Logistica/src/leaflet/Roteirizador.js"
         ]
       },
       {
@@ -31284,40 +30696,6 @@
         }
       },
       {
-        "id": "dente_de_leao",
-        "pt": {
-          "applicationArea": "Jogos, narrativa interativa e computação gráfica 3D",
-          "audience": "Exploração de experiências narrativas interativas",
-          "objective": "Construir um ambiente de exploração com interação, física e elementos narrativos"
-        },
-        "en": {
-          "applicationArea": "Games, interactive narrative and 3D graphics",
-          "audience": "Interactive narrative experience exploration",
-          "objective": "Build an exploration environment with interaction, physics and narrative elements"
-        },
-        "architecture": {
-          "pt": "Camadas de entrada, mundo, personagem, câmera, interação e interface; recursos visuais e física compõem a experiência 3D.",
-          "en": "Input, world, character, camera, interaction and interface layers; visual assets and physics compose the 3D experience."
-        }
-      },
-      {
-        "id": "Doutorado",
-        "pt": {
-          "applicationArea": "Ensino e pesquisa de algoritmos evolutivos",
-          "audience": "Experimentação acadêmica",
-          "objective": "Explorar a representação, a evolução e a avaliação de soluções"
-        },
-        "en": {
-          "applicationArea": "Evolutionary algorithm teaching and research",
-          "audience": "Academic experimentation",
-          "objective": "Explore solution representation, evolution and evaluation"
-        },
-        "architecture": {
-          "pt": "Exercício de algoritmo genético para explorar a representação e a evolução de soluções.",
-          "en": "Genetic algorithm exercise exploring solution representation and evolution."
-        }
-      },
-      {
         "id": "DvrPersonAlert",
         "pt": {
           "applicationArea": "Segurança, monitoramento por vídeo e visão computacional",
@@ -31403,23 +30781,6 @@
         }
       },
       {
-        "id": "Leaflet",
-        "pt": {
-          "applicationArea": "Mapas, roteamento e interfaces geográficas",
-          "audience": "Visualização e exploração de informações espaciais",
-          "objective": "Representar dados geográficos e percursos em uma interface web"
-        },
-        "en": {
-          "applicationArea": "Maps, routing and geographic interfaces",
-          "audience": "Spatial information visualization and exploration",
-          "objective": "Represent geographic data and routes in a web interface"
-        },
-        "architecture": {
-          "pt": "Interface de mapas e integração com uma biblioteca de roteamento, incluindo estudos e exemplos de terceiros.",
-          "en": "Map interface and routing library integration, including studies and third-party examples."
-        }
-      },
-      {
         "id": "linkedin-job-assistant",
         "pt": {
           "applicationArea": "Carreira, recrutamento e automação supervisionada",
@@ -31488,23 +30849,6 @@
         }
       },
       {
-        "id": "movimento_3D",
-        "pt": {
-          "applicationArea": "Computação gráfica e visualização de modelos",
-          "audience": "Estudos de cenas e movimento tridimensional",
-          "objective": "Explorar a apresentação e o movimento de modelos 3D"
-        },
-        "en": {
-          "applicationArea": "Computer graphics and model visualization",
-          "audience": "3D scene and movement studies",
-          "objective": "Explore 3D model presentation and movement"
-        },
-        "architecture": {
-          "pt": "Aplicação de visualização com carregamento de modelos FBX e renderização tridimensional.",
-          "en": "Visualization application with FBX model loading and 3D rendering."
-        }
-      },
-      {
         "id": "mt5",
         "pt": {
           "applicationArea": "IA, Machine Learning e MLOps aplicados à pesquisa quantitativa",
@@ -31519,23 +30863,6 @@
         "architecture": {
           "pt": "Estudos e notebooks conectados a API de inferência, conector Python para MetaTrader5, configuração, supervisão e painéis operacionais.",
           "en": "Studies and notebooks connected to an inference API, Python MetaTrader5 connector, configuration, supervision and operational dashboards."
-        }
-      },
-      {
-        "id": "Osoracle",
-        "pt": {
-          "applicationArea": "Escrita, narrativas e organização do conhecimento",
-          "audience": "Autores e organização de universos narrativos",
-          "objective": "Estruturar informações, entidades e relações de um domínio narrativo"
-        },
-        "en": {
-          "applicationArea": "Writing, narratives and knowledge organization",
-          "audience": "Writers and narrative world organization",
-          "objective": "Structure information, entities and relationships in a narrative domain"
-        },
-        "architecture": {
-          "pt": "Organização temática de personagens, capítulos, bestiário, referências e materiais narrativos originais.",
-          "en": "Thematic organization of characters, chapters, bestiary, references and original narrative materials."
         }
       },
       {
@@ -31672,23 +30999,6 @@
         "architecture": {
           "pt": "Rotinas exploratórias de execução e requisições para diagnóstico de conectividade.",
           "en": "Exploratory execution and request routines for connectivity diagnostics."
-        }
-      },
-      {
-        "id": "threejs",
-        "pt": {
-          "applicationArea": "Computação gráfica e desenvolvimento web 3D",
-          "audience": "Estudos de cenas, modelos e interação",
-          "objective": "Explorar renderização de cenas e recursos tridimensionais no navegador"
-        },
-        "en": {
-          "applicationArea": "Computer graphics and 3D web development",
-          "audience": "Scene, model and interaction studies",
-          "objective": "Explore browser rendering of scenes and 3D assets"
-        },
-        "architecture": {
-          "pt": "Cena, interação, canvas e servidor para apresentação de uma experiência 3D web.",
-          "en": "Scene, interaction, canvas and server for a 3D web experience."
         }
       },
       {
@@ -32497,8 +31807,7 @@
         "produto-2": "Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite",
         "infra-1": "Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT",
         "infra-2": "Python · MetaTrader5 · Flask · SQLite · APIs locais",
-        "grafica-1": "TypeScript · React Three Fiber · Three.js · Rapier · Zustand",
-        "grafica-2": "JavaScript · React · Leaflet · Three.js · Canvas · FBX"
+        "grafica-1": "JavaScript · React · Leaflet · Canvas"
       },
       "layout": "original-complete-cv-with-projects",
       "appendicesDefault": "collapsed",
@@ -33199,12 +32508,12 @@
             "stack": "JavaScript · TypeScript · Astro · entities and relationships · Markdown"
           },
           {
-            "title": "Marketplace, automation and 3D interaction",
+            "title": "Marketplace, automation and products",
             "context": "Independent projects, prototypes and research",
-            "problem": "Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.",
+            "problem": "Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection and personal finance.",
             "implementation": [
               "Product roles and integrations organize campaigns and commercial workflows.",
-              "Supervised automation and interactive prototypes explore different product domains."
+              "Supervised automation explores different product domains."
             ],
             "skills": [
               "Next.js",
@@ -33215,13 +32524,12 @@
               "SQLite"
             ],
             "sources": [
-              "dente_de_leao/README.md",
               "launch_with_me/docs/ARQUITETURA.md",
               "linkedin-job-assistant/README.md",
               "minhas-financas/README.md",
               "Scrapers/README.md"
             ],
-            "text": "Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection, personal finance and a narrative 3D experience.",
+            "text": "Structured products and prototypes with access rules, integrations and supervised workflows, including a marketplace, commercial collection and personal finance.",
             "limit": "Revenue, scale and publication are not claimed without data. Payment integrations and planned features have varying maturity.",
             "id": "case-produto-2",
             "relatedContextAnchors": [
@@ -33289,66 +32597,30 @@
             "stack": "Python · MetaTrader5 · Flask · SQLite · local APIs"
           },
           {
-            "title": "Dente de Leão — interactive narrative world",
+            "title": "Maps and spatial exploration",
             "context": "Independent projects, prototypes and research",
-            "problem": "Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.",
+            "problem": "Explored spatial visualization with Leaflet in the Logistics prototype, building map, area-drawing and routing interfaces.",
             "implementation": [
-              "World, player, camera and interactions are organized into game modules.",
-              "React Three Fiber, Rapier and Zustand integrate rendering, physics and application state."
-            ],
-            "skills": [
-              "TypeScript",
-              "React Three Fiber",
-              "Three.js",
-              "Rapier",
-              "Zustand"
-            ],
-            "sources": [
-              "dente_de_leao/README.md",
-              "dente_de_leao/src/game/World.tsx",
-              "dente_de_leao/src/game/player/Player.tsx",
-              "dente_de_leao/src/game/interact/useInteractionProbe.ts",
-              "dente_de_leao/package.json"
-            ],
-            "text": "Built a narrative 3D prototype with character controls, camera, interaction, physics and HUD, organizing state and rendering with React Three Fiber, Rapier and Zustand.",
-            "limit": "A browser prototype; commercial release, a proprietary engine or Unity development are not established.",
-            "id": "case-grafica-1",
-            "relatedContextAnchors": [
-              "projetos"
-            ],
-            "depth": "Depth is described by the implementation and source evidence.",
-            "stack": "TypeScript · React Three Fiber · Three.js · Rapier · Zustand"
-          },
-          {
-            "title": "Maps, models and spatial exploration",
-            "context": "Independent projects, prototypes and research",
-            "problem": "Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.",
-            "implementation": [
-              "Logistics and Leaflet projects combine map interfaces and routing components.",
-              "Three.js experiments include scenes, interaction and model loading using third-party libraries."
+              "The Logistics project combines map interfaces, drawing and routing components.",
+              "Routing experiments connect spatial visualization with logistics planning."
             ],
             "skills": [
               "JavaScript",
               "React",
               "Leaflet",
-              "Three.js",
-              "Canvas",
-              "FBX"
+              "Canvas"
             ],
             "sources": [
-              "Leaflet/index.html",
-              "Logistica/src/leaflet/Roteirizador.js",
-              "movimento_3D/3d.html",
-              "threejs/app.js"
+              "Logistica/src/leaflet/Roteirizador.js"
             ],
-            "text": "Explored spatial visualization and 3D models with Leaflet and Three.js, building map, drawing, routing and scene-interaction interfaces.",
-            "limit": "This does not establish comprehensive GIS specialization, operational remote sensing or authorship of rendering libraries.",
-            "id": "case-grafica-2",
+            "text": "Explored spatial visualization with Leaflet in the Logistics prototype, building map, area-drawing and routing interfaces.",
+            "limit": "This does not establish comprehensive GIS specialization or operational remote sensing.",
+            "id": "case-grafica-1",
             "relatedContextAnchors": [
               "projetos"
             ],
             "depth": "Depth is described by the implementation and source evidence.",
-            "stack": "JavaScript · React · Leaflet · Three.js · Canvas · FBX"
+            "stack": "JavaScript · React · Leaflet · Canvas"
           },
           {
             "id": "case-globalcom-1",

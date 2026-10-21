@@ -31,8 +31,7 @@ STACKS = {
     'produto-2': 'Next.js · Supabase · PostgreSQL · Stripe · Playwright · SQLite',
     'infra-1': 'Windows Server · Linux · Active Directory · Zabbix · GLPI · redes · IoT',
     'infra-2': 'Python · MetaTrader5 · Flask · SQLite · APIs locais',
-    'grafica-1': 'TypeScript · React Three Fiber · Three.js · Rapier · Zustand',
-    'grafica-2': 'JavaScript · React · Leaflet · Three.js · Canvas · FBX',
+    'grafica-1': 'JavaScript · React · Leaflet · Canvas',
 }
 
 SKILL_GROUPS = [
